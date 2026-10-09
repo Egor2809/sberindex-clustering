@@ -1,0 +1,807 @@
+{
+  "date_utc": "2026-10-09T13:22:40+00:00",
+  "rule": "Я сравниваю временной Leiden с каждой из двух базовых линий (KMeans, обучаемый заново каждый месяц, и замороженный KMeans) по трём метрикам: средний по месяцам ARI с истиной (больше лучше), доля настоящих переходов, найденных в пределах ±1 месяц (больше лучше), число ложных переключений (меньше лучше). Leiden лучше линии по метрике, если среднее по повторам генерации в его пользу и он строго лучше не меньше чем в 4 из 5 повторов. Leiden выигрывает у линии, если он лучше хотя бы по двум метрикам из трёх. Leiden выигрывает тест, если выигрывает у обеих линий; если только у одной, я пишу «частичный выигрыш»; если ни у одной, «не выигрывает». После прогона я не меняю ни это правило, ни параметры генерации, ни определения метрик.",
+  "rule_written_utc": "2026-10-09T13:18:18Z",
+  "rule_sha256": "f2a86d43f62585484c939c35b3d7f568407e9c6e0c2758155227ea42d5050f4e",
+  "generation": {
+    "n": 2000,
+    "months": 24,
+    "transition_share": 0.1,
+    "first_transition": 3,
+    "last_transition": 21,
+    "spatial_share": 0.6,
+    "centres_per_group": 3,
+    "centre_spread": 0.07,
+    "road_degree": 15,
+    "calibration_months": 12,
+    "kmeans_n_init": 10,
+    "window": 1
+  },
+  "generation_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "groups": [
+    "Продуктовые районы с маркетплейсами",
+    "Города и Москва",
+    "Продуктовые районы вне лета",
+    "Сбалансированные районы",
+    "Ставрополье и Северный Кавказ",
+    "Восток и Север",
+    "Малые районы Якутии"
+  ],
+  "group_weights": [
+    0.285609,
+    0.154253,
+    0.074351,
+    0.40905,
+    0.026388,
+    0.047594,
+    0.002754
+  ],
+  "group_shares": [
+    [
+      0.0507,
+      0.1711,
+      0.0206,
+      0.461,
+      0.0534
+    ],
+    [
+      0.0556,
+      0.1275,
+      0.0727,
+      0.3304,
+      0.0725
+    ],
+    [
+      0.0454,
+      0.1286,
+      0.0285,
+      0.4645,
+      0.0479
+    ],
+    [
+      0.0469,
+      0.1258,
+      0.0269,
+      0.4661,
+      0.0588
+    ],
+    [
+      0.0595,
+      0.1802,
+      0.036,
+      0.3665,
+      0.0707
+    ],
+    [
+      0.0395,
+      0.0817,
+      0.0362,
+      0.4457,
+      0.0542
+    ],
+    [
+      0.0301,
+      0.0538,
+      0.0414,
+      0.4594,
+      0.0422
+    ]
+  ],
+  "categories": [
+    "Здоровье",
+    "Маркетплейсы",
+    "Общественное питание",
+    "Продовольствие",
+    "Транспорт"
+  ],
+  "calibration": {
+    "shift": [
+      [
+        0.159666,
+        -0.361847,
+        0.096369,
+        0.00762,
+        0.13946
+      ],
+      [
+        0.16848,
+        -0.296876,
+        0.011995,
+        -0.000109,
+        0.06974
+      ],
+      [
+        0.139415,
+        -0.270078,
+        0.031009,
+        -0.001,
+        0.003102
+      ],
+      [
+        0.036728,
+        -0.291133,
+        -0.076118,
+        0.047767,
+        0.002505
+      ],
+      [
+        -0.031059,
+        -0.287409,
+        -0.063252,
+        0.050616,
+        0.002447
+      ],
+      [
+        -0.085684,
+        -0.273382,
+        0.037099,
+        0.062297,
+        0.026024
+      ],
+      [
+        -0.123805,
+        -0.23902,
+        0.143273,
+        0.048948,
+        0.084078
+      ],
+      [
+        -0.048027,
+        -0.186709,
+        0.141489,
+        0.014797,
+        0.099635
+      ],
+      [
+        0.038704,
+        -0.094931,
+        0.042047,
+        0.013332,
+        0.075393
+      ],
+      [
+        0.050687,
+        0.009329,
+        -0.034065,
+        -0.00427,
+        0.037469
+      ],
+      [
+        0.041068,
+        0.190866,
+        -0.10409,
+        -0.022235,
+        -0.020436
+      ],
+      [
+        -0.0685,
+        0.145772,
+        -0.250216,
+        0.023509,
+        -0.128842
+      ],
+      [
+        0.126399,
+        0.016889,
+        -0.047829,
+        0.017482,
+        0.0269
+      ],
+      [
+        0.100321,
+        0.106199,
+        -0.11042,
+        -0.002451,
+        -0.070956
+      ],
+      [
+        0.039209,
+        0.104897,
+        -0.053543,
+        -0.003124,
+        -0.108263
+      ],
+      [
+        0.007772,
+        0.102331,
+        -0.067309,
+        0.003092,
+        -0.070285
+      ],
+      [
+        -0.069024,
+        0.074487,
+        -0.015818,
+        0.030322,
+        -0.050878
+      ],
+      [
+        -0.153763,
+        0.077234,
+        0.091959,
+        0.023949,
+        -0.025867
+      ],
+      [
+        -0.136647,
+        0.093492,
+        0.176495,
+        0.014633,
+        0.040672
+      ],
+      [
+        -0.128259,
+        0.17132,
+        0.176792,
+        -0.058059,
+        0.032084
+      ],
+      [
+        0.025375,
+        0.209961,
+        0.082624,
+        -0.055298,
+        0.033785
+      ],
+      [
+        0.047335,
+        0.273414,
+        0.035964,
+        -0.071899,
+        0.00879
+      ],
+      [
+        0.004969,
+        0.358978,
+        -0.053257,
+        -0.08236,
+        -0.05165
+      ],
+      [
+        -0.141361,
+        0.366216,
+        -0.191199,
+        -0.057559,
+        -0.154907
+      ]
+    ],
+    "persistent_sd": [
+      0.114488,
+      0.135978,
+      0.461733,
+      0.090863,
+      0.160671
+    ],
+    "monthly_sd": [
+      0.060345,
+      0.070204,
+      0.137164,
+      0.027816,
+      0.065792
+    ]
+  },
+  "leiden": {
+    "resolution": 0.7,
+    "omega_relative": 0.01,
+    "seed": 1729,
+    "iterations": 4,
+    "knn_k": 15,
+    "attribute_graph_weight": 0.5
+  },
+  "kmeans": {
+    "k": 7,
+    "n_init": 10,
+    "random_state": 1729,
+    "frozen_fit_months": 12
+  },
+  "per_seed": {
+    "101": {
+      "temporal_leiden": {
+        "ari": 0.328899,
+        "ari_min": 0.251134,
+        "groups_min": 4,
+        "groups_max": 6,
+        "movers": 200,
+        "found": 98,
+        "recall": 0.49,
+        "false_switches": 7079,
+        "false_per_1000_node_months": 147.4792,
+        "stayers_with_switch": 0.538333,
+        "returns": 3693,
+        "seconds": 91.93
+      },
+      "kmeans_monthly": {
+        "ari": 0.276157,
+        "ari_min": 0.252249,
+        "groups_min": 7,
+        "groups_max": 7,
+        "movers": 200,
+        "found": 190,
+        "recall": 0.95,
+        "false_switches": 16433,
+        "false_per_1000_node_months": 342.3542,
+        "stayers_with_switch": 0.871111,
+        "returns": 8498,
+        "seconds": 0.76
+      },
+      "kmeans_frozen": {
+        "ari": 0.284862,
+        "ari_min": 0.206406,
+        "groups_min": 7,
+        "groups_max": 7,
+        "movers": 200,
+        "found": 179,
+        "recall": 0.895,
+        "false_switches": 11907,
+        "false_per_1000_node_months": 248.0625,
+        "stayers_with_switch": 0.859444,
+        "returns": 5458,
+        "seconds": 0.37
+      },
+      "truth": {
+        "transitions": 200,
+        "road_edges": 21538,
+        "leiden_omega_absolute": 0.009522168917271565
+      }
+    },
+    "102": {
+      "temporal_leiden": {
+        "ari": 0.250842,
+        "ari_min": 0.213288,
+        "groups_min": 4,
+        "groups_max": 5,
+        "movers": 200,
+        "found": 77,
+        "recall": 0.385,
+        "false_switches": 6432,
+        "false_per_1000_node_months": 134.0,
+        "stayers_with_switch": 0.562778,
+        "returns": 3339,
+        "seconds": 93.87
+      },
+      "kmeans_monthly": {
+        "ari": 0.28222,
+        "ari_min": 0.252163,
+        "groups_min": 7,
+        "groups_max": 7,
+        "movers": 200,
+        "found": 184,
+        "recall": 0.92,
+        "false_switches": 16667,
+        "false_per_1000_node_months": 347.2292,
+        "stayers_with_switch": 0.883889,
+        "returns": 8614,
+        "seconds": 0.71
+      },
+      "kmeans_frozen": {
+        "ari": 0.256932,
+        "ari_min": 0.213011,
+        "groups_min": 7,
+        "groups_max": 7,
+        "movers": 200,
+        "found": 177,
+        "recall": 0.885,
+        "false_switches": 13288,
+        "false_per_1000_node_months": 276.8333,
+        "stayers_with_switch": 0.855,
+        "returns": 6160,
+        "seconds": 0.39
+      },
+      "truth": {
+        "transitions": 200,
+        "road_edges": 22655,
+        "leiden_omega_absolute": 0.009555105547678968
+      }
+    },
+    "103": {
+      "temporal_leiden": {
+        "ari": 0.252566,
+        "ari_min": 0.155475,
+        "groups_min": 4,
+        "groups_max": 6,
+        "movers": 200,
+        "found": 89,
+        "recall": 0.445,
+        "false_switches": 8705,
+        "false_per_1000_node_months": 181.3542,
+        "stayers_with_switch": 0.863333,
+        "returns": 4146,
+        "seconds": 92.6
+      },
+      "kmeans_monthly": {
+        "ari": 0.262614,
+        "ari_min": 0.203118,
+        "groups_min": 7,
+        "groups_max": 7,
+        "movers": 200,
+        "found": 186,
+        "recall": 0.93,
+        "false_switches": 16492,
+        "false_per_1000_node_months": 343.5833,
+        "stayers_with_switch": 0.86,
+        "returns": 7479,
+        "seconds": 0.73
+      },
+      "kmeans_frozen": {
+        "ari": 0.238981,
+        "ari_min": 0.193322,
+        "groups_min": 7,
+        "groups_max": 7,
+        "movers": 200,
+        "found": 175,
+        "recall": 0.875,
+        "false_switches": 13222,
+        "false_per_1000_node_months": 275.4583,
+        "stayers_with_switch": 0.851667,
+        "returns": 6254,
+        "seconds": 0.42
+      },
+      "truth": {
+        "transitions": 200,
+        "road_edges": 23117,
+        "leiden_omega_absolute": 0.009356343156489018
+      }
+    },
+    "104": {
+      "temporal_leiden": {
+        "ari": 0.260322,
+        "ari_min": 0.218669,
+        "groups_min": 5,
+        "groups_max": 5,
+        "movers": 200,
+        "found": 66,
+        "recall": 0.33,
+        "false_switches": 5259,
+        "false_per_1000_node_months": 109.5625,
+        "stayers_with_switch": 0.353333,
+        "returns": 3031,
+        "seconds": 87.76
+      },
+      "kmeans_monthly": {
+        "ari": 0.27473,
+        "ari_min": 0.24501,
+        "groups_min": 7,
+        "groups_max": 7,
+        "movers": 200,
+        "found": 191,
+        "recall": 0.955,
+        "false_switches": 17979,
+        "false_per_1000_node_months": 374.5625,
+        "stayers_with_switch": 0.873889,
+        "returns": 8313,
+        "seconds": 0.74
+      },
+      "kmeans_frozen": {
+        "ari": 0.271118,
+        "ari_min": 0.226006,
+        "groups_min": 6,
+        "groups_max": 7,
+        "movers": 200,
+        "found": 185,
+        "recall": 0.925,
+        "false_switches": 12762,
+        "false_per_1000_node_months": 265.875,
+        "stayers_with_switch": 0.891111,
+        "returns": 5836,
+        "seconds": 0.33
+      },
+      "truth": {
+        "transitions": 200,
+        "road_edges": 19411,
+        "leiden_omega_absolute": 0.009586481465752248
+      }
+    },
+    "105": {
+      "temporal_leiden": {
+        "ari": 0.317098,
+        "ari_min": 0.237875,
+        "groups_min": 3,
+        "groups_max": 4,
+        "movers": 200,
+        "found": 114,
+        "recall": 0.57,
+        "false_switches": 7693,
+        "false_per_1000_node_months": 160.2708,
+        "stayers_with_switch": 0.558333,
+        "returns": 4302,
+        "seconds": 94.07
+      },
+      "kmeans_monthly": {
+        "ari": 0.283871,
+        "ari_min": 0.241218,
+        "groups_min": 7,
+        "groups_max": 7,
+        "movers": 200,
+        "found": 189,
+        "recall": 0.945,
+        "false_switches": 15055,
+        "false_per_1000_node_months": 313.6458,
+        "stayers_with_switch": 0.853889,
+        "returns": 8071,
+        "seconds": 0.8
+      },
+      "kmeans_frozen": {
+        "ari": 0.248006,
+        "ari_min": 0.20458,
+        "groups_min": 6,
+        "groups_max": 7,
+        "movers": 200,
+        "found": 183,
+        "recall": 0.915,
+        "false_switches": 13026,
+        "false_per_1000_node_months": 271.375,
+        "stayers_with_switch": 0.858333,
+        "returns": 6340,
+        "seconds": 0.39
+      },
+      "truth": {
+        "transitions": 200,
+        "road_edges": 27969,
+        "leiden_omega_absolute": 0.009048504951828738
+      }
+    }
+  },
+  "aggregate": {
+    "temporal_leiden": {
+      "ari": {
+        "mean": 0.2819,
+        "sd": 0.0379,
+        "min": 0.2508,
+        "max": 0.3289
+      },
+      "ari_min": {
+        "mean": 0.2153,
+        "sd": 0.0367,
+        "min": 0.1555,
+        "max": 0.2511
+      },
+      "recall": {
+        "mean": 0.444,
+        "sd": 0.0928,
+        "min": 0.33,
+        "max": 0.57
+      },
+      "false_switches": {
+        "mean": 7033.6,
+        "sd": 1298.2272,
+        "min": 5259.0,
+        "max": 8705.0
+      },
+      "false_per_1000_node_months": {
+        "mean": 146.5333,
+        "sd": 27.0464,
+        "min": 109.5625,
+        "max": 181.3542
+      },
+      "stayers_with_switch": {
+        "mean": 0.5752,
+        "sd": 0.1831,
+        "min": 0.3533,
+        "max": 0.8633
+      },
+      "returns": {
+        "mean": 3702.2,
+        "sd": 533.6728,
+        "min": 3031.0,
+        "max": 4302.0
+      },
+      "groups_min": {
+        "mean": 4.0,
+        "sd": 0.7071,
+        "min": 3.0,
+        "max": 5.0
+      },
+      "groups_max": {
+        "mean": 5.2,
+        "sd": 0.8367,
+        "min": 4.0,
+        "max": 6.0
+      },
+      "seconds": {
+        "mean": 92.046,
+        "sd": 2.5551,
+        "min": 87.76,
+        "max": 94.07
+      }
+    },
+    "kmeans_monthly": {
+      "ari": {
+        "mean": 0.2759,
+        "sd": 0.0084,
+        "min": 0.2626,
+        "max": 0.2839
+      },
+      "ari_min": {
+        "mean": 0.2388,
+        "sd": 0.0205,
+        "min": 0.2031,
+        "max": 0.2522
+      },
+      "recall": {
+        "mean": 0.94,
+        "sd": 0.0146,
+        "min": 0.92,
+        "max": 0.955
+      },
+      "false_switches": {
+        "mean": 16525.2,
+        "sd": 1037.3925,
+        "min": 15055.0,
+        "max": 17979.0
+      },
+      "false_per_1000_node_months": {
+        "mean": 344.275,
+        "sd": 21.6124,
+        "min": 313.6458,
+        "max": 374.5625
+      },
+      "stayers_with_switch": {
+        "mean": 0.8686,
+        "sd": 0.0118,
+        "min": 0.8539,
+        "max": 0.8839
+      },
+      "returns": {
+        "mean": 8195.0,
+        "sd": 449.8127,
+        "min": 7479.0,
+        "max": 8614.0
+      },
+      "groups_min": {
+        "mean": 7.0,
+        "sd": 0.0,
+        "min": 7.0,
+        "max": 7.0
+      },
+      "groups_max": {
+        "mean": 7.0,
+        "sd": 0.0,
+        "min": 7.0,
+        "max": 7.0
+      },
+      "seconds": {
+        "mean": 0.748,
+        "sd": 0.0342,
+        "min": 0.71,
+        "max": 0.8
+      }
+    },
+    "kmeans_frozen": {
+      "ari": {
+        "mean": 0.26,
+        "sd": 0.0183,
+        "min": 0.239,
+        "max": 0.2849
+      },
+      "ari_min": {
+        "mean": 0.2087,
+        "sd": 0.012,
+        "min": 0.1933,
+        "max": 0.226
+      },
+      "recall": {
+        "mean": 0.899,
+        "sd": 0.0207,
+        "min": 0.875,
+        "max": 0.925
+      },
+      "false_switches": {
+        "mean": 12841.0,
+        "sd": 560.7566,
+        "min": 11907.0,
+        "max": 13288.0
+      },
+      "false_per_1000_node_months": {
+        "mean": 267.5208,
+        "sd": 11.6824,
+        "min": 248.0625,
+        "max": 276.8333
+      },
+      "stayers_with_switch": {
+        "mean": 0.8631,
+        "sd": 0.0159,
+        "min": 0.8517,
+        "max": 0.8911
+      },
+      "returns": {
+        "mean": 6009.6,
+        "sd": 362.6001,
+        "min": 5458.0,
+        "max": 6340.0
+      },
+      "groups_min": {
+        "mean": 6.6,
+        "sd": 0.5477,
+        "min": 6.0,
+        "max": 7.0
+      },
+      "groups_max": {
+        "mean": 7.0,
+        "sd": 0.0,
+        "min": 7.0,
+        "max": 7.0
+      },
+      "seconds": {
+        "mean": 0.38,
+        "sd": 0.0332,
+        "min": 0.33,
+        "max": 0.42
+      }
+    }
+  },
+  "verdict": {
+    "kmeans_monthly": {
+      "metrics": {
+        "ari": {
+          "mean_difference": 0.006027,
+          "repeats_better": 2,
+          "needed": 4,
+          "better": false
+        },
+        "recall": {
+          "mean_difference": -0.496,
+          "repeats_better": 0,
+          "needed": 4,
+          "better": false
+        },
+        "false_switches": {
+          "mean_difference": 9491.6,
+          "repeats_better": 5,
+          "needed": 4,
+          "better": true
+        }
+      },
+      "wins": false
+    },
+    "kmeans_frozen": {
+      "metrics": {
+        "ari": {
+          "mean_difference": 0.021966,
+          "repeats_better": 3,
+          "needed": 4,
+          "better": false
+        },
+        "recall": {
+          "mean_difference": -0.455,
+          "repeats_better": 0,
+          "needed": 4,
+          "better": false
+        },
+        "false_switches": {
+          "mean_difference": 5807.4,
+          "repeats_better": 5,
+          "needed": 4,
+          "better": true
+        }
+      },
+      "wins": false
+    },
+    "result": "не выигрывает"
+  },
+  "seconds": 96.8,
+  "inputs": {
+    "data/processed/panel.csv": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+    "reports/temporal-groups/profiles.json": "f6524b3c1add1335ece1aa66068a32834ca47a2fec49d8edbfad3124efee8f06",
+    "reports/round2-2026-09-24/round2-20260924-temporal_grid/temporal_omega0.01_seed1729.json.gz": "f8dcb6194d319f4aeef83086ec91eaae5746f414b2bc1a3ed2517677d1177b62"
+  },
+  "chance": {
+    "temporal_leiden": {
+      "switch_rate": 0.1548,
+      "chance_recall": 0.3963
+    },
+    "kmeans_monthly": {
+      "switch_rate": 0.3633,
+      "chance_recall": 0.7419
+    },
+    "kmeans_frozen": {
+      "switch_rate": 0.2831,
+      "chance_recall": 0.6315
+    }
+  }
+}

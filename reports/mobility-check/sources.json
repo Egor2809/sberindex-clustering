@@ -1,0 +1,9 @@
+{
+  "dataset": "indeks-mobilnosti",
+  "api": "https://sberindex.ru/api/sowa",
+  "route": "/dataset/v1/indeks-mobilnosti",
+  "file": "artifacts/sources/mobility/indeks-mobilnosti.csv",
+  "rows": 594,
+  "sha256": "01763ed2c713d76a6eba7a0dc570beb7485aaa9ce507e7fab1c73540055ccc85",
+  "downloaded_utc": "2026-10-09T13:29:46+00:00"
+}
