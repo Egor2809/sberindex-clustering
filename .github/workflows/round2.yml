@@ -1,0 +1,67 @@
+name: Round two experiments
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: round2-${{ github.head_ref || github.ref }}
+  cancel-in-progress: false
+jobs:
+  comparisons:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      OMP_NUM_THREADS: '2'
+      OPENBLAS_NUM_THREADS: '2'
+      MKL_NUM_THREADS: '2'
+      POLARS_MAX_THREADS: '2'
+      CUDA_VISIBLE_DEVICES: '-1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: pip
+          cache-dependency-path: requirements*.txt
+      - run: |
+          python -m pip install -r requirements-models.txt
+          python -m pip install --index-url https://download.pytorch.org/whl/cpu -r requirements-dmon.txt
+      - name: Analytical checks before fitting
+        run: |
+          python -m unittest discover -s tests -p test_dmon.py -v
+          python -m unittest discover -s tests -p test_round2.py -v
+      - name: Prepare the pinned data without refitting old baselines
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends libarchive-tools
+          python scripts/download_sources.py
+          python scripts/prepare.py
+      - name: Region control and paired external comparison
+        run: |
+          python scripts/run_round2_stage.py --config configs/round2_region_control.json
+      - name: Fixed small pilots
+        run: |
+          python scripts/run_round2_stage.py --config configs/round2_dmon_pilot.json
+          python scripts/run_round2_stage.py --config configs/round2_temporal_pilot.json
+      - name: Check measured pilot cost before scaling
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for name in ['dmon_pilot','temporal_pilot']:
+              result=json.loads(Path(f'reports/round2-2026-09-24/round2-20260924-{name}/summary.json').read_text())
+              if result['status']!='completed' or result['seconds']>120:
+                  raise RuntimeError('Pilot exceeds the registered scaling budget: '+name)
+          PY
+      - name: Registered comparisons without outcome-based tuning
+        run: |
+          python scripts/run_round2_stage.py --config configs/round2_dmon.json
+          python scripts/run_round2_stage.py --config configs/round2_temporal_grid.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: round2-evidence
+          retention-days: 30
+          path: |
+            reports/round2-2026-09-24/
+            runs/round2-*/**

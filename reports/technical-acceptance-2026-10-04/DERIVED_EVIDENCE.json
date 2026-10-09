@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "scope": "Derived copies of the accepted local runner execution evidence after F01/F02 fixes",
+  "originals_retained_privately": true,
+  "numerical_computations_repeated": false,
+  "runner_sha256": "6acad9f33a318a152c5fea62b22b0161656b24b0d0ecd6843182fd6e9914b546",
+  "placeholders": {
+    "<REPOSITORY_ROOT>": "Execution checkout",
+    "<SYNTHETIC_WORKDIR>": "Deleted temporary synthetic CSV/prediction directory",
+    "<PYTHON_EXECUTABLE>": "Pinned local Python executable",
+    "<PYTHON_BASE>": "Python standard-library installation"
+  },
+  "files": [
+    {
+      "file": "reproduction.json",
+      "original_sha256": "c66dc19cd6cd1e8fb6918e26738de0fb3e2aecbdc4736c31840d49fa01977faa",
+      "original_bytes": 1114,
+      "derived_sha256": "2786538dcc0da75aeaa3a43c6dad92952350f2bc1aaae2526f5e04fb48458208",
+      "derived_bytes": 978,
+      "path_replacements": 1,
+      "derivation": "Local absolute paths replaced; all outcomes, counts, hashes and test results retained"
+    },
+    {
+      "file": "targeted-tests.log",
+      "original_sha256": "592e7c22536ed59e892aaf3c22891bc036ab413c1dba871dc096ef5bcecec148",
+      "original_bytes": 2114,
+      "derived_sha256": "592e7c22536ed59e892aaf3c22891bc036ab413c1dba871dc096ef5bcecec148",
+      "derived_bytes": 2114,
+      "path_replacements": 0,
+      "derivation": "Local absolute paths replaced; all outcomes, counts, hashes and test results retained"
+    },
+    {
+      "file": "acceptance.json",
+      "original_sha256": "c34c3f6f62ceb66ff3cb171490b8ea52f2c947d5f88529db0e04c0b021457540",
+      "original_bytes": 24040,
+      "derived_sha256": "f8f9597bc462017f131c520ba6055f5b222d99445558d718ab03576af41196cb",
+      "derived_bytes": 20090,
+      "path_replacements": 64,
+      "replaced_derived_sha256": "16eb9353e03a75ec25f4fe63225b03d9f8473f7c6fd22b0705590d4e7f4b7ad2",
+      "derivation": "Local absolute paths replaced; all outcomes, counts, hashes and test results retained"
+    },
+    {
+      "file": "integrity-only.json",
+      "original_sha256": "4362d83be786893d95f66868b4342ea3966a35728967ad81a8c65ad8ba428e96",
+      "original_bytes": 4348,
+      "derived_sha256": "034862717aca6d915011460bcda2e7692f57e1e1f06a32f784da1187429ce9e4",
+      "derived_bytes": 4193,
+      "path_replacements": 1,
+      "replaced_derived_sha256": "034862717aca6d915011460bcda2e7692f57e1e1f06a32f784da1187429ce9e4",
+      "derivation": "Local absolute paths replaced; all outcomes, counts, hashes and test results retained"
+    }
+  ]
+}

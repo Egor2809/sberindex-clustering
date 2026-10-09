@@ -1,0 +1,33 @@
+{
+  "scope": "already_explored2024_historical_sensitivity_not_holdout",
+  "cohort": "2016_retrospectively_complete2023_2024_entities;boundaries_unverified",
+  "baseline_models": [
+    "historical_kmeans4",
+    "sw_constrained_huber75",
+    "sw_constrained_ordinary"
+  ],
+  "new_arms": [
+    {
+      "id": "calendar_only",
+      "reliability": 0.0
+    },
+    {
+      "id": "calendar_reliability_half",
+      "reliability": 0.5
+    },
+    {
+      "id": "calendar_reliability_full",
+      "reliability": 1.0
+    }
+  ],
+  "fit": "2023_only_scaler_calendar_offsets_within_covariance_kmeans4_seed1729_ninit20",
+  "covariance_shrinkage": 0.2,
+  "no_label_balance_penalty": true,
+  "criteria_before_effects": {
+    "deployment": "artifact_roundtrip_exact;future_fit_mutation_invariant;entity_batch_order_invariant",
+    "joint_candidate_screen": "2023_common_SW>=baseline-.005;CH>=.90baseline;2024_common_SW>=baseline-.005;CH>=.90baseline;min_yearly_fraction>=.03;ARI>=baseline",
+    "stress": "frozen_fullrank_transform_retains_global_and_local_shift;relative_context_can_remove_shared_shift_but_must_report_it",
+    "promotion": "none_automatically;all_candidates_reported;no_new_2024_adaptive_grid"
+  },
+  "stop": "exactly_three_new_fits;descriptive_context_not_fit;no_grid_after_outcomes"
+}

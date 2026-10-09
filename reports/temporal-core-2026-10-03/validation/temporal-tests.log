@@ -1,0 +1,16 @@
+test_calendar_control_removes_only_saved_seasonality (test_temporal_profiles.TemporalProfiles) ... ok
+test_cli_uses_one_exact_read_for_provenance (test_temporal_profiles.TemporalProfiles) ... ok
+test_complete_year_batch_and_order_invariance (test_temporal_profiles.TemporalProfiles) ... ok
+test_future_values_cannot_change_fitted_artifact (test_temporal_profiles.TemporalProfiles) ... ok
+test_invalid_training_source_identity_rejected_before_fit (test_temporal_profiles.TemporalProfiles) ... ok
+test_metric_precision_amplifies_less_temporally_noisy_axis (test_temporal_profiles.TemporalProfiles) ... ok
+test_missing_month_duplicate_and_partial_calibration_are_rejected (test_temporal_profiles.TemporalProfiles) ... ok
+test_model_metadata_and_hash_guards (test_temporal_profiles.TemporalProfiles) ... ok
+test_new_entity_is_flagged_and_source_key_mismatch_rejected (test_temporal_profiles.TemporalProfiles) ... ok
+test_preaggregation_calendar_transform_does_not_commute_with_median (test_temporal_profiles.TemporalProfiles) ... ok
+test_relative_context_reports_a_shift_it_removes (test_temporal_profiles.TemporalProfiles) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.201s
+
+OK

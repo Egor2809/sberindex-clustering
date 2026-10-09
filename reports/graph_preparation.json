@@ -1,0 +1,353 @@
+{
+  "graphs": [
+    {
+      "period": "2023-01-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.18633143424952855,
+      "edges": 20592,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.944298179174226
+    },
+    {
+      "period": "2023-02-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.18428079531221928,
+      "edges": 20555,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.822351224531847
+    },
+    {
+      "period": "2023-03-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.18564900743776633,
+      "edges": 20527,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.928319135229017
+    },
+    {
+      "period": "2023-04-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.19907391177445954,
+      "edges": 20469,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 11.066151943890466
+    },
+    {
+      "period": "2023-05-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.2023066677024743,
+      "edges": 20574,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.863337774124838
+    },
+    {
+      "period": "2023-06-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.20060755766226784,
+      "edges": 20610,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.927567369978085
+    },
+    {
+      "period": "2023-07-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.19404988589793964,
+      "edges": 20563,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.896332102581397
+    },
+    {
+      "period": "2023-08-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.19591260284636025,
+      "edges": 20546,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.925518659921963
+    },
+    {
+      "period": "2023-09-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.1963759842699579,
+      "edges": 20566,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.93892537668414
+    },
+    {
+      "period": "2023-10-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.19864586513758892,
+      "edges": 20427,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 11.039780357455804
+    },
+    {
+      "period": "2023-11-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.19303412934963884,
+      "edges": 20534,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.90315450320745
+    },
+    {
+      "period": "2023-12-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.1986176241514097,
+      "edges": 20532,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.968699311974001
+    },
+    {
+      "period": "2024-01-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.19690586704619747,
+      "edges": 20609,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.85907144342178
+    },
+    {
+      "period": "2024-02-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.1936962408465849,
+      "edges": 20647,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.989988554399673
+    },
+    {
+      "period": "2024-03-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.19044591608880637,
+      "edges": 20499,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.97858267208694
+    },
+    {
+      "period": "2024-04-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.1857840996706798,
+      "edges": 20669,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 11.09733149981771
+    },
+    {
+      "period": "2024-05-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.18517182960910414,
+      "edges": 20620,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.976861824413263
+    },
+    {
+      "period": "2024-06-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.18387670264280323,
+      "edges": 20534,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 11.085223442386773
+    },
+    {
+      "period": "2024-07-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.1790603954360253,
+      "edges": 20523,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.970100381989088
+    },
+    {
+      "period": "2024-08-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.175534641837738,
+      "edges": 20554,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.928211924526627
+    },
+    {
+      "period": "2024-09-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.1767522555500694,
+      "edges": 20546,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.85514086211056
+    },
+    {
+      "period": "2024-10-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.17778311446455683,
+      "edges": 20439,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.86365616259632
+    },
+    {
+      "period": "2024-11-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.1790218701715285,
+      "edges": 20511,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.91264578568832
+    },
+    {
+      "period": "2024-12-01",
+      "nodes": 2016,
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.17988149469278417,
+      "edges": 20523,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.89601096271299
+    }
+  ],
+  "scaler": {
+    "level_center": 10.056787870678566,
+    "level_iqr": 0.4561850995415071,
+    "ratio_center": [
+      -2.9956744346122948,
+      -2.179543987949999,
+      -3.661429048766565,
+      -0.7820032486889154,
+      -2.8273688977704112
+    ],
+    "ratio_iqr": [
+      0.27186403557919503,
+      0.4493995136747726,
+      1.0650995060325594,
+      0.20212500174021586,
+      0.3371095191761597
+    ],
+    "mode": "log_ratios_to_total",
+    "calibration_end": "2023-12-01",
+    "level_weight": 0.0
+  },
+  "seconds": 5.579469000000245,
+  "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+  "config": {
+    "schema_version": 1,
+    "input_glob": "data/raw/*.csv",
+    "seed": 1729,
+    "execution": {
+      "allow_clustering": false,
+      "threads": 2
+    },
+    "data_contract": {
+      "identity_mode": "source_territory_id",
+      "stable_territories_verified": false,
+      "measurement_definition_verified": true,
+      "common_denominator_verified": false,
+      "categories_disjoint_verified": false,
+      "evidence": [
+        "reports/source_alignment.json",
+        "docs/DATA_SOURCES.md"
+      ]
+    },
+    "features": {
+      "mode": "log_ratios_to_total",
+      "level_weight": 0.0,
+      "calibration_end": "2023-12-01",
+      "seasonality": "same_month_cross_section"
+    },
+    "graph": {
+      "k": 15,
+      "symmetry": "union",
+      "bandwidth": "median_knn_distance"
+    },
+    "clustering": {
+      "methods": [
+        "kmeans",
+        "ward",
+        "leiden_static"
+      ],
+      "n_clusters": 8,
+      "resolution": 1.0,
+      "temporal_coupling_relative": 0.1,
+      "leiden_iterations": 4
+    },
+    "validation": {
+      "development_end": "2023-12-01",
+      "confirmation_start": "2024-01-01",
+      "confirmation_end": "2024-12-01",
+      "mq_definition": null,
+      "strict_network_undefined": true
+    },
+    "run_periods": [
+      "2023-12-01"
+    ]
+  },
+  "source_hashes": {
+    "scripts\\prepare_graphs.py": "21c82551f372f5e6ab29515037e77199b4513b0f1a1c81af8940ab295d3dd270",
+    "sbercluster\\features.py": "e22aad131f816027d8a41aa7cff5fcedc54c0f0489a56d092a95df7170dc139b",
+    "sbercluster\\graph.py": "9475d10e4927a8094a1558f262da788a44b8d6c02686637bf443785d1010532f"
+  },
+  "clustering_executed": false,
+  "economic_types_found": false,
+  "scope": "all observed months; model-only run_periods selection does not restrict graph preparation",
+  "status": "deterministic similarity graphs; no partition optimisation",
+  "boundary_scope": "source-defined IDs; transitions require additional review"
+}

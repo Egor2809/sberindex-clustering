@@ -1,0 +1,22 @@
+[
+  {
+    "representation": "annual_2023",
+    "reference": {
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.18752701242227154,
+      "edges": 20479,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.967129328989014
+    },
+    "local": {
+      "kernel": "exp(-d2/(sigma_i*sigma_j))",
+      "scale_neighbor": 7,
+      "k": 15,
+      "components": 1,
+      "edges": 20479,
+      "isolates": 0
+    }
+  }
+]

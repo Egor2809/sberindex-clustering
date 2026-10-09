@@ -1,0 +1,526 @@
+{
+  "results": [
+    {
+      "id": "kmeans_k2",
+      "subset": "all",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.028111827950861815,
+      "ci95": [
+        0.007138512234098482,
+        0.06216052902729374
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": 0.0,
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k2",
+      "subset": "all",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.012303271831919751,
+      "ci95": [
+        0.0006605066653095349,
+        0.03470996540312253
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": -0.015808556118942066,
+      "delta_ci95": [
+        -0.04312743651633314,
+        0.0016506712087689054
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "dmon_k2_seed1729",
+      "subset": "all",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.005084288282270118,
+      "ci95": [
+        6.437348053609548e-05,
+        0.015772904340303723
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": -0.023027539668591696,
+      "delta_ci95": [
+        -0.05743365413278937,
+        -0.0006719205731241238
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "dmon_k2_seed2718",
+      "subset": "all",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.008128917478878148,
+      "ci95": [
+        0.00036749964706090667,
+        0.02368929673810097
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": -0.019982910471983667,
+      "delta_ci95": [
+        -0.0539576722198995,
+        0.002393471569732699
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "dmon_k2_seed3141",
+      "subset": "all",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.008783367625832983,
+      "ci95": [
+        0.0004747568772472546,
+        0.024543019313863382
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": -0.019328460325028832,
+      "delta_ci95": [
+        -0.05344879432686451,
+        0.0026130892022235767
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "kmeans_k4",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.03236766910091866,
+      "ci95": [
+        0.014772459097283142,
+        0.067225616140658
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": 0.0,
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k4",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.03841515514844252,
+      "ci95": [
+        0.016609843270682753,
+        0.08570059960213505
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": 0.0060474860475238645,
+      "delta_ci95": [
+        -0.0210941992524035,
+        0.036943214140276445
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "dmon_k4_seed1729",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.014087825741038167,
+      "ci95": [
+        0.004716544255674147,
+        0.0331683108149036
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": -0.01827984335988049,
+      "delta_ci95": [
+        -0.050859781357404064,
+        0.009233691089898388
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "dmon_k4_seed2718",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.007290948572200629,
+      "ci95": [
+        0.0018471315244904026,
+        0.026785301261423863
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": -0.025076720528718028,
+      "delta_ci95": [
+        -0.06042999115921373,
+        0.006305409911986311
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "dmon_k4_seed3141",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.006941706865116714,
+      "ci95": [
+        0.0019294909943666878,
+        0.028037962708992753
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": -0.025425962235801944,
+      "delta_ci95": [
+        -0.05479347185691716,
+        -0.0020330297418012684
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "kmeans_k2",
+      "subset": "without_intracity",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.030547473018379057,
+      "ci95": [
+        0.008191748637414802,
+        0.06802559134979663
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": 0.0,
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k2",
+      "subset": "without_intracity",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.014152469595700058,
+      "ci95": [
+        0.0010575014946044806,
+        0.0368919650679591
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": -0.016395003422679,
+      "delta_ci95": [
+        -0.044154493699117496,
+        9.199811864017274e-05
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "dmon_k2_seed1729",
+      "subset": "without_intracity",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.0058489744284224,
+      "ci95": [
+        0.0001286822902357016,
+        0.017658036469823744
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": -0.02469849858995666,
+      "delta_ci95": [
+        -0.06450435230270372,
+        -0.0003547155845428983
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "dmon_k2_seed2718",
+      "subset": "without_intracity",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.009269309559270977,
+      "ci95": [
+        0.00043341189870833055,
+        0.02576392776891306
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": -0.02127816345910808,
+      "delta_ci95": [
+        -0.06080958136653509,
+        0.004068762313351172
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "dmon_k2_seed3141",
+      "subset": "without_intracity",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.010003864596817073,
+      "ci95": [
+        0.0006165045739073279,
+        0.02682629652892468
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": -0.020543608421561985,
+      "delta_ci95": [
+        -0.06054205976533311,
+        0.004966621707770557
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "kmeans_k4",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.031719919148543066,
+      "ci95": [
+        0.012449213515533714,
+        0.06218871617349059
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": 0.0,
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k4",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.04378785236763763,
+      "ci95": [
+        0.02156524024364108,
+        0.09126562438752522
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": 0.012067933219094565,
+      "delta_ci95": [
+        -0.013333464663354567,
+        0.04733593414854649
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "dmon_k4_seed1729",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.01579040823311319,
+      "ci95": [
+        0.006123749648951506,
+        0.0365429934466498
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": -0.015929510915429875,
+      "delta_ci95": [
+        -0.041934462638104415,
+        0.012968369273361717
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "dmon_k4_seed2718",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.0083522237405059,
+      "ci95": [
+        0.0020481667810513583,
+        0.028085057843656225
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": -0.023367695408037167,
+      "delta_ci95": [
+        -0.054672602783763756,
+        0.008750641360654194
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "dmon_k4_seed3141",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.007547761121076065,
+      "ci95": [
+        0.0016446778816110047,
+        0.029214900741209856
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": -0.024172158027467,
+      "delta_ci95": [
+        -0.04881666701746565,
+        -0.003428155937106496
+      ],
+      "valid_paired_bootstrap_draws": 500
+    }
+  ],
+  "bridge_sha256": "3898c2201a871cbcc1fca4b5c1f09a7be5ed68583b12338e8bf55cc91e9b5bc5",
+  "scope": "Exploratory association on already-inspected market access; paired regional bootstrap conditional on fixed labels; not a significance test or causal effect. Requested K fixes the baseline even if a fit occupies fewer clusters. Undefined draws are excluded on a common paired mask for differences. Market accessibility and roads share infrastructural content, so independence of measurement is limited."
+}

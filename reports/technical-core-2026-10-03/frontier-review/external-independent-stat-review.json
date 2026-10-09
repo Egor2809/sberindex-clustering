@@ -1,0 +1,85 @@
+{
+  "status": "pass",
+  "scope": "independent OOF score/pairedbootstrap and QR OLS projection audit; no clustering fit",
+  "OOF_saved_rows": 13893,
+  "cohorts": [
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1797,
+      "regions": 72
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1797,
+      "regions": 72
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "n": 970,
+      "regions": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "n": 1043,
+      "regions": 70
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1594,
+      "regions": 72
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1680,
+      "regions": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1680,
+      "regions": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "n": 879,
+      "regions": 66
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "n": 951,
+      "regions": 66
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1502,
+      "regions": 68
+    }
+  ],
+  "scalar_error_metrics_max_error": 5.551115123125783e-17,
+  "paired_1999_equal_region_bootstrap_max_error": 4.830120678422922e-17,
+  "partial_r2_original_QR_OLS_max_error": 2.7755575615628914e-16,
+  "all_salary_leave_region_out_predictions_vs_QR_max_error": 2.984279490192421e-13,
+  "salary_leave_region_out_training": "for every held region and all7designs, onlyotherregionY; means/scales fittrainalone",
+  "random_label_p_scope": "Exploratory random-label null, not valid general conditional permutation p-value for correlated continuous nuisance controls; Holm does not repair this assumption.",
+  "statistical_limits": "Descriptive retrospective estimates; transductive unsupervised expenses; no causal/economic-production-type proof.",
+  "input_sha256": {
+    "results.json": "0dd1bfb99cf2dceefbdf2f619fa1d789c2d1aeafc3b95974e456d960a3919ad7",
+    "blocked-predictions.csv": "12ccf0291597eaa4f5ee5623b6cdc92d0a5640f3616145a225cdadf77a6353f4",
+    "frozen-labels.json": "195e2fdf748e7dae8d3dcafb7515ec70b56896f5ac252e8cd5a355deaa771a70",
+    "consumer-features.npy": "db16fc485169b4a29e9217d6340d36991b2582b323a3c63889f587f428dd9abc",
+    "cohort-2023.csv": "dcfcf2ac0af503d696f9492bc8c1bc4e38977cc2bd1b6c12da66463f761d9c62",
+    "cohort-2024.csv": "0c26468eb64f2ed21d16d71faef998f9cdb3a9e69960a7c016737d402b262a07"
+  },
+  "source_sha256": {
+    "scripts/validate_external_national.py": "4816a08d13941e81360fba2311be68b5fc2026449e56afb88017789a479906dd"
+  }
+}

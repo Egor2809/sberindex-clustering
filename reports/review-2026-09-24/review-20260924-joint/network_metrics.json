@@ -1,0 +1,189 @@
+[
+  {
+    "id": "joint_alpha0_k2",
+    "attribute": {
+      "AVI": 0.9429769205426377,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.7155248442648668,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  },
+  {
+    "id": "joint_road_k2",
+    "attribute": {
+      "AVI": 0.9408108699984853,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.7780707068737571,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  },
+  {
+    "id": "joint_alpha0_k3",
+    "attribute": {
+      "AVI": 0.9033871145325714,
+      "AVU": 0.6666666666666666,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.6491735821774851,
+      "AVU": 0.6666666666666666,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  },
+  {
+    "id": "joint_road_k3",
+    "attribute": {
+      "AVI": 0.8686959955875366,
+      "AVU": 0.6666666666666666,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.7477770190598138,
+      "AVU": 0.6666666666666666,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  },
+  {
+    "id": "joint_alpha0_k4",
+    "attribute": {
+      "AVI": 0.8847187493492511,
+      "AVU": 0.5296353331236692,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.599094049126463,
+      "AVU": 0.5294413574982377,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  },
+  {
+    "id": "joint_road_k4",
+    "attribute": {
+      "AVI": 0.850950947801062,
+      "AVU": 0.5115895776835194,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.6925953448785689,
+      "AVU": 0.5301251383960245,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  },
+  {
+    "id": "joint_road_sensitivity_k4",
+    "attribute": {
+      "AVI": 0.7619319400341418,
+      "AVU": 0.512811998981162,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.8367283625357005,
+      "AVU": 0.5383352809626087,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  },
+  {
+    "id": "joint_region_shuffled_1730",
+    "attribute": {
+      "AVI": 0.8557987244380886,
+      "AVU": 0.5182415050883248,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.6692336983681769,
+      "AVU": 0.5310395561301069,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  },
+  {
+    "id": "joint_region_shuffled_1731",
+    "attribute": {
+      "AVI": 0.8449087291034928,
+      "AVU": 0.5132646884616143,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.6699716539440661,
+      "AVU": 0.5327159535048988,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  },
+  {
+    "id": "joint_region_shuffled_1732",
+    "attribute": {
+      "AVI": 0.8510000515615894,
+      "AVU": 0.511250224530983,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.6563414922190609,
+      "AVU": 0.535117271460238,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  },
+  {
+    "id": "spectral_transport_k4",
+    "attribute": {
+      "AVI": 0.4459186326270855,
+      "AVU": 0.535715392752461,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.5580075484616913,
+      "AVU": 0.6686994392761405,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  }
+]

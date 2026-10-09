@@ -1,0 +1,13 @@
+outcome,predictor,observed_n,observed_regions,observed_municipality_rmse,observed_equal_region_mse,eligible_n,eligible_regions
+manufacturing_headcount_share,controls,970,71,0.12983864289906888,0.016202753643530993,1797,72
+manufacturing_headcount_share,continuous5,970,71,0.12132706302305611,0.013980335260006234,1797,72
+manufacturing_headcount_share,kmeans4,970,71,0.12889832811161173,0.015859723737496986,1797,72
+manufacturing_headcount_share,huber75,970,71,0.12717146202047033,0.015191363075816956,1797,72
+agriculture_headcount_share,controls,1043,70,0.09247599026199584,0.007926645209460337,1797,72
+agriculture_headcount_share,continuous5,1043,70,0.09398065506500615,0.007857164474059156,1797,72
+agriculture_headcount_share,kmeans4,1043,70,0.0925266981350675,0.00791988254015622,1797,72
+agriculture_headcount_share,huber75,1043,70,0.0919886627130394,0.007816958659240503,1797,72
+public_administration_education_health_headcount_share,controls,1594,72,0.13835908799931204,0.020738554743813222,1797,72
+public_administration_education_health_headcount_share,continuous5,1594,72,0.12642007056376617,0.016206888486977863,1797,72
+public_administration_education_health_headcount_share,kmeans4,1594,72,0.1359533520089509,0.019678043958764806,1797,72
+public_administration_education_health_headcount_share,huber75,1594,72,0.13507145225776407,0.019495562705578656,1797,72

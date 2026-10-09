@@ -1,0 +1,3938 @@
+[
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-01-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        954,
+        485,
+        453,
+        124
+      ],
+      "min_cluster_size": 124,
+      "SW": 0.1949088307294613,
+      "CH": 530.1642089624046
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-01-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        731,
+        879,
+        296,
+        110
+      ],
+      "min_cluster_size": 110,
+      "SW": 0.20752422163974668,
+      "CH": 541.6224287145089
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-01-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        705,
+        884,
+        325,
+        102
+      ],
+      "min_cluster_size": 102,
+      "SW": 0.21056412988824047,
+      "CH": 547.1806182002751
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-01-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        106,
+        755,
+        310,
+        845
+      ],
+      "min_cluster_size": 106,
+      "SW": 0.202973964580903,
+      "CH": 538.7362948447776
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-01-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        707,
+        371,
+        839,
+        99
+      ],
+      "min_cluster_size": 99,
+      "SW": 0.20818064350532425,
+      "CH": 536.3032100189866
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-01-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        691,
+        843,
+        100,
+        382
+      ],
+      "min_cluster_size": 100,
+      "SW": 0.205834124045817,
+      "CH": 526.8458247223821
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-02-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        819,
+        653,
+        425,
+        119
+      ],
+      "min_cluster_size": 119,
+      "SW": 0.2032717469080815,
+      "CH": 595.0778013396842
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-02-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        540,
+        1069,
+        298,
+        109
+      ],
+      "min_cluster_size": 109,
+      "SW": 0.2215600311396185,
+      "CH": 586.1725651014251
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-02-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        515,
+        1075,
+        320,
+        106
+      ],
+      "min_cluster_size": 106,
+      "SW": 0.22112936281662418,
+      "CH": 588.1992176623659
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-02-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        113,
+        738,
+        311,
+        854
+      ],
+      "min_cluster_size": 113,
+      "SW": 0.21055467882587683,
+      "CH": 594.2737082109635
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-02-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        701,
+        365,
+        846,
+        104
+      ],
+      "min_cluster_size": 104,
+      "SW": 0.21369241520220336,
+      "CH": 595.2904638341837
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-02-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        670,
+        866,
+        105,
+        375
+      ],
+      "min_cluster_size": 105,
+      "SW": 0.2107699320667219,
+      "CH": 581.4602251650288
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-03-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        707,
+        765,
+        406,
+        138
+      ],
+      "min_cluster_size": 138,
+      "SW": 0.21227545764414238,
+      "CH": 674.7947520818473
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-03-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        453,
+        1130,
+        305,
+        128
+      ],
+      "min_cluster_size": 128,
+      "SW": 0.23788013368088334,
+      "CH": 656.5370846661577
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-03-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        440,
+        1132,
+        319,
+        125
+      ],
+      "min_cluster_size": 125,
+      "SW": 0.23552554486158603,
+      "CH": 657.1806651013317
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-03-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        131,
+        705,
+        327,
+        853
+      ],
+      "min_cluster_size": 131,
+      "SW": 0.21977758301004635,
+      "CH": 674.4280240841789
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-03-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        697,
+        388,
+        816,
+        115
+      ],
+      "min_cluster_size": 115,
+      "SW": 0.22411736608065622,
+      "CH": 677.8531244622502
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-03-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        675,
+        831,
+        118,
+        392
+      ],
+      "min_cluster_size": 118,
+      "SW": 0.21901401796035092,
+      "CH": 660.7748455189458
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-04-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        578,
+        909,
+        364,
+        165
+      ],
+      "min_cluster_size": 165,
+      "SW": 0.23275173259861495,
+      "CH": 763.7026097957092
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-04-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        426,
+        1162,
+        273,
+        155
+      ],
+      "min_cluster_size": 155,
+      "SW": 0.2533331723645736,
+      "CH": 727.8915460240985
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-04-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        397,
+        1174,
+        289,
+        156
+      ],
+      "min_cluster_size": 156,
+      "SW": 0.25026169041644863,
+      "CH": 724.7261973220512
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-04-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        118,
+        644,
+        388,
+        866
+      ],
+      "min_cluster_size": 118,
+      "SW": 0.2341259369097459,
+      "CH": 773.7669849744498
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-04-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        720,
+        446,
+        743,
+        107
+      ],
+      "min_cluster_size": 107,
+      "SW": 0.2299021826129516,
+      "CH": 755.1569188669521
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-04-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        672,
+        780,
+        107,
+        457
+      ],
+      "min_cluster_size": 107,
+      "SW": 0.22555777317618622,
+      "CH": 734.7978650173853
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-05-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        584,
+        910,
+        346,
+        176
+      ],
+      "min_cluster_size": 176,
+      "SW": 0.2352788053295424,
+      "CH": 747.7744691697208
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-05-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        431,
+        1138,
+        266,
+        181
+      ],
+      "min_cluster_size": 181,
+      "SW": 0.2462058966184559,
+      "CH": 705.1388852730096
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-05-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        412,
+        1155,
+        276,
+        173
+      ],
+      "min_cluster_size": 173,
+      "SW": 0.24331492155541043,
+      "CH": 703.9955822791752
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-05-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        115,
+        623,
+        399,
+        879
+      ],
+      "min_cluster_size": 115,
+      "SW": 0.23622532968931131,
+      "CH": 765.4717181035008
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-05-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        730,
+        455,
+        723,
+        108
+      ],
+      "min_cluster_size": 108,
+      "SW": 0.236504140517142,
+      "CH": 754.6532690762497
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-05-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        696,
+        745,
+        108,
+        467
+      ],
+      "min_cluster_size": 108,
+      "SW": 0.2271750968509108,
+      "CH": 726.0626278722826
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-06-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        613,
+        873,
+        346,
+        184
+      ],
+      "min_cluster_size": 184,
+      "SW": 0.2403598301596289,
+      "CH": 767.0917044067526
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-06-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        472,
+        1095,
+        264,
+        185
+      ],
+      "min_cluster_size": 185,
+      "SW": 0.2530591251899686,
+      "CH": 728.0821067052085
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-06-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        448,
+        1120,
+        275,
+        173
+      ],
+      "min_cluster_size": 173,
+      "SW": 0.25291195723106846,
+      "CH": 729.1620902230084
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-06-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        107,
+        631,
+        413,
+        865
+      ],
+      "min_cluster_size": 107,
+      "SW": 0.2401829729732903,
+      "CH": 784.8479164955173
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-06-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        736,
+        461,
+        720,
+        99
+      ],
+      "min_cluster_size": 99,
+      "SW": 0.23571814534471042,
+      "CH": 765.9519467649499
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-06-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        704,
+        734,
+        99,
+        479
+      ],
+      "min_cluster_size": 99,
+      "SW": 0.22350390897764771,
+      "CH": 729.2692937392502
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-07-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        694,
+        806,
+        363,
+        153
+      ],
+      "min_cluster_size": 153,
+      "SW": 0.24078952987015273,
+      "CH": 771.5466651680741
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-07-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        549,
+        1039,
+        266,
+        162
+      ],
+      "min_cluster_size": 162,
+      "SW": 0.25362477614160167,
+      "CH": 735.6224949853348
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-07-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        513,
+        1084,
+        276,
+        143
+      ],
+      "min_cluster_size": 143,
+      "SW": 0.2560635829809412,
+      "CH": 736.0351484336475
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-07-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        103,
+        617,
+        412,
+        884
+      ],
+      "min_cluster_size": 103,
+      "SW": 0.24309010634889885,
+      "CH": 779.436626781725
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-07-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        748,
+        464,
+        709,
+        95
+      ],
+      "min_cluster_size": 95,
+      "SW": 0.23259939517030748,
+      "CH": 753.2972073135405
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-07-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        703,
+        743,
+        93,
+        477
+      ],
+      "min_cluster_size": 93,
+      "SW": 0.22188065985092303,
+      "CH": 718.402252495469
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-08-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        719,
+        744,
+        431,
+        122
+      ],
+      "min_cluster_size": 122,
+      "SW": 0.23641894434472213,
+      "CH": 757.436057690615
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-08-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        552,
+        1028,
+        315,
+        121
+      ],
+      "min_cluster_size": 121,
+      "SW": 0.25223544503429085,
+      "CH": 740.135840600862
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-08-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        520,
+        1056,
+        328,
+        112
+      ],
+      "min_cluster_size": 112,
+      "SW": 0.2540421302368256,
+      "CH": 736.8725272291663
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-08-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        108,
+        615,
+        409,
+        884
+      ],
+      "min_cluster_size": 108,
+      "SW": 0.24044704535538033,
+      "CH": 759.2772519582078
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-08-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        756,
+        461,
+        703,
+        96
+      ],
+      "min_cluster_size": 96,
+      "SW": 0.23424754518524862,
+      "CH": 739.7050908926116
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-08-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        701,
+        740,
+        98,
+        477
+      ],
+      "min_cluster_size": 98,
+      "SW": 0.22113533052054749,
+      "CH": 703.5326079980541
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-09-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        606,
+        872,
+        442,
+        96
+      ],
+      "min_cluster_size": 96,
+      "SW": 0.23686925660920644,
+      "CH": 764.4715297473838
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-09-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        439,
+        1152,
+        334,
+        91
+      ],
+      "min_cluster_size": 91,
+      "SW": 0.2541175536903981,
+      "CH": 728.3242845959554
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-09-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        400,
+        1177,
+        349,
+        90
+      ],
+      "min_cluster_size": 90,
+      "SW": 0.2533023698025888,
+      "CH": 722.0476663038288
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-09-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        120,
+        624,
+        403,
+        869
+      ],
+      "min_cluster_size": 120,
+      "SW": 0.23887301822997326,
+      "CH": 771.4441098565329
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-09-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        745,
+        460,
+        706,
+        105
+      ],
+      "min_cluster_size": 105,
+      "SW": 0.23087596480346784,
+      "CH": 743.9980319960134
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-09-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        693,
+        746,
+        104,
+        473
+      ],
+      "min_cluster_size": 104,
+      "SW": 0.22022380430445437,
+      "CH": 713.8349899345544
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-10-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        494,
+        1002,
+        449,
+        71
+      ],
+      "min_cluster_size": 71,
+      "SW": 0.2389738475873465,
+      "CH": 741.3598143720272
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-10-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        372,
+        1225,
+        353,
+        66
+      ],
+      "min_cluster_size": 66,
+      "SW": 0.2542075195475173,
+      "CH": 699.3215717821228
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-10-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        296,
+        1270,
+        386,
+        64
+      ],
+      "min_cluster_size": 64,
+      "SW": 0.24852521289687196,
+      "CH": 678.9177816738883
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-10-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        107,
+        607,
+        417,
+        885
+      ],
+      "min_cluster_size": 107,
+      "SW": 0.24019518512360424,
+      "CH": 767.0326241505308
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-10-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        743,
+        468,
+        708,
+        97
+      ],
+      "min_cluster_size": 97,
+      "SW": 0.2342239398168318,
+      "CH": 740.0964253781581
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-10-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        701,
+        738,
+        96,
+        481
+      ],
+      "min_cluster_size": 96,
+      "SW": 0.22455475546582104,
+      "CH": 712.2755897729168
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-11-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        352,
+        1176,
+        442,
+        46
+      ],
+      "min_cluster_size": 46,
+      "SW": 0.244235156238831,
+      "CH": 689.1888237028425
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-11-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        232,
+        1369,
+        370,
+        45
+      ],
+      "min_cluster_size": 45,
+      "SW": 0.256325383630858,
+      "CH": 628.2050981208577
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-11-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        184,
+        1401,
+        388,
+        43
+      ],
+      "min_cluster_size": 43,
+      "SW": 0.25660940587694814,
+      "CH": 603.7011806401589
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-11-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        96,
+        611,
+        414,
+        895
+      ],
+      "min_cluster_size": 96,
+      "SW": 0.24521738917425756,
+      "CH": 767.1789960149035
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-11-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        752,
+        471,
+        713,
+        80
+      ],
+      "min_cluster_size": 80,
+      "SW": 0.23603387486336078,
+      "CH": 729.1474392695387
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-11-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        694,
+        765,
+        78,
+        479
+      ],
+      "min_cluster_size": 78,
+      "SW": 0.22547757106565708,
+      "CH": 693.5607174226856
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-12-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        330,
+        1299,
+        317,
+        70
+      ],
+      "min_cluster_size": 70,
+      "SW": 0.2533799054285563,
+      "CH": 692.5865388806798
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-12-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        225,
+        1464,
+        258,
+        69
+      ],
+      "min_cluster_size": 69,
+      "SW": 0.25245543552195804,
+      "CH": 589.9192292424374
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-12-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        189,
+        1495,
+        265,
+        67
+      ],
+      "min_cluster_size": 67,
+      "SW": 0.2481193405763044,
+      "CH": 564.0075456014397
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-12-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        90,
+        615,
+        408,
+        903
+      ],
+      "min_cluster_size": 90,
+      "SW": 0.25138465023810613,
+      "CH": 789.9508083147222
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-12-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        753,
+        456,
+        720,
+        87
+      ],
+      "min_cluster_size": 87,
+      "SW": 0.24657628364485806,
+      "CH": 770.1158142172499
+    }
+  },
+  {
+    "year": 2023,
+    "span": "month",
+    "months": [
+      "2023-12-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        708,
+        756,
+        88,
+        464
+      ],
+      "min_cluster_size": 88,
+      "SW": 0.23539709848527843,
+      "CH": 737.6270767989987
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-01-01",
+      "2023-02-01",
+      "2023-03-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        824,
+        647,
+        420,
+        125
+      ],
+      "min_cluster_size": 125,
+      "SW": 0.206632646877491,
+      "CH": 612.7408593998796
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-01-01",
+      "2023-02-01",
+      "2023-03-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        547,
+        1056,
+        296,
+        117
+      ],
+      "min_cluster_size": 117,
+      "SW": 0.2278411905974618,
+      "CH": 606.3634084632376
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-01-01",
+      "2023-02-01",
+      "2023-03-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        521,
+        1065,
+        320,
+        110
+      ],
+      "min_cluster_size": 110,
+      "SW": 0.2267767304040433,
+      "CH": 608.1474313345417
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-01-01",
+      "2023-02-01",
+      "2023-03-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        119,
+        737,
+        316,
+        844
+      ],
+      "min_cluster_size": 119,
+      "SW": 0.21325509287294667,
+      "CH": 611.7180254838473
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-01-01",
+      "2023-02-01",
+      "2023-03-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        706,
+        369,
+        836,
+        105
+      ],
+      "min_cluster_size": 105,
+      "SW": 0.21677687416344463,
+      "CH": 610.3350684937132
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-01-01",
+      "2023-02-01",
+      "2023-03-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        672,
+        854,
+        105,
+        385
+      ],
+      "min_cluster_size": 105,
+      "SW": 0.21304791313542779,
+      "CH": 598.4846229272647
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-04-01",
+      "2023-05-01",
+      "2023-06-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        584,
+        911,
+        350,
+        171
+      ],
+      "min_cluster_size": 171,
+      "SW": 0.23870055303539278,
+      "CH": 774.8374152717905
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-04-01",
+      "2023-05-01",
+      "2023-06-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        436,
+        1139,
+        268,
+        173
+      ],
+      "min_cluster_size": 173,
+      "SW": 0.2540370652064835,
+      "CH": 735.643262485902
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-04-01",
+      "2023-05-01",
+      "2023-06-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        417,
+        1158,
+        277,
+        164
+      ],
+      "min_cluster_size": 164,
+      "SW": 0.2514125108638984,
+      "CH": 734.9398431821024
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-04-01",
+      "2023-05-01",
+      "2023-06-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        108,
+        635,
+        398,
+        875
+      ],
+      "min_cluster_size": 108,
+      "SW": 0.23949584590632397,
+      "CH": 792.7305658300793
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-04-01",
+      "2023-05-01",
+      "2023-06-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        720,
+        457,
+        735,
+        104
+      ],
+      "min_cluster_size": 104,
+      "SW": 0.23730912111227773,
+      "CH": 778.8533814105148
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-04-01",
+      "2023-05-01",
+      "2023-06-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        692,
+        757,
+        102,
+        465
+      ],
+      "min_cluster_size": 102,
+      "SW": 0.2275977808087273,
+      "CH": 746.2429026167483
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-07-01",
+      "2023-08-01",
+      "2023-09-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        673,
+        804,
+        417,
+        122
+      ],
+      "min_cluster_size": 122,
+      "SW": 0.24306283650859867,
+      "CH": 793.8390737479244
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-07-01",
+      "2023-08-01",
+      "2023-09-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        521,
+        1064,
+        308,
+        123
+      ],
+      "min_cluster_size": 123,
+      "SW": 0.25994313925182805,
+      "CH": 770.9867240926491
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-07-01",
+      "2023-08-01",
+      "2023-09-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        482,
+        1096,
+        321,
+        117
+      ],
+      "min_cluster_size": 117,
+      "SW": 0.26090610027572525,
+      "CH": 767.7412238974383
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-07-01",
+      "2023-08-01",
+      "2023-09-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        103,
+        619,
+        407,
+        887
+      ],
+      "min_cluster_size": 103,
+      "SW": 0.2461819337372297,
+      "CH": 792.6531724155158
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-07-01",
+      "2023-08-01",
+      "2023-09-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        760,
+        462,
+        700,
+        94
+      ],
+      "min_cluster_size": 94,
+      "SW": 0.23846458420298255,
+      "CH": 770.2422282279423
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-07-01",
+      "2023-08-01",
+      "2023-09-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        702,
+        743,
+        96,
+        475
+      ],
+      "min_cluster_size": 96,
+      "SW": 0.22491745591462592,
+      "CH": 733.9584359009777
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-10-01",
+      "2023-11-01",
+      "2023-12-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        368,
+        1168,
+        422,
+        58
+      ],
+      "min_cluster_size": 58,
+      "SW": 0.2530712192843767,
+      "CH": 748.9297163895683
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-10-01",
+      "2023-11-01",
+      "2023-12-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        264,
+        1357,
+        338,
+        57
+      ],
+      "min_cluster_size": 57,
+      "SW": 0.26532288671150667,
+      "CH": 678.2899348337962
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-10-01",
+      "2023-11-01",
+      "2023-12-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        215,
+        1387,
+        358,
+        56
+      ],
+      "min_cluster_size": 56,
+      "SW": 0.2636738826966318,
+      "CH": 657.0373413439552
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-10-01",
+      "2023-11-01",
+      "2023-12-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        95,
+        605,
+        412,
+        904
+      ],
+      "min_cluster_size": 95,
+      "SW": 0.2502343592728991,
+      "CH": 809.8157723715561
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-10-01",
+      "2023-11-01",
+      "2023-12-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        763,
+        464,
+        704,
+        85
+      ],
+      "min_cluster_size": 85,
+      "SW": 0.23890605995040143,
+      "CH": 774.9077233110744
+    }
+  },
+  {
+    "year": 2023,
+    "span": "quarter",
+    "months": [
+      "2023-10-01",
+      "2023-11-01",
+      "2023-12-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        707,
+        753,
+        87,
+        469
+      ],
+      "min_cluster_size": 87,
+      "SW": 0.22869273244004915,
+      "CH": 741.6013705686736
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-01-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        451,
+        1064,
+        453,
+        48
+      ],
+      "min_cluster_size": 48,
+      "SW": 0.24027581734811754,
+      "CH": 694.2513337294146
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-01-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        350,
+        1278,
+        343,
+        45
+      ],
+      "min_cluster_size": 45,
+      "SW": 0.25327672986936506,
+      "CH": 640.3281150186841
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-01-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        301,
+        1304,
+        368,
+        43
+      ],
+      "min_cluster_size": 43,
+      "SW": 0.2485626123059762,
+      "CH": 622.7629167106585
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-01-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        36,
+        383,
+        339,
+        1258
+      ],
+      "min_cluster_size": 36,
+      "SW": 0.24819074282647904,
+      "CH": 632.8347376318823
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-01-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        1184,
+        412,
+        388,
+        32
+      ],
+      "min_cluster_size": 32,
+      "SW": 0.24206071718445293,
+      "CH": 625.1246101731633
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-01-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        1115,
+        446,
+        32,
+        423
+      ],
+      "min_cluster_size": 32,
+      "SW": 0.23348069129304058,
+      "CH": 611.7024754835088
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-02-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        342,
+        1201,
+        433,
+        40
+      ],
+      "min_cluster_size": 40,
+      "SW": 0.2529763786239703,
+      "CH": 714.5731897236245
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-02-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        248,
+        1382,
+        348,
+        38
+      ],
+      "min_cluster_size": 38,
+      "SW": 0.2654447123423455,
+      "CH": 638.633249162173
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-02-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        204,
+        1409,
+        366,
+        37
+      ],
+      "min_cluster_size": 37,
+      "SW": 0.2587174061668606,
+      "CH": 616.1721245366351
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-02-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        35,
+        368,
+        345,
+        1268
+      ],
+      "min_cluster_size": 35,
+      "SW": 0.26028137280721825,
+      "CH": 689.1880195838717
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-02-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        1170,
+        417,
+        397,
+        32
+      ],
+      "min_cluster_size": 32,
+      "SW": 0.2490282191969282,
+      "CH": 679.7264803130618
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-02-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        1095,
+        437,
+        31,
+        453
+      ],
+      "min_cluster_size": 31,
+      "SW": 0.23514625495966,
+      "CH": 660.9092191691446
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-03-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        352,
+        1214,
+        407,
+        43
+      ],
+      "min_cluster_size": 43,
+      "SW": 0.25121030496609814,
+      "CH": 722.6668157195967
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-03-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        244,
+        1396,
+        332,
+        44
+      ],
+      "min_cluster_size": 44,
+      "SW": 0.2684213812290958,
+      "CH": 644.4808142096699
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-03-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        209,
+        1422,
+        342,
+        43
+      ],
+      "min_cluster_size": 43,
+      "SW": 0.2614234636640449,
+      "CH": 623.7060619081046
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-03-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        37,
+        398,
+        346,
+        1235
+      ],
+      "min_cluster_size": 37,
+      "SW": 0.26380881713547905,
+      "CH": 717.2449355242333
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-03-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        1114,
+        419,
+        456,
+        27
+      ],
+      "min_cluster_size": 27,
+      "SW": 0.25350440982764433,
+      "CH": 703.931139341933
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-03-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        1040,
+        501,
+        27,
+        448
+      ],
+      "min_cluster_size": 27,
+      "SW": 0.23368187865832074,
+      "CH": 670.1602926858841
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-04-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        361,
+        1205,
+        412,
+        38
+      ],
+      "min_cluster_size": 38,
+      "SW": 0.2589629625061165,
+      "CH": 810.3109866029625
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-04-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        253,
+        1387,
+        335,
+        41
+      ],
+      "min_cluster_size": 41,
+      "SW": 0.2739802729463111,
+      "CH": 736.6482504792206
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-04-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        217,
+        1418,
+        345,
+        36
+      ],
+      "min_cluster_size": 36,
+      "SW": 0.2705954307446195,
+      "CH": 709.2075638043461
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-04-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        26,
+        400,
+        443,
+        1147
+      ],
+      "min_cluster_size": 26,
+      "SW": 0.2576572740935943,
+      "CH": 804.3847107117956
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-04-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        1063,
+        508,
+        425,
+        20
+      ],
+      "min_cluster_size": 20,
+      "SW": 0.248123624574056,
+      "CH": 761.5879634547114
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-04-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        977,
+        476,
+        21,
+        542
+      ],
+      "min_cluster_size": 21,
+      "SW": 0.22824944911718703,
+      "CH": 720.2260584495966
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-05-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        408,
+        1198,
+        362,
+        48
+      ],
+      "min_cluster_size": 48,
+      "SW": 0.2645366347335252,
+      "CH": 777.5116416778397
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-05-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        308,
+        1376,
+        279,
+        53
+      ],
+      "min_cluster_size": 53,
+      "SW": 0.2714677009676803,
+      "CH": 709.355101385254
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-05-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        264,
+        1411,
+        293,
+        48
+      ],
+      "min_cluster_size": 48,
+      "SW": 0.26447128901310407,
+      "CH": 684.2221223990673
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-05-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        30,
+        432,
+        418,
+        1136
+      ],
+      "min_cluster_size": 30,
+      "SW": 0.2544547951595469,
+      "CH": 765.2721788411482
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-05-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        1028,
+        482,
+        482,
+        24
+      ],
+      "min_cluster_size": 24,
+      "SW": 0.24704602449243668,
+      "CH": 738.0034628024729
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-05-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        946,
+        536,
+        23,
+        511
+      ],
+      "min_cluster_size": 23,
+      "SW": 0.2305956734995533,
+      "CH": 695.5605192662524
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-06-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        477,
+        1129,
+        364,
+        46
+      ],
+      "min_cluster_size": 46,
+      "SW": 0.2665846035994626,
+      "CH": 851.0931063662972
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-06-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        355,
+        1332,
+        281,
+        48
+      ],
+      "min_cluster_size": 48,
+      "SW": 0.2851545845729402,
+      "CH": 784.8080820962156
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-06-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        311,
+        1375,
+        287,
+        43
+      ],
+      "min_cluster_size": 43,
+      "SW": 0.2824491734608324,
+      "CH": 757.0811033442152
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-06-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        28,
+        469,
+        436,
+        1083
+      ],
+      "min_cluster_size": 28,
+      "SW": 0.2567242165632766,
+      "CH": 835.6449809921102
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-06-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        971,
+        508,
+        509,
+        28
+      ],
+      "min_cluster_size": 28,
+      "SW": 0.2347040793668786,
+      "CH": 785.4070262123126
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-06-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        901,
+        543,
+        26,
+        546
+      ],
+      "min_cluster_size": 26,
+      "SW": 0.21730488691935404,
+      "CH": 727.9329350004272
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-07-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        537,
+        1048,
+        404,
+        27
+      ],
+      "min_cluster_size": 27,
+      "SW": 0.2667344671758015,
+      "CH": 832.0712892170002
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-07-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        426,
+        1258,
+        305,
+        27
+      ],
+      "min_cluster_size": 27,
+      "SW": 0.2861083222367449,
+      "CH": 780.7933685866008
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-07-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        371,
+        1307,
+        314,
+        24
+      ],
+      "min_cluster_size": 24,
+      "SW": 0.28275672414216296,
+      "CH": 755.5903338904237
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-07-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        18,
+        457,
+        448,
+        1093
+      ],
+      "min_cluster_size": 18,
+      "SW": 0.25939188847551276,
+      "CH": 804.9011486487171
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-07-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        1024,
+        519,
+        456,
+        17
+      ],
+      "min_cluster_size": 17,
+      "SW": 0.23340909114843855,
+      "CH": 742.6174847895537
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-07-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        955,
+        504,
+        20,
+        537
+      ],
+      "min_cluster_size": 20,
+      "SW": 0.21585010998006918,
+      "CH": 704.1309978687298
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-08-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        538,
+        995,
+        462,
+        21
+      ],
+      "min_cluster_size": 21,
+      "SW": 0.256691079870894,
+      "CH": 803.1894070229122
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-08-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        400,
+        1225,
+        368,
+        23
+      ],
+      "min_cluster_size": 23,
+      "SW": 0.2715885020236635,
+      "CH": 763.2442595557519
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-08-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        344,
+        1270,
+        380,
+        22
+      ],
+      "min_cluster_size": 22,
+      "SW": 0.2692941101979199,
+      "CH": 742.4707490521704
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-08-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        18,
+        481,
+        454,
+        1063
+      ],
+      "min_cluster_size": 18,
+      "SW": 0.25861935079734155,
+      "CH": 788.1710889812449
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-08-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        959,
+        540,
+        500,
+        17
+      ],
+      "min_cluster_size": 17,
+      "SW": 0.23496285248080367,
+      "CH": 736.7409929506567
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-08-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        904,
+        513,
+        14,
+        585
+      ],
+      "min_cluster_size": 14,
+      "SW": 0.21186597299228194,
+      "CH": 672.6920714291294
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-09-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        466,
+        1036,
+        498,
+        16
+      ],
+      "min_cluster_size": 16,
+      "SW": 0.2394218609545762,
+      "CH": 711.7817022530334
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-09-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        328,
+        1270,
+        402,
+        16
+      ],
+      "min_cluster_size": 16,
+      "SW": 0.2576680724535702,
+      "CH": 671.2793196751568
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-09-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        257,
+        1326,
+        417,
+        16
+      ],
+      "min_cluster_size": 16,
+      "SW": 0.253052782986211,
+      "CH": 641.3781863688533
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-09-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        20,
+        514,
+        464,
+        1018
+      ],
+      "min_cluster_size": 20,
+      "SW": 0.24871684463111485,
+      "CH": 729.9438891737935
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-09-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        950,
+        555,
+        493,
+        18
+      ],
+      "min_cluster_size": 18,
+      "SW": 0.23850910687326415,
+      "CH": 678.6397901588034
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-09-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        886,
+        525,
+        20,
+        585
+      ],
+      "min_cluster_size": 20,
+      "SW": 0.21168804534843175,
+      "CH": 632.3915409070477
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-10-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        376,
+        1116,
+        503,
+        21
+      ],
+      "min_cluster_size": 21,
+      "SW": 0.23910484292469353,
+      "CH": 737.6688729052629
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-10-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        228,
+        1331,
+        435,
+        22
+      ],
+      "min_cluster_size": 22,
+      "SW": 0.2604120754211497,
+      "CH": 682.973657117986
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-10-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        176,
+        1375,
+        446,
+        19
+      ],
+      "min_cluster_size": 19,
+      "SW": 0.269382968212501,
+      "CH": 651.891514076387
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-10-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        28,
+        511,
+        472,
+        1005
+      ],
+      "min_cluster_size": 28,
+      "SW": 0.24855161609738638,
+      "CH": 786.6272571385415
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-10-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        923,
+        542,
+        524,
+        27
+      ],
+      "min_cluster_size": 27,
+      "SW": 0.2327776918330933,
+      "CH": 725.817558644015
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-10-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        854,
+        565,
+        26,
+        571
+      ],
+      "min_cluster_size": 26,
+      "SW": 0.2124165758343709,
+      "CH": 673.3737968166092
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-11-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        293,
+        1232,
+        478,
+        13
+      ],
+      "min_cluster_size": 13,
+      "SW": 0.23613107200645148,
+      "CH": 680.6928151369129
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-11-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        172,
+        1417,
+        411,
+        16
+      ],
+      "min_cluster_size": 16,
+      "SW": 0.26022397089909505,
+      "CH": 619.1497798887328
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-11-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        123,
+        1455,
+        423,
+        15
+      ],
+      "min_cluster_size": 15,
+      "SW": 0.27186845201853854,
+      "CH": 589.1897114311339
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-11-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        31,
+        574,
+        447,
+        964
+      ],
+      "min_cluster_size": 31,
+      "SW": 0.25331070872006145,
+      "CH": 771.4819830662316
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-11-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        825,
+        523,
+        641,
+        27
+      ],
+      "min_cluster_size": 27,
+      "SW": 0.23940879889210476,
+      "CH": 718.9445299144223
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-11-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        764,
+        678,
+        27,
+        547
+      ],
+      "min_cluster_size": 27,
+      "SW": 0.22375853519359692,
+      "CH": 671.2654662217758
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-12-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        261,
+        1378,
+        353,
+        24
+      ],
+      "min_cluster_size": 24,
+      "SW": 0.25385422213179537,
+      "CH": 656.1333260568775
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-12-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        171,
+        1524,
+        296,
+        25
+      ],
+      "min_cluster_size": 25,
+      "SW": 0.2653390698125746,
+      "CH": 558.3305195216153
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-12-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        125,
+        1564,
+        305,
+        22
+      ],
+      "min_cluster_size": 22,
+      "SW": 0.277274986082125,
+      "CH": 520.7164778531617
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-12-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        39,
+        588,
+        450,
+        939
+      ],
+      "min_cluster_size": 39,
+      "SW": 0.2597505262610589,
+      "CH": 802.0277368260265
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-12-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        821,
+        544,
+        624,
+        27
+      ],
+      "min_cluster_size": 27,
+      "SW": 0.24247440037703782,
+      "CH": 739.2523173711817
+    }
+  },
+  {
+    "year": 2024,
+    "span": "month",
+    "months": [
+      "2024-12-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        757,
+        648,
+        26,
+        585
+      ],
+      "min_cluster_size": 26,
+      "SW": 0.22182387414864038,
+      "CH": 674.7095090461256
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-01-01",
+      "2024-02-01",
+      "2024-03-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        359,
+        1182,
+        433,
+        42
+      ],
+      "min_cluster_size": 42,
+      "SW": 0.25427966822736137,
+      "CH": 729.127993783728
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-01-01",
+      "2024-02-01",
+      "2024-03-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        265,
+        1369,
+        341,
+        41
+      ],
+      "min_cluster_size": 41,
+      "SW": 0.2685872050033703,
+      "CH": 654.2908601610555
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-01-01",
+      "2024-02-01",
+      "2024-03-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        220,
+        1396,
+        361,
+        39
+      ],
+      "min_cluster_size": 39,
+      "SW": 0.26659713281662695,
+      "CH": 630.9684189349267
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-01-01",
+      "2024-02-01",
+      "2024-03-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        37,
+        378,
+        344,
+        1257
+      ],
+      "min_cluster_size": 37,
+      "SW": 0.26284357496452554,
+      "CH": 701.1685502428278
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-01-01",
+      "2024-02-01",
+      "2024-03-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        1155,
+        417,
+        412,
+        32
+      ],
+      "min_cluster_size": 32,
+      "SW": 0.2521712434264644,
+      "CH": 691.6158644045387
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-01-01",
+      "2024-02-01",
+      "2024-03-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        1088,
+        454,
+        31,
+        443
+      ],
+      "min_cluster_size": 31,
+      "SW": 0.2364792742043229,
+      "CH": 669.2932253652315
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-04-01",
+      "2024-05-01",
+      "2024-06-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        396,
+        1201,
+        376,
+        43
+      ],
+      "min_cluster_size": 43,
+      "SW": 0.2651648231500116,
+      "CH": 821.7001588710492
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-04-01",
+      "2024-05-01",
+      "2024-06-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        308,
+        1374,
+        286,
+        48
+      ],
+      "min_cluster_size": 48,
+      "SW": 0.2822739522699771,
+      "CH": 755.8326808538932
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-04-01",
+      "2024-05-01",
+      "2024-06-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        259,
+        1407,
+        307,
+        43
+      ],
+      "min_cluster_size": 43,
+      "SW": 0.27458091778566984,
+      "CH": 729.6132304945227
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-04-01",
+      "2024-05-01",
+      "2024-06-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        28,
+        430,
+        428,
+        1130
+      ],
+      "min_cluster_size": 28,
+      "SW": 0.2570423699005251,
+      "CH": 808.7696381085007
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-04-01",
+      "2024-05-01",
+      "2024-06-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        1028,
+        492,
+        473,
+        23
+      ],
+      "min_cluster_size": 23,
+      "SW": 0.2481322651327483,
+      "CH": 780.6280998994116
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-04-01",
+      "2024-05-01",
+      "2024-06-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        947,
+        513,
+        24,
+        532
+      ],
+      "min_cluster_size": 24,
+      "SW": 0.22631921741773955,
+      "CH": 728.7945731938206
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-07-01",
+      "2024-08-01",
+      "2024-09-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        517,
+        1017,
+        461,
+        21
+      ],
+      "min_cluster_size": 21,
+      "SW": 0.26074384154071584,
+      "CH": 823.9571532652016
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-07-01",
+      "2024-08-01",
+      "2024-09-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        402,
+        1230,
+        361,
+        23
+      ],
+      "min_cluster_size": 23,
+      "SW": 0.27809346609509084,
+      "CH": 787.5006632692985
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-07-01",
+      "2024-08-01",
+      "2024-09-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        344,
+        1284,
+        371,
+        17
+      ],
+      "min_cluster_size": 17,
+      "SW": 0.27673954904043124,
+      "CH": 754.8301240008304
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-07-01",
+      "2024-08-01",
+      "2024-09-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        18,
+        490,
+        465,
+        1043
+      ],
+      "min_cluster_size": 18,
+      "SW": 0.26115310667021396,
+      "CH": 811.7164209564502
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-07-01",
+      "2024-08-01",
+      "2024-09-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        981,
+        541,
+        476,
+        18
+      ],
+      "min_cluster_size": 18,
+      "SW": 0.2402651659728886,
+      "CH": 754.1821661720861
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-07-01",
+      "2024-08-01",
+      "2024-09-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        915,
+        508,
+        17,
+        576
+      ],
+      "min_cluster_size": 17,
+      "SW": 0.21906295874149262,
+      "CH": 701.2291431550381
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-10-01",
+      "2024-11-01",
+      "2024-12-01"
+    ],
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        294,
+        1234,
+        467,
+        21
+      ],
+      "min_cluster_size": 21,
+      "SW": 0.24639406990048,
+      "CH": 729.16999884228
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-10-01",
+      "2024-11-01",
+      "2024-12-01"
+    ],
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        175,
+        1421,
+        400,
+        20
+      ],
+      "min_cluster_size": 20,
+      "SW": 0.26950583097701153,
+      "CH": 650.4913326306995
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-10-01",
+      "2024-11-01",
+      "2024-12-01"
+    ],
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        129,
+        1459,
+        410,
+        18
+      ],
+      "min_cluster_size": 18,
+      "SW": 0.2778336719075024,
+      "CH": 618.509221430513
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-10-01",
+      "2024-11-01",
+      "2024-12-01"
+    ],
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        34,
+        559,
+        456,
+        967
+      ],
+      "min_cluster_size": 34,
+      "SW": 0.2569758939171823,
+      "CH": 822.9039731004341
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-10-01",
+      "2024-11-01",
+      "2024-12-01"
+    ],
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        855,
+        534,
+        597,
+        30
+      ],
+      "min_cluster_size": 30,
+      "SW": 0.2406153460049034,
+      "CH": 757.443186561448
+    }
+  },
+  {
+    "year": 2024,
+    "span": "quarter",
+    "months": [
+      "2024-10-01",
+      "2024-11-01",
+      "2024-12-01"
+    ],
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        799,
+        620,
+        31,
+        566
+      ],
+      "min_cluster_size": 31,
+      "SW": 0.21867234729002513,
+      "CH": 699.0016354195599
+    }
+  }
+]

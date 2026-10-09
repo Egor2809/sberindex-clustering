@@ -1,0 +1,430 @@
+{
+  "n_common": 1774,
+  "n_excluded": 242,
+  "results": [
+    {
+      "method": "profile_15",
+      "n": 1774,
+      "growth_absolute_discrepancy_pp": 2.72138541173864,
+      "profile_euclidean_discrepancy": 0.20437991144612616,
+      "min_peers": 15,
+      "max_peers": 15
+    },
+    {
+      "method": "level_15",
+      "n": 1774,
+      "growth_absolute_discrepancy_pp": 3.0469797430321104,
+      "profile_euclidean_discrepancy": 0.5164386015270431,
+      "min_peers": 15,
+      "max_peers": 15
+    },
+    {
+      "method": "geographic_15",
+      "n": 1774,
+      "growth_absolute_discrepancy_pp": 2.8641128937685942,
+      "profile_euclidean_discrepancy": 0.43031888956917574,
+      "min_peers": 15,
+      "max_peers": 15
+    },
+    {
+      "method": "cluster_profile_15",
+      "n": 1774,
+      "growth_absolute_discrepancy_pp": 2.744472078706451,
+      "profile_euclidean_discrepancy": 0.21326350567982688,
+      "min_peers": 15,
+      "max_peers": 15
+    },
+    {
+      "method": "region_all",
+      "n": 1774,
+      "growth_absolute_discrepancy_pp": 2.8118954493164443,
+      "profile_euclidean_discrepancy": 0.4355447926444416,
+      "min_peers": 1,
+      "max_peers": 64
+    },
+    {
+      "method": "random_15",
+      "n": 1774,
+      "growth_absolute_discrepancy_pp": 3.227938772670364,
+      "profile_euclidean_discrepancy": 0.5925338814908442,
+      "min_peers": 15,
+      "max_peers": 15
+    },
+    {
+      "method": "temporal_consensus_15",
+      "n": 1774,
+      "growth_absolute_discrepancy_pp": 2.6789031405891377,
+      "profile_euclidean_discrepancy": 0.19910795545078575,
+      "min_peers": 15,
+      "max_peers": 15
+    }
+  ],
+  "paired_region_bootstrap": [
+    {
+      "method": "profile_15",
+      "baseline": "region_all",
+      "target": "growth",
+      "mean_improvement": 0.09051003757780464,
+      "ci_95": [
+        -0.022929080291697573,
+        0.20604678634067497
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "profile_15",
+      "baseline": "region_all",
+      "target": "profile",
+      "mean_improvement": 0.23116488119831544,
+      "ci_95": [
+        0.21908078301874795,
+        0.24265745354035376
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "level_15",
+      "baseline": "profile_15",
+      "target": "growth",
+      "mean_improvement": -0.32559433129347115,
+      "ci_95": [
+        -0.4966203409410628,
+        -0.1902111300385359
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "level_15",
+      "baseline": "profile_15",
+      "target": "profile",
+      "mean_improvement": -0.31205869008091697,
+      "ci_95": [
+        -0.3421878901813593,
+        -0.28653968977474037
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "level_15",
+      "baseline": "region_all",
+      "target": "growth",
+      "mean_improvement": -0.2350842937156665,
+      "ci_95": [
+        -0.4440714389769998,
+        -0.07221756479782582
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "level_15",
+      "baseline": "region_all",
+      "target": "profile",
+      "mean_improvement": -0.08089380888260152,
+      "ci_95": [
+        -0.11508460683014347,
+        -0.05280835480250725
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "geographic_15",
+      "baseline": "profile_15",
+      "target": "growth",
+      "mean_improvement": -0.14272748202995428,
+      "ci_95": [
+        -0.2582987290514977,
+        -0.02297850440756789
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "geographic_15",
+      "baseline": "profile_15",
+      "target": "profile",
+      "mean_improvement": -0.2259389781230495,
+      "ci_95": [
+        -0.23854258420296398,
+        -0.21318174860711073
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "geographic_15",
+      "baseline": "region_all",
+      "target": "growth",
+      "mean_improvement": -0.05221744445214963,
+      "ci_95": [
+        -0.11942384311352505,
+        0.010223743075199392
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "geographic_15",
+      "baseline": "region_all",
+      "target": "profile",
+      "mean_improvement": 0.005225903075265924,
+      "ci_95": [
+        -0.006531249157023602,
+        0.015779402287624124
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "cluster_profile_15",
+      "baseline": "profile_15",
+      "target": "growth",
+      "mean_improvement": -0.023086666967810813,
+      "ci_95": [
+        -0.04779105333720056,
+        0.005624580796698983
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "cluster_profile_15",
+      "baseline": "profile_15",
+      "target": "profile",
+      "mean_improvement": -0.008883594233700715,
+      "ci_95": [
+        -0.011282443261770646,
+        -0.00678381436987741
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "cluster_profile_15",
+      "baseline": "region_all",
+      "target": "growth",
+      "mean_improvement": 0.06742337060999383,
+      "ci_95": [
+        -0.051531269066604136,
+        0.18371620222260301
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "cluster_profile_15",
+      "baseline": "region_all",
+      "target": "profile",
+      "mean_improvement": 0.2222812869646147,
+      "ci_95": [
+        0.20975253487273235,
+        0.2345899122204551
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "region_all",
+      "baseline": "profile_15",
+      "target": "growth",
+      "mean_improvement": -0.09051003757780464,
+      "ci_95": [
+        -0.206046786340675,
+        0.02292908029169757
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "region_all",
+      "baseline": "profile_15",
+      "target": "profile",
+      "mean_improvement": -0.23116488119831544,
+      "ci_95": [
+        -0.24265745354035376,
+        -0.21908078301874795
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "random_15",
+      "baseline": "profile_15",
+      "target": "growth",
+      "mean_improvement": -0.5065533609317244,
+      "ci_95": [
+        -0.6081775067273827,
+        -0.40146185811529467
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "random_15",
+      "baseline": "profile_15",
+      "target": "profile",
+      "mean_improvement": -0.38815397004471797,
+      "ci_95": [
+        -0.4224481822327627,
+        -0.36159662479423194
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "random_15",
+      "baseline": "region_all",
+      "target": "growth",
+      "mean_improvement": -0.4160433233539197,
+      "ci_95": [
+        -0.5515738578178278,
+        -0.2922230058182379
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "random_15",
+      "baseline": "region_all",
+      "target": "profile",
+      "mean_improvement": -0.15698908884640259,
+      "ci_95": [
+        -0.1913043392147843,
+        -0.12788559520046627
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "temporal_consensus_15",
+      "baseline": "profile_15",
+      "target": "growth",
+      "mean_improvement": 0.04248227114950237,
+      "ci_95": [
+        0.007903604028749506,
+        0.07498774944757147
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "temporal_consensus_15",
+      "baseline": "profile_15",
+      "target": "profile",
+      "mean_improvement": 0.005271955995340426,
+      "ci_95": [
+        0.0032771977100952824,
+        0.007463405073705571
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "temporal_consensus_15",
+      "baseline": "region_all",
+      "target": "growth",
+      "mean_improvement": 0.132992308727307,
+      "ci_95": [
+        0.019550261095816153,
+        0.2427814569198793
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    },
+    {
+      "method": "temporal_consensus_15",
+      "baseline": "region_all",
+      "target": "profile",
+      "mean_improvement": 0.23643683719365585,
+      "ci_95": [
+        0.2243097775907478,
+        0.2480322500719505
+      ],
+      "n_territories": 1774,
+      "n_regions": 71,
+      "repetitions": 1000,
+      "resampling_unit": "region",
+      "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+    }
+  ],
+  "growth_definition": "percentage change of mean monthly total expenditure 2024 vs 2023",
+  "profile_definition": "Euclidean discrepancy of median scaled log-relative-intensity profiles in 2024",
+  "scope": "peer concordance using observed peer outcomes; NOT an as-of forecast",
+  "selection": "all neighbor sets use only 2023 values and frozen rules",
+  "cohort": "same retrospective complete cohort and available coordinates for all methods",
+  "interval_note": "exploratory intervals across prespecified contrasts, no multiplicity correction"
+}

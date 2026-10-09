@@ -1,0 +1,5762 @@
+[
+  {
+    "model": "historical_kmeans4",
+    "draw": 0,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.6959896507115135,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      667
+    ],
+    "intersections": [
+      538
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 0,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.8099891422366993,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      808
+    ],
+    "intersections": [
+      746
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 0,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.8976744186046511,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      430
+    ],
+    "intersections": [
+      386
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 0,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.8449612403100775,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      111
+    ],
+    "intersections": [
+      109
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 1,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8520710059171598,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      608
+    ],
+    "intersections": [
+      576
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 1,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9095920617420066,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      873
+    ],
+    "intersections": [
+      825
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 1,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9571788413098237,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      391
+    ],
+    "intersections": [
+      380
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 1,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.8561643835616438,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      144
+    ],
+    "intersections": [
+      125
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 2,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8827067669172932,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      608
+    ],
+    "intersections": [
+      587
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 2,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.933184855233853,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      877
+    ],
+    "intersections": [
+      838
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 2,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9696202531645569,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      392
+    ],
+    "intersections": [
+      383
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 2,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.8732394366197183,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      139
+    ],
+    "intersections": [
+      124
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 3,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.7939972714870396,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      671
+    ],
+    "intersections": [
+      582
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 3,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.8950276243093923,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      856
+    ],
+    "intersections": [
+      810
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 3,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9429280397022333,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      397
+    ],
+    "intersections": [
+      380
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 3,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.7244094488188977,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      92
+    ],
+    "intersections": [
+      92
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 4,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.9069423929098966,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      647
+    ],
+    "intersections": [
+      614
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 4,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9441277080957811,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      846
+    ],
+    "intersections": [
+      828
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 4,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.965,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      400
+    ],
+    "intersections": [
+      386
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 4,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.9230769230769231,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      123
+    ],
+    "intersections": [
+      120
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 5,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8318713450292398,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      609
+    ],
+    "intersections": [
+      569
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 5,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.8920392584514721,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      876
+    ],
+    "intersections": [
+      818
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 5,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9722222222222222,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      395
+    ],
+    "intersections": [
+      385
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 5,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.8263888888888888,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      136
+    ],
+    "intersections": [
+      119
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 6,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8441558441558441,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      634
+    ],
+    "intersections": [
+      585
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 6,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.8981173864894795,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      855
+    ],
+    "intersections": [
+      811
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 6,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9600997506234414,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      400
+    ],
+    "intersections": [
+      385
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 6,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.8676470588235294,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      127
+    ],
+    "intersections": [
+      118
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 7,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8440233236151603,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      621
+    ],
+    "intersections": [
+      579
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 7,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9059734513274337,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      864
+    ],
+    "intersections": [
+      819
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 7,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.96,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      398
+    ],
+    "intersections": [
+      384
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 7,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.8705035971223022,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      133
+    ],
+    "intersections": [
+      121
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 8,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.9442771084337349,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      647
+    ],
+    "intersections": [
+      627
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 8,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9634703196347032,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      861
+    ],
+    "intersections": [
+      844
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 8,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9819121447028424,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      381
+    ],
+    "intersections": [
+      380
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 8,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.9538461538461539,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      127
+    ],
+    "intersections": [
+      124
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 9,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8892215568862275,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      618
+    ],
+    "intersections": [
+      594
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 9,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9235880398671097,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      878
+    ],
+    "intersections": [
+      834
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 9,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9820051413881749,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      385
+    ],
+    "intersections": [
+      382
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 9,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.8985507246376812,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      135
+    ],
+    "intersections": [
+      124
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 10,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8884057971014493,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      659
+    ],
+    "intersections": [
+      613
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 10,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9366359447004609,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      822
+    ],
+    "intersections": [
+      813
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 10,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.946078431372549,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      408
+    ],
+    "intersections": [
+      386
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 10,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.9538461538461539,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      127
+    ],
+    "intersections": [
+      124
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 11,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8027397260273973,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      672
+    ],
+    "intersections": [
+      586
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 11,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.876265466816648,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      809
+    ],
+    "intersections": [
+      779
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 11,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9323671497584541,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      414
+    ],
+    "intersections": [
+      386
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 11,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.8931297709923665,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      121
+    ],
+    "intersections": [
+      117
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 12,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.6815856777493606,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      671
+    ],
+    "intersections": [
+      533
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 12,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.8154180238870793,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      813
+    ],
+    "intersections": [
+      751
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 12,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.8873563218390804,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      435
+    ],
+    "intersections": [
+      386
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 12,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.75,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      97
+    ],
+    "intersections": [
+      96
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 13,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.7920110192837465,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      657
+    ],
+    "intersections": [
+      575
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 13,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.8599779492833517,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      828
+    ],
+    "intersections": [
+      780
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 13,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9554455445544554,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      404
+    ],
+    "intersections": [
+      386
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 13,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.8814814814814815,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      127
+    ],
+    "intersections": [
+      119
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 14,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8633802816901408,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      679
+    ],
+    "intersections": [
+      613
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 14,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9230769230769231,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      841
+    ],
+    "intersections": [
+      816
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 14,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9721518987341772,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      393
+    ],
+    "intersections": [
+      384
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 14,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.796875,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      103
+    ],
+    "intersections": [
+      102
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 15,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8850072780203785,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      651
+    ],
+    "intersections": [
+      608
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 15,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9372146118721462,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      838
+    ],
+    "intersections": [
+      821
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 15,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9529702970297029,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      403
+    ],
+    "intersections": [
+      385
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 15,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.9015151515151515,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      124
+    ],
+    "intersections": [
+      119
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 16,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8968609865470852,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      625
+    ],
+    "intersections": [
+      600
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 16,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9351955307262569,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      873
+    ],
+    "intersections": [
+      837
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 16,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9795918367346939,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      390
+    ],
+    "intersections": [
+      384
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 16,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.8888888888888888,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      128
+    ],
+    "intersections": [
+      120
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 17,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.891970802919708,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      652
+    ],
+    "intersections": [
+      611
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 17,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9336332958380202,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      860
+    ],
+    "intersections": [
+      830
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 17,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9644670050761421,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      388
+    ],
+    "intersections": [
+      380
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 17,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.8837209302325582,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      116
+    ],
+    "intersections": [
+      114
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 18,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.7800269905533064,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      675
+    ],
+    "intersections": [
+      578
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 18,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.8901345291479821,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      827
+    ],
+    "intersections": [
+      794
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 18,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.919047619047619,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      420
+    ],
+    "intersections": [
+      386
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 18,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.7401574803149606,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      94
+    ],
+    "intersections": [
+      94
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 19,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8550295857988166,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      610
+    ],
+    "intersections": [
+      578
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 19,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9150110375275938,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      876
+    ],
+    "intersections": [
+      829
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 19,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9598997493734336,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      396
+    ],
+    "intersections": [
+      383
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 19,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.8776978417266187,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      134
+    ],
+    "intersections": [
+      122
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 20,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8958944281524927,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      649
+    ],
+    "intersections": [
+      611
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 20,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.936,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      835
+    ],
+    "intersections": [
+      819
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 20,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.964824120603015,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      396
+    ],
+    "intersections": [
+      384
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 20,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.9057971014492754,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      136
+    ],
+    "intersections": [
+      125
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 21,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8774002954209749,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      627
+    ],
+    "intersections": [
+      594
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 21,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9199110122358176,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      867
+    ],
+    "intersections": [
+      827
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 21,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9796437659033079,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      392
+    ],
+    "intersections": [
+      385
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 21,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.8759124087591241,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      130
+    ],
+    "intersections": [
+      120
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 22,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.840877914951989,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      698
+    ],
+    "intersections": [
+      613
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 22,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9035187287173666,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      818
+    ],
+    "intersections": [
+      796
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 22,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9624060150375939,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      397
+    ],
+    "intersections": [
+      384
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 22,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.796875,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      103
+    ],
+    "intersections": [
+      102
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 23,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8777943368107303,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      616
+    ],
+    "intersections": [
+      589
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 23,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9276169265033407,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      872
+    ],
+    "intersections": [
+      833
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 23,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9671717171717171,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      393
+    ],
+    "intersections": [
+      383
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 23,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.8714285714285714,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      135
+    ],
+    "intersections": [
+      122
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 24,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8595988538681948,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      654
+    ],
+    "intersections": [
+      600
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 24,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9173272933182333,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      834
+    ],
+    "intersections": [
+      810
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 24,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9484029484029484,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      407
+    ],
+    "intersections": [
+      386
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 24,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.9076923076923077,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      121
+    ],
+    "intersections": [
+      118
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 25,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.9437689969604863,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      635
+    ],
+    "intersections": [
+      621
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 25,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9635119726339795,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      863
+    ],
+    "intersections": [
+      845
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 25,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9897435897435898,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      390
+    ],
+    "intersections": [
+      386
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 25,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.9615384615384616,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      128
+    ],
+    "intersections": [
+      125
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 26,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8857566765578635,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      627
+    ],
+    "intersections": [
+      597
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 26,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9264214046822743,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      869
+    ],
+    "intersections": [
+      831
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 26,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9796437659033079,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      392
+    ],
+    "intersections": [
+      385
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 26,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.875,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      128
+    ],
+    "intersections": [
+      119
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 27,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.846820809248555,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      634
+    ],
+    "intersections": [
+      586
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 27,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9090909090909091,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      842
+    ],
+    "intersections": [
+      810
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 27,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9553349875930521,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      402
+    ],
+    "intersections": [
+      385
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 27,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.8531468531468531,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      138
+    ],
+    "intersections": [
+      122
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 28,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.8545994065281899,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      606
+    ],
+    "intersections": [
+      576
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 28,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.9110867178924259,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      882
+    ],
+    "intersections": [
+      830
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 28,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.9575,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      397
+    ],
+    "intersections": [
+      383
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 28,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.8832116788321168,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      131
+    ],
+    "intersections": [
+      121
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 29,
+    "reference_cluster": 0,
+    "reference_size": 644,
+    "best_jaccard": 0.690694626474443,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      646
+    ],
+    "intersections": [
+      527
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 29,
+    "reference_cluster": 1,
+    "reference_size": 859,
+    "best_jaccard": 0.8130434782608695,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      809
+    ],
+    "intersections": [
+      748
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 29,
+    "reference_cluster": 2,
+    "reference_size": 386,
+    "best_jaccard": 0.8812785388127854,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      438
+    ],
+    "intersections": [
+      386
+    ]
+  },
+  {
+    "model": "historical_kmeans4",
+    "draw": 29,
+    "reference_cluster": 3,
+    "reference_size": 127,
+    "best_jaccard": 0.8796992481203008,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      123
+    ],
+    "intersections": [
+      117
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 0,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.6303571428571428,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      448
+    ],
+    "intersections": [
+      353
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 0,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9132266217354675,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1129
+    ],
+    "intersections": [
+      1084
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 0,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.7960893854748603,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      358
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 0,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.64,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      81
+    ],
+    "intersections": [
+      80
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 1,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.874,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      472
+    ],
+    "intersections": [
+      437
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 1,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9529512403763901,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1141
+    ],
+    "intersections": [
+      1114
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 1,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.9479166666666666,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      276
+    ],
+    "intersections": [
+      273
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 1,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.8592592592592593,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      127
+    ],
+    "intersections": [
+      116
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 2,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.8329979879275654,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      446
+    ],
+    "intersections": [
+      414
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 2,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9619047619047619,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      1124
+    ],
+    "intersections": [
+      1111
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 2,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.8742331288343558,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      326
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 2,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.8769230769230769,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      120
+    ],
+    "intersections": [
+      114
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 3,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.789272030651341,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      469
+    ],
+    "intersections": [
+      412
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 3,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9391377852916315,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1152
+    ],
+    "intersections": [
+      1111
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 3,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.8962264150943396,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      318
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 3,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.6209677419354839,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      77
+    ],
+    "intersections": [
+      77
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 4,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.9065040650406504,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      473
+    ],
+    "intersections": [
+      446
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 4,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9696180555555556,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1127
+    ],
+    "intersections": [
+      1117
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 4,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.9628378378378378,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      296
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 4,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.8914728682170543,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      120
+    ],
+    "intersections": [
+      115
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 5,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.7965779467680608,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      480
+    ],
+    "intersections": [
+      419
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 5,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9288164665523156,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      1107
+    ],
+    "intersections": [
+      1083
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 5,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.9047619047619048,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      315
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 5,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.7894736842105263,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      114
+    ],
+    "intersections": [
+      105
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 6,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.8142292490118577,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      453
+    ],
+    "intersections": [
+      412
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 6,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9438687392055267,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1109
+    ],
+    "intersections": [
+      1093
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 6,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.8823529411764706,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      323
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 6,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.8214285714285714,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      131
+    ],
+    "intersections": [
+      115
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 7,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.8214971209213052,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      484
+    ],
+    "intersections": [
+      428
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 7,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9304495335029687,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1134
+    ],
+    "intersections": [
+      1097
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 7,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.935374149659864,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      284
+    ],
+    "intersections": [
+      275
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 7,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.7894736842105263,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      114
+    ],
+    "intersections": [
+      105
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 8,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.9135802469135802,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      465
+    ],
+    "intersections": [
+      444
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 8,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.967381974248927,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      1150
+    ],
+    "intersections": [
+      1127
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 8,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.9754385964912281,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      278
+    ],
+    "intersections": [
+      278
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 8,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.9296875,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      123
+    ],
+    "intersections": [
+      119
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 9,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.845679012345679,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      432
+    ],
+    "intersections": [
+      411
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 9,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9575551782682513,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1164
+    ],
+    "intersections": [
+      1128
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 9,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.9193548387096774,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      310
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 9,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.813953488372093,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      110
+    ],
+    "intersections": [
+      105
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 10,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.8260869565217391,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      459
+    ],
+    "intersections": [
+      418
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 10,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9645941278065631,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1133
+    ],
+    "intersections": [
+      1117
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 10,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.8685015290519877,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      326
+    ],
+    "intersections": [
+      284
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 10,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.7903225806451613,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      98
+    ],
+    "intersections": [
+      98
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 11,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.6817325800376648,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      428
+    ],
+    "intersections": [
+      362
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 11,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9317988064791134,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      1124
+    ],
+    "intersections": [
+      1093
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 11,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.7938718662952646,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      359
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 11,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.7890625,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      105
+    ],
+    "intersections": [
+      101
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 12,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.8036437246963563,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      426
+    ],
+    "intersections": [
+      397
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 12,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9491525423728814,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1158
+    ],
+    "intersections": [
+      1120
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 12,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.8878504672897196,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      321
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 12,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.8076923076923077,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      111
+    ],
+    "intersections": [
+      105
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 13,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.6411214953271028,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      413
+    ],
+    "intersections": [
+      343
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 13,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9208754208754208,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1140
+    ],
+    "intersections": [
+      1094
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 13,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.776566757493188,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      367
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 13,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.7322834645669292,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      96
+    ],
+    "intersections": [
+      93
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 14,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.8471074380165289,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      429
+    ],
+    "intersections": [
+      410
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 14,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9561551433389545,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1178
+    ],
+    "intersections": [
+      1134
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 14,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.8962264150943396,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      318
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 14,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.72,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      91
+    ],
+    "intersections": [
+      90
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 15,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.8383838383838383,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      445
+    ],
+    "intersections": [
+      415
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 15,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9655765920826161,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      1142
+    ],
+    "intersections": [
+      1122
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 15,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.8823529411764706,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      323
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 15,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.8253968253968254,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      106
+    ],
+    "intersections": [
+      104
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 16,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.8821138211382114,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      461
+    ],
+    "intersections": [
+      434
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 16,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.961139896373057,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1129
+    ],
+    "intersections": [
+      1113
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 16,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.9562289562289562,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      296
+    ],
+    "intersections": [
+      284
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 16,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.8676470588235294,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      130
+    ],
+    "intersections": [
+      118
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 17,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.901840490797546,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      465
+    ],
+    "intersections": [
+      441
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 17,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.961340206185567,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1141
+    ],
+    "intersections": [
+      1119
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 17,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.9825174825174825,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      282
+    ],
+    "intersections": [
+      281
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 17,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.8947368421052632,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      128
+    ],
+    "intersections": [
+      119
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 18,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.8323471400394478,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      464
+    ],
+    "intersections": [
+      422
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 18,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9493562231759657,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1129
+    ],
+    "intersections": [
+      1106
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 18,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.9313725490196079,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      306
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 18,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.8257575757575758,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      117
+    ],
+    "intersections": [
+      109
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 19,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.816793893129771,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      487
+    ],
+    "intersections": [
+      428
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 19,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.931740614334471,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      1122
+    ],
+    "intersections": [
+      1092
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 19,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.9482758620689655,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      280
+    ],
+    "intersections": [
+      275
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 19,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.8592592592592593,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      127
+    ],
+    "intersections": [
+      116
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 20,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.8964803312629399,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      451
+    ],
+    "intersections": [
+      433
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 20,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9765828274067649,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1137
+    ],
+    "intersections": [
+      1126
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 20,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.9253246753246753,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      308
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 20,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.8625954198473282,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      120
+    ],
+    "intersections": [
+      113
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 21,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.8605577689243028,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      469
+    ],
+    "intersections": [
+      432
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 21,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9559585492227979,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1123
+    ],
+    "intersections": [
+      1107
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 21,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.9344262295081968,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      305
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 21,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.8409090909090909,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      119
+    ],
+    "intersections": [
+      111
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 22,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.8140417457305503,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      491
+    ],
+    "intersections": [
+      429
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 22,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.941929974380871,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1132
+    ],
+    "intersections": [
+      1103
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 22,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.9283387622149837,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      307
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 22,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.68,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      86
+    ],
+    "intersections": [
+      85
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 23,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.8712871287128713,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      480
+    ],
+    "intersections": [
+      440
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 23,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9551724137931035,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1126
+    ],
+    "intersections": [
+      1108
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 23,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.9590443686006825,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      289
+    ],
+    "intersections": [
+      281
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 23,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.8846153846153846,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      121
+    ],
+    "intersections": [
+      115
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 24,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.806841046277666,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      433
+    ],
+    "intersections": [
+      401
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 24,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9512820512820512,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      1141
+    ],
+    "intersections": [
+      1113
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 24,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.8850931677018633,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      322
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 24,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.8914728682170543,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      120
+    ],
+    "intersections": [
+      115
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 25,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.9182389937106918,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      450
+    ],
+    "intersections": [
+      438
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 25,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9759036144578314,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1154
+    ],
+    "intersections": [
+      1134
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 25,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.9693877551020408,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      294
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 25,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.9206349206349206,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      118
+    ],
+    "intersections": [
+      116
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 26,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.8373983739837398,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      439
+    ],
+    "intersections": [
+      412
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 26,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9463667820069204,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1108
+    ],
+    "intersections": [
+      1094
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 26,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.890625,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      320
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 26,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.7727272727272727,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      149
+    ],
+    "intersections": [
+      119
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 27,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.8624229979466119,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      442
+    ],
+    "intersections": [
+      420
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 27,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9564102564102565,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      1147
+    ],
+    "intersections": [
+      1119
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 27,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.9496644295302014,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      296
+    ],
+    "intersections": [
+      283
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 27,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.8478260869565217,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      131
+    ],
+    "intersections": [
+      117
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 28,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.8167330677290837,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      447
+    ],
+    "intersections": [
+      410
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 28,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.9502145922746781,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1130
+    ],
+    "intersections": [
+      1107
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 28,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.8823529411764706,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      323
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 28,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.8320610687022901,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      116
+    ],
+    "intersections": [
+      109
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 29,
+    "reference_cluster": 0,
+    "reference_size": 465,
+    "best_jaccard": 0.3826771653543307,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      413
+    ],
+    "intersections": [
+      243
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 29,
+    "reference_cluster": 1,
+    "reference_size": 1142,
+    "best_jaccard": 0.8624472573839662,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1065
+    ],
+    "intersections": [
+      1022
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 29,
+    "reference_cluster": 2,
+    "reference_size": 285,
+    "best_jaccard": 0.6129032258064516,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      465
+    ],
+    "intersections": [
+      285
+    ]
+  },
+  {
+    "model": "sw_constrained_huber75",
+    "draw": 29,
+    "reference_cluster": 3,
+    "reference_size": 124,
+    "best_jaccard": 0.5887096774193549,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      73
+    ],
+    "intersections": [
+      73
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 0,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.4058219178082192,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      391
+    ],
+    "intersections": [
+      237
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 0,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.87893864013267,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1107
+    ],
+    "intersections": [
+      1060
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 0,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.6696035242290749,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      454
+    ],
+    "intersections": [
+      304
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 0,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.5203252032520326,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      64
+    ],
+    "intersections": [
+      64
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 1,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.8245967741935484,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      475
+    ],
+    "intersections": [
+      409
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 1,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.937447168216399,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1133
+    ],
+    "intersections": [
+      1109
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 1,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9383116883116883,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      293
+    ],
+    "intersections": [
+      289
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 1,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.8307692307692308,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      115
+    ],
+    "intersections": [
+      108
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 2,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.8696581196581197,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      445
+    ],
+    "intersections": [
+      407
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 2,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9576271186440678,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      1151
+    ],
+    "intersections": [
+      1130
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 2,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9607843137254902,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      296
+    ],
+    "intersections": [
+      294
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 2,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.9,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      124
+    ],
+    "intersections": [
+      117
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 3,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.49740932642487046,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      437
+    ],
+    "intersections": [
+      288
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 3,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.8933669185558354,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1096
+    ],
+    "intersections": [
+      1064
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 3,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.7290167865707434,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      417
+    ],
+    "intersections": [
+      304
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 3,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.5365853658536586,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      66
+    ],
+    "intersections": [
+      66
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 4,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.8795698924731182,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      444
+    ],
+    "intersections": [
+      409
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 4,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9616695059625213,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1144
+    ],
+    "intersections": [
+      1129
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 4,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9615384615384616,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      308
+    ],
+    "intersections": [
+      300
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 4,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.8692307692307693,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      120
+    ],
+    "intersections": [
+      113
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 5,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.8070866141732284,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      488
+    ],
+    "intersections": [
+      410
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 5,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9236641221374046,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      1109
+    ],
+    "intersections": [
+      1089
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 5,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9478827361563518,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      294
+    ],
+    "intersections": [
+      291
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 5,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.8102189781021898,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      125
+    ],
+    "intersections": [
+      111
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 6,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.8200836820083682,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      440
+    ],
+    "intersections": [
+      392
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 6,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9391891891891891,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1137
+    ],
+    "intersections": [
+      1112
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 6,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9353846153846154,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      325
+    ],
+    "intersections": [
+      304
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 6,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.8091603053435115,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      114
+    ],
+    "intersections": [
+      106
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 7,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.8284518828451883,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      444
+    ],
+    "intersections": [
+      396
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 7,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9354568315171836,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1150
+    ],
+    "intersections": [
+      1116
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 7,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9614147909967846,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      306
+    ],
+    "intersections": [
+      299
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 7,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.7969924812030075,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      116
+    ],
+    "intersections": [
+      106
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 8,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.8886509635974305,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      452
+    ],
+    "intersections": [
+      415
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 8,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9618320610687023,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      1154
+    ],
+    "intersections": [
+      1134
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 8,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9773462783171522,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      307
+    ],
+    "intersections": [
+      302
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 8,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.8225806451612904,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      103
+    ],
+    "intersections": [
+      102
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 9,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.8776824034334764,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      445
+    ],
+    "intersections": [
+      409
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 9,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.95787700084246,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1165
+    ],
+    "intersections": [
+      1137
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 9,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9644012944983819,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      303
+    ],
+    "intersections": [
+      298
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 9,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.808,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      103
+    ],
+    "intersections": [
+      101
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 10,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.48760330578512395,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      470
+    ],
+    "intersections": [
+      295
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 10,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.8848122866894198,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1050
+    ],
+    "intersections": [
+      1037
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 10,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.7069767441860465,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      430
+    ],
+    "intersections": [
+      304
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 10,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.5365853658536586,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      66
+    ],
+    "intersections": [
+      66
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 11,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.5700934579439252,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      410
+    ],
+    "intersections": [
+      305
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 11,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9118387909319899,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      1118
+    ],
+    "intersections": [
+      1086
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 11,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.7432762836185819,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      409
+    ],
+    "intersections": [
+      304
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 11,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.6422764227642277,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      79
+    ],
+    "intersections": [
+      79
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 12,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.423785594639866,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      420
+    ],
+    "intersections": [
+      253
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 12,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.8771929824561403,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1088
+    ],
+    "intersections": [
+      1050
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 12,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.6831460674157304,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      445
+    ],
+    "intersections": [
+      304
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 12,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.5121951219512195,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      63
+    ],
+    "intersections": [
+      63
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 13,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.4091680814940577,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      400
+    ],
+    "intersections": [
+      241
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 13,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.8771784232365145,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1103
+    ],
+    "intersections": [
+      1057
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 13,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.6755555555555556,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      450
+    ],
+    "intersections": [
+      304
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 13,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.5121951219512195,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      63
+    ],
+    "intersections": [
+      63
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 14,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.8322981366459627,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      455
+    ],
+    "intersections": [
+      402
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 14,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9495374264087468,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1159
+    ],
+    "intersections": [
+      1129
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 14,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9380804953560371,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      322
+    ],
+    "intersections": [
+      303
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 14,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.6504065040650406,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      80
+    ],
+    "intersections": [
+      80
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 15,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.84375,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      455
+    ],
+    "intersections": [
+      405
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 15,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9525423728813559,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      1145
+    ],
+    "intersections": [
+      1124
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 15,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9351851851851852,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      323
+    ],
+    "intersections": [
+      303
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 15,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.7560975609756098,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      93
+    ],
+    "intersections": [
+      93
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 16,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.8346774193548387,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      480
+    ],
+    "intersections": [
+      414
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 16,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9413763806287171,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1126
+    ],
+    "intersections": [
+      1108
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 16,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9444444444444444,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      291
+    ],
+    "intersections": [
+      289
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 16,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.890625,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      119
+    ],
+    "intersections": [
+      114
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 17,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.8461538461538461,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      482
+    ],
+    "intersections": [
+      418
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 17,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9412751677852349,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1155
+    ],
+    "intersections": [
+      1122
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 17,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9245901639344263,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      283
+    ],
+    "intersections": [
+      282
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 17,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.752,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      96
+    ],
+    "intersections": [
+      94
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 18,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.5060240963855421,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      445
+    ],
+    "intersections": [
+      294
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 18,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.8980623420387531,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1094
+    ],
+    "intersections": [
+      1066
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 18,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.7307692307692307,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      416
+    ],
+    "intersections": [
+      304
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 18,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.4959349593495935,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      61
+    ],
+    "intersections": [
+      61
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 19,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.77882797731569,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      511
+    ],
+    "intersections": [
+      412
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 19,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9141886151231946,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      1094
+    ],
+    "intersections": [
+      1076
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 19,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9448051948051948,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      295
+    ],
+    "intersections": [
+      291
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 19,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.8527131782945736,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      116
+    ],
+    "intersections": [
+      110
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 20,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.8297413793103449,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      419
+    ],
+    "intersections": [
+      385
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 20,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9509721048182587,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1149
+    ],
+    "intersections": [
+      1125
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 20,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.926829268292683,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      328
+    ],
+    "intersections": [
+      304
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 20,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.8692307692307693,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      120
+    ],
+    "intersections": [
+      113
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 21,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.8466257668711656,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      473
+    ],
+    "intersections": [
+      414
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 21,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9464285714285714,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1130
+    ],
+    "intersections": [
+      1113
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 21,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9278688524590164,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      284
+    ],
+    "intersections": [
+      283
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 21,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.8394160583941606,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      129
+    ],
+    "intersections": [
+      115
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 22,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.7963709677419355,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      461
+    ],
+    "intersections": [
+      395
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 22,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9403361344537815,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1150
+    ],
+    "intersections": [
+      1119
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 22,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9063444108761329,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      327
+    ],
+    "intersections": [
+      300
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 22,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.6209677419354839,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      78
+    ],
+    "intersections": [
+      77
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 23,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.8725701943844493,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      437
+    ],
+    "intersections": [
+      404
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 23,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9550847457627119,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1148
+    ],
+    "intersections": [
+      1127
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 23,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9676375404530745,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      304
+    ],
+    "intersections": [
+      299
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 23,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.8796992481203008,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      127
+    ],
+    "intersections": [
+      117
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 24,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.5128205128205128,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      396
+    ],
+    "intersections": [
+      280
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 24,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9042016806722689,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      1107
+    ],
+    "intersections": [
+      1076
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 24,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.7152941176470589,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      425
+    ],
+    "intersections": [
+      304
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 24,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.7154471544715447,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      88
+    ],
+    "intersections": [
+      88
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 25,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.8868778280542986,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      404
+    ],
+    "intersections": [
+      392
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 25,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9754028837998303,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1170
+    ],
+    "intersections": [
+      1150
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 25,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9382716049382716,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      324
+    ],
+    "intersections": [
+      304
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 25,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.928,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      118
+    ],
+    "intersections": [
+      116
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 26,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.8008048289738431,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      465
+    ],
+    "intersections": [
+      398
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 26,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9286314021830394,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1138
+    ],
+    "intersections": [
+      1106
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 26,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9288025889967637,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      292
+    ],
+    "intersections": [
+      287
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 26,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.8345864661654135,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      121
+    ],
+    "intersections": [
+      111
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 27,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.823170731707317,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      467
+    ],
+    "intersections": [
+      405
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 27,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9473237043330501,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      1133
+    ],
+    "intersections": [
+      1115
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 27,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9250814332247557,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      287
+    ],
+    "intersections": [
+      284
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 27,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.8394160583941606,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      129
+    ],
+    "intersections": [
+      115
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 28,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.8315789473684211,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      440
+    ],
+    "intersections": [
+      395
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 28,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.9441151566469094,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      1137
+    ],
+    "intersections": [
+      1115
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 28,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.9411764705882353,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      323
+    ],
+    "intersections": [
+      304
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 28,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.8244274809160306,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      116
+    ],
+    "intersections": [
+      108
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 29,
+    "reference_cluster": 0,
+    "reference_size": 430,
+    "best_jaccard": 0.3680241327300151,
+    "matched_labels": [
+      3
+    ],
+    "matched_sizes": [
+      477
+    ],
+    "intersections": [
+      244
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 29,
+    "reference_cluster": 1,
+    "reference_size": 1159,
+    "best_jaccard": 0.83150800336984,
+    "matched_labels": [
+      1
+    ],
+    "matched_sizes": [
+      1015
+    ],
+    "intersections": [
+      987
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 29,
+    "reference_cluster": 2,
+    "reference_size": 304,
+    "best_jaccard": 0.6565874730021598,
+    "matched_labels": [
+      2
+    ],
+    "matched_sizes": [
+      463
+    ],
+    "intersections": [
+      304
+    ]
+  },
+  {
+    "model": "sw_constrained_ordinary",
+    "draw": 29,
+    "reference_cluster": 3,
+    "reference_size": 123,
+    "best_jaccard": 0.4959349593495935,
+    "matched_labels": [
+      0
+    ],
+    "matched_sizes": [
+      61
+    ],
+    "intersections": [
+      61
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "protocol_sha256": "cc2e747b0b85f0ead1864b4a8e6798642be969d60055c429fe0831bfedd0b128",
+  "fitted_region_count": 72,
+  "prediction_entities": 1797,
+  "elapsed_seconds": 483.70831600000383,
+  "results_sha256": "dcfb36c245c76548aab666a2d702d09b7eb683789adf8bf6eae145de94caec92",
+  "predictions_sha256": "e3cb45292e9090cd0416a5f2eb6e1d1cfa3e3213c2a144ecd2e387557e286e32"
+}

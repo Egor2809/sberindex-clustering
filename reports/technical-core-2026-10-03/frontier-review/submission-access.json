@@ -1,0 +1,17 @@
+{
+  "anonymous_checks": [
+    {
+      "url": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+      "status": 404,
+      "checked_at": "2026-10-03T13:41:09.323195+00:00"
+    },
+    {
+      "url": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+      "status": 404,
+      "checked_at": "2026-10-03T13:41:09.949464+00:00"
+    }
+  ],
+  "status": "UNVERIFIED",
+  "private_repository_intent_preserved": true,
+  "jury_authenticated_view_access_checked": false
+}

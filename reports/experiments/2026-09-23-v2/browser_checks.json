@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "page_errors": [],
+  "neighbour_count": 15,
+  "exclusion_changed_ranking": true,
+  "preservation_text": "Сохранилось в топ-15: 11 из 15",
+  "neighbour_navigation": true,
+  "validation_coverage_fallback": true,
+  "consensus_scope_verified": true,
+  "mobile": {
+    "width": 390,
+    "scroll": 390
+  }
+}

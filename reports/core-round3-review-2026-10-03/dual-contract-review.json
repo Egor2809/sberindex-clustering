@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "Independent end-to-end adversarial A/R semantics; no data fit or causal/future guarantee",
+  "paired_median": 0.09999999999999964,
+  "population_median_difference": -9.8,
+  "row_pairing_permutation_fixed_packet_query_batch": "PASS",
+  "partial_denominator_and_below80percent": "PASS",
+  "ambiguous_box_keeps_representative_label_but_no_certificate": "PASS",
+  "unbounded_missing_malformed_R_preserves_A": "PASS",
+  "incomplete_target_year": "PASS",
+  "independent_order_statistic_cases": 4,
+  "independent_certificate_vertices": 384,
+  "stable_boxes": 12,
+  "source_sha256": "6bd0b1f778d4803c107e7ca8cc0114fd45d3512ab00d64f051d9f2050c045dec",
+  "oracle_sha256": "2d6f93ee7101aa2083d2e4bfb8f7ba3ba226856ba5effa7b7f1d972117c137ef"
+}

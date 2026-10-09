@@ -1,0 +1,16 @@
+test_centered_error_loss_invariant_to_arbitrary_region_offsets (test_economic_generalization.EconomicGeneralizationTests) ... ok
+test_controlled_duplicate_columns_do_not_create_false_rank (test_economic_generalization.EconomicGeneralizationTests) ... ok
+test_fold_scaler_matches_other_region_raw_months (test_economic_generalization.EconomicGeneralizationTests) ... ok
+test_missing_outcomes_cannot_remove_expense_fit_entities (test_economic_generalization.EconomicGeneralizationTests) ... ok
+test_nonfinite_probe_and_unpaired_prediction_rejected (test_economic_generalization.EconomicGeneralizationTests) ... ok
+test_paired_intervals_are_symmetric_and_singletons_excluded_only_from_centered_loss (test_economic_generalization.EconomicGeneralizationTests) ... ok
+test_posix_priority_has_no_windows_constant_dependency (test_economic_generalization.EconomicGeneralizationTests) ... ok
+test_quadratic_uses_training_scale_and_additive_dummies (test_economic_generalization.EconomicGeneralizationTests) ... ok
+test_reject_degenerate_iqr_nonfinite_unknown_fold_and_region_identity (test_economic_generalization.EconomicGeneralizationTests) ... ok
+test_unknown_type_is_encoded_without_test_fitted_vocabulary (test_economic_generalization.EconomicGeneralizationTests) ... ok
+test_windows_priority_uses_platform_constant (test_economic_generalization.EconomicGeneralizationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.146s
+
+OK

@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-03T13:52:20.169031+00:00",
+  "status": "fixed_before_any_effect_or_predictionfit",
+  "models": [
+    "historical_kmeans4",
+    "sw_constrained_huber75",
+    "sw_constrained_ordinary"
+  ],
+  "frozen_labels_sha256": "195e2fdf748e7dae8d3dcafb7515ec70b56896f5ac252e8cd5a355deaa771a70",
+  "mechanistic_controls": [
+    "mean_jlog(category_j/total), projectbefore annualmedian",
+    "logcategory_j-minus-mean_jlogcategory, projectbefore annualmedian"
+  ],
+  "source_code_validity_rule": "Exclude sourcehistoricalcode outsideinclusive from/toyear; sourceyearmetadata itself canbe inconsistent; preserveexclusions. Exactobservedcode neverreplacedbystablecode.",
+  "continuous_comparator": "exact common frozen2016x5consumer featurematrix; labels arefunctionoftheseinputs, noinformationtheoretic gainclaimed",
+  "changes": "Added denominatorcommon-factor challenge afterresearchrisk identified, beforefirstoutcomefit;3candidate labels selectedbeforeoutcomeinspection."
+}

@@ -1,0 +1,51 @@
+{
+  "frozen_at_utc": "2026-09-23T12:40:25.192301+00:00",
+  "selection_data_end": "2023-12-01",
+  "holdout_evaluated_before_freeze": false,
+  "selected_candidate": {
+    "id": "kmeans_k4",
+    "method": "kmeans",
+    "k": 4
+  },
+  "seed": 1729,
+  "representation": "per-feature median of 12 monthly standardized log ratios in 2023",
+  "graph_k": 15,
+  "selection_scope": "Chosen on the development set after comparing the prespecified grid; not a preregistered universal optimum.",
+  "reason": [
+    "K=4 has highest annual silhouette among candidates with no cluster smaller than 20 territories (0.2402). Global spectral K=4 has 0.3624 but minimum cluster size 8.",
+    "Monthly KMeans K=4 silhouette 0.2425-0.2526 supports the coarse profile partition.",
+    "Month-block ARI median 0.8875, range 0.6921-0.9449 in six development perturbations; seed ARI 0.9901-0.9983.",
+    "Feature omission sensitivity remains material (ARI 0.3225-0.8189) and must be shown, not hidden.",
+    "Continuous profile and temporal-consensus peers remain distinct alternatives; the holdout will test their utility against hard clusters."
+  ],
+  "development_runs": [
+    "research-20260923T123427735210Z",
+    "research-20260923T123523157700Z",
+    "research-20260923T123755575253Z"
+  ],
+  "holdout_plan": {
+    "year": 2024,
+    "fixed_prototypes": true,
+    "peers": [
+      "profile_15",
+      "level_15",
+      "geographic_15",
+      "cluster_profile_15",
+      "region_all",
+      "random_15",
+      "temporal_consensus_15"
+    ],
+    "targets": [
+      "annual profile discrepancy",
+      "annual total expense growth discrepancy"
+    ],
+    "market_access": "withheld descriptive external association",
+    "no_parameter_changes_after_holdout": true
+  },
+  "limitations": [
+    "K grid restricted to 4,6,8,12; no claim of globally optimal K",
+    "Complete cohort selected retrospectively using both years",
+    "2024 boundary comparability not independently cleared",
+    "Categories are modelled relative intensities, not verified additive budget shares"
+  ]
+}

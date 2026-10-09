@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "scope": "Standalone inference and comparison to current original prediction code, no fitting",
+  "legacy_labels_compared": 8064,
+  "label_checks": [
+    {
+      "year": 2023,
+      "rule": "historical_kmeans4",
+      "labels": 2016,
+      "mismatches": 0
+    },
+    {
+      "year": 2023,
+      "rule": "sw_constrained_huber75",
+      "labels": 2016,
+      "mismatches": 0
+    },
+    {
+      "year": 2024,
+      "rule": "historical_kmeans4",
+      "labels": 2016,
+      "mismatches": 0
+    },
+    {
+      "year": 2024,
+      "rule": "sw_constrained_huber75",
+      "labels": 2016,
+      "mismatches": 0
+    }
+  ],
+  "maximum_reconstruction_identity_error": 4.440892098500626e-16,
+  "minimum_weight": 0.0,
+  "platform": "Windows",
+  "new_training_runs": 0,
+  "project_changes": false,
+  "git_head": "f6758a7a924cff91823144aaff7c2a0bfe8fc9dc"
+}

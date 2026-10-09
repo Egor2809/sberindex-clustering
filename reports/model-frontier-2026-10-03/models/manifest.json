@@ -1,0 +1,10 @@
+{
+  "scientific_copy_of_original_manifest_sha256": "ba278bb478f0fe75742ea69ee6eeca80ca2300f94a4352b62d7bfea5562c4e47",
+  "files_sha256": {
+    "historical_kmeans4.json": "12e72c67cd6e2db9d3249a9211670eb04336c69fa5883cb5b1a0277496edb334",
+    "status.json": "422dbb632ca214d77851e5e26492171947025f863b084d4390df9fdb08c2f886",
+    "sw_constrained_huber75.json": "41a1071c7d35019f93218d09b6b5abc293bec3b3b4fafdc740cf2c7ac572003a",
+    "sw_constrained_ordinary.json": "c3a6ee51ba00c2825b9346e2b248710b4a8214df1bdf4a9f192cc978a055bd30",
+    "verification.json": "1989aeb064bcaf0694befac75703464e8115216529e9dd8664bcb4bb3464a148"
+  }
+}

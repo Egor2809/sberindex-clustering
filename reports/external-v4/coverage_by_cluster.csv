@@ -1,0 +1,9 @@
+subset,cluster,n,regions,market_observed,market_missing,median_market_access,median_expense_2023
+all,0,644,68,643,1,308.9,24176.0
+all,1,859,61,859,0,324.4,20202.0
+all,2,386,55,385,1,413.7,40301.5
+all,3,127,25,117,10,139.3,29848.5
+without_moscow_petersburg_intracity,0,639,66,638,1,308.5,24130.5
+without_moscow_petersburg_intracity,1,858,60,858,0,324.29999999999995,20197.0
+without_moscow_petersburg_intracity,2,150,53,149,1,327.3,32021.75
+without_moscow_petersburg_intracity,3,127,25,117,10,139.3,29848.5

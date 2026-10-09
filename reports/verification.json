@@ -1,0 +1,16 @@
+{
+  "unit_tests": 23,
+  "unit_tests_passed": 23,
+  "clean_checkout_without_csv": true,
+  "panel_hash_equal": true,
+  "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+  "graph_count": 24,
+  "model_fitting_executed": true,
+  "browser_visual_QA": "not_completed",
+  "dashboard_js_syntax": true,
+  "disabled_cli_created_no_run": true,
+  "source_unpack_smoke": true,
+  "method_month_partitions": 9,
+  "experiment_report": "reports/experiments/2026-09-23/README.md",
+  "historical_scope": "Initial pilot verification, archived; see reports/contest-v3/verification.json for current release"
+}

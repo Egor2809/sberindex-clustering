@@ -1,0 +1,203 @@
+{
+  "browser": "chrome",
+  "baseline": false,
+  "checks": [
+    {
+      "name": "no_native_map_titles",
+      "pass": true
+    },
+    {
+      "name": "hover_disabled_by_default_zoom_1",
+      "pass": true
+    },
+    {
+      "name": "real_pointer_click_zoom_1",
+      "pass": true,
+      "details": {
+        "expected": "457"
+      }
+    },
+    {
+      "name": "selection_preserves_view_zoom_1",
+      "pass": true,
+      "details": {
+        "before": [
+          0,
+          0,
+          1000,
+          420
+        ],
+        "after": [
+          0,
+          0,
+          1000,
+          420
+        ]
+      }
+    },
+    {
+      "name": "hover_disabled_by_default_zoom_2",
+      "pass": true
+    },
+    {
+      "name": "real_pointer_click_zoom_2",
+      "pass": true,
+      "details": {
+        "expected": "61"
+      }
+    },
+    {
+      "name": "selection_preserves_view_zoom_2",
+      "pass": true,
+      "details": {
+        "before": [
+          250,
+          105,
+          500,
+          210
+        ],
+        "after": [
+          250,
+          105,
+          500,
+          210
+        ]
+      }
+    },
+    {
+      "name": "hover_disabled_by_default_zoom_4",
+      "pass": true
+    },
+    {
+      "name": "real_pointer_click_zoom_4",
+      "pass": true,
+      "details": {
+        "expected": "1085"
+      }
+    },
+    {
+      "name": "selection_preserves_view_zoom_4",
+      "pass": true,
+      "details": {
+        "before": [
+          375,
+          157.5,
+          250,
+          105
+        ],
+        "after": [
+          375,
+          157.5,
+          250,
+          105
+        ]
+      }
+    },
+    {
+      "name": "hover_disabled_by_default_zoom_8",
+      "pass": true
+    },
+    {
+      "name": "real_pointer_click_zoom_8",
+      "pass": true,
+      "details": {
+        "expected": "1367"
+      }
+    },
+    {
+      "name": "selection_preserves_view_zoom_8",
+      "pass": true,
+      "details": {
+        "before": [
+          437.5,
+          183.75,
+          125,
+          52.5
+        ],
+        "after": [
+          437.5,
+          183.75,
+          125,
+          52.5
+        ]
+      }
+    },
+    {
+      "name": "dropdown_selection_preserves_zoom",
+      "pass": true,
+      "details": {
+        "before": [
+          437.5,
+          183.75,
+          125,
+          52.5
+        ],
+        "after": [
+          437.5,
+          183.75,
+          125,
+          52.5
+        ]
+      }
+    },
+    {
+      "name": "pan_tracks_cursor_within_one_pixel",
+      "pass": true,
+      "details": {
+        "errorX": 0.00003416878836048909,
+        "errorY": -0.000025081634522194918
+      }
+    },
+    {
+      "name": "drag_does_not_select",
+      "pass": true
+    },
+    {
+      "name": "no_text_selection_after_drag",
+      "pass": true
+    },
+    {
+      "name": "year_and_mode_preserve_pan",
+      "pass": true
+    },
+    {
+      "name": "opt_in_hover_shows_description",
+      "pass": true
+    },
+    {
+      "name": "opt_out_hides_and_removes_tooltip",
+      "pass": true
+    },
+    {
+      "name": "keyboard_arrow_and_enter_select",
+      "pass": true
+    },
+    {
+      "name": "secondary_pointer_does_not_move_drag",
+      "pass": true
+    },
+    {
+      "name": "pointercancel_releases_drag",
+      "pass": true
+    },
+    {
+      "name": "mobile_no_horizontal_overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile_real_touch_selects_zoomed_municipality",
+      "pass": true
+    },
+    {
+      "name": "mobile_touch_preserves_zoom",
+      "pass": true
+    },
+    {
+      "name": "no_javascript_errors",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

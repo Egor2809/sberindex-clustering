@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "fixed_before_new_inductive_fits": true,
+  "primary_outcome": "log_annual_monthly_wage_rubles",
+  "clustering": {
+    "baseline": {
+      "id": "historical_architecture_kmeans4",
+      "k": 4,
+      "min_fraction": 0.03
+    },
+    "huber75": {
+      "id": "fixed_architecture_huber75",
+      "k": 4,
+      "min_fraction": 0.03,
+      "huber_quantile": 0.75,
+      "tune_silhouette": true,
+      "max_passes": 8,
+      "min_ch_ratio": 0.95
+    },
+    "seed": 1729
+  },
+  "learner_kinds": [
+    "linear",
+    "quadratic",
+    "histogram"
+  ],
+  "histogram": {
+    "max_iter": 150,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.05,
+    "early_stopping": false,
+    "random_state": 20261003
+  },
+  "controls": "municipal type(training-only vocabulary),log2023population,logmedian2023totalexpenses",
+  "quadratic": "all degree2 main/interaction terms for continuous numeric predictors; cluster/type dummies additive",
+  "feature_calibration": "median/IQR over2023monthlyX of all OTHER-region expense entities, including missing outcomes",
+  "clustering_initialization": "KMeans20starts seed1729 on other regions only; H75 init just-fitted other-region KMeans",
+  "selection": "Fixed previouslyselected architectures; no economic outcome selection/tuning. No national fitted labels used.",
+  "historical_architecture_caveat": "The architecture itself was chosen after inspecting national2023X; heldoutregion influences that historical architecture choice. New fits are inductive conditional on fixed architecture, not full selection-process independence.",
+  "cohort": "Frozen2016complete2023-24expense-panel entities, retrospectively selected; nonrandom external outcome missingness",
+  "forecast2024": "Every economic learner fits2023other-region wages; apply SAME2023covariates/features/labels to predict2024heldoutregion wage. No2024X or2024y calibration/refitting. 2024was inspected previously; exploratory forecast backtest.",
+  "metrics": "same paired cohort eachlearner; municipalityRMSE, equalregionMSE, equalregion withinregion centerederror samplevariance (evaluation only)",
+  "uncertainty": "1999 paired region bootstrap conditional on fixed OOF predictions; dependent overlapping fits/spatial regions mean no generic inferential95coverage guarantee; no conditionalpvalue",
+  "input_sha256": {
+    "data\\processed\\panel.csv": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+    "reports\\external-national-2026-10-03\\frozen-labels.json": "195e2fdf748e7dae8d3dcafb7515ec70b56896f5ac252e8cd5a355deaa771a70",
+    "reports\\external-national-2026-10-03\\cohort-2023.csv": "dcfcf2ac0af503d696f9492bc8c1bc4e38977cc2bd1b6c12da66463f761d9c62",
+    "reports\\external-national-2026-10-03\\cohort-2024.csv": "0c26468eb64f2ed21d16d71faef998f9cdb3a9e69960a7c016737d402b262a07"
+  },
+  "source_sha256": {
+    "sbercluster/economic_generalization.py": "d3a563f6db2ec3f1901a8aa8b3dc08fceb4eb83a02062c41d83bd5b042bcd55a",
+    "scripts/validate_economic_generalization.py": "193c3aed2e96935fad1b262bb157befb179d9f54012c7cdcbd5c8243c706957a",
+    "sbercluster/selection_frontier.py": "0bcd8604fca0855d74bc60a6f600cd9c5cfd13894918795ace242e15cf797576"
+  }
+}

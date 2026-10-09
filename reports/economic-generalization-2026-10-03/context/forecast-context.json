@@ -1,0 +1,172 @@
+{
+  "status": "contextual_comparator_different_information_set",
+  "training_outcome_year": 2023,
+  "scoring_outcome_year": 2024,
+  "n": 1678,
+  "regions": 68,
+  "persistence_definition": "prediction2024=observed2023municipalwage;no2024information",
+  "fairness_limit": "Persistence uses heldout municipality2023wage, withheld from main expense-only learners; contextual benchmark, not same-information architecture comparison. Both years inspected and as-of data availability not verified.",
+  "excluded2024_source_wage_entities_missing2023controls": [
+    "tid_1421",
+    "tid_1431",
+    "tid_1438"
+  ],
+  "scores": [
+    {
+      "predictor": "wage2023_persistence_extra_information",
+      "n": 1678,
+      "regions": 68,
+      "municipality_rmse": 0.17824060124475669,
+      "municipality_mae": 0.17269492146888052,
+      "equal_region_mse": 0.030729388892315395,
+      "equal_region_centered_error_sample_variance": 0.0020770396792908893,
+      "equal_region_mean_error": 0.1673596342073223,
+      "regions_with_pairs": 67,
+      "comparisons": {
+        "wage2023_persistence_extra_information": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "histogram_continuous5_expense_only": {
+          "equal_region_mse_improvement": 0.027826688654834234,
+          "conditional_region_bootstrap_95": [
+            0.018722349623486303,
+            0.0384480668246655
+          ],
+          "equal_region_centered_error_variance_improvement": 0.021113286215538197,
+          "conditional_centered_region_bootstrap_95": [
+            0.017496058578634666,
+            0.025056155783937682
+          ],
+          "region_fraction_improved_mse": 0.75
+        },
+        "histogram_huber75_expense_only": {
+          "equal_region_mse_improvement": 0.028847396301856287,
+          "conditional_region_bootstrap_95": [
+            0.0187270117146448,
+            0.04087464609436213
+          ],
+          "equal_region_centered_error_variance_improvement": 0.021458039920819183,
+          "conditional_centered_region_bootstrap_95": [
+            0.017729841900434112,
+            0.025391327463924585
+          ],
+          "region_fraction_improved_mse": 0.7352941176470589
+        }
+      }
+    },
+    {
+      "predictor": "histogram_continuous5_expense_only",
+      "n": 1678,
+      "regions": 68,
+      "municipality_rmse": 0.24254438323415348,
+      "municipality_mae": 0.1921939665579694,
+      "equal_region_mse": 0.058556077547149636,
+      "equal_region_centered_error_sample_variance": 0.023190325894829084,
+      "equal_region_mean_error": 0.16833177154284612,
+      "regions_with_pairs": 67,
+      "comparisons": {
+        "wage2023_persistence_extra_information": {
+          "equal_region_mse_improvement": -0.027826688654834234,
+          "conditional_region_bootstrap_95": [
+            -0.0384480668246655,
+            -0.018722349623486307
+          ],
+          "equal_region_centered_error_variance_improvement": -0.021113286215538197,
+          "conditional_centered_region_bootstrap_95": [
+            -0.025056155783937682,
+            -0.017496058578634666
+          ],
+          "region_fraction_improved_mse": 0.25
+        },
+        "histogram_continuous5_expense_only": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "histogram_huber75_expense_only": {
+          "equal_region_mse_improvement": 0.0010207076470220488,
+          "conditional_region_bootstrap_95": [
+            -0.003531604056392441,
+            0.005332759094771117
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00034475370528098194,
+          "conditional_centered_region_bootstrap_95": [
+            -0.001224495957990091,
+            0.0020280589618022252
+          ],
+          "region_fraction_improved_mse": 0.5441176470588235
+        }
+      }
+    },
+    {
+      "predictor": "histogram_huber75_expense_only",
+      "n": 1678,
+      "regions": 68,
+      "municipality_rmse": 0.24464165215031208,
+      "municipality_mae": 0.1933906998556122,
+      "equal_region_mse": 0.05957678519417168,
+      "equal_region_centered_error_sample_variance": 0.023535079600110066,
+      "equal_region_mean_error": 0.16734934589117495,
+      "regions_with_pairs": 67,
+      "comparisons": {
+        "wage2023_persistence_extra_information": {
+          "equal_region_mse_improvement": -0.028847396301856287,
+          "conditional_region_bootstrap_95": [
+            -0.04087464609436213,
+            -0.018727011714644803
+          ],
+          "equal_region_centered_error_variance_improvement": -0.021458039920819183,
+          "conditional_centered_region_bootstrap_95": [
+            -0.025391327463924588,
+            -0.017729841900434112
+          ],
+          "region_fraction_improved_mse": 0.2647058823529412
+        },
+        "histogram_continuous5_expense_only": {
+          "equal_region_mse_improvement": -0.0010207076470220488,
+          "conditional_region_bootstrap_95": [
+            -0.005332759094771117,
+            0.0035316040563924405
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00034475370528098194,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002028058961802226,
+            0.0012244959579900908
+          ],
+          "region_fraction_improved_mse": 0.45588235294117646
+        },
+        "histogram_huber75_expense_only": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        }
+      }
+    }
+  ]
+}

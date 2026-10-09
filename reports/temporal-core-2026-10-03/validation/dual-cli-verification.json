@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "rows_exact": 2016,
+  "label_channels_exact": 4,
+  "fitting_executed": false,
+  "cli_output_sha256": "9d3c34c2642b431e3b30f3e59ac09f2ab2063c58dfe4270c650c9ed90a5fc3a7",
+  "input_file_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+  "reference_file_sha256": "0050f89da8dac69e080e3f1845d3aa20110d8b1e4c64d165e0cf879765da57bb",
+  "source_sha256": {
+    "sbercluster/dual_profiles.py": "6bd0b1f778d4803c107e7ca8cc0114fd45d3512ab00d64f051d9f2050c045dec",
+    "scripts/predict_dual.py": "f934d30ecf37edfd37924b2169d1fbf4402312c92c69827fc9ffa879ea9a242c"
+  },
+  "confirmed_territory_transitions": 0
+}

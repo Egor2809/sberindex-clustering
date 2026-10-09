@@ -1,0 +1,9 @@
+{
+  "scope": "descriptive reassignment to existing 2023 centers; no fitting",
+  "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+  "frozen_prototypes_sha256": "95cd20e1fc4239b4d762826708e35a5af4610eb17a909c25cb85f7f78d1b1308",
+  "script_sha256": "9c2e3eafcd3ea908f927445b2b94361ce1101b30dd19724b79bab6625ad22593",
+  "analysis_sha256": "d9005350333b3dfd87881006b149be097a91d6df6afaf1f1366b8b2bed90909f",
+  "calendar_month_correction": "subtract cross-sectional median difference, then annual median",
+  "map_changes_do_not_enter_features": true
+}

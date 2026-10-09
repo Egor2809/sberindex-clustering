@@ -1,0 +1,28 @@
+[
+  {
+    "id": "calendar_only",
+    "shared_shift_retained_norm": 0.4062019202317979,
+    "exact_translation_error": 6.661338147750939e-16,
+    "shared_shift_label_changes": 141,
+    "metric_condition_number": 1.0000000000000007
+  },
+  {
+    "id": "calendar_reliability_half",
+    "shared_shift_retained_norm": 0.38910662093348014,
+    "exact_translation_error": 8.881784197001252e-16,
+    "shared_shift_label_changes": 168,
+    "metric_condition_number": 1.383903451919353
+  },
+  {
+    "id": "calendar_reliability_full",
+    "shared_shift_retained_norm": 0.3714127250337123,
+    "exact_translation_error": 8.881784197001252e-16,
+    "shared_shift_label_changes": 143,
+    "metric_condition_number": 1.9151887642343017
+  },
+  {
+    "id": "relative_context",
+    "shared_shift_removed_error": 1.1102230246251565e-16,
+    "shared_shift_reported_error": 5.551115123125783e-17
+  }
+]

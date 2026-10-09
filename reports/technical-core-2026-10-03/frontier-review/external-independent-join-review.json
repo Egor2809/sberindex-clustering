@@ -1,0 +1,88 @@
+{
+  "status": "pass",
+  "scope": "independent raw-archive row/identity/missingness audit; no author preparation helper called",
+  "years": [
+    {
+      "year": 2023,
+      "identity": {
+        "unique_2016_ids": true,
+        "registry_OKTMO_exact": true,
+        "registry_half_open_years": true,
+        "observed_8code_exact": true,
+        "all_observed_codes_8digits": true,
+        "source_inclusive_year_guard": true,
+        "no_accepted_duplicate_sector_key": true,
+        "no_accepted_wrong_period": true
+      },
+      "source_checks": [
+        {
+          "kind": "wage",
+          "source_original_rows_exact": true,
+          "rows_checked": 34472,
+          "archive_sha256": "be97ffd04f1c97344de538ac44f9e73370c43673fc337045d651c4ac7fca4ce5",
+          "member_sha256": "23c8c6635e6d7d7d2e34ef6894c0ad9f56648b2436f61802a9842c4ee080a86c"
+        },
+        {
+          "kind": "headcount",
+          "source_original_rows_exact": true,
+          "rows_checked": 25670,
+          "archive_sha256": "bd57a9f5dca4cb587ced79959de0b83b45cb41196c69b9407a7771d20f38f464",
+          "member_sha256": "e2cc8f029abd940fc301ea6f13e1c565fdd08803d626cc8e3836b3fe64858e42"
+        },
+        {
+          "kind": "population",
+          "source_original_rows_exact": true,
+          "rows_checked": 1984,
+          "archive_sha256": "8e24a30904d10bd5999fb32f9813cae19b2dc03bfcf2d1b519edcb2929f80037",
+          "member_sha256": "5941ec6ffba6b0b28c0b7fea6febe357e961787f69fba457babca1496196478e"
+        }
+      ],
+      "cohort_raw_value_max_error": 0.0,
+      "excluded_source_code_validity_rows": 4214,
+      "accepted_wrong_source_validity_rows": 0,
+      "observed_value_rows": 56672
+    },
+    {
+      "year": 2024,
+      "identity": {
+        "unique_2016_ids": true,
+        "registry_OKTMO_exact": true,
+        "registry_half_open_years": true,
+        "observed_8code_exact": true,
+        "all_observed_codes_8digits": true,
+        "source_inclusive_year_guard": true,
+        "no_accepted_duplicate_sector_key": true,
+        "no_accepted_wrong_period": true
+      },
+      "source_checks": [
+        {
+          "kind": "wage",
+          "source_original_rows_exact": true,
+          "rows_checked": 24046,
+          "archive_sha256": "be97ffd04f1c97344de538ac44f9e73370c43673fc337045d651c4ac7fca4ce5",
+          "member_sha256": "78477a030f2bc4d17d0152eaf25b9c4bcd8decabe0252154d12a3306d0d4f922"
+        },
+        {
+          "kind": "headcount",
+          "source_original_rows_exact": true,
+          "rows_checked": 23767,
+          "archive_sha256": "bd57a9f5dca4cb587ced79959de0b83b45cb41196c69b9407a7771d20f38f464",
+          "member_sha256": "cdde683ec93bd434554ad6f6c09ab13a155e5b56c74a38fd7c9d7d92670567af"
+        },
+        {
+          "kind": "population",
+          "source_original_rows_exact": true,
+          "rows_checked": 1989,
+          "archive_sha256": "8e24a30904d10bd5999fb32f9813cae19b2dc03bfcf2d1b519edcb2929f80037",
+          "member_sha256": "51c0f94db92e3b7e16b145b67c78fc1ee0367bd1b84a144711dbc2a899d688fc"
+        }
+      ],
+      "cohort_raw_value_max_error": 0.0,
+      "excluded_source_code_validity_rows": 3755,
+      "accepted_wrong_source_validity_rows": 0,
+      "observed_value_rows": 45072
+    }
+  ],
+  "failures": [],
+  "interpretation": "Exact observed eight-digit OKTMO used; source stable codes not substituted. Source snapshot remains IfTochno processing of Rosstat, with separate primary-source spot checks; conservative exclusions do not certify completeness."
+}

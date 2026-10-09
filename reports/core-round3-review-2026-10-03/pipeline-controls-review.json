@@ -1,0 +1,23 @@
+{
+  "fold_controls": {
+    "status": "PASS",
+    "prediction_variants": 9,
+    "heldout2023_all2024_outcome_mutation": "unchanged fitted probe states and predictions",
+    "expense_fit_retains_outcome_missing_training_id": "tid_18",
+    "linear_quadratic_label_renaming": "PASS"
+  },
+  "cli_controls": {
+    "status": "PASS",
+    "exact_one_read_model_and_panel": true,
+    "file_mutation_during_consumption": "pinned bytes, predictions and provenance remain bound",
+    "territory_identity_negativecases": "PASS"
+  },
+  "status": "PASS",
+  "source_sha256": {
+    "sbercluster/economic_generalization.py": "d3a563f6db2ec3f1901a8aa8b3dc08fceb4eb83a02062c41d83bd5b042bcd55a",
+    "scripts/validate_economic_generalization.py": "193c3aed2e96935fad1b262bb157befb179d9f54012c7cdcbd5c8243c706957a",
+    "sbercluster/temporal_profiles.py": "9411b33130c6c9bb808803bb3b2a888d1fee1290f594dbffeb3f5c8c55d244f1",
+    "scripts/predict_temporal.py": "e8c9307e20044a2fc7ebdec0b8079a640fe6d0b58a7d6239685b3a0046b10d5a"
+  },
+  "oracle_sha256": "e510b004f1dc5b4f669079ac839add366bbe45da825fa524b7c2d1bffea1792e"
+}

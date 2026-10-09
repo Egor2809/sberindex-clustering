@@ -1,0 +1,3 @@
+# Optional baseline; core pipeline does not require PyTorch.
+# CPU-only wheels: pip install --index-url https://download.pytorch.org/whl/cpu -r requirements-dmon.txt
+torch==2.8.0

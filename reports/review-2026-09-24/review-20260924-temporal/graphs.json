@@ -1,0 +1,22 @@
+{
+  "attribute": {
+    "k": 15,
+    "symmetry": "union",
+    "sigma": 0.18752701242227154,
+    "edges": 20479,
+    "components": 1,
+    "isolates": 0,
+    "median_strength": 10.967129328989014
+  },
+  "transport": {
+    "bandwidth_km": 98.7,
+    "k": 15,
+    "edges": 18673,
+    "components": 12,
+    "isolates": 10,
+    "mean_degree": 18.52480158730159,
+    "observed_unordered_pairs": 2007007,
+    "as_of": "2024-12-31",
+    "meaning": "road accessibility, not observed mobility or monetary flows"
+  }
+}

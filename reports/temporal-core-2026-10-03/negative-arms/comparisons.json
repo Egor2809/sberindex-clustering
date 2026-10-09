@@ -1,0 +1,98 @@
+[
+  {
+    "id": "historical_kmeans4",
+    "yearly_SW_gains2023_2024": [
+      0.0,
+      0.0
+    ],
+    "yearly_CH_ratios2023_2024": [
+      1.0,
+      1.0
+    ],
+    "ARI2023_to2024": 0.5596999549170326,
+    "changed_saved_label_indices": 380,
+    "min_yearly_fraction": 0.013392857142857142,
+    "prespecified_joint_screen_passed": false,
+    "default_promotion": false
+  },
+  {
+    "id": "sw_constrained_huber75",
+    "yearly_SW_gains2023_2024": [
+      0.02008679235929514,
+      0.013487480127485019
+    ],
+    "yearly_CH_ratios2023_2024": [
+      0.9500940982578852,
+      0.9084125244431309
+    ],
+    "ARI2023_to2024": 0.6534416059706014,
+    "changed_saved_label_indices": 295,
+    "min_yearly_fraction": 0.013888888888888888,
+    "prespecified_joint_screen_passed": false,
+    "default_promotion": false
+  },
+  {
+    "id": "sw_constrained_ordinary",
+    "yearly_SW_gains2023_2024": [
+      0.019232040187017935,
+      0.009936404403174004
+    ],
+    "yearly_CH_ratios2023_2024": [
+      0.9500420478371744,
+      0.8833699014221242
+    ],
+    "ARI2023_to2024": 0.6468358818039351,
+    "changed_saved_label_indices": 298,
+    "min_yearly_fraction": 0.013888888888888888,
+    "prespecified_joint_screen_passed": false,
+    "default_promotion": false
+  },
+  {
+    "id": "calendar_only",
+    "yearly_SW_gains2023_2024": [
+      0.0011842946821619682,
+      -0.0014075594376480316
+    ],
+    "yearly_CH_ratios2023_2024": [
+      0.9938727376701946,
+      1.0114148220899672
+    ],
+    "ARI2023_to2024": 0.6189027215188816,
+    "changed_saved_label_indices": 320,
+    "min_yearly_fraction": 0.013392857142857142,
+    "prespecified_joint_screen_passed": false,
+    "default_promotion": false
+  },
+  {
+    "id": "calendar_reliability_half",
+    "yearly_SW_gains2023_2024": [
+      -0.0034576978429920746,
+      -0.015085384333570095
+    ],
+    "yearly_CH_ratios2023_2024": [
+      0.9719371229841968,
+      0.958655315581374
+    ],
+    "ARI2023_to2024": 0.538747334459319,
+    "changed_saved_label_indices": 406,
+    "min_yearly_fraction": 0.010912698412698412,
+    "prespecified_joint_screen_passed": false,
+    "default_promotion": false
+  },
+  {
+    "id": "calendar_reliability_full",
+    "yearly_SW_gains2023_2024": [
+      -0.011017564456908185,
+      -0.035236682993297935
+    ],
+    "yearly_CH_ratios2023_2024": [
+      0.9403049026498209,
+      0.900395338668071
+    ],
+    "ARI2023_to2024": 0.5341886413771691,
+    "changed_saved_label_indices": 405,
+    "min_yearly_fraction": 0.011408730158730158,
+    "prespecified_joint_screen_passed": false,
+    "default_promotion": false
+  }
+]

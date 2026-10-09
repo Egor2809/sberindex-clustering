@@ -1,0 +1,23 @@
+{
+  "status": "launch_only_fix_accepted_without_scientific_refit",
+  "old_source_sha256": "193c3aed2e96935fad1b262bb157befb179d9f54012c7cdcbd5c8243c706957a",
+  "new_source_sha256": "69daeab36b0c8ac0ef012767ca4e29209fb05774e7ddff15a336a8110f9bde38",
+  "unchanged_scientific_function_ASTs": [
+    "digest",
+    "save_json",
+    "load_data",
+    "protocol",
+    "evaluate_fold",
+    "run"
+  ],
+  "changed_functions": [
+    "main"
+  ],
+  "new_function": "set_runtime_priority",
+  "mocked_platform_tests": [
+    "win32constant",
+    "posixnoWindowsconstant",
+    "posixnoPriorityIncrease"
+  ],
+  "actual_linux_execution": "not performed"
+}

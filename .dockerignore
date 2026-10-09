@@ -1,0 +1,10 @@
+.git
+.venv
+.local
+artifacts
+data/raw
+data/processed
+runs
+__pycache__
+AGENTS.md
+CONTINUE.md

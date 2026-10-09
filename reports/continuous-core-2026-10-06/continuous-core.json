@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "fitting_executed": false,
+  "outcome_values_read": false,
+  "label_checks": [
+    {
+      "year": 2023,
+      "model": "historical_kmeans4",
+      "labels": 2016,
+      "mismatches": 0
+    },
+    {
+      "year": 2023,
+      "model": "sw_constrained_huber75",
+      "labels": 2016,
+      "mismatches": 0
+    },
+    {
+      "year": 2024,
+      "model": "historical_kmeans4",
+      "labels": 2016,
+      "mismatches": 0
+    },
+    {
+      "year": 2024,
+      "model": "sw_constrained_huber75",
+      "labels": 2016,
+      "mismatches": 0
+    }
+  ],
+  "exact_legacy_labels": 8064,
+  "maximum_reconstruction_error": 4.440892098500626e-16,
+  "minimum_weight": 0.0,
+  "source_sha256": {
+    "sbercluster\\continuous_atlas.py": "e1958b9f91ecac8d4b7fd19dbdc4dcf5354947c7afe71c682b5dde953da57481",
+    "sbercluster\\continuous_geometry.py": "13c4883d43ee9b37fe67d83bb3323456ae0ce991447ebde69f99f059be4942d1",
+    "scripts\\predict_continuous.py": "c9da7011af721753dc02aebc310709e1adbfb4f554028a622b2917f5ae1cacd5",
+    "scripts\\verify_continuous_core.py": "c2e8c5f68a26ce64b699fa237f1bdb8bfb90cc9190fadf1a90003bcc30f3a4e9",
+    "models\\continuous_atlas.json": "6000163eb591530a6cb8135c6e3c3c0bd5e8f1ee17f7b2eaa92b38304b5bae38",
+    "data\\processed\\panel.csv": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa"
+  },
+  "cli_calls": [
+    {
+      "arguments": [
+        "scripts.predict_continuous",
+        "--model",
+        "<REPO>\\models\\continuous_atlas.json",
+        "--expected-model-sha256",
+        "6000163eb591530a6cb8135c6e3c3c0bd5e8f1ee17f7b2eaa92b38304b5bae38",
+        "--panel",
+        "<REPO>\\data\\processed\\panel.csv",
+        "--expected-panel-sha256",
+        "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+        "--year",
+        "2023",
+        "--codec",
+        "legacy_centers",
+        "--output",
+        "<TEMP>\\sbercluster-continuous-o6slh161\\2023"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"EXECUTED\", \"operation\": \"inference_only_no_fit\", \"year\": 2023, \"codec\": \"legacy_centers\", \"rows\": 2016, \"model_sha256\": \"6000163eb591530a6cb8135c6e3c3c0bd5e8f1ee17f7b2eaa92b38304b5bae38\", \"panel_sha256\": \"a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa\", \"csv_sha256\": \"62a6e05c0b0081846d18ed033c653323158ab78bb4ea50d2c1762ad1a818d16f\", \"legacy_labels_not_replaced\": true, \"territory_transition_status\": \"unresolved\", \"no_outcome_inputs\": true, \"fitting_executed\": false, \"source_code_sha256\": {\"sbercluster/continuous_atlas.py\": \"e1958b9f91ecac8d4b7fd19dbdc4dcf5354947c7afe71c682b5dde953da57481\", \"sbercluster/continuous_geometry.py\": \"13c4883d43ee9b37fe67d83bb3323456ae0ce991447ebde69f99f059be4942d1\", \"sbercluster/features.py\": \"42f9af6c3d7cd88b69e74c296fdf902d8c673ffc1a07854cb7b195314f7b0706\", \"sbercluster/selection_frontier.py\": \"0bcd8604fca0855d74bc60a6f600cd9c5cfd13894918795ace242e15cf797576\", \"sbercluster/io.py\": \"3ed7b4fb6167ad45565438709c278f4badf37aea2d1c5a96c898dd993666e479\", \"scripts/predict_continuous.py\": \"c9da7011af721753dc02aebc310709e1adbfb4f554028a622b2917f5ae1cacd5\"}, \"environment\": {\"python\": \"3.10.1\", \"packages\": {\"numpy\": \"2.2.6\", \"pandas\": \"2.2.3\", \"scipy\": \"1.14.1\", \"scikit-learn\": \"1.5.2\"}}, \"weight_semantics\": \"convex_coordinates_not_probabilities\", \"boundary_radius_semantics\": \"standardized_feature_distance_not_error_probability\"}\n",
+      "stderr": "",
+      "outcome": "SUCCESS"
+    },
+    {
+      "arguments": [
+        "scripts.predict_continuous",
+        "--model",
+        "<REPO>\\models\\continuous_atlas.json",
+        "--expected-model-sha256",
+        "6000163eb591530a6cb8135c6e3c3c0bd5e8f1ee17f7b2eaa92b38304b5bae38",
+        "--panel",
+        "<REPO>\\data\\processed\\panel.csv",
+        "--expected-panel-sha256",
+        "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+        "--year",
+        "2024",
+        "--codec",
+        "observed_core95",
+        "--output",
+        "<TEMP>\\sbercluster-continuous-o6slh161\\2024"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"EXECUTED\", \"operation\": \"inference_only_no_fit\", \"year\": 2024, \"codec\": \"observed_core95\", \"rows\": 2016, \"model_sha256\": \"6000163eb591530a6cb8135c6e3c3c0bd5e8f1ee17f7b2eaa92b38304b5bae38\", \"panel_sha256\": \"a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa\", \"csv_sha256\": \"a22fb24f308a0c22f4b3993a0755044e9c586260e17cff23614c7bf0829a8b79\", \"legacy_labels_not_replaced\": true, \"territory_transition_status\": \"unresolved\", \"no_outcome_inputs\": true, \"fitting_executed\": false, \"source_code_sha256\": {\"sbercluster/continuous_atlas.py\": \"e1958b9f91ecac8d4b7fd19dbdc4dcf5354947c7afe71c682b5dde953da57481\", \"sbercluster/continuous_geometry.py\": \"13c4883d43ee9b37fe67d83bb3323456ae0ce991447ebde69f99f059be4942d1\", \"sbercluster/features.py\": \"42f9af6c3d7cd88b69e74c296fdf902d8c673ffc1a07854cb7b195314f7b0706\", \"sbercluster/selection_frontier.py\": \"0bcd8604fca0855d74bc60a6f600cd9c5cfd13894918795ace242e15cf797576\", \"sbercluster/io.py\": \"3ed7b4fb6167ad45565438709c278f4badf37aea2d1c5a96c898dd993666e479\", \"scripts/predict_continuous.py\": \"c9da7011af721753dc02aebc310709e1adbfb4f554028a622b2917f5ae1cacd5\"}, \"environment\": {\"python\": \"3.10.1\", \"packages\": {\"numpy\": \"2.2.6\", \"pandas\": \"2.2.3\", \"scipy\": \"1.14.1\", \"scikit-learn\": \"1.5.2\"}}, \"weight_semantics\": \"convex_coordinates_not_probabilities\", \"boundary_radius_semantics\": \"standardized_feature_distance_not_error_probability\"}\n",
+      "stderr": "",
+      "outcome": "SUCCESS"
+    }
+  ],
+  "source_snapshot_stable": true,
+  "elapsed_seconds": 10.25
+}

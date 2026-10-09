@@ -1,0 +1,4292 @@
+[
+  {
+    "scenario": "random_0.05",
+    "reference_n": 2016,
+    "observed_n": 1915,
+    "coverage": 0.9499007936507936,
+    "status": "partial_reference_bounded",
+    "true_full_median_in_bounds": true,
+    "identified_point_null": true,
+    "lower": [
+      -0.056960334133682324,
+      0.3565435566382147,
+      -0.03959128266369913,
+      -0.014064658401332274,
+      -0.13114993313073217
+    ],
+    "upper": [
+      -0.042520768381803214,
+      0.3704294261166132,
+      -0.021556207899662283,
+      0.00011588928215787442,
+      -0.10366423280056059
+    ],
+    "regional_coverage": {
+      "1": {
+        "reference_n": 9,
+        "observed_valid_n": 8,
+        "coverage": 0.8888888888888888
+      },
+      "4": {
+        "reference_n": 11,
+        "observed_valid_n": 11,
+        "coverage": 1.0
+      },
+      "33": {
+        "reference_n": 18,
+        "observed_valid_n": 18,
+        "coverage": 1.0
+      },
+      "34": {
+        "reference_n": 35,
+        "observed_valid_n": 32,
+        "coverage": 0.9142857142857143
+      },
+      "35": {
+        "reference_n": 25,
+        "observed_valid_n": 24,
+        "coverage": 0.96
+      },
+      "37": {
+        "reference_n": 26,
+        "observed_valid_n": 21,
+        "coverage": 0.8076923076923077
+      },
+      "38": {
+        "reference_n": 39,
+        "observed_valid_n": 35,
+        "coverage": 0.8974358974358975
+      },
+      "39": {
+        "reference_n": 19,
+        "observed_valid_n": 19,
+        "coverage": 1.0
+      },
+      "40": {
+        "reference_n": 25,
+        "observed_valid_n": 22,
+        "coverage": 0.88
+      },
+      "42": {
+        "reference_n": 30,
+        "observed_valid_n": 28,
+        "coverage": 0.9333333333333333
+      },
+      "43": {
+        "reference_n": 43,
+        "observed_valid_n": 43,
+        "coverage": 1.0
+      },
+      "44": {
+        "reference_n": 28,
+        "observed_valid_n": 26,
+        "coverage": 0.9285714285714286
+      },
+      "45": {
+        "reference_n": 24,
+        "observed_valid_n": 24,
+        "coverage": 1.0
+      },
+      "47": {
+        "reference_n": 18,
+        "observed_valid_n": 15,
+        "coverage": 0.8333333333333334
+      },
+      "48": {
+        "reference_n": 18,
+        "observed_valid_n": 17,
+        "coverage": 0.9444444444444444
+      },
+      "49": {
+        "reference_n": 3,
+        "observed_valid_n": 3,
+        "coverage": 1.0
+      },
+      "50": {
+        "reference_n": 52,
+        "observed_valid_n": 49,
+        "coverage": 0.9423076923076923
+      },
+      "51": {
+        "reference_n": 12,
+        "observed_valid_n": 11,
+        "coverage": 0.9166666666666666
+      },
+      "52": {
+        "reference_n": 50,
+        "observed_valid_n": 43,
+        "coverage": 0.86
+      },
+      "53": {
+        "reference_n": 21,
+        "observed_valid_n": 20,
+        "coverage": 0.9523809523809523
+      },
+      "54": {
+        "reference_n": 35,
+        "observed_valid_n": 35,
+        "coverage": 1.0
+      },
+      "55": {
+        "reference_n": 33,
+        "observed_valid_n": 31,
+        "coverage": 0.9393939393939394
+      },
+      "56": {
+        "reference_n": 39,
+        "observed_valid_n": 38,
+        "coverage": 0.9743589743589743
+      },
+      "7": {
+        "reference_n": 4,
+        "observed_valid_n": 4,
+        "coverage": 1.0
+      },
+      "57": {
+        "reference_n": 21,
+        "observed_valid_n": 21,
+        "coverage": 1.0
+      },
+      "58": {
+        "reference_n": 25,
+        "observed_valid_n": 25,
+        "coverage": 1.0
+      },
+      "60": {
+        "reference_n": 22,
+        "observed_valid_n": 21,
+        "coverage": 0.9545454545454546
+      },
+      "8": {
+        "reference_n": 5,
+        "observed_valid_n": 5,
+        "coverage": 1.0
+      },
+      "62": {
+        "reference_n": 26,
+        "observed_valid_n": 23,
+        "coverage": 0.8846153846153846
+      },
+      "63": {
+        "reference_n": 36,
+        "observed_valid_n": 32,
+        "coverage": 0.8888888888888888
+      },
+      "64": {
+        "reference_n": 39,
+        "observed_valid_n": 39,
+        "coverage": 1.0
+      },
+      "9": {
+        "reference_n": 8,
+        "observed_valid_n": 5,
+        "coverage": 0.625
+      },
+      "65": {
+        "reference_n": 16,
+        "observed_valid_n": 15,
+        "coverage": 0.9375
+      },
+      "66": {
+        "reference_n": 64,
+        "observed_valid_n": 61,
+        "coverage": 0.953125
+      },
+      "67": {
+        "reference_n": 27,
+        "observed_valid_n": 26,
+        "coverage": 0.9629629629629629
+      },
+      "10": {
+        "reference_n": 18,
+        "observed_valid_n": 16,
+        "coverage": 0.8888888888888888
+      },
+      "68": {
+        "reference_n": 24,
+        "observed_valid_n": 24,
+        "coverage": 1.0
+      },
+      "2": {
+        "reference_n": 61,
+        "observed_valid_n": 59,
+        "coverage": 0.9672131147540983
+      },
+      "69": {
+        "reference_n": 37,
+        "observed_valid_n": 35,
+        "coverage": 0.9459459459459459
+      },
+      "70": {
+        "reference_n": 19,
+        "observed_valid_n": 18,
+        "coverage": 0.9473684210526315
+      },
+      "71": {
+        "reference_n": 24,
+        "observed_valid_n": 24,
+        "coverage": 1.0
+      },
+      "72": {
+        "reference_n": 24,
+        "observed_valid_n": 22,
+        "coverage": 0.9166666666666666
+      },
+      "86": {
+        "reference_n": 22,
+        "observed_valid_n": 20,
+        "coverage": 0.9090909090909091
+      },
+      "89": {
+        "reference_n": 13,
+        "observed_valid_n": 13,
+        "coverage": 1.0
+      },
+      "11": {
+        "reference_n": 20,
+        "observed_valid_n": 18,
+        "coverage": 0.9
+      },
+      "73": {
+        "reference_n": 21,
+        "observed_valid_n": 21,
+        "coverage": 1.0
+      },
+      "74": {
+        "reference_n": 37,
+        "observed_valid_n": 35,
+        "coverage": 0.9459459459459459
+      },
+      "76": {
+        "reference_n": 19,
+        "observed_valid_n": 18,
+        "coverage": 0.9473684210526315
+      },
+      "79": {
+        "reference_n": 6,
+        "observed_valid_n": 6,
+        "coverage": 1.0
+      },
+      "87": {
+        "reference_n": 4,
+        "observed_valid_n": 3,
+        "coverage": 0.75
+      },
+      "78": {
+        "reference_n": 98,
+        "observed_valid_n": 95,
+        "coverage": 0.9693877551020408
+      },
+      "77": {
+        "reference_n": 144,
+        "observed_valid_n": 135,
+        "coverage": 0.9375
+      },
+      "59": {
+        "reference_n": 42,
+        "observed_valid_n": 40,
+        "coverage": 0.9523809523809523
+      },
+      "12": {
+        "reference_n": 17,
+        "observed_valid_n": 17,
+        "coverage": 1.0
+      },
+      "13": {
+        "reference_n": 20,
+        "observed_valid_n": 20,
+        "coverage": 1.0
+      },
+      "26": {
+        "reference_n": 33,
+        "observed_valid_n": 30,
+        "coverage": 0.9090909090909091
+      },
+      "14": {
+        "reference_n": 29,
+        "observed_valid_n": 28,
+        "coverage": 0.9655172413793104
+      },
+      "15": {
+        "reference_n": 7,
+        "observed_valid_n": 6,
+        "coverage": 0.8571428571428571
+      },
+      "16": {
+        "reference_n": 43,
+        "observed_valid_n": 43,
+        "coverage": 1.0
+      },
+      "17": {
+        "reference_n": 10,
+        "observed_valid_n": 10,
+        "coverage": 1.0
+      },
+      "18": {
+        "reference_n": 27,
+        "observed_valid_n": 25,
+        "coverage": 0.9259259259259259
+      },
+      "19": {
+        "reference_n": 12,
+        "observed_valid_n": 12,
+        "coverage": 1.0
+      },
+      "21": {
+        "reference_n": 23,
+        "observed_valid_n": 23,
+        "coverage": 1.0
+      },
+      "22": {
+        "reference_n": 65,
+        "observed_valid_n": 62,
+        "coverage": 0.9538461538461539
+      },
+      "75": {
+        "reference_n": 28,
+        "observed_valid_n": 27,
+        "coverage": 0.9642857142857143
+      },
+      "41": {
+        "reference_n": 9,
+        "observed_valid_n": 8,
+        "coverage": 0.8888888888888888
+      },
+      "24": {
+        "reference_n": 51,
+        "observed_valid_n": 51,
+        "coverage": 1.0
+      },
+      "25": {
+        "reference_n": 33,
+        "observed_valid_n": 33,
+        "coverage": 1.0
+      },
+      "27": {
+        "reference_n": 16,
+        "observed_valid_n": 16,
+        "coverage": 1.0
+      },
+      "28": {
+        "reference_n": 19,
+        "observed_valid_n": 19,
+        "coverage": 1.0
+      },
+      "29": {
+        "reference_n": 22,
+        "observed_valid_n": 21,
+        "coverage": 0.9545454545454546
+      },
+      "83": {
+        "reference_n": 2,
+        "observed_valid_n": 2,
+        "coverage": 1.0
+      },
+      "30": {
+        "reference_n": 11,
+        "observed_valid_n": 10,
+        "coverage": 0.9090909090909091
+      }
+    }
+  },
+  {
+    "scenario": "random_0.2",
+    "reference_n": 2016,
+    "observed_n": 1612,
+    "coverage": 0.7996031746031746,
+    "status": "partial_reference_bounded",
+    "true_full_median_in_bounds": true,
+    "identified_point_null": true,
+    "lower": [
+      -0.08874581426488443,
+      0.33063296490603566,
+      -0.07592134053896069,
+      -0.03903261714731559,
+      -0.18615175819120244
+    ],
+    "upper": [
+      -0.015650812260830677,
+      0.4023379903982434,
+      -0.0011422026768347707,
+      0.02874386059241391,
+      -0.04282744293228291
+    ],
+    "regional_coverage": {
+      "1": {
+        "reference_n": 9,
+        "observed_valid_n": 8,
+        "coverage": 0.8888888888888888
+      },
+      "4": {
+        "reference_n": 11,
+        "observed_valid_n": 10,
+        "coverage": 0.9090909090909091
+      },
+      "33": {
+        "reference_n": 18,
+        "observed_valid_n": 13,
+        "coverage": 0.7222222222222222
+      },
+      "34": {
+        "reference_n": 35,
+        "observed_valid_n": 27,
+        "coverage": 0.7714285714285715
+      },
+      "35": {
+        "reference_n": 25,
+        "observed_valid_n": 22,
+        "coverage": 0.88
+      },
+      "37": {
+        "reference_n": 26,
+        "observed_valid_n": 20,
+        "coverage": 0.7692307692307693
+      },
+      "38": {
+        "reference_n": 39,
+        "observed_valid_n": 33,
+        "coverage": 0.8461538461538461
+      },
+      "39": {
+        "reference_n": 19,
+        "observed_valid_n": 16,
+        "coverage": 0.8421052631578947
+      },
+      "40": {
+        "reference_n": 25,
+        "observed_valid_n": 19,
+        "coverage": 0.76
+      },
+      "42": {
+        "reference_n": 30,
+        "observed_valid_n": 19,
+        "coverage": 0.6333333333333333
+      },
+      "43": {
+        "reference_n": 43,
+        "observed_valid_n": 37,
+        "coverage": 0.8604651162790697
+      },
+      "44": {
+        "reference_n": 28,
+        "observed_valid_n": 20,
+        "coverage": 0.7142857142857143
+      },
+      "45": {
+        "reference_n": 24,
+        "observed_valid_n": 18,
+        "coverage": 0.75
+      },
+      "47": {
+        "reference_n": 18,
+        "observed_valid_n": 13,
+        "coverage": 0.7222222222222222
+      },
+      "48": {
+        "reference_n": 18,
+        "observed_valid_n": 15,
+        "coverage": 0.8333333333333334
+      },
+      "49": {
+        "reference_n": 3,
+        "observed_valid_n": 3,
+        "coverage": 1.0
+      },
+      "50": {
+        "reference_n": 52,
+        "observed_valid_n": 41,
+        "coverage": 0.7884615384615384
+      },
+      "51": {
+        "reference_n": 12,
+        "observed_valid_n": 8,
+        "coverage": 0.6666666666666666
+      },
+      "52": {
+        "reference_n": 50,
+        "observed_valid_n": 33,
+        "coverage": 0.66
+      },
+      "53": {
+        "reference_n": 21,
+        "observed_valid_n": 14,
+        "coverage": 0.6666666666666666
+      },
+      "54": {
+        "reference_n": 35,
+        "observed_valid_n": 31,
+        "coverage": 0.8857142857142857
+      },
+      "55": {
+        "reference_n": 33,
+        "observed_valid_n": 29,
+        "coverage": 0.8787878787878788
+      },
+      "56": {
+        "reference_n": 39,
+        "observed_valid_n": 32,
+        "coverage": 0.8205128205128205
+      },
+      "7": {
+        "reference_n": 4,
+        "observed_valid_n": 3,
+        "coverage": 0.75
+      },
+      "57": {
+        "reference_n": 21,
+        "observed_valid_n": 19,
+        "coverage": 0.9047619047619048
+      },
+      "58": {
+        "reference_n": 25,
+        "observed_valid_n": 19,
+        "coverage": 0.76
+      },
+      "60": {
+        "reference_n": 22,
+        "observed_valid_n": 19,
+        "coverage": 0.8636363636363636
+      },
+      "8": {
+        "reference_n": 5,
+        "observed_valid_n": 5,
+        "coverage": 1.0
+      },
+      "62": {
+        "reference_n": 26,
+        "observed_valid_n": 18,
+        "coverage": 0.6923076923076923
+      },
+      "63": {
+        "reference_n": 36,
+        "observed_valid_n": 25,
+        "coverage": 0.6944444444444444
+      },
+      "64": {
+        "reference_n": 39,
+        "observed_valid_n": 36,
+        "coverage": 0.9230769230769231
+      },
+      "9": {
+        "reference_n": 8,
+        "observed_valid_n": 5,
+        "coverage": 0.625
+      },
+      "65": {
+        "reference_n": 16,
+        "observed_valid_n": 13,
+        "coverage": 0.8125
+      },
+      "66": {
+        "reference_n": 64,
+        "observed_valid_n": 55,
+        "coverage": 0.859375
+      },
+      "67": {
+        "reference_n": 27,
+        "observed_valid_n": 22,
+        "coverage": 0.8148148148148148
+      },
+      "10": {
+        "reference_n": 18,
+        "observed_valid_n": 12,
+        "coverage": 0.6666666666666666
+      },
+      "68": {
+        "reference_n": 24,
+        "observed_valid_n": 19,
+        "coverage": 0.7916666666666666
+      },
+      "2": {
+        "reference_n": 61,
+        "observed_valid_n": 48,
+        "coverage": 0.7868852459016393
+      },
+      "69": {
+        "reference_n": 37,
+        "observed_valid_n": 32,
+        "coverage": 0.8648648648648649
+      },
+      "70": {
+        "reference_n": 19,
+        "observed_valid_n": 16,
+        "coverage": 0.8421052631578947
+      },
+      "71": {
+        "reference_n": 24,
+        "observed_valid_n": 21,
+        "coverage": 0.875
+      },
+      "72": {
+        "reference_n": 24,
+        "observed_valid_n": 16,
+        "coverage": 0.6666666666666666
+      },
+      "86": {
+        "reference_n": 22,
+        "observed_valid_n": 16,
+        "coverage": 0.7272727272727273
+      },
+      "89": {
+        "reference_n": 13,
+        "observed_valid_n": 12,
+        "coverage": 0.9230769230769231
+      },
+      "11": {
+        "reference_n": 20,
+        "observed_valid_n": 17,
+        "coverage": 0.85
+      },
+      "73": {
+        "reference_n": 21,
+        "observed_valid_n": 19,
+        "coverage": 0.9047619047619048
+      },
+      "74": {
+        "reference_n": 37,
+        "observed_valid_n": 29,
+        "coverage": 0.7837837837837838
+      },
+      "76": {
+        "reference_n": 19,
+        "observed_valid_n": 15,
+        "coverage": 0.7894736842105263
+      },
+      "79": {
+        "reference_n": 6,
+        "observed_valid_n": 5,
+        "coverage": 0.8333333333333334
+      },
+      "87": {
+        "reference_n": 4,
+        "observed_valid_n": 3,
+        "coverage": 0.75
+      },
+      "78": {
+        "reference_n": 98,
+        "observed_valid_n": 78,
+        "coverage": 0.7959183673469388
+      },
+      "77": {
+        "reference_n": 144,
+        "observed_valid_n": 113,
+        "coverage": 0.7847222222222222
+      },
+      "59": {
+        "reference_n": 42,
+        "observed_valid_n": 34,
+        "coverage": 0.8095238095238095
+      },
+      "12": {
+        "reference_n": 17,
+        "observed_valid_n": 13,
+        "coverage": 0.7647058823529411
+      },
+      "13": {
+        "reference_n": 20,
+        "observed_valid_n": 18,
+        "coverage": 0.9
+      },
+      "26": {
+        "reference_n": 33,
+        "observed_valid_n": 23,
+        "coverage": 0.696969696969697
+      },
+      "14": {
+        "reference_n": 29,
+        "observed_valid_n": 22,
+        "coverage": 0.7586206896551724
+      },
+      "15": {
+        "reference_n": 7,
+        "observed_valid_n": 4,
+        "coverage": 0.5714285714285714
+      },
+      "16": {
+        "reference_n": 43,
+        "observed_valid_n": 37,
+        "coverage": 0.8604651162790697
+      },
+      "17": {
+        "reference_n": 10,
+        "observed_valid_n": 7,
+        "coverage": 0.7
+      },
+      "18": {
+        "reference_n": 27,
+        "observed_valid_n": 21,
+        "coverage": 0.7777777777777778
+      },
+      "19": {
+        "reference_n": 12,
+        "observed_valid_n": 11,
+        "coverage": 0.9166666666666666
+      },
+      "21": {
+        "reference_n": 23,
+        "observed_valid_n": 19,
+        "coverage": 0.8260869565217391
+      },
+      "22": {
+        "reference_n": 65,
+        "observed_valid_n": 51,
+        "coverage": 0.7846153846153846
+      },
+      "75": {
+        "reference_n": 28,
+        "observed_valid_n": 22,
+        "coverage": 0.7857142857142857
+      },
+      "41": {
+        "reference_n": 9,
+        "observed_valid_n": 7,
+        "coverage": 0.7777777777777778
+      },
+      "24": {
+        "reference_n": 51,
+        "observed_valid_n": 45,
+        "coverage": 0.8823529411764706
+      },
+      "25": {
+        "reference_n": 33,
+        "observed_valid_n": 30,
+        "coverage": 0.9090909090909091
+      },
+      "27": {
+        "reference_n": 16,
+        "observed_valid_n": 13,
+        "coverage": 0.8125
+      },
+      "28": {
+        "reference_n": 19,
+        "observed_valid_n": 16,
+        "coverage": 0.8421052631578947
+      },
+      "29": {
+        "reference_n": 22,
+        "observed_valid_n": 17,
+        "coverage": 0.7727272727272727
+      },
+      "83": {
+        "reference_n": 2,
+        "observed_valid_n": 1,
+        "coverage": 0.5
+      },
+      "30": {
+        "reference_n": 11,
+        "observed_valid_n": 10,
+        "coverage": 0.9090909090909091
+      }
+    }
+  },
+  {
+    "scenario": "random_0.5",
+    "reference_n": 2016,
+    "observed_n": 1008,
+    "coverage": 0.5,
+    "status": "reference_unbounded",
+    "true_full_median_in_bounds": true,
+    "identified_point_null": true,
+    "lower": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "upper": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "regional_coverage": {
+      "1": {
+        "reference_n": 9,
+        "observed_valid_n": 3,
+        "coverage": 0.3333333333333333
+      },
+      "4": {
+        "reference_n": 11,
+        "observed_valid_n": 4,
+        "coverage": 0.36363636363636365
+      },
+      "33": {
+        "reference_n": 18,
+        "observed_valid_n": 6,
+        "coverage": 0.3333333333333333
+      },
+      "34": {
+        "reference_n": 35,
+        "observed_valid_n": 14,
+        "coverage": 0.4
+      },
+      "35": {
+        "reference_n": 25,
+        "observed_valid_n": 16,
+        "coverage": 0.64
+      },
+      "37": {
+        "reference_n": 26,
+        "observed_valid_n": 16,
+        "coverage": 0.6153846153846154
+      },
+      "38": {
+        "reference_n": 39,
+        "observed_valid_n": 23,
+        "coverage": 0.5897435897435898
+      },
+      "39": {
+        "reference_n": 19,
+        "observed_valid_n": 13,
+        "coverage": 0.6842105263157895
+      },
+      "40": {
+        "reference_n": 25,
+        "observed_valid_n": 16,
+        "coverage": 0.64
+      },
+      "42": {
+        "reference_n": 30,
+        "observed_valid_n": 12,
+        "coverage": 0.4
+      },
+      "43": {
+        "reference_n": 43,
+        "observed_valid_n": 22,
+        "coverage": 0.5116279069767442
+      },
+      "44": {
+        "reference_n": 28,
+        "observed_valid_n": 14,
+        "coverage": 0.5
+      },
+      "45": {
+        "reference_n": 24,
+        "observed_valid_n": 13,
+        "coverage": 0.5416666666666666
+      },
+      "47": {
+        "reference_n": 18,
+        "observed_valid_n": 8,
+        "coverage": 0.4444444444444444
+      },
+      "48": {
+        "reference_n": 18,
+        "observed_valid_n": 12,
+        "coverage": 0.6666666666666666
+      },
+      "49": {
+        "reference_n": 3,
+        "observed_valid_n": 2,
+        "coverage": 0.6666666666666666
+      },
+      "50": {
+        "reference_n": 52,
+        "observed_valid_n": 27,
+        "coverage": 0.5192307692307693
+      },
+      "51": {
+        "reference_n": 12,
+        "observed_valid_n": 5,
+        "coverage": 0.4166666666666667
+      },
+      "52": {
+        "reference_n": 50,
+        "observed_valid_n": 21,
+        "coverage": 0.42
+      },
+      "53": {
+        "reference_n": 21,
+        "observed_valid_n": 10,
+        "coverage": 0.47619047619047616
+      },
+      "54": {
+        "reference_n": 35,
+        "observed_valid_n": 19,
+        "coverage": 0.5428571428571428
+      },
+      "55": {
+        "reference_n": 33,
+        "observed_valid_n": 14,
+        "coverage": 0.42424242424242425
+      },
+      "56": {
+        "reference_n": 39,
+        "observed_valid_n": 24,
+        "coverage": 0.6153846153846154
+      },
+      "7": {
+        "reference_n": 4,
+        "observed_valid_n": 3,
+        "coverage": 0.75
+      },
+      "57": {
+        "reference_n": 21,
+        "observed_valid_n": 7,
+        "coverage": 0.3333333333333333
+      },
+      "58": {
+        "reference_n": 25,
+        "observed_valid_n": 13,
+        "coverage": 0.52
+      },
+      "60": {
+        "reference_n": 22,
+        "observed_valid_n": 8,
+        "coverage": 0.36363636363636365
+      },
+      "8": {
+        "reference_n": 5,
+        "observed_valid_n": 3,
+        "coverage": 0.6
+      },
+      "62": {
+        "reference_n": 26,
+        "observed_valid_n": 10,
+        "coverage": 0.38461538461538464
+      },
+      "63": {
+        "reference_n": 36,
+        "observed_valid_n": 17,
+        "coverage": 0.4722222222222222
+      },
+      "64": {
+        "reference_n": 39,
+        "observed_valid_n": 24,
+        "coverage": 0.6153846153846154
+      },
+      "9": {
+        "reference_n": 8,
+        "observed_valid_n": 4,
+        "coverage": 0.5
+      },
+      "65": {
+        "reference_n": 16,
+        "observed_valid_n": 10,
+        "coverage": 0.625
+      },
+      "66": {
+        "reference_n": 64,
+        "observed_valid_n": 28,
+        "coverage": 0.4375
+      },
+      "67": {
+        "reference_n": 27,
+        "observed_valid_n": 13,
+        "coverage": 0.48148148148148145
+      },
+      "10": {
+        "reference_n": 18,
+        "observed_valid_n": 9,
+        "coverage": 0.5
+      },
+      "68": {
+        "reference_n": 24,
+        "observed_valid_n": 13,
+        "coverage": 0.5416666666666666
+      },
+      "2": {
+        "reference_n": 61,
+        "observed_valid_n": 25,
+        "coverage": 0.4098360655737705
+      },
+      "69": {
+        "reference_n": 37,
+        "observed_valid_n": 18,
+        "coverage": 0.4864864864864865
+      },
+      "70": {
+        "reference_n": 19,
+        "observed_valid_n": 7,
+        "coverage": 0.3684210526315789
+      },
+      "71": {
+        "reference_n": 24,
+        "observed_valid_n": 17,
+        "coverage": 0.7083333333333334
+      },
+      "72": {
+        "reference_n": 24,
+        "observed_valid_n": 10,
+        "coverage": 0.4166666666666667
+      },
+      "86": {
+        "reference_n": 22,
+        "observed_valid_n": 10,
+        "coverage": 0.45454545454545453
+      },
+      "89": {
+        "reference_n": 13,
+        "observed_valid_n": 5,
+        "coverage": 0.38461538461538464
+      },
+      "11": {
+        "reference_n": 20,
+        "observed_valid_n": 13,
+        "coverage": 0.65
+      },
+      "73": {
+        "reference_n": 21,
+        "observed_valid_n": 7,
+        "coverage": 0.3333333333333333
+      },
+      "74": {
+        "reference_n": 37,
+        "observed_valid_n": 19,
+        "coverage": 0.5135135135135135
+      },
+      "76": {
+        "reference_n": 19,
+        "observed_valid_n": 7,
+        "coverage": 0.3684210526315789
+      },
+      "79": {
+        "reference_n": 6,
+        "observed_valid_n": 4,
+        "coverage": 0.6666666666666666
+      },
+      "87": {
+        "reference_n": 4,
+        "observed_valid_n": 2,
+        "coverage": 0.5
+      },
+      "78": {
+        "reference_n": 98,
+        "observed_valid_n": 49,
+        "coverage": 0.5
+      },
+      "77": {
+        "reference_n": 144,
+        "observed_valid_n": 79,
+        "coverage": 0.5486111111111112
+      },
+      "59": {
+        "reference_n": 42,
+        "observed_valid_n": 22,
+        "coverage": 0.5238095238095238
+      },
+      "12": {
+        "reference_n": 17,
+        "observed_valid_n": 8,
+        "coverage": 0.47058823529411764
+      },
+      "13": {
+        "reference_n": 20,
+        "observed_valid_n": 7,
+        "coverage": 0.35
+      },
+      "26": {
+        "reference_n": 33,
+        "observed_valid_n": 14,
+        "coverage": 0.42424242424242425
+      },
+      "14": {
+        "reference_n": 29,
+        "observed_valid_n": 10,
+        "coverage": 0.3448275862068966
+      },
+      "15": {
+        "reference_n": 7,
+        "observed_valid_n": 1,
+        "coverage": 0.14285714285714285
+      },
+      "16": {
+        "reference_n": 43,
+        "observed_valid_n": 28,
+        "coverage": 0.6511627906976745
+      },
+      "17": {
+        "reference_n": 10,
+        "observed_valid_n": 7,
+        "coverage": 0.7
+      },
+      "18": {
+        "reference_n": 27,
+        "observed_valid_n": 11,
+        "coverage": 0.4074074074074074
+      },
+      "19": {
+        "reference_n": 12,
+        "observed_valid_n": 7,
+        "coverage": 0.5833333333333334
+      },
+      "21": {
+        "reference_n": 23,
+        "observed_valid_n": 17,
+        "coverage": 0.7391304347826086
+      },
+      "22": {
+        "reference_n": 65,
+        "observed_valid_n": 26,
+        "coverage": 0.4
+      },
+      "75": {
+        "reference_n": 28,
+        "observed_valid_n": 14,
+        "coverage": 0.5
+      },
+      "41": {
+        "reference_n": 9,
+        "observed_valid_n": 5,
+        "coverage": 0.5555555555555556
+      },
+      "24": {
+        "reference_n": 51,
+        "observed_valid_n": 34,
+        "coverage": 0.6666666666666666
+      },
+      "25": {
+        "reference_n": 33,
+        "observed_valid_n": 19,
+        "coverage": 0.5757575757575758
+      },
+      "27": {
+        "reference_n": 16,
+        "observed_valid_n": 7,
+        "coverage": 0.4375
+      },
+      "28": {
+        "reference_n": 19,
+        "observed_valid_n": 7,
+        "coverage": 0.3684210526315789
+      },
+      "29": {
+        "reference_n": 22,
+        "observed_valid_n": 11,
+        "coverage": 0.5
+      },
+      "83": {
+        "reference_n": 2,
+        "observed_valid_n": 0,
+        "coverage": 0.0
+      },
+      "30": {
+        "reference_n": 11,
+        "observed_valid_n": 5,
+        "coverage": 0.45454545454545453
+      }
+    }
+  },
+  {
+    "scenario": "random_0.6",
+    "reference_n": 2016,
+    "observed_n": 806,
+    "coverage": 0.3998015873015873,
+    "status": "reference_unbounded",
+    "true_full_median_in_bounds": true,
+    "identified_point_null": true,
+    "lower": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "upper": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "regional_coverage": {
+      "1": {
+        "reference_n": 9,
+        "observed_valid_n": 3,
+        "coverage": 0.3333333333333333
+      },
+      "4": {
+        "reference_n": 11,
+        "observed_valid_n": 3,
+        "coverage": 0.2727272727272727
+      },
+      "33": {
+        "reference_n": 18,
+        "observed_valid_n": 6,
+        "coverage": 0.3333333333333333
+      },
+      "34": {
+        "reference_n": 35,
+        "observed_valid_n": 12,
+        "coverage": 0.34285714285714286
+      },
+      "35": {
+        "reference_n": 25,
+        "observed_valid_n": 13,
+        "coverage": 0.52
+      },
+      "37": {
+        "reference_n": 26,
+        "observed_valid_n": 14,
+        "coverage": 0.5384615384615384
+      },
+      "38": {
+        "reference_n": 39,
+        "observed_valid_n": 18,
+        "coverage": 0.46153846153846156
+      },
+      "39": {
+        "reference_n": 19,
+        "observed_valid_n": 13,
+        "coverage": 0.6842105263157895
+      },
+      "40": {
+        "reference_n": 25,
+        "observed_valid_n": 10,
+        "coverage": 0.4
+      },
+      "42": {
+        "reference_n": 30,
+        "observed_valid_n": 6,
+        "coverage": 0.2
+      },
+      "43": {
+        "reference_n": 43,
+        "observed_valid_n": 18,
+        "coverage": 0.4186046511627907
+      },
+      "44": {
+        "reference_n": 28,
+        "observed_valid_n": 13,
+        "coverage": 0.4642857142857143
+      },
+      "45": {
+        "reference_n": 24,
+        "observed_valid_n": 12,
+        "coverage": 0.5
+      },
+      "47": {
+        "reference_n": 18,
+        "observed_valid_n": 8,
+        "coverage": 0.4444444444444444
+      },
+      "48": {
+        "reference_n": 18,
+        "observed_valid_n": 11,
+        "coverage": 0.6111111111111112
+      },
+      "49": {
+        "reference_n": 3,
+        "observed_valid_n": 1,
+        "coverage": 0.3333333333333333
+      },
+      "50": {
+        "reference_n": 52,
+        "observed_valid_n": 19,
+        "coverage": 0.36538461538461536
+      },
+      "51": {
+        "reference_n": 12,
+        "observed_valid_n": 2,
+        "coverage": 0.16666666666666666
+      },
+      "52": {
+        "reference_n": 50,
+        "observed_valid_n": 14,
+        "coverage": 0.28
+      },
+      "53": {
+        "reference_n": 21,
+        "observed_valid_n": 9,
+        "coverage": 0.42857142857142855
+      },
+      "54": {
+        "reference_n": 35,
+        "observed_valid_n": 14,
+        "coverage": 0.4
+      },
+      "55": {
+        "reference_n": 33,
+        "observed_valid_n": 10,
+        "coverage": 0.30303030303030304
+      },
+      "56": {
+        "reference_n": 39,
+        "observed_valid_n": 21,
+        "coverage": 0.5384615384615384
+      },
+      "7": {
+        "reference_n": 4,
+        "observed_valid_n": 1,
+        "coverage": 0.25
+      },
+      "57": {
+        "reference_n": 21,
+        "observed_valid_n": 7,
+        "coverage": 0.3333333333333333
+      },
+      "58": {
+        "reference_n": 25,
+        "observed_valid_n": 13,
+        "coverage": 0.52
+      },
+      "60": {
+        "reference_n": 22,
+        "observed_valid_n": 5,
+        "coverage": 0.22727272727272727
+      },
+      "8": {
+        "reference_n": 5,
+        "observed_valid_n": 2,
+        "coverage": 0.4
+      },
+      "62": {
+        "reference_n": 26,
+        "observed_valid_n": 7,
+        "coverage": 0.2692307692307692
+      },
+      "63": {
+        "reference_n": 36,
+        "observed_valid_n": 16,
+        "coverage": 0.4444444444444444
+      },
+      "64": {
+        "reference_n": 39,
+        "observed_valid_n": 18,
+        "coverage": 0.46153846153846156
+      },
+      "9": {
+        "reference_n": 8,
+        "observed_valid_n": 2,
+        "coverage": 0.25
+      },
+      "65": {
+        "reference_n": 16,
+        "observed_valid_n": 8,
+        "coverage": 0.5
+      },
+      "66": {
+        "reference_n": 64,
+        "observed_valid_n": 21,
+        "coverage": 0.328125
+      },
+      "67": {
+        "reference_n": 27,
+        "observed_valid_n": 10,
+        "coverage": 0.37037037037037035
+      },
+      "10": {
+        "reference_n": 18,
+        "observed_valid_n": 8,
+        "coverage": 0.4444444444444444
+      },
+      "68": {
+        "reference_n": 24,
+        "observed_valid_n": 9,
+        "coverage": 0.375
+      },
+      "2": {
+        "reference_n": 61,
+        "observed_valid_n": 18,
+        "coverage": 0.29508196721311475
+      },
+      "69": {
+        "reference_n": 37,
+        "observed_valid_n": 16,
+        "coverage": 0.43243243243243246
+      },
+      "70": {
+        "reference_n": 19,
+        "observed_valid_n": 5,
+        "coverage": 0.2631578947368421
+      },
+      "71": {
+        "reference_n": 24,
+        "observed_valid_n": 14,
+        "coverage": 0.5833333333333334
+      },
+      "72": {
+        "reference_n": 24,
+        "observed_valid_n": 10,
+        "coverage": 0.4166666666666667
+      },
+      "86": {
+        "reference_n": 22,
+        "observed_valid_n": 8,
+        "coverage": 0.36363636363636365
+      },
+      "89": {
+        "reference_n": 13,
+        "observed_valid_n": 3,
+        "coverage": 0.23076923076923078
+      },
+      "11": {
+        "reference_n": 20,
+        "observed_valid_n": 11,
+        "coverage": 0.55
+      },
+      "73": {
+        "reference_n": 21,
+        "observed_valid_n": 7,
+        "coverage": 0.3333333333333333
+      },
+      "74": {
+        "reference_n": 37,
+        "observed_valid_n": 16,
+        "coverage": 0.43243243243243246
+      },
+      "76": {
+        "reference_n": 19,
+        "observed_valid_n": 7,
+        "coverage": 0.3684210526315789
+      },
+      "79": {
+        "reference_n": 6,
+        "observed_valid_n": 4,
+        "coverage": 0.6666666666666666
+      },
+      "87": {
+        "reference_n": 4,
+        "observed_valid_n": 2,
+        "coverage": 0.5
+      },
+      "78": {
+        "reference_n": 98,
+        "observed_valid_n": 36,
+        "coverage": 0.3673469387755102
+      },
+      "77": {
+        "reference_n": 144,
+        "observed_valid_n": 63,
+        "coverage": 0.4375
+      },
+      "59": {
+        "reference_n": 42,
+        "observed_valid_n": 19,
+        "coverage": 0.4523809523809524
+      },
+      "12": {
+        "reference_n": 17,
+        "observed_valid_n": 6,
+        "coverage": 0.35294117647058826
+      },
+      "13": {
+        "reference_n": 20,
+        "observed_valid_n": 7,
+        "coverage": 0.35
+      },
+      "26": {
+        "reference_n": 33,
+        "observed_valid_n": 11,
+        "coverage": 0.3333333333333333
+      },
+      "14": {
+        "reference_n": 29,
+        "observed_valid_n": 8,
+        "coverage": 0.27586206896551724
+      },
+      "15": {
+        "reference_n": 7,
+        "observed_valid_n": 0,
+        "coverage": 0.0
+      },
+      "16": {
+        "reference_n": 43,
+        "observed_valid_n": 17,
+        "coverage": 0.3953488372093023
+      },
+      "17": {
+        "reference_n": 10,
+        "observed_valid_n": 6,
+        "coverage": 0.6
+      },
+      "18": {
+        "reference_n": 27,
+        "observed_valid_n": 11,
+        "coverage": 0.4074074074074074
+      },
+      "19": {
+        "reference_n": 12,
+        "observed_valid_n": 3,
+        "coverage": 0.25
+      },
+      "21": {
+        "reference_n": 23,
+        "observed_valid_n": 13,
+        "coverage": 0.5652173913043478
+      },
+      "22": {
+        "reference_n": 65,
+        "observed_valid_n": 22,
+        "coverage": 0.3384615384615385
+      },
+      "75": {
+        "reference_n": 28,
+        "observed_valid_n": 12,
+        "coverage": 0.42857142857142855
+      },
+      "41": {
+        "reference_n": 9,
+        "observed_valid_n": 4,
+        "coverage": 0.4444444444444444
+      },
+      "24": {
+        "reference_n": 51,
+        "observed_valid_n": 27,
+        "coverage": 0.5294117647058824
+      },
+      "25": {
+        "reference_n": 33,
+        "observed_valid_n": 16,
+        "coverage": 0.48484848484848486
+      },
+      "27": {
+        "reference_n": 16,
+        "observed_valid_n": 7,
+        "coverage": 0.4375
+      },
+      "28": {
+        "reference_n": 19,
+        "observed_valid_n": 7,
+        "coverage": 0.3684210526315789
+      },
+      "29": {
+        "reference_n": 22,
+        "observed_valid_n": 8,
+        "coverage": 0.36363636363636365
+      },
+      "83": {
+        "reference_n": 2,
+        "observed_valid_n": 0,
+        "coverage": 0.0
+      },
+      "30": {
+        "reference_n": 11,
+        "observed_valid_n": 5,
+        "coverage": 0.45454545454545453
+      }
+    }
+  },
+  {
+    "scenario": "upper_delta_tail_0.05",
+    "reference_n": 2016,
+    "observed_n": 1915,
+    "coverage": 0.9499007936507936,
+    "status": "partial_reference_bounded",
+    "true_full_median_in_bounds": true,
+    "identified_point_null": true,
+    "lower": [
+      -0.06231409111270825,
+      0.35675010661107287,
+      -0.03611379175028497,
+      -0.014756189548858625,
+      -0.1306276786289292
+    ],
+    "upper": [
+      -0.04831940835113798,
+      0.3704294261166132,
+      -0.01906710849912513,
+      -0.0012696213817808572,
+      -0.10272261788147262
+    ],
+    "regional_coverage": {
+      "1": {
+        "reference_n": 9,
+        "observed_valid_n": 9,
+        "coverage": 1.0
+      },
+      "4": {
+        "reference_n": 11,
+        "observed_valid_n": 10,
+        "coverage": 0.9090909090909091
+      },
+      "33": {
+        "reference_n": 18,
+        "observed_valid_n": 18,
+        "coverage": 1.0
+      },
+      "34": {
+        "reference_n": 35,
+        "observed_valid_n": 30,
+        "coverage": 0.8571428571428571
+      },
+      "35": {
+        "reference_n": 25,
+        "observed_valid_n": 24,
+        "coverage": 0.96
+      },
+      "37": {
+        "reference_n": 26,
+        "observed_valid_n": 23,
+        "coverage": 0.8846153846153846
+      },
+      "38": {
+        "reference_n": 39,
+        "observed_valid_n": 36,
+        "coverage": 0.9230769230769231
+      },
+      "39": {
+        "reference_n": 19,
+        "observed_valid_n": 17,
+        "coverage": 0.8947368421052632
+      },
+      "40": {
+        "reference_n": 25,
+        "observed_valid_n": 24,
+        "coverage": 0.96
+      },
+      "42": {
+        "reference_n": 30,
+        "observed_valid_n": 30,
+        "coverage": 1.0
+      },
+      "43": {
+        "reference_n": 43,
+        "observed_valid_n": 42,
+        "coverage": 0.9767441860465116
+      },
+      "44": {
+        "reference_n": 28,
+        "observed_valid_n": 24,
+        "coverage": 0.8571428571428571
+      },
+      "45": {
+        "reference_n": 24,
+        "observed_valid_n": 22,
+        "coverage": 0.9166666666666666
+      },
+      "47": {
+        "reference_n": 18,
+        "observed_valid_n": 18,
+        "coverage": 1.0
+      },
+      "48": {
+        "reference_n": 18,
+        "observed_valid_n": 18,
+        "coverage": 1.0
+      },
+      "49": {
+        "reference_n": 3,
+        "observed_valid_n": 2,
+        "coverage": 0.6666666666666666
+      },
+      "50": {
+        "reference_n": 52,
+        "observed_valid_n": 52,
+        "coverage": 1.0
+      },
+      "51": {
+        "reference_n": 12,
+        "observed_valid_n": 12,
+        "coverage": 1.0
+      },
+      "52": {
+        "reference_n": 50,
+        "observed_valid_n": 47,
+        "coverage": 0.94
+      },
+      "53": {
+        "reference_n": 21,
+        "observed_valid_n": 20,
+        "coverage": 0.9523809523809523
+      },
+      "54": {
+        "reference_n": 35,
+        "observed_valid_n": 33,
+        "coverage": 0.9428571428571428
+      },
+      "55": {
+        "reference_n": 33,
+        "observed_valid_n": 32,
+        "coverage": 0.9696969696969697
+      },
+      "56": {
+        "reference_n": 39,
+        "observed_valid_n": 37,
+        "coverage": 0.9487179487179487
+      },
+      "7": {
+        "reference_n": 4,
+        "observed_valid_n": 4,
+        "coverage": 1.0
+      },
+      "57": {
+        "reference_n": 21,
+        "observed_valid_n": 20,
+        "coverage": 0.9523809523809523
+      },
+      "58": {
+        "reference_n": 25,
+        "observed_valid_n": 20,
+        "coverage": 0.8
+      },
+      "60": {
+        "reference_n": 22,
+        "observed_valid_n": 22,
+        "coverage": 1.0
+      },
+      "8": {
+        "reference_n": 5,
+        "observed_valid_n": 5,
+        "coverage": 1.0
+      },
+      "62": {
+        "reference_n": 26,
+        "observed_valid_n": 20,
+        "coverage": 0.7692307692307693
+      },
+      "63": {
+        "reference_n": 36,
+        "observed_valid_n": 34,
+        "coverage": 0.9444444444444444
+      },
+      "64": {
+        "reference_n": 39,
+        "observed_valid_n": 35,
+        "coverage": 0.8974358974358975
+      },
+      "9": {
+        "reference_n": 8,
+        "observed_valid_n": 5,
+        "coverage": 0.625
+      },
+      "65": {
+        "reference_n": 16,
+        "observed_valid_n": 16,
+        "coverage": 1.0
+      },
+      "66": {
+        "reference_n": 64,
+        "observed_valid_n": 63,
+        "coverage": 0.984375
+      },
+      "67": {
+        "reference_n": 27,
+        "observed_valid_n": 27,
+        "coverage": 1.0
+      },
+      "10": {
+        "reference_n": 18,
+        "observed_valid_n": 16,
+        "coverage": 0.8888888888888888
+      },
+      "68": {
+        "reference_n": 24,
+        "observed_valid_n": 23,
+        "coverage": 0.9583333333333334
+      },
+      "2": {
+        "reference_n": 61,
+        "observed_valid_n": 60,
+        "coverage": 0.9836065573770492
+      },
+      "69": {
+        "reference_n": 37,
+        "observed_valid_n": 36,
+        "coverage": 0.972972972972973
+      },
+      "70": {
+        "reference_n": 19,
+        "observed_valid_n": 18,
+        "coverage": 0.9473684210526315
+      },
+      "71": {
+        "reference_n": 24,
+        "observed_valid_n": 23,
+        "coverage": 0.9583333333333334
+      },
+      "72": {
+        "reference_n": 24,
+        "observed_valid_n": 23,
+        "coverage": 0.9583333333333334
+      },
+      "86": {
+        "reference_n": 22,
+        "observed_valid_n": 22,
+        "coverage": 1.0
+      },
+      "89": {
+        "reference_n": 13,
+        "observed_valid_n": 13,
+        "coverage": 1.0
+      },
+      "11": {
+        "reference_n": 20,
+        "observed_valid_n": 20,
+        "coverage": 1.0
+      },
+      "73": {
+        "reference_n": 21,
+        "observed_valid_n": 20,
+        "coverage": 0.9523809523809523
+      },
+      "74": {
+        "reference_n": 37,
+        "observed_valid_n": 37,
+        "coverage": 1.0
+      },
+      "76": {
+        "reference_n": 19,
+        "observed_valid_n": 18,
+        "coverage": 0.9473684210526315
+      },
+      "79": {
+        "reference_n": 6,
+        "observed_valid_n": 6,
+        "coverage": 1.0
+      },
+      "87": {
+        "reference_n": 4,
+        "observed_valid_n": 2,
+        "coverage": 0.5
+      },
+      "78": {
+        "reference_n": 98,
+        "observed_valid_n": 96,
+        "coverage": 0.9795918367346939
+      },
+      "77": {
+        "reference_n": 144,
+        "observed_valid_n": 144,
+        "coverage": 1.0
+      },
+      "59": {
+        "reference_n": 42,
+        "observed_valid_n": 41,
+        "coverage": 0.9761904761904762
+      },
+      "12": {
+        "reference_n": 17,
+        "observed_valid_n": 17,
+        "coverage": 1.0
+      },
+      "13": {
+        "reference_n": 20,
+        "observed_valid_n": 17,
+        "coverage": 0.85
+      },
+      "26": {
+        "reference_n": 33,
+        "observed_valid_n": 33,
+        "coverage": 1.0
+      },
+      "14": {
+        "reference_n": 29,
+        "observed_valid_n": 20,
+        "coverage": 0.6896551724137931
+      },
+      "15": {
+        "reference_n": 7,
+        "observed_valid_n": 7,
+        "coverage": 1.0
+      },
+      "16": {
+        "reference_n": 43,
+        "observed_valid_n": 42,
+        "coverage": 0.9767441860465116
+      },
+      "17": {
+        "reference_n": 10,
+        "observed_valid_n": 7,
+        "coverage": 0.7
+      },
+      "18": {
+        "reference_n": 27,
+        "observed_valid_n": 27,
+        "coverage": 1.0
+      },
+      "19": {
+        "reference_n": 12,
+        "observed_valid_n": 12,
+        "coverage": 1.0
+      },
+      "21": {
+        "reference_n": 23,
+        "observed_valid_n": 22,
+        "coverage": 0.9565217391304348
+      },
+      "22": {
+        "reference_n": 65,
+        "observed_valid_n": 57,
+        "coverage": 0.8769230769230769
+      },
+      "75": {
+        "reference_n": 28,
+        "observed_valid_n": 28,
+        "coverage": 1.0
+      },
+      "41": {
+        "reference_n": 9,
+        "observed_valid_n": 4,
+        "coverage": 0.4444444444444444
+      },
+      "24": {
+        "reference_n": 51,
+        "observed_valid_n": 51,
+        "coverage": 1.0
+      },
+      "25": {
+        "reference_n": 33,
+        "observed_valid_n": 33,
+        "coverage": 1.0
+      },
+      "27": {
+        "reference_n": 16,
+        "observed_valid_n": 15,
+        "coverage": 0.9375
+      },
+      "28": {
+        "reference_n": 19,
+        "observed_valid_n": 19,
+        "coverage": 1.0
+      },
+      "29": {
+        "reference_n": 22,
+        "observed_valid_n": 22,
+        "coverage": 1.0
+      },
+      "83": {
+        "reference_n": 2,
+        "observed_valid_n": 2,
+        "coverage": 1.0
+      },
+      "30": {
+        "reference_n": 11,
+        "observed_valid_n": 11,
+        "coverage": 1.0
+      }
+    }
+  },
+  {
+    "scenario": "upper_delta_tail_0.2",
+    "reference_n": 2016,
+    "observed_n": 1612,
+    "coverage": 0.7996031746031746,
+    "status": "partial_reference_bounded",
+    "true_full_median_in_bounds": true,
+    "identified_point_null": true,
+    "lower": [
+      -0.11335597709389346,
+      0.32871768243280064,
+      -0.07664667729380159,
+      -0.04356276582414921,
+      -0.18295791096030517
+    ],
+    "upper": [
+      -0.04831940835113798,
+      0.4004532411596877,
+      0.00034018808968739114,
+      0.0268593199884401,
+      -0.04259063828235676
+    ],
+    "regional_coverage": {
+      "1": {
+        "reference_n": 9,
+        "observed_valid_n": 6,
+        "coverage": 0.6666666666666666
+      },
+      "4": {
+        "reference_n": 11,
+        "observed_valid_n": 9,
+        "coverage": 0.8181818181818182
+      },
+      "33": {
+        "reference_n": 18,
+        "observed_valid_n": 15,
+        "coverage": 0.8333333333333334
+      },
+      "34": {
+        "reference_n": 35,
+        "observed_valid_n": 21,
+        "coverage": 0.6
+      },
+      "35": {
+        "reference_n": 25,
+        "observed_valid_n": 18,
+        "coverage": 0.72
+      },
+      "37": {
+        "reference_n": 26,
+        "observed_valid_n": 14,
+        "coverage": 0.5384615384615384
+      },
+      "38": {
+        "reference_n": 39,
+        "observed_valid_n": 31,
+        "coverage": 0.7948717948717948
+      },
+      "39": {
+        "reference_n": 19,
+        "observed_valid_n": 15,
+        "coverage": 0.7894736842105263
+      },
+      "40": {
+        "reference_n": 25,
+        "observed_valid_n": 22,
+        "coverage": 0.88
+      },
+      "42": {
+        "reference_n": 30,
+        "observed_valid_n": 17,
+        "coverage": 0.5666666666666667
+      },
+      "43": {
+        "reference_n": 43,
+        "observed_valid_n": 38,
+        "coverage": 0.8837209302325582
+      },
+      "44": {
+        "reference_n": 28,
+        "observed_valid_n": 16,
+        "coverage": 0.5714285714285714
+      },
+      "45": {
+        "reference_n": 24,
+        "observed_valid_n": 11,
+        "coverage": 0.4583333333333333
+      },
+      "47": {
+        "reference_n": 18,
+        "observed_valid_n": 18,
+        "coverage": 1.0
+      },
+      "48": {
+        "reference_n": 18,
+        "observed_valid_n": 14,
+        "coverage": 0.7777777777777778
+      },
+      "49": {
+        "reference_n": 3,
+        "observed_valid_n": 2,
+        "coverage": 0.6666666666666666
+      },
+      "50": {
+        "reference_n": 52,
+        "observed_valid_n": 51,
+        "coverage": 0.9807692307692307
+      },
+      "51": {
+        "reference_n": 12,
+        "observed_valid_n": 6,
+        "coverage": 0.5
+      },
+      "52": {
+        "reference_n": 50,
+        "observed_valid_n": 37,
+        "coverage": 0.74
+      },
+      "53": {
+        "reference_n": 21,
+        "observed_valid_n": 18,
+        "coverage": 0.8571428571428571
+      },
+      "54": {
+        "reference_n": 35,
+        "observed_valid_n": 24,
+        "coverage": 0.6857142857142857
+      },
+      "55": {
+        "reference_n": 33,
+        "observed_valid_n": 28,
+        "coverage": 0.8484848484848485
+      },
+      "56": {
+        "reference_n": 39,
+        "observed_valid_n": 29,
+        "coverage": 0.7435897435897436
+      },
+      "7": {
+        "reference_n": 4,
+        "observed_valid_n": 4,
+        "coverage": 1.0
+      },
+      "57": {
+        "reference_n": 21,
+        "observed_valid_n": 17,
+        "coverage": 0.8095238095238095
+      },
+      "58": {
+        "reference_n": 25,
+        "observed_valid_n": 11,
+        "coverage": 0.44
+      },
+      "60": {
+        "reference_n": 22,
+        "observed_valid_n": 17,
+        "coverage": 0.7727272727272727
+      },
+      "8": {
+        "reference_n": 5,
+        "observed_valid_n": 4,
+        "coverage": 0.8
+      },
+      "62": {
+        "reference_n": 26,
+        "observed_valid_n": 19,
+        "coverage": 0.7307692307692307
+      },
+      "63": {
+        "reference_n": 36,
+        "observed_valid_n": 28,
+        "coverage": 0.7777777777777778
+      },
+      "64": {
+        "reference_n": 39,
+        "observed_valid_n": 24,
+        "coverage": 0.6153846153846154
+      },
+      "9": {
+        "reference_n": 8,
+        "observed_valid_n": 3,
+        "coverage": 0.375
+      },
+      "65": {
+        "reference_n": 16,
+        "observed_valid_n": 15,
+        "coverage": 0.9375
+      },
+      "66": {
+        "reference_n": 64,
+        "observed_valid_n": 60,
+        "coverage": 0.9375
+      },
+      "67": {
+        "reference_n": 27,
+        "observed_valid_n": 22,
+        "coverage": 0.8148148148148148
+      },
+      "10": {
+        "reference_n": 18,
+        "observed_valid_n": 12,
+        "coverage": 0.6666666666666666
+      },
+      "68": {
+        "reference_n": 24,
+        "observed_valid_n": 17,
+        "coverage": 0.7083333333333334
+      },
+      "2": {
+        "reference_n": 61,
+        "observed_valid_n": 46,
+        "coverage": 0.7540983606557377
+      },
+      "69": {
+        "reference_n": 37,
+        "observed_valid_n": 33,
+        "coverage": 0.8918918918918919
+      },
+      "70": {
+        "reference_n": 19,
+        "observed_valid_n": 15,
+        "coverage": 0.7894736842105263
+      },
+      "71": {
+        "reference_n": 24,
+        "observed_valid_n": 18,
+        "coverage": 0.75
+      },
+      "72": {
+        "reference_n": 24,
+        "observed_valid_n": 18,
+        "coverage": 0.75
+      },
+      "86": {
+        "reference_n": 22,
+        "observed_valid_n": 18,
+        "coverage": 0.8181818181818182
+      },
+      "89": {
+        "reference_n": 13,
+        "observed_valid_n": 11,
+        "coverage": 0.8461538461538461
+      },
+      "11": {
+        "reference_n": 20,
+        "observed_valid_n": 20,
+        "coverage": 1.0
+      },
+      "73": {
+        "reference_n": 21,
+        "observed_valid_n": 15,
+        "coverage": 0.7142857142857143
+      },
+      "74": {
+        "reference_n": 37,
+        "observed_valid_n": 33,
+        "coverage": 0.8918918918918919
+      },
+      "76": {
+        "reference_n": 19,
+        "observed_valid_n": 12,
+        "coverage": 0.631578947368421
+      },
+      "79": {
+        "reference_n": 6,
+        "observed_valid_n": 5,
+        "coverage": 0.8333333333333334
+      },
+      "87": {
+        "reference_n": 4,
+        "observed_valid_n": 0,
+        "coverage": 0.0
+      },
+      "78": {
+        "reference_n": 98,
+        "observed_valid_n": 96,
+        "coverage": 0.9795918367346939
+      },
+      "77": {
+        "reference_n": 144,
+        "observed_valid_n": 142,
+        "coverage": 0.9861111111111112
+      },
+      "59": {
+        "reference_n": 42,
+        "observed_valid_n": 39,
+        "coverage": 0.9285714285714286
+      },
+      "12": {
+        "reference_n": 17,
+        "observed_valid_n": 12,
+        "coverage": 0.7058823529411765
+      },
+      "13": {
+        "reference_n": 20,
+        "observed_valid_n": 10,
+        "coverage": 0.5
+      },
+      "26": {
+        "reference_n": 33,
+        "observed_valid_n": 28,
+        "coverage": 0.8484848484848485
+      },
+      "14": {
+        "reference_n": 29,
+        "observed_valid_n": 17,
+        "coverage": 0.5862068965517241
+      },
+      "15": {
+        "reference_n": 7,
+        "observed_valid_n": 6,
+        "coverage": 0.8571428571428571
+      },
+      "16": {
+        "reference_n": 43,
+        "observed_valid_n": 39,
+        "coverage": 0.9069767441860465
+      },
+      "17": {
+        "reference_n": 10,
+        "observed_valid_n": 4,
+        "coverage": 0.4
+      },
+      "18": {
+        "reference_n": 27,
+        "observed_valid_n": 24,
+        "coverage": 0.8888888888888888
+      },
+      "19": {
+        "reference_n": 12,
+        "observed_valid_n": 12,
+        "coverage": 1.0
+      },
+      "21": {
+        "reference_n": 23,
+        "observed_valid_n": 14,
+        "coverage": 0.6086956521739131
+      },
+      "22": {
+        "reference_n": 65,
+        "observed_valid_n": 43,
+        "coverage": 0.6615384615384615
+      },
+      "75": {
+        "reference_n": 28,
+        "observed_valid_n": 26,
+        "coverage": 0.9285714285714286
+      },
+      "41": {
+        "reference_n": 9,
+        "observed_valid_n": 2,
+        "coverage": 0.2222222222222222
+      },
+      "24": {
+        "reference_n": 51,
+        "observed_valid_n": 48,
+        "coverage": 0.9411764705882353
+      },
+      "25": {
+        "reference_n": 33,
+        "observed_valid_n": 32,
+        "coverage": 0.9696969696969697
+      },
+      "27": {
+        "reference_n": 16,
+        "observed_valid_n": 14,
+        "coverage": 0.875
+      },
+      "28": {
+        "reference_n": 19,
+        "observed_valid_n": 17,
+        "coverage": 0.8947368421052632
+      },
+      "29": {
+        "reference_n": 22,
+        "observed_valid_n": 20,
+        "coverage": 0.9090909090909091
+      },
+      "83": {
+        "reference_n": 2,
+        "observed_valid_n": 2,
+        "coverage": 1.0
+      },
+      "30": {
+        "reference_n": 11,
+        "observed_valid_n": 8,
+        "coverage": 0.7272727272727273
+      }
+    }
+  },
+  {
+    "scenario": "upper_delta_tail_0.5",
+    "reference_n": 2016,
+    "observed_n": 1008,
+    "coverage": 0.5,
+    "status": "reference_unbounded",
+    "true_full_median_in_bounds": true,
+    "identified_point_null": true,
+    "lower": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "upper": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "regional_coverage": {
+      "1": {
+        "reference_n": 9,
+        "observed_valid_n": 4,
+        "coverage": 0.4444444444444444
+      },
+      "4": {
+        "reference_n": 11,
+        "observed_valid_n": 7,
+        "coverage": 0.6363636363636364
+      },
+      "33": {
+        "reference_n": 18,
+        "observed_valid_n": 10,
+        "coverage": 0.5555555555555556
+      },
+      "34": {
+        "reference_n": 35,
+        "observed_valid_n": 10,
+        "coverage": 0.2857142857142857
+      },
+      "35": {
+        "reference_n": 25,
+        "observed_valid_n": 18,
+        "coverage": 0.72
+      },
+      "37": {
+        "reference_n": 26,
+        "observed_valid_n": 9,
+        "coverage": 0.34615384615384615
+      },
+      "38": {
+        "reference_n": 39,
+        "observed_valid_n": 14,
+        "coverage": 0.358974358974359
+      },
+      "39": {
+        "reference_n": 19,
+        "observed_valid_n": 12,
+        "coverage": 0.631578947368421
+      },
+      "40": {
+        "reference_n": 25,
+        "observed_valid_n": 17,
+        "coverage": 0.68
+      },
+      "42": {
+        "reference_n": 30,
+        "observed_valid_n": 5,
+        "coverage": 0.16666666666666666
+      },
+      "43": {
+        "reference_n": 43,
+        "observed_valid_n": 26,
+        "coverage": 0.6046511627906976
+      },
+      "44": {
+        "reference_n": 28,
+        "observed_valid_n": 12,
+        "coverage": 0.42857142857142855
+      },
+      "45": {
+        "reference_n": 24,
+        "observed_valid_n": 8,
+        "coverage": 0.3333333333333333
+      },
+      "47": {
+        "reference_n": 18,
+        "observed_valid_n": 9,
+        "coverage": 0.5
+      },
+      "48": {
+        "reference_n": 18,
+        "observed_valid_n": 10,
+        "coverage": 0.5555555555555556
+      },
+      "49": {
+        "reference_n": 3,
+        "observed_valid_n": 1,
+        "coverage": 0.3333333333333333
+      },
+      "50": {
+        "reference_n": 52,
+        "observed_valid_n": 30,
+        "coverage": 0.5769230769230769
+      },
+      "51": {
+        "reference_n": 12,
+        "observed_valid_n": 4,
+        "coverage": 0.3333333333333333
+      },
+      "52": {
+        "reference_n": 50,
+        "observed_valid_n": 18,
+        "coverage": 0.36
+      },
+      "53": {
+        "reference_n": 21,
+        "observed_valid_n": 14,
+        "coverage": 0.6666666666666666
+      },
+      "54": {
+        "reference_n": 35,
+        "observed_valid_n": 11,
+        "coverage": 0.3142857142857143
+      },
+      "55": {
+        "reference_n": 33,
+        "observed_valid_n": 23,
+        "coverage": 0.696969696969697
+      },
+      "56": {
+        "reference_n": 39,
+        "observed_valid_n": 19,
+        "coverage": 0.48717948717948717
+      },
+      "7": {
+        "reference_n": 4,
+        "observed_valid_n": 1,
+        "coverage": 0.25
+      },
+      "57": {
+        "reference_n": 21,
+        "observed_valid_n": 12,
+        "coverage": 0.5714285714285714
+      },
+      "58": {
+        "reference_n": 25,
+        "observed_valid_n": 7,
+        "coverage": 0.28
+      },
+      "60": {
+        "reference_n": 22,
+        "observed_valid_n": 12,
+        "coverage": 0.5454545454545454
+      },
+      "8": {
+        "reference_n": 5,
+        "observed_valid_n": 4,
+        "coverage": 0.8
+      },
+      "62": {
+        "reference_n": 26,
+        "observed_valid_n": 15,
+        "coverage": 0.5769230769230769
+      },
+      "63": {
+        "reference_n": 36,
+        "observed_valid_n": 20,
+        "coverage": 0.5555555555555556
+      },
+      "64": {
+        "reference_n": 39,
+        "observed_valid_n": 11,
+        "coverage": 0.28205128205128205
+      },
+      "9": {
+        "reference_n": 8,
+        "observed_valid_n": 2,
+        "coverage": 0.25
+      },
+      "65": {
+        "reference_n": 16,
+        "observed_valid_n": 13,
+        "coverage": 0.8125
+      },
+      "66": {
+        "reference_n": 64,
+        "observed_valid_n": 34,
+        "coverage": 0.53125
+      },
+      "67": {
+        "reference_n": 27,
+        "observed_valid_n": 13,
+        "coverage": 0.48148148148148145
+      },
+      "10": {
+        "reference_n": 18,
+        "observed_valid_n": 7,
+        "coverage": 0.3888888888888889
+      },
+      "68": {
+        "reference_n": 24,
+        "observed_valid_n": 8,
+        "coverage": 0.3333333333333333
+      },
+      "2": {
+        "reference_n": 61,
+        "observed_valid_n": 22,
+        "coverage": 0.36065573770491804
+      },
+      "69": {
+        "reference_n": 37,
+        "observed_valid_n": 21,
+        "coverage": 0.5675675675675675
+      },
+      "70": {
+        "reference_n": 19,
+        "observed_valid_n": 11,
+        "coverage": 0.5789473684210527
+      },
+      "71": {
+        "reference_n": 24,
+        "observed_valid_n": 8,
+        "coverage": 0.3333333333333333
+      },
+      "72": {
+        "reference_n": 24,
+        "observed_valid_n": 13,
+        "coverage": 0.5416666666666666
+      },
+      "86": {
+        "reference_n": 22,
+        "observed_valid_n": 7,
+        "coverage": 0.3181818181818182
+      },
+      "89": {
+        "reference_n": 13,
+        "observed_valid_n": 5,
+        "coverage": 0.38461538461538464
+      },
+      "11": {
+        "reference_n": 20,
+        "observed_valid_n": 16,
+        "coverage": 0.8
+      },
+      "73": {
+        "reference_n": 21,
+        "observed_valid_n": 10,
+        "coverage": 0.47619047619047616
+      },
+      "74": {
+        "reference_n": 37,
+        "observed_valid_n": 23,
+        "coverage": 0.6216216216216216
+      },
+      "76": {
+        "reference_n": 19,
+        "observed_valid_n": 9,
+        "coverage": 0.47368421052631576
+      },
+      "79": {
+        "reference_n": 6,
+        "observed_valid_n": 1,
+        "coverage": 0.16666666666666666
+      },
+      "87": {
+        "reference_n": 4,
+        "observed_valid_n": 0,
+        "coverage": 0.0
+      },
+      "78": {
+        "reference_n": 98,
+        "observed_valid_n": 57,
+        "coverage": 0.5816326530612245
+      },
+      "77": {
+        "reference_n": 144,
+        "observed_valid_n": 75,
+        "coverage": 0.5208333333333334
+      },
+      "59": {
+        "reference_n": 42,
+        "observed_valid_n": 31,
+        "coverage": 0.7380952380952381
+      },
+      "12": {
+        "reference_n": 17,
+        "observed_valid_n": 11,
+        "coverage": 0.6470588235294118
+      },
+      "13": {
+        "reference_n": 20,
+        "observed_valid_n": 5,
+        "coverage": 0.25
+      },
+      "26": {
+        "reference_n": 33,
+        "observed_valid_n": 14,
+        "coverage": 0.42424242424242425
+      },
+      "14": {
+        "reference_n": 29,
+        "observed_valid_n": 8,
+        "coverage": 0.27586206896551724
+      },
+      "15": {
+        "reference_n": 7,
+        "observed_valid_n": 5,
+        "coverage": 0.7142857142857143
+      },
+      "16": {
+        "reference_n": 43,
+        "observed_valid_n": 26,
+        "coverage": 0.6046511627906976
+      },
+      "17": {
+        "reference_n": 10,
+        "observed_valid_n": 3,
+        "coverage": 0.3
+      },
+      "18": {
+        "reference_n": 27,
+        "observed_valid_n": 14,
+        "coverage": 0.5185185185185185
+      },
+      "19": {
+        "reference_n": 12,
+        "observed_valid_n": 8,
+        "coverage": 0.6666666666666666
+      },
+      "21": {
+        "reference_n": 23,
+        "observed_valid_n": 10,
+        "coverage": 0.43478260869565216
+      },
+      "22": {
+        "reference_n": 65,
+        "observed_valid_n": 24,
+        "coverage": 0.36923076923076925
+      },
+      "75": {
+        "reference_n": 28,
+        "observed_valid_n": 21,
+        "coverage": 0.75
+      },
+      "41": {
+        "reference_n": 9,
+        "observed_valid_n": 1,
+        "coverage": 0.1111111111111111
+      },
+      "24": {
+        "reference_n": 51,
+        "observed_valid_n": 38,
+        "coverage": 0.7450980392156863
+      },
+      "25": {
+        "reference_n": 33,
+        "observed_valid_n": 24,
+        "coverage": 0.7272727272727273
+      },
+      "27": {
+        "reference_n": 16,
+        "observed_valid_n": 5,
+        "coverage": 0.3125
+      },
+      "28": {
+        "reference_n": 19,
+        "observed_valid_n": 15,
+        "coverage": 0.7894736842105263
+      },
+      "29": {
+        "reference_n": 22,
+        "observed_valid_n": 12,
+        "coverage": 0.5454545454545454
+      },
+      "83": {
+        "reference_n": 2,
+        "observed_valid_n": 2,
+        "coverage": 1.0
+      },
+      "30": {
+        "reference_n": 11,
+        "observed_valid_n": 3,
+        "coverage": 0.2727272727272727
+      }
+    }
+  },
+  {
+    "scenario": "upper_delta_tail_0.6",
+    "reference_n": 2016,
+    "observed_n": 806,
+    "coverage": 0.3998015873015873,
+    "status": "reference_unbounded",
+    "true_full_median_in_bounds": true,
+    "identified_point_null": true,
+    "lower": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "upper": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "regional_coverage": {
+      "1": {
+        "reference_n": 9,
+        "observed_valid_n": 2,
+        "coverage": 0.2222222222222222
+      },
+      "4": {
+        "reference_n": 11,
+        "observed_valid_n": 6,
+        "coverage": 0.5454545454545454
+      },
+      "33": {
+        "reference_n": 18,
+        "observed_valid_n": 8,
+        "coverage": 0.4444444444444444
+      },
+      "34": {
+        "reference_n": 35,
+        "observed_valid_n": 9,
+        "coverage": 0.2571428571428571
+      },
+      "35": {
+        "reference_n": 25,
+        "observed_valid_n": 17,
+        "coverage": 0.68
+      },
+      "37": {
+        "reference_n": 26,
+        "observed_valid_n": 6,
+        "coverage": 0.23076923076923078
+      },
+      "38": {
+        "reference_n": 39,
+        "observed_valid_n": 10,
+        "coverage": 0.2564102564102564
+      },
+      "39": {
+        "reference_n": 19,
+        "observed_valid_n": 8,
+        "coverage": 0.42105263157894735
+      },
+      "40": {
+        "reference_n": 25,
+        "observed_valid_n": 15,
+        "coverage": 0.6
+      },
+      "42": {
+        "reference_n": 30,
+        "observed_valid_n": 4,
+        "coverage": 0.13333333333333333
+      },
+      "43": {
+        "reference_n": 43,
+        "observed_valid_n": 22,
+        "coverage": 0.5116279069767442
+      },
+      "44": {
+        "reference_n": 28,
+        "observed_valid_n": 7,
+        "coverage": 0.25
+      },
+      "45": {
+        "reference_n": 24,
+        "observed_valid_n": 7,
+        "coverage": 0.2916666666666667
+      },
+      "47": {
+        "reference_n": 18,
+        "observed_valid_n": 5,
+        "coverage": 0.2777777777777778
+      },
+      "48": {
+        "reference_n": 18,
+        "observed_valid_n": 8,
+        "coverage": 0.4444444444444444
+      },
+      "49": {
+        "reference_n": 3,
+        "observed_valid_n": 1,
+        "coverage": 0.3333333333333333
+      },
+      "50": {
+        "reference_n": 52,
+        "observed_valid_n": 16,
+        "coverage": 0.3076923076923077
+      },
+      "51": {
+        "reference_n": 12,
+        "observed_valid_n": 2,
+        "coverage": 0.16666666666666666
+      },
+      "52": {
+        "reference_n": 50,
+        "observed_valid_n": 16,
+        "coverage": 0.32
+      },
+      "53": {
+        "reference_n": 21,
+        "observed_valid_n": 11,
+        "coverage": 0.5238095238095238
+      },
+      "54": {
+        "reference_n": 35,
+        "observed_valid_n": 9,
+        "coverage": 0.2571428571428571
+      },
+      "55": {
+        "reference_n": 33,
+        "observed_valid_n": 19,
+        "coverage": 0.5757575757575758
+      },
+      "56": {
+        "reference_n": 39,
+        "observed_valid_n": 16,
+        "coverage": 0.41025641025641024
+      },
+      "7": {
+        "reference_n": 4,
+        "observed_valid_n": 1,
+        "coverage": 0.25
+      },
+      "57": {
+        "reference_n": 21,
+        "observed_valid_n": 11,
+        "coverage": 0.5238095238095238
+      },
+      "58": {
+        "reference_n": 25,
+        "observed_valid_n": 6,
+        "coverage": 0.24
+      },
+      "60": {
+        "reference_n": 22,
+        "observed_valid_n": 11,
+        "coverage": 0.5
+      },
+      "8": {
+        "reference_n": 5,
+        "observed_valid_n": 3,
+        "coverage": 0.6
+      },
+      "62": {
+        "reference_n": 26,
+        "observed_valid_n": 12,
+        "coverage": 0.46153846153846156
+      },
+      "63": {
+        "reference_n": 36,
+        "observed_valid_n": 14,
+        "coverage": 0.3888888888888889
+      },
+      "64": {
+        "reference_n": 39,
+        "observed_valid_n": 8,
+        "coverage": 0.20512820512820512
+      },
+      "9": {
+        "reference_n": 8,
+        "observed_valid_n": 1,
+        "coverage": 0.125
+      },
+      "65": {
+        "reference_n": 16,
+        "observed_valid_n": 13,
+        "coverage": 0.8125
+      },
+      "66": {
+        "reference_n": 64,
+        "observed_valid_n": 30,
+        "coverage": 0.46875
+      },
+      "67": {
+        "reference_n": 27,
+        "observed_valid_n": 11,
+        "coverage": 0.4074074074074074
+      },
+      "10": {
+        "reference_n": 18,
+        "observed_valid_n": 7,
+        "coverage": 0.3888888888888889
+      },
+      "68": {
+        "reference_n": 24,
+        "observed_valid_n": 6,
+        "coverage": 0.25
+      },
+      "2": {
+        "reference_n": 61,
+        "observed_valid_n": 18,
+        "coverage": 0.29508196721311475
+      },
+      "69": {
+        "reference_n": 37,
+        "observed_valid_n": 17,
+        "coverage": 0.4594594594594595
+      },
+      "70": {
+        "reference_n": 19,
+        "observed_valid_n": 9,
+        "coverage": 0.47368421052631576
+      },
+      "71": {
+        "reference_n": 24,
+        "observed_valid_n": 7,
+        "coverage": 0.2916666666666667
+      },
+      "72": {
+        "reference_n": 24,
+        "observed_valid_n": 12,
+        "coverage": 0.5
+      },
+      "86": {
+        "reference_n": 22,
+        "observed_valid_n": 6,
+        "coverage": 0.2727272727272727
+      },
+      "89": {
+        "reference_n": 13,
+        "observed_valid_n": 4,
+        "coverage": 0.3076923076923077
+      },
+      "11": {
+        "reference_n": 20,
+        "observed_valid_n": 12,
+        "coverage": 0.6
+      },
+      "73": {
+        "reference_n": 21,
+        "observed_valid_n": 9,
+        "coverage": 0.42857142857142855
+      },
+      "74": {
+        "reference_n": 37,
+        "observed_valid_n": 17,
+        "coverage": 0.4594594594594595
+      },
+      "76": {
+        "reference_n": 19,
+        "observed_valid_n": 9,
+        "coverage": 0.47368421052631576
+      },
+      "79": {
+        "reference_n": 6,
+        "observed_valid_n": 1,
+        "coverage": 0.16666666666666666
+      },
+      "87": {
+        "reference_n": 4,
+        "observed_valid_n": 0,
+        "coverage": 0.0
+      },
+      "78": {
+        "reference_n": 98,
+        "observed_valid_n": 30,
+        "coverage": 0.30612244897959184
+      },
+      "77": {
+        "reference_n": 144,
+        "observed_valid_n": 48,
+        "coverage": 0.3333333333333333
+      },
+      "59": {
+        "reference_n": 42,
+        "observed_valid_n": 30,
+        "coverage": 0.7142857142857143
+      },
+      "12": {
+        "reference_n": 17,
+        "observed_valid_n": 7,
+        "coverage": 0.4117647058823529
+      },
+      "13": {
+        "reference_n": 20,
+        "observed_valid_n": 4,
+        "coverage": 0.2
+      },
+      "26": {
+        "reference_n": 33,
+        "observed_valid_n": 13,
+        "coverage": 0.3939393939393939
+      },
+      "14": {
+        "reference_n": 29,
+        "observed_valid_n": 6,
+        "coverage": 0.20689655172413793
+      },
+      "15": {
+        "reference_n": 7,
+        "observed_valid_n": 5,
+        "coverage": 0.7142857142857143
+      },
+      "16": {
+        "reference_n": 43,
+        "observed_valid_n": 24,
+        "coverage": 0.5581395348837209
+      },
+      "17": {
+        "reference_n": 10,
+        "observed_valid_n": 3,
+        "coverage": 0.3
+      },
+      "18": {
+        "reference_n": 27,
+        "observed_valid_n": 12,
+        "coverage": 0.4444444444444444
+      },
+      "19": {
+        "reference_n": 12,
+        "observed_valid_n": 8,
+        "coverage": 0.6666666666666666
+      },
+      "21": {
+        "reference_n": 23,
+        "observed_valid_n": 8,
+        "coverage": 0.34782608695652173
+      },
+      "22": {
+        "reference_n": 65,
+        "observed_valid_n": 18,
+        "coverage": 0.27692307692307694
+      },
+      "75": {
+        "reference_n": 28,
+        "observed_valid_n": 20,
+        "coverage": 0.7142857142857143
+      },
+      "41": {
+        "reference_n": 9,
+        "observed_valid_n": 1,
+        "coverage": 0.1111111111111111
+      },
+      "24": {
+        "reference_n": 51,
+        "observed_valid_n": 35,
+        "coverage": 0.6862745098039216
+      },
+      "25": {
+        "reference_n": 33,
+        "observed_valid_n": 22,
+        "coverage": 0.6666666666666666
+      },
+      "27": {
+        "reference_n": 16,
+        "observed_valid_n": 5,
+        "coverage": 0.3125
+      },
+      "28": {
+        "reference_n": 19,
+        "observed_valid_n": 14,
+        "coverage": 0.7368421052631579
+      },
+      "29": {
+        "reference_n": 22,
+        "observed_valid_n": 11,
+        "coverage": 0.5
+      },
+      "83": {
+        "reference_n": 2,
+        "observed_valid_n": 1,
+        "coverage": 0.5
+      },
+      "30": {
+        "reference_n": 11,
+        "observed_valid_n": 2,
+        "coverage": 0.18181818181818182
+      }
+    }
+  },
+  {
+    "scenario": "leave_region_77",
+    "reference_n": 2016,
+    "observed_n": 1872,
+    "coverage": 0.9285714285714286,
+    "status": "partial_reference_bounded",
+    "true_full_median_in_bounds": true,
+    "identified_point_null": true,
+    "lower": [
+      -0.060438844572941096,
+      0.3631677564915813,
+      -0.053285240424268576,
+      -0.00833121780549291,
+      -0.1520672771661024
+    ],
+    "upper": [
+      -0.03560270806478303,
+      0.38381098411131076,
+      -0.027472444878462433,
+      0.012238532433989646,
+      -0.11543062284008437
+    ],
+    "regional_coverage": {
+      "1": {
+        "reference_n": 9,
+        "observed_valid_n": 9,
+        "coverage": 1.0
+      },
+      "4": {
+        "reference_n": 11,
+        "observed_valid_n": 11,
+        "coverage": 1.0
+      },
+      "33": {
+        "reference_n": 18,
+        "observed_valid_n": 18,
+        "coverage": 1.0
+      },
+      "34": {
+        "reference_n": 35,
+        "observed_valid_n": 35,
+        "coverage": 1.0
+      },
+      "35": {
+        "reference_n": 25,
+        "observed_valid_n": 25,
+        "coverage": 1.0
+      },
+      "37": {
+        "reference_n": 26,
+        "observed_valid_n": 26,
+        "coverage": 1.0
+      },
+      "38": {
+        "reference_n": 39,
+        "observed_valid_n": 39,
+        "coverage": 1.0
+      },
+      "39": {
+        "reference_n": 19,
+        "observed_valid_n": 19,
+        "coverage": 1.0
+      },
+      "40": {
+        "reference_n": 25,
+        "observed_valid_n": 25,
+        "coverage": 1.0
+      },
+      "42": {
+        "reference_n": 30,
+        "observed_valid_n": 30,
+        "coverage": 1.0
+      },
+      "43": {
+        "reference_n": 43,
+        "observed_valid_n": 43,
+        "coverage": 1.0
+      },
+      "44": {
+        "reference_n": 28,
+        "observed_valid_n": 28,
+        "coverage": 1.0
+      },
+      "45": {
+        "reference_n": 24,
+        "observed_valid_n": 24,
+        "coverage": 1.0
+      },
+      "47": {
+        "reference_n": 18,
+        "observed_valid_n": 18,
+        "coverage": 1.0
+      },
+      "48": {
+        "reference_n": 18,
+        "observed_valid_n": 18,
+        "coverage": 1.0
+      },
+      "49": {
+        "reference_n": 3,
+        "observed_valid_n": 3,
+        "coverage": 1.0
+      },
+      "50": {
+        "reference_n": 52,
+        "observed_valid_n": 52,
+        "coverage": 1.0
+      },
+      "51": {
+        "reference_n": 12,
+        "observed_valid_n": 12,
+        "coverage": 1.0
+      },
+      "52": {
+        "reference_n": 50,
+        "observed_valid_n": 50,
+        "coverage": 1.0
+      },
+      "53": {
+        "reference_n": 21,
+        "observed_valid_n": 21,
+        "coverage": 1.0
+      },
+      "54": {
+        "reference_n": 35,
+        "observed_valid_n": 35,
+        "coverage": 1.0
+      },
+      "55": {
+        "reference_n": 33,
+        "observed_valid_n": 33,
+        "coverage": 1.0
+      },
+      "56": {
+        "reference_n": 39,
+        "observed_valid_n": 39,
+        "coverage": 1.0
+      },
+      "7": {
+        "reference_n": 4,
+        "observed_valid_n": 4,
+        "coverage": 1.0
+      },
+      "57": {
+        "reference_n": 21,
+        "observed_valid_n": 21,
+        "coverage": 1.0
+      },
+      "58": {
+        "reference_n": 25,
+        "observed_valid_n": 25,
+        "coverage": 1.0
+      },
+      "60": {
+        "reference_n": 22,
+        "observed_valid_n": 22,
+        "coverage": 1.0
+      },
+      "8": {
+        "reference_n": 5,
+        "observed_valid_n": 5,
+        "coverage": 1.0
+      },
+      "62": {
+        "reference_n": 26,
+        "observed_valid_n": 26,
+        "coverage": 1.0
+      },
+      "63": {
+        "reference_n": 36,
+        "observed_valid_n": 36,
+        "coverage": 1.0
+      },
+      "64": {
+        "reference_n": 39,
+        "observed_valid_n": 39,
+        "coverage": 1.0
+      },
+      "9": {
+        "reference_n": 8,
+        "observed_valid_n": 8,
+        "coverage": 1.0
+      },
+      "65": {
+        "reference_n": 16,
+        "observed_valid_n": 16,
+        "coverage": 1.0
+      },
+      "66": {
+        "reference_n": 64,
+        "observed_valid_n": 64,
+        "coverage": 1.0
+      },
+      "67": {
+        "reference_n": 27,
+        "observed_valid_n": 27,
+        "coverage": 1.0
+      },
+      "10": {
+        "reference_n": 18,
+        "observed_valid_n": 18,
+        "coverage": 1.0
+      },
+      "68": {
+        "reference_n": 24,
+        "observed_valid_n": 24,
+        "coverage": 1.0
+      },
+      "2": {
+        "reference_n": 61,
+        "observed_valid_n": 61,
+        "coverage": 1.0
+      },
+      "69": {
+        "reference_n": 37,
+        "observed_valid_n": 37,
+        "coverage": 1.0
+      },
+      "70": {
+        "reference_n": 19,
+        "observed_valid_n": 19,
+        "coverage": 1.0
+      },
+      "71": {
+        "reference_n": 24,
+        "observed_valid_n": 24,
+        "coverage": 1.0
+      },
+      "72": {
+        "reference_n": 24,
+        "observed_valid_n": 24,
+        "coverage": 1.0
+      },
+      "86": {
+        "reference_n": 22,
+        "observed_valid_n": 22,
+        "coverage": 1.0
+      },
+      "89": {
+        "reference_n": 13,
+        "observed_valid_n": 13,
+        "coverage": 1.0
+      },
+      "11": {
+        "reference_n": 20,
+        "observed_valid_n": 20,
+        "coverage": 1.0
+      },
+      "73": {
+        "reference_n": 21,
+        "observed_valid_n": 21,
+        "coverage": 1.0
+      },
+      "74": {
+        "reference_n": 37,
+        "observed_valid_n": 37,
+        "coverage": 1.0
+      },
+      "76": {
+        "reference_n": 19,
+        "observed_valid_n": 19,
+        "coverage": 1.0
+      },
+      "79": {
+        "reference_n": 6,
+        "observed_valid_n": 6,
+        "coverage": 1.0
+      },
+      "87": {
+        "reference_n": 4,
+        "observed_valid_n": 4,
+        "coverage": 1.0
+      },
+      "78": {
+        "reference_n": 98,
+        "observed_valid_n": 98,
+        "coverage": 1.0
+      },
+      "77": {
+        "reference_n": 144,
+        "observed_valid_n": 0,
+        "coverage": 0.0
+      },
+      "59": {
+        "reference_n": 42,
+        "observed_valid_n": 42,
+        "coverage": 1.0
+      },
+      "12": {
+        "reference_n": 17,
+        "observed_valid_n": 17,
+        "coverage": 1.0
+      },
+      "13": {
+        "reference_n": 20,
+        "observed_valid_n": 20,
+        "coverage": 1.0
+      },
+      "26": {
+        "reference_n": 33,
+        "observed_valid_n": 33,
+        "coverage": 1.0
+      },
+      "14": {
+        "reference_n": 29,
+        "observed_valid_n": 29,
+        "coverage": 1.0
+      },
+      "15": {
+        "reference_n": 7,
+        "observed_valid_n": 7,
+        "coverage": 1.0
+      },
+      "16": {
+        "reference_n": 43,
+        "observed_valid_n": 43,
+        "coverage": 1.0
+      },
+      "17": {
+        "reference_n": 10,
+        "observed_valid_n": 10,
+        "coverage": 1.0
+      },
+      "18": {
+        "reference_n": 27,
+        "observed_valid_n": 27,
+        "coverage": 1.0
+      },
+      "19": {
+        "reference_n": 12,
+        "observed_valid_n": 12,
+        "coverage": 1.0
+      },
+      "21": {
+        "reference_n": 23,
+        "observed_valid_n": 23,
+        "coverage": 1.0
+      },
+      "22": {
+        "reference_n": 65,
+        "observed_valid_n": 65,
+        "coverage": 1.0
+      },
+      "75": {
+        "reference_n": 28,
+        "observed_valid_n": 28,
+        "coverage": 1.0
+      },
+      "41": {
+        "reference_n": 9,
+        "observed_valid_n": 9,
+        "coverage": 1.0
+      },
+      "24": {
+        "reference_n": 51,
+        "observed_valid_n": 51,
+        "coverage": 1.0
+      },
+      "25": {
+        "reference_n": 33,
+        "observed_valid_n": 33,
+        "coverage": 1.0
+      },
+      "27": {
+        "reference_n": 16,
+        "observed_valid_n": 16,
+        "coverage": 1.0
+      },
+      "28": {
+        "reference_n": 19,
+        "observed_valid_n": 19,
+        "coverage": 1.0
+      },
+      "29": {
+        "reference_n": 22,
+        "observed_valid_n": 22,
+        "coverage": 1.0
+      },
+      "83": {
+        "reference_n": 2,
+        "observed_valid_n": 2,
+        "coverage": 1.0
+      },
+      "30": {
+        "reference_n": 11,
+        "observed_valid_n": 11,
+        "coverage": 1.0
+      }
+    }
+  },
+  {
+    "scenario": "leave_region_78",
+    "reference_n": 2016,
+    "observed_n": 1918,
+    "coverage": 0.9513888888888888,
+    "status": "partial_reference_bounded",
+    "true_full_median_in_bounds": true,
+    "identified_point_null": true,
+    "lower": [
+      -0.055046756802263924,
+      0.3544037857255883,
+      -0.045025758581122115,
+      -0.008451429573187681,
+      -0.14149472462714638
+    ],
+    "upper": [
+      -0.03905155506921873,
+      0.3703868796298946,
+      -0.02763711040970609,
+      0.006436437014186846,
+      -0.11657266013534343
+    ],
+    "regional_coverage": {
+      "1": {
+        "reference_n": 9,
+        "observed_valid_n": 9,
+        "coverage": 1.0
+      },
+      "4": {
+        "reference_n": 11,
+        "observed_valid_n": 11,
+        "coverage": 1.0
+      },
+      "33": {
+        "reference_n": 18,
+        "observed_valid_n": 18,
+        "coverage": 1.0
+      },
+      "34": {
+        "reference_n": 35,
+        "observed_valid_n": 35,
+        "coverage": 1.0
+      },
+      "35": {
+        "reference_n": 25,
+        "observed_valid_n": 25,
+        "coverage": 1.0
+      },
+      "37": {
+        "reference_n": 26,
+        "observed_valid_n": 26,
+        "coverage": 1.0
+      },
+      "38": {
+        "reference_n": 39,
+        "observed_valid_n": 39,
+        "coverage": 1.0
+      },
+      "39": {
+        "reference_n": 19,
+        "observed_valid_n": 19,
+        "coverage": 1.0
+      },
+      "40": {
+        "reference_n": 25,
+        "observed_valid_n": 25,
+        "coverage": 1.0
+      },
+      "42": {
+        "reference_n": 30,
+        "observed_valid_n": 30,
+        "coverage": 1.0
+      },
+      "43": {
+        "reference_n": 43,
+        "observed_valid_n": 43,
+        "coverage": 1.0
+      },
+      "44": {
+        "reference_n": 28,
+        "observed_valid_n": 28,
+        "coverage": 1.0
+      },
+      "45": {
+        "reference_n": 24,
+        "observed_valid_n": 24,
+        "coverage": 1.0
+      },
+      "47": {
+        "reference_n": 18,
+        "observed_valid_n": 18,
+        "coverage": 1.0
+      },
+      "48": {
+        "reference_n": 18,
+        "observed_valid_n": 18,
+        "coverage": 1.0
+      },
+      "49": {
+        "reference_n": 3,
+        "observed_valid_n": 3,
+        "coverage": 1.0
+      },
+      "50": {
+        "reference_n": 52,
+        "observed_valid_n": 52,
+        "coverage": 1.0
+      },
+      "51": {
+        "reference_n": 12,
+        "observed_valid_n": 12,
+        "coverage": 1.0
+      },
+      "52": {
+        "reference_n": 50,
+        "observed_valid_n": 50,
+        "coverage": 1.0
+      },
+      "53": {
+        "reference_n": 21,
+        "observed_valid_n": 21,
+        "coverage": 1.0
+      },
+      "54": {
+        "reference_n": 35,
+        "observed_valid_n": 35,
+        "coverage": 1.0
+      },
+      "55": {
+        "reference_n": 33,
+        "observed_valid_n": 33,
+        "coverage": 1.0
+      },
+      "56": {
+        "reference_n": 39,
+        "observed_valid_n": 39,
+        "coverage": 1.0
+      },
+      "7": {
+        "reference_n": 4,
+        "observed_valid_n": 4,
+        "coverage": 1.0
+      },
+      "57": {
+        "reference_n": 21,
+        "observed_valid_n": 21,
+        "coverage": 1.0
+      },
+      "58": {
+        "reference_n": 25,
+        "observed_valid_n": 25,
+        "coverage": 1.0
+      },
+      "60": {
+        "reference_n": 22,
+        "observed_valid_n": 22,
+        "coverage": 1.0
+      },
+      "8": {
+        "reference_n": 5,
+        "observed_valid_n": 5,
+        "coverage": 1.0
+      },
+      "62": {
+        "reference_n": 26,
+        "observed_valid_n": 26,
+        "coverage": 1.0
+      },
+      "63": {
+        "reference_n": 36,
+        "observed_valid_n": 36,
+        "coverage": 1.0
+      },
+      "64": {
+        "reference_n": 39,
+        "observed_valid_n": 39,
+        "coverage": 1.0
+      },
+      "9": {
+        "reference_n": 8,
+        "observed_valid_n": 8,
+        "coverage": 1.0
+      },
+      "65": {
+        "reference_n": 16,
+        "observed_valid_n": 16,
+        "coverage": 1.0
+      },
+      "66": {
+        "reference_n": 64,
+        "observed_valid_n": 64,
+        "coverage": 1.0
+      },
+      "67": {
+        "reference_n": 27,
+        "observed_valid_n": 27,
+        "coverage": 1.0
+      },
+      "10": {
+        "reference_n": 18,
+        "observed_valid_n": 18,
+        "coverage": 1.0
+      },
+      "68": {
+        "reference_n": 24,
+        "observed_valid_n": 24,
+        "coverage": 1.0
+      },
+      "2": {
+        "reference_n": 61,
+        "observed_valid_n": 61,
+        "coverage": 1.0
+      },
+      "69": {
+        "reference_n": 37,
+        "observed_valid_n": 37,
+        "coverage": 1.0
+      },
+      "70": {
+        "reference_n": 19,
+        "observed_valid_n": 19,
+        "coverage": 1.0
+      },
+      "71": {
+        "reference_n": 24,
+        "observed_valid_n": 24,
+        "coverage": 1.0
+      },
+      "72": {
+        "reference_n": 24,
+        "observed_valid_n": 24,
+        "coverage": 1.0
+      },
+      "86": {
+        "reference_n": 22,
+        "observed_valid_n": 22,
+        "coverage": 1.0
+      },
+      "89": {
+        "reference_n": 13,
+        "observed_valid_n": 13,
+        "coverage": 1.0
+      },
+      "11": {
+        "reference_n": 20,
+        "observed_valid_n": 20,
+        "coverage": 1.0
+      },
+      "73": {
+        "reference_n": 21,
+        "observed_valid_n": 21,
+        "coverage": 1.0
+      },
+      "74": {
+        "reference_n": 37,
+        "observed_valid_n": 37,
+        "coverage": 1.0
+      },
+      "76": {
+        "reference_n": 19,
+        "observed_valid_n": 19,
+        "coverage": 1.0
+      },
+      "79": {
+        "reference_n": 6,
+        "observed_valid_n": 6,
+        "coverage": 1.0
+      },
+      "87": {
+        "reference_n": 4,
+        "observed_valid_n": 4,
+        "coverage": 1.0
+      },
+      "78": {
+        "reference_n": 98,
+        "observed_valid_n": 0,
+        "coverage": 0.0
+      },
+      "77": {
+        "reference_n": 144,
+        "observed_valid_n": 144,
+        "coverage": 1.0
+      },
+      "59": {
+        "reference_n": 42,
+        "observed_valid_n": 42,
+        "coverage": 1.0
+      },
+      "12": {
+        "reference_n": 17,
+        "observed_valid_n": 17,
+        "coverage": 1.0
+      },
+      "13": {
+        "reference_n": 20,
+        "observed_valid_n": 20,
+        "coverage": 1.0
+      },
+      "26": {
+        "reference_n": 33,
+        "observed_valid_n": 33,
+        "coverage": 1.0
+      },
+      "14": {
+        "reference_n": 29,
+        "observed_valid_n": 29,
+        "coverage": 1.0
+      },
+      "15": {
+        "reference_n": 7,
+        "observed_valid_n": 7,
+        "coverage": 1.0
+      },
+      "16": {
+        "reference_n": 43,
+        "observed_valid_n": 43,
+        "coverage": 1.0
+      },
+      "17": {
+        "reference_n": 10,
+        "observed_valid_n": 10,
+        "coverage": 1.0
+      },
+      "18": {
+        "reference_n": 27,
+        "observed_valid_n": 27,
+        "coverage": 1.0
+      },
+      "19": {
+        "reference_n": 12,
+        "observed_valid_n": 12,
+        "coverage": 1.0
+      },
+      "21": {
+        "reference_n": 23,
+        "observed_valid_n": 23,
+        "coverage": 1.0
+      },
+      "22": {
+        "reference_n": 65,
+        "observed_valid_n": 65,
+        "coverage": 1.0
+      },
+      "75": {
+        "reference_n": 28,
+        "observed_valid_n": 28,
+        "coverage": 1.0
+      },
+      "41": {
+        "reference_n": 9,
+        "observed_valid_n": 9,
+        "coverage": 1.0
+      },
+      "24": {
+        "reference_n": 51,
+        "observed_valid_n": 51,
+        "coverage": 1.0
+      },
+      "25": {
+        "reference_n": 33,
+        "observed_valid_n": 33,
+        "coverage": 1.0
+      },
+      "27": {
+        "reference_n": 16,
+        "observed_valid_n": 16,
+        "coverage": 1.0
+      },
+      "28": {
+        "reference_n": 19,
+        "observed_valid_n": 19,
+        "coverage": 1.0
+      },
+      "29": {
+        "reference_n": 22,
+        "observed_valid_n": 22,
+        "coverage": 1.0
+      },
+      "83": {
+        "reference_n": 2,
+        "observed_valid_n": 2,
+        "coverage": 1.0
+      },
+      "30": {
+        "reference_n": 11,
+        "observed_valid_n": 11,
+        "coverage": 1.0
+      }
+    }
+  },
+  {
+    "scenario": "leave_region_22",
+    "reference_n": 2016,
+    "observed_n": 1951,
+    "coverage": 0.9677579365079365,
+    "status": "partial_reference_bounded",
+    "true_full_median_in_bounds": true,
+    "identified_point_null": true,
+    "lower": [
+      -0.05408204434882191,
+      0.3565414338173868,
+      -0.03314973908430896,
+      -0.013006586298744037,
+      -0.12494092457387751
+    ],
+    "upper": [
+      -0.04479002127737022,
+      0.3657027522529182,
+      -0.02275020972251749,
+      -0.00403770410106323,
+      -0.10566188993532824
+    ],
+    "regional_coverage": {
+      "1": {
+        "reference_n": 9,
+        "observed_valid_n": 9,
+        "coverage": 1.0
+      },
+      "4": {
+        "reference_n": 11,
+        "observed_valid_n": 11,
+        "coverage": 1.0
+      },
+      "33": {
+        "reference_n": 18,
+        "observed_valid_n": 18,
+        "coverage": 1.0
+      },
+      "34": {
+        "reference_n": 35,
+        "observed_valid_n": 35,
+        "coverage": 1.0
+      },
+      "35": {
+        "reference_n": 25,
+        "observed_valid_n": 25,
+        "coverage": 1.0
+      },
+      "37": {
+        "reference_n": 26,
+        "observed_valid_n": 26,
+        "coverage": 1.0
+      },
+      "38": {
+        "reference_n": 39,
+        "observed_valid_n": 39,
+        "coverage": 1.0
+      },
+      "39": {
+        "reference_n": 19,
+        "observed_valid_n": 19,
+        "coverage": 1.0
+      },
+      "40": {
+        "reference_n": 25,
+        "observed_valid_n": 25,
+        "coverage": 1.0
+      },
+      "42": {
+        "reference_n": 30,
+        "observed_valid_n": 30,
+        "coverage": 1.0
+      },
+      "43": {
+        "reference_n": 43,
+        "observed_valid_n": 43,
+        "coverage": 1.0
+      },
+      "44": {
+        "reference_n": 28,
+        "observed_valid_n": 28,
+        "coverage": 1.0
+      },
+      "45": {
+        "reference_n": 24,
+        "observed_valid_n": 24,
+        "coverage": 1.0
+      },
+      "47": {
+        "reference_n": 18,
+        "observed_valid_n": 18,
+        "coverage": 1.0
+      },
+      "48": {
+        "reference_n": 18,
+        "observed_valid_n": 18,
+        "coverage": 1.0
+      },
+      "49": {
+        "reference_n": 3,
+        "observed_valid_n": 3,
+        "coverage": 1.0
+      },
+      "50": {
+        "reference_n": 52,
+        "observed_valid_n": 52,
+        "coverage": 1.0
+      },
+      "51": {
+        "reference_n": 12,
+        "observed_valid_n": 12,
+        "coverage": 1.0
+      },
+      "52": {
+        "reference_n": 50,
+        "observed_valid_n": 50,
+        "coverage": 1.0
+      },
+      "53": {
+        "reference_n": 21,
+        "observed_valid_n": 21,
+        "coverage": 1.0
+      },
+      "54": {
+        "reference_n": 35,
+        "observed_valid_n": 35,
+        "coverage": 1.0
+      },
+      "55": {
+        "reference_n": 33,
+        "observed_valid_n": 33,
+        "coverage": 1.0
+      },
+      "56": {
+        "reference_n": 39,
+        "observed_valid_n": 39,
+        "coverage": 1.0
+      },
+      "7": {
+        "reference_n": 4,
+        "observed_valid_n": 4,
+        "coverage": 1.0
+      },
+      "57": {
+        "reference_n": 21,
+        "observed_valid_n": 21,
+        "coverage": 1.0
+      },
+      "58": {
+        "reference_n": 25,
+        "observed_valid_n": 25,
+        "coverage": 1.0
+      },
+      "60": {
+        "reference_n": 22,
+        "observed_valid_n": 22,
+        "coverage": 1.0
+      },
+      "8": {
+        "reference_n": 5,
+        "observed_valid_n": 5,
+        "coverage": 1.0
+      },
+      "62": {
+        "reference_n": 26,
+        "observed_valid_n": 26,
+        "coverage": 1.0
+      },
+      "63": {
+        "reference_n": 36,
+        "observed_valid_n": 36,
+        "coverage": 1.0
+      },
+      "64": {
+        "reference_n": 39,
+        "observed_valid_n": 39,
+        "coverage": 1.0
+      },
+      "9": {
+        "reference_n": 8,
+        "observed_valid_n": 8,
+        "coverage": 1.0
+      },
+      "65": {
+        "reference_n": 16,
+        "observed_valid_n": 16,
+        "coverage": 1.0
+      },
+      "66": {
+        "reference_n": 64,
+        "observed_valid_n": 64,
+        "coverage": 1.0
+      },
+      "67": {
+        "reference_n": 27,
+        "observed_valid_n": 27,
+        "coverage": 1.0
+      },
+      "10": {
+        "reference_n": 18,
+        "observed_valid_n": 18,
+        "coverage": 1.0
+      },
+      "68": {
+        "reference_n": 24,
+        "observed_valid_n": 24,
+        "coverage": 1.0
+      },
+      "2": {
+        "reference_n": 61,
+        "observed_valid_n": 61,
+        "coverage": 1.0
+      },
+      "69": {
+        "reference_n": 37,
+        "observed_valid_n": 37,
+        "coverage": 1.0
+      },
+      "70": {
+        "reference_n": 19,
+        "observed_valid_n": 19,
+        "coverage": 1.0
+      },
+      "71": {
+        "reference_n": 24,
+        "observed_valid_n": 24,
+        "coverage": 1.0
+      },
+      "72": {
+        "reference_n": 24,
+        "observed_valid_n": 24,
+        "coverage": 1.0
+      },
+      "86": {
+        "reference_n": 22,
+        "observed_valid_n": 22,
+        "coverage": 1.0
+      },
+      "89": {
+        "reference_n": 13,
+        "observed_valid_n": 13,
+        "coverage": 1.0
+      },
+      "11": {
+        "reference_n": 20,
+        "observed_valid_n": 20,
+        "coverage": 1.0
+      },
+      "73": {
+        "reference_n": 21,
+        "observed_valid_n": 21,
+        "coverage": 1.0
+      },
+      "74": {
+        "reference_n": 37,
+        "observed_valid_n": 37,
+        "coverage": 1.0
+      },
+      "76": {
+        "reference_n": 19,
+        "observed_valid_n": 19,
+        "coverage": 1.0
+      },
+      "79": {
+        "reference_n": 6,
+        "observed_valid_n": 6,
+        "coverage": 1.0
+      },
+      "87": {
+        "reference_n": 4,
+        "observed_valid_n": 4,
+        "coverage": 1.0
+      },
+      "78": {
+        "reference_n": 98,
+        "observed_valid_n": 98,
+        "coverage": 1.0
+      },
+      "77": {
+        "reference_n": 144,
+        "observed_valid_n": 144,
+        "coverage": 1.0
+      },
+      "59": {
+        "reference_n": 42,
+        "observed_valid_n": 42,
+        "coverage": 1.0
+      },
+      "12": {
+        "reference_n": 17,
+        "observed_valid_n": 17,
+        "coverage": 1.0
+      },
+      "13": {
+        "reference_n": 20,
+        "observed_valid_n": 20,
+        "coverage": 1.0
+      },
+      "26": {
+        "reference_n": 33,
+        "observed_valid_n": 33,
+        "coverage": 1.0
+      },
+      "14": {
+        "reference_n": 29,
+        "observed_valid_n": 29,
+        "coverage": 1.0
+      },
+      "15": {
+        "reference_n": 7,
+        "observed_valid_n": 7,
+        "coverage": 1.0
+      },
+      "16": {
+        "reference_n": 43,
+        "observed_valid_n": 43,
+        "coverage": 1.0
+      },
+      "17": {
+        "reference_n": 10,
+        "observed_valid_n": 10,
+        "coverage": 1.0
+      },
+      "18": {
+        "reference_n": 27,
+        "observed_valid_n": 27,
+        "coverage": 1.0
+      },
+      "19": {
+        "reference_n": 12,
+        "observed_valid_n": 12,
+        "coverage": 1.0
+      },
+      "21": {
+        "reference_n": 23,
+        "observed_valid_n": 23,
+        "coverage": 1.0
+      },
+      "22": {
+        "reference_n": 65,
+        "observed_valid_n": 0,
+        "coverage": 0.0
+      },
+      "75": {
+        "reference_n": 28,
+        "observed_valid_n": 28,
+        "coverage": 1.0
+      },
+      "41": {
+        "reference_n": 9,
+        "observed_valid_n": 9,
+        "coverage": 1.0
+      },
+      "24": {
+        "reference_n": 51,
+        "observed_valid_n": 51,
+        "coverage": 1.0
+      },
+      "25": {
+        "reference_n": 33,
+        "observed_valid_n": 33,
+        "coverage": 1.0
+      },
+      "27": {
+        "reference_n": 16,
+        "observed_valid_n": 16,
+        "coverage": 1.0
+      },
+      "28": {
+        "reference_n": 19,
+        "observed_valid_n": 19,
+        "coverage": 1.0
+      },
+      "29": {
+        "reference_n": 22,
+        "observed_valid_n": 22,
+        "coverage": 1.0
+      },
+      "83": {
+        "reference_n": 2,
+        "observed_valid_n": 2,
+        "coverage": 1.0
+      },
+      "30": {
+        "reference_n": 11,
+        "observed_valid_n": 11,
+        "coverage": 1.0
+      }
+    }
+  }
+]

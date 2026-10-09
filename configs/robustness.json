@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "seed": 1729,
+  "feature_config": "configs/edge_rules.json",
+  "panel": "data/processed/panel.csv",
+  "reference": "reports/experiments/2026-09-23-v2/validation/frozen_prototypes.json",
+  "output": "reports/robustness",
+  "remote_type": 3,
+  "market_category": "Маркетплейсы",
+  "kmeans": {
+    "k": 4,
+    "n_init": 20
+  },
+  "bases": {
+    "annual_2023": ["2023-01-01", "2023-12-01"],
+    "h1_2023": ["2023-01-01", "2023-06-01"],
+    "h2_2023": ["2023-07-01", "2023-12-01"]
+  },
+  "comparison": ["2024-01-01", "2024-12-01"],
+  "trend_window": ["2023-07-01", "2023-12-01"],
+  "k_selection": {
+    "k_grid": [2, 3, 4, 5, 6, 7, 8],
+    "graph_k": 15,
+    "bootstrap_runs": 20,
+    "bootstrap_fraction": 0.8,
+    "seeds": [1729, 2718, 3141, 4242, 5050, 6161, 7272, 8383, 9494, 1010],
+    "gap_references": 10,
+    "gap_box": "pca",
+    "gap_n_init": 5,
+    "rule": {
+      "min_bootstrap_ari": 0.8,
+      "min_seed_ari": 0.8,
+      "min_share": 0.01,
+      "min_votes": 2,
+      "votes": "interior_local_optimum",
+      "same_index": {
+        "S_Dbw_paper": "S_Dbw"
+      },
+      "fallback": "max_SW",
+      "indices": {
+        "SW": "max",
+        "CH": "max",
+        "S_Dbw": "min",
+        "S_Dbw_paper": "min",
+        "MQ": "max",
+        "AVI": "max",
+        "AVU": "min"
+      }
+    }
+  }
+}

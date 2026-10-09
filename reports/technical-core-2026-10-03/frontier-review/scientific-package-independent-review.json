@@ -1,0 +1,54 @@
+{
+  "status": "pass",
+  "scope": "Independent final scientific-package file/submanifest and current-source fingerprint verification.",
+  "method_manifests": [
+    {
+      "manifest": "reports/model-frontier-2026-10-03/manifest.json",
+      "sha256": "8358cd398ff5d50944140bda4ef09869b45fc0a8d1229741f8934c0a29fd908b",
+      "n_files": 201,
+      "matches": true
+    },
+    {
+      "manifest": "reports/model-frontier-2026-10-03/constrained/manifest.json",
+      "sha256": "5798a4bb864bd3358aceac2764dfa77458f3f43af63f76151d706d08726c4bca",
+      "n_files": 14,
+      "matches": true
+    },
+    {
+      "manifest": "reports/model-frontier-2026-10-03/denominator/manifest.json",
+      "sha256": "aade7b3b4636e68d63d48ac455e540e208a78f7e99ea4f6585678c7a45a16eea",
+      "n_files": 15,
+      "matches": true
+    },
+    {
+      "manifest": "reports/model-frontier-2026-10-03/forward/manifest.json",
+      "sha256": "13fa08a5531c360c7886ecfbe351e01b06a4a9b19dc014cf4dcbb3ea42ecbb6b",
+      "n_files": 11,
+      "matches": true
+    },
+    {
+      "manifest": "reports/model-frontier-2026-10-03/models/manifest.json",
+      "sha256": "61e5a9c8f603e5b016954ff9ef9a010ea990abd59d564e7cf831c9002c209e9a",
+      "n_files": 5,
+      "matches": true
+    },
+    {
+      "manifest": "reports/model-frontier-2026-10-03/screen/manifest.json",
+      "sha256": "a8c1e15e5ebb969425e521d47a690971237902e8facb3a01b16ced34945ed24f",
+      "n_files": 14,
+      "matches": true
+    },
+    {
+      "manifest": "reports/model-frontier-2026-10-03/validation/manifest.json",
+      "sha256": "77df5acb443710977f1c12287ff86ba0be32e780d57b114a1757b46aef0e1526",
+      "n_files": 115,
+      "matches": true
+    }
+  ],
+  "method_current_source_hashes_match": true,
+  "external": {
+    "manifest_sha256": "dc2c95cc0bcc41ec8f1c23c5cc18a0791d9b7371ecbb2a1a32cf4955f601f8f9",
+    "n_files": 28,
+    "all_hashes_match": true
+  }
+}

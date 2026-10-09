@@ -1,0 +1,163 @@
+{
+  "snapshot": "main 713d2191af7c54f9392e12da4af4ca92207e8afc plus frozen round-three sources identified in full-suite.json",
+  "source": {
+    "url": "https://sber.ru/sberindex/konkurs_sberindex",
+    "checked_date": "2026-10-03",
+    "http_status": 200,
+    "html_sha256": "65a602862a928546487380766b801c3aab2acd671cd99cbe2315e3a2ab622c05",
+    "MQ": "Only acronym supplied; no formula/reference on current page.",
+    "evidence_policy": "Official page retrieved HTTP 200 on checked date; raw page retained locally, not bundled. Public source URL and retrieved-byte hash supplied."
+  },
+  "status_semantics": {
+    "PASS": "Specific scoped evidence verified, not a jury score or perfection claim.",
+    "FAIL": "An explicit testable claim has a demonstrated counterexample.",
+    "LIMITED": "Evidence supports the stated scope but not a stronger claim.",
+    "UNVERIFIED": "Evidence or external definition unavailable; not an implemented-code failure.",
+    "NOT_REQUIRED": "Not an individual condition imposed by the official clustering page."
+  },
+  "official_required": [
+    {
+      "condition": "At least one SberIndex dataset",
+      "test": "Document source, data semantics, ID/year keys and traceable input hashes.",
+      "prior_status": "PASS"
+    },
+    {
+      "condition": "Temporal attributed municipality network",
+      "test": "Municipal nodes, economic attributes, explicit proximity edge rule, a sequence of dates and documented sensitivity to edge construction.",
+      "prior_status": "PASS"
+    },
+    {
+      "condition": "Group, track and interpret",
+      "test": "Grouping plus explicit time tracking; interpret observed consumer profiles and assess evidence for real local-economy types without substituting expenditure resemblance for industrial structure.",
+      "prior_status": "LIMITED",
+      "remaining": "Wage association alone is insufficient for a production taxonomy; report genuine external economic patterns and their limits."
+    },
+    {
+      "condition": "ICVI SW, CH, S_Dbw, AVI, AVU, MQ",
+      "test": "Common reference spaces/graphs across comparators, named formula/convention, explicit undefined statuses; no silent MQ replacement.",
+      "prior_status": "LIMITED",
+      "remaining": "Exact official MQ is UNVERIFIED, nonblocking for code acceptance but prevents complete six-metric claim."
+    },
+    {
+      "condition": "Method comparison",
+      "test": "Retain accepted alternatives and negative outcomes; new transformed variants compared in both their own and common frozen space.",
+      "prior_status": "PASS"
+    },
+    {
+      "condition": "Reproducible documented deliverables",
+      "test": "GitHub repository, YAML/JSON configuration, run instructions, short Russian methodological report and PDF or interactive landing.",
+      "prior_status": "PASS",
+      "remaining": "Reviewer view access is separate from private repository existence and remains UNVERIFIED for submission; no privacy changes authorized."
+    }
+  ],
+  "official_rubric_percent": {
+    "methodology": 15,
+    "network_attributes": 15,
+    "comparison": 15,
+    "ICVI": 15,
+    "interpretation_clarity_reproducibility": 30,
+    "innovative_visualization": 10
+  },
+  "not_individually_required": [
+    "All listed economic datasets",
+    "GNN/DMoN",
+    "Global optimality",
+    "Future prediction",
+    "Causal interpretation",
+    "Linux/CI",
+    "3% cluster occupancy",
+    "95% relative CH",
+    "Zero uncertainty or a production service"
+  ],
+  "new_claim_gates": [
+    {
+      "claim": "Inductive train-only temporal correction",
+      "mandatory_for_claim": [
+        "Fit cutoff and fitted input cohort recorded",
+        "Changing excluded future data leaves fitted scaler/calendar/SPD matrix/centres unchanged",
+        "Saved month correction applied to each row before annual median",
+        "Inductive results unchanged by batch composition/chunking/input order",
+        "Missing or unsupported calendar month behavior explicit",
+        "Separate transductive drift diagnostic never labelled forecast or train-only correction"
+      ]
+    },
+    {
+      "claim": "Full-pipeline region-excluded external generalization",
+      "mandatory_for_claim": [
+        "Every expense representation fit excludes the heldout region, including initialization",
+        "Outcome-missing eligible training expense entities retained",
+        "Heldout expense or outcome mutations leave fitted fold state unchanged",
+        "No target-selected clustering candidate or controls/hyperparameters",
+        "Training-only encoding/scaling for economic probe",
+        "Single heldout predictions do not depend on other heldout rows",
+        "All folds/outcomes/failed folds reported",
+        "Missing/absent clusters do not silently change design semantics"
+      ]
+    },
+    {
+      "claim": "2023-to-2024 economic forecast",
+      "mandatory_for_claim": [
+        "2023 probe, controls, representation and source-year cohort frozen",
+        "2024 outcomes used only for scoring",
+        "2024 prediction output unchanged by 2024 outcome values",
+        "Overlap and source coverage exclusions stated",
+        "Retrospective completed expense cohort and prior inspection disclosed"
+      ]
+    },
+    {
+      "claim": "Centered within-region performance",
+      "mandatory_for_claim": [
+        "Computed only after predictions fixed",
+        "Separate from absolute log-wage errors",
+        "Regional outcome means unavailable at deployment; score is pairwise/ranking diagnostic",
+        "No claim of calibrated regional-level forecast from centered errors"
+      ]
+    },
+    {
+      "claim": "Robust or superior alternative",
+      "mandatory_for_claim": [
+        "Fixed candidate search and stopping rules recorded before new fits",
+        "Absolute baselines and all three fixed alpha values retained",
+        "Fitted-space gains not substituted for common-space gains",
+        "Changed occupancy/CH/definedness guards shown, without pretending they are official rules",
+        "Economic superiority requires actual paired evidence; intervals including zero are not a positive finding"
+      ]
+    },
+    {
+      "claim": "Missing-outcome sector advantage",
+      "mandatory_for_claim": [
+        "Fix eligible cohort using controls before observing sector targets",
+        "Predict every eligible heldout entity, including missing targets and all-missing regions",
+        "Evaluate loss-difference endpoints over the declared target interval [0,1]",
+        "Retain all fixed eligible region denominators and equal-region weights",
+        "Keep finite-cohort identification bounds separate from observed-case scores and sampling intervals"
+      ]
+    }
+  ],
+  "inference_seams": [
+    {
+      "issue": "Source entity identity and consumed-byte provenance",
+      "status": "PASS",
+      "check": "Source territory identity validated; unknown entities flagged; consumed model/panel bytes hashed once; sealed packet shape/status/coverage checked.",
+      "evidence": [
+        "paired-evidence-review.json",
+        "oracle-results-temporal-current.json",
+        "dual-contract-review.json"
+      ]
+    },
+    {
+      "issue": "Boundary history",
+      "status": "LIMITED",
+      "action": "Do not infer unchanged geographical footprint from persistent ID; record this limitation. Full polygon crosswalk is not mandatory for the proposed sensitivity claims."
+    }
+  ],
+  "decision_rule": "A failed mechanism gate blocks the corresponding new claim/fit interpretation. An unavailable official MQ definition, unseen future outcomes or geometric footprint audit bounds the final scientific claim but does not block a useful corrected implementation. Contest success remains jury-evaluated.",
+  "claim_results": {
+    "implementation_and_evidence_contracts": "PASS",
+    "three_inductive_temporal_candidates_joint_screen": "FAIL",
+    "causal_or_future_guarantee": "NOT_REQUIRED",
+    "real_economy_taxonomy_or_blanket_H75_superiority": "LIMITED",
+    "exact_official_MQ": "UNVERIFIED",
+    "submission_reviewer_view_access": "UNVERIFIED"
+  }
+}

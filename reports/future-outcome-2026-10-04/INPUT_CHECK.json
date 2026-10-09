@@ -1,0 +1,14 @@
+{
+  "status": "scientific_input_pins_verified",
+  "outcome_values_parsed": false,
+  "fixed_entities": 1797,
+  "metadata_admitted": 1564,
+  "history_flags": 69,
+  "boundary_continuity_certified": false,
+  "contract_sha256": "1954c73a4c2d9fb90b7ade073ca647919a873fa838fb67b6ebacb7b9f37f84fc",
+  "scope": "Actual byte-pinned inputs checked through CLI main check stage; compressed member hashed only, not decoded or scored",
+  "code_sha256": {
+    "sbercluster/future_outcome_validation.py": "b58fa23f12d974e4ddeefad0788de9e7b498588881bc6141abe1e5c8eccf02e8",
+    "scripts/validate_future_outcome.py": "8c48a26e46c6f3e423dc3166765ee0563344ff1033144a3a4684e7175749fcd8"
+  }
+}

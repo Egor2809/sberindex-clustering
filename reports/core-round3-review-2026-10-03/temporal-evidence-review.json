@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "Independent original-row geometric replay, no new fit/fullmetrics audit",
+  "annual": {
+    "total": 423.26043853848455,
+    "common_fraction": 0.7384904476959387,
+    "changes": 380,
+    "identity_error": 4.263256414560601e-13
+  },
+  "monthly_cases": 12,
+  "largest_identity_error": 1.4210854715202004e-12,
+  "relative_ARI": 0.739421580558351,
+  "relative_changes": 207,
+  "noncausal_nonadditive_counterfactual_counts": {
+    "actual": 380,
+    "common": 311,
+    "individual": 202
+  },
+  "manifest_payloads_verified": 24,
+  "input_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+  "oracle_sha256": "583e92b34ad1a03720d363afb1d53a63d718dfbca4efdc8390c2393188152bed"
+}

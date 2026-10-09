@@ -1,0 +1,401 @@
+{
+  "origin_sha256": "0a9fefe9dccc0236f9ceff8324bd1aaeee7c653e2332fa3bc02b34860c6e516b",
+  "copy_scope": "Source inventory with private file paths omitted; not original bytes",
+  "schema_version": 1,
+  "checked_utc": "2026-10-04T12:42:03.574280+00:00",
+  "repo_snapshot": "0e0c2842eb13de698bd911c4227b70004cb97cd8",
+  "status": "BOUNDED_REVIEW_COMPLETE_OFFICIAL_DEFINITION_UNRESOLVED",
+  "exact_definition_found": false,
+  "claim_scope": "No exact MQ definition was found in inspected contest-page visible text and accessible PDF attachments. Channel posts, rendered SPA pages and inaccessible admin page remain uninspected; no universal absence claim.",
+  "implementation_action": "none; preserve distinct TurboMQ/NewmanQ names; do not alter metrics",
+  "sources": [
+    {
+      "url": "https://sber.ru/sberindex/konkurs_sberindex",
+      "sha256": "65a602862a928546487380766b801c3aab2acd671cd99cbe2315e3a2ab622c05",
+      "status": "inspected existing primary snapshot; MQ acronym+criterion and contest contact; no formula/reference found in visible text",
+      "contact": "konkurs_sberindex@sberbank.ru",
+      "contact_evidence": "Контакты\nВопросы можно отправить\nна почту\nkonkurs_sberindex@sberbank.ru\nПодписывайтесь на информационный канал конкурса\nКанал команды Сбериндекса\nРоссия, Москва, 117997, ул. Вавилова, 19\nПолитика обработки персональных д"
+    },
+    {
+      "name": "dataset-license.zip",
+      "url": "https://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip",
+      "checked_utc": "2026-10-03T17:30:55.558991+00:00",
+      "method": "single urllib fallback after direct-link inventory; TLS verification enabled",
+      "limit_bytes": 16777216,
+      "outcome": "unavailable",
+      "error": "URLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)'))",
+      "status": "not inspected: retrieval failure"
+    },
+    {
+      "name": "site-terms.pdf",
+      "url": "https://sber.ru/common/assets/sber/terms_of_use.pdf",
+      "checked_utc": "2026-10-03T17:30:55.560306+00:00",
+      "method": "single urllib fallback after direct-link inventory; TLS verification enabled",
+      "limit_bytes": 16777216,
+      "status": "all7pages text inspected; cookies terms; no MQ/cluster metric specification",
+      "final_url": "https://sber.ru/common/assets/sber/terms_of_use.pdf",
+      "content_type": "application/pdf",
+      "declared_length": "202984",
+      "outcome": "retrieved",
+      "bytes": 202984,
+      "sha256": "7fe7930a0f20f7cf9f1facb1578db6de592e9da56449e271c8d931c210b99c0e"
+    },
+    {
+      "name": "municipality-boundaries.html",
+      "url": "https://sberindex.ru/ru/research/dataset-borders-and-changes-of-municipalities",
+      "checked_utc": "2026-10-03T17:30:55.560306+00:00",
+      "method": "single urllib fallback after direct-link inventory; TLS verification enabled",
+      "limit_bytes": 16777216,
+      "status": "HTML app shell only; rendered page content uninspected",
+      "final_url": "https://sberindex.ru/ru/research/dataset-borders-and-changes-of-municipalities",
+      "content_type": "text/html",
+      "declared_length": "2616",
+      "outcome": "retrieved",
+      "bytes": 2616,
+      "sha256": "488c7562e24afce978188f67587a9ec59588133b009daf05e98eee4efcbaef44"
+    },
+    {
+      "name": "municipal-expenses.html",
+      "url": "https://sberindex.ru/ru/dashboards/potrebitelskie-beznalicnye-rashody-na-urovne-munizipalnyh-obrazovanij",
+      "checked_utc": "2026-10-03T17:30:55.560306+00:00",
+      "method": "single urllib fallback after direct-link inventory; TLS verification enabled",
+      "limit_bytes": 16777216,
+      "status": "HTML app shell only; rendered page content uninspected",
+      "final_url": "https://sberindex.ru/ru/dashboards/potrebitelskie-beznalicnye-rashody-na-urovne-munizipalnyh-obrazovanij",
+      "content_type": "text/html",
+      "declared_length": "2616",
+      "outcome": "retrieved",
+      "bytes": 2616,
+      "sha256": "488c7562e24afce978188f67587a9ec59588133b009daf05e98eee4efcbaef44"
+    },
+    {
+      "name": "mobility.html",
+      "url": "https://sberindex.ru/ru/dashboards/indeks-mobilnosti",
+      "checked_utc": "2026-10-03T17:30:55.560306+00:00",
+      "method": "single urllib fallback after direct-link inventory; TLS verification enabled",
+      "limit_bytes": 16777216,
+      "status": "HTML app shell only; rendered page content uninspected",
+      "final_url": "https://sberindex.ru/ru/dashboards/indeks-mobilnosti",
+      "content_type": "text/html",
+      "declared_length": "2616",
+      "outcome": "retrieved",
+      "bytes": 2616,
+      "sha256": "488c7562e24afce978188f67587a9ec59588133b009daf05e98eee4efcbaef44"
+    },
+    {
+      "name": "contest-channel.html",
+      "url": "https://t.me/+Hx0J3KuEqgNhMWUy",
+      "checked_utc": "2026-10-03T17:30:55.560306+00:00",
+      "method": "single urllib fallback after direct-link inventory; TLS verification enabled",
+      "limit_bytes": 16777216,
+      "status": "public invitation metadata inspected; channel posts/attachments unavailable and uninspected; no join",
+      "final_url": "https://t.me/+Hx0J3KuEqgNhMWUy",
+      "content_type": "text/html; charset=utf-8",
+      "declared_length": "11271",
+      "outcome": "retrieved",
+      "bytes": 11271,
+      "sha256": "1133945ef66a8cb9775f447515de4816211025fb0f1524d400eea074237f6064"
+    },
+    {
+      "name": "admin-footnote.html",
+      "url": "https://adm.sberlive.sber.ru/sbercraft-admin/project/1035/page/872",
+      "checked_utc": "2026-10-03T17:30:55.692971+00:00",
+      "method": "single urllib fallback after direct-link inventory; TLS verification enabled",
+      "limit_bytes": 16777216,
+      "outcome": "unavailable",
+      "error": "URLError(gaierror(11001, 'getaddrinfo failed'))",
+      "status": "HTML app shell only; rendered page content uninspected"
+    },
+    {
+      "name": "team-channel.html",
+      "url": "https://t.me/+EqqcDRdYF5tjYThi",
+      "checked_utc": "2026-10-04T12:37:06.130511+00:00",
+      "method": "urllib; TLS verification enabled; 16MiB cap",
+      "status": "public invitation metadata inspected; channel posts/attachments unavailable and uninspected; no join",
+      "final_url": "https://t.me/+EqqcDRdYF5tjYThi",
+      "bytes": 11750,
+      "sha256": "6f7f14a98a7e99bd720ec25dc5fb0b32ea097553b8e8cf6564980f2368ef2623",
+      "visible_text": "Telegram: Join Group Chat Download СберИндекс Insight 2 529 subscribers Канал команды СберИндекса. Здесь мы делимся находками в статистике, визуализируем данные, рассказываем о сложных вещах https://telegram.me/+h2BmkJBPaw1mZjEy https://www.sberindex.ru/ru/ Join Channel You are invited to the channel СберИндекс Insight . Click above to join.",
+      "links": [
+        "//telegram.org/",
+        "//telegram.org/dl?tme=2cc2c79abe93fedfcd_9762177899991413562",
+        "tg://join?invite=EqqcDRdYF5tjYThi",
+        "tg://join?invite=EqqcDRdYF5tjYThi"
+      ]
+    },
+    {
+      "name": "dashboards.html",
+      "url": "https://www.sberindex.ru/ru/dashboards/",
+      "checked_utc": "2026-10-04T12:37:06.652399+00:00",
+      "method": "urllib; TLS verification enabled; 16MiB cap",
+      "status": "HTML app shell only; rendered page content uninspected",
+      "final_url": "https://www.sberindex.ru/ru/dashboards/",
+      "bytes": 2616,
+      "sha256": "488c7562e24afce978188f67587a9ec59588133b009daf05e98eee4efcbaef44",
+      "visible_text": "СберИндекс You need to enable JavaScript to run this app.",
+      "links": []
+    },
+    {
+      "name": "consumer-dashboards.html",
+      "url": "https://sberindex.ru/ru/dashboards/?category=CONSUMERS",
+      "checked_utc": "2026-10-04T12:37:06.949451+00:00",
+      "method": "urllib; TLS verification enabled; 16MiB cap",
+      "status": "HTML app shell only; rendered page content uninspected",
+      "final_url": "https://sberindex.ru/ru/dashboards/?category=CONSUMERS",
+      "bytes": 2616,
+      "sha256": "488c7562e24afce978188f67587a9ec59588133b009daf05e98eee4efcbaef44",
+      "visible_text": "СберИндекс You need to enable JavaScript to run this app.",
+      "links": []
+    },
+    {
+      "url": "http://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip",
+      "checked_utc": "2026-10-04T12:38:51.052144+00:00",
+      "method": "published HTTP URL; 24MiB cap justified by source_manifest historical19603203bytes; no TLS bypass",
+      "cap_bytes": 25165824,
+      "status": "ZIP member inventory+only PDF inspected; no Parquet reads; documentation4pages no MQ definition/reference; archive+PDF hashes exactly match historical source manifest",
+      "final_url": "http://www.sberbank.com/common/img/uploaded/files/pdf/sberindex/hackathonlicence.zip",
+      "content_type": "application/zip",
+      "declared_length": "19603203",
+      "bytes": 19603203,
+      "sha256": "a9f932ff4096a7df797d1547987937f34d3995ac445b4748177114488d12b010",
+      "members": [
+        {
+          "name": "hackathonlicence/",
+          "bytes": 0
+        },
+        {
+          "name": "hackathonlicence/connection.parquet",
+          "bytes": 21904682
+        },
+        {
+          "name": "hackathonlicence/consumption.parquet",
+          "bytes": 2373939
+        },
+        {
+          "name": "hackathonlicence/market_access.parquet",
+          "bytes": 25163
+        },
+        {
+          "name": "hackathonlicence/äá¡¡δÑ_æíÑαê¡ñÑ¬ß_½¿µÑ¡º¿∩.pdf",
+          "bytes": 538791
+        }
+      ],
+      "documentation": [
+        {
+          "member": "hackathonlicence/äá¡¡δÑ_æíÑαê¡ñÑ¬ß_½¿µÑ¡º¿∩.pdf",
+          "sha256": "030269e726f969250b911a1fcb72131a4b61c3952aad10c8470ce9c0736c472f",
+          "pages": 4,
+          "chars": 7007,
+          "keyword_matches": {
+            "\\bMQ\\b": [],
+            "кластер": [],
+            "конкурс": [],
+            "modularity": [],
+            "метрик": []
+          }
+        }
+      ]
+    },
+    {
+      "url": "https://telegram.me/+h2BmkJBPaw1mZjEy",
+      "checked_utc": "2026-10-04T12:40:09.948840+00:00",
+      "reason": "one nested invite visible in official-linked team-channel description; no join",
+      "status": "invitation metadata only; same SberIndex Insight channel; posts uninspected; no join",
+      "final_url": "https://telegram.me/+h2BmkJBPaw1mZjEy",
+      "sha256": "4d364e00d7278e5f6e5aeb7ff3ff71ed1cf50658d6ad492b4a00f28c57668f33",
+      "bytes": 11751,
+      "visible_text": "Telegram: Join Group Chat Download СберИндекс Insight 2 529 subscribers Канал команды СберИндекса. Здесь мы делимся находками в статистике, визуализируем данные, рассказываем о сложных вещах https://telegram.me/+h2BmkJBPaw1mZjEy https://www.sberindex.ru/ru/ Join Channel You are invited to the channel СберИндекс Insight . Click above to join."
+    }
+  ],
+  "dataset_pdf_embedded_links": [
+    {
+      "page": 2,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.ru"
+    },
+    {
+      "page": 2,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.ru"
+    },
+    {
+      "page": 2,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.ru"
+    },
+    {
+      "page": 2,
+      "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim"
+    },
+    {
+      "page": 2,
+      "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim"
+    },
+    {
+      "page": 2,
+      "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim"
+    },
+    {
+      "page": 2,
+      "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim"
+    },
+    {
+      "page": 3,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.ru"
+    },
+    {
+      "page": 3,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.ru"
+    },
+    {
+      "page": 3,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.ru"
+    },
+    {
+      "page": 3,
+      "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim"
+    },
+    {
+      "page": 3,
+      "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim"
+    },
+    {
+      "page": 3,
+      "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim"
+    },
+    {
+      "page": 3,
+      "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim"
+    },
+    {
+      "page": 3,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.ru"
+    },
+    {
+      "page": 3,
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.ru"
+    },
+    {
+      "page": 4,
+      "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim"
+    },
+    {
+      "page": 4,
+      "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim"
+    },
+    {
+      "page": 4,
+      "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim"
+    },
+    {
+      "page": 4,
+      "url": "https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim"
+    }
+  ],
+  "excluded_links_reason": "site bank homepage/privacy policy, in-page anchors, malformed target=_blank are unrelated to metric specification; no broad survey",
+  "contact_sent": false,
+  "jobs": [],
+  "artifacts": [
+    {
+      "bytes": 2141,
+      "sha256": "4f8542c180035524f689a010e73fd5f403a4ecfe58e804ad1e093be216aa2b68"
+    },
+    {
+      "bytes": 2616,
+      "sha256": "488c7562e24afce978188f67587a9ec59588133b009daf05e98eee4efcbaef44"
+    },
+    {
+      "bytes": 67,
+      "sha256": "4c9f4995e5ab868264d74ee9632ffd8619037ffd13263253da754b737d392ced"
+    },
+    {
+      "bytes": 11271,
+      "sha256": "1133945ef66a8cb9775f447515de4816211025fb0f1524d400eea074237f6064"
+    },
+    {
+      "bytes": 2616,
+      "sha256": "488c7562e24afce978188f67587a9ec59588133b009daf05e98eee4efcbaef44"
+    },
+    {
+      "bytes": 67,
+      "sha256": "4c9f4995e5ab868264d74ee9632ffd8619037ffd13263253da754b737d392ced"
+    },
+    {
+      "bytes": 19603203,
+      "sha256": "a9f932ff4096a7df797d1547987937f34d3995ac445b4748177114488d12b010"
+    },
+    {
+      "bytes": 538791,
+      "sha256": "030269e726f969250b911a1fcb72131a4b61c3952aad10c8470ce9c0736c472f"
+    },
+    {
+      "bytes": 11852,
+      "sha256": "57172b2f2bcbc8dbf7765bd16454b3ef0f86d8b8dab11d00008c1a2cb4bb1c5b"
+    },
+    {
+      "bytes": 2314,
+      "sha256": "4d3df004f2a5fa1f7c0d71b8eea253430f5008c37fa558a6181c64c587955ab7"
+    },
+    {
+      "bytes": 2616,
+      "sha256": "488c7562e24afce978188f67587a9ec59588133b009daf05e98eee4efcbaef44"
+    },
+    {
+      "bytes": 2616,
+      "sha256": "488c7562e24afce978188f67587a9ec59588133b009daf05e98eee4efcbaef44"
+    },
+    {
+      "bytes": 2616,
+      "sha256": "488c7562e24afce978188f67587a9ec59588133b009daf05e98eee4efcbaef44"
+    },
+    {
+      "bytes": 865,
+      "sha256": "c1a5cc2de97ef64cadfecde83d521ba6eb113ff84c8ae7e8601707d4d613c794"
+    },
+    {
+      "bytes": 8354,
+      "sha256": "29d27e2989aa47386a0e0db1752a386ef498111f5338b1da62e64861282273cd"
+    },
+    {
+      "bytes": 4020,
+      "sha256": "56c8c686a532dc7136658a61f3ba8584beb488c1844bd6188145bdb1f4737971"
+    },
+    {
+      "bytes": 2302,
+      "sha256": "432e685631f045a9a62b7c471ce8c760d799eb353a8aa7179b8dd052e1c950f3"
+    },
+    {
+      "bytes": 19290,
+      "sha256": "fc95102d197601cae39c433fe55ea039e4cdfe427758bebd99e0d17df6ce6b2c"
+    },
+    {
+      "bytes": 202984,
+      "sha256": "7fe7930a0f20f7cf9f1facb1578db6de592e9da56449e271c8d931c210b99c0e"
+    },
+    {
+      "bytes": 25058,
+      "sha256": "6f5e361a9132308afec26fb8db80d9223564d0331eaae087a314d88b58ea3f5b"
+    },
+    {
+      "bytes": 11750,
+      "sha256": "6f7f14a98a7e99bd720ec25dc5fb0b32ea097553b8e8cf6564980f2368ef2623"
+    },
+    {
+      "bytes": 464,
+      "sha256": "84bef29d6f14dc80fc5c64f4ab34c5b00dadf199e81748d5a27c2d6aee590986"
+    },
+    {
+      "bytes": 11751,
+      "sha256": "4d364e00d7278e5f6e5aeb7ff3ff71ed1cf50658d6ad492b4a00f28c57668f33"
+    },
+    {
+      "bytes": 464,
+      "sha256": "84bef29d6f14dc80fc5c64f4ab34c5b00dadf199e81748d5a27c2d6aee590986"
+    },
+    {
+      "bytes": 226,
+      "sha256": "dea6b53f867df47db30d327c1da55f8aa4a74ee61d024c1c9f5a6d321d2b5e0f"
+    },
+    {
+      "bytes": 1613,
+      "sha256": "637b794334fa2690ef74057d3762c155aa306532def7f9238af4a239f2cdcda5"
+    }
+  ]
+}

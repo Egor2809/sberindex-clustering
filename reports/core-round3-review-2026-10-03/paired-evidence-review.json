@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "Independent historical no-fit paired A/R replay; descriptive MMD and exact boxes, no causal/support/future guarantee",
+  "absolute_labels": 2016,
+  "paired_relative_labels": 2016,
+  "immutable_packets": 12,
+  "missing_reference_controls": 11,
+  "paired_relative_ARI": 0.7224944798693295,
+  "paired_changes": 218,
+  "minimum_relative_cluster": 69,
+  "mmd_bandwidth_2023_only": 0.838630505731353,
+  "MMD2_absolute_relative": [
+    0.09800813414478138,
+    0.0025918041014998394
+  ],
+  "MMD_scope": "Biased Gaussian V-statistic, no pvalue/causal interpretation",
+  "exact_byte_readers_exclusive_writes": "PASS",
+  "source_sha256": {
+    "sbercluster/dual_profiles.py": "6bd0b1f778d4803c107e7ca8cc0114fd45d3512ab00d64f051d9f2050c045dec",
+    "scripts/predict_dual.py": "f934d30ecf37edfd37924b2169d1fbf4402312c92c69827fc9ffa879ea9a242c",
+    "scripts/benchmark_dual_profiles.py": "88c302aef7dff839e3072e45862ad2a4f41055fcee6caee9451663723f4ee7a1",
+    "sbercluster/features.py": "42f9af6c3d7cd88b69e74c296fdf902d8c673ffc1a07854cb7b195314f7b0706"
+  },
+  "oracle_sha256": "8ce0fb1374746b4f4d705574c5f292f398099202464968dcaf204ceade25fc2b"
+}

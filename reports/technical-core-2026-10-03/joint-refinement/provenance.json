@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "date_utc": "2026-10-03T11:51:31.678986+00:00",
+  "algorithm_revision": "exact_centroid_moves_v2",
+  "seed": 1729,
+  "alpha": 0.25,
+  "max_sweeps": 50,
+  "threads": 1,
+  "bootstrap": 500,
+  "n": 2016,
+  "features_shape": [
+    2016,
+    5
+  ],
+  "features_array_sha256": "bfd89ae140107fe4362e96c4d72e1d739b665b5f8cc2f561aba1b798ec996673",
+  "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+  "road_graph_sha256": "71d169deded54dbe36fb8c0bdd63573b9c073defef41be97acda582d081f1c0a",
+  "historical_manifests": {
+    "reports/review-2026-09-24/review-20260924-joint/manifest.json": "5ea717e4542de11d06bb546cc56ec888cc6faa3b4b035f21b6917ad080d6c052",
+    "reports/round2-2026-09-24/round2-20260924-region_control/manifest.json": "0036485ac719a3c68673a1a18f1eb1929ced709e5150110012edd4c40a762dae"
+  },
+  "source_objects": {
+    "sbercluster/joint.py": "33732d5133814e3f5794338343420abb6104494b356998e071c249b9672d9fb1",
+    "sbercluster/metrics.py": "337797deda7016abda4b859d98f442b63ae64ab768cf114184fe198a1883a3b5",
+    "sbercluster/graph.py": "b3b8a68077646b42c8bcb63a0a6b7679bd74504715aae6e4a5b06e7aa838dcd5",
+    "sbercluster/contest_graphs.py": "ae02c221c76f5b24a35a63b9d5544be9a62825dd4d10a4c92b6f9a83996dabe3",
+    "sbercluster/research.py": "e0aca39f6bb1be86e75774654fa413a760c474006af579281395fc7c29f18e9c",
+    "sbercluster/features.py": "42f9af6c3d7cd88b69e74c296fdf902d8c673ffc1a07854cb7b195314f7b0706",
+    "sbercluster/input_contracts.py": "751fd01ef03c2af5e6f0abc2e059dc9cf04cac1a9b4b37798e9b099e732ee995",
+    "sbercluster/round2.py": "daadbac96279be263e9794bb62468696baaa6cde9f833fcdf2c87d75eba591c3",
+    "sbercluster/followup.py": "04d8d28fd702753f72d62df0141415fb99f0d559ff5b9961641f13104a378340",
+    "sbercluster/io.py": "89f49856593b24d525bddeada28624b46279aa6f211b72e02e95d9c1db61fdf9",
+    "sbercluster/published_inputs.py": "b0d8944e4f3cb479f5e2f56f248426ad5e92a7fa37835f9b28bab0555b7b57d4",
+    "sbercluster/models.py": "d99054dfa50bf0d7c7803863b5620cd7f041ec1ca36e5a78128e178df257cf1b",
+    "sbercluster/dynamics.py": "41280272a925c9d9ba86177b3f73c8b11c91a99d50f92dd053bbcef6bdf05cc8",
+    "scripts/verify_joint_refinement.py": "90741ea2e8902fb2cd4b3e8bdf067a5a5cd7d4c746a5fbbb6651a1bcba63b5d8",
+    "scripts/external_validation_v4.py": "de61afd03397c6cb37b5591a9798e2b59aa4899a7c0d05e81fda28518248da49"
+  },
+  "scaler": {
+    "level_center": 10.056787870678566,
+    "level_iqr": 0.4561850995415071,
+    "ratio_center": [
+      -2.9956744346122948,
+      -2.179543987949999,
+      -3.661429048766565,
+      -0.7820032486889154,
+      -2.8273688977704112
+    ],
+    "ratio_iqr": [
+      0.27186403557919503,
+      0.4493995136747726,
+      1.0650995060325594,
+      0.20212500174021586,
+      0.3371095191761597
+    ],
+    "mode": "log_ratios_to_total",
+    "level_weight": 0.0,
+    "calibration_end": "2023-12-01"
+  },
+  "feature_config": {
+    "mode": "log_ratios_to_total",
+    "level_weight": 0.0,
+    "calibration_end": "2023-12-01",
+    "seasonality": "same_month_cross_section"
+  },
+  "attribute_graph": {
+    "k": 15,
+    "symmetry": "union",
+    "sigma": 0.18752701242227154,
+    "edges": 20479,
+    "components": 1,
+    "isolates": 0,
+    "median_strength": 10.967129328989014
+  },
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.14.1",
+    "scikit-learn": "1.5.2",
+    "pandas": "2.2.3"
+  },
+  "limitations": [
+    "Exact single-vertex stationarity is local; no global optimum is established.",
+    "A supplied KMeans start and an archived endpoint can reach distinct local optima.",
+    "All comparisons are retrospective on the frozen complete cohort and already-inspected data.",
+    "Roads represent accessibility as of 2024-12-31, not observed trips or financial flows.",
+    "Market access is exploratory and shares infrastructure content with roads; measurement independence is limited.",
+    "Bootstrap intervals condition on fixed partitions and resample regions; they do not validate production types.",
+    "Published historical labels, checkpoints, metrics and manifests are preserved."
+  ],
+  "total_seconds": 6.723408899997594
+}

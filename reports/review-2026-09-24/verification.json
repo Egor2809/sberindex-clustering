@@ -1,0 +1,106 @@
+{
+  "date": "2026-09-24",
+  "scope": "Release with joint attributed-network clustering, temporal comparison, external controls and atlas interaction fixes. Historical verifications retain their original scope.",
+  "python": {
+    "platform": "Windows",
+    "version": "3.10",
+    "tests": 97,
+    "passed": 97,
+    "skipped": 0,
+    "result": "passed",
+    "compileall": "passed"
+  },
+  "browser_interactions": {
+    "chrome": {
+      "checks": 36,
+      "passed": 36,
+      "javascript_errors": [],
+      "local_load_to_map_ms": 1798,
+      "details": "browser/chrome-after.json"
+    },
+    "msedge": {
+      "checks": 36,
+      "passed": 36,
+      "javascript_errors": [],
+      "local_load_to_map_ms": 3366,
+      "details": "browser/msedge-after.json"
+    }
+  },
+  "opera": {
+    "tested": false,
+    "note": "Native SVG title tooltips removed; no claim of actual Opera execution."
+  },
+  "atlas": {
+    "path": "docs/index.html",
+    "bytes": 5119190,
+    "sha256": "813299dcae3aaed25e772d592192341076db1aef1b14d43b3e21c9a1a231659e",
+    "compression": "gzip/base64, lossless, self-contained",
+    "entities": 2016,
+    "months": 24,
+    "payload_geometry_reused": true
+  },
+  "completed_scientific_work": {
+    "small_k_new_fits": 4,
+    "joint_new_fits": 8,
+    "joint_initialization_sensitivity_new_fits": 8,
+    "temporal_pilot": {
+      "months": 3,
+      "variants": 2
+    },
+    "temporal_full": {
+      "months": 24,
+      "variants": 2
+    },
+    "external_control_variants": 18,
+    "external_region_bootstrap_replicates": 500,
+    "historical_scientific_tables_and_memberships_changed": false
+  },
+  "privacy_packaging": "Machine-specific configuration and execution diagnostics are excluded from published artifacts; scientific memberships and metric tables are unchanged.",
+  "github_actions": {
+    "status": "passed",
+    "url": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+    "tested_head_sha": "09cb2ec0fe591faec9becee5b882dae8a59bafb9",
+    "pull_request": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+    "merged_commit": "ea1f52b27d2a903a3af142d35c197fe24534e2d5",
+    "python": {
+      "platform": "Ubuntu Linux",
+      "tests_discovered": 97,
+      "passed": 96,
+      "skipped": 1,
+      "skip_reason": "Windows Job Object integration test"
+    },
+    "docker": {
+      "image_build": "passed",
+      "kmeans4_exact_label_match": true,
+      "entities": 2016,
+      "different_labels": 0,
+      "small_k_pilot": "completed",
+      "new_static_fits": 4
+    },
+    "atlas_byte_reproduction": "passed",
+    "chromium": {
+      "checks": 36,
+      "passed": 36,
+      "javascript_errors": []
+    },
+    "evidence": "linux-reproduction.json"
+  },
+  "pages": {
+    "url": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+    "http_status": 200,
+    "bytes": 5119190,
+    "sha256": "813299dcae3aaed25e772d592192341076db1aef1b14d43b3e21c9a1a231659e",
+    "matches_local": true,
+    "authenticated": false,
+    "status": "verified_after_deployment",
+    "canonical_url": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+    "deployed_commit": "ea1f52b27d2a903a3af142d35c197fe24534e2d5",
+    "live_chrome": {
+      "checks": 36,
+      "passed": 36,
+      "javascript_errors": [],
+      "network_load_to_map_ms": 2454,
+      "details": "browser/chrome-live.json"
+    }
+  }
+}

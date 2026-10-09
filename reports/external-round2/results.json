@@ -1,0 +1,123 @@
+{
+  "scope": {
+    "description": "Descriptive comparison of 21 manually reviewed municipalities: 20 in Arkhangelsk Oblast and 1 in Nenets AO",
+    "year": 2024,
+    "reviewed_municipalities": 21,
+    "source_municipalities_in_two_region_workbook": 27,
+    "source_coverage_fraction": 0.7777777777777778,
+    "eligible_panel_municipalities_in_two_regions": 22,
+    "panel_coverage_fraction": 0.9545454545454546,
+    "excluded_source_municipalities": [
+      {
+        "region": "Архангельская область",
+        "name": "Новая Земля",
+        "reason": "no manually approved unique panel candidate"
+      },
+      {
+        "region": "Архангельская область",
+        "name": "Красноборский муниципальный округ",
+        "reason": "no manually approved unique panel candidate"
+      },
+      {
+        "region": "Архангельская область",
+        "name": "Лешуконский муниципальный округ",
+        "reason": "no manually approved unique panel candidate"
+      },
+      {
+        "region": "Архангельская область",
+        "name": "Пинежский муниципальный округ",
+        "reason": "no manually approved unique panel candidate"
+      },
+      {
+        "region": "Архангельская область",
+        "name": "Приморский муниципальный округ",
+        "reason": "no manually approved unique panel candidate"
+      },
+      {
+        "region": "Ненецкий автономный округ",
+        "name": "Заполярный муниципальный район",
+        "reason": "no manually approved unique panel candidate"
+      }
+    ],
+    "excluded_panel_count": 1,
+    "buryatia": {
+      "source_rows": 27,
+      "bridge_rows": 0,
+      "included": false,
+      "reason": "no Republic of Buryatia rows in the frozen panel bridge"
+    }
+  },
+  "profiles": [
+    {
+      "cluster": 0,
+      "profile_name": "Сбалансированный: средние МО",
+      "reviewed_municipalities": 5,
+      "eligible_panel_municipalities_in_two_regions": 5,
+      "panel_coverage_fraction": 1.0,
+      "excluded_panel_municipalities": 0,
+      "wage_count": 5,
+      "wage_min_rubles": 63714.0,
+      "wage_median_rubles": 78418.5,
+      "wage_max_rubles": 92164.9,
+      "headcount_count": 5,
+      "headcount_min_people": 1529.0,
+      "headcount_median_people": 16503.0,
+      "headcount_max_people": 83792.0
+    },
+    {
+      "cluster": 1,
+      "profile_name": "Продуктовый: малые районы",
+      "reviewed_municipalities": 14,
+      "eligible_panel_municipalities_in_two_regions": 14,
+      "panel_coverage_fraction": 1.0,
+      "excluded_panel_municipalities": 0,
+      "wage_count": 14,
+      "wage_min_rubles": 59758.9,
+      "wage_median_rubles": 72505.0,
+      "wage_max_rubles": 94195.2,
+      "headcount_count": 14,
+      "headcount_min_people": 1551.0,
+      "headcount_median_people": 3687.0,
+      "headcount_max_people": 9417.0
+    },
+    {
+      "cluster": 2,
+      "profile_name": "Городской сервисный",
+      "reviewed_municipalities": 0,
+      "eligible_panel_municipalities_in_two_regions": 0,
+      "panel_coverage_fraction": null,
+      "excluded_panel_municipalities": 0,
+      "wage_count": 0,
+      "wage_min_rubles": null,
+      "wage_median_rubles": null,
+      "wage_max_rubles": null,
+      "headcount_count": 0,
+      "headcount_min_people": null,
+      "headcount_median_people": null,
+      "headcount_max_people": null
+    },
+    {
+      "cluster": 3,
+      "profile_name": "Удалённый: мало маркетплейсов",
+      "reviewed_municipalities": 2,
+      "eligible_panel_municipalities_in_two_regions": 3,
+      "panel_coverage_fraction": 0.6666666666666666,
+      "excluded_panel_municipalities": 1,
+      "wage_count": 2,
+      "wage_min_rubles": 106476.5,
+      "wage_median_rubles": 110089.2,
+      "wage_max_rubles": 113701.9,
+      "headcount_count": 2,
+      "headcount_min_people": 2853.0,
+      "headcount_median_people": 6877.5,
+      "headcount_max_people": 10902.0
+    }
+  ],
+  "interpretation_limits": [
+    "No p-values or inferential tests are reported.",
+    "The 21 municipalities are a small non-national reviewed subset.",
+    "Headcount is an absolute organization payroll scale, not an employment rate.",
+    "Wage and headcount exclude small businesses and do not represent all residents.",
+    "The join is manually name/type/region/version verified, not an official source OKTMO join."
+  ]
+}

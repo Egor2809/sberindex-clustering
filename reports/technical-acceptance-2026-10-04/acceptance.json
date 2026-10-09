@@ -1,0 +1,422 @@
+{
+  "schema_version": 1,
+  "root": "<REPOSITORY_ROOT>",
+  "fitting_executed": false,
+  "raw_data_used": false,
+  "scientific_status": "not_assessed",
+  "status": "PASS",
+  "integrity": [
+    {
+      "package": "reports/model-frontier-2026-10-03",
+      "manifest_sha256": "8358cd398ff5d50944140bda4ef09869b45fc0a8d1229741f8934c0a29fd908b",
+      "status": "PASS",
+      "payload_files": 201,
+      "payload_bytes": 2869299,
+      "current_snapshot": [
+        {
+          "path": "docs/MODEL_FRONTIER.md",
+          "expected_sha256": "e52776aab5deb3c8b67bf9053492f3c3e09287a9de3f3d1cb734e0c7dd66d232",
+          "actual_sha256": "e52776aab5deb3c8b67bf9053492f3c3e09287a9de3f3d1cb734e0c7dd66d232",
+          "status": "MATCH"
+        },
+        {
+          "path": "configs/model_frontier_20261003.json",
+          "expected_sha256": "7c9ed8acdc10d3ae4252fb8613cd1074e8c5cb6aba7dbf0b486c05b4e4840b5d",
+          "actual_sha256": "7c9ed8acdc10d3ae4252fb8613cd1074e8c5cb6aba7dbf0b486c05b4e4840b5d",
+          "status": "MATCH"
+        }
+      ]
+    },
+    {
+      "package": "reports/temporal-core-2026-10-03",
+      "manifest_sha256": "80f0fe361870dbe7345c049df572321674703d7abc39be3cccc388816af2d9b6",
+      "status": "PASS",
+      "payload_files": 57,
+      "payload_bytes": 794695,
+      "current_snapshot": []
+    },
+    {
+      "package": "reports/economic-generalization-2026-10-03",
+      "manifest_sha256": "9c12518c92efe264aa72d582c46ca6d5d2309d653a4de5d07021e8a60807dad8",
+      "status": "PASS",
+      "payload_files": 325,
+      "payload_bytes": 19067822,
+      "current_snapshot": [
+        {
+          "path": "docs/ECONOMIC_GENERALIZATION.md",
+          "expected_sha256": "554fce0d1b710c836a3241176d11fca882bfde3a97451627bf4056b4b7d20ce1",
+          "actual_sha256": "554fce0d1b710c836a3241176d11fca882bfde3a97451627bf4056b4b7d20ce1",
+          "status": "MATCH"
+        },
+        {
+          "path": "sbercluster/economic_generalization.py",
+          "expected_sha256": "d3a563f6db2ec3f1901a8aa8b3dc08fceb4eb83a02062c41d83bd5b042bcd55a",
+          "actual_sha256": "d3a563f6db2ec3f1901a8aa8b3dc08fceb4eb83a02062c41d83bd5b042bcd55a",
+          "status": "MATCH"
+        },
+        {
+          "path": "sbercluster/economic_sector_bounds.py",
+          "expected_sha256": "2e517993bedfc114cd21c54e897bcf9622eafabebb6adf205dc8a5c2ef46810d",
+          "actual_sha256": "2e517993bedfc114cd21c54e897bcf9622eafabebb6adf205dc8a5c2ef46810d",
+          "status": "MATCH"
+        },
+        {
+          "path": "scripts/validate_economic_generalization.py",
+          "expected_sha256": "69daeab36b0c8ac0ef012767ca4e29209fb05774e7ddff15a336a8110f9bde38",
+          "actual_sha256": "69daeab36b0c8ac0ef012767ca4e29209fb05774e7ddff15a336a8110f9bde38",
+          "status": "MATCH"
+        },
+        {
+          "path": "scripts/validate_economic_sector_generalization.py",
+          "expected_sha256": "612bdba9ed79f15f3a55e648ed3261411ba8f3368b3ac8c07bec9863f306d4a6",
+          "actual_sha256": "612bdba9ed79f15f3a55e648ed3261411ba8f3368b3ac8c07bec9863f306d4a6",
+          "status": "MATCH"
+        },
+        {
+          "path": "tests/test_economic_generalization.py",
+          "expected_sha256": "1a8fce9364acbfdfff5c36014b3c0eea3cfad5f50750c042af714dd90567a401",
+          "actual_sha256": "1a8fce9364acbfdfff5c36014b3c0eea3cfad5f50750c042af714dd90567a401",
+          "status": "MATCH"
+        },
+        {
+          "path": "tests/test_economic_sector_bounds.py",
+          "expected_sha256": "5b5c421673c43a8fbf041b7d73e91160b602d608ffbc3b1d7eac17f6e2c94f2c",
+          "actual_sha256": "5b5c421673c43a8fbf041b7d73e91160b602d608ffbc3b1d7eac17f6e2c94f2c",
+          "status": "MATCH"
+        }
+      ]
+    },
+    {
+      "package": "reports/core-round3-review-2026-10-03",
+      "manifest_sha256": "8c64cab7df7176d5d36958b837dbbde1215033b911ce17e4d3abaca6e4f5c1e9",
+      "status": "PASS",
+      "payload_files": 27,
+      "payload_bytes": 169773,
+      "current_snapshot": []
+    }
+  ],
+  "predictions": {
+    "status": "PASS",
+    "annual_exact_label_replay": {
+      "historical_kmeans4": 2016,
+      "sw_constrained_ordinary": 2016,
+      "sw_constrained_huber75": 2016
+    },
+    "shipped_reference_packets": 12,
+    "synthetic_input_rows": 96,
+    "cli_calls": [
+      {
+        "arguments": [
+          "scripts.predict_frontier",
+          "--model",
+          "<REPOSITORY_ROOT>\\reports\\model-frontier-2026-10-03\\models\\historical_kmeans4.json",
+          "--expected-sha256",
+          "12e72c67cd6e2db9d3249a9211670eb04336c69fa5883cb5b1a0277496edb334",
+          "--panel",
+          "<SYNTHETIC_WORKDIR>\\synthetic-panel.csv",
+          "--year",
+          "2024",
+          "--output",
+          "<SYNTHETIC_WORKDIR>\\historical_kmeans4"
+        ],
+        "exit_code": 0,
+        "stdout": "{\"status\": \"completed\", \"n\": 4, \"output\": \"<SYNTHETIC_WORKDIR>\\\\historical_kmeans4\"}\n",
+        "stderr": "",
+        "outcome": "SUCCESS"
+      },
+      {
+        "arguments": [
+          "scripts.predict_frontier",
+          "--model",
+          "<REPOSITORY_ROOT>\\reports\\model-frontier-2026-10-03\\models\\sw_constrained_ordinary.json",
+          "--expected-sha256",
+          "c3a6ee51ba00c2825b9346e2b248710b4a8214df1bdf4a9f192cc978a055bd30",
+          "--panel",
+          "<SYNTHETIC_WORKDIR>\\synthetic-panel.csv",
+          "--year",
+          "2024",
+          "--output",
+          "<SYNTHETIC_WORKDIR>\\sw_constrained_ordinary"
+        ],
+        "exit_code": 0,
+        "stdout": "{\"status\": \"completed\", \"n\": 4, \"output\": \"<SYNTHETIC_WORKDIR>\\\\sw_constrained_ordinary\"}\n",
+        "stderr": "",
+        "outcome": "SUCCESS"
+      },
+      {
+        "arguments": [
+          "scripts.predict_frontier",
+          "--model",
+          "<REPOSITORY_ROOT>\\reports\\model-frontier-2026-10-03\\models\\sw_constrained_huber75.json",
+          "--expected-sha256",
+          "41a1071c7d35019f93218d09b6b5abc293bec3b3b4fafdc740cf2c7ac572003a",
+          "--panel",
+          "<SYNTHETIC_WORKDIR>\\synthetic-panel.csv",
+          "--year",
+          "2024",
+          "--output",
+          "<SYNTHETIC_WORKDIR>\\sw_constrained_huber75"
+        ],
+        "exit_code": 0,
+        "stdout": "{\"status\": \"completed\", \"n\": 4, \"output\": \"<SYNTHETIC_WORKDIR>\\\\sw_constrained_huber75\"}\n",
+        "stderr": "",
+        "outcome": "SUCCESS"
+      },
+      {
+        "arguments": [
+          "scripts.predict_temporal",
+          "--model",
+          "<REPOSITORY_ROOT>\\reports\\temporal-core-2026-10-03\\models\\calendar_only.json",
+          "--expected-sha256",
+          "c0d768871e468f38a27227177ca1cc1ce11b35ef5634af71dec16b526cd8ad69",
+          "--panel",
+          "<SYNTHETIC_WORKDIR>\\synthetic-panel.csv",
+          "--year",
+          "2024",
+          "--output",
+          "<SYNTHETIC_WORKDIR>\\calendar_only"
+        ],
+        "exit_code": 0,
+        "stdout": "{\"rows\": 4, \"scope\": \"frozen_inductive_descriptive_annual_inference\"}\n",
+        "stderr": "",
+        "outcome": "SUCCESS"
+      },
+      {
+        "arguments": [
+          "scripts.predict_temporal",
+          "--model",
+          "<REPOSITORY_ROOT>\\reports\\temporal-core-2026-10-03\\models\\calendar_reliability_half.json",
+          "--expected-sha256",
+          "3c052b6e09dea35a2431824240b7a9b25544d5471ac4ba8a4df137676fda03be",
+          "--panel",
+          "<SYNTHETIC_WORKDIR>\\synthetic-panel.csv",
+          "--year",
+          "2024",
+          "--output",
+          "<SYNTHETIC_WORKDIR>\\calendar_reliability_half"
+        ],
+        "exit_code": 0,
+        "stdout": "{\"rows\": 4, \"scope\": \"frozen_inductive_descriptive_annual_inference\"}\n",
+        "stderr": "",
+        "outcome": "SUCCESS"
+      },
+      {
+        "arguments": [
+          "scripts.predict_temporal",
+          "--model",
+          "<REPOSITORY_ROOT>\\reports\\temporal-core-2026-10-03\\models\\calendar_reliability_full.json",
+          "--expected-sha256",
+          "394f0137fa3a11f0436992a4ffe8d1ee729d518c11ee39cc8b7f7074666ca5f2",
+          "--panel",
+          "<SYNTHETIC_WORKDIR>\\synthetic-panel.csv",
+          "--year",
+          "2024",
+          "--output",
+          "<SYNTHETIC_WORKDIR>\\calendar_reliability_full"
+        ],
+        "exit_code": 0,
+        "stdout": "{\"rows\": 4, \"scope\": \"frozen_inductive_descriptive_annual_inference\"}\n",
+        "stderr": "",
+        "outcome": "SUCCESS"
+      },
+      {
+        "arguments": [
+          "scripts.predict_frozen",
+          "--model",
+          "<REPOSITORY_ROOT>\\reports\\experiments\\2026-09-23-v2\\validation\\frozen_prototypes.json",
+          "--expected-model-sha256",
+          "95cd20e1fc4239b4d762826708e35a5af4610eb17a909c25cb85f7f78d1b1308",
+          "--input",
+          "<SYNTHETIC_WORKDIR>\\synthetic-panel.csv",
+          "--aggregation",
+          "monthly",
+          "--output",
+          "<SYNTHETIC_WORKDIR>\\frozen-monthly"
+        ],
+        "exit_code": 0,
+        "stdout": "{\"output\": \"<SYNTHETIC_WORKDIR>\\\\frozen-monthly\", \"rows\": 96, \"fitting_executed\": false}\n",
+        "stderr": "",
+        "outcome": "SUCCESS"
+      },
+      {
+        "arguments": [
+          "scripts.predict_frozen",
+          "--model",
+          "<REPOSITORY_ROOT>\\reports\\experiments\\2026-09-23-v2\\validation\\frozen_prototypes.json",
+          "--expected-model-sha256",
+          "95cd20e1fc4239b4d762826708e35a5af4610eb17a909c25cb85f7f78d1b1308",
+          "--input",
+          "<SYNTHETIC_WORKDIR>\\synthetic-panel.csv",
+          "--aggregation",
+          "annual",
+          "--output",
+          "<SYNTHETIC_WORKDIR>\\frozen-annual"
+        ],
+        "exit_code": 0,
+        "stdout": "{\"output\": \"<SYNTHETIC_WORKDIR>\\\\frozen-annual\", \"rows\": 8, \"fitting_executed\": false}\n",
+        "stderr": "",
+        "outcome": "SUCCESS"
+      },
+      {
+        "arguments": [
+          "scripts.predict_dual",
+          "lock",
+          "--model",
+          "<REPOSITORY_ROOT>\\reports\\model-frontier-2026-10-03\\models\\historical_kmeans4.json",
+          "--expected-model-sha256",
+          "12e72c67cd6e2db9d3249a9211670eb04336c69fa5883cb5b1a0277496edb334",
+          "--panel",
+          "<SYNTHETIC_WORKDIR>\\synthetic-panel.csv",
+          "--output",
+          "<SYNTHETIC_WORKDIR>\\reference.json"
+        ],
+        "exit_code": 0,
+        "stdout": "{\"output\": \"<SYNTHETIC_WORKDIR>\\\\reference.json\", \"sha256\": \"7123f25f8b466b5bfa0c309fc898bc257ae4da6556f7900edf0f6e15f2f8a78b\", \"fitting_executed\": false}\n",
+        "stderr": "",
+        "outcome": "SUCCESS"
+      },
+      {
+        "arguments": [
+          "scripts.predict_dual",
+          "packet",
+          "--reference",
+          "<SYNTHETIC_WORKDIR>\\reference.json",
+          "--expected-reference-sha256",
+          "7123f25f8b466b5bfa0c309fc898bc257ae4da6556f7900edf0f6e15f2f8a78b",
+          "--panel",
+          "<SYNTHETIC_WORKDIR>\\synthetic-panel.csv",
+          "--period",
+          "2024-01-01",
+          "--output",
+          "<SYNTHETIC_WORKDIR>\\cli-packet.json"
+        ],
+        "exit_code": 0,
+        "stdout": "{\"output\": \"<SYNTHETIC_WORKDIR>\\\\cli-packet.json\", \"sha256\": \"b3273bc8661cc6e0db84c9fbd6c838326d32c9c09b5c7f049c1571dce1e17a6d\", \"fitting_executed\": false}\n",
+        "stderr": "",
+        "outcome": "SUCCESS"
+      },
+      {
+        "arguments": [
+          "scripts.predict_dual",
+          "predict",
+          "--reference",
+          "<SYNTHETIC_WORKDIR>\\reference.json",
+          "--expected-reference-sha256",
+          "7123f25f8b466b5bfa0c309fc898bc257ae4da6556f7900edf0f6e15f2f8a78b",
+          "--panel",
+          "<SYNTHETIC_WORKDIR>\\synthetic-panel.csv",
+          "--year",
+          "2024",
+          "--packet-manifest",
+          "<SYNTHETIC_WORKDIR>\\packets.json",
+          "--expected-packet-manifest-sha256",
+          "9a1bcaef4c495a51b771ad4c5d44f19a98248e1c69d97a90ad62914a0dcddd60",
+          "--output",
+          "<SYNTHETIC_WORKDIR>\\dual-predictions.json"
+        ],
+        "exit_code": 0,
+        "stdout": "{\"output\": \"<SYNTHETIC_WORKDIR>\\\\dual-predictions.json\", \"sha256\": \"ae91f3e571168c3ecc85542d53fd0fec9a18db120cc6b9aa19139f6da26923f5\", \"fitting_executed\": false}\n",
+        "stderr": "",
+        "outcome": "SUCCESS"
+      },
+      {
+        "arguments": [
+          "scripts.predict_dual",
+          "predict",
+          "--reference",
+          "<SYNTHETIC_WORKDIR>\\reference.json",
+          "--expected-reference-sha256",
+          "7123f25f8b466b5bfa0c309fc898bc257ae4da6556f7900edf0f6e15f2f8a78b",
+          "--panel",
+          "<SYNTHETIC_WORKDIR>\\synthetic-panel.csv",
+          "--year",
+          "2024",
+          "--packet-manifest",
+          "<SYNTHETIC_WORKDIR>\\packets.json",
+          "--expected-packet-manifest-sha256",
+          "9a1bcaef4c495a51b771ad4c5d44f19a98248e1c69d97a90ad62914a0dcddd60",
+          "--output",
+          "<SYNTHETIC_WORKDIR>\\dual-predictions.json"
+        ],
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": "Traceback (most recent call last):\n  File \"<PYTHON_BASE>\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"<PYTHON_BASE>\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"<REPOSITORY_ROOT>\\scripts\\predict_dual.py\", line 89, in <module>\n    if __name__ == '__main__': main()\n  File \"<REPOSITORY_ROOT>\\scripts\\predict_dual.py\", line 85, in main\n    output_hash = write_immutable_json(args.output, result)\n  File \"<REPOSITORY_ROOT>\\scripts\\predict_dual.py\", line 30, in write_immutable_json\n    with path.open('xb') as stream: stream.write(raw)\n  File \"<PYTHON_BASE>\\lib\\pathlib.py\", line 1117, in open\n    return self._accessor.open(self, mode, buffering, encoding, errors,\nFileExistsError: [Errno 17] File exists: '<SYNTHETIC_WORKDIR>\\\\dual-predictions.json'\n",
+        "outcome": "EXPECTED_REFUSAL",
+        "expected_exception": "FileExistsError",
+        "expected_reason": "File exists",
+        "output_policy": "preserved_exact_bytes"
+      },
+      {
+        "arguments": [
+          "scripts.predict_dual",
+          "predict",
+          "--reference",
+          "<SYNTHETIC_WORKDIR>\\reference.json",
+          "--expected-reference-sha256",
+          "0000000000000000000000000000000000000000000000000000000000000000",
+          "--panel",
+          "<SYNTHETIC_WORKDIR>\\synthetic-panel.csv",
+          "--year",
+          "2024",
+          "--packet-manifest",
+          "<SYNTHETIC_WORKDIR>\\packets.json",
+          "--expected-packet-manifest-sha256",
+          "9a1bcaef4c495a51b771ad4c5d44f19a98248e1c69d97a90ad62914a0dcddd60",
+          "--output",
+          "<SYNTHETIC_WORKDIR>\\rejected.json"
+        ],
+        "exit_code": 1,
+        "stdout": "",
+        "stderr": "Traceback (most recent call last):\n  File \"<PYTHON_BASE>\\lib\\runpy.py\", line 196, in _run_module_as_main\n    return _run_code(code, main_globals, None,\n  File \"<PYTHON_BASE>\\lib\\runpy.py\", line 86, in _run_code\n    exec(code, run_globals)\n  File \"<REPOSITORY_ROOT>\\scripts\\predict_dual.py\", line 89, in <module>\n    if __name__ == '__main__': main()\n  File \"<REPOSITORY_ROOT>\\scripts\\predict_dual.py\", line 66, in main\n    reference = read_pinned_json(args.reference, args.expected_reference_sha256)\n  File \"<REPOSITORY_ROOT>\\scripts\\predict_dual.py\", line 17, in read_pinned_json\n    raise ValueError('Pinned file SHA256 differs: ' + str(path))\nValueError: Pinned file SHA256 differs: <SYNTHETIC_WORKDIR>\\reference.json\n",
+        "outcome": "EXPECTED_REFUSAL",
+        "expected_exception": "ValueError",
+        "expected_reason": "Pinned file SHA256 differs:",
+        "output_policy": "absent"
+      }
+    ],
+    "current_source_sha256": {
+      "sbercluster/__init__.py": "30531b8122c986fb77769336c7e87609dcef634be23844399c540ee500d19a34",
+      "sbercluster/canonical.py": "0c09d03e91ba4a192b4fe781a06d138376e8e7b04035da747112de8d735f106a",
+      "sbercluster/cli.py": "0648f97e526837ab03428b47e01ede325b35b59ac88221bd09d7a28e5104c452",
+      "sbercluster/contest.py": "07aa29036a11e44ab6743b3f80b11fd6a0cb4422bb0eb0377d1bf4335bd97bb4",
+      "sbercluster/contest_analysis.py": "9229bf0ac85c11491b37cf3e3001d7abc0a8cda3edc73dd5fcb579a9787a3860",
+      "sbercluster/contest_graphs.py": "ae02c221c76f5b24a35a63b9d5544be9a62825dd4d10a4c92b6f9a83996dabe3",
+      "sbercluster/data.py": "253764aedfde19c4ea94ca544b867f41ed31e47ca517cfe7bcfb3a62455a402a",
+      "sbercluster/dmon.py": "0b79c433e30cd64b107f9f8aa1ecdfba32db243433444c4dd39e5bc2c4e7e1b2",
+      "sbercluster/dual_profiles.py": "6bd0b1f778d4803c107e7ca8cc0114fd45d3512ab00d64f051d9f2050c045dec",
+      "sbercluster/dynamics.py": "41280272a925c9d9ba86177b3f73c8b11c91a99d50f92dd053bbcef6bdf05cc8",
+      "sbercluster/economic_generalization.py": "d3a563f6db2ec3f1901a8aa8b3dc08fceb4eb83a02062c41d83bd5b042bcd55a",
+      "sbercluster/economic_sector_bounds.py": "2e517993bedfc114cd21c54e897bcf9622eafabebb6adf205dc8a5c2ef46810d",
+      "sbercluster/external_national.py": "292b7fffe49b6ad50a3587a2cbb10e7c258788b8898e0a9d34f3288ee29265aa",
+      "sbercluster/features.py": "42f9af6c3d7cd88b69e74c296fdf902d8c673ffc1a07854cb7b195314f7b0706",
+      "sbercluster/followup.py": "ac3a70f5262467c364b05dbd7f58049ad4ed29ebdfa487b306790305b4bddda7",
+      "sbercluster/future_outcome_validation.py": "b58fa23f12d974e4ddeefad0788de9e7b498588881bc6141abe1e5c8eccf02e8",
+      "sbercluster/graph.py": "b3b8a68077646b42c8bcb63a0a6b7679bd74504715aae6e4a5b06e7aa838dcd5",
+      "sbercluster/inference.py": "fa8382a3e347715733b95974f851888c528db0f9bcb4d889571f2770dec90a02",
+      "sbercluster/input_contracts.py": "751fd01ef03c2af5e6f0abc2e059dc9cf04cac1a9b4b37798e9b099e732ee995",
+      "sbercluster/io.py": "3ed7b4fb6167ad45565438709c278f4badf37aea2d1c5a96c898dd993666e479",
+      "sbercluster/joint.py": "33732d5133814e3f5794338343420abb6104494b356998e071c249b9672d9fb1",
+      "sbercluster/metrics.py": "2fe619bdfe8b8bb7e7d8f57a70961219e5fec7f9e610fe3357ffa3b473fe4b27",
+      "sbercluster/models.py": "a8d8a124c27c72bc74fb846e9be1745392dde437d8b4271c6f5e58d60a2fb2bf",
+      "sbercluster/published_inputs.py": "b0d8944e4f3cb479f5e2f56f248426ad5e92a7fa37835f9b28bab0555b7b57d4",
+      "sbercluster/research.py": "e0aca39f6bb1be86e75774654fa413a760c474006af579281395fc7c29f18e9c",
+      "sbercluster/research_validation.py": "29e94c01557cb131decf9e4542c6f93bc7aea5fa73633f2973e31ec6dac1faa0",
+      "sbercluster/resources.py": "ecde44657bfe3933d58c299fd5b1981a454671c5ad4578046e22e2841ed70ef3",
+      "sbercluster/round2.py": "daadbac96279be263e9794bb62468696baaa6cde9f833fcdf2c87d75eba591c3",
+      "sbercluster/selection_artifacts.py": "eb30f5c6fb5cb61a0e4b7244f7c778d28a74643d4f8375736a5452fd3c9f1bb6",
+      "sbercluster/selection_contrasts.py": "5d116791dc9c11ffcfac99219caf844f9c927b1fcebc25200db0b0dbb66c22ce",
+      "sbercluster/selection_frontier.py": "0bcd8604fca0855d74bc60a6f600cd9c5cfd13894918795ace242e15cf797576",
+      "sbercluster/temporal_profiles.py": "a7630de70ad2c28ce925de29dca46000ca04d2376d8625433ef3fdb5100f97b6",
+      "sbercluster/validation.py": "f4ef20a9ece71152ea5bdc3c0764e13c709dca5c0a25f3b185ba2c5bfd3ef37c",
+      "scripts/predict_frozen.py": "bdf2164d39f0afc63e9ba55c669dc832dba8dc046a5228004d7496ebb2bfe798",
+      "scripts/predict_frontier.py": "625c9fafacc92d2ebbf4009011d8d5b8f7cfb40f8440ae270096071a9f2587e2",
+      "scripts/predict_temporal.py": "e8c9307e20044a2fc7ebdec0b8079a640fe6d0b58a7d6239685b3a0046b10d5a",
+      "scripts/predict_dual.py": "f934d30ecf37edfd37924b2169d1fbf4402312c92c69827fc9ffa879ea9a242c"
+    },
+    "packet_validation": "canonical validator with public ID/region/seal context; private paired corrections not recomputed",
+    "scope": "saved-profile replay and synthetic CLI interoperability; not raw-data reconstruction"
+  },
+  "payload_snapshot_stable": true,
+  "elapsed_seconds": 21.26600000000326,
+  "exit_code": 0
+}

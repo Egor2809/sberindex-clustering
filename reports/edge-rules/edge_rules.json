@@ -1,0 +1,290 @@
+{
+  "n": 2016,
+  "k": 15,
+  "series_months": 24,
+  "rules": [
+    {
+      "rule": "euclid_profile",
+      "edges": 20479,
+      "components": 1,
+      "isolates": 0,
+      "mean_degree": 20.316468253968253,
+      "transitivity": 0.3921167324341834,
+      "within_region": 0.1758386639972655,
+      "within_profile": 0.8939401337955954,
+      "edge_jaccard_euclid": 1.0,
+      "spectral": {
+        "SW": 0.362427,
+        "CH": 480.047706,
+        "S_Dbw": 0.749076,
+        "S_Dbw_paper": 1.972757,
+        "AVI": 0.756337,
+        "AVU": 0.5649,
+        "MQ": 0.311775,
+        "k": 4,
+        "min_cluster_size": 8,
+        "SW_own_space": 0.3624272154049965,
+        "ARI_reference": 0.3710286998265195,
+        "ARI_region": 0.01553089018649433
+      },
+      "leiden": {
+        "communities": 15,
+        "MQ": 0.697322035105791,
+        "ARI_reference": 0.2268775774228924,
+        "ARI_region": 0.08910583498489874
+      },
+      "reference_on_graph": {
+        "AVI": 0.884719,
+        "AVU": 0.529635,
+        "MQ": 0.568989
+      },
+      "sigma": 0.18752701242227154
+    },
+    {
+      "rule": "cosine_shares",
+      "edges": 19753,
+      "components": 1,
+      "isolates": 0,
+      "mean_degree": 19.596230158730158,
+      "transitivity": 0.44468200809072217,
+      "within_region": 0.16468384549182402,
+      "within_profile": 0.8795625980863666,
+      "edge_jaccard_euclid": 0.3358568250489757,
+      "spectral": {
+        "SW": 0.171114,
+        "CH": 568.241342,
+        "S_Dbw": 1.059549,
+        "S_Dbw_paper": 1.824117,
+        "AVI": 0.937922,
+        "AVU": 0.571694,
+        "MQ": 0.606051,
+        "k": 4,
+        "min_cluster_size": 83,
+        "SW_own_space": 0.33296517842848083,
+        "ARI_reference": 0.29449349552026954,
+        "ARI_region": 0.03320120707930298
+      },
+      "leiden": {
+        "communities": 12,
+        "MQ": 0.7616613152486875,
+        "ARI_reference": 0.19306020412306235,
+        "ARI_region": 0.10409463972486716
+      },
+      "reference_on_graph": {
+        "AVI": 0.859313,
+        "AVU": 0.532675,
+        "MQ": 0.554773
+      }
+    },
+    {
+      "rule": "pearson_series",
+      "edges": 25176,
+      "components": 1,
+      "isolates": 0,
+      "mean_degree": 24.976190476190474,
+      "transitivity": 0.2539709016278595,
+      "within_region": 0.2728789323164919,
+      "within_profile": 0.6227359389895138,
+      "edge_jaccard_euclid": 0.0587403181670609,
+      "spectral": {
+        "SW": 0.030619,
+        "CH": 262.254516,
+        "S_Dbw": 1.308106,
+        "S_Dbw_paper": 1.952196,
+        "AVI": 0.90293,
+        "AVU": 0.556246,
+        "MQ": 0.535325,
+        "k": 4,
+        "min_cluster_size": 116,
+        "SW_own_space": 0.04995554743197689,
+        "ARI_reference": 0.25257928534863816,
+        "ARI_region": 0.03282632210016281
+      },
+      "leiden": {
+        "communities": 9,
+        "MQ": 0.6420564636462323,
+        "ARI_reference": 0.17359358261467958,
+        "ARI_region": 0.10268014070262561
+      },
+      "reference_on_graph": {
+        "AVI": 0.591185,
+        "AVU": 0.541267,
+        "MQ": 0.310569
+      }
+    },
+    {
+      "rule": "lagged_correlation",
+      "edges": 25805,
+      "components": 1,
+      "isolates": 0,
+      "mean_degree": 25.60019841269841,
+      "transitivity": 0.23067680477164618,
+      "within_region": 0.23890718852935477,
+      "within_profile": 0.5860104630885488,
+      "edge_jaccard_euclid": 0.05471367044185676,
+      "spectral": {
+        "SW": 0.017898,
+        "CH": 234.023731,
+        "S_Dbw": 1.431761,
+        "S_Dbw_paper": 2.033553,
+        "AVI": 0.886729,
+        "AVU": 0.550755,
+        "MQ": 0.52376,
+        "k": 4,
+        "min_cluster_size": 118,
+        "SW_own_space": 0.04332411071151668,
+        "ARI_reference": 0.22369742933225195,
+        "ARI_region": 0.03295479929538283
+      },
+      "leiden": {
+        "communities": 8,
+        "MQ": 0.6217889773738254,
+        "ARI_reference": 0.15645129068354002,
+        "ARI_region": 0.09358537864625595
+      },
+      "reference_on_graph": {
+        "AVI": 0.5547,
+        "AVU": 0.542635,
+        "MQ": 0.277554
+      },
+      "edge_lag_counts": {
+        "0": 15148,
+        "1": 3753,
+        "2": 2909,
+        "3": 3995
+      }
+    },
+    {
+      "rule": "dtw_series",
+      "edges": 25373,
+      "components": 1,
+      "isolates": 0,
+      "mean_degree": 25.171626984126984,
+      "transitivity": 0.24605662025381492,
+      "within_region": 0.24620659756434005,
+      "within_profile": 0.6119102983486383,
+      "edge_jaccard_euclid": 0.056497695852534564,
+      "spectral": {
+        "SW": 0.031947,
+        "CH": 265.227934,
+        "S_Dbw": 1.268558,
+        "S_Dbw_paper": 1.93388,
+        "AVI": 0.900877,
+        "AVU": 0.548054,
+        "MQ": 0.532817,
+        "k": 4,
+        "min_cluster_size": 113,
+        "SW_own_space": 0.04935115649972824,
+        "ARI_reference": 0.25758666870578273,
+        "ARI_region": 0.031796341942313525
+      },
+      "leiden": {
+        "communities": 8,
+        "MQ": 0.64013525071499,
+        "ARI_reference": 0.17158704931295468,
+        "ARI_region": 0.0917159516769297
+      },
+      "reference_on_graph": {
+        "AVI": 0.580953,
+        "AVU": 0.539971,
+        "MQ": 0.300308
+      },
+      "sigma": 10.673526669953857
+    },
+    {
+      "rule": "road_distance",
+      "edges": 18673,
+      "components": 12,
+      "isolates": 10,
+      "mean_degree": 18.52480158730159,
+      "transitivity": 0.6077065801391124,
+      "within_region": 0.7172923472393296,
+      "within_profile": 0.5924061479141006,
+      "edge_jaccard_euclid": 0.04934201709951489,
+      "spectral": {
+        "SW": 0.241002,
+        "CH": 86.792634,
+        "S_Dbw": 1.522591,
+        "S_Dbw_paper": 2.415702,
+        "AVI": 0.558008,
+        "AVU": 0.668699,
+        "MQ": 0.137566,
+        "k": 4,
+        "min_cluster_size": 8,
+        "SW_own_space": null,
+        "ARI_reference": 0.09615314159869304,
+        "ARI_region": 0.007394329231858508
+      },
+      "leiden": {
+        "communities": 50,
+        "MQ": 0.8435781011699668,
+        "ARI_reference": 0.06522377630797561,
+        "ARI_region": 0.4269367020976208
+      },
+      "reference_on_graph": {
+        "AVI": 0.599094,
+        "AVU": 0.529441,
+        "MQ": 0.275573
+      },
+      "bandwidth_km": 98.7
+    }
+  ],
+  "edge_jaccard": {
+    "euclid_profile": {
+      "euclid_profile": 1.0,
+      "cosine_shares": 0.3358568250489757,
+      "pearson_series": 0.0587403181670609,
+      "lagged_correlation": 0.05471367044185676,
+      "dtw_series": 0.056497695852534564,
+      "road_distance": 0.04934201709951489
+    },
+    "cosine_shares": {
+      "euclid_profile": 0.3358568250489757,
+      "cosine_shares": 1.0,
+      "pearson_series": 0.05175804110679339,
+      "lagged_correlation": 0.049360819993089944,
+      "dtw_series": 0.05105510783994038,
+      "road_distance": 0.04404292894987094
+    },
+    "pearson_series": {
+      "euclid_profile": 0.0587403181670609,
+      "cosine_shares": 0.05175804110679339,
+      "pearson_series": 1.0,
+      "lagged_correlation": 0.5288031906918164,
+      "dtw_series": 0.5571265748698518,
+      "road_distance": 0.08103643804546128
+    },
+    "lagged_correlation": {
+      "euclid_profile": 0.05471367044185676,
+      "cosine_shares": 0.049360819993089944,
+      "pearson_series": 0.5288031906918164,
+      "lagged_correlation": 1.0,
+      "dtw_series": 0.5077185953334905,
+      "road_distance": 0.06787352044368683
+    },
+    "dtw_series": {
+      "euclid_profile": 0.056497695852534564,
+      "cosine_shares": 0.05105510783994038,
+      "pearson_series": 0.5571265748698518,
+      "lagged_correlation": 0.5077185953334905,
+      "dtw_series": 1.0,
+      "road_distance": 0.06998663913518766
+    },
+    "road_distance": {
+      "euclid_profile": 0.04934201709951489,
+      "cosine_shares": 0.04404292894987094,
+      "pearson_series": 0.08103643804546128,
+      "lagged_correlation": 0.06787352044368683,
+      "dtw_series": 0.06998663913518766,
+      "road_distance": 1.0
+    }
+  },
+  "timings_seconds": {
+    "euclid_profile": 0.1857772910152562,
+    "cosine_shares": 0.186834332998842,
+    "pearson_series": 0.2627733330009505,
+    "lagged_correlation": 0.6814679999952205,
+    "dtw_series": 3.376477415993577,
+    "road_distance": 0.39439833399956115
+  }
+}

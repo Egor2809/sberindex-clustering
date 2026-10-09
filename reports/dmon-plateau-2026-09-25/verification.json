@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-09-25T09:41:45.677855+00:00",
+  "atlas": {
+    "sha256": "7c10dd966907822f6966ba612747e3032743292ec3e33878d7b18f6ca3eaa1a6",
+    "bytes": 5161889,
+    "url": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+    "anonymous_deployment_verified": true,
+    "verified_utc": "2026-09-25T09:40:14.983183+00:00",
+    "deployed_commit": "8a5ae69d12739b38d0a9d68bf90c21b5483461fe"
+  },
+  "local_tests": {
+    "platform": "Windows",
+    "discovered": 122,
+    "passed": 122,
+    "skipped": 0
+  },
+  "browsers": {
+    "chrome": {
+      "checks": 46,
+      "passed": 46,
+      "javascript_errors": 0,
+      "protocol": "browser/chrome-after.json"
+    },
+    "msedge": {
+      "checks": 46,
+      "passed": 46,
+      "javascript_errors": 0,
+      "protocol": "browser/msedge-after.json"
+    },
+    "chromium": {
+      "checks": 46,
+      "passed": 46,
+      "javascript_errors": 0,
+      "protocol": "browser/chromium-after.json",
+      "platform": "GitHub Actions Linux"
+    },
+    "chrome_live": {
+      "checks": 46,
+      "passed": 46,
+      "javascript_errors": 0,
+      "protocol": "browser/chrome-live.json",
+      "url": "закрытый репозиторий предыдущего этапа, ссылка недоступна"
+    }
+  },
+  "training": {
+    "completed": true,
+    "models": 6,
+    "all_stopped_on_plateau": true,
+    "max_epoch_cap_reached": false,
+    "epochs": [
+      13500,
+      12000,
+      10000,
+      12000,
+      16500,
+      13500
+    ],
+    "seconds": 689.6128945999953,
+    "exact_epoch1000_label_replay": 6,
+    "provenance": "dmon-plateau-20260925/provenance.json"
+  },
+  "ci": {
+    "status": "success",
+    "pull_request": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+    "tested_head": "d859a6cfcda736973ad121e0df6bf801bae7bfca",
+    "run_url": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+    "merge_commit": "8a5ae69d12739b38d0a9d68bf90c21b5483461fe",
+    "tested_tree": "db2d0b40c94f4d40901a65c9369e62969582e2b8",
+    "merge_tree_matches_tested_tree": true,
+    "main_run_url": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+    "pages_run_url": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+    "python_tests": {
+      "discovered": 122,
+      "skipped": 1,
+      "passed": 121,
+      "skip_reason": "Windows-only supervisor test on Linux"
+    },
+    "exact_atlas_rebuild": true,
+    "docker_kmeans4": {
+      "run": "runs/research-20260925T093655324140Z",
+      "candidate": "annual_2023__kmeans_k4",
+      "entities": 2016,
+      "exact_label_match": true,
+      "partition_match_up_to_label_permutation": true,
+      "different_numeric_labels": 0
+    },
+    "linux_protocol": "linux-reproduction.json"
+  },
+  "limitations": [
+    "Plateau is empirical, not a global-optimum certificate.",
+    "Actual Opera not tested."
+  ]
+}

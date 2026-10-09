@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "no_fits": true,
+  "models": [
+    {
+      "id": "calendar_only",
+      "source_model_sha256": "41bde982aa705950dc4f1a139bda0e33f0189e0128a3f6c4129610dc167d09f8",
+      "guarded_model_sha256": "c0d768871e468f38a27227177ca1cc1ce11b35ef5634af71dec16b526cd8ad69",
+      "only_metadata_added": "identity_mode=source_territory_id",
+      "fitting_executed": false,
+      "exact_year_labels": {
+        "2023": 2016,
+        "2024": 2016
+      }
+    },
+    {
+      "id": "calendar_reliability_full",
+      "source_model_sha256": "d122ad72d216da19a5f261dc63d9817d8d7f2b8ad7d1043cb95e0907d1a18a26",
+      "guarded_model_sha256": "394f0137fa3a11f0436992a4ffe8d1ee729d518c11ee39cc8b7f7074666ca5f2",
+      "only_metadata_added": "identity_mode=source_territory_id",
+      "fitting_executed": false,
+      "exact_year_labels": {
+        "2023": 2016,
+        "2024": 2016
+      }
+    },
+    {
+      "id": "calendar_reliability_half",
+      "source_model_sha256": "a5c8c78cee6b7b71caf5511241bfb6d14da9bbafe729c6c40ee57aec3412fa08",
+      "guarded_model_sha256": "3c052b6e09dea35a2431824240b7a9b25544d5471ac4ba8a4df137676fda03be",
+      "only_metadata_added": "identity_mode=source_territory_id",
+      "fitting_executed": false,
+      "exact_year_labels": {
+        "2023": 2016,
+        "2024": 2016
+      }
+    }
+  ],
+  "source_hashes": {
+    "sbercluster/temporal_profiles.py": "9411b33130c6c9bb808803bb3b2a888d1fee1290f594dbffeb3f5c8c55d244f1",
+    "scripts/predict_temporal.py": "e8c9307e20044a2fc7ebdec0b8079a640fe6d0b58a7d6239685b3a0046b10d5a",
+    "tests/test_temporal_profiles.py": "f9079f6b2da68d8ae21b25c269d4047f8225cdcb1807a0cc1ed6d1b3b56f1592"
+  }
+}

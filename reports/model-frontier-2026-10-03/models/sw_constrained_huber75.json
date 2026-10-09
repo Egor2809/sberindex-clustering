@@ -1,0 +1,184 @@
+{
+  "model_kind": "prototype_frontier",
+  "format_version": 1,
+  "feature_scaler": {
+    "level_center": 10.056787870678566,
+    "level_iqr": 0.4561850995415071,
+    "ratio_center": [
+      -2.9956744346122948,
+      -2.179543987949999,
+      -3.661429048766565,
+      -0.7820032486889154,
+      -2.8273688977704112
+    ],
+    "ratio_iqr": [
+      0.27186403557919503,
+      0.4493995136747726,
+      1.0650995060325594,
+      0.20212500174021586,
+      0.3371095191761597
+    ],
+    "mode": "log_ratios_to_total",
+    "level_weight": 0.0,
+    "calibration_end": "2023-12-01"
+  },
+  "pre_aggregation_transform": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "aggregation": "calendar_year_median_of_12_months",
+  "rule": {
+    "revision": "prototype_frontier_v1",
+    "spec": {
+      "id": "sw_constrained_huber75",
+      "k": 4,
+      "min_fraction": 0.03,
+      "tune_silhouette": true,
+      "max_passes": 8,
+      "min_ch_ratio": 0.95,
+      "huber_quantile": 0.75
+    },
+    "transform": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "centers": [
+      [
+        -0.04318282376387425,
+        -0.21613084547865033,
+        0.15844250808788052,
+        -0.15220748103569676,
+        0.17935036657015863
+      ],
+      [
+        -0.039288217639188376,
+        0.021814198141336255,
+        -0.16621298698051437,
+        0.14215351193122933,
+        -0.18777055823258937
+      ],
+      [
+        0.2980262237658819,
+        -0.12668366440537956,
+        0.4726653381690699,
+        -0.7429624140964001,
+        0.29030563999467324
+      ],
+      [
+        -0.39190504071023013,
+        -0.8469087233869017,
+        -0.0522650062513471,
+        0.12228228659413098,
+        -0.3522958094584829
+      ]
+    ],
+    "biases": [
+      -1.734723475976807e-18,
+      -0.09816636166152284,
+      0.09816636166152284,
+      0.0
+    ],
+    "huber_radius": 0.528982452363109
+  },
+  "cluster_mapping": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "prediction_scope": "descriptive_consumer_profiles",
+  "provenance": {
+    "candidate_id": "sw_constrained_huber75",
+    "training_year": 2023,
+    "training_scope": "already_inspected_retrospective_2023_complete_panel",
+    "screen_manifest_sha256": "842d52a0288650360703df63af095f0c3f254179779229c56c1ea9cd6ccc031b",
+    "validation_manifest_sha256": "9a27d1fcd3a369cf9d593f1ae1068856b33740e86a31b6d70737a0639591b827",
+    "training_features_sha256": "db16fc485169b4a29e9217d6340d36991b2582b323a3c63889f587f428dd9abc",
+    "policy": {
+      "min_fraction": 0.03,
+      "full_SW_gain": 0.005,
+      "CH_ratio": 0.95,
+      "AVI_loss": 0.03,
+      "AVU_gain": 0.03,
+      "S_Dbw_ratio": 1.1,
+      "transfer_SW_gain": 0.002,
+      "paired_region_CI_lower": 0.0,
+      "stability_ARI_loss": 0.02
+    },
+    "limitations": [
+      "All selection and sensitivity use already-inspected 2023, frozen 2023 scaling and retrospective full-panel cohort.",
+      "Quarterly transfers and month bootstraps are sensitivity checks, not untouched holdout or inferential certification after selection.",
+      "Regional bootstrap conditions on selected methods and within-period scores; it does not establish independent economic validity.",
+      "SW tuning is a bounded coordinate search of deployable decision rules, not proof of global optimum.",
+      "Minimum 3% cluster occupancy and acceptance tolerances are practical continuation policies, not contest rules.",
+      "MQ remains undefined by organizer; TurboMQ and NewmanQ retain their distinct names."
+    ],
+    "continuation_guards_passed": true
+  }
+}

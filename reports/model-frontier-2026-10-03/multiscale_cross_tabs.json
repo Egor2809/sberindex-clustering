@@ -1,0 +1,86 @@
+[
+  {
+    "coarse": "historical_kmeans2",
+    "fine": "historical_kmeans4",
+    "rows": "saved K2 indices",
+    "columns": "saved K4 indices",
+    "counts": [
+      [
+        200,
+        0,
+        386,
+        18
+      ],
+      [
+        444,
+        859,
+        0,
+        109
+      ]
+    ],
+    "n": 2016
+  },
+  {
+    "coarse": "historical_kmeans2",
+    "fine": "sw_constrained_huber75",
+    "rows": "saved K2 indices",
+    "columns": "saved K4 indices",
+    "counts": [
+      [
+        306,
+        1,
+        285,
+        12
+      ],
+      [
+        159,
+        1141,
+        0,
+        112
+      ]
+    ],
+    "n": 2016
+  },
+  {
+    "coarse": "historical_kmeans2",
+    "fine": "sw_constrained_ordinary",
+    "rows": "saved K2 indices",
+    "columns": "saved K4 indices",
+    "counts": [
+      [
+        285,
+        3,
+        304,
+        12
+      ],
+      [
+        145,
+        1156,
+        0,
+        111
+      ]
+    ],
+    "n": 2016
+  },
+  {
+    "coarse": "contrast_kmeans2",
+    "fine": "contrast_kmeans4",
+    "rows": "saved K2 indices",
+    "columns": "saved K4 indices",
+    "counts": [
+      [
+        18,
+        208,
+        376,
+        0
+      ],
+      [
+        228,
+        367,
+        0,
+        819
+      ]
+    ],
+    "n": 2016
+  }
+]

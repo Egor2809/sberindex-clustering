@@ -1,0 +1,138 @@
+[
+  {
+    "id": "joint_stability_k2_kmeans_seed2718",
+    "attribute": {
+      "AVI": 0.9408108699984853,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.7780707068737571,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  },
+  {
+    "id": "joint_stability_k2_kmeans_seed3141",
+    "attribute": {
+      "AVI": 0.9408108699984853,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.7780707068737571,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  },
+  {
+    "id": "joint_stability_k2_ward_seed1729",
+    "attribute": {
+      "AVI": 0.9397987723576854,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.7809543783301511,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  },
+  {
+    "id": "joint_stability_k2_ward_seed2718",
+    "attribute": {
+      "AVI": 0.9397987723576854,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.7809543783301511,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  },
+  {
+    "id": "joint_stability_k4_kmeans_seed2718",
+    "attribute": {
+      "AVI": 0.8550864796618853,
+      "AVU": 0.5130622866942084,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.6856941804850643,
+      "AVU": 0.5291999929486341,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  },
+  {
+    "id": "joint_stability_k4_kmeans_seed3141",
+    "attribute": {
+      "AVI": 0.8550864796618853,
+      "AVU": 0.5130622866942084,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.6856941804850643,
+      "AVU": 0.5291999929486341,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  },
+  {
+    "id": "joint_stability_k4_ward_seed1729",
+    "attribute": {
+      "AVI": 0.8550864796618853,
+      "AVU": 0.5130622866942084,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.6856941804850643,
+      "AVU": 0.5291999929486342,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  },
+  {
+    "id": "joint_stability_k4_ward_seed2718",
+    "attribute": {
+      "AVI": 0.8550864796618853,
+      "AVU": 0.5130622866942084,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "transport": {
+      "AVI": 0.6856941804850643,
+      "AVU": 0.5291999929486342,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    }
+  }
+]

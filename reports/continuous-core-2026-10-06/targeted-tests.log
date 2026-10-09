@@ -1,0 +1,33 @@
+test_all_codecs_preserve_coordinates_and_original_label_rules (test_continuous_atlas.ContinuousAtlasTests) ... <REPO>\sbercluster\continuous_atlas.py:177: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  if values.applymap(lambda v: isinstance(v, (bool, np.bool_))).any().any():
+<REPO>\sbercluster\continuous_atlas.py:177: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  if values.applymap(lambda v: isinstance(v, (bool, np.bool_))).any().any():
+<REPO>\sbercluster\continuous_atlas.py:177: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  if values.applymap(lambda v: isinstance(v, (bool, np.bool_))).any().any():
+ok
+test_calendar_ids_expenses_and_explicit_selection_rejections (test_continuous_atlas.ContinuousAtlasTests) ... <REPO>\sbercluster\continuous_atlas.py:177: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  if values.applymap(lambda v: isinstance(v, (bool, np.bool_))).any().any():
+<REPO>\sbercluster\continuous_atlas.py:177: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  if values.applymap(lambda v: isinstance(v, (bool, np.bool_))).any().any():
+<REPO>\sbercluster\continuous_atlas.py:177: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  if values.applymap(lambda v: isinstance(v, (bool, np.bool_))).any().any():
+<REPO>\sbercluster\continuous_atlas.py:177: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  if values.applymap(lambda v: isinstance(v, (bool, np.bool_))).any().any():
+<REPO>\sbercluster\continuous_atlas.py:177: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  if values.applymap(lambda v: isinstance(v, (bool, np.bool_))).any().any():
+ok
+test_cli_success_no_clobber_and_refusal_leaves_no_output (test_continuous_atlas.ContinuousAtlasTests) ... ok
+test_csv_structure_rejections (test_continuous_atlas.ContinuousAtlasTests) ... ok
+test_model_validation_and_hash_pins (test_continuous_atlas.ContinuousAtlasTests) ... ok
+test_year_selection_monthly_median_and_labels_are_not_weight_argmax (test_continuous_atlas.ContinuousAtlasTests) ... <REPO>\sbercluster\continuous_atlas.py:177: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  if values.applymap(lambda v: isinstance(v, (bool, np.bool_))).any().any():
+<REPO>\sbercluster\continuous_atlas.py:177: FutureWarning: DataFrame.applymap has been deprecated. Use DataFrame.map instead.
+  if values.applymap(lambda v: isinstance(v, (bool, np.bool_))).any().any():
+ok
+test_analytic_projection_duplicate_vertices_and_boundary (test_continuous_atlas.ContinuousGeometryTests) ... ok
+test_projection_matches_independent_constrained_optimizer (test_continuous_atlas.ContinuousGeometryTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 4.534s
+
+OK

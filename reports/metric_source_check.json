@@ -1,0 +1,17 @@
+{
+  "source_url": "https://link.springer.com/article/10.1134/S1064562425700589",
+  "checked_date": "2026-09-24",
+  "AVU": {
+    "equation": 21,
+    "formula": "(1/K) * sum_k sum_{l != k} Unifiability(k,l)",
+    "ordered_pair_sum": true,
+    "denominator": "K; not K*(K-1)",
+    "code": "sbercluster/metrics.py"
+  },
+  "MQ": {
+    "official_definition_confirmed": false,
+    "TurboMQ": "named working candidate only",
+    "NewmanQ": "separate named measure",
+    "organizer_contact_sent": false
+  }
+}

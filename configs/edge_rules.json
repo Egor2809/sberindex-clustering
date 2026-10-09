@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "seed": 1729,
+  "data_contract": {
+    "identity_mode": "source_territory_id",
+    "stable_territories_verified": false,
+    "measurement_definition_verified": true,
+    "common_denominator_verified": false,
+    "categories_disjoint_verified": false,
+    "evidence": [
+      "reports/source_alignment.json",
+      "docs/DATA_SOURCES.md"
+    ]
+  },
+  "features": {
+    "mode": "log_ratios_to_total",
+    "level_weight": 0.0,
+    "calibration_end": "2023-12-01",
+    "seasonality": "same_month_cross_section"
+  },
+  "graph": {
+    "k": 15
+  },
+  "edge_rules": {
+    "series_months": 24,
+    "max_lag": 3,
+    "dtw_window": 2,
+    "n_clusters": 4,
+    "k_grid": [
+      5,
+      10,
+      15,
+      30
+    ],
+    "source_dir": "artifacts/sources/acquisition",
+    "output": "reports/edge-rules",
+    "min_cluster_size": 20,
+    "leiden_iterations": 2
+  },
+  "events": {
+    "jaccard_threshold": 0.3,
+    "size_change": 0.1,
+    "temporal_labels": "reports/round2-2026-09-24/round2-20260924-temporal_grid/temporal_omega0.01_seed1729.json.gz"
+  }
+}

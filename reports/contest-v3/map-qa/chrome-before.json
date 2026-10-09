@@ -1,0 +1,157 @@
+{
+  "browser": "chrome",
+  "baseline": true,
+  "checks": [
+    {
+      "name": "no_native_map_titles",
+      "pass": false
+    },
+    {
+      "name": "hover_disabled_by_default_zoom_1",
+      "pass": false
+    },
+    {
+      "name": "real_pointer_click_zoom_1",
+      "pass": true,
+      "details": {
+        "expected": "457"
+      }
+    },
+    {
+      "name": "selection_preserves_view_zoom_1",
+      "pass": true,
+      "details": {
+        "before": [
+          0,
+          0,
+          1000,
+          420
+        ],
+        "after": [
+          0,
+          0,
+          1000,
+          420
+        ]
+      }
+    },
+    {
+      "name": "hover_disabled_by_default_zoom_2",
+      "pass": false
+    },
+    {
+      "name": "real_pointer_click_zoom_2",
+      "pass": false,
+      "details": {
+        "expected": "61"
+      }
+    },
+    {
+      "name": "selection_preserves_view_zoom_2",
+      "pass": true,
+      "details": {
+        "before": [
+          250,
+          105,
+          500,
+          210
+        ],
+        "after": [
+          250,
+          105,
+          500,
+          210
+        ]
+      }
+    },
+    {
+      "name": "hover_disabled_by_default_zoom_4",
+      "pass": false
+    },
+    {
+      "name": "real_pointer_click_zoom_4",
+      "pass": false,
+      "details": {
+        "expected": "1085"
+      }
+    },
+    {
+      "name": "selection_preserves_view_zoom_4",
+      "pass": true,
+      "details": {
+        "before": [
+          375,
+          157.5,
+          250,
+          105
+        ],
+        "after": [
+          375,
+          157.5,
+          250,
+          105
+        ]
+      }
+    },
+    {
+      "name": "hover_disabled_by_default_zoom_8",
+      "pass": false
+    },
+    {
+      "name": "real_pointer_click_zoom_8",
+      "pass": false,
+      "details": {
+        "expected": "1367"
+      }
+    },
+    {
+      "name": "selection_preserves_view_zoom_8",
+      "pass": true,
+      "details": {
+        "before": [
+          437.5,
+          183.75,
+          125,
+          52.5
+        ],
+        "after": [
+          437.5,
+          183.75,
+          125,
+          52.5
+        ]
+      }
+    },
+    {
+      "name": "pan_tracks_cursor_within_one_pixel",
+      "pass": true,
+      "details": {
+        "errorX": 0.17970207759312018,
+        "errorY": 0.1640045166015618
+      }
+    },
+    {
+      "name": "drag_does_not_select",
+      "pass": true
+    },
+    {
+      "name": "no_text_selection_after_drag",
+      "pass": false
+    },
+    {
+      "name": "year_and_mode_preserve_pan",
+      "pass": true
+    },
+    {
+      "name": "mobile_no_horizontal_overflow",
+      "pass": true
+    },
+    {
+      "name": "no_javascript_errors",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "errors": [],
+  "passed": false
+}

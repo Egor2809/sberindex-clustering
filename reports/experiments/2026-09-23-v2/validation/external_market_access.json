@@ -1,0 +1,43 @@
+{
+  "status": "computed",
+  "source_sha256": "434258afe322b7e6e6610b2552d129ae47094613de72dae3d13f6965a28d1dc1",
+  "column": "market_access",
+  "source_year": 2024,
+  "used_for_training_or_selection": false,
+  "n": 2004,
+  "eta_squared_raw": 0.4053861998931931,
+  "eta_squared_after_region_mean_removal": 0.03623572082997442,
+  "within_region_permutation_p": 0.005,
+  "permutations": 199,
+  "cluster_summaries": [
+    {
+      "cluster": 0,
+      "n": 643,
+      "median": 308.9,
+      "q25": 229.9,
+      "q75": 343.1
+    },
+    {
+      "cluster": 1,
+      "n": 859,
+      "median": 324.4,
+      "q25": 272.75,
+      "q75": 357.85
+    },
+    {
+      "cluster": 2,
+      "n": 385,
+      "median": 413.7,
+      "q25": 352.8,
+      "q75": 605.9
+    },
+    {
+      "cluster": 3,
+      "n": 117,
+      "median": 139.3,
+      "q25": 133.4,
+      "q75": 155.4
+    }
+  ],
+  "interpretation": "withheld attribute association, not causal or industrial-type validation"
+}

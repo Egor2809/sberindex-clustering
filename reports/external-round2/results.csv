@@ -1,0 +1,5 @@
+cluster,profile_name,reviewed_municipalities,eligible_panel_municipalities_in_two_regions,panel_coverage_fraction,excluded_panel_municipalities,wage_count,wage_min_rubles,wage_median_rubles,wage_max_rubles,headcount_count,headcount_min_people,headcount_median_people,headcount_max_people
+0,Сбалансированный: средние МО,5,5,1.0,0,5,63714.0,78418.5,92164.9,5,1529.0,16503.0,83792.0
+1,Продуктовый: малые районы,14,14,1.0,0,14,59758.9,72505.0,94195.2,14,1551.0,3687.0,9417.0
+2,Городской сервисный,0,0,,0,0,,,,0,,,
+3,Удалённый: мало маркетплейсов,2,3,0.6666666666666666,1,2,106476.5,110089.2,113701.9,2,2853.0,6877.5,10902.0

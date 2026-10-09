@@ -1,0 +1,367 @@
+{
+  "annual": {
+    "mean_common_displacement": [
+      -0.054691950338139526,
+      0.37127102652152644,
+      -0.0021033434685377257,
+      -0.0804589371131059,
+      -0.08794926951014617
+    ],
+    "median_paired_displacement": [
+      -0.04246314834961143,
+      0.33828020683114923,
+      0.007801244258468856,
+      -0.08093516932530209,
+      -0.0704010340938207
+    ],
+    "total_squared_displacement": 423.2604385384846,
+    "common_squared_displacement": 312.5737907482644,
+    "individual_squared_displacement": 110.68664779022018,
+    "identity_absolute_error": 2.842170943040401e-14,
+    "common_fraction": 0.7384904476959376,
+    "actual_label_changes": 380,
+    "common_only_counterfactual_changes": 311,
+    "individual_only_counterfactual_changes": 202,
+    "actual_and_common_only": 255,
+    "actual_and_individual_only": 156,
+    "scope": "geometric_mean_displacement_decomposition;counterfactuals_not_causal_attribution"
+  },
+  "same_calendar_month": [
+    {
+      "month": 1,
+      "mean_common_displacement": [
+        -0.06191580412918821,
+        0.3883647303386049,
+        -0.060224208076526446,
+        -9.564506672585371e-05,
+        -0.14780431518023787
+      ],
+      "median_paired_displacement": [
+        -0.04831940835113798,
+        0.3633990661421568,
+        -0.02763711040970609,
+        -0.00791497827771813,
+        -0.11657266013534343
+      ],
+      "total_squared_displacement": 617.9280690282989,
+      "common_squared_displacement": 363.14976205723616,
+      "individual_squared_displacement": 254.77830697106265,
+      "identity_absolute_error": 5.684341886080802e-14,
+      "common_fraction": 0.5876893772252402,
+      "actual_label_changes": 680,
+      "common_only_counterfactual_changes": 678,
+      "individual_only_counterfactual_changes": 420,
+      "actual_and_common_only": 512,
+      "actual_and_individual_only": 310,
+      "scope": "geometric_mean_displacement_decomposition;counterfactuals_not_causal_attribution"
+    },
+    {
+      "month": 2,
+      "mean_common_displacement": [
+        -0.11577752035586646,
+        0.41213142336903863,
+        -0.05161203295606205,
+        -0.029419414891463488,
+        -0.1802996947342918
+      ],
+      "median_paired_displacement": [
+        -0.08894838494477367,
+        0.38469624558992543,
+        -0.019935115641044478,
+        -0.035106905136489605,
+        -0.1440389348993008
+      ],
+      "total_squared_displacement": 688.0965465719096,
+      "common_squared_displacement": 442.0967608262728,
+      "individual_squared_displacement": 245.99978574563687,
+      "identity_absolute_error": 1.1368683772161603e-13,
+      "common_fraction": 0.6424923406879378,
+      "actual_label_changes": 647,
+      "common_only_counterfactual_changes": 655,
+      "individual_only_counterfactual_changes": 395,
+      "actual_and_common_only": 512,
+      "actual_and_individual_only": 294,
+      "scope": "geometric_mean_displacement_decomposition;counterfactuals_not_causal_attribution"
+    },
+    {
+      "month": 3,
+      "mean_common_displacement": [
+        -0.16502634453847018,
+        0.3887985540195631,
+        -0.03796400672550415,
+        -0.023325486902684153,
+        -0.1452622972763427
+      ],
+      "median_paired_displacement": [
+        -0.14033002145634832,
+        0.35780922074107824,
+        -0.010460909503424168,
+        -0.029310120876417434,
+        -0.1049337014387457
+      ],
+      "total_squared_displacement": 624.4492262313189,
+      "common_squared_displacement": 406.19273013715537,
+      "individual_squared_displacement": 218.25649609416368,
+      "identity_absolute_error": 1.4210854715202004e-13,
+      "common_fraction": 0.6504815973407687,
+      "actual_label_changes": 533,
+      "common_only_counterfactual_changes": 548,
+      "individual_only_counterfactual_changes": 342,
+      "actual_and_common_only": 411,
+      "actual_and_individual_only": 230,
+      "scope": "geometric_mean_displacement_decomposition;counterfactuals_not_causal_attribution"
+    },
+    {
+      "month": 4,
+      "mean_common_displacement": [
+        -0.03724064068394744,
+        0.4085840542730799,
+        0.010362399370425927,
+        -0.1055400303320506,
+        -0.08770914267506649
+      ],
+      "median_paired_displacement": [
+        -0.029890146203290807,
+        0.36903604016652636,
+        0.014280983733999109,
+        -0.1037487832387488,
+        -0.06321291896115461
+      ],
+      "total_squared_displacement": 577.7247650105484,
+      "common_squared_displacement": 377.5297997656594,
+      "individual_squared_displacement": 200.19496524488895,
+      "identity_absolute_error": 2.842170943040401e-14,
+      "common_fraction": 0.6534769195133365,
+      "actual_label_changes": 398,
+      "common_only_counterfactual_changes": 312,
+      "individual_only_counterfactual_changes": 246,
+      "actual_and_common_only": 264,
+      "actual_and_individual_only": 180,
+      "scope": "geometric_mean_displacement_decomposition;counterfactuals_not_causal_attribution"
+    },
+    {
+      "month": 5,
+      "mean_common_displacement": [
+        -0.060564272071811996,
+        0.3722494278705974,
+        0.01987289696448489,
+        -0.04950635835760627,
+        -0.07196537714891992
+      ],
+      "median_paired_displacement": [
+        -0.05241142370601906,
+        0.3333893962349595,
+        0.018751498052581306,
+        -0.04906108604263882,
+        -0.053029318991173434
+      ],
+      "total_squared_displacement": 498.89172084377424,
+      "common_squared_displacement": 302.92918923729087,
+      "individual_squared_displacement": 195.96253160648325,
+      "identity_absolute_error": 1.1368683772161603e-13,
+      "common_fraction": 0.6072042821735898,
+      "actual_label_changes": 369,
+      "common_only_counterfactual_changes": 296,
+      "individual_only_counterfactual_changes": 242,
+      "actual_and_common_only": 255,
+      "actual_and_individual_only": 174,
+      "scope": "geometric_mean_displacement_decomposition;counterfactuals_not_causal_attribution"
+    },
+    {
+      "month": 6,
+      "mean_common_displacement": [
+        -0.11857012025297935,
+        0.3648765429181664,
+        0.026624017468576913,
+        -0.08945773037208997,
+        -0.06815198225333093
+      ],
+      "median_paired_displacement": [
+        -0.10135360424586298,
+        0.3274720563835072,
+        0.02586649070277275,
+        -0.08796929628771083,
+        -0.050127807114907844
+      ],
+      "total_squared_displacement": 518.1082960935726,
+      "common_squared_displacement": 323.66876271059124,
+      "individual_squared_displacement": 194.43953338298127,
+      "identity_absolute_error": 5.684341886080802e-14,
+      "common_fraction": 0.6247125652126893,
+      "actual_label_changes": 351,
+      "common_only_counterfactual_changes": 262,
+      "individual_only_counterfactual_changes": 228,
+      "actual_and_common_only": 212,
+      "actual_and_individual_only": 176,
+      "scope": "geometric_mean_displacement_decomposition;counterfactuals_not_causal_attribution"
+    },
+    {
+      "month": 7,
+      "mean_common_displacement": [
+        -0.021719068990544606,
+        0.34535027750508346,
+        0.01603887252657433,
+        -0.07841058610792176,
+        -0.05755211851861499
+      ],
+      "median_paired_displacement": [
+        -0.0112476852823685,
+        0.3047197273915817,
+        0.014519933134349405,
+        -0.07636372257944954,
+        -0.03557597499389408
+      ],
+      "total_squared_displacement": 441.56773589176873,
+      "common_squared_displacement": 260.9837877474503,
+      "individual_squared_displacement": 180.58394814431836,
+      "identity_absolute_error": 5.684341886080802e-14,
+      "common_fraction": 0.5910390785694072,
+      "actual_label_changes": 360,
+      "common_only_counterfactual_changes": 277,
+      "individual_only_counterfactual_changes": 232,
+      "actual_and_common_only": 228,
+      "actual_and_individual_only": 170,
+      "scope": "geometric_mean_displacement_decomposition;counterfactuals_not_causal_attribution"
+    },
+    {
+      "month": 8,
+      "mean_common_displacement": [
+        -0.13547875851231356,
+        0.36463433084309593,
+        0.017430943298930218,
+        -0.15342563576420323,
+        -0.08601458639062956
+      ],
+      "median_paired_displacement": [
+        -0.11653837636520545,
+        0.33378769332928554,
+        0.01650512927317356,
+        -0.14691497754828453,
+        -0.06813638344042744
+      ],
+      "total_squared_displacement": 554.8651768874473,
+      "common_squared_displacement": 368.02979499549645,
+      "individual_squared_displacement": 186.8353818919508,
+      "identity_absolute_error": 8.526512829121202e-14,
+      "common_fraction": 0.6632778742035745,
+      "actual_label_changes": 359,
+      "common_only_counterfactual_changes": 289,
+      "individual_only_counterfactual_changes": 235,
+      "actual_and_common_only": 234,
+      "actual_and_individual_only": 178,
+      "scope": "geometric_mean_displacement_decomposition;counterfactuals_not_causal_attribution"
+    },
+    {
+      "month": 9,
+      "mean_common_displacement": [
+        -0.025689455898451983,
+        0.31848644841380735,
+        0.020669024799237764,
+        -0.1512394974269321,
+        -0.06010665588412535
+      ],
+      "median_paired_displacement": [
+        -0.0193496221456229,
+        0.282952866526774,
+        0.013552686452893842,
+        -0.14555270755472222,
+        -0.04780269025659078
+      ],
+      "total_squared_displacement": 454.7331223786586,
+      "common_squared_displacement": 260.0780519580253,
+      "individual_squared_displacement": 194.6550704206333,
+      "identity_absolute_error": 0.0,
+      "common_fraction": 0.57193557970351,
+      "actual_label_changes": 302,
+      "common_only_counterfactual_changes": 243,
+      "individual_only_counterfactual_changes": 224,
+      "actual_and_common_only": 178,
+      "actual_and_individual_only": 152,
+      "scope": "geometric_mean_displacement_decomposition;counterfactuals_not_causal_attribution"
+    },
+    {
+      "month": 10,
+      "mean_common_displacement": [
+        -0.008109886687717342,
+        0.2709117046571627,
+        0.026566090822368264,
+        -0.1415002167453557,
+        -0.053905088739545325
+      ],
+      "median_paired_displacement": [
+        0.0013020592380074637,
+        0.23674779589763917,
+        0.02355340326967191,
+        -0.12968530016664231,
+        -0.043299243382483324
+      ],
+      "total_squared_displacement": 380.44381641897485,
+      "common_squared_displacement": 195.7389821753599,
+      "individual_squared_displacement": 184.70483424361493,
+      "identity_absolute_error": 2.842170943040401e-14,
+      "common_fraction": 0.5145016786389206,
+      "actual_label_changes": 248,
+      "common_only_counterfactual_changes": 180,
+      "individual_only_counterfactual_changes": 179,
+      "actual_and_common_only": 126,
+      "actual_and_individual_only": 137,
+      "scope": "geometric_mean_displacement_decomposition;counterfactuals_not_causal_attribution"
+    },
+    {
+      "month": 11,
+      "mean_common_displacement": [
+        -0.055743984402120084,
+        0.17910879748748962,
+        0.01904580741639518,
+        -0.12187515636507953,
+        -0.04282163518764631
+      ],
+      "median_paired_displacement": [
+        -0.04266492972411983,
+        0.14592232239434288,
+        0.02026471293782743,
+        -0.11107322088212312,
+        -0.025382885795567384
+      ],
+      "total_squared_displacement": 296.162418777128,
+      "common_squared_displacement": 105.31048166097429,
+      "individual_squared_displacement": 190.85193711615366,
+      "identity_absolute_error": 2.842170943040401e-14,
+      "common_fraction": 0.35558354127376274,
+      "actual_label_changes": 182,
+      "common_only_counterfactual_changes": 94,
+      "individual_only_counterfactual_changes": 172,
+      "actual_and_common_only": 67,
+      "actual_and_individual_only": 137,
+      "scope": "geometric_mean_displacement_decomposition;counterfactuals_not_causal_attribution"
+    },
+    {
+      "month": 12,
+      "mean_common_displacement": [
+        -0.1198294555305897,
+        0.2361373057534737,
+        0.02565523796133891,
+        -0.1694310524089412,
+        -0.040255429695921975
+      ],
+      "median_paired_displacement": [
+        -0.10844887394202002,
+        0.20127718664412847,
+        0.01945185467514643,
+        -0.15973260959225918,
+        -0.032472676077191405
+      ],
+      "total_squared_displacement": 395.99010110902753,
+      "common_squared_displacement": 203.82868388035385,
+      "individual_squared_displacement": 192.16141722867374,
+      "identity_absolute_error": 5.684341886080802e-14,
+      "common_fraction": 0.514731765540356,
+      "actual_label_changes": 160,
+      "common_only_counterfactual_changes": 103,
+      "individual_only_counterfactual_changes": 132,
+      "actual_and_common_only": 72,
+      "actual_and_individual_only": 103,
+      "scope": "geometric_mean_displacement_decomposition;counterfactuals_not_causal_attribution"
+    }
+  ]
+}

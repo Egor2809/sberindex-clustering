@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>СберИндекс · Паспорт муниципальных рядов</title>
+  <style>
+    :root { color-scheme: light; --ink:#18313d; --muted:#5d737b; --line:#d8e5e3; --surface:#fff; --bg:#f4f8f7; --blue:#1878a0; --teal:#168b78; --pale:#e6f3f1; --amber:#ad6b22; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 system-ui,-apple-system,"Segoe UI",Arial,sans-serif; }
+    button,input { font:inherit; }
+    button { cursor:pointer; }
+    button:focus-visible,input:focus-visible { outline:3px solid #72b6d5; outline-offset:2px; }
+    .wrap { max-width:1210px; margin:0 auto; padding:0 24px; }
+    .top { background:linear-gradient(120deg,#e5f5f1 0%,#edf6f8 62%,#f7faf8 100%); border-bottom:1px solid var(--line); padding:35px 0 32px; }
+    .eyebrow { color:#326e77; text-transform:uppercase; font-weight:750; letter-spacing:.14em; font-size:12px; }
+    h1 { font-size:clamp(28px,4vw,45px); line-height:1.12; letter-spacing:-.035em; margin:12px 0; }
+    h2 { font-size:23px; letter-spacing:-.02em; margin:0 0 8px; }
+    h3 { font-size:16px; margin:0; }
+    p { margin:0; }
+    .lede { color:#496571; max-width:780px; font-size:17px; }
+    .status { display:inline-flex; align-items:center; gap:8px; margin-top:20px; padding:7px 12px; background:#fff; border:1px solid #b8d8d2; border-radius:100px; color:#216559; font-size:13px; font-weight:700; }
+    .status:before { content:""; width:8px; height:8px; border-radius:50%; background:#2baf91; }
+    main { padding-top:25px !important; padding-bottom:65px !important; }
+    .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:16px; }
+    .stat,.card,.notice { background:var(--surface); border:1px solid var(--line); border-radius:15px; box-shadow:0 5px 20px #23434d08; }
+    .stat { padding:16px 18px; }
+    .stat strong { display:block; font-size:27px; letter-spacing:-.03em; line-height:1.1; }
+    .stat span { color:var(--muted); font-size:13px; }
+    .notice { border-left:4px solid var(--amber); padding:16px 18px; margin:16px 0 22px; color:#465861; }
+    .notice strong { color:#794d1c; }
+    .card { padding:24px; margin-top:16px; }
+    .section-head { display:flex; justify-content:space-between; gap:15px; align-items:start; margin-bottom:20px; }
+    .muted,.hint { color:var(--muted); }
+    .hint { font-size:13px; }
+    .control-row { display:flex; flex-wrap:wrap; gap:22px; align-items:end; margin-bottom:20px; }
+    .picker { width:min(100%,430px); position:relative; }
+    label.control-label { display:block; margin-bottom:6px; color:#46616b; font-size:13px; font-weight:700; }
+    .picker input { width:100%; border:1px solid #aac9cb; border-radius:10px; padding:11px 13px; color:var(--ink); background:#fff; }
+    .matches { position:absolute; z-index:5; top:100%; left:0; right:0; max-height:280px; overflow:auto; background:white; border:1px solid var(--line); border-radius:10px; margin-top:4px; box-shadow:0 14px 30px #18313d25; }
+    .matches[hidden] { display:none; }
+    .match { display:block; width:100%; text-align:left; background:white; border:0; border-bottom:1px solid #edf2f1; padding:9px 12px; color:var(--ink); }
+    .match:hover,.match:focus-visible { background:var(--pale); }
+    .check { display:flex; align-items:center; gap:9px; padding-bottom:10px; color:#385661; font-size:14px; }
+    .check input { accent-color:var(--teal); width:17px; height:17px; }
+    .category-list { display:flex; gap:7px; flex-wrap:wrap; margin-bottom:18px; }
+    .category { border:1px solid #b8d3d2; color:#42616a; background:white; border-radius:100px; padding:6px 12px; font-size:13px; }
+    .category[aria-pressed="true"] { background:#176f7d; border-color:#176f7d; color:white; }
+    .chart-heading { display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; align-items:baseline; margin:0 0 10px; }
+    .legend { display:flex; flex-wrap:wrap; gap:15px; color:var(--muted); font-size:13px; }
+    .legend span:before { content:""; display:inline-block; width:16px; height:3px; background:var(--blue); vertical-align:middle; margin-right:6px; border-radius:3px; }
+    .legend .median-key:before { background:var(--teal); }
+    .chart-shell { position:relative; border:1px solid #edf1f0; border-radius:12px; background:#fbfdfc; overflow:hidden; }
+    #chart { width:100%; height:auto; display:block; touch-action:none; }
+    .tooltip { position:absolute; pointer-events:none; z-index:2; background:#203e49; color:white; border-radius:8px; padding:8px 10px; box-shadow:0 8px 18px #102c3740; font-size:12px; line-height:1.5; white-space:nowrap; }
+    .tooltip[hidden] { display:none; }
+    .mini-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:11px; margin-top:22px; }
+    .mini { border:1px solid var(--line); background:#fff; border-radius:11px; padding:12px 13px; text-align:left; min-width:0; color:var(--ink); }
+    .mini[aria-pressed="true"] { border-color:#57a8a1; background:#f2faf8; box-shadow:0 0 0 1px #57a8a1; }
+    .mini-title { display:flex; justify-content:space-between; gap:8px; align-items:baseline; font-size:13px; font-weight:700; }
+    .mini-last { color:var(--muted); font-size:12px; font-weight:500; }
+    .spark { display:block; width:100%; height:54px; margin-top:9px; }
+    .table-wrap { overflow:auto; }
+    table { border-collapse:collapse; width:100%; font-size:14px; }
+    th,td { border-bottom:1px solid #e7eeed; padding:9px 11px; text-align:left; }
+    th { color:#4c6972; font-size:12px; font-weight:750; background:#f7faf9; }
+    td.num,th.num { text-align:right; font-variant-numeric:tabular-nums; }
+    tbody tr:hover { background:#f6faf9; }
+    .audit-table td:first-child { overflow-wrap:anywhere; }
+    details { margin-top:14px; color:var(--muted); font-size:13px; }
+    summary { cursor:pointer; }
+    pre { white-space:pre-wrap; overflow-wrap:anywhere; background:#f4f8f7; border-radius:10px; padding:14px; max-height:360px; overflow:auto; }
+    footer { color:#668087; font-size:12px; padding:22px 0 38px; border-top:1px solid var(--line); }
+    @media(max-width:800px) { .stats { grid-template-columns:repeat(2,1fr); } .mini-grid { grid-template-columns:repeat(2,1fr); } }
+    @media(max-width:550px) { .wrap { padding:0 15px; } .top { padding:26px 0; } .card { padding:17px; } .stats { gap:8px; } .stat { padding:13px; } .stat strong { font-size:23px; } .mini-grid { grid-template-columns:1fr; } .section-head { display:block; } }
+  </style>
+</head>
+<body>
+  <header class="top"><div class="wrap">
+    <div class="eyebrow">СберИндекс · 2023–2024</div>
+    <h1>Группы потребления</h1>
+    <p class="lede">Выберите муниципалитет, посмотрите, как менялись расходы его жителей, и найдите территории с похожим потребительским профилем.</p>
+    <div class="status">Данные и сеть готовы · сравнение кластеров впереди</div>
+  </div></header>
+  <main class="wrap">
+    <div class="stats" id="stats" aria-label="Краткая сводка"></div>
+    <aside class="notice"><strong>Границы и переходы.</strong> Панель использует официальный <code>territory_id</code> и годовой справочник с интервалом [year_from, year_to). Его задокументированный охват: до 01.01.2024; сведения о переходах границ позднее этой даты и изменениях в Чечне неполны. Сопоставимость территорий между годами требует дополнительной проверки.</aside>
+    <section class="card" aria-labelledby="explore-title">
+      <div class="section-head"><div><h2 id="explore-title">Исходные временные ряды</h2><p class="muted">Средние безналичные расходы жителей из подготовленной панели. «Все категории» означают общий итог, а не шестую отдельную категорию.</p></div><span class="hint">Руб. · месяцы</span></div>
+      <div class="control-row">
+        <div class="picker"><label class="control-label" for="entity-search">Муниципальное образование и регион</label><input id="entity-search" type="search" autocomplete="off" placeholder="Начните вводить название" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="matches"><div id="matches" class="matches" role="listbox" hidden></div><p id="entity-meta" class="hint" style="margin-top:7px"></p></div>
+        <label class="check"><input id="compare" type="checkbox" checked>Показать медиану набора</label>
+      </div>
+      <div id="categories" class="category-list" aria-label="Категория расходов"></div>
+      <div class="chart-heading"><h3 id="chart-title"></h3><div class="legend"><span>Выбранное МО</span><span class="median-key" id="median-key">Медиана набора</span></div></div>
+      <div class="chart-shell"><svg id="chart" viewBox="0 0 960 340" role="img" aria-label="Временной ряд выбранной категории"></svg><div id="tooltip" class="tooltip" hidden></div></div>
+      <p class="hint" style="margin-top:9px">Медиана вычислена отдельно для каждого месяца и показателя среди территорий этой панели. Это описательная медиана набора, не показатель «средней России». Пять категорий не исчерпывают общий итог, поэтому их доли не следует складывать до 100%.</p>
+      <div id="minis" class="mini-grid" aria-label="Все шесть категорий"></div>
+    </section>
+    <section class="card" aria-labelledby="neighbors-title"><div class="section-head"><div><h2 id="neighbors-title">Похожие муниципалитеты</h2><p class="muted">До 15 самых сильных связей выбранной территории в подготовленной сети за декабрь 2024 года.</p></div><span class="hint">Декабрь 2024</span></div><p class="hint" style="margin-bottom:14px">Близость рассчитана по соотношениям пяти категорий к общему итогу; абсолютный уровень расходов не участвует. Чем выше вес связи, тем ближе профили. Это список похожих территорий; кластеризация будет добавлена после сравнения методов.</p><div class="table-wrap"><table><thead><tr><th>№</th><th>Территория</th><th>Регион</th><th class="num">Вес связи</th></tr></thead><tbody id="neighbors-body"></tbody></table></div></section>
+    <section class="card" aria-labelledby="values-title"><div class="section-head"><div><h2 id="values-title">Точные значения</h2><p class="muted">Помесячная таблица для выбранной категории.</p></div></div><div class="table-wrap"><table><thead><tr><th>Месяц</th><th class="num">Выбранное МО, руб.</th><th class="num">Медиана набора, руб.</th><th class="num">Число строк для медианы</th></tr></thead><tbody id="values-body"></tbody></table></div></section>
+    <section class="card" aria-labelledby="audit-title"><div class="section-head"><div><h2 id="audit-title">Полнота и конфликты</h2><p class="muted">В CSV встречаются одинаковые названия разных территорий. Здесь используются официальные идентификаторы, которые позволяют их различить.</p></div></div><div class="table-wrap"><table class="audit-table"><thead><tr><th>Показатель</th><th class="num">Значение</th></tr></thead><tbody id="audit-body"></tbody></table></div><details><summary>Полный JSON аудита</summary><pre id="audit-json"></pre></details></section>
+  </main>
+  <footer><div class="wrap">Источник: <a href="https://sberindex.ru/ru/research/data-sense-opisanie-nabora-dannikh-khakatona-sberindeksa-po-munitsipalnim-dannim" target="_blank" rel="noopener noreferrer">СберИндекс, «Потребительские безналичные расходы на уровне муниципальных образований»</a>, получено 23.09.2026. Данные расходов и производные от них распространяются по лицензии <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ru" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>. Условия публикации отдельного справочника и геометрии ещё уточняются; этот прототип предназначен для локального просмотра. Переходы границ и интерпретация сходства требуют дополнительной проверки.</div></footer>
+  <script>
+  (() => {
+    "use strict";
+    const data = /*__DATA__*/null;
+    const $ = id => document.getElementById(id);
+    const state = {entity:0, category:5, compare:true};
+    const entityLabel = item => item.name + ' · ' + item.region;
+    const formatter = new Intl.NumberFormat('ru-RU', {maximumFractionDigits:2});
+    const format = value => value === null || value === undefined ? 'н/д' : formatter.format(value);
+    const month = period => new Intl.DateTimeFormat('ru-RU', {month:'short', year:'numeric'}).format(new Date(period + 'T00:00:00'));
+    const svg = (tag, attributes) => { const node = document.createElementNS('http://www.w3.org/2000/svg', tag); for (const [key,value] of Object.entries(attributes)) node.setAttribute(key,String(value)); return node; };
+    const clear = node => { while (node.firstChild) node.removeChild(node.firstChild); };
+    const cell = (row, value, numeric=false) => { const td=document.createElement('td'); td.textContent=String(value); if(numeric) td.className='num'; row.append(td); };
+
+    function renderStats() {
+      const s=data.summary;
+      const items=[['Территорий',format(s.entities)],['Месяцев',format(s.periods)],['Строк в панели',format(s.rows)],['Период','с '+data.periods[0].slice(0,7)+' по '+data.periods.at(-1).slice(0,7)]];
+      for(const [label,value] of items) { const box=document.createElement('div'); box.className='stat'; const strong=document.createElement('strong'); strong.textContent=value; const caption=document.createElement('span'); caption.textContent=label; box.append(strong,caption); $('stats').append(box); }
+    }
+    function choose(index) { state.entity=index; const e=data.entities[index]; $('entity-search').value=entityLabel(e); const years=Object.entries(e.history).sort(([a],[b])=>a.localeCompare(b)).map(([year,h])=>year+': '+h.district+(h.oktmo?' · ОКТМО '+h.oktmo:'')); $('entity-meta').textContent='territory_id: '+e.tid+' · '+years.join(' | '); hideMatches(); render(); }
+    function hideMatches() { $('matches').hidden=true; $('entity-search').setAttribute('aria-expanded','false'); }
+    function showMatches() {
+      const query=$('entity-search').value.trim().toLocaleLowerCase('ru');
+      const matches=[];
+      for(let i=0;i<data.entities.length && matches.length<30;i++) if(entityLabel(data.entities[i]).toLocaleLowerCase('ru').includes(query)) matches.push(i);
+      clear($('matches'));
+      if(!matches.length) { const none=document.createElement('div'); none.className='match'; none.textContent='Совпадений нет'; $('matches').append(none); }
+      for(const index of matches) { const button=document.createElement('button'); button.type='button'; button.className='match'; button.setAttribute('role','option'); button.textContent=entityLabel(data.entities[index]); button.addEventListener('click',()=>choose(index)); $('matches').append(button); }
+      $('matches').hidden=false; $('entity-search').setAttribute('aria-expanded','true');
+    }
+    function renderCategories() {
+      clear($('categories'));
+      data.categories.forEach((name,index)=>{ const button=document.createElement('button'); button.type='button'; button.className='category'; button.textContent=name; button.setAttribute('aria-pressed',String(index===state.category)); button.addEventListener('click',()=>{state.category=index;render();}); $('categories').append(button); });
+    }
+    function linePath(values, x, y) {
+      let path='',drawing=false;
+      values.forEach((value,index)=>{ if(value===null || value===undefined) { drawing=false; return; } path+=(drawing?' L':' M')+x(index).toFixed(2)+' '+y(value).toFixed(2); drawing=true; });
+      return path.trim();
+    }
+    function renderChart() {
+      const chart=$('chart'); clear(chart);
+      const selected=data.entities[state.entity].values.map(row=>row[state.category]);
+      const benchmark=data.median.map(row=>row[state.category]);
+      const all=selected.concat(state.compare?benchmark:[]).filter(value=>value!==null && value!==undefined);
+      const min=all.length?Math.min(0,...all):0, max=all.length?Math.max(...all):1;
+      const high=max===min?max+1:max+(max-min)*.08, low=min;
+      const left=84,right=925,top=23,bottom=278;
+      const x=index=>left+index*(right-left)/Math.max(1,data.periods.length-1);
+      const y=value=>bottom-(value-low)*(bottom-top)/(high-low);
+      for(let i=0;i<5;i++) { const value=low+(high-low)*i/4, yy=y(value); chart.append(svg('line',{x1:left,x2:right,y1:yy,y2:yy,stroke:'#dce9e7','stroke-width':1})); const label=svg('text',{x:left-11,y:yy+4,'text-anchor':'end',fill:'#657b82','font-size':12}); label.textContent=format(Math.round(value)); chart.append(label); }
+      const ticks=[0,Math.floor((data.periods.length-1)/4),Math.floor((data.periods.length-1)/2),Math.floor(3*(data.periods.length-1)/4),data.periods.length-1];
+      for(const index of [...new Set(ticks)]) { const label=svg('text',{x:x(index),y:313,'text-anchor':index===0?'start':index===data.periods.length-1?'end':'middle',fill:'#657b82','font-size':12}); label.textContent=month(data.periods[index]); chart.append(label); }
+      if(state.compare) chart.append(svg('path',{d:linePath(benchmark,x,y),fill:'none',stroke:'#168b78','stroke-width':2.5,'stroke-dasharray':'7 5','stroke-linecap':'round','stroke-linejoin':'round'}));
+      chart.append(svg('path',{d:linePath(selected,x,y),fill:'none',stroke:'#1878a0','stroke-width':3,'stroke-linecap':'round','stroke-linejoin':'round'}));
+      const guide=svg('line',{x1:0,x2:0,y1:top,y2:bottom,stroke:'#789ba4','stroke-dasharray':'4 4',visibility:'hidden'}); chart.append(guide);
+      const dot=svg('circle',{cx:0,cy:0,r:5,fill:'#1878a0',stroke:'white','stroke-width':2,visibility:'hidden'}); chart.append(dot);
+      const overlay=svg('rect',{x:left,y:top,width:right-left,height:bottom-top,fill:'transparent'}); chart.append(overlay);
+      overlay.addEventListener('pointermove',event=>{ const rect=chart.getBoundingClientRect(); const px=(event.clientX-rect.left)*960/rect.width; const index=Math.max(0,Math.min(data.periods.length-1,Math.round((px-left)/(right-left)*(data.periods.length-1)))); const xx=x(index); guide.setAttribute('x1',xx); guide.setAttribute('x2',xx); guide.setAttribute('visibility','visible'); const value=selected[index]; dot.setAttribute('visibility',value===null?'hidden':'visible'); if(value!==null) {dot.setAttribute('cx',xx);dot.setAttribute('cy',y(value));} const tip=$('tooltip'); tip.textContent=month(data.periods[index])+' · МО: '+format(value)+(state.compare?' · медиана: '+format(benchmark[index]):''); tip.hidden=false; tip.style.left=Math.min(rect.width-tip.offsetWidth-8,Math.max(8,(xx/960)*rect.width+10))+'px'; tip.style.top='12px'; });
+      overlay.addEventListener('pointerleave',()=>{guide.setAttribute('visibility','hidden');dot.setAttribute('visibility','hidden');$('tooltip').hidden=true;});
+      $('chart-title').textContent=data.categories[state.category];
+      $('median-key').hidden=!state.compare;
+      chart.setAttribute('aria-label',data.categories[state.category]+': ряд '+entityLabel(data.entities[state.entity])+(state.compare?' и медиана набора':''));
+    }
+    function renderMinis() {
+      clear($('minis'));
+      data.categories.forEach((name,index)=>{
+        const values=data.entities[state.entity].values.map(row=>row[index]);
+        const available=values.filter(value=>value!==null);
+        const min=available.length?Math.min(...available):0,max=available.length?Math.max(...available):1;
+        const x=i=>4+i*292/Math.max(1,values.length-1);
+        const y=value=>48-(value-min)*40/(max===min?1:max-min);
+        const button=document.createElement('button');button.type='button';button.className='mini';button.setAttribute('aria-pressed',String(index===state.category));
+        const title=document.createElement('div');title.className='mini-title';const titleName=document.createElement('span');titleName.textContent=name;const last=document.createElement('span');last.className='mini-last';last.textContent=format(values.at(-1));title.append(titleName,last);
+        const spark=svg('svg',{viewBox:'0 0 300 54',class:'spark','aria-hidden':'true'});spark.append(svg('path',{d:linePath(values,x,y),fill:'none',stroke:index===state.category?'#1878a0':'#4a99a4','stroke-width':2.4,'stroke-linecap':'round','stroke-linejoin':'round'}));
+        button.append(title,spark);button.addEventListener('click',()=>{state.category=index;render();window.scrollTo({top:$('explore-title').getBoundingClientRect().top+window.scrollY-15,behavior:'smooth'});});$('minis').append(button);
+      });
+    }
+    function renderNeighbors() {
+      clear($('neighbors-body'));
+      const neighbors=data.neighbors.top[state.entity] || [];
+      neighbors.forEach(([index,weight],rank)=>{const target=data.entities[index], row=document.createElement('tr');cell(row,rank+1);cell(row,target.name);cell(row,target.region);cell(row,weight<0.001?weight.toExponential(1):weight.toFixed(3),true);$('neighbors-body').append(row);});
+      if(!neighbors.length) {const row=document.createElement('tr');const td=document.createElement('td');td.colSpan=4;td.textContent='Связи отсутствуют';row.append(td);$('neighbors-body').append(row);}
+    }
+    function renderValues() {
+      clear($('values-body'));
+      data.periods.forEach((period,index)=>{const row=document.createElement('tr');cell(row,month(period));cell(row,format(data.entities[state.entity].values[index][state.category]),true);cell(row,format(data.median[index][state.category]),true);cell(row,format(data.median_counts[index][state.category]),true);$('values-body').append(row);});
+    }
+    function auditLeaves(value,path='',result=[]) {
+      if(value===null || ['string','number','boolean'].includes(typeof value)) {if(path) result.push([path,value]);return result;}
+      if(Array.isArray(value)) {if(value.length<=8 && value.every(item=>item===null || ['string','number','boolean'].includes(typeof item))) result.push([path,value.join(', ')]);return result;}
+      if(typeof value==='object') for(const [key,item] of Object.entries(value)) auditLeaves(item,path?path+' / '+key:key,result);
+      return result;
+    }
+    function renderAudit() {
+      const s=data.summary;
+      const a=data.audit;
+      const fixed=[['Территорий в полной панели',s.entities],['Месяцев',s.periods],['Ожидаемые строки полной панели',s.expected_rows],['Фактические строки панели',s.rows],['Территории с неполным набором месяцев в панели',s.incomplete_entities],['Пустые ячейки панели, включая общий итог',s.missing_cells],['Территорий в исходном наборе',a.n_territories],['Неполных территорий в исходном наборе',a.incomplete_territories],['Повторных canonical ключей territory_id × месяц × категория',a.canonical_duplicate_keys],['Неоднозначных названий в плоском CSV',a.csv_export_diagnostics?.ambiguous_names ?? null],['Строк с повтором ключа по названию в плоском CSV',a.csv_export_diagnostics?.rows_with_duplicate_key ?? null],['Территорий Чечни в панели',a.chechnya_panel_territories],['Интервал годового справочника',a.registry_interval],['Подготовленных месячных графов сходства',24],['Рёбер сети за декабрь 2024',data.graph_summary.edges]];
+      clear($('audit-body'));
+      for(const [label,value] of fixed) {const row=document.createElement('tr');cell(row,label);cell(row,value===null?'н/д':typeof value==='number'?format(value):String(value),true);$('audit-body').append(row);}
+      $('audit-json').textContent=JSON.stringify(data.audit,null,2);
+    }
+    function render() {renderCategories();renderChart();renderMinis();renderValues();renderNeighbors();}
+    $('entity-search').addEventListener('input',showMatches);
+    $('entity-search').addEventListener('focus',showMatches);
+    $('entity-search').addEventListener('keydown',event=>{if(event.key==='Escape') hideMatches();if(event.key==='Enter' && !$('matches').hidden) {const first=$('matches').querySelector('button');if(first) {event.preventDefault();first.click();}}});
+    document.addEventListener('click',event=>{if(!event.target.closest('.picker')) hideMatches();});
+    $('compare').addEventListener('change',event=>{state.compare=event.target.checked;renderChart();});
+    renderStats();renderAudit();choose(0);
+  })();
+  </script>
+</body>
+</html>

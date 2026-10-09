@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Группы потребления</title>
+<style>
+@import url("../../web/fonts/fonts.css");
+@page { size: 1920px 1080px; margin: 0; }
+:root {
+  --bg: #171b1a; --card: #1d2220; --ink: #eeeeee; --ink2: #cfd5d2; --muted: #a3aca8; --faint: #8b958f;
+  --line: rgba(238,238,238,.12); --line2: rgba(238,238,238,.22); --accent: #b0d8ed;
+  --serif: "Oranienbaum", Georgia, serif; --sans: "Ysabeau Office", "Helvetica Neue", Arial, sans-serif;
+  --mono: "Martian Mono", Menlo, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--bg); color: var(--ink); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { font-family: var(--sans); font-size: 27px; line-height: 1.38; font-variant-numeric: tabular-nums; }
+section.slide { width: 1920px; height: 1080px; position: relative; overflow: hidden; padding: 84px 112px 96px; break-after: page; page-break-after: always; display: flex; flex-direction: column; }
+section.slide:last-child { break-after: auto; page-break-after: auto; }
+.kicker { font-size: 24px; color: var(--muted); margin-bottom: 18px; }
+h1 { font-family: var(--serif); font-weight: 400; font-size: 60px; line-height: 1.08; letter-spacing: -.005em; max-width: 1560px; }
+h3 { font-family: var(--serif); font-weight: 400; font-size: 36px; line-height: 1.15; margin-bottom: 12px; }
+.body { flex: 1; display: grid; gap: 64px; margin-top: 44px; min-height: 0; }
+.foot { position: absolute; left: 112px; right: 112px; bottom: 36px; display: flex; justify-content: space-between; gap: 40px; font-size: 18px; color: var(--faint); border-top: 1px solid var(--line); padding-top: 12px; }
+a { color: inherit; text-decoration: underline; text-decoration-color: var(--line2); text-underline-offset: 4px; }
+p + p { margin-top: 14px; }
+.muted { color: var(--muted); }
+.small { font-size: 23px; line-height: 1.42; }
+.num { white-space: nowrap; }
+b { font-weight: 600; color: var(--ink); }
+.fig { display: block; width: 100%; }
+.cap { font-size: 19px; color: var(--muted); margin-top: 12px; line-height: 1.38; }
+ul.plain { list-style: none; }
+ul.plain li { padding: 16px 0; border-top: 1px solid var(--line); }
+ul.plain li:last-child { border-bottom: 1px solid var(--line); }
+ul.roomy li { padding: 26px 0; }
+ul.spread { display: flex; flex-direction: column; justify-content: space-between; }
+ul.spread li { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+table { border-collapse: collapse; width: 100%; font-size: 21px; }
+th { font-family: var(--sans); font-weight: 500; font-size: 18px; color: var(--muted); text-align: right; padding: 8px 12px; border-bottom: 1px solid var(--line2); vertical-align: bottom; line-height: 1.2; }
+td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: right; font-family: var(--mono); font-size: 19px; white-space: nowrap; vertical-align: middle; }
+th:first-child, td:first-child { text-align: left; padding-left: 0; font-family: var(--sans); font-size: 21px; white-space: normal; }
+tr.ref td { color: var(--accent); }
+.tall td { padding-top: 16px; padding-bottom: 16px; }
+.tight td { padding-top: 7px; padding-bottom: 7px; }
+.tight th:first-child, .tight td:first-child { white-space: nowrap; }
+.sw { display: inline-block; width: 14px; height: 14px; border-radius: 50%; margin-right: 10px; vertical-align: 1px; }
+.big { font-family: var(--serif); font-size: 72px; line-height: 1; }
+.vs { color: var(--faint); margin: 0 18px; font-size: 26px; vertical-align: 12px; }
+.stat { padding: 22px 0; border-top: 1px solid var(--line); }
+.stat .lbl { font-size: 22px; color: var(--muted); margin-top: 10px; }
+.formula { font-family: var(--mono); font-size: 20px; color: var(--ink2); border-top: 1px solid var(--line2); border-bottom: 1px solid var(--line2); padding: 18px 0; margin: 4px 0 22px; }
+.note { border-left: 2px solid var(--accent); padding: 4px 0 4px 22px; }
+.label { font-size: 21px; color: var(--muted); margin-bottom: 10px; }
+.legend { display: grid; grid-template-columns: repeat(3, max-content); gap: 8px 28px; font-size: 19px; color: var(--ink2); justify-content: start; }
+.legend > span { white-space: nowrap; }
+code { font-family: var(--mono); font-size: .85em; }
+</style>
+</head>
+<body>
+
+<!-- 1 -->
+<section class="slide" style="padding-top:96px">
+  <div class="kicker">Конкурс СберИндекса 2026, номинация «Кластеризация»</div>
+  <div style="width:600px;flex:1;display:flex;flex-direction:column;">
+    <h1 style="font-size:86px;line-height:1.02">Группы потребления</h1>
+    <div style="margin-top:26px;font-size:26px;color:var(--muted)">Егор Щеренко</div>
+    <p style="margin-top:22px;font-size:29px;color:var(--ink2)">Я делю муниципалитеты на группы по структуре расходов и слежу, кто и когда переходит в другую группу за два года.</p>
+    <div style="margin-top:auto;display:grid;grid-template-columns:1fr 1fr;gap:0 40px;">
+      <div class="stat"><div class="big">2 016</div><div class="lbl">муниципальных образований</div></div>
+      <div class="stat"><div class="big">24</div><div class="lbl">помесячных графа, <span class="num"><span class="num">2023–2024</span></span></div></div>
+      <div class="stat"><div class="big">7</div><div class="lbl">устойчивых групп во времени</div></div>
+      <div class="stat"><div class="big">3</div><div class="lbl">уровня в годовом каркасе</div></div>
+    </div>
+  </div>
+  <img src="img/cover-map.png" alt="Карта семи временных групп" style="position:absolute;right:40px;top:112px;width:1160px;display:block">
+  <div style="position:absolute;left:720px;right:40px;top:770px">
+    <div class="legend">
+      <span><span class="sw" style="background:#3f9d6e"></span>Сбалансированные районы</span>
+      <span><span class="sw" style="background:#5b8fe6"></span>Продуктовые районы с маркетплейсами</span>
+      <span><span class="sw" style="background:#e6d86a"></span>Продуктовые районы вне лета</span>
+      <span><span class="sw" style="background:#f06e3c"></span>Города и Москва</span>
+      <span><span class="sw" style="background:#d9b8ff"></span>Ставрополье и Северный Кавказ</span>
+      <span><span class="sw" style="background:#d9579a"></span>Восток и Север</span>
+      <span><span class="sw" style="background:#73d3d8"></span>Малые районы Якутии</span>
+      <span><span class="sw" style="background:#a9afab"></span>прочие короткие группы</span>
+    </div>
+    <div class="cap" style="margin-top:14px;max-width:1100px">Цвет показывает группу, в которой МО провело больше всего из 24 месяцев. 10 МО, которые все 8 месяцев жизни «Малых районов Якутии» провели в этой группе, выделены её цветом. Мелкие городские МО показаны точками, пустые места соответствуют 174 территориям с неполной историей.</div>
+  </div>
+  <div class="foot"><span>Атлас: <a href="https://egor2809.github.io/sberindex-clustering/">egor2809.github.io/sberindex-clustering</a>. Данные СберИндекса о расходах, CC BY-SA 4.0; границы OpenStreetMap.</span><span>01</span></div>
+</section>
+
+<!-- 2 -->
+<section class="slide">
+  <div class="kicker">Вопрос и ответ</div>
+  <h1>Какие МО похожи, какие группы они образуют в сети и как группы меняются</h1>
+  <div class="body" style="grid-template-columns: repeat(3, 1fr); gap: 56px; flex: none; margin-top: 36px">
+    <div>
+      <div class="label">Главная модель</div>
+      <h3>Сетевые группы во времени</h3>
+      <p class="small">Временной Leiden на 24 помесячных графах, связь месяцев ω = 0,01. В итоге получается 7 устойчивых групп при основном seed и от 6 до 9 при двух других; 6 групп общие для всех трёх.</p>
+      <p class="small muted">На графе следующего месяца сохраняется 93–94% модулярности, у фиксированных центров KMeans4 96%.</p>
+    </div>
+    <div>
+      <div class="label">Под ней</div>
+      <h3>Три уровня поселений</h3>
+      <p class="small">Годовой Leiden 2023 года. Правило с ограничением K ≥ 3 выбрало три группы: районы и округа (1 391), города (376), Москва и Петербург (249).</p>
+      <p class="small muted">Без ограничения правило выбирает два уровня. Повторный запуск 2024 года тоже находит две группы: Москва и Петербург сливаются с городами.</p>
+    </div>
+    <div>
+      <div class="label">С чем сравниваю</div>
+      <h3>KMeans4 по годовому профилю</h3>
+      <p class="small">Сбалансированный, продуктовый, городской сервисный и удалённый типы. Они нужны для сравнения методов и как более дробное описание по тем же признакам.</p>
+      <p class="small muted">Также KMeans3, справочник типов МО и ещё 51 разбиение на общих осях. Формальное правило выбора K число 4 не подтверждает.</p>
+    </div>
+  </div>
+  <div style="margin-top:auto;display:grid;grid-template-columns:1180px 1fr;gap:56px;align-items:end">
+    <div>
+      <img class="fig" src="img/ego.png" alt="Абазинский район и 15 ближайших МО">
+      <div class="cap">Абазинский район и 15 ближайших МО по профилю 2023 года. Профиль учитывает только доли: Песочный (Петербург) похож по долям, но тратит вдвое больше, поэтому аналог проверяю и по типу МО. Группы: <span class="num"><span class="sw" style="background:#f06e3c"></span>Города и Москва</span>, <span class="num"><span class="sw" style="background:#d9b8ff"></span>Ставрополье и Северный Кавказ</span>.</div>
+    </div>
+    <p class="note small">За два года <span class="num">1 125</span> из <span class="num">2 016</span> МО хотя бы раз меняют группу. Основу деления задаёт тип поселения, зарплату сверх региона и населения группы почти не объясняют (<span class="num">+0,006–0,009</span> R²).</p>
+  </div>
+  <div class="foot"><span>Соседи: <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/reports/round2-cases/abazinsky.json">github.com/Egor2809/sberindex-clustering/blob/main/reports/round2-cases/abazinsky.json</a></span><span>02</span></div>
+</section>
+
+<!-- 3 -->
+<section class="slide">
+  <div class="kicker">Данные и граф</div>
+  <h1>Узел несёт профиль расходов, граф состоит из двух слоёв: сходства профиля и того, чего в признаках нет</h1>
+  <div class="body" style="grid-template-columns: 1fr 1fr; gap: 72px;">
+    <div>
+      <p>Панель СберИндекса: 2 016 МО, 73 региона, 24 месяца. Из 2 190 территорий я убрал 174 с неполной историей.</p>
+      <div class="formula" style="margin-top:22px">x<sub>itc</sub> = (log(E<sub>itc</sub> / E<sub>it,total</sub>) − median<sub>2023</sub>(c)) / (IQR<sub>2023</sub>(c) · √5)</div>
+      <p class="small">Мне важно, на что тратят, а не сколько. Шкала 2023 года заморожена, 2024 год меряю той же линейкой.</p>
+      <table style="margin-top:24px">
+        <tr><th>Правило ребра, k = 15</th><th>Внутри региона</th><th>Жаккар с евклидом</th><th>Силуэт K=4</th></tr>
+        <tr class="ref"><td>Евклид профиля</td><td>17,6%</td><td>1</td><td>0,362*</td></tr>
+        <tr><td>Косинус долей</td><td>16,5%</td><td>0,336</td><td>0,333</td></tr>
+        <tr><td>Пирсон рядов</td><td>27,3%</td><td>0,059</td><td>0,050</td></tr>
+        <tr><td>Корреляция с лагом</td><td>23,9%</td><td>0,055</td><td>0,043</td></tr>
+        <tr><td>DTW</td><td>24,6%</td><td>0,056</td><td>0,049</td></tr>
+        <tr><td>Дороги</td><td>71,7%</td><td>0,049</td><td>н/д</td></tr>
+      </table>
+      <div class="cap">* Вырожденное разбиение с группой из 8 МО. Силуэт посчитан для спектральной кластеризации на графе правила.</div>
+    </div>
+    <ul class="plain small">
+      <li><span><b>Шесть правил видят разное:</b> структурные и динамические делят около 5% рёбер. По профилю группы чёткие, по совместному движению рядов их почти нет.</span></li>
+      <li><span><b>Помесячная сеть:</b> половина веса у kNN по профилю месяца, половина у дорожной доступности. Дороги не построены из расходов, поэтому группы не сводятся к облакам точек в признаках. Каждый слой делю на сумму его весов, потом складываю.</span></li>
+      <li><span><b>Годовой каркас:</b> 0,75 · профиль + 0,25 · совместное движение рядов 2023 года (корреляция с лагом до 3 месяцев).</span></li>
+      <li><span><b>Один динамический слой не годится:</b> его группы устойчивы по seed, но в 2024 году почти не повторяются (ARI 0,24).</span></li>
+    </ul>
+  </div>
+  <div class="foot"><span>Данные: <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/reports/edge-rules">github.com/Egor2809/sberindex-clustering/blob/main/reports/edge-rules</a>, <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/reports/network-core">…/reports/network-core</a></span><span>03</span></div>
+</section>
+
+<!-- 4 -->
+<section class="slide">
+  <div class="kicker">Главный ответ: группы во времени</div>
+  <h1>Временной Leiden: три группы живут все 24 месяца, ещё четыре сезонные и региональные</h1>
+  <div class="body" style="grid-template-columns: 1080px 1fr; gap: 64px; margin-top:36px">
+    <div>
+      <img class="fig" src="img/flows-groups.png" alt="Размеры групп и переходы между ними по месяцам">
+      <div class="cap">Число МО в каждой из семи устойчивых групп по месяцам и переходы между группами, ω = 0,01, seed 1729. Ленты показывают переходы от 10 МО, серым показаны короткие группы. Группу во времени веду по событиям Greene, Doyle, Cunningham (2010): связь при Жаккаре ≥ 0,3.</div>
+    </div>
+    <ul class="plain small spread">
+      <li><span><b>14 групп, 7 устойчивых</b> (живут не меньше 6 месяцев). Три постоянные держат 80,9% наблюдений.</span></li>
+      <li><span><b>События за 23 перехода:</b> 84 продолжения, 25 ростов, 25 сокращений, 1 слияние, 10 рождений, 10 исчезновений, распадов нет.</span></li>
+      <li><span><b>Июнь 2023:</b> рождается «Восток и Север» (214 МО). «Продуктовые районы вне лета» пропадают на лето и исчезают совсем в марте 2024 года. В мае 2024 года появляются «Малые районы Якутии».</span></li>
+      <li><span><b>1 125 МО (55,8%)</b> проходят через две группы и больше; почти половина переходов приходится на обмен между похожими районными группами.</span></li>
+    </ul>
+  </div>
+  <div class="foot"><span>Источник: <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/reports/temporal-groups/summary.json">github.com/Egor2809/sberindex-clustering/blob/main/reports/temporal-groups/summary.json</a></span><span>04</span></div>
+</section>
+
+<!-- 5 -->
+<section class="slide">
+  <div class="kicker">Качество по месяцам</div>
+  <h1>Каждый метод выигрывает на своём графе; на следующем месяце группы Leiden держатся</h1>
+  <div class="body" style="grid-template-columns: 860px 1fr; gap: 64px; margin-top:36px">
+    <div>
+      <img class="fig" src="img/quality.png" alt="MQ по месяцам для четырёх методов">
+      <div class="cap">MQ на смешанном графе месяца (признаки + дороги), по месяцам. Все шесть индексов (SW, CH, S_Dbw, AVI, AVU, MQ) по каждому месяцу и seed лежат в отчёте temporal-quality.</div>
+    </div>
+    <div style="display:flex;flex-direction:column">
+      <table class="tall">
+        <tr><th>Средние за 24 мес., Leiden с seed 1729</th><th>SW</th><th>MQ</th><th>MQ_next</th><th>MQ_mix</th><th>Сменили</th></tr>
+        <tr><td>Leiden ω = 0</td><td>0,099</td><td>0,476</td><td>0,441</td><td>0,522</td><td>17,7%</td></tr>
+        <tr class="ref"><td>Leiden ω = 0,01</td><td>0,099</td><td>0,473</td><td>0,443</td><td>0,518</td><td>12,3%</td></tr>
+        <tr><td>KMeans4, центры 2023</td><td>0,243</td><td>0,520</td><td>0,498</td><td>0,380</td><td>5,8%</td></tr>
+        <tr><td>KMeans4 заново</td><td>0,242</td><td>0,596</td><td>0,543</td><td>0,431</td><td>16,1%</td></tr>
+      </table>
+      <ul class="plain small spread" style="margin-top:22px;flex:1">
+        <li><span><b>Признаковый граф</b> построен из тех же признаков, что KMeans: там выигрывает KMeans. Это круговое сравнение.</span></li>
+        <li><span><b>На смешанном графе</b> учился Leiden, и там выигрывает Leiden. Это сравнение тоже круговое.</span></li>
+        <li><span><b>Некруговая проверка MQ_next:</b> у Leiden 93–94% от MQ следующего месяца, у фиксированных центров KMeans4 96%, у KMeans заново 91%. Группы не подогнаны под шум одного месяца, но базовая линия переносится не хуже. ARI между seed при ω = 0,01: <span class="num">0,86</span>, минимум <span class="num">0,61.</span></span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot"><span>Источник: <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/reports/temporal-quality/monthly_icvi.csv">github.com/Egor2809/sberindex-clustering/blob/main/reports/temporal-quality/monthly_icvi.csv</a></span><span>05</span></div>
+</section>
+
+<!-- 6 -->
+<section class="slide">
+  <div class="kicker">Статический каркас</div>
+  <h1>Правило с K ≥ 3 выбрало три группы; в 2024 году устойчиво разделение районов и городов</h1>
+  <div class="body" style="grid-template-columns: 1fr 1fr; gap: 72px; margin-top:44px">
+    <div style="display:flex;flex-direction:column">
+      <table class="tall">
+        <tr><th>Группа 2023</th><th>МО</th><th>Население</th><th>Зарплата</th><th>Продо&shy;вольствие</th><th>Обще&shy;пит</th></tr>
+        <tr><td>Районы и округа</td><td>1 391</td><td>17,9 тыс.</td><td>45,9 тыс.</td><td>48,1%</td><td>1,9%</td></tr>
+        <tr><td>Города и крупные районы</td><td>376</td><td>73,1 тыс.</td><td>63,4 тыс.</td><td>40,4%</td><td>4,7%</td></tr>
+        <tr><td>Москва и Петербург</td><td>249</td><td>77,7 тыс.</td><td>111,3 тыс.</td><td>33,2%</td><td>7,6%</td></tr>
+      </table>
+      <div class="cap">Медианы по МО. Население и зарплата 2023 года: Росстат, БД ПМО («Если быть точным», CC BY 4.0).</div>
+      <p class="small" style="margin-top:auto">Граф: 0,75 · профиль + 0,25 · совместное движение рядов. Сетка α × γ, 20 seed, итогом служит медоид. Правило выбора считает только 2023 год: устойчивость ≥ 0,8, группа ≥ 20, парето-фронт по SW и MQ на графе движения 2023 года, сумма рангов (30,75 против 30,25 у следующего варианта по усреднённым рангам summary.json). Ограничение K ≥ 3 задано в конфиге; ARI между seed в среднем 0,80, минимум 0,33. Первая версия правила считала индексы 2024 года.</p>
+    </div>
+    <div style="display:flex;flex-direction:column;justify-content:space-between">
+      <div class="stat" style="padding-top:0;border-top:0">
+        <div><span class="big">0,74</span><span class="vs">против</span><span class="big" style="color:var(--muted)">0,49</span></div>
+        <div class="lbl">ARI с тем же методом, заново запущенным на 2024 году; справа KMeans3</div>
+      </div>
+      <div class="stat">
+        <div><span class="big">0,259</span><span class="vs">против</span><span class="big" style="color:var(--muted)">0,240</span></div>
+        <div class="lbl">SW на профиле 2024 года, справа KMeans3; ось первого отбора</div>
+      </div>
+      <div class="stat">
+        <div><span class="big">0,258</span><span class="vs">против</span><span class="big" style="color:var(--muted)">0,223</span></div>
+        <div class="lbl">MQ на графе совместного движения 2024 года, тоже ось первого отбора</div>
+      </div>
+      <p class="small note">Хуже KMeans3: по CH (760 против 938) и MQ на дорожном графе (0,207 против 0,302). SW и MQ 2024 года входили в первую версию правила отбора.</p>
+    </div>
+  </div>
+  <div class="foot"><span>Источник: <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/reports/network-core">github.com/Egor2809/sberindex-clustering/blob/main/reports/network-core</a></span><span>06</span></div>
+</section>
+
+<!-- 7 -->
+<section class="slide">
+  <div class="kicker">Сравнение методов</div>
+  <h1>Каркас в основном повторяет иерархию поселений: его ценность в интерпретации, а не в индексах</h1>
+  <div class="body" style="grid-template-columns: 1fr; gap: 28px; margin-top:40px; align-content: space-between">
+    <div>
+      <table class="tall">
+        <tr><th>Разбиение 2023, оценка на 2024</th><th>K</th><th>SW ↑</th><th>CH ↑</th><th>S_Dbw ↓</th><th>AVI на C ↑</th><th>AVU на C ↓</th><th>MQ на C ↑</th><th>MQ на дорогах ↑</th><th>ARI с прогоном 2024 ↑</th></tr>
+        <tr class="ref"><td>Сетевая типология (P + C)</td><td>3</td><td>0,259</td><td>760</td><td>0,936</td><td>0,676</td><td>0,667</td><td>0,258</td><td>0,207</td><td>0,74</td></tr>
+        <tr><td>KMeans4 (базовая линия)</td><td>4</td><td>0,244</td><td>831</td><td>0,848</td><td>0,471</td><td>0,541</td><td>0,208</td><td>0,276</td><td>0,52</td></tr>
+        <tr><td>KMeans3</td><td>3</td><td>0,240</td><td>938</td><td>0,945</td><td>0,568</td><td>0,667</td><td>0,223</td><td>0,302</td><td>0,49</td></tr>
+        <tr><td>Спектральная на том же графе</td><td>3</td><td>0,255</td><td>736</td><td>1,069</td><td>0,652</td><td>0,667</td><td>0,235</td><td>0,184</td><td>0,65</td></tr>
+        <tr><td>Leiden, только профиль</td><td>4</td><td>0,160</td><td>705</td><td>0,832</td><td>0,515</td><td>0,569</td><td>0,217</td><td>0,304</td><td>0,37</td></tr>
+        <tr><td>Leiden, только движение рядов</td><td>4</td><td>0,053</td><td>325</td><td>1,306</td><td>0,638</td><td>0,532</td><td>0,237</td><td>0,209</td><td>0,24</td></tr>
+      </table>
+      <div class="cap">C обозначает граф совместного движения рядов 2024 года, он не построен из профиля. AVU при K = 3 тождественно равен 2/3, его сравниваю только при равном K. Все варианты сетки и индексы внутри и вне времени лежат в candidates.csv и summary.json.</div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:56px" class="small">
+      <div style="border-top:1px solid var(--line);padding-top:16px"><b>Спектральная</b> на том же графе почти так же хороша по индексам, но хуже повторяется в 2024 году (0,65).</div>
+      <div style="border-top:1px solid var(--line);padding-top:16px"><b>Один профильный слой</b> неустойчив по seed (ARI 0,57) и не проходит фильтр; один слой движения устойчив, но не повторяется в 2024 году.</div>
+      <div style="border-top:1px solid var(--line);padding-top:16px"><b>54 разбиения на общих осях:</b> на невиденных осях каркас не лучше KMeans3, на дорогах уступает справочнику типов МО (средний ранг 4,50 против 1,75 у KMeans3).</div>
+    </div>
+  </div>
+  <div class="foot"><span>Источник: <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/reports/method-comparison">github.com/Egor2809/sberindex-clustering/blob/main/reports/method-comparison</a></span><span>07</span></div>
+</section>
+
+<!-- 8 -->
+<section class="slide">
+  <div class="kicker">Выбор ω и числа групп</div>
+  <h1>Правило выбора ω подтверждает 0,01, но граница с 0,03 лежит в пределах шума</h1>
+  <div class="body" style="grid-template-columns: 1fr 1fr; gap: 72px; margin-top:36px">
+    <div>
+      <img class="fig" src="img/omega.png" alt="Компромисс выбора ω">
+      <table style="margin-top:10px" class="tight">
+        <tr><th>ω</th><th>0</th><th>0,01</th><th>0,03</th><th>0,06</th><th>0,1</th></tr>
+        <tr><td>Средняя MQ</td><td>0,476</td><td>0,474</td><td>0,466</td><td>0,462</td><td>0,451</td></tr>
+        <tr><td>Падение от ω = 0</td><td>0%</td><td>0,4%</td><td>2,2%</td><td>2,9%</td><td>5,3%</td></tr>
+        <tr><td>ARI соседних месяцев</td><td>0,674</td><td>0,740</td><td>0,832</td><td>0,904</td><td>0,964</td></tr>
+        <tr><td>Сменили группу за месяц</td><td>17,8%</td><td>12,6%</td><td>7,4%</td><td>3,9%</td><td>1,3%</td></tr>
+      </table>
+      <div class="cap">Средние по 24 месяцам и трём seed, MQ на признаковом графе месяца. На слайде 5 стоит 12,3%: там доля сменивших группу посчитана только для seed 1729.</div>
+    </div>
+    <div style="display:flex;flex-direction:column">
+      <p class="note small"><b>Правило ω:</b> наибольшее ω, при котором средняя MQ падает не больше чем на 2% от ω = 0. Выбрано ω = 0,01.</p>
+      <ul class="plain small spread" style="margin-top:28px;flex:1">
+        <li><span><b>Граница ω.</b> ω = 0,03 не проходит порог на 0,16 п. п. при разбросе MQ по seed около 1%. На смешанном графе падение при ω = 0,1 всего 1,8%, и то же правило выбрало бы 0,1.</span></li>
+        <li><span><b>Число групп во времени</b> задаёт модулярность при разрешении γ = 0,7: <span class="num">5–8</span> в месяц. Устойчивой считается группа, которая живёт не меньше 6 месяцев.</span></li>
+        <li><span><b>Годовой каркас:</b> правило с K ≥ 3 выбрало три группы, без ограничения выбирает две. Устойчивость 0,804 проходит порог 0,8 впритык, минимум ARI между seed 0,33.</span></li>
+        <li><span><b>KMeans4</b> формальное правило выбора K не подтверждает, поэтому в работе он служит только базовой линией.</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot"><span>Правила: <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/configs/temporal_quality.json">…/configs/temporal_quality.json</a>, <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/configs/network_core.json">…/configs/network_core.json</a>; кривая: <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/reports/temporal-quality/omega_tradeoff.csv">…/reports/temporal-quality/omega_tradeoff.csv</a></span><span>08</span></div>
+</section>
+
+<!-- 9 -->
+<section class="slide">
+  <div class="kicker">Интерпретация</div>
+  <h1>Без учёта региона группы объясняют зарплату и доступность рынков лучше KMeans4</h1>
+  <div class="body" style="grid-template-columns: 960px 1fr; gap: 64px; margin-top:36px">
+    <div>
+      <table class="tight">
+        <tr><th>Группа во времени</th><th>МО в мес.</th><th>Продукты</th><th>Маркет&shy;плейсы</th><th>Население</th><th>Зарплата, руб.</th></tr>
+        <tr><td><span class="sw" style="background:#3f9d6e"></span>Сбалансированные районы</td><td>792</td><td>46,6%</td><td>12,6%</td><td>19 641</td><td>49 745</td></tr>
+        <tr><td><span class="sw" style="background:#5b8fe6"></span>Продуктовые районы с маркетплейсами</td><td>548</td><td>46,2%</td><td>17,0%</td><td>18 346</td><td>44 624</td></tr>
+        <tr><td><span class="sw" style="background:#f06e3c"></span>Города и Москва</td><td>307</td><td>32,9%</td><td>12,4%</td><td>73 451</td><td>101 944</td></tr>
+        <tr><td><span class="sw" style="background:#e6d86a"></span>Продуктовые районы вне лета</td><td>351</td><td>46,4%</td><td>12,6%</td><td>17 957</td><td>52 131</td></tr>
+        <tr><td><span class="sw" style="background:#d9579a"></span>Восток и Север</td><td>141</td><td>44,5%</td><td>8,2%</td><td>21 100</td><td>81 839</td></tr>
+        <tr><td><span class="sw" style="background:#d9b8ff"></span>Ставрополье и Северный Кавказ</td><td>58</td><td>36,8%</td><td>17,8%</td><td>50 476</td><td>41 833</td></tr>
+        <tr><td><span class="sw" style="background:#73d3d8"></span>Малые районы Якутии</td><td>12</td><td>45,2%</td><td>5,3%</td><td>9 062</td><td>103 340</td></tr>
+      </table>
+      <img class="fig" src="img/deviations.png" alt="Отклонения групп от медианы страны" style="margin-top:14px">
+      <div class="cap">Точки: медианы по участникам групп, черты: медиана страны (доли: медианы годовых значений 2023 и 2024 годов; население и зарплата 2023 года: медианы по всем МО).</div>
+    </div>
+    <ul class="plain small">
+      <li><span><b>Правило Миркина:</b> города тратят в общепите на 117% больше средней, Север и Якутия покупают на маркетплейсах на 41% и 61% меньше, Ставрополье на 30% больше.</span></li>
+      <li><span><b>Внешние показатели, η²:</b> зарплата 0,58 против 0,46 у KMeans4 (регион 0,77), доступность рынков 0,60 против 0,41. Население KMeans4 объясняет лучше: 0,45 против 0,17.</span></li>
+      <li><span><b>Крайний Север:</b> все 72 МО семи северных регионов хотя бы раз попадают в «Восток и Север» или «Малые районы Якутии» и проводят там 48% месяцев. Признака «Север» в модели нет, но география есть в дорожном графе.</span></li>
+      <li><span><b>Сверх региона и населения</b> к зарплате добавляют: 3 группы 0,006 R², KMeans4 0,008, разница незначима.</span></li>
+      <li class="muted">Внешние данные в обучение не входят: Росстат и БД ПМО, сопоставление по ОКТМО (население есть у 2 011 МО, зарплата у всех).</li>
+    </ul>
+  </div>
+  <div class="foot"><span>Источники: <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/reports/temporal-groups/summary.json">…/reports/temporal-groups/summary.json</a>, <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/reports/temporal-groups/profiles.json">…/profiles.json</a>, <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/reports/external-municipal/municipal_indicators.csv">…/reports/external-municipal/municipal_indicators.csv</a>, <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/reports/contest-v3/descriptive.json">…/reports/contest-v3/descriptive.json</a></span><span>09</span></div>
+</section>
+
+<!-- 10 -->
+<section class="slide">
+  <div class="kicker">Ограничения</div>
+  <h1>Что не получилось и что результат не утверждает</h1>
+  <div class="body" style="grid-template-columns: 1fr 1fr; gap: 80px;">
+    <ul class="plain roomy" style="font-size:30px;line-height:1.42">
+      <li><span><b>Второй уровень не повторяется.</b> Подтипы внутри районов и городов по 2023 году находятся, но в 2024 году нет (ARI 0,13 и 0). Как ответ я их не использую.</span></li>
+      <li><span><b>Мало экономики сверх размера.</b> Сверх региона и населения группы добавляют к зарплате <span class="num">0,006–0,009</span> R². Отраслевую специализацию не различают.</span></li>
+      <li><span><b>Дрейф 2023 года у фиксированных центров</b> (сбалансированный тип 930 → 462 МО) вызван общим ростом маркетплейсов: 9,3% → 15,4% за год. Вычитание общего сдвига убирает 70% падения. Временной Leiden к общему тренду нечувствителен по построению.</span></li>
+    </ul>
+    <ul class="plain roomy" style="font-size:30px;line-height:1.42">
+      <li><span><b>Круговость.</b> Признаковый граф построен из тех же признаков, что SW и KMeans. Полностью внешние проверки дают только граф движения, дороги, следующий месяц и следующий год. На дорожном графе 2024 года сетевая типология хуже KMeans4 по MQ.</span></li>
+      <li><span><b>ω на границе шума,</b> на смешанном графе правило дало бы 0,1. Каркас проходит порог устойчивости впритык.</span></li>
+      <li><span>2024 год я видел при разработке, поэтому проверка вне времени разведочная, а не отложенный тест.</span></li>
+      <li><span>МО не взвешены по населению; категории не складываются в полный бюджет; зарплата учитывает только крупные и средние организации.</span></li>
+    </ul>
+  </div>
+  <div class="foot"><span>Подробно: <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/docs/REPORT_RU.md">github.com/Egor2809/sberindex-clustering/blob/main/docs/REPORT_RU.md</a>, раздел 9</span><span>10</span></div>
+</section>
+
+<!-- 11 -->
+<section class="slide">
+  <div class="kicker">Воспроизведение</div>
+  <h1>Одна команда, двенадцать шагов, результаты сверяются с опубликованными</h1>
+  <div class="body" style="grid-template-columns: 1fr 1fr; gap: 80px;">
+    <div>
+      <div class="formula" style="font-size:34px;padding:28px 0">bash scripts/reproduce.sh</div>
+      <table>
+        <tr><th>Шаг</th><th style="text-align:left">Сверка</th></tr>
+        <tr><td><span class="num">1–3.</span> Зависимости, архивы, панель и 24 графа</td><td style="font-family:var(--sans);text-align:left">SHA-256 архивов и панели</td></tr>
+                <tr><td>4. Тесты</td><td style="font-family:var(--sans);text-align:left">все проходят</td></tr>
+        <tr><td>5. KMeans4</td><td style="font-family:var(--sans);text-align:left">все 2 016 меток</td></tr>
+        <tr><td>6. Шесть правил рёбер</td><td style="font-family:var(--sans);text-align:left">допуск 1e-4</td></tr>
+        <tr><td>7. Группы временного Leiden</td><td style="font-family:var(--sans);text-align:left">по сохранённым меткам</td></tr>
+        <tr><td>8. Сетевая типология</td><td style="font-family:var(--sans);text-align:left">побайтово</td></tr>
+        <tr><td>9. Индексы по месяцам, выбор ω</td><td style="font-family:var(--sans);text-align:left">побайтово</td></tr>
+        <tr><td>10. Сравнение 54 разбиений</td><td style="font-family:var(--sans);text-align:left">побайтово</td></tr>
+        <tr><td>11. Атлас</td><td style="font-family:var(--sans);text-align:left">побайтово</td></tr>
+        <tr><td>12. Проверка ядра без обучения</td><td style="font-family:var(--sans);text-align:left">статус PASS</td></tr>
+      </table>
+    </div>
+    <div style="display:flex;flex-direction:column">
+      <p class="small">Python <span class="num">3.10–3.12,</span> фиксированные seed, хеши входов в provenance.json каждого отчёта. Временной Leiden скрипт не переобучает, а читает сохранённые метки; команда переобучения есть в <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/docs/REPRODUCE.md">REPRODUCE.md</a>, раздел 9.</p>
+      <ul class="plain small" style="margin-top:auto">
+        <li><span class="muted">Атлас:</span> <a href="https://egor2809.github.io/sberindex-clustering/">egor2809.github.io/sberindex-clustering</a></li>
+        <li><span class="muted">Репозиторий:</span> <a href="https://github.com/Egor2809/sberindex-clustering">github.com/Egor2809/sberindex-clustering</a></li>
+        <li><span class="muted">Отчёт и методика:</span> <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/docs/REPORT_RU.md">REPORT_RU.md</a>, <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/docs/METHODOLOGY_RU.md">METHODOLOGY_RU.md</a></li>
+        <li><span class="muted">Индексы:</span> <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/docs/METRICS.md">METRICS.md</a>, <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/reports/temporal-quality">temporal-quality</a>, <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/reports/network-core">network-core</a></li>
+        <li><span class="muted">Архив конфигов и скриптов прошлых этапов:</span> <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/archive">archive</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot"><span>Данные: СберИндекс, CC BY-SA 4.0; для карты Росстат и OpenStreetMap</span><span>11</span></div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,4140 @@
+{
+  "protocol_sha256": "cc2e747b0b85f0ead1864b4a8e6798642be969d60055c429fe0831bfedd0b128",
+  "status": "completed_exploratory_strict_region_inductive_fixed_architecture",
+  "cohorts": [
+    {
+      "outcome_year": 2023,
+      "training_outcome_year": 2023,
+      "n": 1797,
+      "regions": 72,
+      "prediction_inputs_year": 2023,
+      "fit_excludes_scored_region": true
+    },
+    {
+      "outcome_year": 2024,
+      "training_outcome_year": 2023,
+      "n": 1678,
+      "regions": 68,
+      "prediction_inputs_year": 2023,
+      "fit_excludes_scored_region": true
+    }
+  ],
+  "scores": [
+    {
+      "outcome_year": 2023,
+      "training_outcome_year": 2023,
+      "predictor": "linear_controls",
+      "n": 1797,
+      "regions": 72,
+      "municipality_rmse": 0.18461837004767473,
+      "municipality_mae": 0.13821063877036957,
+      "equal_region_mse": 0.035378539108098385,
+      "equal_region_centered_error_sample_variance": 0.024057967966109244,
+      "equal_region_mean_error": -0.0015803188880726604,
+      "regions_with_pairs": 71,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": -0.0020761551475744163,
+          "conditional_region_bootstrap_95": [
+            -0.0042255289127551094,
+            4.374980501209625e-05
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0008585254591223374,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0017517947929293564,
+            0.0002432957505877149
+          ],
+          "region_fraction_improved_mse": 0.375
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": -0.0015694632055461466,
+          "conditional_region_bootstrap_95": [
+            -0.0029892094790969115,
+            -8.662029051650798e-05
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0001361569365928666,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0010088640799251363,
+            0.0007582205364894737
+          ],
+          "region_fraction_improved_mse": 0.3611111111111111
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": -0.0017416528192539566,
+          "conditional_region_bootstrap_95": [
+            -0.003330236805290409,
+            -7.47734050201968e-05
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0002840782311951747,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0012633130713535854,
+            0.0006835056284221291
+          ],
+          "region_fraction_improved_mse": 0.4027777777777778
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.0025175534739558386,
+          "conditional_region_bootstrap_95": [
+            -0.002420037505933696,
+            0.010620340410545194
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0004258512221358216,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0006895878405598914,
+            0.0018272247270214434
+          ],
+          "region_fraction_improved_mse": 0.3472222222222222
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.0005742763632210302,
+          "conditional_region_bootstrap_95": [
+            -0.005252510015248615,
+            0.008728352236128101
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0006446307851075356,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0009200558844526288,
+            0.002495231652260427
+          ],
+          "region_fraction_improved_mse": 0.3888888888888889
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": 0.00037397413793505276,
+          "conditional_region_bootstrap_95": [
+            -0.0037904204921557563,
+            0.006582713522788727
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00029547094009343706,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0009996869393963282,
+            0.0017841848432919006
+          ],
+          "region_fraction_improved_mse": 0.3888888888888889
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": 2.0267534450274283e-05,
+          "conditional_region_bootstrap_95": [
+            -0.004312751724171842,
+            0.006463823564577969
+          ],
+          "equal_region_centered_error_variance_improvement": 3.5909692226798646e-05,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0011878086850431653,
+            0.0014854823864581276
+          ],
+          "region_fraction_improved_mse": 0.375
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": -0.0005038502755701718,
+          "conditional_region_bootstrap_95": [
+            -0.003820791374499727,
+            0.003035668024297909
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0005091973873069016,
+          "conditional_centered_region_bootstrap_95": [
+            -0.001602671721205203,
+            0.0024788127340763595
+          ],
+          "region_fraction_improved_mse": 0.4583333333333333
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.00407860806110103,
+          "conditional_region_bootstrap_95": [
+            -0.00850076221659636,
+            0.00012971545186355745
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00044293132775674544,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002884840187753148,
+            0.0020243188915366355
+          ],
+          "region_fraction_improved_mse": 0.375
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": -0.0013015925380841942,
+          "conditional_region_bootstrap_95": [
+            -0.005345123983728004,
+            0.0031848678398427844
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0009801636525353559,
+          "conditional_centered_region_bootstrap_95": [
+            -0.001464315182898591,
+            0.003382241512657436
+          ],
+          "region_fraction_improved_mse": 0.4166666666666667
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.002896938960770884,
+          "conditional_region_bootstrap_95": [
+            -0.00656641667548818,
+            0.0011728794260194926
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00040419071654049433,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0025644397213806405,
+            0.0015961199911140524
+          ],
+          "region_fraction_improved_mse": 0.4027777777777778
+        }
+      }
+    },
+    {
+      "outcome_year": 2023,
+      "training_outcome_year": 2023,
+      "predictor": "linear_continuous5",
+      "n": 1797,
+      "regions": 72,
+      "municipality_rmse": 0.17948656783590308,
+      "municipality_mae": 0.13414806588219458,
+      "equal_region_mse": 0.03330238396052397,
+      "equal_region_centered_error_sample_variance": 0.02319944250698691,
+      "equal_region_mean_error": -0.0019878157013550673,
+      "regions_with_pairs": 71,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.0020761551475744163,
+          "conditional_region_bootstrap_95": [
+            -4.3749805012096416e-05,
+            0.004225528912755109
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0008585254591223374,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00024329575058771495,
+            0.0017517947929293562
+          ],
+          "region_fraction_improved_mse": 0.625
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": 0.00050669194202827,
+          "conditional_region_bootstrap_95": [
+            -0.0012865020450894573,
+            0.002314663851230623
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0007223685225294708,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0004518929273668269,
+            0.0017583719521738904
+          ],
+          "region_fraction_improved_mse": 0.5972222222222222
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": 0.00033450232832046015,
+          "conditional_region_bootstrap_95": [
+            -0.0017198095489715942,
+            0.0023433132031933563
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0005744472279271627,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0006129394391073728,
+            0.0016686271174150506
+          ],
+          "region_fraction_improved_mse": 0.6111111111111112
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.004593708621530256,
+          "conditional_region_bootstrap_95": [
+            -0.0006937483043787935,
+            0.012865999395829011
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0012843766812581589,
+          "conditional_centered_region_bootstrap_95": [
+            0.00010266400600655751,
+            0.0025493669287030966
+          ],
+          "region_fraction_improved_mse": 0.6111111111111112
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.0026504315107954467,
+          "conditional_region_bootstrap_95": [
+            -0.002640762501718353,
+            0.010453394192196415
+          ],
+          "equal_region_centered_error_variance_improvement": 0.001503156244229873,
+          "conditional_centered_region_bootstrap_95": [
+            0.00021018559317919415,
+            0.0027866010525766675
+          ],
+          "region_fraction_improved_mse": 0.5138888888888888
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": 0.002450129285509469,
+          "conditional_region_bootstrap_95": [
+            -0.0017814493699230447,
+            0.008846923766807058
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0011539963992157746,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0001299997950944529,
+            0.0025637728983395904
+          ],
+          "region_fraction_improved_mse": 0.5555555555555556
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": 0.002096422682024691,
+          "conditional_region_bootstrap_95": [
+            -0.0025262956892087643,
+            0.00869671419889624
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0008944351513491361,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00030709484514271053,
+            0.002197645238502608
+          ],
+          "region_fraction_improved_mse": 0.5416666666666666
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": 0.001572304872004245,
+          "conditional_region_bootstrap_95": [
+            -0.0017431933137603162,
+            0.005205002079581994
+          ],
+          "equal_region_centered_error_variance_improvement": 0.001367722846429239,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0008841105575445827,
+            0.003610395659147376
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.0020024529135266133,
+          "conditional_region_bootstrap_95": [
+            -0.006298546247421551,
+            0.0018806022873082812
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00041559413136559216,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0019743893916978447,
+            0.002725186289994684
+          ],
+          "region_fraction_improved_mse": 0.4722222222222222
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": 0.000774562609490223,
+          "conditional_region_bootstrap_95": [
+            -0.0033056930977307408,
+            0.005006585612941917
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0018386891116576934,
+          "conditional_centered_region_bootstrap_95": [
+            -0.000687982294781876,
+            0.004323553090075868
+          ],
+          "region_fraction_improved_mse": 0.4861111111111111
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.0008207838131964673,
+          "conditional_region_bootstrap_95": [
+            -0.004773249328661917,
+            0.0030593515647370606
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00045433474258184294,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0017787019583498872,
+            0.0025784779992078974
+          ],
+          "region_fraction_improved_mse": 0.4583333333333333
+        }
+      }
+    },
+    {
+      "outcome_year": 2023,
+      "training_outcome_year": 2023,
+      "predictor": "linear_kmeans4",
+      "n": 1797,
+      "regions": 72,
+      "municipality_rmse": 0.1801959914679703,
+      "municipality_mae": 0.1342865281789074,
+      "equal_region_mse": 0.03380907590255224,
+      "equal_region_centered_error_sample_variance": 0.023921811029516377,
+      "equal_region_mean_error": -0.002577691268116423,
+      "regions_with_pairs": 71,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.0015694632055461466,
+          "conditional_region_bootstrap_95": [
+            8.662029051650745e-05,
+            0.0029892094790969115
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0001361569365928666,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0007582205364894739,
+            0.0010088640799251363
+          ],
+          "region_fraction_improved_mse": 0.6388888888888888
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": -0.00050669194202827,
+          "conditional_region_bootstrap_95": [
+            -0.0023146638512306235,
+            0.0012865020450894573
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0007223685225294708,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0017583719521738908,
+            0.00045189292736682625
+          ],
+          "region_fraction_improved_mse": 0.4027777777777778
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": -0.00017218961370780994,
+          "conditional_region_bootstrap_95": [
+            -0.0006959735320628348,
+            0.00029527732310971936
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0001479212946023082,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0006967666501982026,
+            0.0003125858046237517
+          ],
+          "region_fraction_improved_mse": 0.4861111111111111
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.004087016679501986,
+          "conditional_region_bootstrap_95": [
+            -0.0008834136005849145,
+            0.01198535590597893
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0005620081587286882,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0006402328869517973,
+            0.0019403803180159098
+          ],
+          "region_fraction_improved_mse": 0.3888888888888889
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.0021437395687671766,
+          "conditional_region_bootstrap_95": [
+            -0.0033765187334479315,
+            0.009823542443506545
+          ],
+          "equal_region_centered_error_variance_improvement": 0.000780787721700402,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0009611527819222937,
+            0.0025779889925966614
+          ],
+          "region_fraction_improved_mse": 0.4583333333333333
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": 0.0019434373434811995,
+          "conditional_region_bootstrap_95": [
+            -0.0016771804748661966,
+            0.007660777701237809
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0004316278766863037,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0005638290921994898,
+            0.0016399112296069337
+          ],
+          "region_fraction_improved_mse": 0.375
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": 0.001589730739996421,
+          "conditional_region_bootstrap_95": [
+            -0.002156663392190605,
+            0.007587807246768958
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00017206662881966522,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0007963496498573296,
+            0.0013682770172226326
+          ],
+          "region_fraction_improved_mse": 0.375
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": 0.0010656129299759748,
+          "conditional_region_bootstrap_95": [
+            -0.0018784800264350133,
+            0.0042841857972872365
+          ],
+          "equal_region_centered_error_variance_improvement": 0.000645354323899768,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0015161182031476824,
+            0.0027661241472137495
+          ],
+          "region_fraction_improved_mse": 0.4305555555555556
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.0025091448555548835,
+          "conditional_region_bootstrap_95": [
+            -0.006638302287162004,
+            0.0013789434330653708
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00030677439116387874,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002976320361129096,
+            0.002341059567404023
+          ],
+          "region_fraction_improved_mse": 0.4722222222222222
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": 0.0002678706674619529,
+          "conditional_region_bootstrap_95": [
+            -0.0032811424795887723,
+            0.004025866640268702
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0011163205891282228,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0012868337490440163,
+            0.0035475354245848275
+          ],
+          "region_fraction_improved_mse": 0.4166666666666667
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.0013274757552247372,
+          "conditional_region_bootstrap_95": [
+            -0.004355962677658288,
+            0.0019706815711352807
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0002680337799476278,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0024081811321808497,
+            0.0018865607321712163
+          ],
+          "region_fraction_improved_mse": 0.375
+        }
+      }
+    },
+    {
+      "outcome_year": 2023,
+      "training_outcome_year": 2023,
+      "predictor": "linear_huber75",
+      "n": 1797,
+      "regions": 72,
+      "municipality_rmse": 0.18013191961098032,
+      "municipality_mae": 0.13446593866365966,
+      "equal_region_mse": 0.03363688628884443,
+      "equal_region_centered_error_sample_variance": 0.02377388973491407,
+      "equal_region_mean_error": -0.003534972688956753,
+      "regions_with_pairs": 71,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.0017416528192539566,
+          "conditional_region_bootstrap_95": [
+            7.477340502019563e-05,
+            0.0033302368052904084
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0002840782311951747,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0006835056284221294,
+            0.0012633130713535852
+          ],
+          "region_fraction_improved_mse": 0.5972222222222222
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": -0.00033450232832046015,
+          "conditional_region_bootstrap_95": [
+            -0.0023433132031933563,
+            0.0017198095489715942
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0005744472279271627,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0016686271174150506,
+            0.0006129394391073725
+          ],
+          "region_fraction_improved_mse": 0.3888888888888889
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": 0.00017218961370780994,
+          "conditional_region_bootstrap_95": [
+            -0.00029527732310971936,
+            0.0006959735320628346
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0001479212946023082,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00031258580462375173,
+            0.0006967666501982025
+          ],
+          "region_fraction_improved_mse": 0.5138888888888888
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.004259206293209796,
+          "conditional_region_bootstrap_95": [
+            -0.000847339940549822,
+            0.012159022419379795
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0007099294533309963,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0006574827028234551,
+            0.002335248102738362
+          ],
+          "region_fraction_improved_mse": 0.4166666666666667
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.002315929182474987,
+          "conditional_region_bootstrap_95": [
+            -0.0032413281730726043,
+            0.009932226787670652
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0009287090163027104,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0007525156472387477,
+            0.002816992625261969
+          ],
+          "region_fraction_improved_mse": 0.4583333333333333
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": 0.0021156269571890093,
+          "conditional_region_bootstrap_95": [
+            -0.0016606859261841555,
+            0.007839951059085373
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0005795491712886118,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0006343699323653924,
+            0.0020679849410417616
+          ],
+          "region_fraction_improved_mse": 0.375
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": 0.0017619203537042308,
+          "conditional_region_bootstrap_95": [
+            -0.0019687825041475233,
+            0.007685541117666276
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00031998792342197337,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0006073859909500851,
+            0.0014301601043352362
+          ],
+          "region_fraction_improved_mse": 0.3888888888888889
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": 0.0012378025436837847,
+          "conditional_region_bootstrap_95": [
+            -0.001806856429081524,
+            0.0045582856690631396
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0007932756185020762,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0015082266356129994,
+            0.003166394800780173
+          ],
+          "region_fraction_improved_mse": 0.4166666666666667
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.0023369552418470736,
+          "conditional_region_bootstrap_95": [
+            -0.006614857989527315,
+            0.0016762636681981148
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0001588530965615706,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0026763081028420505,
+            0.002377597675104924
+          ],
+          "region_fraction_improved_mse": 0.4722222222222222
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": 0.00044006028116976264,
+          "conditional_region_bootstrap_95": [
+            -0.003219984850597864,
+            0.004287515711387631
+          ],
+          "equal_region_centered_error_variance_improvement": 0.001264241883730531,
+          "conditional_centered_region_bootstrap_95": [
+            -0.001261286074100659,
+            0.0038237111718270106
+          ],
+          "region_fraction_improved_mse": 0.4583333333333333
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.0011552861415169275,
+          "conditional_region_bootstrap_95": [
+            -0.0042148525142572685,
+            0.0020187458733374013
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00012011248534531966,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002263611089216029,
+            0.0020218876574844753
+          ],
+          "region_fraction_improved_mse": 0.3888888888888889
+        }
+      }
+    },
+    {
+      "outcome_year": 2023,
+      "training_outcome_year": 2023,
+      "predictor": "quadratic_controls",
+      "n": 1797,
+      "regions": 72,
+      "municipality_rmse": 0.18171275601414694,
+      "municipality_mae": 0.13463730617022004,
+      "equal_region_mse": 0.037896092582054224,
+      "equal_region_centered_error_sample_variance": 0.024483819188245066,
+      "equal_region_mean_error": -0.013024559311064351,
+      "regions_with_pairs": 71,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": -0.0025175534739558386,
+          "conditional_region_bootstrap_95": [
+            -0.010620340410545194,
+            0.002420037505933696
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0004258512221358216,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0018272247270214436,
+            0.0006895878405598912
+          ],
+          "region_fraction_improved_mse": 0.6527777777777778
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": -0.004593708621530256,
+          "conditional_region_bootstrap_95": [
+            -0.012865999395829011,
+            0.0006937483043787926
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0012843766812581589,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002549366928703097,
+            -0.0001026640060065576
+          ],
+          "region_fraction_improved_mse": 0.3888888888888889
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": -0.004087016679501986,
+          "conditional_region_bootstrap_95": [
+            -0.01198535590597893,
+            0.0008834136005849137
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0005620081587286882,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00194038031801591,
+            0.0006402328869517972
+          ],
+          "region_fraction_improved_mse": 0.6111111111111112
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": -0.004259206293209796,
+          "conditional_region_bootstrap_95": [
+            -0.012159022419379798,
+            0.0008473399405498214
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0007099294533309963,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002335248102738362,
+            0.0006574827028234551
+          ],
+          "region_fraction_improved_mse": 0.5833333333333334
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": -0.0019432771107348089,
+          "conditional_region_bootstrap_95": [
+            -0.004713118586093323,
+            0.0006833272418755724
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00021877956297171403,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0010254759226136368,
+            0.0013122138235664466
+          ],
+          "region_fraction_improved_mse": 0.375
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": -0.0021435793360207863,
+          "conditional_region_bootstrap_95": [
+            -0.0044456313935134295,
+            -0.0003905575768062926
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00013038028204238444,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0007608685844211979,
+            0.00043656889516913307
+          ],
+          "region_fraction_improved_mse": 0.4583333333333333
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": -0.0024972859395055646,
+          "conditional_region_bootstrap_95": [
+            -0.004779498612655165,
+            -0.0006715974687441508
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00038994152990902295,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0013345254800268054,
+            0.00038574286626093495
+          ],
+          "region_fraction_improved_mse": 0.4583333333333333
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": -0.0030214037495260113,
+          "conditional_region_bootstrap_95": [
+            -0.010343045178911275,
+            0.002269896085259668
+          ],
+          "equal_region_centered_error_variance_improvement": 8.334616517107976e-05,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002528327654448528,
+            0.0021899336261566992
+          ],
+          "region_fraction_improved_mse": 0.4583333333333333
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.006596161535056869,
+          "conditional_region_bootstrap_95": [
+            -0.015118726072925104,
+            -0.0003674669643738092
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0008687825498925669,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003646351863157304,
+            0.0017265192138803112
+          ],
+          "region_fraction_improved_mse": 0.4027777777777778
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": -0.003819146012040033,
+          "conditional_region_bootstrap_95": [
+            -0.011350888681579083,
+            0.002278627712108418
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0005543124303995342,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0021792217523380077,
+            0.0030462021593269353
+          ],
+          "region_fraction_improved_mse": 0.4444444444444444
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.005414492434726722,
+          "conditional_region_bootstrap_95": [
+            -0.012885326028402047,
+            0.00015733419098943468
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0008300419386763158,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003553226405934664,
+            0.0014655926450196258
+          ],
+          "region_fraction_improved_mse": 0.3611111111111111
+        }
+      }
+    },
+    {
+      "outcome_year": 2023,
+      "training_outcome_year": 2023,
+      "predictor": "quadratic_continuous5",
+      "n": 1797,
+      "regions": 72,
+      "municipality_rmse": 0.18025706354003093,
+      "municipality_mae": 0.13469699098096274,
+      "equal_region_mse": 0.03595281547131942,
+      "equal_region_centered_error_sample_variance": 0.02470259875121678,
+      "equal_region_mean_error": -0.009291592140771786,
+      "regions_with_pairs": 71,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": -0.0005742763632210302,
+          "conditional_region_bootstrap_95": [
+            -0.008728352236128108,
+            0.005252510015248614
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0006446307851075356,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002495231652260427,
+            0.0009200558844526286
+          ],
+          "region_fraction_improved_mse": 0.6111111111111112
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": -0.0026504315107954467,
+          "conditional_region_bootstrap_95": [
+            -0.010453394192196416,
+            0.002640762501718353
+          ],
+          "equal_region_centered_error_variance_improvement": -0.001503156244229873,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0027866010525766675,
+            -0.00021018559317919478
+          ],
+          "region_fraction_improved_mse": 0.4861111111111111
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": -0.0021437395687671766,
+          "conditional_region_bootstrap_95": [
+            -0.00982354244350655,
+            0.0033765187334479302
+          ],
+          "equal_region_centered_error_variance_improvement": -0.000780787721700402,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002577988992596662,
+            0.0009611527819222931
+          ],
+          "region_fraction_improved_mse": 0.5416666666666666
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": -0.002315929182474987,
+          "conditional_region_bootstrap_95": [
+            -0.009932226787670653,
+            0.003241328173072604
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0009287090163027104,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002816992625261969,
+            0.0007525156472387476
+          ],
+          "region_fraction_improved_mse": 0.5416666666666666
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.0019432771107348089,
+          "conditional_region_bootstrap_95": [
+            -0.0006833272418755733,
+            0.004713118586093323
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00021877956297171403,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0013122138235664466,
+            0.0010254759226136368
+          ],
+          "region_fraction_improved_mse": 0.625
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": -0.00020030222528597748,
+          "conditional_region_bootstrap_95": [
+            -0.002981871886487636,
+            0.002549768619619954
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00034915984501409844,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0016349172468928125,
+            0.0010904826310213572
+          ],
+          "region_fraction_improved_mse": 0.5416666666666666
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": -0.0005540088287707556,
+          "conditional_region_bootstrap_95": [
+            -0.0033475986325930333,
+            0.0021943958988965427
+          ],
+          "equal_region_centered_error_variance_improvement": -0.000608721092880737,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0019100816946462065,
+            0.0007975582749480881
+          ],
+          "region_fraction_improved_mse": 0.5277777777777778
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": -0.0010781266387912022,
+          "conditional_region_bootstrap_95": [
+            -0.00823733698587614,
+            0.00422432402877089
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00013543339780063422,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002814535284330364,
+            0.002354561109664057
+          ],
+          "region_fraction_improved_mse": 0.5277777777777778
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.0046528844243220605,
+          "conditional_region_bootstrap_95": [
+            -0.012633695171764561,
+            0.0004815935699227398
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0010875621128642809,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003667028991802002,
+            0.0013794621191676151
+          ],
+          "region_fraction_improved_mse": 0.4444444444444444
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": -0.0018758689013052238,
+          "conditional_region_bootstrap_95": [
+            -0.009218776581530143,
+            0.003515927273848312
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0003355328674278202,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0024789162126494283,
+            0.003009880963386718
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.003471215323991914,
+          "conditional_region_bootstrap_95": [
+            -0.010562572662552358,
+            0.0016003233218582016
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00104882150164803,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003639746851376199,
+            0.001356719323072504
+          ],
+          "region_fraction_improved_mse": 0.4861111111111111
+        }
+      }
+    },
+    {
+      "outcome_year": 2023,
+      "training_outcome_year": 2023,
+      "predictor": "quadratic_kmeans4",
+      "n": 1797,
+      "regions": 72,
+      "municipality_rmse": 0.1784462935003539,
+      "municipality_mae": 0.13144041608247603,
+      "equal_region_mse": 0.035752513246033436,
+      "equal_region_centered_error_sample_variance": 0.02435343890620268,
+      "equal_region_mean_error": -0.011991687882552969,
+      "regions_with_pairs": 71,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": -0.00037397413793505276,
+          "conditional_region_bootstrap_95": [
+            -0.006582713522788732,
+            0.003790420492155754
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00029547094009343706,
+          "conditional_centered_region_bootstrap_95": [
+            -0.001784184843291901,
+            0.000999686939396328
+          ],
+          "region_fraction_improved_mse": 0.6111111111111112
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": -0.002450129285509469,
+          "conditional_region_bootstrap_95": [
+            -0.008846923766807058,
+            0.0017814493699230445
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0011539963992157746,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0025637728983395904,
+            0.00012999979509445287
+          ],
+          "region_fraction_improved_mse": 0.4444444444444444
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": -0.0019434373434811995,
+          "conditional_region_bootstrap_95": [
+            -0.00766077770123781,
+            0.0016771804748661964
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0004316278766863037,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0016399112296069337,
+            0.0005638290921994895
+          ],
+          "region_fraction_improved_mse": 0.625
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": -0.0021156269571890093,
+          "conditional_region_bootstrap_95": [
+            -0.007839951059085373,
+            0.001660685926184155
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0005795491712886118,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0020679849410417625,
+            0.0006343699323653924
+          ],
+          "region_fraction_improved_mse": 0.625
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.0021435793360207863,
+          "conditional_region_bootstrap_95": [
+            0.00039055757680629184,
+            0.0044456313935134295
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00013038028204238444,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00043656889516913323,
+            0.0007608685844211979
+          ],
+          "region_fraction_improved_mse": 0.5416666666666666
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.00020030222528597748,
+          "conditional_region_bootstrap_95": [
+            -0.0025497686196199556,
+            0.0029818718864876356
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00034915984501409844,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0010904826310213576,
+            0.0016349172468928122
+          ],
+          "region_fraction_improved_mse": 0.4583333333333333
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": -0.0003537066034847781,
+          "conditional_region_bootstrap_95": [
+            -0.0009983518529701977,
+            0.00017809856368512575
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0002595612478666385,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0010000860571621718,
+            0.00027709987929861623
+          ],
+          "region_fraction_improved_mse": 0.4722222222222222
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": -0.0008778244135052246,
+          "conditional_region_bootstrap_95": [
+            -0.006252697661792691,
+            0.00354296858706049
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00021372644721346458,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0024003652301383405,
+            0.002445151753976387
+          ],
+          "region_fraction_improved_mse": 0.5833333333333334
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.004452582199036083,
+          "conditional_region_bootstrap_95": [
+            -0.01086476884397292,
+            0.0007641190793156246
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0007384022678501824,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003696124786490624,
+            0.0019786567971244924
+          ],
+          "region_fraction_improved_mse": 0.4861111111111111
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": -0.0016755666760192465,
+          "conditional_region_bootstrap_95": [
+            -0.0073672061149869525,
+            0.0031613194506625677
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0006846927124419187,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0019771581109343872,
+            0.003235765388825913
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.0032709130987059365,
+          "conditional_region_bootstrap_95": [
+            -0.008681705656639123,
+            0.0012568182762265924
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0006996616566339314,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003412533932747235,
+            0.0015957418117859697
+          ],
+          "region_fraction_improved_mse": 0.4305555555555556
+        }
+      }
+    },
+    {
+      "outcome_year": 2023,
+      "training_outcome_year": 2023,
+      "predictor": "quadratic_huber75",
+      "n": 1797,
+      "regions": 72,
+      "municipality_rmse": 0.17797753656344648,
+      "municipality_mae": 0.13148740646650559,
+      "equal_region_mse": 0.03539880664254866,
+      "equal_region_centered_error_sample_variance": 0.02409387765833604,
+      "equal_region_mean_error": -0.0129503420182128,
+      "regions_with_pairs": 71,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": -2.0267534450274283e-05,
+          "conditional_region_bootstrap_95": [
+            -0.00646382356457797,
+            0.004312751724171841
+          ],
+          "equal_region_centered_error_variance_improvement": -3.5909692226798646e-05,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0014854823864581279,
+            0.001187808685043165
+          ],
+          "region_fraction_improved_mse": 0.625
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": -0.002096422682024691,
+          "conditional_region_bootstrap_95": [
+            -0.008696714198896241,
+            0.002526295689208764
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0008944351513491361,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002197645238502608,
+            0.0003070948451427104
+          ],
+          "region_fraction_improved_mse": 0.4583333333333333
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": -0.001589730739996421,
+          "conditional_region_bootstrap_95": [
+            -0.007587807246768962,
+            0.002156663392190604
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00017206662881966522,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0013682770172226333,
+            0.0007963496498573293
+          ],
+          "region_fraction_improved_mse": 0.625
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": -0.0017619203537042308,
+          "conditional_region_bootstrap_95": [
+            -0.007685541117666277,
+            0.0019687825041475224
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00031998792342197337,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0014301601043352362,
+            0.0006073859909500849
+          ],
+          "region_fraction_improved_mse": 0.6111111111111112
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.0024972859395055646,
+          "conditional_region_bootstrap_95": [
+            0.0006715974687441508,
+            0.0047794986126551645
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00038994152990902295,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00038574286626093506,
+            0.0013345254800268052
+          ],
+          "region_fraction_improved_mse": 0.5416666666666666
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.0005540088287707556,
+          "conditional_region_bootstrap_95": [
+            -0.002194395898896543,
+            0.003347598632593033
+          ],
+          "equal_region_centered_error_variance_improvement": 0.000608721092880737,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0007975582749480885,
+            0.001910081694646206
+          ],
+          "region_fraction_improved_mse": 0.4722222222222222
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": 0.0003537066034847781,
+          "conditional_region_bootstrap_95": [
+            -0.00017809856368512577,
+            0.0009983518529701977
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0002595612478666385,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00027709987929861645,
+            0.0010000860571621716
+          ],
+          "region_fraction_improved_mse": 0.5277777777777778
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": -0.0005241178100204463,
+          "conditional_region_bootstrap_95": [
+            -0.006104774038198406,
+            0.004014988292198421
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0004732876950801029,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00226983530969162,
+            0.002912781242008446
+          ],
+          "region_fraction_improved_mse": 0.5555555555555556
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.0040988755955513045,
+          "conditional_region_bootstrap_95": [
+            -0.010716271283549345,
+            0.0013472797458024177
+          ],
+          "equal_region_centered_error_variance_improvement": -0.000478841019983544,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00319481737898003,
+            0.0020809368331460277
+          ],
+          "region_fraction_improved_mse": 0.4722222222222222
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": -0.0013218600725344685,
+          "conditional_region_bootstrap_95": [
+            -0.007011036385602024,
+            0.003667530161309001
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0009442539603085574,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0019292429924895455,
+            0.0035159637924778823
+          ],
+          "region_fraction_improved_mse": 0.4583333333333333
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.0029172064952211582,
+          "conditional_region_bootstrap_95": [
+            -0.00842602271201166,
+            0.001658094870873606
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0004401004087672932,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0030990153531883515,
+            0.0017951280851805232
+          ],
+          "region_fraction_improved_mse": 0.4305555555555556
+        }
+      }
+    },
+    {
+      "outcome_year": 2023,
+      "training_outcome_year": 2023,
+      "predictor": "histogram_controls",
+      "n": 1797,
+      "regions": 72,
+      "municipality_rmse": 0.17914463971040318,
+      "municipality_mae": 0.13261610503165003,
+      "equal_region_mse": 0.03487468883252822,
+      "equal_region_centered_error_sample_variance": 0.024567165353416145,
+      "equal_region_mean_error": -0.0039651159905499216,
+      "regions_with_pairs": 71,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.0005038502755701718,
+          "conditional_region_bootstrap_95": [
+            -0.0030356680242979092,
+            0.0038207913744997264
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0005091973873069016,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00247881273407636,
+            0.001602671721205203
+          ],
+          "region_fraction_improved_mse": 0.5416666666666666
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": -0.001572304872004245,
+          "conditional_region_bootstrap_95": [
+            -0.005205002079581994,
+            0.0017431933137603138
+          ],
+          "equal_region_centered_error_variance_improvement": -0.001367722846429239,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003610395659147376,
+            0.0008841105575445824
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": -0.0010656129299759748,
+          "conditional_region_bootstrap_95": [
+            -0.0042841857972872365,
+            0.001878480026435013
+          ],
+          "equal_region_centered_error_variance_improvement": -0.000645354323899768,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00276612414721375,
+            0.0015161182031476822
+          ],
+          "region_fraction_improved_mse": 0.5694444444444444
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": -0.0012378025436837847,
+          "conditional_region_bootstrap_95": [
+            -0.00455828566906314,
+            0.001806856429081524
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0007932756185020762,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003166394800780173,
+            0.0015082266356129985
+          ],
+          "region_fraction_improved_mse": 0.5833333333333334
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.0030214037495260113,
+          "conditional_region_bootstrap_95": [
+            -0.002269896085259668,
+            0.010343045178911275
+          ],
+          "equal_region_centered_error_variance_improvement": -8.334616517107976e-05,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0021899336261566992,
+            0.002528327654448527
+          ],
+          "region_fraction_improved_mse": 0.5416666666666666
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.0010781266387912022,
+          "conditional_region_bootstrap_95": [
+            -0.00422432402877089,
+            0.00823733698587614
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00013543339780063422,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002354561109664057,
+            0.0028145352843303635
+          ],
+          "region_fraction_improved_mse": 0.4722222222222222
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": 0.0008778244135052246,
+          "conditional_region_bootstrap_95": [
+            -0.00354296858706049,
+            0.00625269766179269
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00021372644721346458,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002445151753976387,
+            0.0024003652301383387
+          ],
+          "region_fraction_improved_mse": 0.4166666666666667
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": 0.0005241178100204463,
+          "conditional_region_bootstrap_95": [
+            -0.004014988292198421,
+            0.006104774038198406
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0004732876950801029,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002912781242008446,
+            0.0022698353096916196
+          ],
+          "region_fraction_improved_mse": 0.4444444444444444
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.0035747577855308583,
+          "conditional_region_bootstrap_95": [
+            -0.006933142927864191,
+            -0.0008093395389151928
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0009521287150636469,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003522274555312506,
+            0.0012011963011787517
+          ],
+          "region_fraction_improved_mse": 0.4583333333333333
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": -0.000797742262514022,
+          "conditional_region_bootstrap_95": [
+            -0.002743373294701532,
+            0.0012075484789699311
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0004709662652284544,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0006429879703946074,
+            0.0016197480918321173
+          ],
+          "region_fraction_improved_mse": 0.4444444444444444
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.002393088685200712,
+          "conditional_region_bootstrap_95": [
+            -0.004435742768745364,
+            -0.0004981772004409946
+          ],
+          "equal_region_centered_error_variance_improvement": -0.000913388103847396,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002371615321890452,
+            0.00024920626789485026
+          ],
+          "region_fraction_improved_mse": 0.375
+        }
+      }
+    },
+    {
+      "outcome_year": 2023,
+      "training_outcome_year": 2023,
+      "predictor": "histogram_continuous5",
+      "n": 1797,
+      "regions": 72,
+      "municipality_rmse": 0.17092470002869595,
+      "municipality_mae": 0.1268361801080806,
+      "equal_region_mse": 0.031299931046997354,
+      "equal_region_centered_error_sample_variance": 0.0236150366383525,
+      "equal_region_mean_error": -0.0017379191360160748,
+      "regions_with_pairs": 71,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.00407860806110103,
+          "conditional_region_bootstrap_95": [
+            -0.00012971545186355748,
+            0.00850076221659636
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00044293132775674544,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002024318891536636,
+            0.0028848401877531464
+          ],
+          "region_fraction_improved_mse": 0.625
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": 0.0020024529135266133,
+          "conditional_region_bootstrap_95": [
+            -0.0018806022873082825,
+            0.006298546247421551
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00041559413136559216,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002725186289994686,
+            0.0019743893916978447
+          ],
+          "region_fraction_improved_mse": 0.5277777777777778
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": 0.0025091448555548835,
+          "conditional_region_bootstrap_95": [
+            -0.0013789434330653708,
+            0.006638302287162003
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00030677439116387874,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002341059567404023,
+            0.0029763203611290956
+          ],
+          "region_fraction_improved_mse": 0.5277777777777778
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": 0.0023369552418470736,
+          "conditional_region_bootstrap_95": [
+            -0.0016762636681981154,
+            0.006614857989527315
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0001588530965615706,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0023775976751049255,
+            0.002676308102842049
+          ],
+          "region_fraction_improved_mse": 0.5277777777777778
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.006596161535056869,
+          "conditional_region_bootstrap_95": [
+            0.0003674669643738091,
+            0.015118726072925102
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0008687825498925669,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0017265192138803118,
+            0.0036463518631573034
+          ],
+          "region_fraction_improved_mse": 0.5972222222222222
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.0046528844243220605,
+          "conditional_region_bootstrap_95": [
+            -0.0004815935699227403,
+            0.012633695171764561
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0010875621128642809,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0013794621191676154,
+            0.0036670289918020018
+          ],
+          "region_fraction_improved_mse": 0.5555555555555556
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": 0.004452582199036083,
+          "conditional_region_bootstrap_95": [
+            -0.0007641190793156266,
+            0.01086476884397292
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0007384022678501824,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0019786567971244932,
+            0.0036961247864906225
+          ],
+          "region_fraction_improved_mse": 0.5138888888888888
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": 0.0040988755955513045,
+          "conditional_region_bootstrap_95": [
+            -0.0013472797458024181,
+            0.010716271283549345
+          ],
+          "equal_region_centered_error_variance_improvement": 0.000478841019983544,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0020809368331460285,
+            0.0031948173789800296
+          ],
+          "region_fraction_improved_mse": 0.5277777777777778
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": 0.0035747577855308583,
+          "conditional_region_bootstrap_95": [
+            0.0008093395389151926,
+            0.006933142927864191
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0009521287150636469,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0012011963011787522,
+            0.003522274555312506
+          ],
+          "region_fraction_improved_mse": 0.5416666666666666
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": 0.0027770155230168363,
+          "conditional_region_bootstrap_95": [
+            0.00033715934947323856,
+            0.005705162192644355
+          ],
+          "equal_region_centered_error_variance_improvement": 0.001423094980292101,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0006752134793487291,
+            0.0039001371359924757
+          ],
+          "region_fraction_improved_mse": 0.5694444444444444
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": 0.0011816691003301459,
+          "conditional_region_bootstrap_95": [
+            -0.0013930829405936827,
+            0.003815045315474606
+          ],
+          "equal_region_centered_error_variance_improvement": 3.8740611216250896e-05,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00156701817572768,
+            0.0017198227731795761
+          ],
+          "region_fraction_improved_mse": 0.5694444444444444
+        }
+      }
+    },
+    {
+      "outcome_year": 2023,
+      "training_outcome_year": 2023,
+      "predictor": "histogram_kmeans4",
+      "n": 1797,
+      "regions": 72,
+      "municipality_rmse": 0.1760532248199776,
+      "municipality_mae": 0.130714532462666,
+      "equal_region_mse": 0.03407694657001419,
+      "equal_region_centered_error_sample_variance": 0.0250381316186446,
+      "equal_region_mean_error": -0.003829527489250189,
+      "regions_with_pairs": 71,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.0013015925380841942,
+          "conditional_region_bootstrap_95": [
+            -0.0031848678398427852,
+            0.005345123983728004
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0009801636525353559,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003382241512657436,
+            0.0014643151828985905
+          ],
+          "region_fraction_improved_mse": 0.5833333333333334
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": -0.000774562609490223,
+          "conditional_region_bootstrap_95": [
+            -0.005006585612941917,
+            0.00330569309773074
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0018386891116576934,
+          "conditional_centered_region_bootstrap_95": [
+            -0.004323553090075869,
+            0.0006879822947818757
+          ],
+          "region_fraction_improved_mse": 0.5138888888888888
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": -0.0002678706674619529,
+          "conditional_region_bootstrap_95": [
+            -0.004025866640268702,
+            0.0032811424795887723
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0011163205891282228,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0035475354245848275,
+            0.0012868337490440154
+          ],
+          "region_fraction_improved_mse": 0.5833333333333334
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": -0.00044006028116976264,
+          "conditional_region_bootstrap_95": [
+            -0.004287515711387631,
+            0.0032199848505978634
+          ],
+          "equal_region_centered_error_variance_improvement": -0.001264241883730531,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0038237111718270106,
+            0.0012612860741006587
+          ],
+          "region_fraction_improved_mse": 0.5416666666666666
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.003819146012040033,
+          "conditional_region_bootstrap_95": [
+            -0.0022786277121084183,
+            0.011350888681579081
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0005543124303995342,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003046202159326936,
+            0.0021792217523380077
+          ],
+          "region_fraction_improved_mse": 0.5555555555555556
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.0018758689013052238,
+          "conditional_region_bootstrap_95": [
+            -0.0035159272738483145,
+            0.009218776581530143
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0003355328674278202,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0030098809633867184,
+            0.002478916212649427
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": 0.0016755666760192465,
+          "conditional_region_bootstrap_95": [
+            -0.0031613194506625677,
+            0.007367206114986952
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0006846927124419187,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003235765388825913,
+            0.001977158110934386
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": 0.0013218600725344685,
+          "conditional_region_bootstrap_95": [
+            -0.003667530161309001,
+            0.007011036385602023
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0009442539603085574,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0035159637924778823,
+            0.0019292429924895455
+          ],
+          "region_fraction_improved_mse": 0.5416666666666666
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": 0.000797742262514022,
+          "conditional_region_bootstrap_95": [
+            -0.0012075484789699311,
+            0.0027433732947015317
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0004709662652284544,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0016197480918321175,
+            0.000642987970394607
+          ],
+          "region_fraction_improved_mse": 0.5555555555555556
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.0027770155230168363,
+          "conditional_region_bootstrap_95": [
+            -0.005705162192644355,
+            -0.00033715934947323883
+          ],
+          "equal_region_centered_error_variance_improvement": -0.001423094980292101,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003900137135992477,
+            0.0006752134793487288
+          ],
+          "region_fraction_improved_mse": 0.4305555555555556
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.00159534642268669,
+          "conditional_region_bootstrap_95": [
+            -0.002947919902866547,
+            -0.0003560799611717918
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0013843543690758501,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0027139662963426704,
+            -0.0002998683129183563
+          ],
+          "region_fraction_improved_mse": 0.375
+        }
+      }
+    },
+    {
+      "outcome_year": 2023,
+      "training_outcome_year": 2023,
+      "predictor": "histogram_huber75",
+      "n": 1797,
+      "regions": 72,
+      "municipality_rmse": 0.17426382067270582,
+      "municipality_mae": 0.12881490837753815,
+      "equal_region_mse": 0.03248160014732751,
+      "equal_region_centered_error_sample_variance": 0.02365377724956875,
+      "equal_region_mean_error": -0.003617545269895763,
+      "regions_with_pairs": 71,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.002896938960770884,
+          "conditional_region_bootstrap_95": [
+            -0.001172879426019493,
+            0.00656641667548818
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00040419071654049433,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0015961199911140537,
+            0.00256443972138064
+          ],
+          "region_fraction_improved_mse": 0.5972222222222222
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": 0.0008207838131964673,
+          "conditional_region_bootstrap_95": [
+            -0.0030593515647370623,
+            0.0047732493286619165
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00045433474258184294,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0025784779992078974,
+            0.001778701958349887
+          ],
+          "region_fraction_improved_mse": 0.5416666666666666
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": 0.0013274757552247372,
+          "conditional_region_bootstrap_95": [
+            -0.0019706815711352816,
+            0.004355962677658287
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0002680337799476278,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0018865607321712167,
+            0.0024081811321808493
+          ],
+          "region_fraction_improved_mse": 0.625
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": 0.0011552861415169275,
+          "conditional_region_bootstrap_95": [
+            -0.0020187458733374017,
+            0.004214852514257268
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00012011248534531966,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0020218876574844753,
+            0.0022636110892160282
+          ],
+          "region_fraction_improved_mse": 0.6111111111111112
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.005414492434726722,
+          "conditional_region_bootstrap_95": [
+            -0.00015733419098943547,
+            0.012885326028402045
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0008300419386763158,
+          "conditional_centered_region_bootstrap_95": [
+            -0.001465592645019626,
+            0.003553226405934664
+          ],
+          "region_fraction_improved_mse": 0.6388888888888888
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.003471215323991914,
+          "conditional_region_bootstrap_95": [
+            -0.0016003233218582016,
+            0.010562572662552356
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00104882150164803,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0013567193230725044,
+            0.003639746851376199
+          ],
+          "region_fraction_improved_mse": 0.5138888888888888
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": 0.0032709130987059365,
+          "conditional_region_bootstrap_95": [
+            -0.0012568182762265926,
+            0.008681705656639118
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0006996616566339314,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00159574181178597,
+            0.003412533932747235
+          ],
+          "region_fraction_improved_mse": 0.5694444444444444
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": 0.0029172064952211582,
+          "conditional_region_bootstrap_95": [
+            -0.0016580948708736062,
+            0.008426022712011658
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0004401004087672932,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0017951280851805237,
+            0.00309901535318835
+          ],
+          "region_fraction_improved_mse": 0.5694444444444444
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": 0.002393088685200712,
+          "conditional_region_bootstrap_95": [
+            0.0004981772004409941,
+            0.004435742768745364
+          ],
+          "equal_region_centered_error_variance_improvement": 0.000913388103847396,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00024920626789485064,
+            0.0023716153218904515
+          ],
+          "region_fraction_improved_mse": 0.625
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.0011816691003301459,
+          "conditional_region_bootstrap_95": [
+            -0.003815045315474607,
+            0.0013930829405936814
+          ],
+          "equal_region_centered_error_variance_improvement": -3.8740611216250896e-05,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0017198227731795761,
+            0.0015670181757276797
+          ],
+          "region_fraction_improved_mse": 0.4305555555555556
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": 0.00159534642268669,
+          "conditional_region_bootstrap_95": [
+            0.0003560799611717917,
+            0.0029479199028665465
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0013843543690758501,
+          "conditional_centered_region_bootstrap_95": [
+            0.0002998683129183561,
+            0.0027139662963426704
+          ],
+          "region_fraction_improved_mse": 0.625
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        }
+      }
+    },
+    {
+      "outcome_year": 2024,
+      "training_outcome_year": 2023,
+      "predictor": "linear_controls",
+      "n": 1678,
+      "regions": 68,
+      "municipality_rmse": 0.2521899987869103,
+      "municipality_mae": 0.1970602433347,
+      "equal_region_mse": 0.0633497540745468,
+      "equal_region_centered_error_sample_variance": 0.023838228504581373,
+      "equal_region_mean_error": 0.17245067452566906,
+      "regions_with_pairs": 67,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": -0.002797299558821357,
+          "conditional_region_bootstrap_95": [
+            -0.007550915622375749,
+            0.0014725675806547367
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0011014094760639771,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0020274172970437153,
+            3.0381343280615823e-05
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": -0.002108987207325595,
+          "conditional_region_bootstrap_95": [
+            -0.005599250300354071,
+            0.0010306743866547049
+          ],
+          "equal_region_centered_error_variance_improvement": -8.882380350203176e-05,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0009337512578669155,
+            0.000746038474241685
+          ],
+          "region_fraction_improved_mse": 0.5441176470588235
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": -0.0025002380758985723,
+          "conditional_region_bootstrap_95": [
+            -0.0059890028299084885,
+            0.0006993826646397453
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0001756589829506518,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0010955720486125026,
+            0.0007325131065177588
+          ],
+          "region_fraction_improved_mse": 0.5735294117647058
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": -0.0002597522180685483,
+          "conditional_region_bootstrap_95": [
+            -0.004321555421029981,
+            0.004624892940812901
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0006026405247371866,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0005686265888571474,
+            0.0020370074569317134
+          ],
+          "region_fraction_improved_mse": 0.5441176470588235
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": -0.0017782682705637205,
+          "conditional_region_bootstrap_95": [
+            -0.007802799409511749,
+            0.004337092543701819
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00063791979180237,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0009433944599778312,
+            0.0025891928569477763
+          ],
+          "region_fraction_improved_mse": 0.5147058823529411
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": -0.0024576103626705284,
+          "conditional_region_bootstrap_95": [
+            -0.006889881267631052,
+            0.0020525467993678086
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0004392476282311848,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0008899010270668225,
+            0.002063702802584572
+          ],
+          "region_fraction_improved_mse": 0.45588235294117646
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": -0.0030411994101021125,
+          "conditional_region_bootstrap_95": [
+            -0.007536783620124215,
+            0.0013706919528459797
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00021032005910353224,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0010888653414333537,
+            0.0017026264023239862
+          ],
+          "region_fraction_improved_mse": 0.45588235294117646
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": -0.0013131549963767534,
+          "conditional_region_bootstrap_95": [
+            -0.007871332361954399,
+            0.005651338353791112
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0006107678943300949,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0016275979069066467,
+            0.0025501067131791046
+          ],
+          "region_fraction_improved_mse": 0.5588235294117647
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.004793676527397171,
+          "conditional_region_bootstrap_95": [
+            -0.01370025124353609,
+            0.00329600480422603
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0006479026097522967,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0031731717711312338,
+            0.001953692263308378
+          ],
+          "region_fraction_improved_mse": 0.5588235294117647
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": -0.0022116072039514616,
+          "conditional_region_bootstrap_95": [
+            -0.009682145506626877,
+            0.005046581352675777
+          ],
+          "equal_region_centered_error_variance_improvement": 0.001052256044092006,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0015904666517835499,
+            0.003608239228383029
+          ],
+          "region_fraction_improved_mse": 0.5441176470588235
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.003772968880375089,
+          "conditional_region_bootstrap_95": [
+            -0.011038222612053457,
+            0.003435698029086689
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00030314890447128513,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0025501515191058556,
+            0.0018882989395889143
+          ],
+          "region_fraction_improved_mse": 0.5
+        }
+      }
+    },
+    {
+      "outcome_year": 2024,
+      "training_outcome_year": 2023,
+      "predictor": "linear_continuous5",
+      "n": 1678,
+      "regions": 68,
+      "municipality_rmse": 0.2446015877186721,
+      "municipality_mae": 0.19304384182531414,
+      "equal_region_mse": 0.060552454515725426,
+      "equal_region_centered_error_sample_variance": 0.0227368190285174,
+      "equal_region_mean_error": 0.17011011679188753,
+      "regions_with_pairs": 67,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.002797299558821357,
+          "conditional_region_bootstrap_95": [
+            -0.001472567580654737,
+            0.007550915622375748
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0011014094760639771,
+          "conditional_centered_region_bootstrap_95": [
+            -3.038134328061593e-05,
+            0.0020274172970437153
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": 0.0006883123514957629,
+          "conditional_region_bootstrap_95": [
+            -0.0025645501810877434,
+            0.0036885586609965854
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0010125856725619455,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00014746768408128763,
+            0.002041571934061784
+          ],
+          "region_fraction_improved_mse": 0.5147058823529411
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": 0.0002970614829227852,
+          "conditional_region_bootstrap_95": [
+            -0.0032913701125891455,
+            0.0035668384779943014
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0009257504931133254,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0003010398400920237,
+            0.001990690092852583
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.002537547340752809,
+          "conditional_region_bootstrap_95": [
+            -0.0034004136434028754,
+            0.00899658711411476
+          ],
+          "equal_region_centered_error_variance_improvement": 0.001704050000801164,
+          "conditional_centered_region_bootstrap_95": [
+            0.0005190902553559633,
+            0.003112247507625728
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.0010190312882576366,
+          "conditional_region_bootstrap_95": [
+            -0.003292697094244102,
+            0.005880480664854327
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0017393292678663471,
+          "conditional_centered_region_bootstrap_95": [
+            0.0005379927513245608,
+            0.003138451322125754
+          ],
+          "region_fraction_improved_mse": 0.4852941176470588
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": 0.00033968919615082817,
+          "conditional_region_bootstrap_95": [
+            -0.004228231178631956,
+            0.005018889971261787
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0015406571042951617,
+          "conditional_centered_region_bootstrap_95": [
+            0.00022780746486086834,
+            0.003060202296202609
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": -0.00024389985128075547,
+          "conditional_region_bootstrap_95": [
+            -0.005056925616627974,
+            0.00468577711609682
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0013117295351675092,
+          "conditional_centered_region_bootstrap_95": [
+            9.945662168612999e-05,
+            0.00272607692026496
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": 0.001484144562444605,
+          "conditional_region_bootstrap_95": [
+            -0.0048899455252297405,
+            0.008261003761389472
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0017121773703940718,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0006815012500330696,
+            0.00398190116026894
+          ],
+          "region_fraction_improved_mse": 0.6323529411764706
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.001996376968575815,
+          "conditional_region_bootstrap_95": [
+            -0.008396277393167482,
+            0.0041531596736235545
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00045350686631168076,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0019039552872240888,
+            0.0029620335616179303
+          ],
+          "region_fraction_improved_mse": 0.5588235294117647
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": 0.0005856923548698966,
+          "conditional_region_bootstrap_95": [
+            -0.005694300367328369,
+            0.007284680238553152
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0021536655201559833,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0004590569819108598,
+            0.00475502968028541
+          ],
+          "region_fraction_improved_mse": 0.6470588235294118
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.0009756693215537307,
+          "conditional_region_bootstrap_95": [
+            -0.0075402207732495055,
+            0.00592941185681511
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0007982605715926922,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0015353231893085095,
+            0.0030136622290273746
+          ],
+          "region_fraction_improved_mse": 0.6176470588235294
+        }
+      }
+    },
+    {
+      "outcome_year": 2024,
+      "training_outcome_year": 2023,
+      "predictor": "linear_kmeans4",
+      "n": 1678,
+      "regions": 68,
+      "municipality_rmse": 0.24958620513685997,
+      "municipality_mae": 0.19598129839217154,
+      "equal_region_mse": 0.061240766867221186,
+      "equal_region_centered_error_sample_variance": 0.02374940470107934,
+      "equal_region_mean_error": 0.17050147252064388,
+      "regions_with_pairs": 67,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.002108987207325595,
+          "conditional_region_bootstrap_95": [
+            -0.0010306743866547066,
+            0.005599250300354071
+          ],
+          "equal_region_centered_error_variance_improvement": 8.882380350203176e-05,
+          "conditional_centered_region_bootstrap_95": [
+            -0.000746038474241685,
+            0.0009337512578669153
+          ],
+          "region_fraction_improved_mse": 0.45588235294117646
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": -0.0006883123514957629,
+          "conditional_region_bootstrap_95": [
+            -0.0036885586609965854,
+            0.0025645501810877434
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0010125856725619455,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002041571934061784,
+            0.00014746768408128741
+          ],
+          "region_fraction_improved_mse": 0.4852941176470588
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": -0.0003912508685729777,
+          "conditional_region_bootstrap_95": [
+            -0.0012524016333921102,
+            0.0003651852586465064
+          ],
+          "equal_region_centered_error_variance_improvement": -8.683517944862e-05,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0006063732483151622,
+            0.0003663670383480073
+          ],
+          "region_fraction_improved_mse": 0.4117647058823529
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.0018492349892570467,
+          "conditional_region_bootstrap_95": [
+            -0.0031001148791654017,
+            0.007344727691100086
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0006914643282392184,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0005670508445399001,
+            0.0022838502806635207
+          ],
+          "region_fraction_improved_mse": 0.4117647058823529
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.0003307189367618744,
+          "conditional_region_bootstrap_95": [
+            -0.005230033636876752,
+            0.00575053824249772
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0007267435953044018,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0008822198078685385,
+            0.0026510900667689246
+          ],
+          "region_fraction_improved_mse": 0.5294117647058824
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": -0.00034862315534493434,
+          "conditional_region_bootstrap_95": [
+            -0.003561537540179893,
+            0.003150702249226348
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0005280714317332166,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0005136667332931623,
+            0.001885372653763864
+          ],
+          "region_fraction_improved_mse": 0.5294117647058824
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": -0.0009322122027765183,
+          "conditional_region_bootstrap_95": [
+            -0.004161173254408984,
+            0.0026534602762684394
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00029914386260556394,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0007529039127316063,
+            0.001588823639294242
+          ],
+          "region_fraction_improved_mse": 0.5147058823529411
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": 0.0007958322109488417,
+          "conditional_region_bootstrap_95": [
+            -0.004687134958250615,
+            0.006827009201574516
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0006995916978321265,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0016759891611742607,
+            0.0028320487030196973
+          ],
+          "region_fraction_improved_mse": 0.5441176470588235
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.002684689320071578,
+          "conditional_region_bootstrap_95": [
+            -0.009919850501096698,
+            0.004104697016957556
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0005590788062502646,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003425039832598106,
+            0.0022832525781029274
+          ],
+          "region_fraction_improved_mse": 0.5588235294117647
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": -0.00010261999662586606,
+          "conditional_region_bootstrap_95": [
+            -0.005707436000692612,
+            0.005909767213449685
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0011410798475940378,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0015068668633760154,
+            0.0037605190505479807
+          ],
+          "region_fraction_improved_mse": 0.5588235294117647
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.0016639816730494932,
+          "conditional_region_bootstrap_95": [
+            -0.007144706303853755,
+            0.004148900622874368
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0002143251009692533,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0025160577851997784,
+            0.0020433422235437257
+          ],
+          "region_fraction_improved_mse": 0.5441176470588235
+        }
+      }
+    },
+    {
+      "outcome_year": 2024,
+      "training_outcome_year": 2023,
+      "predictor": "linear_huber75",
+      "n": 1678,
+      "regions": 68,
+      "municipality_rmse": 0.2488864201696129,
+      "municipality_mae": 0.19526245530978711,
+      "equal_region_mse": 0.06084951599864821,
+      "equal_region_centered_error_sample_variance": 0.02366256952163072,
+      "equal_region_mean_error": 0.16947194962520984,
+      "regions_with_pairs": 67,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.0025002380758985723,
+          "conditional_region_bootstrap_95": [
+            -0.0006993826646397469,
+            0.0059890028299084885
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0001756589829506518,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0007325131065177592,
+            0.0010955720486125024
+          ],
+          "region_fraction_improved_mse": 0.4264705882352941
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": -0.0002970614829227852,
+          "conditional_region_bootstrap_95": [
+            -0.003566838477994302,
+            0.003291370112589144
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0009257504931133254,
+          "conditional_centered_region_bootstrap_95": [
+            -0.001990690092852583,
+            0.00030103984009202347
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": 0.0003912508685729777,
+          "conditional_region_bootstrap_95": [
+            -0.0003651852586465065,
+            0.00125240163339211
+          ],
+          "equal_region_centered_error_variance_improvement": 8.683517944862e-05,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00036636703834800737,
+            0.0006063732483151617
+          ],
+          "region_fraction_improved_mse": 0.5882352941176471
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.002240485857830025,
+          "conditional_region_bootstrap_95": [
+            -0.0028229191620581648,
+            0.007986727962624705
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0007782995076878384,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0005487638743595498,
+            0.0025100285899829302
+          ],
+          "region_fraction_improved_mse": 0.45588235294117646
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.0007219698053348515,
+          "conditional_region_bootstrap_95": [
+            -0.005066077377061788,
+            0.006483692796538882
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0008135787747530216,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0008111227577849314,
+            0.002810778620059775
+          ],
+          "region_fraction_improved_mse": 0.5294117647058824
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": 4.262771322804315e-05,
+          "conditional_region_bootstrap_95": [
+            -0.0032921771733603524,
+            0.0037552728386323984
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0006149066111818365,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0006083268301157029,
+            0.002210459068594145
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": -0.0005409613342035406,
+          "conditional_region_bootstrap_95": [
+            -0.0038281400285068187,
+            0.0030531480579626233
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0003859790420541839,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0006237600132861553,
+            0.0016456692679166383
+          ],
+          "region_fraction_improved_mse": 0.5147058823529411
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": 0.0011870830795218195,
+          "conditional_region_bootstrap_95": [
+            -0.004578277836351768,
+            0.007449779440127852
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0007864268772807469,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0017280797448581092,
+            0.0031516678406887377
+          ],
+          "region_fraction_improved_mse": 0.5735294117647058
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.0022934384514986,
+          "conditional_region_bootstrap_95": [
+            -0.00970724386208729,
+            0.004657013101322356
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00047224362680164467,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003186629949591163,
+            0.0022966390381469848
+          ],
+          "region_fraction_improved_mse": 0.5441176470588235
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": 0.00028863087194711104,
+          "conditional_region_bootstrap_95": [
+            -0.005436029221889628,
+            0.00672147478581485
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0012279150270426583,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0015625750918836017,
+            0.004070416059500475
+          ],
+          "region_fraction_improved_mse": 0.5735294117647058
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.0012727308044765161,
+          "conditional_region_bootstrap_95": [
+            -0.00667628511983676,
+            0.004588635366438378
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00012748992152063332,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0025289787573007693,
+            0.002069703349531914
+          ],
+          "region_fraction_improved_mse": 0.5588235294117647
+        }
+      }
+    },
+    {
+      "outcome_year": 2024,
+      "training_outcome_year": 2023,
+      "predictor": "quadratic_controls",
+      "n": 1678,
+      "regions": 68,
+      "municipality_rmse": 0.2500416368660277,
+      "municipality_mae": 0.1955161451925545,
+      "equal_region_mse": 0.06309000185647824,
+      "equal_region_centered_error_sample_variance": 0.024440869029318565,
+      "equal_region_mean_error": 0.15977498625729336,
+      "regions_with_pairs": 67,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.0002597522180685483,
+          "conditional_region_bootstrap_95": [
+            -0.004624892940812902,
+            0.004321555421029981
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0006026405247371866,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002037007456931714,
+            0.0005686265888571473
+          ],
+          "region_fraction_improved_mse": 0.45588235294117646
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": -0.002537547340752809,
+          "conditional_region_bootstrap_95": [
+            -0.00899658711411476,
+            0.003400413643402873
+          ],
+          "equal_region_centered_error_variance_improvement": -0.001704050000801164,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0031122475076257286,
+            -0.0005190902553559634
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": -0.0018492349892570467,
+          "conditional_region_bootstrap_95": [
+            -0.0073447276911000866,
+            0.0031001148791654012
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0006914643282392184,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0022838502806635207,
+            0.0005670508445399
+          ],
+          "region_fraction_improved_mse": 0.5882352941176471
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": -0.002240485857830025,
+          "conditional_region_bootstrap_95": [
+            -0.007986727962624705,
+            0.0028229191620581643
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0007782995076878384,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0025100285899829307,
+            0.0005487638743595487
+          ],
+          "region_fraction_improved_mse": 0.5441176470588235
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": -0.0015185160524951726,
+          "conditional_region_bootstrap_95": [
+            -0.0067095780763082894,
+            0.0035396473022861457
+          ],
+          "equal_region_centered_error_variance_improvement": 3.5279267065183145e-05,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0013361681865027375,
+            0.0013167098622363152
+          ],
+          "region_fraction_improved_mse": 0.5441176470588235
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": -0.0021978581446019814,
+          "conditional_region_bootstrap_95": [
+            -0.005342075189959042,
+            0.0003989658504268265
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00016339289650600192,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0008548912093608288,
+            0.00044613194753644
+          ],
+          "region_fraction_improved_mse": 0.6029411764705882
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": -0.0027814471920335655,
+          "conditional_region_bootstrap_95": [
+            -0.005855964424790989,
+            -9.646521782682464e-05
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00039232046563365434,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0012603652301224942,
+            0.00034153417541286647
+          ],
+          "region_fraction_improved_mse": 0.6617647058823529
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": -0.0010534027783082047,
+          "conditional_region_bootstrap_95": [
+            -0.005349223423543243,
+            0.0031761726997900012
+          ],
+          "equal_region_centered_error_variance_improvement": 8.127369592908289e-06,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0028909788087424786,
+            0.0022816332959098512
+          ],
+          "region_fraction_improved_mse": 0.5882352941176471
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.004533924309328624,
+          "conditional_region_bootstrap_95": [
+            -0.012234768861384403,
+            0.002630990303242221
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0012505431344894834,
+          "conditional_centered_region_bootstrap_95": [
+            -0.004350636224083157,
+            0.0016233935375336624
+          ],
+          "region_fraction_improved_mse": 0.5294117647058824
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": -0.001951854985882913,
+          "conditional_region_bootstrap_95": [
+            -0.007545032193371396,
+            0.003036257572525038
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0004496155193548198,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0027837038853885665,
+            0.003246104397429761
+          ],
+          "region_fraction_improved_mse": 0.6470588235294118
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.0035132166623065395,
+          "conditional_region_bootstrap_95": [
+            -0.008938757269799076,
+            0.001229459777836193
+          ],
+          "equal_region_centered_error_variance_improvement": -0.000905789429208472,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003912640372229738,
+            0.0016215359409271414
+          ],
+          "region_fraction_improved_mse": 0.6029411764705882
+        }
+      }
+    },
+    {
+      "outcome_year": 2024,
+      "training_outcome_year": 2023,
+      "predictor": "quadratic_continuous5",
+      "n": 1678,
+      "regions": 68,
+      "municipality_rmse": 0.24604658874943533,
+      "municipality_mae": 0.1936530735234299,
+      "equal_region_mse": 0.06157148580398307,
+      "equal_region_centered_error_sample_variance": 0.024476148296383744,
+      "equal_region_mean_error": 0.15997807514978282,
+      "regions_with_pairs": 67,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.0017782682705637205,
+          "conditional_region_bootstrap_95": [
+            -0.0043370925437018195,
+            0.007802799409511749
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00063791979180237,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0025891928569477768,
+            0.0009433944599778304
+          ],
+          "region_fraction_improved_mse": 0.4852941176470588
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": -0.0010190312882576366,
+          "conditional_region_bootstrap_95": [
+            -0.005880480664854327,
+            0.0032926970942441015
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0017393292678663471,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003138451322125754,
+            -0.0005379927513245615
+          ],
+          "region_fraction_improved_mse": 0.5147058823529411
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": -0.0003307189367618744,
+          "conditional_region_bootstrap_95": [
+            -0.005750538242497721,
+            0.005230033636876747
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0007267435953044018,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002651090066768925,
+            0.0008822198078685381
+          ],
+          "region_fraction_improved_mse": 0.47058823529411764
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": -0.0007219698053348515,
+          "conditional_region_bootstrap_95": [
+            -0.006483692796538882,
+            0.005066077377061787
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0008135787747530216,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002810778620059775,
+            0.0008111227577849314
+          ],
+          "region_fraction_improved_mse": 0.47058823529411764
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.0015185160524951726,
+          "conditional_region_bootstrap_95": [
+            -0.0035396473022861466,
+            0.006709578076308289
+          ],
+          "equal_region_centered_error_variance_improvement": -3.5279267065183145e-05,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0013167098622363154,
+            0.0013361681865027373
+          ],
+          "region_fraction_improved_mse": 0.45588235294117646
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": -0.0006793420921068086,
+          "conditional_region_bootstrap_95": [
+            -0.005046684936959156,
+            0.003741271613676241
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00019867216357118502,
+          "conditional_centered_region_bootstrap_95": [
+            -0.001592973578491178,
+            0.0012759837404807404
+          ],
+          "region_fraction_improved_mse": 0.47058823529411764
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": -0.0012629311395383925,
+          "conditional_region_bootstrap_95": [
+            -0.0057561657969046115,
+            0.0033902802619085
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0004275997326988377,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0018643333588462577,
+            0.001012690469023681
+          ],
+          "region_fraction_improved_mse": 0.4264705882352941
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": 0.0004651132741869676,
+          "conditional_region_bootstrap_95": [
+            -0.0053145901035469185,
+            0.00593925593456163
+          ],
+          "equal_region_centered_error_variance_improvement": -2.7151897472275216e-05,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003151500914242658,
+            0.002561357662165346
+          ],
+          "region_fraction_improved_mse": 0.5882352941176471
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.0030154082568334514,
+          "conditional_region_bootstrap_95": [
+            -0.00829756714205622,
+            0.002232957042165006
+          ],
+          "equal_region_centered_error_variance_improvement": -0.001285822401554666,
+          "conditional_centered_region_bootstrap_95": [
+            -0.004116886101135361,
+            0.0013254699712608052
+          ],
+          "region_fraction_improved_mse": 0.5147058823529411
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": -0.0004333389333877407,
+          "conditional_region_bootstrap_95": [
+            -0.005837684421192194,
+            0.004911218449427242
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0004143362522896364,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0028372940240679353,
+            0.003317281238198087
+          ],
+          "region_fraction_improved_mse": 0.5588235294117647
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.001994700609811367,
+          "conditional_region_bootstrap_95": [
+            -0.00740073827646479,
+            0.0033500611735273974
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0009410686962736549,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003987165626778031,
+            0.0015767784952720658
+          ],
+          "region_fraction_improved_mse": 0.5588235294117647
+        }
+      }
+    },
+    {
+      "outcome_year": 2024,
+      "training_outcome_year": 2023,
+      "predictor": "quadratic_kmeans4",
+      "n": 1678,
+      "regions": 68,
+      "municipality_rmse": 0.2482981196225156,
+      "municipality_mae": 0.1948913067084229,
+      "equal_region_mse": 0.060892143711876255,
+      "equal_region_centered_error_sample_variance": 0.024277476132812562,
+      "equal_region_mean_error": 0.15996297444990326,
+      "regions_with_pairs": 67,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.0024576103626705284,
+          "conditional_region_bootstrap_95": [
+            -0.002052546799367809,
+            0.0068898812676310515
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0004392476282311848,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002063702802584572,
+            0.0008899010270668224
+          ],
+          "region_fraction_improved_mse": 0.5441176470588235
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": -0.00033968919615082817,
+          "conditional_region_bootstrap_95": [
+            -0.0050188899712617875,
+            0.0042282311786319545
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0015406571042951617,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003060202296202609,
+            -0.00022780746486086842
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": 0.00034862315534493434,
+          "conditional_region_bootstrap_95": [
+            -0.0031507022492263483,
+            0.003561537540179893
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0005280714317332166,
+          "conditional_centered_region_bootstrap_95": [
+            -0.001885372653763864,
+            0.0005136667332931622
+          ],
+          "region_fraction_improved_mse": 0.47058823529411764
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": -4.262771322804315e-05,
+          "conditional_region_bootstrap_95": [
+            -0.003755272838632399,
+            0.0032921771733603524
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0006149066111818365,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0022104590685941452,
+            0.0006083268301157028
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.0021978581446019814,
+          "conditional_region_bootstrap_95": [
+            -0.0003989658504268267,
+            0.005342075189959042
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00016339289650600192,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00044613194753644015,
+            0.0008548912093608286
+          ],
+          "region_fraction_improved_mse": 0.39705882352941174
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.0006793420921068086,
+          "conditional_region_bootstrap_95": [
+            -0.003741271613676242,
+            0.005046684936959156
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00019867216357118502,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0012759837404807406,
+            0.0015929735784911776
+          ],
+          "region_fraction_improved_mse": 0.5294117647058824
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": -0.0005835890474315838,
+          "conditional_region_bootstrap_95": [
+            -0.0015807402534925013,
+            0.00018041547237690185
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00022892756912765256,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0009171872605712151,
+            0.00031338551722000257
+          ],
+          "region_fraction_improved_mse": 0.39705882352941174
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": 0.0011444553662937756,
+          "conditional_region_bootstrap_95": [
+            -0.002340763108392181,
+            0.005103556851039843
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0001715202660989099,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002803506193840278,
+            0.002545139326082679
+          ],
+          "region_fraction_improved_mse": 0.5441176470588235
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.0023360661647266437,
+          "conditional_region_bootstrap_95": [
+            -0.00856695316120373,
+            0.003720797858253779
+          ],
+          "equal_region_centered_error_variance_improvement": -0.001087150237983481,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00445634260053992,
+            0.001988955396308646
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": 0.00024600315871906795,
+          "conditional_region_bootstrap_95": [
+            -0.0037950765790926186,
+            0.004319419223011396
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0006130084158608212,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002494292983230172,
+            0.003453957292549147
+          ],
+          "region_fraction_improved_mse": 0.5735294117647058
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.001315358517704559,
+          "conditional_region_bootstrap_95": [
+            -0.004910233166729555,
+            0.002361810107503911
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0007423965327024697,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0037246434438113034,
+            0.0017753934634373526
+          ],
+          "region_fraction_improved_mse": 0.5588235294117647
+        }
+      }
+    },
+    {
+      "outcome_year": 2024,
+      "training_outcome_year": 2023,
+      "predictor": "quadratic_huber75",
+      "n": 1678,
+      "regions": 68,
+      "municipality_rmse": 0.2472578125915056,
+      "municipality_mae": 0.19406223947356444,
+      "equal_region_mse": 0.06030855466444468,
+      "equal_region_centered_error_sample_variance": 0.024048548563684904,
+      "equal_region_mean_error": 0.15880086897397294,
+      "regions_with_pairs": 67,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.0030411994101021125,
+          "conditional_region_bootstrap_95": [
+            -0.0013706919528459801,
+            0.007536783620124215
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00021032005910353224,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0017026264023239862,
+            0.0010888653414333537
+          ],
+          "region_fraction_improved_mse": 0.5441176470588235
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": 0.00024389985128075547,
+          "conditional_region_bootstrap_95": [
+            -0.00468577711609682,
+            0.005056925616627972
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0013117295351675092,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002726076920264961,
+            -9.94566216861301e-05
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": 0.0009322122027765183,
+          "conditional_region_bootstrap_95": [
+            -0.00265346027626844,
+            0.004161173254408983
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00029914386260556394,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0015888236392942424,
+            0.0007529039127316059
+          ],
+          "region_fraction_improved_mse": 0.4852941176470588
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": 0.0005409613342035406,
+          "conditional_region_bootstrap_95": [
+            -0.003053148057962625,
+            0.0038281400285068183
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0003859790420541839,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0016456692679166387,
+            0.0006237600132861553
+          ],
+          "region_fraction_improved_mse": 0.4852941176470588
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.0027814471920335655,
+          "conditional_region_bootstrap_95": [
+            9.646521782682421e-05,
+            0.005855964424790989
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00039232046563365434,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0003415341754128665,
+            0.0012603652301224936
+          ],
+          "region_fraction_improved_mse": 0.3382352941176471
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.0012629311395383925,
+          "conditional_region_bootstrap_95": [
+            -0.0033902802619085004,
+            0.0057561657969046115
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0004275997326988377,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0010126904690236813,
+            0.0018643333588462575
+          ],
+          "region_fraction_improved_mse": 0.5735294117647058
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": 0.0005835890474315838,
+          "conditional_region_bootstrap_95": [
+            -0.0001804154723769019,
+            0.0015807402534925008
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00022892756912765256,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00031338551722000273,
+            0.0009171872605712149
+          ],
+          "region_fraction_improved_mse": 0.6029411764705882
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": 0.00172804441372536,
+          "conditional_region_bootstrap_95": [
+            -0.001996550584337916,
+            0.00577989291131935
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00040044783522656267,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002686605611619189,
+            0.002927134357371063
+          ],
+          "region_fraction_improved_mse": 0.5147058823529411
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.0017524771172950596,
+          "conditional_region_bootstrap_95": [
+            -0.008127037957319573,
+            0.004511789132135273
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0008582226688558288,
+          "conditional_centered_region_bootstrap_95": [
+            -0.004019699683696614,
+            0.0020003323361079276
+          ],
+          "region_fraction_improved_mse": 0.4852941176470588
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": 0.0008295922061506517,
+          "conditional_region_bootstrap_95": [
+            -0.003299595807406905,
+            0.005222480779551369
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0008419359849884737,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002440194105095438,
+            0.0037492395520904416
+          ],
+          "region_fraction_improved_mse": 0.5735294117647058
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.0007317694702729749,
+          "conditional_region_bootstrap_95": [
+            -0.004300475383336367,
+            0.0029119627270702657
+          ],
+          "equal_region_centered_error_variance_improvement": -0.000513468963574817,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003447490669340874,
+            0.0019701238417438997
+          ],
+          "region_fraction_improved_mse": 0.5735294117647058
+        }
+      }
+    },
+    {
+      "outcome_year": 2024,
+      "training_outcome_year": 2023,
+      "predictor": "histogram_controls",
+      "n": 1678,
+      "regions": 68,
+      "municipality_rmse": 0.24805101727681875,
+      "municipality_mae": 0.19585284430437072,
+      "equal_region_mse": 0.06203659907817003,
+      "equal_region_centered_error_sample_variance": 0.02444899639891147,
+      "equal_region_mean_error": 0.16815081990213315,
+      "regions_with_pairs": 67,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.0013131549963767534,
+          "conditional_region_bootstrap_95": [
+            -0.005651338353791113,
+            0.007871332361954397
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0006107678943300949,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002550106713179105,
+            0.0016275979069066465
+          ],
+          "region_fraction_improved_mse": 0.4411764705882353
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": -0.001484144562444605,
+          "conditional_region_bootstrap_95": [
+            -0.008261003761389473,
+            0.00488994552522974
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0017121773703940718,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003981901160268941,
+            0.0006815012500330694
+          ],
+          "region_fraction_improved_mse": 0.36764705882352944
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": -0.0007958322109488417,
+          "conditional_region_bootstrap_95": [
+            -0.006827009201574516,
+            0.004687134958250614
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0006995916978321265,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002832048703019698,
+            0.0016759891611742585
+          ],
+          "region_fraction_improved_mse": 0.45588235294117646
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": -0.0011870830795218195,
+          "conditional_region_bootstrap_95": [
+            -0.0074497794401278536,
+            0.004578277836351766
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0007864268772807469,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0031516678406887377,
+            0.001728079744858109
+          ],
+          "region_fraction_improved_mse": 0.4264705882352941
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.0010534027783082047,
+          "conditional_region_bootstrap_95": [
+            -0.003176172699790004,
+            0.005349223423543241
+          ],
+          "equal_region_centered_error_variance_improvement": -8.127369592908289e-06,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0022816332959098517,
+            0.0028909788087424786
+          ],
+          "region_fraction_improved_mse": 0.4117647058823529
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": -0.0004651132741869676,
+          "conditional_region_bootstrap_95": [
+            -0.005939255934561631,
+            0.005314590103546917
+          ],
+          "equal_region_centered_error_variance_improvement": 2.7151897472275216e-05,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002561357662165346,
+            0.0031515009142426575
+          ],
+          "region_fraction_improved_mse": 0.4117647058823529
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": -0.0011444553662937756,
+          "conditional_region_bootstrap_95": [
+            -0.005103556851039845,
+            0.002340763108392178
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0001715202660989099,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0025451393260826796,
+            0.002803506193840278
+          ],
+          "region_fraction_improved_mse": 0.45588235294117646
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": -0.00172804441372536,
+          "conditional_region_bootstrap_95": [
+            -0.00577989291131935,
+            0.0019965505843379154
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00040044783522656267,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002927134357371063,
+            0.002686605611619188
+          ],
+          "region_fraction_improved_mse": 0.4852941176470588
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.003480521531020419,
+          "conditional_region_bootstrap_95": [
+            -0.008903752256456609,
+            0.001377222254897829
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0012586705040823914,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0036953984706819105,
+            0.0008595820129846472
+          ],
+          "region_fraction_improved_mse": 0.4852941176470588
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": -0.0008984522075747077,
+          "conditional_region_bootstrap_95": [
+            -0.0033171699604283883,
+            0.0011744659001573323
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0004414881497619114,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0006742287003411873,
+            0.001640179403706798
+          ],
+          "region_fraction_improved_mse": 0.6029411764705882
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.0024598138839983345,
+          "conditional_region_bootstrap_95": [
+            -0.005545319120639809,
+            3.4693959937147114e-05
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0009139167988013795,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002233283293867255,
+            0.00017683294389544396
+          ],
+          "region_fraction_improved_mse": 0.5294117647058824
+        }
+      }
+    },
+    {
+      "outcome_year": 2024,
+      "training_outcome_year": 2023,
+      "predictor": "histogram_continuous5",
+      "n": 1678,
+      "regions": 68,
+      "municipality_rmse": 0.24254438323415348,
+      "municipality_mae": 0.1921939665579693,
+      "equal_region_mse": 0.05855607754714961,
+      "equal_region_centered_error_sample_variance": 0.02319032589482908,
+      "equal_region_mean_error": 0.1683317715428461,
+      "regions_with_pairs": 67,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.004793676527397171,
+          "conditional_region_bootstrap_95": [
+            -0.0032960048042260325,
+            0.01370025124353609
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0006479026097522967,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0019536922633083785,
+            0.0031731717711312333
+          ],
+          "region_fraction_improved_mse": 0.4411764705882353
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": 0.001996376968575815,
+          "conditional_region_bootstrap_95": [
+            -0.004153159673623555,
+            0.008396277393167482
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00045350686631168076,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0029620335616179307,
+            0.0019039552872240888
+          ],
+          "region_fraction_improved_mse": 0.4411764705882353
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": 0.002684689320071578,
+          "conditional_region_bootstrap_95": [
+            -0.004104697016957558,
+            0.009919850501096698
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0005590788062502646,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002283252578102928,
+            0.003425039832598106
+          ],
+          "region_fraction_improved_mse": 0.4411764705882353
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": 0.0022934384514986,
+          "conditional_region_bootstrap_95": [
+            -0.004657013101322357,
+            0.009707243862087288
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00047224362680164467,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0022966390381469865,
+            0.0031866299495911625
+          ],
+          "region_fraction_improved_mse": 0.45588235294117646
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.004533924309328624,
+          "conditional_region_bootstrap_95": [
+            -0.0026309903032422227,
+            0.012234768861384394
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0012505431344894834,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0016233935375336626,
+            0.004350636224083157
+          ],
+          "region_fraction_improved_mse": 0.47058823529411764
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.0030154082568334514,
+          "conditional_region_bootstrap_95": [
+            -0.0022329570421650074,
+            0.008297567142056218
+          ],
+          "equal_region_centered_error_variance_improvement": 0.001285822401554666,
+          "conditional_centered_region_bootstrap_95": [
+            -0.001325469971260806,
+            0.00411688610113536
+          ],
+          "region_fraction_improved_mse": 0.4852941176470588
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": 0.0023360661647266437,
+          "conditional_region_bootstrap_95": [
+            -0.00372079785825378,
+            0.00856695316120373
+          ],
+          "equal_region_centered_error_variance_improvement": 0.001087150237983481,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0019889553963086475,
+            0.00445634260053992
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": 0.0017524771172950596,
+          "conditional_region_bootstrap_95": [
+            -0.004511789132135274,
+            0.00812703795731957
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0008582226688558288,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0020003323361079293,
+            0.004019699683696613
+          ],
+          "region_fraction_improved_mse": 0.5147058823529411
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": 0.003480521531020419,
+          "conditional_region_bootstrap_95": [
+            -0.0013772222548978292,
+            0.008903752256456609
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0012586705040823914,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0008595820129846481,
+            0.0036953984706819096
+          ],
+          "region_fraction_improved_mse": 0.5147058823529411
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": 0.002582069323445711,
+          "conditional_region_bootstrap_95": [
+            -0.0013035181280831043,
+            0.006655616077951247
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0017001586538443027,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00044404875042713585,
+            0.004117127044754368
+          ],
+          "region_fraction_improved_mse": 0.6029411764705882
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": 0.0010207076470220842,
+          "conditional_region_bootstrap_95": [
+            -0.003531604056392401,
+            0.005332759094771141
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00034475370528101143,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0012244959579900399,
+            0.002028058961802259
+          ],
+          "region_fraction_improved_mse": 0.5441176470588235
+        }
+      }
+    },
+    {
+      "outcome_year": 2024,
+      "training_outcome_year": 2023,
+      "predictor": "histogram_kmeans4",
+      "n": 1678,
+      "regions": 68,
+      "municipality_rmse": 0.24658584528539348,
+      "municipality_mae": 0.19437680178486078,
+      "equal_region_mse": 0.06113814687059532,
+      "equal_region_centered_error_sample_variance": 0.02489048454867338,
+      "equal_region_mean_error": 0.16730126182559515,
+      "regions_with_pairs": 67,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.0022116072039514616,
+          "conditional_region_bootstrap_95": [
+            -0.005046581352675777,
+            0.009682145506626877
+          ],
+          "equal_region_centered_error_variance_improvement": -0.001052256044092006,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0036082392283830313,
+            0.0015904666517835497
+          ],
+          "region_fraction_improved_mse": 0.45588235294117646
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": -0.0005856923548698966,
+          "conditional_region_bootstrap_95": [
+            -0.007284680238553154,
+            0.005694300367328369
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0021536655201559833,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0047550296802854105,
+            0.0004590569819108596
+          ],
+          "region_fraction_improved_mse": 0.35294117647058826
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": 0.00010261999662586606,
+          "conditional_region_bootstrap_95": [
+            -0.0059097672134496865,
+            0.0057074360006926115
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0011410798475940378,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003760519050547981,
+            0.0015068668633760151
+          ],
+          "region_fraction_improved_mse": 0.4411764705882353
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": -0.00028863087194711104,
+          "conditional_region_bootstrap_95": [
+            -0.006721474785814853,
+            0.005436029221889628
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0012279150270426583,
+          "conditional_centered_region_bootstrap_95": [
+            -0.004070416059500476,
+            0.0015625750918836013
+          ],
+          "region_fraction_improved_mse": 0.4264705882352941
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.001951854985882913,
+          "conditional_region_bootstrap_95": [
+            -0.0030362575725250383,
+            0.0075450321933713945
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0004496155193548198,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003246104397429762,
+            0.002783703885388566
+          ],
+          "region_fraction_improved_mse": 0.35294117647058826
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.0004333389333877407,
+          "conditional_region_bootstrap_95": [
+            -0.004911218449427243,
+            0.005837684421192193
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0004143362522896364,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0033172812381980876,
+            0.0028372940240679345
+          ],
+          "region_fraction_improved_mse": 0.4411764705882353
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": -0.00024600315871906795,
+          "conditional_region_bootstrap_95": [
+            -0.004319419223011397,
+            0.0037950765790926186
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0006130084158608212,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0034539572925491474,
+            0.0024942929832301717
+          ],
+          "region_fraction_improved_mse": 0.4264705882352941
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": -0.0008295922061506517,
+          "conditional_region_bootstrap_95": [
+            -0.005222480779551369,
+            0.003299595807406905
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0008419359849884737,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0037492395520904416,
+            0.002440194105095438
+          ],
+          "region_fraction_improved_mse": 0.4264705882352941
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": 0.0008984522075747077,
+          "conditional_region_bootstrap_95": [
+            -0.001174465900157333,
+            0.0033171699604283883
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0004414881497619114,
+          "conditional_centered_region_bootstrap_95": [
+            -0.001640179403706798,
+            0.0006742287003411871
+          ],
+          "region_fraction_improved_mse": 0.39705882352941174
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.002582069323445711,
+          "conditional_region_bootstrap_95": [
+            -0.006655616077951247,
+            0.0013035181280831028
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0017001586538443027,
+          "conditional_centered_region_bootstrap_95": [
+            -0.004117127044754368,
+            0.00044404875042713574
+          ],
+          "region_fraction_improved_mse": 0.39705882352941174
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": -0.0015613616764236272,
+          "conditional_region_bootstrap_95": [
+            -0.0034646798336436745,
+            -0.00016323358925868299
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0013554049485632912,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0026963044802976194,
+            -0.000282209119875738
+          ],
+          "region_fraction_improved_mse": 0.4117647058823529
+        }
+      }
+    },
+    {
+      "outcome_year": 2024,
+      "training_outcome_year": 2023,
+      "predictor": "histogram_huber75",
+      "n": 1678,
+      "regions": 68,
+      "municipality_rmse": 0.24464165215031208,
+      "municipality_mae": 0.19339069985561225,
+      "equal_region_mse": 0.0595767851941717,
+      "equal_region_centered_error_sample_variance": 0.023535079600110094,
+      "equal_region_mean_error": 0.16734934589117495,
+      "regions_with_pairs": 67,
+      "comparisons": {
+        "linear_controls": {
+          "equal_region_mse_improvement": 0.003772968880375089,
+          "conditional_region_bootstrap_95": [
+            -0.0034356980290866936,
+            0.011038222612053455
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00030314890447128513,
+          "conditional_centered_region_bootstrap_95": [
+            -0.001888298939588915,
+            0.002550151519105855
+          ],
+          "region_fraction_improved_mse": 0.5
+        },
+        "linear_continuous5": {
+          "equal_region_mse_improvement": 0.0009756693215537307,
+          "conditional_region_bootstrap_95": [
+            -0.005929411856815111,
+            0.007540220773249505
+          ],
+          "equal_region_centered_error_variance_improvement": -0.0007982605715926922,
+          "conditional_centered_region_bootstrap_95": [
+            -0.003013662229027375,
+            0.0015353231893085093
+          ],
+          "region_fraction_improved_mse": 0.38235294117647056
+        },
+        "linear_kmeans4": {
+          "equal_region_mse_improvement": 0.0016639816730494932,
+          "conditional_region_bootstrap_95": [
+            -0.004148900622874369,
+            0.007144706303853754
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0002143251009692533,
+          "conditional_centered_region_bootstrap_95": [
+            -0.002043342223543728,
+            0.0025160577851997775
+          ],
+          "region_fraction_improved_mse": 0.45588235294117646
+        },
+        "linear_huber75": {
+          "equal_region_mse_improvement": 0.0012727308044765161,
+          "conditional_region_bootstrap_95": [
+            -0.004588635366438378,
+            0.006676285119836758
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00012748992152063332,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0020697033495319143,
+            0.002528978757300769
+          ],
+          "region_fraction_improved_mse": 0.4411764705882353
+        },
+        "quadratic_controls": {
+          "equal_region_mse_improvement": 0.0035132166623065395,
+          "conditional_region_bootstrap_95": [
+            -0.001229459777836193,
+            0.008938757269799074
+          ],
+          "equal_region_centered_error_variance_improvement": 0.000905789429208472,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0016215359409271414,
+            0.003912640372229737
+          ],
+          "region_fraction_improved_mse": 0.39705882352941174
+        },
+        "quadratic_continuous5": {
+          "equal_region_mse_improvement": 0.001994700609811367,
+          "conditional_region_bootstrap_95": [
+            -0.0033500611735273974,
+            0.00740073827646479
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0009410686962736549,
+          "conditional_centered_region_bootstrap_95": [
+            -0.001576778495272066,
+            0.003987165626778031
+          ],
+          "region_fraction_improved_mse": 0.4411764705882353
+        },
+        "quadratic_kmeans4": {
+          "equal_region_mse_improvement": 0.001315358517704559,
+          "conditional_region_bootstrap_95": [
+            -0.0023618101075039114,
+            0.004910233166729553
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0007423965327024697,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0017753934634373526,
+            0.003724643443811303
+          ],
+          "region_fraction_improved_mse": 0.4411764705882353
+        },
+        "quadratic_huber75": {
+          "equal_region_mse_improvement": 0.0007317694702729749,
+          "conditional_region_bootstrap_95": [
+            -0.0029119627270702657,
+            0.004300475383336366
+          ],
+          "equal_region_centered_error_variance_improvement": 0.000513468963574817,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0019701238417439,
+            0.0034474906693408736
+          ],
+          "region_fraction_improved_mse": 0.4264705882352941
+        },
+        "histogram_controls": {
+          "equal_region_mse_improvement": 0.0024598138839983345,
+          "conditional_region_bootstrap_95": [
+            -3.469395993714717e-05,
+            0.005545319120639809
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0009139167988013795,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00017683294389544396,
+            0.0022332832938672547
+          ],
+          "region_fraction_improved_mse": 0.47058823529411764
+        },
+        "histogram_continuous5": {
+          "equal_region_mse_improvement": -0.0010207076470220842,
+          "conditional_region_bootstrap_95": [
+            -0.005332759094771142,
+            0.003531604056392401
+          ],
+          "equal_region_centered_error_variance_improvement": -0.00034475370528101143,
+          "conditional_centered_region_bootstrap_95": [
+            -0.0020280589618022603,
+            0.0012244959579900394
+          ],
+          "region_fraction_improved_mse": 0.45588235294117646
+        },
+        "histogram_kmeans4": {
+          "equal_region_mse_improvement": 0.0015613616764236272,
+          "conditional_region_bootstrap_95": [
+            0.00016323358925868293,
+            0.003464679833643674
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0013554049485632912,
+          "conditional_centered_region_bootstrap_95": [
+            0.0002822091198757372,
+            0.0026963044802976194
+          ],
+          "region_fraction_improved_mse": 0.5882352941176471
+        },
+        "histogram_huber75": {
+          "equal_region_mse_improvement": 0.0,
+          "conditional_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0,
+          "conditional_centered_region_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "region_fraction_improved_mse": 0.0
+        }
+      }
+    }
+  ],
+  "limits": [
+    "The architecture itself was chosen after inspecting national2023X; heldoutregion influences that historical architecture choice. New fits are inductive conditional on fixed architecture, not full selection-process independence.",
+    "Frozen2016complete2023-24expense-panel entities, retrospectively selected; nonrandom external outcome missingness",
+    "Every economic learner fits2023other-region wages; apply SAME2023covariates/features/labels to predict2024heldoutregion wage. No2024X or2024y calibration/refitting. 2024was inspected previously; exploratory forecast backtest.",
+    "1999 paired region bootstrap conditional on fixed OOF predictions; dependent overlapping fits/spatial regions mean no generic inferential95coverage guarantee; no conditionalpvalue"
+  ],
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1",
+    "scikit-learn": "1.5.2"
+  }
+}

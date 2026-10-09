@@ -1,0 +1,26 @@
+{
+  "models": [
+    {
+      "id": "historical_kmeans4",
+      "artifact": "historical_kmeans4.json",
+      "sha256": "12e72c67cd6e2db9d3249a9211670eb04336c69fa5883cb5b1a0277496edb334",
+      "n": 2016,
+      "raw_panel_replay_exact": true
+    },
+    {
+      "id": "sw_constrained_huber75",
+      "artifact": "sw_constrained_huber75.json",
+      "sha256": "41a1071c7d35019f93218d09b6b5abc293bec3b3b4fafdc740cf2c7ac572003a",
+      "n": 2016,
+      "raw_panel_replay_exact": true
+    },
+    {
+      "id": "sw_constrained_ordinary",
+      "artifact": "sw_constrained_ordinary.json",
+      "sha256": "c3a6ee51ba00c2825b9346e2b248710b4a8214df1bdf4a9f192cc978a055bd30",
+      "n": 2016,
+      "raw_panel_replay_exact": true
+    }
+  ],
+  "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa"
+}

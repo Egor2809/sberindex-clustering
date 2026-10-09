@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "date": "2026-10-03",
+  "scope": "Immutable independent scientific acceptance payload; manifest does not hash itself",
+  "source_matches_full_suite_after": true,
+  "payload": {
+    "dual-contract-review.json": {
+      "sha256": "59096bc6137826d980f412ba2a235c3c4f66262338a9f0cac0e75982f3274c9f",
+      "bytes": 781
+    },
+    "economic-evidence-review.json": {
+      "sha256": "48dde7eb945552c31e6456bdadd80cb7e4552e0cc0372dcdb4e3b75804293f45",
+      "bytes": 6316
+    },
+    "findings.json": {
+      "sha256": "7960ccd33ac863237232474a7d3e32946e40a13b3af26ac07505152acd9b6611",
+      "bytes": 6365
+    },
+    "full-compile.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "full-suite.json": {
+      "sha256": "885cb4906eb58387ad8a5038ef68ed330b9ac4c992d13fc97067276e976a0d81",
+      "bytes": 26948
+    },
+    "full-tests.log": {
+      "sha256": "67312568549d6aee1b74db4193c644410fe5daf0b466e2c37a8783cc2687dc6f",
+      "bytes": 33641
+    },
+    "guarded-export-review.json": {
+      "sha256": "fc87ab93f175d88f89e42c0dcadb1b3e5b4c207d65b4f8b37764a8a79da8ff24",
+      "bytes": 329
+    },
+    "oracle-results-economic-current.json": {
+      "sha256": "7eb85772986dfb3586812636e69857f8ac11423450e16eb83265e7c69ddbd6a8",
+      "bytes": 1228
+    },
+    "oracle-results-temporal-current.json": {
+      "sha256": "b0677976e094314c3cab73b07adc44338552d6b823ad773c9fe05d8af5dd5cf9",
+      "bytes": 1154
+    },
+    "oracles/oracle_controls.py": {
+      "sha256": "e51349716055cf1654972826a2ba40b6a9266c5c0c534d227bccffca52c5a0cc",
+      "bytes": 12196
+    },
+    "oracles/run_full_validation.py": {
+      "sha256": "dd80d834a64be7b0639de44cc7dd219acd9302630bb37b863ac027d0b834b036",
+      "bytes": 3136
+    },
+    "oracles/verify_dual_contract.py": {
+      "sha256": "2d6f93ee7101aa2083d2e4bfb8f7ba3ba226856ba5effa7b7f1d972117c137ef",
+      "bytes": 7755
+    },
+    "oracles/verify_economic_evidence.py": {
+      "sha256": "7e9ba36b98129006a6849f4935523f1feff5fab07e79be783b69d95dd2ede416",
+      "bytes": 14369
+    },
+    "oracles/verify_guarded_export.py": {
+      "sha256": "3b5c4137218d5d52ed7fdabf7f6658da006d7b2bba62920829e3c79a6d9de885",
+      "bytes": 2481
+    },
+    "oracles/verify_paired_evidence.py": {
+      "sha256": "8ce0fb1374746b4f4d705574c5f292f398099202464968dcaf204ceade25fc2b",
+      "bytes": 7169
+    },
+    "oracles/verify_pipeline_controls.py": {
+      "sha256": "e510b004f1dc5b4f669079ac839add366bbe45da825fa524b7c2d1bffea1792e",
+      "bytes": 5979
+    },
+    "oracles/verify_sector_bounds.py": {
+      "sha256": "bba84fdeb76ee6fe9d89bfbd83fcc18bc469e3cd0145851ed7803f2de7f1ec98",
+      "bytes": 4567
+    },
+    "oracles/verify_sector_evidence.py": {
+      "sha256": "c93b5a46093ccc12a6eb87ea2e6e5d99732854b00307c8ba88785eb1b83d81f1",
+      "bytes": 7298
+    },
+    "oracles/verify_temporal_evidence.py": {
+      "sha256": "583e92b34ad1a03720d363afb1d53a63d718dfbca4efdc8390c2393188152bed",
+      "bytes": 5569
+    },
+    "paired-evidence-review.json": {
+      "sha256": "f44fe8b2aa8b94d0afd9894f62cda6346636223c1de8ff6a87283a7557c3f84b",
+      "bytes": 1193
+    },
+    "pipeline-controls-review.json": {
+      "sha256": "0950c52ee725a1002474523735c4767882baa78a23fa108875ed6688942d2fa1",
+      "bytes": 1119
+    },
+    "README.md": {
+      "sha256": "615a990d8f44fc10c09120854345b7b97b86dce67c983b5808ad40f58f3ce2cf",
+      "bytes": 8129
+    },
+    "requirements.json": {
+      "sha256": "bb1b85dc91c7b0641c18468be166c4456d12cc4d9acf20d16c0a21bcbd8404ba",
+      "bytes": 8267
+    },
+    "sector-bounds-controls.json": {
+      "sha256": "e7d41fa81849fc0b24ae82ecd839a21e9a88e01a34f22f2023cba9df53d9d6d5",
+      "bytes": 707
+    },
+    "sector-cohort-independence.json": {
+      "sha256": "41f1ca3398c170b598d6e3b0514a2d3681da23abe5918b99e3b49f7ab7b9b111",
+      "bytes": 935
+    },
+    "sector-evidence-review.json": {
+      "sha256": "f3d964ce9c8721e86ea2a6554fd6a82c28dbd81f0871e5b62c89bcb4fd0d7dbc",
+      "bytes": 1388
+    },
+    "temporal-evidence-review.json": {
+      "sha256": "880affaa6330a9f170828713169e0cbd5bbc049c882e34d4199ad5e39a47484b",
+      "bytes": 754
+    }
+  }
+}

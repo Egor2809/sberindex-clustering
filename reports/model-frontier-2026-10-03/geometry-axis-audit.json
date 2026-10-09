@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "n": 2016,
+  "k": 4,
+  "CH_independent": 779.8270404177399,
+  "total_ss": 1002.2635894368385,
+  "between_ss": 538.84566672133,
+  "axis_total_ss": 112.69936420342668,
+  "axis_between_ss": 34.3266359915286,
+  "between_total_fraction": 0.5376286960839332,
+  "axis_eta_squared_direct": 0.3045858886086323,
+  "axis_eta_squared_factored": 0.3045858886086322,
+  "raw_mean_direction_eta_squared": 0.6948503655271684,
+  "raw_median_monthly_mean_eta_squared": 0.6925500944467706,
+  "direction_cosine_inverse_iqr_vs_iqr": 0.5509142382891279,
+  "angle_degrees": 56.57024383339298,
+  "same_order_reconstruction_max_error": 1.3322676295501878e-15,
+  "different_aggregation_orders_max_difference": 0.16269808563896193,
+  "interpretation": "Perturbing total follows inverse-IQR direction; raw mean log-ratio has IQR coefficients. Different directions and aggregation orders are not interchangeable. No denominator-insensitivity claim for the baseline.",
+  "input_sha256": {
+    "original_features.npy": "db16fc485169b4a29e9217d6340d36991b2582b323a3c63889f587f428dd9abc",
+    "labels.json": "3b54cef4a3558c9b8025c01ea55baa1c73d91638146a56bfcd13eee8e55fde98",
+    "provenance.json": "373ffa657c4656cba4624239a1bdb79b146a6870b75528d548a419fc70f6d73e",
+    "comparisons.json": "ceefff5dcb293674e9030591be78cdef429cf8afd7c6c63090eea33a53e89ffb",
+    "panel.csv": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa"
+  },
+  "verifier_sha256": "d9e1bab0db674cf26079688d6700fc96793c6d7397de08000083e77f76b1e530"
+}

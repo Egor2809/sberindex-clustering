@@ -1,0 +1,455 @@
+{
+  "question": "Do the four types explain external indicators beyond region and population?",
+  "inputs": {
+    "indicators": {
+      "path": "reports/external-municipal/municipal_indicators.csv",
+      "sha256": "66f260cf6ba61e8bc708ad29e13f184390611442c422b3694512ca07325a177c"
+    },
+    "market_access": {
+      "path": "data/processed/market_access_2024.csv",
+      "sha256": "79d0853ec6bb4e7f5799487029a2f76a6afde201866f23b99b32ac295c9ab002"
+    },
+    "labels": {
+      "path": "reports/experiments/2026-09-23-v2/validation/reference_assignments.csv",
+      "sha256": "4124e33f26d214c96167d3203140058587ad916e31e21c989e9c878e73f1d2bb"
+    }
+  },
+  "seed": 1729,
+  "permutations": 999,
+  "type_names": {
+    "0": "Сбалансированный: средние МО",
+    "1": "Продуктовый: малые районы",
+    "2": "Городской сервисный",
+    "3": "Удалённый: мало маркетплейсов"
+  },
+  "increment_over_population": [
+    {
+      "outcome": "wage_2023",
+      "label": "Зарплата крупных и средних организаций, 2023",
+      "transform": "log",
+      "controls": "region_population",
+      "n": 2011,
+      "regions": 73,
+      "r2_population_only": 0.1612723553050861,
+      "r2_base": 0.8029425872541425,
+      "r2_with_type": 0.8110514105160458,
+      "delta_r2": 0.00810882326190332,
+      "partial_r2_type": 0.04114954697167961,
+      "classical_f": 27.666192571838145,
+      "classical_p": 1.6246280406292298e-17,
+      "cluster_robust_wald": {
+        "f": 8.059314278268019,
+        "df1": 3,
+        "df2": 72,
+        "p_value": 0.00010593829681849742
+      },
+      "freedman_lane_permutation_p": 0.001,
+      "type_coefficients_vs_type": "0",
+      "type_coefficients": {
+        "1": {
+          "estimate": -0.05602610488706969,
+          "cluster_se": 0.017737556016667304
+        },
+        "2": {
+          "estimate": 0.12721719953374624,
+          "cluster_se": 0.03064787879707575
+        },
+        "3": {
+          "estimate": 0.11687465661666721,
+          "cluster_se": 0.07107270950816577
+        }
+      }
+    },
+    {
+      "outcome": "wage_2023",
+      "label": "Зарплата крупных и средних организаций, 2023",
+      "transform": "log",
+      "controls": "region_population_mo_type",
+      "n": 2011,
+      "regions": 73,
+      "r2_population_only": 0.1612723553050861,
+      "r2_base": 0.8059760919856849,
+      "r2_with_type": 0.8140697652401576,
+      "delta_r2": 0.008093673254472744,
+      "partial_r2_type": 0.04171482441161628,
+      "classical_f": 28.033770745317316,
+      "classical_p": 9.6443890356474e-18,
+      "cluster_robust_wald": {
+        "f": 8.230762396303492,
+        "df1": 3,
+        "df2": 72,
+        "p_value": 8.805419947987264e-05
+      },
+      "freedman_lane_permutation_p": 0.001,
+      "type_coefficients_vs_type": "0",
+      "type_coefficients": {
+        "1": {
+          "estimate": -0.049422700420540616,
+          "cluster_se": 0.016322850847598255
+        },
+        "2": {
+          "estimate": 0.1261592697981313,
+          "cluster_se": 0.030522131289398895
+        },
+        "3": {
+          "estimate": 0.13362758184778153,
+          "cluster_se": 0.07024516011474662
+        }
+      }
+    },
+    {
+      "outcome": "above_working_age_share_2023",
+      "label": "Доля старше трудоспособного возраста, 2023",
+      "transform": "identity",
+      "controls": "region_population",
+      "n": 1869,
+      "regions": 72,
+      "r2_population_only": 0.11260743182879607,
+      "r2_base": 0.6767648582139144,
+      "r2_with_type": 0.6854826131269636,
+      "delta_r2": 0.008717754913049158,
+      "partial_r2_type": 0.026970319083741513,
+      "classical_f": 16.566052425592403,
+      "classical_p": 1.2819547481901905e-10,
+      "cluster_robust_wald": {
+        "f": 7.998012488422476,
+        "df1": 3,
+        "df2": 71,
+        "p_value": 0.00011519218325838327
+      },
+      "freedman_lane_permutation_p": 0.001,
+      "type_coefficients_vs_type": "0",
+      "type_coefficients": {
+        "1": {
+          "estimate": 0.01187581905545105,
+          "cluster_se": 0.0025215344796577933
+        },
+        "2": {
+          "estimate": -0.008576007632826805,
+          "cluster_se": 0.00507409858075851
+        },
+        "3": {
+          "estimate": -0.009025242421329682,
+          "cluster_se": 0.007888513039845687
+        }
+      }
+    },
+    {
+      "outcome": "above_working_age_share_2023",
+      "label": "Доля старше трудоспособного возраста, 2023",
+      "transform": "identity",
+      "controls": "region_population_mo_type",
+      "n": 1869,
+      "regions": 72,
+      "r2_population_only": 0.11260743182879607,
+      "r2_base": 0.6774428145680546,
+      "r2_with_type": 0.6860712899506598,
+      "delta_r2": 0.00862847538260525,
+      "partial_r2_type": 0.026750219100066284,
+      "classical_f": 16.40882034206337,
+      "classical_p": 1.6060755582404236e-10,
+      "cluster_robust_wald": {
+        "f": 8.093138970835271,
+        "df1": 3,
+        "df2": 71,
+        "p_value": 0.00010396949968767135
+      },
+      "freedman_lane_permutation_p": 0.001,
+      "type_coefficients_vs_type": "0",
+      "type_coefficients": {
+        "1": {
+          "estimate": 0.012080884228290067,
+          "cluster_se": 0.002529271115830022
+        },
+        "2": {
+          "estimate": -0.008447067808939772,
+          "cluster_se": 0.005106407456042599
+        },
+        "3": {
+          "estimate": -0.00833513309612089,
+          "cluster_se": 0.007813699199317034
+        }
+      }
+    },
+    {
+      "outcome": "share_trade",
+      "label": "Доля работников в торговле (G)",
+      "transform": "identity",
+      "controls": "region_population",
+      "n": 1922,
+      "regions": 73,
+      "r2_population_only": 0.16712073710594466,
+      "r2_base": 0.40787154247948354,
+      "r2_with_type": 0.4151513980650987,
+      "delta_r2": 0.007279855585615169,
+      "partial_r2_type": 0.012294385606965922,
+      "classical_f": 7.655162670033559,
+      "classical_p": 4.381739612357818e-05,
+      "cluster_robust_wald": {
+        "f": 6.900942152040602,
+        "df1": 3,
+        "df2": 72,
+        "p_value": 0.0003778605857150596
+      },
+      "freedman_lane_permutation_p": 0.001,
+      "type_coefficients_vs_type": "0",
+      "type_coefficients": {
+        "1": {
+          "estimate": -0.0025874821127442812,
+          "cluster_se": 0.002130792005596046
+        },
+        "2": {
+          "estimate": 0.025939367358104634,
+          "cluster_se": 0.006001009866730736
+        },
+        "3": {
+          "estimate": -0.008105824446659159,
+          "cluster_se": 0.00411326951377042
+        }
+      }
+    },
+    {
+      "outcome": "share_trade",
+      "label": "Доля работников в торговле (G)",
+      "transform": "identity",
+      "controls": "region_population_mo_type",
+      "n": 1922,
+      "regions": 73,
+      "r2_population_only": 0.16712073710594466,
+      "r2_base": 0.40802305384171444,
+      "r2_with_type": 0.41526874980962214,
+      "delta_r2": 0.007245695967907695,
+      "partial_r2_type": 0.012239827944195494,
+      "classical_f": 7.612510114407874,
+      "classical_p": 4.65604647614995e-05,
+      "cluster_robust_wald": {
+        "f": 6.90464426445078,
+        "df1": 3,
+        "df2": 72,
+        "p_value": 0.00037630446519325766
+      },
+      "freedman_lane_permutation_p": 0.001,
+      "type_coefficients_vs_type": "0",
+      "type_coefficients": {
+        "1": {
+          "estimate": -0.002705312713199161,
+          "cluster_se": 0.002120401538418717
+        },
+        "2": {
+          "estimate": 0.025919794249312587,
+          "cluster_se": 0.0060357119618999365
+        },
+        "3": {
+          "estimate": -0.008589530470569828,
+          "cluster_se": 0.004095088684690515
+        }
+      }
+    },
+    {
+      "outcome": "share_public_services",
+      "label": "Доля работников в бюджетном секторе (O+P+Q)",
+      "transform": "identity",
+      "controls": "region_population",
+      "n": 1744,
+      "regions": 73,
+      "r2_population_only": 0.1896995005570502,
+      "r2_base": 0.37372216301326555,
+      "r2_with_type": 0.38729319226557557,
+      "delta_r2": 0.013571029252310018,
+      "partial_r2_type": 0.021669342982988993,
+      "classical_f": 12.30762983644797,
+      "classical_p": 5.7827049118762236e-08,
+      "cluster_robust_wald": {
+        "f": 4.987705704374881,
+        "df1": 3,
+        "df2": 72,
+        "p_value": 0.00336325828595486
+      },
+      "freedman_lane_permutation_p": 0.001,
+      "type_coefficients_vs_type": "0",
+      "type_coefficients": {
+        "1": {
+          "estimate": 0.023394946713102202,
+          "cluster_se": 0.01268158730012227
+        },
+        "2": {
+          "estimate": 0.031849384517455226,
+          "cluster_se": 0.02497992514337782
+        },
+        "3": {
+          "estimate": -0.10035863469193818,
+          "cluster_se": 0.05048671117387277
+        }
+      }
+    },
+    {
+      "outcome": "share_public_services",
+      "label": "Доля работников в бюджетном секторе (O+P+Q)",
+      "transform": "identity",
+      "controls": "region_population_mo_type",
+      "n": 1744,
+      "regions": 73,
+      "r2_population_only": 0.1896995005570502,
+      "r2_base": 0.3798279333460194,
+      "r2_with_type": 0.3940754216350181,
+      "delta_r2": 0.014247488288998689,
+      "partial_r2_type": 0.0229734440731397,
+      "classical_f": 13.05006643191686,
+      "classical_p": 2.0007433549981676e-08,
+      "cluster_robust_wald": {
+        "f": 4.9404202398918295,
+        "df1": 3,
+        "df2": 72,
+        "p_value": 0.003554670792503655
+      },
+      "freedman_lane_permutation_p": 0.001,
+      "type_coefficients_vs_type": "0",
+      "type_coefficients": {
+        "1": {
+          "estimate": 0.019989059667607292,
+          "cluster_se": 0.012132264495504879
+        },
+        "2": {
+          "estimate": 0.03210465730785991,
+          "cluster_se": 0.024461635116509395
+        },
+        "3": {
+          "estimate": -0.10874717660373565,
+          "cluster_se": 0.050670952539674276
+        }
+      }
+    },
+    {
+      "outcome": "market_access",
+      "label": "Индекс доступности рынков СберИндекса, 2024",
+      "transform": "identity",
+      "controls": "region_population",
+      "n": 1999,
+      "regions": 73,
+      "r2_population_only": 0.13427008594432943,
+      "r2_base": 0.8965268291066875,
+      "r2_with_type": 0.8992693194537146,
+      "delta_r2": 0.0027424903470271156,
+      "partial_r2_type": 0.026504361694441536,
+      "classical_f": 17.442770558748144,
+      "classical_p": 3.570212523486833e-11,
+      "cluster_robust_wald": {
+        "f": 5.906507754862286,
+        "df1": 3,
+        "df2": 72,
+        "p_value": 0.001161632580476619
+      },
+      "freedman_lane_permutation_p": 0.001,
+      "type_coefficients_vs_type": "0",
+      "type_coefficients": {
+        "1": {
+          "estimate": -9.89866831424785,
+          "cluster_se": 2.9450268751114543
+        },
+        "2": {
+          "estimate": 26.029990399392034,
+          "cluster_se": 11.573565356145586
+        },
+        "3": {
+          "estimate": 0.06708073583062912,
+          "cluster_se": 3.9187980058594536
+        }
+      }
+    },
+    {
+      "outcome": "market_access",
+      "label": "Индекс доступности рынков СберИндекса, 2024",
+      "transform": "identity",
+      "controls": "region_population_mo_type",
+      "n": 1999,
+      "regions": 73,
+      "r2_population_only": 0.13427008594432943,
+      "r2_base": 0.8989808852865592,
+      "r2_with_type": 0.9022718149015705,
+      "delta_r2": 0.0032909296150113176,
+      "partial_r2_type": 0.03257729613199087,
+      "classical_f": 21.551561112957653,
+      "classical_p": 9.963303524689339e-14,
+      "cluster_robust_wald": {
+        "f": 6.026697329711318,
+        "df1": 3,
+        "df2": 72,
+        "p_value": 0.0010126335907568995
+      },
+      "freedman_lane_permutation_p": 0.001,
+      "type_coefficients_vs_type": "0",
+      "type_coefficients": {
+        "1": {
+          "estimate": -12.463296235135871,
+          "cluster_se": 3.3046184072195484
+        },
+        "2": {
+          "estimate": 27.41472235969433,
+          "cluster_se": 11.728716563007463
+        },
+        "3": {
+          "estimate": -3.573652049305707,
+          "cluster_se": 3.1486583530657946
+        }
+      }
+    }
+  ],
+  "notes": [
+    "labels are fixed; nothing is refitted",
+    "cluster-robust Wald test: CR1 by region, F reference with G-1 denominator df",
+    "Freedman-Lane permutation of reduced-model residuals within regions"
+  ],
+  "peer_bootstrap": {
+    "n_territories": 1774,
+    "mean_absolute_growth_error_pp": {
+      "temporal_consensus_15": 2.6789031405891377,
+      "profile_15": 2.72138541173864,
+      "region_all": 2.8118954493164443
+    },
+    "contrasts": [
+      {
+        "method": "temporal_consensus_15",
+        "baseline": "profile_15",
+        "mean_improvement": 0.04248227114950237,
+        "ci_95": [
+          0.007903604028749506,
+          0.07498774944757147
+        ],
+        "n_territories": 1774,
+        "n_regions": 71,
+        "repetitions": 1000,
+        "resampling_unit": "region",
+        "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+      },
+      {
+        "method": "temporal_consensus_15",
+        "baseline": "region_all",
+        "mean_improvement": 0.132992308727307,
+        "ci_95": [
+          0.019550261095816153,
+          0.2427814569198793
+        ],
+        "n_territories": 1774,
+        "n_regions": 71,
+        "repetitions": 1000,
+        "resampling_unit": "region",
+        "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+      },
+      {
+        "method": "profile_15",
+        "baseline": "region_all",
+        "mean_improvement": 0.09051003757780464,
+        "ci_95": [
+          -0.022929080291697573,
+          0.20604678634067497
+        ],
+        "n_territories": 1774,
+        "n_regions": 71,
+        "repetitions": 1000,
+        "resampling_unit": "region",
+        "caveat": "conditional descriptive bootstrap; dependence between regions not removed"
+      }
+    ],
+    "reading": "mean_improvement > 0: method is closer to observed 2024 growth than baseline"
+  }
+}

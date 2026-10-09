@@ -1,0 +1,14 @@
+# Preserve source bytes so checksums remain consistent across checkouts.
+* -text
+*.zip binary
+*.parquet binary
+*.gpkg binary
+*.xlsx binary
+*.pdf binary
+# Generated views; the editable HTML template and Python sources stay visible.
+docs/index.html linguist-generated=true
+reports/contest-v3/municipal_map.json linguist-generated=true
+reports/contest-v3/descriptive.json linguist-generated=true
+
+# Preserve the frozen metadata bytes; formatting changes would break scientific input pins.
+reports/future-outcome-2026-10-04/context/source-metadata.csv -whitespace

@@ -1,0 +1,241 @@
+test_changed_centers_rejected_even_when_reference_labels_match (test_artifact_integrity.ArtifactIntegrityTests) ... ok
+test_manifest_requires_exact_entry_and_rejects_duplicate_and_escape (test_artifact_integrity.ArtifactIntegrityTests) ... ok
+test_common_drift_removal_recovers_original_prototypes (test_contest_dynamics.DynamicsTests) ... ok
+test_descriptive_gate_still_requires_aligned_ids (test_contest_dynamics.DynamicsTests) ... ok
+test_disjoint_cohorts_still_account_for_entries_and_exits (test_contest_dynamics.DynamicsTests) ... ok
+test_drift_matrix_and_counts_use_the_supplied_prototype_count (test_contest_dynamics.DynamicsTests) ... ok
+test_drift_prototypes_are_finite_and_share_the_feature_space (test_contest_dynamics.DynamicsTests) ... ok
+test_fixed_prototype_flow_conserves_population (test_contest_dynamics.DynamicsTests) ... ok
+test_transition_labels_are_not_silently_truncated_or_rounded (test_contest_dynamics.DynamicsTests) ... ok
+test_unknown_boundaries_do_not_silently_pass_default_gate (test_contest_dynamics.DynamicsTests) ... ok
+test_attribute_distance_overflow_rejected_before_nan_graph (test_contest_graphs.LayerTests) ... ok
+test_common_time_shock_does_not_change_residual_graph (test_contest_graphs.LayerTests) ... ok
+test_distance_kernel_bandwidth_does_not_overflow_its_median (test_contest_graphs.LayerTests) ... ok
+test_empty_layers_rejected (test_contest_graphs.LayerTests) ... ok
+test_graph_summary_counts_edges_after_sparse_canonicalization (test_contest_graphs.LayerTests) ... ok
+test_invalid_neighbor_count_and_empty_feature_axis_rejected (test_contest_graphs.LayerTests) ... ok
+test_missing_distance_is_not_a_close_neighbor (test_contest_graphs.LayerTests) ... ok
+test_mixture_is_invariant_to_layer_scale_and_has_exact_endpoints (test_contest_graphs.LayerTests) ... ok
+test_normalization_is_invariant_to_extreme_finite_weight_scale (test_contest_graphs.LayerTests) ... ok
+test_rejects_lost_territories_in_flow (test_contest_payload.ContestPayloadTests) ... ok
+test_rejects_unknown_map_geometry (test_contest_payload.ContestPayloadTests) ... ok
+test_rejects_unmatched_memberships (test_contest_payload.ContestPayloadTests) ... ok
+test_api_timezone_does_not_move_month (test_contracts.Contracts) ... ok
+test_composition_scale_invariance_and_residual (test_contracts.Contracts) ... ok
+test_disabled_fit_never_calls_estimator (test_contracts.Contracts) ... ok
+test_disconnected_network_undefined_is_explicit (test_contracts.Contracts) ... ok
+test_future_outcome_does_not_select_neighbors (test_contracts.Contracts) ... ok
+test_future_values_do_not_change_development_scaling (test_contracts.Contracts) ... ok
+test_graph_symmetry_no_loops_and_union_degree (test_contracts.Contracts) ... ok
+test_identical_features_have_finite_tie_behavior (test_contracts.Contracts) ... ok
+test_label_permutation_not_transition (test_contracts.Contracts) ... ok
+test_model_execution_requires_both_switches (test_contracts.Contracts) ... ok
+test_network_hand_computed_path (test_contracts.Contracts) ... ok
+test_parent_not_summed_and_negative_residual_rejected (test_contracts.Contracts) ... ok
+test_registry_interval_is_end_exclusive (test_contracts.Contracts) ... ok
+test_registry_overlap_is_not_silently_deduplicated (test_contracts.Contracts) ... ok
+test_sdbw_empty_balls_not_silent_zero (test_contracts.Contracts) ... ok
+test_sdbw_separated_point_masses (test_contracts.Contracts) ... ok
+test_split_preserves_many_to_many_accounting (test_contracts.Contracts) ... ok
+test_wrong_month_start_rejected (test_contracts.Contracts) ... ok
+test_attribute_and_parameter_gradients_equal_dense_network (test_dmon.DMoNTests) ... ok
+test_fit_changes_when_attributes_or_graph_change (test_dmon.DMoNTests) ... ok
+test_float32_graph_volume_overflow_rejected_before_training (test_dmon.DMoNTests) ... ok
+test_graph_weight_gradient_equal_dense_equation (test_dmon.DMoNTests) ... ok
+test_hard_partition_matches_manual_modularity_and_collapse (test_dmon.DMoNTests) ... ok
+test_invalid_inputs_rejected (test_dmon.DMoNTests) ... ok
+test_loss_and_assignment_gradient_are_invariant_to_extreme_weight_units (test_dmon.DMoNTests) ... ok
+test_normalization_no_loops_and_isolates_finite (test_dmon.DMoNTests) ... ok
+{"dmon_progress": {"epoch": 0, "best_epoch": 0, "best_objective": 0.037157297134399414, "elapsed_seconds": 0.0018415999948047101, "plateau_windows": 0}, "k": 2, "seed": 17}
+{"dmon_progress": {"epoch": 2, "best_epoch": 2, "best_objective": 0.03446298837661743, "elapsed_seconds": 0.004714199996669777, "plateau_windows": 0}, "k": 2, "seed": 17}
+{"dmon_progress": {"epoch": 4, "best_epoch": 4, "best_objective": 0.031835734844207764, "elapsed_seconds": 0.007010499990428798, "plateau_windows": 1}, "k": 2, "seed": 17}
+{"dmon_progress": {"epoch": 6, "best_epoch": 6, "best_objective": 0.02928096055984497, "elapsed_seconds": 0.009222199994837865, "plateau_windows": 2}, "k": 2, "seed": 17}
+test_plateau_fit_stops_and_preserves_best_checkpoint (test_dmon.DMoNTests) ... ok
+test_plateau_requires_consecutive_loss_and_label_stability (test_dmon.DMoNTests) ... ok
+test_seed_checkpoint_trace_and_original_inputs (test_dmon.DMoNTests) ... ok
+test_small_asymmetric_graph_is_not_hidden_by_absolute_tolerance (test_dmon.DMoNTests) ... ok
+test_sparse_value_and_assignment_gradient_equal_dense_equation (test_dmon.DMoNTests) ... ok
+test_oktmo_normalisation_is_strict (test_external_altai.ExternalAltaiParser) ... ok
+test_panel_join_requires_identical_unique_oktmo_set (test_external_altai.ExternalAltaiParser) ... ok
+test_suppressed_and_missing_shipments_are_not_zero (test_external_altai.ExternalAltaiParser) ... ok
+test_tourism_bridge_uses_exact_conservative_normalisation (test_external_altai.ExternalAltaiParser) ... ok
+unittest.case.FunctionTestCase (test_bootstrap_is_reproducible_and_does_not_mutate_labels) ... ok
+unittest.case.FunctionTestCase (test_fractional_constant_and_fully_controlled_outcomes_are_undefined) ... ok
+unittest.case.FunctionTestCase (test_missing_control_and_unregistered_label_cannot_change_the_cohort_silently) ... ok
+unittest.case.FunctionTestCase (test_partial_r2_is_invariant_to_outcome_and_control_units) ... ok
+unittest.case.FunctionTestCase (test_partial_r2_matches_full_regression_and_removes_region_confound) ... ok
+unittest.case.FunctionTestCase (test_registry_half_open_validity_and_ambiguity) ... ok
+unittest.case.FunctionTestCase (test_small_genuine_residual_is_not_discarded) ... ok
+test_frozen_transform_keeps_level_weight_and_dimensions (test_feature_contracts.FeatureContracts) ... ok
+test_hellinger_accepts_zero_and_constant_categories (test_feature_contracts.FeatureContracts) ... ok
+test_invalid_frozen_scaler_fails_before_distances (test_feature_contracts.FeatureContracts) ... ok
+test_legacy_zero_level_scaler_remains_compatible (test_feature_contracts.FeatureContracts) ... ok
+test_missing_key_does_not_silently_drop_an_observation (test_feature_contracts.FeatureContracts) ... ok
+test_noncanonical_month_cannot_cross_lexical_cutoff (test_feature_contracts.FeatureContracts) ... ok
+test_scaling_cannot_be_fitted_on_confirmation_data (test_feature_contracts.FeatureContracts) ... ok
+test_configs_define_bounded_controlled_design (test_followup.FollowupTests) ... ok
+test_execution_gate_precedes_data_loading (test_followup.FollowupTests) ... ok
+test_existing_result_never_overwritten (test_followup.FollowupTests) ... ok
+{"research_run": "C:\\Users\\Andreyka\\AppData\\Local\\Temp\\tmp1a2hdgfy\\runs\\review-20260924-joint", "stage": "joint"}
+{"candidate": "joint_alpha0_k2", "SW": 0.1, "k": 2, "min_cluster_size": 4}
+{"candidate": "joint_road_k2", "SW": 0.1, "k": 2, "min_cluster_size": 4}
+{"candidate": "joint_alpha0_k3", "SW": 0.1, "k": 3, "min_cluster_size": 2}
+{"candidate": "joint_road_k3", "SW": 0.1, "k": 3, "min_cluster_size": 2}
+{"candidate": "joint_alpha0_k4", "SW": 0.1, "k": 4, "min_cluster_size": 2}
+{"candidate": "joint_road_k4", "SW": 0.1, "k": 4, "min_cluster_size": 2}
+{"candidate": "joint_road_sensitivity_k4", "SW": 0.1, "k": 4, "min_cluster_size": 2}
+{"candidate": "joint_region_shuffled_1730", "SW": 0.1, "k": 4, "min_cluster_size": 1}
+{"candidate": "joint_region_shuffled_1731", "SW": 0.1, "k": 4, "min_cluster_size": 1}
+{"candidate": "joint_region_shuffled_1732", "SW": 0.1, "k": 4, "min_cluster_size": 1}
+{"candidate": "spectral_transport_k4", "SW": 0.1, "k": 4, "min_cluster_size": 2}
+{"status": "completed", "stage": "joint", "seconds": 0.07136619999073446, "new_static_partitions": 8, "n": 8, "temporal_variants": 0}
+{"research_run": "C:\\Users\\Andreyka\\AppData\\Local\\Temp\\tmp1a2hdgfy\\runs\\review-20260924-joint-stability", "stage": "joint_stability"}
+{"candidate": "joint_stability_k2_kmeans_seed2718", "SW": 0.1, "k": 2, "min_cluster_size": 4}
+{"candidate": "joint_stability_k2_kmeans_seed3141", "SW": 0.1, "k": 2, "min_cluster_size": 4}
+{"candidate": "joint_stability_k2_ward_seed1729", "SW": 0.1, "k": 2, "min_cluster_size": 4}
+{"candidate": "joint_stability_k2_ward_seed2718", "SW": 0.1, "k": 2, "min_cluster_size": 4}
+{"candidate": "joint_stability_k4_kmeans_seed2718", "SW": 0.1, "k": 4, "min_cluster_size": 2}
+{"candidate": "joint_stability_k4_kmeans_seed3141", "SW": 0.1, "k": 4, "min_cluster_size": 2}
+{"candidate": "joint_stability_k4_ward_seed1729", "SW": 0.1, "k": 4, "min_cluster_size": 2}
+{"candidate": "joint_stability_k4_ward_seed2718", "SW": 0.1, "k": 4, "min_cluster_size": 2}
+{"status": "completed", "stage": "joint_stability", "seconds": 0.0666009000124177, "new_static_partitions": 8, "n": 8, "temporal_variants": 0}
+test_joint_phase_reuses_baselines_and_counts_only_new_fits (test_followup.FollowupTests) ... ok
+test_missing_strata_rejected (test_followup.FollowupTests) ... ok
+test_permutation_preserves_region_blocks_and_weight_multiset (test_followup.FollowupTests) ... ok
+test_annual_profiles_require_each_complete_year (test_inference.FrozenInferenceTests) ... ok
+test_centroid_tie_has_zero_margin_and_stable_label (test_inference.FrozenInferenceTests) ... ok
+test_cli_output_contains_verified_model_sources_and_no_overwrite (test_inference.FrozenInferenceTests) ... ok
+test_frozen_prediction_never_fits_and_preserves_annual_aggregation (test_inference.FrozenInferenceTests) ... ok
+test_input_duplicate_header_is_rejected_before_output (test_inference.FrozenInferenceTests) ... ok
+test_model_fingerprint_dimensions_and_reference_labels (test_inference.FrozenInferenceTests) ... ok
+test_new_entity_flag_and_identity_consistency (test_inference.FrozenInferenceTests) ... ok
+test_nonfinite_or_duplicate_model_fields_rejected (test_inference.FrozenInferenceTests) ... ok
+test_published_path_is_manifest_bound_without_an_explicit_pin (test_inference.FrozenInferenceTests) ... ok
+test_alpha_zero_reuses_baseline_exactly (test_joint.JointTests) ... ok
+test_capped_fit_does_not_claim_coordinate_convergence (test_joint.JointTests) ... ok
+test_centroid_reoptimization_move_is_not_missed (test_joint.JointTests) ... ok
+test_converged_solution_has_no_improving_reoptimized_vertex_move (test_joint.JointTests) ... ok
+test_hand_calculated_objective_uses_each_edge_once (test_joint.JointTests) ... ok
+test_invalid_data_rejected (test_joint.JointTests) ... ok
+test_overflowing_objective_inputs_rejected (test_joint.JointTests) ... ok
+test_public_stationarity_oracle_detects_frozen_centroid_false_convergence (test_joint.JointTests) ... ok
+test_public_verifier_refuses_existing_destination_before_any_fit (test_joint.JointTests) ... ok
+test_real_graph_changes_solution_monotonically (test_joint.JointTests) ... ok
+test_refinement_artifact_manifest_labels_and_stationarity (test_joint.JointTests) ... ok
+test_uniform_scaling_translation_and_seed_reproduction (test_joint.JointTests) ... ok
+test_quarantines_preexisting_overlap_without_new_bad_edges (test_map_geometry.MapGeometryTests) ... ok
+test_simplifies_one_shared_edge_and_preserves_hole (test_map_geometry.MapGeometryTests) ... ok
+test_all_metrics_keeps_mq_unresolved_and_reports_named_fields (test_metric_variants.MetricVariantTests) ... ok
+test_binary_path_network_indices_and_named_candidates (test_metric_variants.MetricVariantTests) ... ok
+test_ch_and_ch_per_n_match_hand_calculation (test_metric_variants.MetricVariantTests) ... ok
+test_ch_zero_over_zero_is_distinguished (test_metric_variants.MetricVariantTests) ... ok
+test_ch_zero_ssw_reports_positive_infinity_as_null (test_metric_variants.MetricVariantTests) ... ok
+test_feature_and_label_contract_rejects_malformed_partitions (test_metric_variants.MetricVariantTests) ... ok
+test_s_dbw_literal_eq14_is_diagnostic_and_can_reverse_definedness (test_metric_variants.MetricVariantTests) ... ok
+test_stability_rejects_zip_truncation_and_missing_ids (test_metric_variants.MetricVariantTests) ... ok
+test_weighted_graph_variant_uses_original_weights (test_metric_variants.MetricVariantTests) ... ok
+test_zero_edge_graph_has_turbomq_zero_and_newmanq_null (test_metric_variants.MetricVariantTests) ... ok
+test_cli_accepts_explicit_retrospective_scope_consistently (test_model_contracts.ModelContracts) ... ok
+test_cli_failure_and_interrupt_are_saved_as_terminal_statuses (test_model_contracts.ModelContracts) ... ok
+test_execution_gate_rejects_truthy_non_boolean_switch (test_model_contracts.ModelContracts) ... ok
+test_igraph_does_not_silently_drop_invalid_lower_triangle (test_model_contracts.ModelContracts) ... ok
+test_malformed_backend_memberships_cannot_be_silently_zipped (test_model_contracts.ModelContracts) ... ok
+test_negative_iterations_are_legitimate_convergence_mode (test_model_contracts.ModelContracts) ... ok
+test_requested_candidate_metadata_cannot_overwrite_measured_metrics (test_model_contracts.ModelContracts) ... ok
+test_static_real_small_fit_preserves_inputs_and_seed (test_model_contracts.ModelContracts) ... ok
+test_static_shapes_and_graph_are_validated_before_backend (test_model_contracts.ModelContracts) ... ok
+test_temporal_calendar_is_canonical_ordered_and_consecutive (test_model_contracts.ModelContracts) ... ok
+test_temporal_features_and_graphs_match_frozen_vertex_space (test_model_contracts.ModelContracts) ... ok
+test_temporal_invalid_weights_and_iterations_rejected (test_model_contracts.ModelContracts) ... ok
+test_temporal_omega_uses_only_development_graphs (test_model_contracts.ModelContracts) ... ok
+test_duplicate_sparse_entries_count_as_one_binary_edge (test_network_conventions.NetworkConventions) ... ok
+test_low_k_avu_is_a_structural_constant (test_network_conventions.NetworkConventions) ... ok
+test_nonfinite_graph_weights_and_missing_labels_rejected (test_network_conventions.NetworkConventions) ... ok
+test_small_cross_edge_is_not_lost_by_subtracting_internal_mass (test_network_conventions.NetworkConventions) ... ok
+test_weighted_indices_are_finite_at_extreme_scales (test_network_conventions.NetworkConventions) ... ok
+test_bad_reading_and_timeout_cannot_resume_worker (test_pause_monitor.PausedLoadMonitor) ... ok
+test_monitor_delay_cannot_resume_worker (test_pause_monitor.PausedLoadMonitor) ... ok
+test_three_consecutive_readings_reset_after_new_load (test_pause_monitor.PausedLoadMonitor) ... ok
+test_explicitly_excluded_territory_is_allowed (test_peer_atlas_coverage.PeerAtlasCoverage) ... ok
+test_missing_source_cannot_silently_change_cohort (test_peer_atlas_coverage.PeerAtlasCoverage) ... ok
+test_repeated_peer_is_not_fifteen_distinct_analogs (test_peer_atlas_coverage.PeerAtlasCoverage) ... ok
+test_validation_cannot_display_unrelated_pilot_metrics (test_peer_atlas_coverage.PeerAtlasCoverage) ... ok
+test_manifest_and_all_scientific_sources (test_plateau_evidence.PlateauEvidence) ... ok
+test_plateau_objective_checks_reproduce_the_full_trace (test_plateau_evidence.PlateauEvidence) ... ok
+test_active_lock_rejects_concurrent_preparation_without_changing_outputs (test_preparation_transaction.PreparationTransaction) ... ok
+test_changed_sources_are_rejected_before_publication (test_preparation_transaction.PreparationTransaction) ... ok
+test_failed_rollback_retains_backups_and_prevents_another_writer (test_preparation_transaction.PreparationTransaction) ... ok
+test_invalid_market_preserves_every_previous_output (test_preparation_transaction.PreparationTransaction) ... ok
+test_invalid_registry_and_consumption_preserve_previous_outputs (test_preparation_transaction.PreparationTransaction) ... ok
+test_missing_optional_coordinates_and_excluded_metadata_are_supported (test_preparation_transaction.PreparationTransaction) ... C:\Users\Andreyka\Documents\Codex\2026-09-23\gh\work\SberAI\tests\test_preparation_transaction.py:194: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  pd.concat([frame,pd.DataFrame([extra])],ignore_index=True).to_excel(registry,index=False)
+ok
+test_name_only_audit_failure_keeps_accepted_panel (test_preparation_transaction.PreparationTransaction) ... ok
+test_prior_audit_is_kept_only_for_matching_input_vintage (test_preparation_transaction.PreparationTransaction) ... ok
+test_promotion_failure_restores_old_bytes_and_removes_new_outputs (test_preparation_transaction.PreparationTransaction) ... ok
+test_publisher_only_promotes_named_generated_files (test_preparation_transaction.PreparationTransaction) ... ok
+test_script_csv_audit_cannot_replace_canonical_when_parquet_missing (test_preparation_transaction.PreparationTransaction) ... ok
+test_success_promotes_manifest_last_and_records_market_source (test_preparation_transaction.PreparationTransaction) ... ok
+test_all_evidence_and_scientific_source_hashes (test_published_round2.PublishedRoundTwo) ... ok
+test_analogue_case_matches_actual_atlas (test_published_round2.PublishedRoundTwo) ... ok
+test_completed_temporal_grid_has_every_registered_variant (test_published_round2.PublishedRoundTwo) ... ok
+test_completed_raw_stage_exports_without_repeating_training (test_published_round2.StageReuseChecks) ... ok
+test_dmon_export_requires_every_model_and_training_artifact (test_published_round2.StageReuseChecks) ... ok
+test_export_failure_leaves_final_directory_retryable (test_published_round2.StageReuseChecks) ... ok
+test_export_rejects_completed_flag_without_required_evidence (test_published_round2.StageReuseChecks) ... ok
+test_reuse_checks_full_configuration_inputs_and_manifest_coverage (test_published_round2.StageReuseChecks) ... ok
+test_temporal_export_requires_every_registered_membership (test_published_round2.StageReuseChecks) ... ok
+test_block_resampling_is_reproducible_and_calendar_bounded (test_research.ResearchContracts) ... ok
+test_duplicate_scale_is_not_silently_repaired (test_research.ResearchContracts) ... ok
+test_local_affinity_matches_hand_calculation (test_research.ResearchContracts) ... ok
+test_local_graph_is_invariant_to_uniform_units (test_research.ResearchContracts) ... ok
+test_new_fit_paths_keep_execution_gate (test_research.ResearchContracts) ... ok
+test_reference_profile_uses_monthly_median (test_research.ResearchContracts) ... ok
+test_build_is_self_contained_and_uses_attribution (test_research_atlas.ResearchAtlasIntegrationTests) ... ok
+test_incomplete_validation_contract_is_rejected (test_research_atlas.ResearchAtlasIntegrationTests) ... ok
+test_panel_contract_preserves_real_complete_cohort (test_research_atlas.ResearchAtlasIntegrationTests) ... ok
+test_pilot_is_exact_december_kmeans_join (test_research_atlas.ResearchAtlasIntegrationTests) ... ok
+test_compressed_payload_is_deterministic_lossless_and_safe (test_research_atlas.ResearchAtlasUnitTests) ... ok
+test_public_template_states_neighbor_recalculation_scope (test_research_atlas.ResearchAtlasUnitTests) ... ok
+test_script_json_escaping_and_nonfinite_rejection (test_research_atlas.ResearchAtlasUnitTests) ... ok
+test_stability_contract_accepts_scientific_ari_range (test_research_atlas.ResearchAtlasUnitTests) ... ok
+test_compare_labels_checks_ids_and_exact_numeric_labels (test_research_entrypoint.ResearchEntrypoint) ... ok
+test_compare_rejects_duplicate_ids_malformed_labels_and_incomplete_runs (test_research_entrypoint.ResearchEntrypoint) ... ok
+test_development_rejects_correctly_hashed_wrong_identity_before_features (test_research_entrypoint.ResearchEntrypoint) ... ok
+test_failed_and_interrupted_stages_record_terminal_status (test_research_entrypoint.ResearchEntrypoint) ... ok
+test_partition_equivalence_accepts_bijective_renaming (test_research_entrypoint.ResearchEntrypoint) ... ok
+test_partition_equivalence_rejects_merge_or_split (test_research_entrypoint.ResearchEntrypoint) ... ok
+test_portable_contest_runner_honors_threads_and_execution_gate (test_research_entrypoint.ResearchEntrypoint) ... ok
+test_prepared_panel_identity_and_manifest_contract (test_research_entrypoint.ResearchEntrypoint) ... ok
+test_consensus_identical_months_recovers_nearest_peer (test_research_validation.FrozenValidation) ... ok
+test_constant_regional_improvement_has_exact_interval (test_research_validation.FrozenValidation) ... ok
+test_empty_allowed_peer_set_is_rejected (test_research_validation.FrozenValidation) ... ok
+test_eta_squared_known_extremes (test_research_validation.FrozenValidation) ... ok
+test_haversine_symmetric_and_one_degree (test_research_validation.FrozenValidation) ... ok
+test_neighbors_exclude_self_and_preserve_ties (test_research_validation.FrozenValidation) ... ok
+test_custom_ceiling_applies_to_every_measured_component (test_resources.ResourceLimits) ... ok
+test_each_disk_is_checked_separately (test_resources.ResourceLimits) ... ok
+test_exact_ceiling_and_invalid_measurement (test_resources.ResourceLimits) ... ok
+test_memory_pressure_uses_available_memory (test_resources.ResourceLimits) ... ok
+test_native_job_limits_can_be_set_and_queried (test_resources.ResourceLimits) ... ok
+test_vram_limit_is_separate_from_gpu_usage (test_resources.ResourceLimits) ... ok
+test_worker_requires_named_supervisor (test_resources.ResourceLimits) ... ok
+test_all_undefined_draws_are_serializable_and_reported (test_round2.RoundTwoChecks) ... ok
+test_ambiguity_is_local_and_never_a_unanimous_vote (test_round2.RoundTwoChecks) ... ok
+test_matching_ties_are_label_invariant_and_flagged (test_round2.RoundTwoChecks) ... ok
+test_paired_external_delta_invariant_to_arbitrary_cluster_names (test_round2.RoundTwoChecks) ... ok
+test_published_baselines_preserve_string_ids_and_reject_malformed_partitions (test_round2.RoundTwoChecks) ... ok
+test_region_prior_has_no_cross_region_edges_and_equal_strength (test_round2.RoundTwoChecks) ... ok
+test_relabeling_does_not_count_as_transition (test_round2.RoundTwoChecks) ... ok
+test_requested_k_keeps_baseline_when_only_two_clusters_are_occupied (test_round2.RoundTwoChecks) ... ok
+test_temporal_reuse_reads_raw_and_manifest_checked_gzip (test_round2.RoundTwoChecks) ... ok
+test_temporal_reuse_rejects_changed_scientific_inputs (test_round2.RoundTwoChecks) ... ok
+test_undefined_bootstrap_draws_use_the_same_paired_mask (test_round2.RoundTwoChecks) ... ok
+test_one_empty_ball_does_not_make_a_pair_undefined (test_sdbw_diagnostics.DensityDiagnostics) ... ok
+test_two_empty_balls_are_undefined (test_sdbw_diagnostics.DensityDiagnostics) ... ok
+
+----------------------------------------------------------------------
+Ran 206 tests in 9.211s
+
+OK
+Created disposable test atlas fixture (temporary path omitted)

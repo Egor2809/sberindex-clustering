@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "purpose": "record of finite tested choices, not a replacement for preprocessing configuration",
+  "preprocessing_config": "configs/research_validation.json",
+  "seed": 1729,
+  "policy": {
+    "min_fraction": 0.03,
+    "full_SW_gain": 0.005,
+    "CH_ratio": 0.95,
+    "AVI_loss": 0.03,
+    "AVU_gain": 0.03,
+    "S_Dbw_ratio": 1.1,
+    "transfer_SW_gain": 0.002,
+    "paired_region_CI_lower": 0.0,
+    "stability_ARI_loss": 0.02
+  },
+  "unconstrained_candidates": [
+    {
+      "id": "historical_kmeans4",
+      "k": 4,
+      "min_fraction": 0.03
+    },
+    {
+      "id": "huber_q25",
+      "k": 4,
+      "min_fraction": 0.03,
+      "huber_quantile": 0.25
+    },
+    {
+      "id": "huber_q50",
+      "k": 4,
+      "min_fraction": 0.03,
+      "huber_quantile": 0.5
+    },
+    {
+      "id": "huber_q75",
+      "k": 4,
+      "min_fraction": 0.03,
+      "huber_quantile": 0.75
+    },
+    {
+      "id": "covariance_s25",
+      "k": 4,
+      "min_fraction": 0.03,
+      "shrinkage": 0.25
+    },
+    {
+      "id": "covariance_s50",
+      "k": 4,
+      "min_fraction": 0.03,
+      "shrinkage": 0.5
+    },
+    {
+      "id": "covariance_s75",
+      "k": 4,
+      "min_fraction": 0.03,
+      "shrinkage": 0.75
+    },
+    {
+      "id": "sw_tuned_ordinary",
+      "k": 4,
+      "min_fraction": 0.03,
+      "tune_silhouette": true,
+      "max_passes": 6
+    },
+    {
+      "id": "sw_tuned_huber50",
+      "k": 4,
+      "min_fraction": 0.03,
+      "tune_silhouette": true,
+      "max_passes": 6,
+      "huber_quantile": 0.5
+    },
+    {
+      "id": "sw_tuned_covariance50",
+      "k": 4,
+      "min_fraction": 0.03,
+      "tune_silhouette": true,
+      "max_passes": 6,
+      "shrinkage": 0.5
+    }
+  ],
+  "constrained_candidates": [
+    {
+      "id": "historical_kmeans4",
+      "k": 4,
+      "min_fraction": 0.03
+    },
+    {
+      "id": "sw_constrained_ordinary",
+      "k": 4,
+      "min_fraction": 0.03,
+      "tune_silhouette": true,
+      "max_passes": 8,
+      "min_ch_ratio": 0.95
+    },
+    {
+      "id": "sw_constrained_covariance50",
+      "k": 4,
+      "min_fraction": 0.03,
+      "tune_silhouette": true,
+      "max_passes": 8,
+      "min_ch_ratio": 0.95,
+      "shrinkage": 0.5
+    },
+    {
+      "id": "sw_constrained_huber75",
+      "k": 4,
+      "min_fraction": 0.03,
+      "tune_silhouette": true,
+      "max_passes": 8,
+      "min_ch_ratio": 0.95,
+      "huber_quantile": 0.75
+    }
+  ],
+  "shortlist": [
+    "historical_kmeans4",
+    "sw_constrained_huber75",
+    "sw_constrained_ordinary"
+  ],
+  "month_bootstrap": {
+    "repetitions": 30,
+    "circular_block_months": 3,
+    "seed_start": 2200
+  },
+  "regional_transfer_bootstrap": {
+    "repetitions": 500,
+    "seed": 1903
+  },
+  "forward_windows": [
+    {
+      "train_end": "2023-06-01",
+      "test": [
+        "2023-07-01",
+        "2023-08-01",
+        "2023-09-01"
+      ]
+    },
+    {
+      "train_end": "2023-09-01",
+      "test": [
+        "2023-10-01",
+        "2023-11-01",
+        "2023-12-01"
+      ]
+    }
+  ],
+  "baseline_default_promotion": "unchanged; research challengers only"
+}

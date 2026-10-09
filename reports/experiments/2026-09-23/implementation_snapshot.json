@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-09-23T11:28:20.033226+00:00",
+  "recorded_after_runs": true,
+  "base_commit": "bc832b793432494ccafcab8642e38152dcc808a8",
+  "working_tree_during_runs": "modified; new resource supervisor was not yet committed",
+  "per_run_module_hashes_match_current_files": true,
+  "supervisor_hash_recorded_after_runs": true,
+  "files": {
+    "sbercluster/canonical.py": "469bdf6123bcf22d4dd552ab05aab5fee1fee42316087558c1547fa6c26bae52",
+    "sbercluster/cli.py": "e023b56d5961c5d14b8fb40d5835b296634b32027869a9e161e5a8fbc24a6fac",
+    "sbercluster/data.py": "aca63526ac1271999f308c799ca6960066f622e300d89c585fccbff0f2bba6cd",
+    "sbercluster/dynamics.py": "9f00960e9c868200235e0aa0dc87d5ab6c3fe3755428bab671f816b073a424e3",
+    "sbercluster/features.py": "e22aad131f816027d8a41aa7cff5fcedc54c0f0489a56d092a95df7170dc139b",
+    "sbercluster/graph.py": "9475d10e4927a8094a1558f262da788a44b8d6c02686637bf443785d1010532f",
+    "sbercluster/io.py": "8aaaf7ad6f7bee56eb4c09969e78269634464349ad366338d267868d37a266a7",
+    "sbercluster/metrics.py": "09b28f8c76391429a0648d4e4a13958680e4c9da47c292702ec3568e2d6421df",
+    "sbercluster/models.py": "d43de5cb8784116f1fc51b29d33412749528b5f8c1459730ed1dad46f9bbdaf0",
+    "sbercluster/resources.py": "e5e7721bf4b139337589688d2edc5d9532bbac005f5db0876f5389402f184200",
+    "sbercluster/validation.py": "f4ef20a9ece71152ea5bdc3c0764e13c709dca5c0a25f3b185ba2c5bfd3ef37c",
+    "sbercluster/__init__.py": "30531b8122c986fb77769336c7e87609dcef634be23844399c540ee500d19a34",
+    "scripts/run_bounded.py": "6c0aba40f8c9ce1546e802f840b6fc7da94fc599c1d2df776fa842f6acffe598"
+  }
+}

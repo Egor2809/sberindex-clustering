@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "scope": "Independent fixed actual fold/prediction/endpoint arithmetic, no fit",
+  "eligible_per_target": 1797,
+  "eligible_regions": 72,
+  "target_folds": 216,
+  "probes": 864,
+  "observed_scores": 12,
+  "bound_comparisons": 48,
+  "nonself_bounds_cross_zero": 36,
+  "max_bound_error": 3.469446951953614e-18,
+  "max_observed_score_error": 3.469446951953614e-18,
+  "allmissing_target_regions_retained": {
+    "manufacturing_headcount_share": [
+      8
+    ],
+    "agriculture_headcount_share": [
+      8,
+      77
+    ],
+    "public_administration_education_health_headcount_share": []
+  },
+  "H75_vs_continuous5_equalregion_bounds": {
+    "manufacturing_headcount_share": [
+      -0.02168348196911681,
+      0.022190634118718133
+    ],
+    "agriculture_headcount_share": [
+      -0.00928060407273089,
+      0.012109155013497358
+    ],
+    "public_administration_education_health_headcount_share": [
+      -0.007126901740201558,
+      0.001689238754752253
+    ]
+  },
+  "protocol_sha256": "51c1ea4ebce670d4c1a88a6c1588aad1da47c82fa55a6e787d4b08296e750b6a",
+  "results_sha256": "d24b76cb9428f3915d93f816d23e5674e6888e8d9a3dc58aa8f3a3814d71cb3f",
+  "predictions_sha256": "bb3bf4c99bc5babfb855bc7ab113ed964cfad60db471244ec2dfd6b1f19a7f58",
+  "oracle_sha256": "c93b5a46093ccc12a6eb87ea2e6e5d99732854b00307c8ba88785eb1b83d81f1"
+}

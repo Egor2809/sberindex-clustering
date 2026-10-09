@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "stage": "dmon",
+  "source_files_sha256": {
+    "dmon_k2_seed1729/best_model.npz": "70856a612f47bdd988d221d013040d338933bc87424490c51230ea9145f6c903",
+    "dmon_k2_seed1729/trace.json": "4c39fc180ed4b661890eb3da556a331e24e655c276e7a697fc43d8d64d812dca",
+    "dmon_k2_seed1729/info.json": "3d24d524824d1567572b1776854697113f32e541d1cff7f84b5ccc6f0e3006cf",
+    "dmon_k2_seed1729/labels.npy": "aaf05dc5297b8d09a0720f9057d5d66cc80653b5e894bc8e38e006ceaf3987f4",
+    "dmon_k2_seed1729/assignments.npy": "d5230461977667649274360cdb65e248b95921ba5f7bc4ff723dcbbc41172871",
+    "external_comparison.json": "7ebd85cb215314fc60f25a9e61294b30dcec4af3bf4c5e655646518967bf7842",
+    "graphs.json": "b8ba1b219cdf26806229661378444790fbea59addf522a65fc72305d2a03073f",
+    "labels.json": "095ca55aa8d2e1ad264e83bf9d3d5495a2e1b18b8815975bf82ab5b358a11009",
+    "metrics.csv": "9e706bfb068f804dcc71774a6a12385c53f332829fa21ed0dd02929b2ef1cd9c",
+    "metrics.json": "50a5e6bff0d4625a0920a436bf942b6d6cd337858b218685d71e5a352f4057f0",
+    "status.json": "e35ab33d8eb5f08ad3681c96dc8c19bc47d74f051cc177d16a70a2bf07539563",
+    "summary.json": "e35ab33d8eb5f08ad3681c96dc8c19bc47d74f051cc177d16a70a2bf07539563"
+  },
+  "files_sha256": {
+    "dmon_k2_seed1729/assignments.npy": "d5230461977667649274360cdb65e248b95921ba5f7bc4ff723dcbbc41172871",
+    "dmon_k2_seed1729/best_model.npz": "70856a612f47bdd988d221d013040d338933bc87424490c51230ea9145f6c903",
+    "dmon_k2_seed1729/info.json": "3d24d524824d1567572b1776854697113f32e541d1cff7f84b5ccc6f0e3006cf",
+    "dmon_k2_seed1729/labels.npy": "aaf05dc5297b8d09a0720f9057d5d66cc80653b5e894bc8e38e006ceaf3987f4",
+    "dmon_k2_seed1729/trace.json": "4c39fc180ed4b661890eb3da556a331e24e655c276e7a697fc43d8d64d812dca",
+    "external_comparison.json": "7ebd85cb215314fc60f25a9e61294b30dcec4af3bf4c5e655646518967bf7842",
+    "graphs.json": "b8ba1b219cdf26806229661378444790fbea59addf522a65fc72305d2a03073f",
+    "labels.json.gz": "f90d034681e786e7ee1030f743a4a317e54e48aa49ce0bedf2d100f90d9685b0",
+    "metrics.csv": "9e706bfb068f804dcc71774a6a12385c53f332829fa21ed0dd02929b2ef1cd9c",
+    "metrics.json": "50a5e6bff0d4625a0920a436bf942b6d6cd337858b218685d71e5a352f4057f0",
+    "provenance.json": "689351df7345acd230c7d6a2e5415caaf131ce043ab928c207fc8d0b16dc7e36",
+    "status.json": "e35ab33d8eb5f08ad3681c96dc8c19bc47d74f051cc177d16a70a2bf07539563",
+    "summary.json": "e35ab33d8eb5f08ad3681c96dc8c19bc47d74f051cc177d16a70a2bf07539563"
+  },
+  "source_objects": {
+    "sbercluster/round2.py": "616a5aac84070739715f3622aff489beb8a2712926f55079fa83c0d3546ed413",
+    "sbercluster/followup.py": "e68fe157e0db40e59ad1731607c347b293e0f079f9359fbae982cc88089a76dc",
+    "sbercluster/joint.py": "dff858b2c30adf8a3e257a52dc049135a9a3b0381322a9e21bee8aab9c611cb0",
+    "sbercluster/features.py": "e22aad131f816027d8a41aa7cff5fcedc54c0f0489a56d092a95df7170dc139b",
+    "sbercluster/graph.py": "9475d10e4927a8094a1558f262da788a44b8d6c02686637bf443785d1010532f",
+    "sbercluster/metrics.py": "9fded2f77b6fd4a53141f7f0f0dc1092999b42fdf792985e102331e3c9897928",
+    "sbercluster/models.py": "d99054dfa50bf0d7c7803863b5620cd7f041ec1ca36e5a78128e178df257cf1b",
+    "sbercluster/contest_graphs.py": "6ebfddbd10b05d26312d583858625b0d3742940dcde5dd3ce43e2bcdceb3dc4f",
+    "sbercluster/dynamics.py": "9f00960e9c868200235e0aa0dc87d5ab6c3fe3755428bab671f816b073a424e3",
+    "sbercluster/io.py": "89f49856593b24d525bddeada28624b46279aa6f211b72e02e95d9c1db61fdf9",
+    "sbercluster/published_inputs.py": "3a19cf1747f431e761be2af0973f36e5e54b0d60f9916685bc20d496010847ae",
+    "sbercluster/research.py": "62675a7557fed94989f57b4f360eb56289a26214d9f6a7b0e65d09986cc79afd",
+    "scripts/external_validation_v4.py": "d160269340576bbac90f7bb3c451625c77789e1578e1988887caf5956a52516e",
+    "sbercluster/dmon.py": "dce407d71f74d680edd574fbba858b21cf256d34753a450cee896c9020b62d17"
+  },
+  "source_object_root": "../source_objects",
+  "scope": "Exploratory; no untouched 2024 holdout"
+}

@@ -1,0 +1,76 @@
+{
+  "created_utc": "2026-10-08T18:46:58.186370+00:00",
+  "config": {
+    "schema_version": 1,
+    "seed": 1729,
+    "data_contract": {
+      "identity_mode": "source_territory_id",
+      "stable_territories_verified": false,
+      "measurement_definition_verified": true,
+      "common_denominator_verified": false,
+      "categories_disjoint_verified": false,
+      "evidence": [
+        "reports/source_alignment.json",
+        "docs/DATA_SOURCES.md"
+      ]
+    },
+    "features": {
+      "mode": "log_ratios_to_total",
+      "level_weight": 0.0,
+      "calibration_end": "2023-12-01",
+      "seasonality": "same_month_cross_section"
+    },
+    "method_comparison": {
+      "output": "../mc-out",
+      "source_dir": "artifacts/sources/acquisition",
+      "k": 15,
+      "max_lag": 3,
+      "k_values": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "neutral_keys": [
+        "R_MQ",
+        "C24_MQ",
+        "P24_MQ",
+        "X24_SW"
+      ],
+      "neutral_note": "Axes used to rank methods of equal K: road graph R (never used by profile methods), and the 2024 co-movement, profile graph and features with 2023 labels kept fixed. A method that fitted any of these axes is left out of that K ranking.",
+      "temporal": {
+        "labels": {
+          "1729": "reports/round2-2026-09-24/round2-20260924-temporal_grid/temporal_omega0.01_seed1729.json.gz",
+          "2718": "reports/round2-2026-09-24/round2-20260924-temporal_grid/temporal_omega0.01_seed2718.json.gz",
+          "3141": "reports/round2-2026-09-24/round2-20260924-temporal_grid/temporal_omega0.01_seed3141.json.gz"
+        },
+        "base_seed": "1729",
+        "jaccard_threshold": 0.3,
+        "size_change": 0.1,
+        "min_months": 6,
+        "rejoin_jaccard": 0.5,
+        "match_jaccard": 0.5
+      },
+      "min_size": 20,
+      "fragment": "web/method_comparison.html"
+    }
+  },
+  "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+  "inputs": {
+    "configs/network_core.json": "7b4c85ad6fa52a221edb1611b7af3146b484b35578c2bf1ee9467bcd872edcad",
+    "reports/external-municipal/municipal_indicators.csv": "66f260cf6ba61e8bc708ad29e13f184390611442c422b3694512ca07325a177c",
+    "reports/model-frontier-2026-10-03/constrained/labels.json": "195e2fdf748e7dae8d3dcafb7515ec70b56896f5ac252e8cd5a355deaa771a70",
+    "reports/network-core/assignments.csv": "4fada9a8bdad11b37a40aa28fa0877bde97daab2f70f7b5172af27c90f11832d",
+    "reports/network-core/candidates.csv": "c4f9ac525432f8d723b2173fd3fd419e16e4027f43fd67a0e35319cce8fcbcad",
+    "reports/round2-2026-09-24/round2-20260924-temporal_grid/temporal_omega0.01_seed1729.json.gz": "f8dcb6194d319f4aeef83086ec91eaae5746f414b2bc1a3ed2517677d1177b62",
+    "reports/round2-2026-09-24/round2-20260924-temporal_grid/temporal_omega0.01_seed2718.json.gz": "3414a83e92eea28d6d5e2ce0cba9b37c5b4c1b6c78f40f85d333bac48a49107c",
+    "reports/round2-2026-09-24/round2-20260924-temporal_grid/temporal_omega0.01_seed3141.json.gz": "da0f5c22c641f222a919cebe41cdbfe84eedb061090f5171fc63d4e13aa674d4"
+  },
+  "implementation": {
+    "method_comparison.py": "dbc757d6aee74efc01d41395633469e57f49599835bcc0a196f82bf1d44a77ec",
+    "network_core.py": "4f42028af81fa006f8c5d2d358027bd229eb8356de0bdca98bd0af6a7f482bf5",
+    "metrics.py": "5fbc58f90dcab19c3128f8006d1c2df38f92e36c77861ea7245698737779bb9c"
+  },
+  "seconds": 7.1,
+  "refitting": false
+}

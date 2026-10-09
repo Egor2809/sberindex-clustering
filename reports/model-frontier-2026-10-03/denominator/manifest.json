@@ -1,0 +1,20 @@
+{
+  "scientific_copy_of_original_manifest_sha256": "cdc1f7f2befd89690161e31b201a5303fd5eba9a5baca07f07f4f75aa622ce19",
+  "files_sha256": {
+    "comparisons.json": "ceefff5dcb293674e9030591be78cdef429cf8afd7c6c63090eea33a53e89ffb",
+    "contrast_features.npy": "0d2eb994958f306092eeacee174856d81500fae8122c621b6d41f757f488c936",
+    "contrast_kmeans2.json": "f3af48c0b461c526961f23600dd3a6bacafcd90e20b74c5c31ff004376e6983b",
+    "contrast_kmeans4.json": "51e12aeba879b1d52eb9d825ca888ebf416c307b45e9750304c1b5558772a797",
+    "labels.json": "3b54cef4a3558c9b8025c01ea55baa1c73d91638146a56bfcd13eee8e55fde98",
+    "original_features.npy": "db16fc485169b4a29e9217d6340d36991b2582b323a3c63889f587f428dd9abc",
+    "provenance.json": "373ffa657c4656cba4624239a1bdb79b146a6870b75528d548a419fc70f6d73e",
+    "source/sbercluster/selection_artifacts.py": "eb30f5c6fb5cb61a0e4b7244f7c778d28a74643d4f8375736a5452fd3c9f1bb6",
+    "source/sbercluster/selection_contrasts.py": "5d116791dc9c11ffcfac99219caf844f9c927b1fcebc25200db0b0dbb66c22ce",
+    "source/sbercluster/selection_frontier.py": "0bcd8604fca0855d74bc60a6f600cd9c5cfd13894918795ace242e15cf797576",
+    "source/scripts/benchmark_contrasts.py": "258da80438805dd78d7e9c1088bf14ed06f0e2e985b0bfd9066fa0e572e5c659",
+    "stability.json": "e5b67e2a6bd72c5b5a2c2c8b0a9672848b489144b13965877c2ad2fc8a46e00e",
+    "status.json": "a411360482b889be1c091c63380fab8aeaff10b2e015faac9af5962c75191946",
+    "stress.json": "7c98c33dc420f3ae5509f5b8d69737edb208a5596cb9ee9385d2b5825c638706",
+    "transfer.json": "6acc52bb15b7dd5d0eef901e9a4e2e689b868f8eb88bde49c8954ea6ac054ce2"
+  }
+}

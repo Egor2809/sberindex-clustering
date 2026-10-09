@@ -1,0 +1,239 @@
+{
+  "status": "LIMITED",
+  "checked_against": {
+    "url": "https://sber.ru/sberindex/konkurs_sberindex",
+    "checked_utc": "2026-10-03T13:24:06.228008+00:00",
+    "http_status": 200,
+    "HTML_sha256": "9042ece255c22c2fe9e5661ddcd9dc3e612afe6525891d5bb0854f1701abfcb0",
+    "HTML_bytes": 643845,
+    "task": "clustering",
+    "deadline_date": "2026-10-09",
+    "deadline_exact_time": "not stated in inspected page",
+    "comparison_to_saved_source": "Clustering obligations and 15/15/15/15/30/10 rubric unchanged; live page additionally explicitly identifies the supplied unique municipality ID and ID/name registry.",
+    "MQ_definition": "Acronym present without formula or reference; exact official definition remains unverified."
+  },
+  "statuses": {
+    "PASS": "Scoped evidence verified; not a prediction of jury marks.",
+    "LIMITED": "Implemented or supported only within explicitly stated limits; full criterion not established.",
+    "UNVERIFIED": "Required property or external confirmation not checked/obtained.",
+    "FAIL": "A specified attempted check or proposed guarantee is violated."
+  },
+  "rubric": [
+    {
+      "id": "methodology",
+      "weight_percent": 15,
+      "status": "PASS",
+      "claim": "Features, candidate objective, original-space CH bound, complete prediction rule and limits are explicit.",
+      "evidence": [
+        "../../model-frontier-2026-10-03/README.md",
+        "method-independent-screen-review.json",
+        "../../../docs/REPORT_RU.md"
+      ],
+      "limits": [
+        "Internal-score improvements are development/sensitivity results; no proof of global optimum."
+      ]
+    },
+    {
+      "id": "network_attributes",
+      "weight_percent": 15,
+      "status": "PASS",
+      "claim": "Attributed municipality graphs over time, explicit edge construction and sensitivity/comparison evidence are implemented.",
+      "evidence": [
+        "../../../docs/REPORT_RU.md",
+        "../../../configs/research_annual.json",
+        "../../../sbercluster/graph.py",
+        "../../round2-2026-09-24/"
+      ],
+      "limits": [
+        "Road network is not observed purchasing mobility; graph rules remain modeling choices."
+      ]
+    },
+    {
+      "id": "method_comparison",
+      "weight_percent": 15,
+      "status": "PASS",
+      "claim": "Multiple attribute/graph/temporal families and fixed-K alternatives are compared; the new candidates are benchmarked against the archived KMeans4.",
+      "evidence": [
+        "../../review-2026-09-24/",
+        "../../dmon-plateau-2026-09-25/",
+        "../../model-frontier-2026-10-03/README.md",
+        "method-independent-validation-review.json"
+      ],
+      "limits": [
+        "No unique best method over all criteria; full-2023 and forward-2023 checks are inspected sensitivity analyses."
+      ]
+    },
+    {
+      "id": "ICVI",
+      "weight_percent": 15,
+      "status": "LIMITED",
+      "claim": "SW, CH, named S_Dbw variants, AVI and AVU are computed. Primary-author software crosscheck and strict undefined statuses are verified. TurboMQ and NewmanQ remain explicitly named alternatives.",
+      "evidence": [
+        "metric-reference-audit.json",
+        "forward-independent-review.json",
+        "../../../sbercluster/metrics.py"
+      ],
+      "limits": [
+        "Exact official MQ formula is unverified, so the complete six-metric criterion cannot be claimed passed.",
+        "Some S_Dbw-HV01 evaluations are mathematically undefined; November transferred candidates have zero centroid density."
+      ]
+    },
+    {
+      "id": "interpretation_reproducibility",
+      "weight_percent": 30,
+      "status": "LIMITED",
+      "claim": "Consumer-profile interpretation now has national independent wage/employment evidence, exact joins, controls, paired comparisons and reproducible raw-to-label/model contracts.",
+      "evidence": [
+        "../../external-national-2026-10-03/README.md",
+        "external-independent-join-review.json",
+        "external-independent-stat-review.json",
+        "fresh-raw-replay.json",
+        "fresh-full-suite.json",
+        "final-export-independent-review.json"
+      ],
+      "limits": [
+        "Real production-based types of local economies are not established. National wage association is modest; candidate economic superiority is not established.",
+        "Employment-sector evidence weakens with nonlinear/shared-axis controls; observational evidence is not causal.",
+        "2024 outcomes use frozen 2023 consumer features/labels and refit economic probes on other regions in 2024; this is not future forecasting.",
+        "Code/year identity is audited; matched geometric footprints and all within-2024 boundary changes are unverified."
+      ]
+    },
+    {
+      "id": "innovative_visualization",
+      "weight_percent": 10,
+      "status": "LIMITED",
+      "claim": "Local interactive atlas with real geometry, time graph, maps and flows is supplied.",
+      "evidence": [
+        "../../../docs/index.html",
+        "../../../docs/REPORT_RU.md",
+        "../../dmon-plateau-2026-09-25/verification.json"
+      ],
+      "limits": [
+        "Innovation/clarity is a jury judgment; new candidate/external evidence is documented in reports rather than incorporated into the atlas.",
+        "Anonymous Pages access currently returns404; current visual bytes were not re-reviewed in this continuation."
+      ]
+    }
+  ],
+  "mandatory_deliverables": [
+    {
+      "id": "at_least_one_SberIndex_dataset",
+      "status": "PASS",
+      "evidence": "fresh-raw-replay.json",
+      "claim": "Consumption dataset is used; hash-pinned raw inputs rebuild the accepted panel byte-for-byte."
+    },
+    {
+      "id": "temporal_attributed_municipality_network",
+      "status": "PASS",
+      "evidence": "../../../docs/REPORT_RU.md",
+      "claim": "Municipal nodes, attributes, explicit proximity edges and monthly sequence implemented."
+    },
+    {
+      "id": "group_track_interpret",
+      "status": "LIMITED",
+      "evidence": "../../external-national-2026-10-03/README.md",
+      "claim": "Grouping and time tracking implemented; consumer interpretation supported, stronger production-economy taxonomy unproven."
+    },
+    {
+      "id": "documented_GitHub_repository",
+      "status": "PASS",
+      "evidence": "../../../README.md",
+      "claim": "GitHub repository exists with documented code; access for an external reviewer must still be arranged."
+    },
+    {
+      "id": "JSON_or_YAML_configs",
+      "status": "PASS",
+      "evidence": "../../../configs/research_annual.json",
+      "claim": "JSON configurations supplied."
+    },
+    {
+      "id": "run_instructions",
+      "status": "PASS",
+      "evidence": "../../../docs/REPRODUCE.md",
+      "claim": "Commands plus checked model-export and external-statistics runbooks supplied."
+    },
+    {
+      "id": "short_Russian_report",
+      "status": "PASS",
+      "evidence": "../../../docs/REPORT_RU.md",
+      "claim": "Russian methodological report supplied."
+    },
+    {
+      "id": "PDF_or_interactive_landing",
+      "status": "PASS",
+      "evidence": "../../../docs/index.html",
+      "claim": "Interactive local landing supplied; external view access is evaluated separately."
+    },
+    {
+      "id": "submission_view_access",
+      "status": "UNVERIFIED",
+      "evidence": "submission-access.json",
+      "claim": "Repository is private and Pages off; anonymous repository/Pages URLs both404. Authorized jury access was not checked."
+    }
+  ],
+  "administrative_conditions": {
+    "status": "UNVERIFIED",
+    "scope": "Participant eligibility and actual submission are outside this technical-core verification.",
+    "official_conditions": [
+      "Russian Federation citizenship and age18 or older",
+      "Individual participant or team of at most4",
+      "Work performed September14 through October9; submission form with view-access links"
+    ]
+  },
+  "not_individually_mandatory": [
+    "Every proposed dataset (mobility, wages, employment) individually",
+    "GNN/DMoN or a particular clustering family",
+    "A global optimum or winner across all ICVI",
+    "Linux/Docker execution or hosted CI",
+    "Causal economic classification or future forecasting"
+  ],
+  "open_failures": [
+    {
+      "id": "monthly_transfer_occupancy",
+      "status": "FAIL",
+      "scope": "Proposed transfer guarantee, not an official numeric contest threshold",
+      "evidence": "forward-independent-review.json",
+      "detail": "Both candidates have fewer than61/2016 members in their smallest cluster in all six chronological transfer months; November minima20 and19."
+    },
+    {
+      "id": "monthly_transfer_CH_guard",
+      "status": "FAIL",
+      "scope": "Transfer of the development95%CH guard",
+      "evidence": "../../model-frontier-2026-10-03/forward/summary.json",
+      "detail": "Several monthly CH ratios are below0.95."
+    },
+    {
+      "id": "defined_S_Dbw_everywhere",
+      "status": "FAIL",
+      "scope": "Universal metric-definedness claim",
+      "evidence": "forward-independent-review.json",
+      "detail": "S_Dbw-HV01 is undefined for both candidates in November because centroid density is zero."
+    },
+    {
+      "id": "official_MQ",
+      "status": "UNVERIFIED",
+      "detail": "Exact organizer formula not found; named alternatives do not close this requirement."
+    },
+    {
+      "id": "untouched_future_holdout",
+      "status": "UNVERIFIED",
+      "detail": "All 2023/2024 cohorts have been inspected; no new future or new-territory confirmation."
+    },
+    {
+      "id": "current_Linux_or_CI",
+      "status": "UNVERIFIED",
+      "detail": "Current source snapshot verified locally on Windows; latest hosted CI success belongs to older8a5ae69 snapshot."
+    }
+  ],
+  "retrospective_annual_2024": {
+    "status": "LIMITED",
+    "evidence": "annual2024-independent-review.json",
+    "no_fitting": true,
+    "full_raw_labels_and_metrics_verified": true,
+    "H75_SW_gain": 0.013487480127485019,
+    "H75_CH_ratio": 0.9084125244431313,
+    "minimum_occupancy_baseline": 27,
+    "minimum_occupancy_H75": 28,
+    "required_training_minimum": 61,
+    "untouched_future_confirmation": false
+  }
+}

@@ -1,0 +1,816 @@
+[
+  {
+    "id": "historical_kmeans4",
+    "spec": {
+      "id": "historical_kmeans4",
+      "k": 4,
+      "min_fraction": 0.03
+    },
+    "metrics": {
+      "n": 2016,
+      "k": 4,
+      "min_cluster_size": 127,
+      "SW": 0.24023677355726694,
+      "MQ": null,
+      "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+      "CH": 779.8270404177405,
+      "CH_per_n": 0.3868189684611808,
+      "CH_status": "ok",
+      "CH_is_infinite": false,
+      "S_Dbw": 0.9959874251806291,
+      "S_Dbw_status": "ok",
+      "S_Dbw_diagnostics": {
+        "convention": "S_Dbw-HV01-var/mean-centroid",
+        "radius": 0.1901451020888713,
+        "centroid_densities": [
+          21,
+          22,
+          105,
+          1
+        ],
+        "zero_density_clusters": [],
+        "undefined_pairs": 0
+      },
+      "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+      "S_Dbw_paper": 2.1550278237788945,
+      "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+      "AVI": 0.8847187493492511,
+      "AVU": 0.5296353331236692,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+      "TurboMQ": 3.5388749973970044,
+      "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+      "NewmanQ": 0.5689886419911083,
+      "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+      "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity"
+    },
+    "fit": {
+      "historical_labels_reused": true
+    },
+    "ARI_to_historical": 1.0,
+    "full_gates": {
+      "occupancy": true,
+      "SW": false,
+      "CH": true,
+      "AVI": true,
+      "AVU": true,
+      "S_Dbw": true
+    },
+    "elapsed_seconds": 0.05363670000224374
+  },
+  {
+    "id": "huber_q25",
+    "spec": {
+      "id": "huber_q25",
+      "k": 4,
+      "min_fraction": 0.03,
+      "huber_quantile": 0.25
+    },
+    "metrics": {
+      "n": 2016,
+      "k": 4,
+      "min_cluster_size": 370,
+      "SW": 0.2282667598829694,
+      "MQ": null,
+      "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+      "CH": 735.0554938764741,
+      "CH_per_n": 0.3646108600577748,
+      "CH_status": "ok",
+      "CH_is_infinite": false,
+      "S_Dbw": 0.9222112878038183,
+      "S_Dbw_status": "ok",
+      "S_Dbw_diagnostics": {
+        "convention": "S_Dbw-HV01-var/mean-centroid",
+        "radius": 0.1752550834925336,
+        "centroid_densities": [
+          18,
+          21,
+          94,
+          4
+        ],
+        "zero_density_clusters": [],
+        "undefined_pairs": 0
+      },
+      "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+      "S_Dbw_paper": 2.26247989135035,
+      "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+      "AVI": 0.869943041432554,
+      "AVU": 0.5628316321718518,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+      "TurboMQ": 3.479772165730216,
+      "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+      "NewmanQ": 0.5988856262120343,
+      "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+      "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity"
+    },
+    "fit": {
+      "huber_iterations": 36,
+      "min_required_size": 61,
+      "eligible_occupancy": true,
+      "trace": [],
+      "occupied_k": 4,
+      "cluster_sizes": [
+        538,
+        731,
+        370,
+        377
+      ]
+    },
+    "ARI_to_historical": 0.6972289699701312,
+    "full_gates": {
+      "occupancy": true,
+      "SW": false,
+      "CH": false,
+      "AVI": true,
+      "AVU": false,
+      "S_Dbw": true
+    },
+    "elapsed_seconds": 0.07498879999911878
+  },
+  {
+    "id": "huber_q50",
+    "spec": {
+      "id": "huber_q50",
+      "k": 4,
+      "min_fraction": 0.03,
+      "huber_quantile": 0.5
+    },
+    "metrics": {
+      "n": 2016,
+      "k": 4,
+      "min_cluster_size": 355,
+      "SW": 0.22931568227132249,
+      "MQ": null,
+      "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+      "CH": 740.2218781810751,
+      "CH_per_n": 0.3671735506850571,
+      "CH_status": "ok",
+      "CH_is_infinite": false,
+      "S_Dbw": 0.9043017215152023,
+      "S_Dbw_status": "ok",
+      "S_Dbw_diagnostics": {
+        "convention": "S_Dbw-HV01-var/mean-centroid",
+        "radius": 0.17584565569112104,
+        "centroid_densities": [
+          18,
+          21,
+          94,
+          5
+        ],
+        "zero_density_clusters": [],
+        "undefined_pairs": 0
+      },
+      "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+      "S_Dbw_paper": 2.260025980459521,
+      "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+      "AVI": 0.8708499419239172,
+      "AVU": 0.5621904954704275,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+      "TurboMQ": 3.4833997676956687,
+      "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+      "NewmanQ": 0.5975472222248914,
+      "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+      "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity"
+    },
+    "fit": {
+      "huber_iterations": 35,
+      "min_required_size": 61,
+      "eligible_occupancy": true,
+      "trace": [],
+      "occupied_k": 4,
+      "cluster_sizes": [
+        542,
+        747,
+        372,
+        355
+      ]
+    },
+    "ARI_to_historical": 0.7328952246281973,
+    "full_gates": {
+      "occupancy": true,
+      "SW": false,
+      "CH": false,
+      "AVI": true,
+      "AVU": false,
+      "S_Dbw": true
+    },
+    "elapsed_seconds": 0.07494610000867397
+  },
+  {
+    "id": "huber_q75",
+    "spec": {
+      "id": "huber_q75",
+      "k": 4,
+      "min_fraction": 0.03,
+      "huber_quantile": 0.75
+    },
+    "metrics": {
+      "n": 2016,
+      "k": 4,
+      "min_cluster_size": 155,
+      "SW": 0.237424810906608,
+      "MQ": null,
+      "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+      "CH": 776.4065873122499,
+      "CH_per_n": 0.38512231513504463,
+      "CH_status": "ok",
+      "CH_is_infinite": false,
+      "S_Dbw": 0.9935311877235573,
+      "S_Dbw_status": "ok",
+      "S_Dbw_diagnostics": {
+        "convention": "S_Dbw-HV01-var/mean-centroid",
+        "radius": 0.18711252955116991,
+        "centroid_densities": [
+          20,
+          21,
+          102,
+          0
+        ],
+        "zero_density_clusters": [
+          3
+        ],
+        "undefined_pairs": 0
+      },
+      "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+      "S_Dbw_paper": 2.162502852450288,
+      "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+      "AVI": 0.8800629730579345,
+      "AVU": 0.5430795356266126,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+      "TurboMQ": 3.520251892231738,
+      "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+      "NewmanQ": 0.5742472960829741,
+      "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+      "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity"
+    },
+    "fit": {
+      "huber_iterations": 15,
+      "min_required_size": 61,
+      "eligible_occupancy": true,
+      "trace": [],
+      "occupied_k": 4,
+      "cluster_sizes": [
+        625,
+        850,
+        386,
+        155
+      ]
+    },
+    "ARI_to_historical": 0.944683814471426,
+    "full_gates": {
+      "occupancy": true,
+      "SW": false,
+      "CH": true,
+      "AVI": true,
+      "AVU": true,
+      "S_Dbw": true
+    },
+    "elapsed_seconds": 0.06687479998799972
+  },
+  {
+    "id": "covariance_s25",
+    "spec": {
+      "id": "covariance_s25",
+      "k": 4,
+      "min_fraction": 0.03,
+      "shrinkage": 0.25
+    },
+    "metrics": {
+      "n": 2016,
+      "k": 4,
+      "min_cluster_size": 127,
+      "SW": 0.24032161960492107,
+      "MQ": null,
+      "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+      "CH": 779.7709458204105,
+      "CH_per_n": 0.38679114376012425,
+      "CH_status": "ok",
+      "CH_is_infinite": false,
+      "S_Dbw": 0.9937538089641471,
+      "S_Dbw_status": "ok",
+      "S_Dbw_diagnostics": {
+        "convention": "S_Dbw-HV01-var/mean-centroid",
+        "radius": 0.19004922925163883,
+        "centroid_densities": [
+          21,
+          22,
+          105,
+          1
+        ],
+        "zero_density_clusters": [],
+        "undefined_pairs": 0
+      },
+      "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+      "S_Dbw_paper": 2.1526622644157047,
+      "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+      "AVI": 0.8839724262147682,
+      "AVU": 0.5293820088714867,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+      "TurboMQ": 3.535889704859073,
+      "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+      "NewmanQ": 0.5674520081682266,
+      "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+      "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity"
+    },
+    "fit": {
+      "huber_iterations": 0,
+      "min_required_size": 61,
+      "eligible_occupancy": true,
+      "trace": [],
+      "occupied_k": 4,
+      "cluster_sizes": [
+        636,
+        867,
+        386,
+        127
+      ]
+    },
+    "ARI_to_historical": 0.9832285174629454,
+    "full_gates": {
+      "occupancy": true,
+      "SW": false,
+      "CH": true,
+      "AVI": true,
+      "AVU": true,
+      "S_Dbw": true
+    },
+    "elapsed_seconds": 0.057226300006732345
+  },
+  {
+    "id": "covariance_s50",
+    "spec": {
+      "id": "covariance_s50",
+      "k": 4,
+      "min_fraction": 0.03,
+      "shrinkage": 0.5
+    },
+    "metrics": {
+      "n": 2016,
+      "k": 4,
+      "min_cluster_size": 127,
+      "SW": 0.2404763294735583,
+      "MQ": null,
+      "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+      "CH": 779.5714102632193,
+      "CH_per_n": 0.38669216778929527,
+      "CH_status": "ok",
+      "CH_is_infinite": false,
+      "S_Dbw": 0.993374723691725,
+      "S_Dbw_status": "ok",
+      "S_Dbw_diagnostics": {
+        "convention": "S_Dbw-HV01-var/mean-centroid",
+        "radius": 0.18997155599800186,
+        "centroid_densities": [
+          22,
+          22,
+          105,
+          1
+        ],
+        "zero_density_clusters": [],
+        "undefined_pairs": 0
+      },
+      "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+      "S_Dbw_paper": 2.1523903941600255,
+      "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+      "AVI": 0.8834904728675805,
+      "AVU": 0.5278322979736676,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+      "TurboMQ": 3.533961891470322,
+      "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+      "NewmanQ": 0.566567463962451,
+      "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+      "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity"
+    },
+    "fit": {
+      "huber_iterations": 0,
+      "min_required_size": 61,
+      "eligible_occupancy": true,
+      "trace": [],
+      "occupied_k": 4,
+      "cluster_sizes": [
+        636,
+        868,
+        385,
+        127
+      ]
+    },
+    "ARI_to_historical": 0.9704819786772163,
+    "full_gates": {
+      "occupancy": true,
+      "SW": false,
+      "CH": true,
+      "AVI": true,
+      "AVU": true,
+      "S_Dbw": true
+    },
+    "elapsed_seconds": 0.05401500000152737
+  },
+  {
+    "id": "covariance_s75",
+    "spec": {
+      "id": "covariance_s75",
+      "k": 4,
+      "min_fraction": 0.03,
+      "shrinkage": 0.75
+    },
+    "metrics": {
+      "n": 2016,
+      "k": 4,
+      "min_cluster_size": 124,
+      "SW": 0.23909882470904173,
+      "MQ": null,
+      "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+      "CH": 772.4948154736882,
+      "CH_per_n": 0.383181952119885,
+      "CH_status": "ok",
+      "CH_is_infinite": false,
+      "S_Dbw": 0.9770159852511637,
+      "S_Dbw_status": "ok",
+      "S_Dbw_diagnostics": {
+        "convention": "S_Dbw-HV01-var/mean-centroid",
+        "radius": 0.1908177790346156,
+        "centroid_densities": [
+          24,
+          22,
+          104,
+          1
+        ],
+        "zero_density_clusters": [],
+        "undefined_pairs": 0
+      },
+      "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+      "S_Dbw_paper": 2.164286991603792,
+      "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+      "AVI": 0.8762879056427606,
+      "AVU": 0.5222530728151962,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+      "TurboMQ": 3.5051516225710424,
+      "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+      "NewmanQ": 0.5618457177609295,
+      "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+      "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity"
+    },
+    "fit": {
+      "huber_iterations": 0,
+      "min_required_size": 61,
+      "eligible_occupancy": true,
+      "trace": [],
+      "occupied_k": 4,
+      "cluster_sizes": [
+        660,
+        837,
+        395,
+        124
+      ]
+    },
+    "ARI_to_historical": 0.8161169860521107,
+    "full_gates": {
+      "occupancy": true,
+      "SW": false,
+      "CH": true,
+      "AVI": true,
+      "AVU": true,
+      "S_Dbw": true
+    },
+    "elapsed_seconds": 0.05755469998985063
+  },
+  {
+    "id": "sw_tuned_ordinary",
+    "spec": {
+      "id": "sw_tuned_ordinary",
+      "k": 4,
+      "min_fraction": 0.03,
+      "tune_silhouette": true,
+      "max_passes": 6
+    },
+    "metrics": {
+      "n": 2016,
+      "k": 4,
+      "min_cluster_size": 99,
+      "SW": 0.2650465278503586,
+      "MQ": null,
+      "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+      "CH": 709.0360713964528,
+      "CH_per_n": 0.35170440049427226,
+      "CH_status": "ok",
+      "CH_is_infinite": false,
+      "S_Dbw": 0.9324684001243766,
+      "S_Dbw_status": "ok",
+      "S_Dbw_diagnostics": {
+        "convention": "S_Dbw-HV01-var/mean-centroid",
+        "radius": 0.19188208246303584,
+        "centroid_densities": [
+          21,
+          30,
+          93,
+          1
+        ],
+        "zero_density_clusters": [],
+        "undefined_pairs": 0
+      },
+      "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+      "S_Dbw_paper": 2.1057943403037362,
+      "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+      "AVI": 0.884170157378698,
+      "AVU": 0.5400631923215213,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+      "TurboMQ": 3.536680629514792,
+      "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+      "NewmanQ": 0.48421516172601975,
+      "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+      "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity"
+    },
+    "fit": {
+      "huber_iterations": 0,
+      "min_required_size": 61,
+      "eligible_occupancy": true,
+      "trace": [
+        {
+          "pass": 0,
+          "SW": 0.24023677355726694,
+          "accepted": 0
+        },
+        {
+          "pass": 1,
+          "SW": 0.2481520754784001,
+          "accepted": 18
+        },
+        {
+          "pass": 2,
+          "SW": 0.255466818297901,
+          "accepted": 16
+        },
+        {
+          "pass": 3,
+          "SW": 0.2603361858010699,
+          "accepted": 16
+        },
+        {
+          "pass": 4,
+          "SW": 0.2647563296735679,
+          "accepted": 12
+        },
+        {
+          "pass": 5,
+          "SW": 0.2650465278503586,
+          "accepted": 3
+        },
+        {
+          "pass": 6,
+          "SW": 0.2650465278503586,
+          "accepted": 0
+        }
+      ],
+      "occupied_k": 4,
+      "cluster_sizes": [
+        407,
+        1233,
+        277,
+        99
+      ]
+    },
+    "ARI_to_historical": 0.4862446909466659,
+    "full_gates": {
+      "occupancy": true,
+      "SW": true,
+      "CH": false,
+      "AVI": true,
+      "AVU": true,
+      "S_Dbw": true
+    },
+    "elapsed_seconds": 6.527848199999426
+  },
+  {
+    "id": "sw_tuned_huber50",
+    "spec": {
+      "id": "sw_tuned_huber50",
+      "k": 4,
+      "min_fraction": 0.03,
+      "tune_silhouette": true,
+      "max_passes": 6,
+      "huber_quantile": 0.5
+    },
+    "metrics": {
+      "n": 2016,
+      "k": 4,
+      "min_cluster_size": 118,
+      "SW": 0.26416486237790376,
+      "MQ": null,
+      "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+      "CH": 719.3581271643156,
+      "CH_per_n": 0.35682446783944227,
+      "CH_status": "ok",
+      "CH_is_infinite": false,
+      "S_Dbw": 0.8869633020301148,
+      "S_Dbw_status": "ok",
+      "S_Dbw_diagnostics": {
+        "convention": "S_Dbw-HV01-var/mean-centroid",
+        "radius": 0.18984380942397763,
+        "centroid_densities": [
+          22,
+          30,
+          97,
+          1
+        ],
+        "zero_density_clusters": [],
+        "undefined_pairs": 0
+      },
+      "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+      "S_Dbw_paper": 2.128518405759669,
+      "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+      "AVI": 0.8809194334720809,
+      "AVU": 0.5495920491546503,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+      "TurboMQ": 3.5236777338883236,
+      "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+      "NewmanQ": 0.4978461379527198,
+      "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+      "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity"
+    },
+    "fit": {
+      "huber_iterations": 35,
+      "min_required_size": 61,
+      "eligible_occupancy": true,
+      "trace": [
+        {
+          "pass": 0,
+          "SW": 0.22931568227132249,
+          "accepted": 0
+        },
+        {
+          "pass": 1,
+          "SW": 0.24222069225290596,
+          "accepted": 15
+        },
+        {
+          "pass": 2,
+          "SW": 0.252156801361953,
+          "accepted": 17
+        },
+        {
+          "pass": 3,
+          "SW": 0.26140459156953044,
+          "accepted": 14
+        },
+        {
+          "pass": 4,
+          "SW": 0.2620519322963886,
+          "accepted": 5
+        },
+        {
+          "pass": 5,
+          "SW": 0.26283585021354444,
+          "accepted": 9
+        },
+        {
+          "pass": 6,
+          "SW": 0.26416486237790376,
+          "accepted": 6
+        }
+      ],
+      "occupied_k": 4,
+      "cluster_sizes": [
+        420,
+        1192,
+        286,
+        118
+      ]
+    },
+    "ARI_to_historical": 0.5113086796167197,
+    "full_gates": {
+      "occupancy": true,
+      "SW": true,
+      "CH": false,
+      "AVI": true,
+      "AVU": true,
+      "S_Dbw": true
+    },
+    "elapsed_seconds": 6.259041099998285
+  },
+  {
+    "id": "sw_tuned_covariance50",
+    "spec": {
+      "id": "sw_tuned_covariance50",
+      "k": 4,
+      "min_fraction": 0.03,
+      "tune_silhouette": true,
+      "max_passes": 6,
+      "shrinkage": 0.5
+    },
+    "metrics": {
+      "n": 2016,
+      "k": 4,
+      "min_cluster_size": 83,
+      "SW": 0.26590245029320153,
+      "MQ": null,
+      "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+      "CH": 680.7960348438733,
+      "CH_per_n": 0.33769644585509584,
+      "CH_status": "ok",
+      "CH_is_infinite": false,
+      "S_Dbw": 0.9306576213955555,
+      "S_Dbw_status": "ok",
+      "S_Dbw_diagnostics": {
+        "convention": "S_Dbw-HV01-var/mean-centroid",
+        "radius": 0.1954578052605035,
+        "centroid_densities": [
+          19,
+          36,
+          104,
+          1
+        ],
+        "zero_density_clusters": [],
+        "undefined_pairs": 0
+      },
+      "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+      "S_Dbw_paper": 2.135843159793865,
+      "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+      "AVI": 0.8791096009549875,
+      "AVU": 0.5373171817097805,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+      "TurboMQ": 3.51643840381995,
+      "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+      "NewmanQ": 0.45254086523365766,
+      "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+      "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity"
+    },
+    "fit": {
+      "huber_iterations": 0,
+      "min_required_size": 61,
+      "eligible_occupancy": true,
+      "trace": [
+        {
+          "pass": 0,
+          "SW": 0.2404763294735583,
+          "accepted": 0
+        },
+        {
+          "pass": 1,
+          "SW": 0.24897053536915273,
+          "accepted": 15
+        },
+        {
+          "pass": 2,
+          "SW": 0.2547116572823356,
+          "accepted": 18
+        },
+        {
+          "pass": 3,
+          "SW": 0.2612372853327561,
+          "accepted": 17
+        },
+        {
+          "pass": 4,
+          "SW": 0.2646646714631898,
+          "accepted": 12
+        },
+        {
+          "pass": 5,
+          "SW": 0.26551942542917256,
+          "accepted": 6
+        },
+        {
+          "pass": 6,
+          "SW": 0.2659024502932016,
+          "accepted": 3
+        }
+      ],
+      "occupied_k": 4,
+      "cluster_sizes": [
+        379,
+        1302,
+        252,
+        83
+      ]
+    },
+    "ARI_to_historical": 0.4342245508418849,
+    "full_gates": {
+      "occupancy": true,
+      "SW": true,
+      "CH": false,
+      "AVI": true,
+      "AVU": true,
+      "S_Dbw": true
+    },
+    "elapsed_seconds": 6.800112600001739
+  }
+]

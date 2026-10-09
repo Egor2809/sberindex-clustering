@@ -1,0 +1,1657 @@
+{
+  "schema": 1,
+  "created_utc": "2026-10-03T17:14:53.220510+00:00",
+  "base_commit": "713d2191af7c54f9392e12da4af4ca92207e8afc",
+  "status": "completed_exploratory_scientific_evidence_independently_checked",
+  "wage_protocol_sha256": "cc2e747b0b85f0ead1864b4a8e6798642be969d60055c429fe0831bfedd0b128",
+  "sector_protocol_sha256": "51c1ea4ebce670d4c1a88a6c1588aad1da47c82fa55a6e787d4b08296e750b6a",
+  "current_source_sha256": {
+    "sbercluster/economic_generalization.py": "d3a563f6db2ec3f1901a8aa8b3dc08fceb4eb83a02062c41d83bd5b042bcd55a",
+    "sbercluster/economic_sector_bounds.py": "2e517993bedfc114cd21c54e897bcf9622eafabebb6adf205dc8a5c2ef46810d",
+    "scripts/validate_economic_generalization.py": "69daeab36b0c8ac0ef012767ca4e29209fb05774e7ddff15a336a8110f9bde38",
+    "scripts/validate_economic_sector_generalization.py": "612bdba9ed79f15f3a55e648ed3261411ba8f3368b3ac8c07bec9863f306d4a6",
+    "tests/test_economic_generalization.py": "1a8fce9364acbfdfff5c36014b3c0eea3cfad5f50750c042af714dd90567a401",
+    "tests/test_economic_sector_bounds.py": "5b5c421673c43a8fbf041b7d73e91160b602d608ffbc3b1d7eac17f6e2c94f2c"
+  },
+  "input_sha256": {
+    "data\\processed\\panel.csv": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+    "reports\\external-national-2026-10-03\\frozen-labels.json": "195e2fdf748e7dae8d3dcafb7515ec70b56896f5ac252e8cd5a355deaa771a70",
+    "reports\\external-national-2026-10-03\\cohort-2023.csv": "dcfcf2ac0af503d696f9492bc8c1bc4e38977cc2bd1b6c12da66463f761d9c62",
+    "reports\\external-national-2026-10-03\\cohort-2024.csv": "0c26468eb64f2ed21d16d71faef998f9cdb3a9e69960a7c016737d402b262a07"
+  },
+  "independent_wage_review": "acceptance/economic-evidence-review.json",
+  "independent_sector_review": "acceptance/sector-evidence-review.json",
+  "scientific_runtime_fix": "launch-fix.json",
+  "files": [
+    {
+      "path": "docs/ECONOMIC_GENERALIZATION.md",
+      "bytes": 21304,
+      "sha256": "554fce0d1b710c836a3241176d11fca882bfde3a97451627bf4056b4b7d20ce1"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/acceptance/control-cohort-audit.json",
+      "bytes": 1476,
+      "sha256": "f5528f696d97d7bfbcd75a4ace8ccbac2d3b78bd58debdf79e5ff04e6caac80a"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/acceptance/economic-evidence-review.json",
+      "bytes": 6316,
+      "sha256": "48dde7eb945552c31e6456bdadd80cb7e4552e0cc0372dcdb4e3b75804293f45"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/acceptance/focused-sector-tests.log",
+      "bytes": 818,
+      "sha256": "fdd30dc899f6b389052b1e45cf68416ddc0d5e2df1b7605f6f4e60cadd8647ec"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/acceptance/focused-wage-tests.log",
+      "bytes": 1493,
+      "sha256": "24b747461a8702c3c48858d211e416a2535dac5143e60f38825ccc45765e1758"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/acceptance/oracle-results-economic-current.json",
+      "bytes": 1228,
+      "sha256": "7eb85772986dfb3586812636e69857f8ac11423450e16eb83265e7c69ddbd6a8"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/acceptance/oracle_controls.py",
+      "bytes": 12196,
+      "sha256": "e51349716055cf1654972826a2ba40b6a9266c5c0c534d227bccffca52c5a0cc"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/acceptance/pipeline-controls-review.json",
+      "bytes": 1119,
+      "sha256": "0950c52ee725a1002474523735c4767882baa78a23fa108875ed6688942d2fa1"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/acceptance/sector-bounds-controls.json",
+      "bytes": 707,
+      "sha256": "e7d41fa81849fc0b24ae82ecd839a21e9a88e01a34f22f2023cba9df53d9d6d5"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/acceptance/sector-cohort-independence.json",
+      "bytes": 935,
+      "sha256": "41f1ca3398c170b598d6e3b0514a2d3681da23abe5918b99e3b49f7ab7b9b111"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/acceptance/sector-evidence-review.json",
+      "bytes": 1388,
+      "sha256": "f3d964ce9c8721e86ea2a6554fd6a82c28dbd81f0871e5b62c89bcb4fd0d7dbc"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/acceptance/verify_economic_evidence.py",
+      "bytes": 14369,
+      "sha256": "7e9ba36b98129006a6849f4935523f1feff5fab07e79be783b69d95dd2ede416"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/acceptance/verify_pipeline_controls.py",
+      "bytes": 5979,
+      "sha256": "e510b004f1dc5b4f669079ac839add366bbe45da825fa524b7c2d1bffea1792e"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/acceptance/verify_sector_bounds.py",
+      "bytes": 4567,
+      "sha256": "bba84fdeb76ee6fe9d89bfbd83fcc18bc469e3cd0145851ed7803f2de7f1ec98"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/acceptance/verify_sector_evidence.py",
+      "bytes": 7298,
+      "sha256": "c93b5a46093ccc12a6eb87ea2e6e5d99732854b00307c8ba88785eb1b83d81f1"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/context/forecast-context.json",
+      "bytes": 6540,
+      "sha256": "13111b2f3c46ddeccf6f89c0e29fe8e0bb93ce85484f81ae8d369c6e526151e4"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/launch-fix.json",
+      "bytes": 658,
+      "sha256": "8564f8062698bd97c4b96761b3a8c7d31bb0e5e798a1c73682fe2fd68457ea2a"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/README.md",
+      "bytes": 4541,
+      "sha256": "3f39296e0696938894accc0e9442d0f462cbc415595bfec91b63fabfb08f3a99"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/sectors/all-eligible-oof-predictions.csv",
+      "bytes": 792127,
+      "sha256": "bb3bf4c99bc5babfb855bc7ab113ed964cfad60db471244ec2dfd6b1f19a7f58"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/sectors/fold-probe-metadata.jsonl",
+      "bytes": 3682015,
+      "sha256": "b97af8fdd02648af74e8b95095ad4fa226349981f9ef55aeb21e9010958f2864"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/sectors/full-cohort-bounds.csv",
+      "bytes": 15338,
+      "sha256": "910e42216110b6cca4a6c4721fcf84be473fafb1a4f7c311b30afaebd8207dcb"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/sectors/observed-scores.csv",
+      "bytes": 1379,
+      "sha256": "d0031007ca4d30d23f3c8e7df6077d259627ce3e8ed7c23520ccc7cf51f4403f"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/sectors/protocol.json",
+      "bytes": 34195,
+      "sha256": "917a4da14c5bf2942cb12da69e6674704147f3c1ca59832ffc2b44c960a21d41"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/sectors/results.json",
+      "bytes": 1141533,
+      "sha256": "d24b76cb9428f3915d93f816d23e5674e6888e8d9a3dc58aa8f3a3814d71cb3f"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/sectors/source/sbercluster/economic_generalization.py",
+      "bytes": 11227,
+      "sha256": "d3a563f6db2ec3f1901a8aa8b3dc08fceb4eb83a02062c41d83bd5b042bcd55a"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/sectors/source/sbercluster/economic_sector_bounds.py",
+      "bytes": 3368,
+      "sha256": "2e517993bedfc114cd21c54e897bcf9622eafabebb6adf205dc8a5c2ef46810d"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/sectors/source/sbercluster/selection_frontier.py",
+      "bytes": 10967,
+      "sha256": "0bcd8604fca0855d74bc60a6f600cd9c5cfd13894918795ace242e15cf797576"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/sectors/source/scripts/validate_economic_generalization.py",
+      "bytes": 16262,
+      "sha256": "69daeab36b0c8ac0ef012767ca4e29209fb05774e7ddff15a336a8110f9bde38"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/sectors/source/scripts/validate_economic_sector_generalization.py",
+      "bytes": 12793,
+      "sha256": "612bdba9ed79f15f3a55e648ed3261411ba8f3368b3ac8c07bec9863f306d4a6"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/sectors/status.json",
+      "bytes": 431,
+      "sha256": "0ebc573e8f3ee722cc39f3bd5819df7caa82c9a5e301440eabd0ff2e521d8c5b"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/all-oof-predictions.csv",
+      "bytes": 493379,
+      "sha256": "e3cb45292e9090cd0416a5f2eb6e1d1cfa3e3213c2a144ecd2e387557e286e32"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/1/predictions.csv",
+      "bytes": 2722,
+      "sha256": "785bb83af268774c36d2d802cef41f73dcbeddeece75c47c5657a6dcab41e3aa"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/1/probes.json",
+      "bytes": 49049,
+      "sha256": "65b71066fea7771d4e805c84441f5e99770e88a913474dab8115d50d8ed66bdb"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/1/profiles-and-labels.npz",
+      "bytes": 79112,
+      "sha256": "bf0fff90d53c823fd10d71b0a74e829bd5dcca0c4e79f069aa4ad762d791c834"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/1/representation.json",
+      "bytes": 39962,
+      "sha256": "38ba2d6d6609a680faecc4785cc21c24cd4d4956a61980e0d9be6d785a78a60e"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/10/predictions.csv",
+      "bytes": 5224,
+      "sha256": "09d04143ae1595dfeaa378096eae0ca8f5bb361fbad983ea1a3d44207cbd4aab"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/10/probes.json",
+      "bytes": 48763,
+      "sha256": "93a38987e6c168158704536dd0dbf2ad5917d70b31d1464bdc135d491fcbd1d5"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/10/profiles-and-labels.npz",
+      "bytes": 79067,
+      "sha256": "b06e23082456a8cc2a806b81b14c1e3d98c13131ea6b91b2dd052643d66e7788"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/10/representation.json",
+      "bytes": 39811,
+      "sha256": "659d6ca77e840ca9e3fe7be6dfc73e2c3ebc777510aa98080e6c7b4d4029b36b"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/11/predictions.csv",
+      "bytes": 5750,
+      "sha256": "5e7d53b24936bc0292fb4a1fd8b23e508cedc2dbf3fbdbbffd38bdf7898bee0f"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/11/probes.json",
+      "bytes": 48825,
+      "sha256": "3a89e1c10f08a74b2607b1e9c42f50e3f86f19c5833b33fc6595fd4e1c1b491a"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/11/profiles-and-labels.npz",
+      "bytes": 79067,
+      "sha256": "d6ad1b23dbe6901a226f4fe010222882f9f3a9d103d4ef1014578f5a9918f1eb"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/11/representation.json",
+      "bytes": 39785,
+      "sha256": "94c0bbf64709fcb2f1f932027e455450d9cec68d083527e7879012493871a9af"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/12/predictions.csv",
+      "bytes": 4953,
+      "sha256": "aa78b9779c117a4b4a6c05754527f7e4efb1ac11f1a98cd464729608e4f89222"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/12/probes.json",
+      "bytes": 48801,
+      "sha256": "70ad59b64ca456db0ee737639463c2ff69dd2f6478f57ef3a3f2667bdf7e7d63"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/12/profiles-and-labels.npz",
+      "bytes": 79135,
+      "sha256": "aaf80c86069647fae3766f5181e9790747eda9698d270124f6e801aa7476d956"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/12/representation.json",
+      "bytes": 39823,
+      "sha256": "572c5513ea0df1d5954e35f8b536c2c8680b26cf2bb1b96b10cf5d7a620e51a2"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/13/predictions.csv",
+      "bytes": 5762,
+      "sha256": "b197266d6a8c28f5abd01a39d1e6763506dc43e93fe0afe2e0ec0f666e35ff5c"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/13/probes.json",
+      "bytes": 48916,
+      "sha256": "47dc38892843c1346094e1bb9ebdde9c9ddbee5def965f9e1e31a0d5f3581b53"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/13/profiles-and-labels.npz",
+      "bytes": 79131,
+      "sha256": "3ad978970bb45cb8b24e887360a5d7baf81874e3390bfe3dd88a450999a34656"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/13/representation.json",
+      "bytes": 39772,
+      "sha256": "a75251c7697797096c897d0ed4e3b08107f6420f2846ca63d9644a8b1497bc40"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/14/predictions.csv",
+      "bytes": 8258,
+      "sha256": "6efc6515c2929a8323b21e87bdad8c6bf055a1b3f7532c7e36af84e50b9b8700"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/14/probes.json",
+      "bytes": 48537,
+      "sha256": "674add21de211e6c37f75cc79142d8ace3b3def8f4a2ff80e3c4028daea6ba93"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/14/profiles-and-labels.npz",
+      "bytes": 79288,
+      "sha256": "90ce079872c86d39621dc9803c622064ae1f5e393314c20dd64d3ae638a24fa7"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/14/representation.json",
+      "bytes": 39636,
+      "sha256": "8a91ade90f7c0f3200f44aa7c84f8b768a97222db462330e6b2cba11cd9dc723"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/15/predictions.csv",
+      "bytes": 2070,
+      "sha256": "018ab14f4ec0cb372f8e67bd77c17449c4a8a6fa6db9d9f01cae75a63603b78d"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/15/probes.json",
+      "bytes": 49121,
+      "sha256": "f97fdd7637eb5ef9c711ca1b4ede9828f8ab0114aa7de5d6264938ee00ce797b"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/15/profiles-and-labels.npz",
+      "bytes": 79104,
+      "sha256": "777e1228d6dec5ee299390db950ab38f5eb30e5db9a3b4f5c328194b37b0435f"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/15/representation.json",
+      "bytes": 39984,
+      "sha256": "4fdcc7c4a644f7e2f50b4be5859f1965449cd94cb59ee99fe9af3e6f24524ab0"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/16/predictions.csv",
+      "bytes": 12099,
+      "sha256": "48b0a98ac14138d6e0e14043ec70cc6fced99e85e8dd25b9144823c055d85f73"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/16/probes.json",
+      "bytes": 48490,
+      "sha256": "56d943930dc160184e4012540124c77d1fb66e59a5be97a65bf9648c267e5e38"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/16/profiles-and-labels.npz",
+      "bytes": 79114,
+      "sha256": "ba24b823bcee0d8fac56a83ecc94e846e95dfc2f712fae02156d385a607c6af0"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/16/representation.json",
+      "bytes": 39409,
+      "sha256": "2dd2292d4beeb2862230c3818e1d0cb3f48fded3e59e5c49c275a0fbab89446d"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/17/predictions.csv",
+      "bytes": 3017,
+      "sha256": "aba978cb39803b6628b16aea2fc4b51fdc02e6f11c3eed6eaded9168e6bfe3d4"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/17/probes.json",
+      "bytes": 49105,
+      "sha256": "672c169807bbc09aa02972caee255b450df2852ec690eb12cabd3f50a9262086"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/17/profiles-and-labels.npz",
+      "bytes": 79132,
+      "sha256": "f8df27c75dddf002f567faabe0531fe703a9ed99e592c99735fb2ed1f2a3c960"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/17/representation.json",
+      "bytes": 39942,
+      "sha256": "989944fab50d087421cb44b5b229cb18422b9c267c7a291d6f756e1b22b9cabd"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/18/predictions.csv",
+      "bytes": 7696,
+      "sha256": "c3e7371df4a5b3c0a3f382f9f5c91caae489ccb02b20e46d4613600e6ad24bcc"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/18/probes.json",
+      "bytes": 48673,
+      "sha256": "ded4110916b7e8dce75748c93f43da239e229eb04fe5f01d51fab8b83c8b89fd"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/18/profiles-and-labels.npz",
+      "bytes": 79095,
+      "sha256": "8869dac93f844d1d2a117150f0ed93fdfe6608901d68451a753d1e3429cc9092"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/18/representation.json",
+      "bytes": 39663,
+      "sha256": "5621bf2f4a07067ebf408c6320cfa24dbbd7ce360dbec5f529ac991b4ee2af72"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/19/predictions.csv",
+      "bytes": 3570,
+      "sha256": "1db97afd0a599c50a5d5eca5514b498f4725baee46c215651f26878313b973e6"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/19/probes.json",
+      "bytes": 48964,
+      "sha256": "44d88d4f42d51a55f34f3deb2ddd566c1178f3dac75f7f604c814dc419fc8ce6"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/19/profiles-and-labels.npz",
+      "bytes": 79107,
+      "sha256": "aad184d01781790e42dd5ba326399961cd3fa48a3e2eb0c0efd94a65806051db"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/19/representation.json",
+      "bytes": 39906,
+      "sha256": "bb97926f57db26ae633f3c79198c1e4286c13a49bc489ea99e1caeda56b1721c"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/2/predictions.csv",
+      "bytes": 16922,
+      "sha256": "feeeb8dc4ce866702478a6778edead15a17ec15d1b4f56a616420b8d91bc6123"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/2/probes.json",
+      "bytes": 48242,
+      "sha256": "e38f9028c37d5bb53e021b5edb1e9f0ec8fce70291d46123ca6a091844b955a3"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/2/profiles-and-labels.npz",
+      "bytes": 79095,
+      "sha256": "7eb1d016271fe4b701624d6659410afc42800c951ab66135d7c698b0ac8bda1d"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/2/representation.json",
+      "bytes": 39188,
+      "sha256": "5ca7caacccb3963e7817d6a44205c69ec23d496bc1774adcfe1694afc84300c8"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/21/predictions.csv",
+      "bytes": 6597,
+      "sha256": "387fde76390693c028ffd52666d72401abf74cd6df14b321615658ffa556c491"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/21/probes.json",
+      "bytes": 48719,
+      "sha256": "a4c8cbc31470135fd43af09d5c477404237e193fd51d9d88c3999a233b208ac9"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/21/profiles-and-labels.npz",
+      "bytes": 79083,
+      "sha256": "b6d9c4e5c642ee8f2c9ae09ceeb45160bc49d4ea64f91595c4682ad25d497909"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/21/representation.json",
+      "bytes": 39731,
+      "sha256": "1cae51bd201030290dcdab53699964517b1d0d3df8211672c0462a7ac6fb4193"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/22/predictions.csv",
+      "bytes": 18164,
+      "sha256": "f5953cf463be485cd7c259bfdb7f5fd0ec90f522300305a2a6a2c838f4be5671"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/22/probes.json",
+      "bytes": 48174,
+      "sha256": "c5f2f4d33c50053ad23a61f5b59ee9eff362b8812a51d798afc4f3927723906f"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/22/profiles-and-labels.npz",
+      "bytes": 79103,
+      "sha256": "b1741500aecb52d96cbff1d339703ba12a6ae2b20cd3c108868ab07f8038b70e"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/22/representation.json",
+      "bytes": 39066,
+      "sha256": "0de0d84307e3376616d4b98c1115660cf7cc7736932ffd521fe400fcda999357"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/24/predictions.csv",
+      "bytes": 14282,
+      "sha256": "748e7289ca78cdd9555123f33fff302a8a9421fdf8788cb3078483cfcaede0c5"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/24/probes.json",
+      "bytes": 48312,
+      "sha256": "ca2651c20d9dc7555259293ed477107c3e933ca03a282f48cfaeee18a08bad6b"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/24/profiles-and-labels.npz",
+      "bytes": 79108,
+      "sha256": "1a3bf0115e853792251a3e38f98d9e6dbaf25f5118d0827adacaa43fd805aab7"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/24/representation.json",
+      "bytes": 39282,
+      "sha256": "69693a91d5a889bf06283fd073d3031718e692c96a93fcb0c564cea1ab895592"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/25/predictions.csv",
+      "bytes": 9355,
+      "sha256": "d1b4e4ae00fd435575be746f240a5b4cb3cda56b4f02428337fefe4f42cbf189"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/25/probes.json",
+      "bytes": 48666,
+      "sha256": "64de1643c7bb891297aad05decba9824b953589b0a474fde89ca92a8804ab7be"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/25/profiles-and-labels.npz",
+      "bytes": 79050,
+      "sha256": "b8a955e478fc8482b95dc0c5085a9271573b22bff2dd2d3f941232aca91e13e3"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/25/representation.json",
+      "bytes": 39569,
+      "sha256": "0e20767c61afed3361d78485288f397d12c88a86f04f62c6241f7ca1813b2fc2"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/26/predictions.csv",
+      "bytes": 8922,
+      "sha256": "9e188e73dc3ee576ed72136465fdbb9c09887a9182b9113ba96036ebacfed97e"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/26/probes.json",
+      "bytes": 48622,
+      "sha256": "df69452d6fdb45f6a3fb342e72e2b01a45db05f0703a14994490020c4f696980"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/26/profiles-and-labels.npz",
+      "bytes": 79124,
+      "sha256": "dfdefb341a424451ef92e6c9b4b521ae95e60458dfab495afc16202effd4c03b"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/26/representation.json",
+      "bytes": 39569,
+      "sha256": "4bf37f0fbab6193046e9a43f86171c5f4006483517fa7f9a9201e12b993eb069"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/27/predictions.csv",
+      "bytes": 4676,
+      "sha256": "8756fca891000ea78c877e9685b52f52c79ec5007055ef32def786cfc45fde7f"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/27/probes.json",
+      "bytes": 49007,
+      "sha256": "caefa9f4484dea7aee74d18cd1b1c138ae70aaec4243b2b1b865ff599349cca7"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/27/profiles-and-labels.npz",
+      "bytes": 79079,
+      "sha256": "8868fd1c6cc3ec87689ed19555cf396ca5a2ea157da35b45e0d1ffd551575d6a"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/27/representation.json",
+      "bytes": 39849,
+      "sha256": "af50cda7668ac1863308f4f5a9ef619f113ad3116acad4c7941b58a26a56e874"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/28/predictions.csv",
+      "bytes": 5498,
+      "sha256": "77d05fb7a2b7183932d322ecfa1020ed4c8f7ab10dba82d13eec0f6d4265da9f"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/28/probes.json",
+      "bytes": 48923,
+      "sha256": "b8bee3e0d45d378eeeb4e624481553e127341e991237bd22037ee674de7afe2a"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/28/profiles-and-labels.npz",
+      "bytes": 79093,
+      "sha256": "127c03836d3b90d961d497a93c1026c76482e26b8b6cb86187f53b1eabb9836f"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/28/representation.json",
+      "bytes": 39796,
+      "sha256": "5aaaf1f2738beecf5458ffa6a06ebd5e4803d1d0137ea4081a2dfa6ac0c3e848"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/29/predictions.csv",
+      "bytes": 4938,
+      "sha256": "e932c5bece3603654de5095a2488de055ddd528fa50645e2fe7dcc8f7ad5f236"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/29/probes.json",
+      "bytes": 48844,
+      "sha256": "476f23574ed1d278ceae273a5ea8252a66c5e87689b8e9f304f1f71ad9709cda"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/29/profiles-and-labels.npz",
+      "bytes": 79118,
+      "sha256": "a164c9e89ad6a6713c4b4bb341f4de1be3b60a6e21a9b57d6bef21f9fbc551f2"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/29/representation.json",
+      "bytes": 39747,
+      "sha256": "3ed89ab2678302a79dcb98979aeb1c0ee4f8f66968cad25e545015a7a5d5dbb1"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/30/predictions.csv",
+      "bytes": 3291,
+      "sha256": "75400510bb0a4ec97045141a42cd2bfd628961d397d25da937f77ad09b91baa9"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/30/probes.json",
+      "bytes": 48941,
+      "sha256": "1cfee7fa0abf46ebb9ef68e5547e82c8e3c7d5f9bd41b86b6ed03f7311596639"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/30/profiles-and-labels.npz",
+      "bytes": 79062,
+      "sha256": "83de7f7b0755d18080da95fb681ca1b6d96cbc497df0936d9cc276be65df4ef5"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/30/representation.json",
+      "bytes": 39925,
+      "sha256": "8ef767d780e7e631bdef6686f80091a19995445b156349e5d43512d2e6838b95"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/33/predictions.csv",
+      "bytes": 5219,
+      "sha256": "95cd4d5574055c61abba2902d666ccf3503c06f136c31732642e3c8ce66fa094"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/33/probes.json",
+      "bytes": 48820,
+      "sha256": "8933ed228aec98b23e454dbd36b7f926a6a8a1378ab732d6a1c9d149ef8dc946"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/33/profiles-and-labels.npz",
+      "bytes": 79069,
+      "sha256": "71b702e1daf336e97174d90bf75c04eea4c22ca63f44c12cf19eac369b1912ad"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/33/representation.json",
+      "bytes": 39804,
+      "sha256": "d1f41e5efc5b52194d2c0e8a4e0fec6ca57dd3c91e572964571fc169c8573535"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/34/predictions.csv",
+      "bytes": 9932,
+      "sha256": "ce9d037dc3562863e0d1f90b050f751977762048795dfe16ee2d1035f77f32a4"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/34/probes.json",
+      "bytes": 48538,
+      "sha256": "01938e076d892781aca3c215af5b9e511a9045ab60393df49a72591490d86bc1"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/34/profiles-and-labels.npz",
+      "bytes": 79129,
+      "sha256": "616d254ff7fe0698553908ddcd100f7bee2d6b22b4b1bc561114d011d17ba099"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/34/representation.json",
+      "bytes": 39500,
+      "sha256": "ea1112d07f983398da0236246982b2d70a1b7cda855aa82ad1f59b29156e8d9b"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/35/predictions.csv",
+      "bytes": 7169,
+      "sha256": "84770f495c644334b56825cc20f17b5225627ceb315a4ac33f68cfa790618f56"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/35/probes.json",
+      "bytes": 48715,
+      "sha256": "72db81ed63e68438b48be9393b921ebeaa1986d19b67cde8db773f4ffe61be08"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/35/profiles-and-labels.npz",
+      "bytes": 79078,
+      "sha256": "573710af0937e6b6b3c5c7729285a43a0560322c9542d64310f8fa594514e09e"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/35/representation.json",
+      "bytes": 39675,
+      "sha256": "10a7769ba3f53c98a631e3c2c0d9093dfc8577cf907501e01a817f0ffa25b765"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/37/predictions.csv",
+      "bytes": 7453,
+      "sha256": "e2c9681d98bfaccdf2692811a3cbe9d7f9ad0a1e5cd55b8ec91e5e5fbf65048e"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/37/probes.json",
+      "bytes": 48793,
+      "sha256": "5cd5171b05e55d107fa5158194a0d602e5d20d7a225257a9f42e26a8e997df5c"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/37/profiles-and-labels.npz",
+      "bytes": 79131,
+      "sha256": "08c0427f168f5c765150094086971650fed8efe71cb5f62e97822d749860421e"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/37/representation.json",
+      "bytes": 39653,
+      "sha256": "356829aef5900b4c213e465173af426ba5023c8bb4e26fba65527ac7e6f34f83"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/38/predictions.csv",
+      "bytes": 10770,
+      "sha256": "4e54a2683443129e414caa95191370adbfc81b924629f4e879ad6ae35b8b1200"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/38/probes.json",
+      "bytes": 48683,
+      "sha256": "db3cbc0071036f75c91feeafc0f0738700ea530cfda2fc9b7a373652e0df4277"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/38/profiles-and-labels.npz",
+      "bytes": 79052,
+      "sha256": "2d219bf7fcaacad17d3de2f59872d39674a61e0faf31f1954dc961441fa91c8c"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/38/representation.json",
+      "bytes": 39434,
+      "sha256": "340ba5d90fb913debaee82f3800da36a7a788787c3f39bd239182606b912c4a5"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/39/predictions.csv",
+      "bytes": 5252,
+      "sha256": "b479711cb44d8b46cf26ddfadf0607d865ff00981261ed146b2c96c05f0eca47"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/39/probes.json",
+      "bytes": 48888,
+      "sha256": "daf7bbce99a7f13de24577b5883127b55512732e3b70d6e806b0593605bca41a"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/39/profiles-and-labels.npz",
+      "bytes": 79086,
+      "sha256": "f04a7c4aa55d490f5aa2e14a8ff604a30141e75618246b5c9089584a09b97625"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/39/representation.json",
+      "bytes": 39778,
+      "sha256": "783f057dcb02c69f05fa3fe5cccc86e5594ef278623341d52df7d459bab08765"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/4/predictions.csv",
+      "bytes": 3279,
+      "sha256": "ece2715b946a6482e4cc1167aac9b16d5e09f340f3c92da430c5df7bc4494d2b"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/4/probes.json",
+      "bytes": 49005,
+      "sha256": "2700c1e2e024db9fabd88f6477445637eb9c91af3bec93d5a3cf6e5e8f97a35f"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/4/profiles-and-labels.npz",
+      "bytes": 79076,
+      "sha256": "796569f5e65804802419b4637f617a6b83e70d6b17f341edb9795b347039b33d"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/4/representation.json",
+      "bytes": 39934,
+      "sha256": "e1591d18c5dac282e41d1dbedec8f46a36c84cbeb5847054da6f7211ceef1ba0"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/40/predictions.csv",
+      "bytes": 7174,
+      "sha256": "80819654202b8bcd54f93e33be4389570ba5dbb9b7b34c2726531cef5972c996"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/40/probes.json",
+      "bytes": 48848,
+      "sha256": "4d23a1bfec6ef480d5fc301cde0b8715234dd24c2b4118b21e5f11570c0f2af9"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/40/profiles-and-labels.npz",
+      "bytes": 79117,
+      "sha256": "c1c5fcf6f45641c6402fa8790a23245dc1174eb8f34941a1ccdc8e5f03579445"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/40/representation.json",
+      "bytes": 39673,
+      "sha256": "0ee87f0c163db5fc179f87cfd35b4ac2dd478b169f44fc0ba9650430e23b0610"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/41/predictions.csv",
+      "bytes": 2752,
+      "sha256": "e5b0d81549f0e0dcd41fa9565a1113e2dd7f501fd97a99076d06a232565a2d79"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/41/probes.json",
+      "bytes": 49097,
+      "sha256": "bc9cdf816d29107aecc0199e9f9f652ef23b7e8d06c6ccba7a9a39aeb32ce218"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/41/profiles-and-labels.npz",
+      "bytes": 79147,
+      "sha256": "4c730c45bf636780934a54157c6eec59344c51c02413e99db2b1398f729438b5"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/41/representation.json",
+      "bytes": 39961,
+      "sha256": "613f38d32b84589b36a8f82d523fda7f3d4c1922923245e70ab2bdf595fa7760"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/43/predictions.csv",
+      "bytes": 12138,
+      "sha256": "cf6347ce752139357d97a6fe83e6ff7a6ffcddde95afbd9c775f51c15991f58a"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/43/probes.json",
+      "bytes": 48432,
+      "sha256": "37bce4e9b9122af1cc0524694b0d7d02ff9472a63033214e7bea17062ffd2940"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/43/profiles-and-labels.npz",
+      "bytes": 79093,
+      "sha256": "04a54e6fd5c02c5dc88f030edb02386c9ebaede25bcabc5b3d631d25006ba19e"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/43/representation.json",
+      "bytes": 39365,
+      "sha256": "0d01b044ba8fea00f371b0af9145041833086e6c69656073bfcb81ab55e7e201"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/44/predictions.csv",
+      "bytes": 8012,
+      "sha256": "b75927d6e01e743e4efcc76c27d6d2f797d14a4fc1a52707a3a9e0f527fe4bcb"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/44/probes.json",
+      "bytes": 48650,
+      "sha256": "6c74757dcd0123f1ca3b9646d0828df63062fafeaceedfe75c201efdfbdee14d"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/44/profiles-and-labels.npz",
+      "bytes": 79109,
+      "sha256": "f04b120867bb44307a2ede17442ab3f63e3d6c2541b1384b8365c6444bccc7cf"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/44/representation.json",
+      "bytes": 39619,
+      "sha256": "1263c959c5a950c684ef7f7c5c8e580f89b228cd404287e33b87a17a27ff778d"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/45/predictions.csv",
+      "bytes": 6895,
+      "sha256": "b3736f2e49052bca5804d87df578c63fe189348e956e65a033169f5e98e3c420"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/45/probes.json",
+      "bytes": 48731,
+      "sha256": "55e243ab01fc56bcd92d0515f94be57f4562e5e4ee239eb4ee84c7196192ebb1"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/45/profiles-and-labels.npz",
+      "bytes": 79095,
+      "sha256": "7cf50a6a3a1310d68ba3f1481381dcc5993abcf92e84cb2b3dfebe19d21fea77"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/45/representation.json",
+      "bytes": 39692,
+      "sha256": "b9c89ff82ab48df1f6abd3b2004c2b41b6a22dc1dea37ddb4c0469ec0f96496a"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/47/predictions.csv",
+      "bytes": 5242,
+      "sha256": "598931aa4c55fef5bd465bf7b4e5ed1ef6ad01db3795e04b669523f523087257"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/47/probes.json",
+      "bytes": 48942,
+      "sha256": "e599d023d051d2f9efcbba1692c9edde6ef8f2b29a61aed7a418201b88c764aa"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/47/profiles-and-labels.npz",
+      "bytes": 79112,
+      "sha256": "3c4ab7286e46170dba5871a9c8aa8b20af8e44e95d9e9dfe447a835c48ab1daf"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/47/representation.json",
+      "bytes": 39792,
+      "sha256": "7dfc9757351741286b78dc2adbfdb2f6baf805f90bad4da3b593ecc6a8755269"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/48/predictions.csv",
+      "bytes": 4903,
+      "sha256": "7158cebb204daa02e64bb32cd5026daf24f7349f5d8b73c37fc0878c5a442f94"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/48/probes.json",
+      "bytes": 48916,
+      "sha256": "0d2fda10ed57142f91d5a95888cdd0bd673ac5f6490347484ce4b2baeb668f6e"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/48/profiles-and-labels.npz",
+      "bytes": 79088,
+      "sha256": "11b7f13f4032d66b6059b1b441cb256687bf3c3d3cce3ee48d71449dc6fe9e7d"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/48/representation.json",
+      "bytes": 39803,
+      "sha256": "11296b0d090b658df485fc01b338ef103340611502e08b7b727d05d32771666f"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/49/predictions.csv",
+      "bytes": 545,
+      "sha256": "71af565cf02552745ff263b2ff286cd44cfac1b2c20ccabd974338f05bcc6d12"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/49/probes.json",
+      "bytes": 49191,
+      "sha256": "c1e935e1ab5d84a2f50a27a8c1cf75b15b4132f022887c7b648de699d6235b26"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/49/profiles-and-labels.npz",
+      "bytes": 79066,
+      "sha256": "cbde930200b242c843ad9dd2b63e4d0d0b5daf58dca201682bdc1e57e9ab4fae"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/49/representation.json",
+      "bytes": 40049,
+      "sha256": "73d6b44698428668a2c86cbedf6c8a782e53f24e39d61450c5a4f63e3085585b"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/50/predictions.csv",
+      "bytes": 14629,
+      "sha256": "1123cbc91c7149fdba9f1dc6ac65569fd2a88e70032eb7fa21723409a5acd859"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/50/probes.json",
+      "bytes": 48312,
+      "sha256": "7dd5b114c61126cfa98006cfc69502d133554366c007a5279218aa70f89c08ca"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/50/profiles-and-labels.npz",
+      "bytes": 79093,
+      "sha256": "e8c1805773e4ffb91eba6a95192ecd9e13cf430ddf082d1cd137c8eece3cd0f7"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/50/representation.json",
+      "bytes": 39221,
+      "sha256": "ced495a001f3758cc9b4cf37737f14f0a77f4cfbb737feb449fd945a7cba553f"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/51/predictions.csv",
+      "bytes": 3579,
+      "sha256": "a9c2193736ebdbfd0d2a5bfe27ee11bedf76066aeb228f87666851ae7e05cbad"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/51/probes.json",
+      "bytes": 49009,
+      "sha256": "d6e3a7a493e57bf1ec5bd3662eb10f322590f400c87b2c45dcf78b9590d49d56"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/51/profiles-and-labels.npz",
+      "bytes": 79103,
+      "sha256": "04301aef62c338d16fad3548b5e2d420cf4b9c5a1b655d0c006108e13355a87f"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/51/representation.json",
+      "bytes": 39894,
+      "sha256": "47817311933194e9a252980082bcf5b1820025d15ee6854c7539538e9de55499"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/52/predictions.csv",
+      "bytes": 14094,
+      "sha256": "04a87e2669841a66fabeeafa04b3e8f3d9dccf0905fe977a82eb1eeba3312ca8"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/52/probes.json",
+      "bytes": 48380,
+      "sha256": "b6586dd4bc1c921a8521c71cb7829502c837c0586e4ed8b113fa03b59276fc10"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/52/profiles-and-labels.npz",
+      "bytes": 79062,
+      "sha256": "89e22be99ba4388106bdb2628c23dc7e5294bd11fa207c2f24f4840ffd7114cc"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/52/representation.json",
+      "bytes": 39246,
+      "sha256": "221f127d50e9acccbe30385c2aa45ccc5d63153c61bbeae641a4c7101aafefac"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/53/predictions.csv",
+      "bytes": 6068,
+      "sha256": "6291b102b0000b1fc6d67300f9ab179336018a7733d90ff4f1d441bfa8461c4c"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/53/probes.json",
+      "bytes": 48817,
+      "sha256": "424e4e84e3ded10cab646f2d8fdc307b89cc72bf1af24e96f037cf1053fd37d0"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/53/profiles-and-labels.npz",
+      "bytes": 79093,
+      "sha256": "28614083b8619b02f0833324734564baa810fd0bf3f932b08990b69f99085d20"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/53/representation.json",
+      "bytes": 39746,
+      "sha256": "08fe75a2d70eccc8459b0cf6e33085d85e43b1be75dd19d4d3a5133fca320185"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/54/predictions.csv",
+      "bytes": 9319,
+      "sha256": "1715e69a54d47f9d1aa354effb97c08ed740e3c740b7e4f61f49387e728fea6e"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/54/probes.json",
+      "bytes": 48637,
+      "sha256": "b9ffd697ee4e2a6ecde0a42bcefa4a02d762d5db09d167c685c646814f03e9b8"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/54/profiles-and-labels.npz",
+      "bytes": 79089,
+      "sha256": "9e739dc139c6f8423c503303a69157096fb05c9918ca435573c521dfa8826327"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/54/representation.json",
+      "bytes": 39497,
+      "sha256": "58d6b14378dd459db0c7435bbbcebad9d9a42dbbf7d4abb25faba7a8f43fddf0"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/55/predictions.csv",
+      "bytes": 9380,
+      "sha256": "62245c3e4356e973492ef38a2eab657e1348d6bd36df1f8676d51a5b92ac9976"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/55/probes.json",
+      "bytes": 48669,
+      "sha256": "efef103fe22b686ff9fb0b4735516d6e89a629a76f1bbd422a3686cfc12d797b"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/55/profiles-and-labels.npz",
+      "bytes": 79076,
+      "sha256": "8492ba708905e1528efad40a3f38804cd3af1860376da7f124940cf41ff23af7"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/55/representation.json",
+      "bytes": 39539,
+      "sha256": "011fd9cfffcb159828778e9821acccfbd0df4b90aaa3fc22721bbbf157868524"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/56/predictions.csv",
+      "bytes": 11047,
+      "sha256": "7fd18c834074258af7b85cd8762bbc1ff2ef55c3b06216f9dee6957c728c0f3a"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/56/probes.json",
+      "bytes": 48392,
+      "sha256": "1e2a89b3e7e0ba826caaf8d80eca82ba4e654a9588346cc3997f5b1e71678417"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/56/profiles-and-labels.npz",
+      "bytes": 79097,
+      "sha256": "71c7fc7b4b743434959f5be3a19fa3605c95674002abc49756fed51387642783"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/56/representation.json",
+      "bytes": 39444,
+      "sha256": "3116cdc77b18c44fc4b33cd403159b551534fec5ab773be19052862afe3000fa"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/57/predictions.csv",
+      "bytes": 6073,
+      "sha256": "7bd37809d731760afe12b0b3c421caea4ddb569d51a2902837bd8a7019521151"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/57/probes.json",
+      "bytes": 48774,
+      "sha256": "27d36dbad1a1f3d0eec1db8693bb3fe8079b69fe85de3528f85fc6645359278d"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/57/profiles-and-labels.npz",
+      "bytes": 79120,
+      "sha256": "0e167b45547635297561413bbe6596465edf337354a343c46150d0ad923056c5"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/57/representation.json",
+      "bytes": 39735,
+      "sha256": "30e7d02da162e8a9257cebf3e65228229ae070c6a24525c474688d77d0b46e51"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/58/predictions.csv",
+      "bytes": 7170,
+      "sha256": "2b9e8cec0275cca599f10f3b3133f436f3a1f2a228cdc95863808ee4c9934077"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/58/probes.json",
+      "bytes": 48754,
+      "sha256": "4a9be34f3695f10887fcd0ccc05ebd08e18d923f9fd02698b458381bc09279c5"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/58/profiles-and-labels.npz",
+      "bytes": 79062,
+      "sha256": "319d904e53608f0e3a3728748de96357a46b5d4ba69e033cf182e3b42de9e9fa"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/58/representation.json",
+      "bytes": 39681,
+      "sha256": "4922e0819a25f21c918cdc1554ab476b0fea615024e6962f2576fd19ea86cbae"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/59/predictions.csv",
+      "bytes": 11841,
+      "sha256": "8b431b6d8924c812dc4f25324de4411ee4b3b50d042895a95bb3bbd83f0e3373"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/59/probes.json",
+      "bytes": 48416,
+      "sha256": "d2af5b02810d47c6714a4914d1763de8373aa6cfc3ee2560c5ac37ba9b6ea3d8"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/59/profiles-and-labels.npz",
+      "bytes": 79082,
+      "sha256": "9b0aa252ab493aeb70fe279db0f3a00b2610383dc14448dc6ebdf5e6c2cce7c6"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/59/representation.json",
+      "bytes": 39423,
+      "sha256": "52c8481e7ffc8f791eb5e284375119dc736786b5604ef349d8455bfb12f4eb79"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/60/predictions.csv",
+      "bytes": 6342,
+      "sha256": "171f3db72e7951e6d5db9fa37a53fe322541b358d90a32e3f231476dff897990"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/60/probes.json",
+      "bytes": 48777,
+      "sha256": "2ff23d4db25a49bc864a66d4c2469f7afba4aa1877e03967ee8f724c24f9faa4"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/60/profiles-and-labels.npz",
+      "bytes": 79077,
+      "sha256": "75fb39975b06501a6685ecab72906a7cb7cb21daaa54836b3947009ae7ed67b3"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/60/representation.json",
+      "bytes": 39730,
+      "sha256": "72c620089ef5fc0a2299d57e621e1d62703c3fd282b797f9e324abca89ede0d4"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/62/predictions.csv",
+      "bytes": 6982,
+      "sha256": "d04a1351ec00e51e0169150cb161a2e1dda8b8aea30266d9ab5fe4724c0ea42c"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/62/probes.json",
+      "bytes": 48835,
+      "sha256": "af1989ab127fc544d57533709c21059bca2068619a86e47c59b72ffc84e47ffe"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/62/profiles-and-labels.npz",
+      "bytes": 79084,
+      "sha256": "50fb95850d244a58a45ec5d641e4e7da16d4e4cc0fd070ef5afd97882b287251"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/62/representation.json",
+      "bytes": 39665,
+      "sha256": "cd3a2a2cfbde53d100158c52deb27f73d59bd0f1fcc761fc2b98643a338b1410"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/63/predictions.csv",
+      "bytes": 10209,
+      "sha256": "6febe34010804e387c675f81c4a86c1a45b40669d3c8431d0d2d20a5725e4254"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/63/probes.json",
+      "bytes": 48566,
+      "sha256": "46f0e170a6d5867aa91962fbfca102482d6b8853083350b347c7ea895d5bf1f3"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/63/profiles-and-labels.npz",
+      "bytes": 79043,
+      "sha256": "b46374b246dd282217a12b6094627991de85a5f2e72369f80c446c7951cff32b"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/63/representation.json",
+      "bytes": 39470,
+      "sha256": "7b6ccf143a1eab447d728de8ad53401b424a4f10a0c129e394e8f7d48e3af576"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/64/predictions.csv",
+      "bytes": 11030,
+      "sha256": "952c867b505d7a473a827a0cc62249cc9e4e3b3f6924efb9f694f403d8d68732"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/64/probes.json",
+      "bytes": 48457,
+      "sha256": "113df41d39f93177b9a436d90d30d276f6fae2be5ec5ce4f0bdd8e80e2570c55"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/64/profiles-and-labels.npz",
+      "bytes": 79062,
+      "sha256": "0ccc1815109b768c94fcffcafde3dc18e91381fdb68a34ae466b5eecdb7eea29"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/64/representation.json",
+      "bytes": 39434,
+      "sha256": "cc40d8b26a82a3da485ce6f3d28f564653d2007d4701f1a39b7bcbe8ca9aa990"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/65/predictions.csv",
+      "bytes": 4693,
+      "sha256": "153f71b5ece70e983bfac4ed19a8fa15dd31f17add5ce9edd4d9e4573b5d9c33"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/65/probes.json",
+      "bytes": 48819,
+      "sha256": "8dea0a697d173d6ec0be8227f61a847eff801159074d4aab10f359719fdd0bc7"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/65/profiles-and-labels.npz",
+      "bytes": 79131,
+      "sha256": "2415e80573fd0c14b320b237e7149511eefadeddafc97d3a7833a706254d80ca"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/65/representation.json",
+      "bytes": 39829,
+      "sha256": "b47fc244c70cc9d63b40c9c47cce0035bfeff6187ecf80e65eb08cc430511295"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/66/predictions.csv",
+      "bytes": 17938,
+      "sha256": "b35a77e025414103c62c76f250330bf558d434a94a7fe364403ffea81448df6f"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/66/probes.json",
+      "bytes": 48002,
+      "sha256": "b4a4d493c5f70cf1691f8a2e40f26a4e229a122a8297b2cf6e1335da6a44202d"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/66/profiles-and-labels.npz",
+      "bytes": 79115,
+      "sha256": "e020107dd8e98eaca88f54267d2df583d94798bcb325fc20814c39290632f0f3"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/66/representation.json",
+      "bytes": 39018,
+      "sha256": "d4c6c59bd89229a2da61f858d99fbd0a194d1aaf314f35cc51c870f874809e36"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/67/predictions.csv",
+      "bytes": 7719,
+      "sha256": "b00295cd2c0a317d5bb083b056a69fc7d4e20372688d9a4d26b2f8f6e232cc4a"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/67/probes.json",
+      "bytes": 48808,
+      "sha256": "492612c2a0b79189feb17793fb5d32fb50eb4d9da2feebf463dfc1a692b71da8"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/67/profiles-and-labels.npz",
+      "bytes": 79082,
+      "sha256": "f62ddf13f4ea515546965ad1015ddd8e6a2ce7b5a4bde08d0257f385199f836d"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/67/representation.json",
+      "bytes": 39643,
+      "sha256": "e487d2b345c8da4fa317fe1462941d08b1e5da0722de534e83ba36ea62dc2247"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/68/predictions.csv",
+      "bytes": 6908,
+      "sha256": "c32c080c12bc3bc110c78bc3a24e65d03fb73a61d682a7c40a5005efb367a730"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/68/probes.json",
+      "bytes": 48780,
+      "sha256": "1adeb2407a5b150bcb0403f8a9b0d58914bd4a4c0560a795777396c560e14e04"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/68/profiles-and-labels.npz",
+      "bytes": 79089,
+      "sha256": "7acc604bc5a3cbe01802bdb06952e6449bed8d33295b1743a206596713b1c2b3"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/68/representation.json",
+      "bytes": 39692,
+      "sha256": "d005caf95cade199f8b847d533103d0bf4481303e2e627755dd8f066cd6f79f2"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/69/predictions.csv",
+      "bytes": 9818,
+      "sha256": "7981a1954c1465f11adf1749aa2ad1a533d7a219c82e4338148d5c0c68e6b2da"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/69/probes.json",
+      "bytes": 48533,
+      "sha256": "2ac7ee9bd3025335a50f37a624f544d7c6df4d61b8bb04de117457956d893706"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/69/profiles-and-labels.npz",
+      "bytes": 79087,
+      "sha256": "23c68a04447bf81f42417b9795d567cb2421cd47f1f314899965f198ab938ad9"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/69/representation.json",
+      "bytes": 39459,
+      "sha256": "caedbe57922efc7a3f6d5dce75dffd5122827b3768e00bb0bd562299bb438d4f"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/7/predictions.csv",
+      "bytes": 1363,
+      "sha256": "aaa02950a9c3b9003e97e7164f4748d289c67fa5d0cf35a2eb222516227c7582"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/7/probes.json",
+      "bytes": 49069,
+      "sha256": "d72f4a64e4386c20933986d1bff6ea1f4525c423c3dd8f8b55e32cb0864d5624"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/7/profiles-and-labels.npz",
+      "bytes": 79066,
+      "sha256": "1bd4756b2311d44e3fbc6145f6bcc1fb4e5230983160145bf29905d513f5feb5"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/7/representation.json",
+      "bytes": 40036,
+      "sha256": "33689860670db23304a6c42a1172e0d626326aa6de29cca83732124db0e9853b"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/70/predictions.csv",
+      "bytes": 5520,
+      "sha256": "b6f5df328878828c0f292c59ea869928f3ade095778e20028da9e489d89f1231"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/70/probes.json",
+      "bytes": 48802,
+      "sha256": "51ff2f252ff2122bc1240a05fe944dde10a04dde1b09f2a004ca6b01d81a5ba0"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/70/profiles-and-labels.npz",
+      "bytes": 79108,
+      "sha256": "ea6c1d4328ba52394377bf480ad0e2a8f0ffcc3df4f7793e3ac2187441e4db85"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/70/representation.json",
+      "bytes": 39778,
+      "sha256": "c518e10e7473c05b26adb03848d0d45e06c24d4fa949265d83ecda288b26a285"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/71/predictions.csv",
+      "bytes": 6889,
+      "sha256": "3ad5d5cd944f361a29e0225dd9a89e77e750fc476a9bf3a3385841f33d90ddd4"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/71/probes.json",
+      "bytes": 48858,
+      "sha256": "c19c07a8776cc7cb4901cb3bc318fe576b335419627be33fafa1172d4c4794c2"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/71/profiles-and-labels.npz",
+      "bytes": 79094,
+      "sha256": "4dff43c7abf9578ed01e02d4d80c6871432bb922058053fb439a023996254e83"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/71/representation.json",
+      "bytes": 39690,
+      "sha256": "93ed0b646119d265b0dfa1cecf4ec66abf22bfacb32de3ed1675e1890338f575"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/72/predictions.csv",
+      "bytes": 1931,
+      "sha256": "bf16119d9d09ccfd33339d9c761f60f0489181613141cd5384d0b8146530ce41"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/72/probes.json",
+      "bytes": 49061,
+      "sha256": "16e593f0f8683ae08e824a877c26cd829a3bcb17c1d62a814f9ab6ba013e2f52"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/72/profiles-and-labels.npz",
+      "bytes": 79085,
+      "sha256": "8a8540bd4458079cb907e5f061682b3d5cf475a742fd4934fa649743b0d23f6e"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/72/representation.json",
+      "bytes": 39697,
+      "sha256": "fbf6dec165b0d1cf5a780485a560c26c9d22f579a392c7e4e6e258178d11569e"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/73/predictions.csv",
+      "bytes": 6066,
+      "sha256": "cd4af497c6a197237914119be790b2529047ddac4c25798f53524d93d6e4eab1"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/73/probes.json",
+      "bytes": 48854,
+      "sha256": "c19cdce98392e11baceae470e1a93be889fd262733b6cad090bed8e5c11ad205"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/73/profiles-and-labels.npz",
+      "bytes": 79080,
+      "sha256": "d94e26632a556f74093c1782a09a6007172edadb71e448294bf032fb5169db86"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/73/representation.json",
+      "bytes": 39742,
+      "sha256": "2d8a8747511b938d18b43fbbf18f232d680b91d3b2c2f348cc2b32f258cb364f"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/74/predictions.csv",
+      "bytes": 10477,
+      "sha256": "a05255b0ef18b110001aec48ddf6d6a5d66fbeeae7acb2be0885c5eafa8d10dc"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/74/probes.json",
+      "bytes": 48429,
+      "sha256": "5423099e7cac96a7e35e1f7fd59fdd227c7aa9c2df799e76807e2d319d9a7327"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/74/profiles-and-labels.npz",
+      "bytes": 79086,
+      "sha256": "c6f3d727f75533e4d3d5bbe5dee9febcfeee3ce2915ffe67501c10de9009a2b8"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/74/representation.json",
+      "bytes": 39467,
+      "sha256": "00a03337c7a4ebb61d52330be7dd2a28af3d70ae829f2f7276f51eb75d2dd8fa"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/75/predictions.csv",
+      "bytes": 7961,
+      "sha256": "61dc33731a8dd37b60c5b80d91e709a8bad4a6d61079db3bf3b418ada23cafb3"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/75/probes.json",
+      "bytes": 48668,
+      "sha256": "e32f2a9052a4ff166b8cddeddac0da4b41bbc7a774c69fc2d4613d553743a269"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/75/profiles-and-labels.npz",
+      "bytes": 79090,
+      "sha256": "4de072f221362a162fc82876218399de27315cee7d431cc77bfb4c8afd8b72eb"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/75/representation.json",
+      "bytes": 39650,
+      "sha256": "dff9611e6a36c58ca22cdb15bfaaf59b9cc0d730eb4ca22acc1bf89376b904d0"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/76/predictions.csv",
+      "bytes": 5514,
+      "sha256": "ec6012485185898c42b93357278d53ef9ab4ab9924c3be78d5984956c284737f"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/76/probes.json",
+      "bytes": 48821,
+      "sha256": "f6ef34ffe7b95084746de2bc94202bdf98443a442b676c2c994e7ad1833e6a14"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/76/profiles-and-labels.npz",
+      "bytes": 79090,
+      "sha256": "8dc74fefe1cdf6c2e10ed94551b6d403dcea7ad7f81f9b9257fce5ab55b30e04"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/76/representation.json",
+      "bytes": 39771,
+      "sha256": "4938a410273d63844ef7870f09eb2b3be8c6f1976bcc72d964a70470b1c7177c"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/77/predictions.csv",
+      "bytes": 826,
+      "sha256": "49fb2b5b19a0fe61286b79d397951b81670f8d5f972e78dd90a22e6bb9de6125"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/77/probes.json",
+      "bytes": 49047,
+      "sha256": "51921b0fc90982ac15b8bcd739389227e5784858a9568804cb3db9bf2a1c693a"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/77/profiles-and-labels.npz",
+      "bytes": 79137,
+      "sha256": "43f307a6e33cee655d6d5e316fc2853a3a622eef1a0cd8136a5a7fbf06c700f4"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/77/representation.json",
+      "bytes": 37658,
+      "sha256": "72ecf3909c12a2c8f11c22a29f0474956a636acaaa00feb581bd533081084acf"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/78/predictions.csv",
+      "bytes": 22362,
+      "sha256": "f9f5cf919bbd9861c5c8000bf1eede0f60d98f15d221fd7fa1d18ff21c344463"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/78/probes.json",
+      "bytes": 47879,
+      "sha256": "2fad2ce66c7487dfea13ad7515bda0cbd03e3f210f03f9cd428373b7cb76e33b"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/78/profiles-and-labels.npz",
+      "bytes": 79065,
+      "sha256": "2cb9994d52acad0eef1d859cdc3af98076e74a46a3f66e45d6566b1aa0d1a6ca"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/78/representation.json",
+      "bytes": 38429,
+      "sha256": "186323485947b2907015477c5e4a9885a65501432eeaa082d5d49eda3919cca6"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/79/predictions.csv",
+      "bytes": 1928,
+      "sha256": "282056a29c4e34572f45d31464ae8b3a9704e561a61a23c548f6c3e51d6eb4b2"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/79/probes.json",
+      "bytes": 49075,
+      "sha256": "f6dee53bfc75c33817ca8d08e518ec377a7308b7734d6b8fefb51d9d50346428"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/79/profiles-and-labels.npz",
+      "bytes": 79083,
+      "sha256": "7fcb4c26f0e4b748449a817a7ae2a2d26a444486c4d62d19c2132507ae78ee42"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/79/representation.json",
+      "bytes": 39998,
+      "sha256": "efe7ea9d18cadcc1638d94dce1be867561cadc90449a3493658aed9cf03eeff5"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/8/predictions.csv",
+      "bytes": 1644,
+      "sha256": "f54b8a39e05881e7d10625037a29f79ce3a894cbeb271770b4c73fd5214f975d"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/8/probes.json",
+      "bytes": 49048,
+      "sha256": "9b8f0a98ee0118ace36c58a5fe97cd0c82447d2b596172b2d7f5152472402851"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/8/profiles-and-labels.npz",
+      "bytes": 79039,
+      "sha256": "8b53dcd473d2c3dc2722e1c790ad1b214f9a80b7bfa84f2840ceb957dbd12d30"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/8/representation.json",
+      "bytes": 40034,
+      "sha256": "b988f030b4e886328e9ac759be724b074a31ceaf194a8c966cee18a7e4caa8bd"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/83/predictions.csv",
+      "bytes": 821,
+      "sha256": "d643765bf2c2a5f721af4e5b193d06613c25b910b27c9936f53f181c676ab311"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/83/probes.json",
+      "bytes": 49233,
+      "sha256": "458adf372290d700b5c0ab0c2ac534412eb9a7389d199bde26c5c9ebe4ca3cef"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/83/profiles-and-labels.npz",
+      "bytes": 79092,
+      "sha256": "ecddd4d4fc075839bf62d7a527725cec0d1435f8eb9f4166ddeb8243e9ca1fe7"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/83/representation.json",
+      "bytes": 40073,
+      "sha256": "f46d72457bbe94a675231b38ae630dbc559c25faee9bf0df9c169fd9d5ad6863"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/86/predictions.csv",
+      "bytes": 6345,
+      "sha256": "d5fe8f9a60f168d3760f064b0e3523369bf774e720d6666608f9af88a4046ff1"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/86/probes.json",
+      "bytes": 48656,
+      "sha256": "3d9801d6165740d8f3125141e16c64a68e09d28052241951cdd2a1bd91680a02"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/86/profiles-and-labels.npz",
+      "bytes": 79053,
+      "sha256": "6c94bc32ffa30359a3a1ebb7ae0b3e53f0d1ba237e615bf72f9e6c47d9abef98"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/86/representation.json",
+      "bytes": 39722,
+      "sha256": "108c7255605d21972a70a08127ab089820742365bd74643f0d140f94d43ff500"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/87/predictions.csv",
+      "bytes": 1380,
+      "sha256": "7ffe07dfdce33078e6c157fc741ce349a1c1e19aff3a5700f3bce1a78683c851"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/87/probes.json",
+      "bytes": 49157,
+      "sha256": "9238dbb5f187155a2a60c1935960d9a5eed9b1491f8bf5badc18b098780ab135"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/87/profiles-and-labels.npz",
+      "bytes": 79109,
+      "sha256": "cfdfae2e9fe462ffc405dbc199d49afcfacf52eebc33e806d448ffc4d113f9c9"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/87/representation.json",
+      "bytes": 40031,
+      "sha256": "8fc72bb9305146cc49f60e52fb9befb14d424a4ab336ef64397ee2669179be3b"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/89/predictions.csv",
+      "bytes": 3852,
+      "sha256": "c92c71397bf035340647111ca6e028535329c881468d30f8139d18c3d8fe8447"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/89/probes.json",
+      "bytes": 48822,
+      "sha256": "4be9cf950080bffb7e2a18b2cd3110c4714aa904b32783519fedebe9fb546008"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/89/profiles-and-labels.npz",
+      "bytes": 79115,
+      "sha256": "f26cc67db9164e47bf7543945dae66b9a7e559a4bd4a668cb3fffe89b5c9e1f1"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/89/representation.json",
+      "bytes": 39881,
+      "sha256": "2c573520f38935b7755184dc1076a1b8f6fd061798f9ff1fe45447a018cef432"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/9/predictions.csv",
+      "bytes": 2472,
+      "sha256": "e182c201d4d5d25486a29ab949b42b3866c80c5bc0732470d230d54bc9c381be"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/9/probes.json",
+      "bytes": 49014,
+      "sha256": "ff6f3076766b2d4229f7aa4567788a479ef56858e60e875bc1d0de74763ba75a"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/9/profiles-and-labels.npz",
+      "bytes": 79086,
+      "sha256": "2c7a642dcbb4301152a051e31bf698cdcac9119eeb6e012c504326a86cee37ec"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/folds/9/representation.json",
+      "bytes": 39973,
+      "sha256": "ddfd60fa0308758367098374be86fa2d31ede110b8f207c780792fc6ab68088e"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/protocol.json",
+      "bytes": 3305,
+      "sha256": "4db33b8d74d7b05324ac9f31b41c2e3a40a964d46fa8ba23de84eb70645e709d"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/results.json",
+      "bytes": 163933,
+      "sha256": "dcfb36c245c76548aab666a2d702d09b7eb683789adf8bf6eae145de94caec92"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/scores.csv",
+      "bytes": 3577,
+      "sha256": "8020e4a0f451873d86a56b625565b89286cec59d15b5d7d892c8b3474d422fac"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/source/sbercluster/economic_generalization.py",
+      "bytes": 11227,
+      "sha256": "d3a563f6db2ec3f1901a8aa8b3dc08fceb4eb83a02062c41d83bd5b042bcd55a"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/source/sbercluster/selection_frontier.py",
+      "bytes": 10967,
+      "sha256": "0bcd8604fca0855d74bc60a6f600cd9c5cfd13894918795ace242e15cf797576"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/source/scripts/validate_economic_generalization.py",
+      "bytes": 15917,
+      "sha256": "193c3aed2e96935fad1b262bb157befb179d9f54012c7cdcbd5c8243c706957a"
+    },
+    {
+      "path": "reports/economic-generalization-2026-10-03/wage/status.json",
+      "bytes": 407,
+      "sha256": "f7bad35255e01117eb7e9a9326d35c3388513198577760b53414460a6537aa8e"
+    }
+  ]
+}

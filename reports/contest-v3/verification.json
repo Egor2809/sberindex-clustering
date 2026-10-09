@@ -1,0 +1,120 @@
+{
+  "unit_tests": 74,
+  "unit_tests_passed": 74,
+  "unit_tests_skipped": 0,
+  "platform": "Windows; Python3.10",
+  "compileall": true,
+  "browser": "headless Microsoft Edge",
+  "browser_checked": [
+    "legacy payload",
+    "26 comparisons,7 visible",
+    "2016 polygon paths",
+    "raw and calendar-adjusted flows",
+    "map zoom and tooltip",
+    "15 neighbors",
+    "feature exclusion",
+    "consensus peers",
+    "mobile390px",
+    "20 visible category labels",
+    "common0-50 chart scale",
+    "market-access denominator"
+  ],
+  "browser_javascript_errors": 0,
+  "mobile_horizontal_overflow_px": 0,
+  "old_annual_partitions_reproduced": 26,
+  "old_indices_reproduced": [
+    "SW",
+    "CH",
+    "S_Dbw",
+    "AVI",
+    "AVU"
+  ],
+  "new_fitting_completed": false,
+  "linux_ci": {
+    "status": "success",
+    "run_url": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+    "tested_code_commit": "0c5bfa472816db1907adedc244c0b89b89b3a6e4",
+    "python": "3.10",
+    "tests_discovered": 74,
+    "tests_passed": 73,
+    "tests_skipped": 1,
+    "skip_reason": "Windows Job Object check",
+    "downloaded_pinned_sources": true,
+    "prepared_panel": [
+      2016,
+      24
+    ],
+    "map_matched": 2016,
+    "atlas_built": true,
+    "compileall": true,
+    "new_model_fitting": false
+  },
+  "docker_build_verified": false,
+  "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+  "source_archive_hashes_verified": 3,
+  "registry_snapshot_hashes_verified": 2,
+  "test_log_scope": "74 includes integration tests with the local panel; clean-clone CI skips data/Windows-dependent cases",
+  "pages": {
+    "http_status": 200,
+    "html_sha256": "52f604a1ba9c9ec1a79b196c87a15365e312969d13b6fb0315e990e71fd73198",
+    "matches_local_html": true,
+    "verified_release_commit": "605403b8fec310cd404f48e81e48a39cfe9aa59e"
+  },
+  "verification_scope": "Historical verification records for releases on 2026-09-23. Current release: reports/review-2026-09-24/verification.json",
+  "map_release": {
+    "base_commit": "0044fde9f77694fb2c0b2df40d9001dff9015178",
+    "unit_tests": 76,
+    "unit_tests_passed": 76,
+    "browsers": {
+      "chrome": {
+        "passed": true,
+        "checks": 27,
+        "scope": "final interaction code; before sorted geometry rebuild"
+      },
+      "msedge": {
+        "passed": true,
+        "checks": 27,
+        "scope": "final HTML including sorted geometry rebuild",
+        "local_load_to_map_ms": 17687
+      }
+    },
+    "html_sha256": "a7729b11ce21cfd84b7c2c3e4d25293b3bdcec91a56b9cfe6d43eafb92e33440",
+    "map_bytes": 9799634,
+    "topology_audit": {
+      "algorithm": "GEOS coverage_simplify (Visvalingam-Whyatt), shared interior edges only",
+      "tolerance_degrees": 0.025,
+      "outer_boundaries_preserved": true,
+      "source_coverage_valid": false,
+      "quarantined_source_geometry_ids": [
+        "tid_1051",
+        "tid_1206",
+        "tid_1279",
+        "tid_1446",
+        "tid_1473",
+        "tid_1632",
+        "tid_1652",
+        "tid_1923",
+        "tid_1930",
+        "tid_1935",
+        "tid_1948",
+        "tid_2121",
+        "tid_2883",
+        "tid_2887",
+        "tid_354",
+        "tid_371",
+        "tid_485",
+        "tid_899",
+        "tid_903"
+      ],
+      "quarantined_source_geometry_count": 19,
+      "invalid_edge_length_degrees_before": 1.140367159109671,
+      "invalid_edge_length_degrees_after": 1.140367159109671,
+      "valid_subset_edge_matched_after": true
+    },
+    "new_research_results": false,
+    "new_fitting_completed": false,
+    "direct_opera_verification": false,
+    "pages_verification": "pending push",
+    "performance_caveat": "Larger source-preserving geometry; local Edge load measured on busy PC, not a controlled benchmark."
+  }
+}

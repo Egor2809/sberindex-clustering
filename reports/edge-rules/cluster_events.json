@@ -1,0 +1,5690 @@
+{
+  "fixed_profiles": {
+    "steps": [
+      {
+        "from": "2023-01-01",
+        "to": "2023-02-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 2,
+          "grow": 1,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "shrink",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 954,
+            "size_after": 819,
+            "jaccard": 0.764179104477612
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 485,
+            "size_after": 653,
+            "jaccard": 0.7164404223227753
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 453,
+            "size_after": 425,
+            "jaccard": 0.9170305676855895
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 124,
+            "size_after": 119,
+            "jaccard": 0.7608695652173914
+          }
+        ]
+      },
+      {
+        "from": "2023-02-01",
+        "to": "2023-03-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 1,
+          "grow": 2,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "shrink",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 819,
+            "size_after": 707,
+            "jaccard": 0.7868852459016393
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 653,
+            "size_after": 765,
+            "jaccard": 0.8226221079691517
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 425,
+            "size_after": 406,
+            "jaccard": 0.9325581395348838
+          },
+          {
+            "event": "grow",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 119,
+            "size_after": 138,
+            "jaccard": 0.7847222222222222
+          }
+        ]
+      },
+      {
+        "from": "2023-03-01",
+        "to": "2023-04-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 0,
+          "grow": 2,
+          "shrink": 2,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "shrink",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 707,
+            "size_after": 578,
+            "jaccard": 0.6863517060367454
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 765,
+            "size_after": 909,
+            "jaccard": 0.8038793103448276
+          },
+          {
+            "event": "shrink",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 406,
+            "size_after": 364,
+            "jaccard": 0.8872549019607843
+          },
+          {
+            "event": "grow",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 138,
+            "size_after": 165,
+            "jaccard": 0.7928994082840237
+          }
+        ]
+      },
+      {
+        "from": "2023-04-01",
+        "to": "2023-05-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 4,
+          "grow": 0,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 578,
+            "size_after": 584,
+            "jaccard": 0.8099688473520249
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 909,
+            "size_after": 910,
+            "jaccard": 0.9047120418848168
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 364,
+            "size_after": 346,
+            "jaccard": 0.918918918918919
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 165,
+            "size_after": 176,
+            "jaccard": 0.7668393782383419
+          }
+        ]
+      },
+      {
+        "from": "2023-05-01",
+        "to": "2023-06-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 4,
+          "grow": 0,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 584,
+            "size_after": 613,
+            "jaccard": 0.821917808219178
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 910,
+            "size_after": 873,
+            "jaccard": 0.8947927736450585
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 346,
+            "size_after": 346,
+            "jaccard": 0.9492957746478873
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 176,
+            "size_after": 184,
+            "jaccard": 0.7560975609756098
+          }
+        ]
+      },
+      {
+        "from": "2023-06-01",
+        "to": "2023-07-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 2,
+          "grow": 1,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "grow",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 613,
+            "size_after": 694,
+            "jaccard": 0.8027586206896552
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 873,
+            "size_after": 806,
+            "jaccard": 0.8614190687361419
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 346,
+            "size_after": 363,
+            "jaccard": 0.9371584699453552
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 184,
+            "size_after": 153,
+            "jaccard": 0.7282051282051282
+          }
+        ]
+      },
+      {
+        "from": "2023-07-01",
+        "to": "2023-08-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 2,
+          "grow": 1,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 694,
+            "size_after": 719,
+            "jaccard": 0.76625
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 806,
+            "size_after": 744,
+            "jaccard": 0.865222623345367
+          },
+          {
+            "event": "grow",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 363,
+            "size_after": 431,
+            "jaccard": 0.8379629629629629
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 153,
+            "size_after": 122,
+            "jaccard": 0.7295597484276729
+          }
+        ]
+      },
+      {
+        "from": "2023-08-01",
+        "to": "2023-09-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 1,
+          "grow": 1,
+          "shrink": 2,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "shrink",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 719,
+            "size_after": 606,
+            "jaccard": 0.7549668874172185
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 744,
+            "size_after": 872,
+            "jaccard": 0.8342792281498297
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 431,
+            "size_after": 442,
+            "jaccard": 0.9314159292035398
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 122,
+            "size_after": 96,
+            "jaccard": 0.703125
+          }
+        ]
+      },
+      {
+        "from": "2023-09-01",
+        "to": "2023-10-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 1,
+          "grow": 1,
+          "shrink": 2,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "shrink",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 606,
+            "size_after": 494,
+            "jaccard": 0.740506329113924
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 872,
+            "size_after": 1002,
+            "jaccard": 0.8609731876861966
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 442,
+            "size_after": 449,
+            "jaccard": 0.9539473684210527
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 96,
+            "size_after": 71,
+            "jaccard": 0.7216494845360825
+          }
+        ]
+      },
+      {
+        "from": "2023-10-01",
+        "to": "2023-11-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 1,
+          "grow": 1,
+          "shrink": 2,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "shrink",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 494,
+            "size_after": 352,
+            "jaccard": 0.6238003838771593
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1002,
+            "size_after": 1176,
+            "jaccard": 0.8473282442748091
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 449,
+            "size_after": 442,
+            "jaccard": 0.9625550660792952
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 71,
+            "size_after": 46,
+            "jaccard": 0.625
+          }
+        ]
+      },
+      {
+        "from": "2023-11-01",
+        "to": "2023-12-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 1,
+          "grow": 2,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 352,
+            "size_after": 330,
+            "jaccard": 0.4357894736842105
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1176,
+            "size_after": 1299,
+            "jaccard": 0.8950995405819295
+          },
+          {
+            "event": "shrink",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 442,
+            "size_after": 317,
+            "jaccard": 0.7171945701357466
+          },
+          {
+            "event": "grow",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 46,
+            "size_after": 70,
+            "jaccard": 0.6338028169014085
+          }
+        ]
+      },
+      {
+        "from": "2023-12-01",
+        "to": "2024-01-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 0,
+          "grow": 2,
+          "shrink": 2,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "grow",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 330,
+            "size_after": 451,
+            "jaccard": 0.34192439862542956
+          },
+          {
+            "event": "shrink",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1299,
+            "size_after": 1064,
+            "jaccard": 0.8135072908672295
+          },
+          {
+            "event": "grow",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 317,
+            "size_after": 453,
+            "jaccard": 0.6997792494481236
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 70,
+            "size_after": 48,
+            "jaccard": 0.6857142857142857
+          }
+        ]
+      },
+      {
+        "from": "2024-01-01",
+        "to": "2024-02-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 1,
+          "grow": 1,
+          "shrink": 2,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "shrink",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 451,
+            "size_after": 342,
+            "jaccard": 0.6452282157676349
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1064,
+            "size_after": 1201,
+            "jaccard": 0.8827930174563591
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 453,
+            "size_after": 433,
+            "jaccard": 0.9344978165938864
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 48,
+            "size_after": 40,
+            "jaccard": 0.7254901960784313
+          }
+        ]
+      },
+      {
+        "from": "2024-02-01",
+        "to": "2024-03-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 4,
+          "grow": 0,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 342,
+            "size_after": 352,
+            "jaccard": 0.8072916666666666
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1201,
+            "size_after": 1214,
+            "jaccard": 0.9618196588139724
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 433,
+            "size_after": 407,
+            "jaccard": 0.9310344827586207
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 40,
+            "size_after": 43,
+            "jaccard": 0.8863636363636364
+          }
+        ]
+      },
+      {
+        "from": "2024-03-01",
+        "to": "2024-04-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 3,
+          "grow": 0,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 352,
+            "size_after": 361,
+            "jaccard": 0.8376288659793815
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1214,
+            "size_after": 1205,
+            "jaccard": 0.960291734197731
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 407,
+            "size_after": 412,
+            "jaccard": 0.9593301435406698
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 43,
+            "size_after": 38,
+            "jaccard": 0.723404255319149
+          }
+        ]
+      },
+      {
+        "from": "2024-04-01",
+        "to": "2024-05-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 1,
+          "grow": 2,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "grow",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 361,
+            "size_after": 408,
+            "jaccard": 0.7517084282460137
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1205,
+            "size_after": 1198,
+            "jaccard": 0.9552481692432873
+          },
+          {
+            "event": "shrink",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 412,
+            "size_after": 362,
+            "jaccard": 0.8786407766990292
+          },
+          {
+            "event": "grow",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 38,
+            "size_after": 48,
+            "jaccard": 0.7916666666666666
+          }
+        ]
+      },
+      {
+        "from": "2024-05-01",
+        "to": "2024-06-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 3,
+          "grow": 1,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "grow",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 408,
+            "size_after": 477,
+            "jaccard": 0.7352941176470589
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1198,
+            "size_after": 1129,
+            "jaccard": 0.9183841714756801
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 362,
+            "size_after": 364,
+            "jaccard": 0.9308510638297872
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 48,
+            "size_after": 46,
+            "jaccard": 0.6491228070175439
+          }
+        ]
+      },
+      {
+        "from": "2024-06-01",
+        "to": "2024-07-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 1,
+          "grow": 2,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "grow",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 477,
+            "size_after": 537,
+            "jaccard": 0.727427597955707
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1129,
+            "size_after": 1048,
+            "jaccard": 0.9063047285464098
+          },
+          {
+            "event": "grow",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 364,
+            "size_after": 404,
+            "jaccard": 0.8869778869778869
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 46,
+            "size_after": 27,
+            "jaccard": 0.5208333333333334
+          }
+        ]
+      },
+      {
+        "from": "2024-07-01",
+        "to": "2024-08-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 2,
+          "grow": 1,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 537,
+            "size_after": 538,
+            "jaccard": 0.7680921052631579
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1048,
+            "size_after": 995,
+            "jaccard": 0.9273584905660377
+          },
+          {
+            "event": "grow",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 404,
+            "size_after": 462,
+            "jaccard": 0.8744588744588745
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 27,
+            "size_after": 21,
+            "jaccard": 0.7142857142857143
+          }
+        ]
+      },
+      {
+        "from": "2024-08-01",
+        "to": "2024-09-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 2,
+          "grow": 0,
+          "shrink": 2,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "shrink",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 538,
+            "size_after": 466,
+            "jaccard": 0.7707231040564374
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 995,
+            "size_after": 1036,
+            "jaccard": 0.9251184834123223
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 462,
+            "size_after": 498,
+            "jaccard": 0.9085487077534792
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 21,
+            "size_after": 16,
+            "jaccard": 0.6818181818181818
+          }
+        ]
+      },
+      {
+        "from": "2024-09-01",
+        "to": "2024-10-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 2,
+          "grow": 1,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "shrink",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 466,
+            "size_after": 376,
+            "jaccard": 0.7325102880658436
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1036,
+            "size_after": 1116,
+            "jaccard": 0.9162956366874443
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 498,
+            "size_after": 503,
+            "jaccard": 0.9436893203883495
+          },
+          {
+            "event": "grow",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 16,
+            "size_after": 21,
+            "jaccard": 0.6086956521739131
+          }
+        ]
+      },
+      {
+        "from": "2024-10-01",
+        "to": "2024-11-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 1,
+          "grow": 1,
+          "shrink": 2,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "shrink",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 376,
+            "size_after": 293,
+            "jaccard": 0.6277372262773723
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1116,
+            "size_after": 1232,
+            "jaccard": 0.9027552674230146
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 503,
+            "size_after": 478,
+            "jaccard": 0.9311023622047244
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 21,
+            "size_after": 13,
+            "jaccard": 0.6190476190476191
+          }
+        ]
+      },
+      {
+        "from": "2024-11-01",
+        "to": "2024-12-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 0,
+          "grow": 2,
+          "shrink": 2,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "shrink",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 293,
+            "size_after": 261,
+            "jaccard": 0.34793187347931875
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1232,
+            "size_after": 1378,
+            "jaccard": 0.8858381502890174
+          },
+          {
+            "event": "shrink",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 478,
+            "size_after": 353,
+            "jaccard": 0.7384937238493724
+          },
+          {
+            "event": "grow",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 13,
+            "size_after": 24,
+            "jaccard": 0.48
+          }
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "0": 954,
+        "1": 485,
+        "2": 453,
+        "3": 124
+      },
+      {
+        "0": 819,
+        "1": 653,
+        "2": 425,
+        "3": 119
+      },
+      {
+        "0": 707,
+        "1": 765,
+        "2": 406,
+        "3": 138
+      },
+      {
+        "0": 578,
+        "1": 909,
+        "2": 364,
+        "3": 165
+      },
+      {
+        "0": 584,
+        "1": 910,
+        "2": 346,
+        "3": 176
+      },
+      {
+        "0": 613,
+        "1": 873,
+        "2": 346,
+        "3": 184
+      },
+      {
+        "0": 694,
+        "1": 806,
+        "2": 363,
+        "3": 153
+      },
+      {
+        "0": 719,
+        "1": 744,
+        "2": 431,
+        "3": 122
+      },
+      {
+        "0": 606,
+        "1": 872,
+        "2": 442,
+        "3": 96
+      },
+      {
+        "0": 494,
+        "1": 1002,
+        "2": 449,
+        "3": 71
+      },
+      {
+        "0": 352,
+        "1": 1176,
+        "2": 442,
+        "3": 46
+      },
+      {
+        "0": 330,
+        "1": 1299,
+        "2": 317,
+        "3": 70
+      },
+      {
+        "0": 451,
+        "1": 1064,
+        "2": 453,
+        "3": 48
+      },
+      {
+        "0": 342,
+        "1": 1201,
+        "2": 433,
+        "3": 40
+      },
+      {
+        "0": 352,
+        "1": 1214,
+        "2": 407,
+        "3": 43
+      },
+      {
+        "0": 361,
+        "1": 1205,
+        "2": 412,
+        "3": 38
+      },
+      {
+        "0": 408,
+        "1": 1198,
+        "2": 362,
+        "3": 48
+      },
+      {
+        "0": 477,
+        "1": 1129,
+        "2": 364,
+        "3": 46
+      },
+      {
+        "0": 537,
+        "1": 1048,
+        "2": 404,
+        "3": 27
+      },
+      {
+        "0": 538,
+        "1": 995,
+        "2": 462,
+        "3": 21
+      },
+      {
+        "0": 466,
+        "1": 1036,
+        "2": 498,
+        "3": 16
+      },
+      {
+        "0": 376,
+        "1": 1116,
+        "2": 503,
+        "3": 21
+      },
+      {
+        "0": 293,
+        "1": 1232,
+        "2": 478,
+        "3": 13
+      },
+      {
+        "0": 261,
+        "1": 1378,
+        "2": 353,
+        "3": 24
+      }
+    ]
+  },
+  "fixed_profiles_deseasonalized": {
+    "steps": [
+      {
+        "from": "2023-01-01",
+        "to": "2023-02-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 4,
+          "grow": 0,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 930,
+            "size_after": 944,
+            "jaccard": 0.8426745329400197
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 564,
+            "size_after": 554,
+            "jaccard": 0.814935064935065
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 369,
+            "size_after": 379,
+            "jaccard": 0.9278350515463918
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 153,
+            "size_after": 139,
+            "jaccard": 0.8024691358024691
+          }
+        ]
+      },
+      {
+        "from": "2023-02-01",
+        "to": "2023-03-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 2,
+          "grow": 1,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "shrink",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 944,
+            "size_after": 817,
+            "jaccard": 0.8286604361370716
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 554,
+            "size_after": 657,
+            "jaccard": 0.815592203898051
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 379,
+            "size_after": 403,
+            "jaccard": 0.9073170731707317
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 139,
+            "size_after": 139,
+            "jaccard": 0.8783783783783784
+          }
+        ]
+      },
+      {
+        "from": "2023-03-01",
+        "to": "2023-04-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 1,
+          "grow": 2,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "shrink",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 817,
+            "size_after": 630,
+            "jaccard": 0.6864801864801865
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 657,
+            "size_after": 861,
+            "jaccard": 0.7488479262672811
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 403,
+            "size_after": 370,
+            "jaccard": 0.908641975308642
+          },
+          {
+            "event": "grow",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 139,
+            "size_after": 155,
+            "jaccard": 0.803680981595092
+          }
+        ]
+      },
+      {
+        "from": "2023-04-01",
+        "to": "2023-05-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 3,
+          "grow": 0,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 630,
+            "size_after": 582,
+            "jaccard": 0.7955555555555556
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 861,
+            "size_after": 893,
+            "jaccard": 0.8880516684607105
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 370,
+            "size_after": 407,
+            "jaccard": 0.9044117647058824
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 155,
+            "size_after": 134,
+            "jaccard": 0.7730061349693251
+          }
+        ]
+      },
+      {
+        "from": "2023-05-01",
+        "to": "2023-06-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 3,
+          "grow": 0,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 582,
+            "size_after": 558,
+            "jaccard": 0.7952755905511811
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 893,
+            "size_after": 934,
+            "jaccard": 0.903125
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 407,
+            "size_after": 413,
+            "jaccard": 0.9339622641509434
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 134,
+            "size_after": 111,
+            "jaccard": 0.7753623188405797
+          }
+        ]
+      },
+      {
+        "from": "2023-06-01",
+        "to": "2023-07-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 4,
+          "grow": 0,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 558,
+            "size_after": 558,
+            "jaccard": 0.8385502471169687
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 934,
+            "size_after": 941,
+            "jaccard": 0.9270298047276464
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 413,
+            "size_after": 412,
+            "jaccard": 0.9549763033175356
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 111,
+            "size_after": 105,
+            "jaccard": 0.8
+          }
+        ]
+      },
+      {
+        "from": "2023-07-01",
+        "to": "2023-08-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 4,
+          "grow": 0,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 558,
+            "size_after": 541,
+            "jaccard": 0.8255813953488372
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 941,
+            "size_after": 980,
+            "jaccard": 0.921
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 412,
+            "size_after": 400,
+            "jaccard": 0.947242206235012
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 105,
+            "size_after": 95,
+            "jaccard": 0.7699115044247787
+          }
+        ]
+      },
+      {
+        "from": "2023-08-01",
+        "to": "2023-09-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 4,
+          "grow": 0,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 541,
+            "size_after": 501,
+            "jaccard": 0.7811965811965812
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 980,
+            "size_after": 1023,
+            "jaccard": 0.9039923954372624
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 400,
+            "size_after": 393,
+            "jaccard": 0.9436274509803921
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 95,
+            "size_after": 99,
+            "jaccard": 0.7798165137614679
+          }
+        ]
+      },
+      {
+        "from": "2023-09-01",
+        "to": "2023-10-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 4,
+          "grow": 0,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 501,
+            "size_after": 479,
+            "jaccard": 0.8081180811808119
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1023,
+            "size_after": 1045,
+            "jaccard": 0.9183673469387755
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 393,
+            "size_after": 399,
+            "jaccard": 0.9701492537313433
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 99,
+            "size_after": 93,
+            "jaccard": 0.8461538461538461
+          }
+        ]
+      },
+      {
+        "from": "2023-10-01",
+        "to": "2023-11-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 3,
+          "grow": 0,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 479,
+            "size_after": 467,
+            "jaccard": 0.8019047619047619
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1045,
+            "size_after": 1080,
+            "jaccard": 0.919602529358627
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 399,
+            "size_after": 400,
+            "jaccard": 0.9535452322738386
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 93,
+            "size_after": 69,
+            "jaccard": 0.6701030927835051
+          }
+        ]
+      },
+      {
+        "from": "2023-11-01",
+        "to": "2023-12-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 4,
+          "grow": 0,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 467,
+            "size_after": 462,
+            "jaccard": 0.8038834951456311
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1080,
+            "size_after": 1091,
+            "jaccard": 0.9332146037399822
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 400,
+            "size_after": 390,
+            "jaccard": 0.9362745098039216
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 69,
+            "size_after": 73,
+            "jaccard": 0.7530864197530864
+          }
+        ]
+      },
+      {
+        "from": "2023-12-01",
+        "to": "2024-01-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 3,
+          "grow": 0,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 462,
+            "size_after": 459,
+            "jaccard": 0.781431334622824
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1091,
+            "size_after": 1115,
+            "jaccard": 0.9333917616126205
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 390,
+            "size_after": 385,
+            "jaccard": 0.927860696517413
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 73,
+            "size_after": 57,
+            "jaccard": 0.7567567567567568
+          }
+        ]
+      },
+      {
+        "from": "2024-01-01",
+        "to": "2024-02-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 3,
+          "grow": 0,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 459,
+            "size_after": 433,
+            "jaccard": 0.8278688524590164
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1115,
+            "size_after": 1137,
+            "jaccard": 0.9497835497835497
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 385,
+            "size_after": 398,
+            "jaccard": 0.9429280397022333
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 57,
+            "size_after": 48,
+            "jaccard": 0.7796610169491526
+          }
+        ]
+      },
+      {
+        "from": "2024-02-01",
+        "to": "2024-03-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 4,
+          "grow": 0,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 433,
+            "size_after": 414,
+            "jaccard": 0.8373101952277657
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1137,
+            "size_after": 1157,
+            "jaccard": 0.9506802721088435
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 398,
+            "size_after": 400,
+            "jaccard": 0.9511002444987775
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 48,
+            "size_after": 45,
+            "jaccard": 0.86
+          }
+        ]
+      },
+      {
+        "from": "2024-03-01",
+        "to": "2024-04-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 3,
+          "grow": 0,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 414,
+            "size_after": 404,
+            "jaccard": 0.8057395143487859
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1157,
+            "size_after": 1157,
+            "jaccard": 0.9510961214165261
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 400,
+            "size_after": 418,
+            "jaccard": 0.933806146572104
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 45,
+            "size_after": 37,
+            "jaccard": 0.7446808510638298
+          }
+        ]
+      },
+      {
+        "from": "2024-04-01",
+        "to": "2024-05-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 4,
+          "grow": 0,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 404,
+            "size_after": 385,
+            "jaccard": 0.8306264501160093
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1157,
+            "size_after": 1174,
+            "jaccard": 0.9522613065326633
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 418,
+            "size_after": 420,
+            "jaccard": 0.971764705882353
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 37,
+            "size_after": 37,
+            "jaccard": 0.8048780487804879
+          }
+        ]
+      },
+      {
+        "from": "2024-05-01",
+        "to": "2024-06-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 3,
+          "grow": 0,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 385,
+            "size_after": 386,
+            "jaccard": 0.7764976958525346
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1174,
+            "size_after": 1168,
+            "jaccard": 0.9403479701739851
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 420,
+            "size_after": 434,
+            "jaccard": 0.9497716894977168
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 37,
+            "size_after": 28,
+            "jaccard": 0.625
+          }
+        ]
+      },
+      {
+        "from": "2024-06-01",
+        "to": "2024-07-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 3,
+          "grow": 0,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 386,
+            "size_after": 397,
+            "jaccard": 0.8167053364269141
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1168,
+            "size_after": 1161,
+            "jaccard": 0.9538590604026845
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 434,
+            "size_after": 440,
+            "jaccard": 0.9596412556053812
+          },
+          {
+            "event": "shrink",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 28,
+            "size_after": 18,
+            "jaccard": 0.6428571428571429
+          }
+        ]
+      },
+      {
+        "from": "2024-07-01",
+        "to": "2024-08-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 4,
+          "grow": 0,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 397,
+            "size_after": 374,
+            "jaccard": 0.8226950354609929
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1161,
+            "size_after": 1187,
+            "jaccard": 0.95503746877602
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 440,
+            "size_after": 437,
+            "jaccard": 0.9619686800894854
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 18,
+            "size_after": 18,
+            "jaccard": 0.8
+          }
+        ]
+      },
+      {
+        "from": "2024-08-01",
+        "to": "2024-09-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 4,
+          "grow": 0,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 374,
+            "size_after": 395,
+            "jaccard": 0.7319819819819819
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1187,
+            "size_after": 1163,
+            "jaccard": 0.934156378600823
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 437,
+            "size_after": 441,
+            "jaccard": 0.9212253829321663
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 18,
+            "size_after": 17,
+            "jaccard": 0.75
+          }
+        ]
+      },
+      {
+        "from": "2024-09-01",
+        "to": "2024-10-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 3,
+          "grow": 1,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 395,
+            "size_after": 382,
+            "jaccard": 0.8282352941176471
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1163,
+            "size_after": 1160,
+            "jaccard": 0.960337552742616
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 441,
+            "size_after": 449,
+            "jaccard": 0.9560439560439561
+          },
+          {
+            "event": "grow",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 17,
+            "size_after": 25,
+            "jaccard": 0.68
+          }
+        ]
+      },
+      {
+        "from": "2024-10-01",
+        "to": "2024-11-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 4,
+          "grow": 0,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 382,
+            "size_after": 417,
+            "jaccard": 0.8076923076923077
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1160,
+            "size_after": 1149,
+            "jaccard": 0.9518174133558749
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 449,
+            "size_after": 425,
+            "jaccard": 0.9293598233995585
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 25,
+            "size_after": 25,
+            "jaccard": 0.8518518518518519
+          }
+        ]
+      },
+      {
+        "from": "2024-11-01",
+        "to": "2024-12-01",
+        "groups_before": 4,
+        "groups_after": 4,
+        "counts": {
+          "continue": 4,
+          "grow": 0,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 417,
+            "size_after": 412,
+            "jaccard": 0.8179824561403509
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 1149,
+            "size_after": 1152,
+            "jaccard": 0.9434121621621622
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 425,
+            "size_after": 427,
+            "jaccard": 0.9631336405529954
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 25,
+            "size_after": 25,
+            "jaccard": 0.7241379310344828
+          }
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "0": 930,
+        "1": 564,
+        "2": 369,
+        "3": 153
+      },
+      {
+        "0": 944,
+        "1": 554,
+        "2": 379,
+        "3": 139
+      },
+      {
+        "0": 817,
+        "1": 657,
+        "2": 403,
+        "3": 139
+      },
+      {
+        "0": 630,
+        "1": 861,
+        "2": 370,
+        "3": 155
+      },
+      {
+        "0": 582,
+        "1": 893,
+        "2": 407,
+        "3": 134
+      },
+      {
+        "0": 558,
+        "1": 934,
+        "2": 413,
+        "3": 111
+      },
+      {
+        "0": 558,
+        "1": 941,
+        "2": 412,
+        "3": 105
+      },
+      {
+        "0": 541,
+        "1": 980,
+        "2": 400,
+        "3": 95
+      },
+      {
+        "0": 501,
+        "1": 1023,
+        "2": 393,
+        "3": 99
+      },
+      {
+        "0": 479,
+        "1": 1045,
+        "2": 399,
+        "3": 93
+      },
+      {
+        "0": 467,
+        "1": 1080,
+        "2": 400,
+        "3": 69
+      },
+      {
+        "0": 462,
+        "1": 1091,
+        "2": 390,
+        "3": 73
+      },
+      {
+        "0": 459,
+        "1": 1115,
+        "2": 385,
+        "3": 57
+      },
+      {
+        "0": 433,
+        "1": 1137,
+        "2": 398,
+        "3": 48
+      },
+      {
+        "0": 414,
+        "1": 1157,
+        "2": 400,
+        "3": 45
+      },
+      {
+        "0": 404,
+        "1": 1157,
+        "2": 418,
+        "3": 37
+      },
+      {
+        "0": 385,
+        "1": 1174,
+        "2": 420,
+        "3": 37
+      },
+      {
+        "0": 386,
+        "1": 1168,
+        "2": 434,
+        "3": 28
+      },
+      {
+        "0": 397,
+        "1": 1161,
+        "2": 440,
+        "3": 18
+      },
+      {
+        "0": 374,
+        "1": 1187,
+        "2": 437,
+        "3": 18
+      },
+      {
+        "0": 395,
+        "1": 1163,
+        "2": 441,
+        "3": 17
+      },
+      {
+        "0": 382,
+        "1": 1160,
+        "2": 449,
+        "3": 25
+      },
+      {
+        "0": 417,
+        "1": 1149,
+        "2": 425,
+        "3": 25
+      },
+      {
+        "0": 412,
+        "1": 1152,
+        "2": 427,
+        "3": 25
+      }
+    ]
+  },
+  "temporal_leiden": {
+    "steps": [
+      {
+        "from": "2023-01-01",
+        "to": "2023-02-01",
+        "groups_before": 8,
+        "groups_after": 7,
+        "counts": {
+          "continue": 5,
+          "grow": 2,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 1
+        },
+        "events": [
+          {
+            "event": "death",
+            "from": [
+              9
+            ],
+            "to": [],
+            "size_before": 55,
+            "size_after": 0
+          },
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 127,
+            "size_after": 116,
+            "jaccard": 0.9133858267716536
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 432,
+            "size_after": 459,
+            "jaccard": 0.7713717693836978
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 202,
+            "size_after": 205,
+            "jaccard": 0.9473684210526315
+          },
+          {
+            "event": "continue",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 399,
+            "size_after": 405,
+            "jaccard": 0.8231292517006803
+          },
+          {
+            "event": "continue",
+            "from": [
+              5
+            ],
+            "to": [
+              5
+            ],
+            "size_before": 733,
+            "size_after": 746,
+            "jaccard": 0.9034749034749034
+          },
+          {
+            "event": "grow",
+            "from": [
+              8
+            ],
+            "to": [
+              8
+            ],
+            "size_before": 60,
+            "size_after": 76,
+            "jaccard": 0.7435897435897436
+          },
+          {
+            "event": "grow",
+            "from": [
+              10
+            ],
+            "to": [
+              10
+            ],
+            "size_before": 8,
+            "size_after": 9,
+            "jaccard": 0.8888888888888888
+          }
+        ]
+      },
+      {
+        "from": "2023-02-01",
+        "to": "2023-03-01",
+        "groups_before": 7,
+        "groups_after": 8,
+        "counts": {
+          "continue": 5,
+          "grow": 2,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 1,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "birth",
+            "from": [],
+            "to": [
+              1
+            ],
+            "size_before": 0,
+            "size_after": 38
+          },
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 116,
+            "size_after": 127,
+            "jaccard": 0.9133858267716536
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 459,
+            "size_after": 441,
+            "jaccard": 0.7964071856287425
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 205,
+            "size_after": 201,
+            "jaccard": 0.9425837320574163
+          },
+          {
+            "event": "continue",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 405,
+            "size_after": 389,
+            "jaccard": 0.8379629629629629
+          },
+          {
+            "event": "continue",
+            "from": [
+              5
+            ],
+            "to": [
+              5
+            ],
+            "size_before": 746,
+            "size_after": 680,
+            "jaccard": 0.8352638352638353
+          },
+          {
+            "event": "grow",
+            "from": [
+              8
+            ],
+            "to": [
+              8
+            ],
+            "size_before": 76,
+            "size_after": 130,
+            "jaccard": 0.5846153846153846
+          },
+          {
+            "event": "grow",
+            "from": [
+              10
+            ],
+            "to": [
+              10
+            ],
+            "size_before": 9,
+            "size_after": 10,
+            "jaccard": 0.9
+          }
+        ]
+      },
+      {
+        "from": "2023-03-01",
+        "to": "2023-04-01",
+        "groups_before": 8,
+        "groups_after": 8,
+        "counts": {
+          "continue": 3,
+          "grow": 2,
+          "shrink": 1,
+          "split": 0,
+          "merge": 1,
+          "birth": 1,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "merge",
+            "from": [
+              0,
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 328,
+            "size_after": 310
+          },
+          {
+            "event": "birth",
+            "from": [],
+            "to": [
+              5
+            ],
+            "size_before": 0,
+            "size_after": 1
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 38,
+            "size_after": 53,
+            "jaccard": 0.6851851851851852
+          },
+          {
+            "event": "grow",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 441,
+            "size_after": 503,
+            "jaccard": 0.703971119133574
+          },
+          {
+            "event": "continue",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 389,
+            "size_after": 351,
+            "jaccard": 0.6086956521739131
+          },
+          {
+            "event": "continue",
+            "from": [
+              5
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 680,
+            "size_after": 715,
+            "jaccard": 0.7525125628140703
+          },
+          {
+            "event": "shrink",
+            "from": [
+              8
+            ],
+            "to": [
+              8
+            ],
+            "size_before": 130,
+            "size_after": 73,
+            "jaccard": 0.5378787878787878
+          },
+          {
+            "event": "continue",
+            "from": [
+              10
+            ],
+            "to": [
+              10
+            ],
+            "size_before": 10,
+            "size_after": 10,
+            "jaccard": 1.0
+          }
+        ]
+      },
+      {
+        "from": "2023-04-01",
+        "to": "2023-05-01",
+        "groups_before": 8,
+        "groups_after": 7,
+        "counts": {
+          "continue": 4,
+          "grow": 1,
+          "shrink": 2,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 1
+        },
+        "events": [
+          {
+            "event": "death",
+            "from": [
+              5
+            ],
+            "to": [],
+            "size_before": 1,
+            "size_after": 0
+          },
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 715,
+            "size_after": 746,
+            "jaccard": 0.8611464968152867
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 53,
+            "size_after": 59,
+            "jaccard": 0.8983050847457628
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 503,
+            "size_after": 501,
+            "jaccard": 0.8558225508317929
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 310,
+            "size_after": 307,
+            "jaccard": 0.9712460063897763
+          },
+          {
+            "event": "continue",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 351,
+            "size_after": 356,
+            "jaccard": 0.8128205128205128
+          },
+          {
+            "event": "shrink",
+            "from": [
+              8
+            ],
+            "to": [
+              8
+            ],
+            "size_before": 73,
+            "size_after": 39,
+            "jaccard": 0.5342465753424658
+          },
+          {
+            "event": "shrink",
+            "from": [
+              10
+            ],
+            "to": [
+              10
+            ],
+            "size_before": 10,
+            "size_after": 8,
+            "jaccard": 0.8
+          }
+        ]
+      },
+      {
+        "from": "2023-05-01",
+        "to": "2023-06-01",
+        "groups_before": 7,
+        "groups_after": 5,
+        "counts": {
+          "continue": 3,
+          "grow": 1,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 1,
+          "death": 3
+        },
+        "events": [
+          {
+            "event": "death",
+            "from": [
+              4
+            ],
+            "to": [],
+            "size_before": 356,
+            "size_after": 0
+          },
+          {
+            "event": "death",
+            "from": [
+              8
+            ],
+            "to": [],
+            "size_before": 39,
+            "size_after": 0
+          },
+          {
+            "event": "death",
+            "from": [
+              10
+            ],
+            "to": [],
+            "size_before": 8,
+            "size_after": 0
+          },
+          {
+            "event": "birth",
+            "from": [],
+            "to": [
+              4
+            ],
+            "size_before": 0,
+            "size_after": 214
+          },
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 746,
+            "size_after": 819,
+            "jaccard": 0.7066521264994547
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 59,
+            "size_after": 61,
+            "jaccard": 0.9672131147540983
+          },
+          {
+            "event": "grow",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 501,
+            "size_after": 611,
+            "jaccard": 0.7107692307692308
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 307,
+            "size_after": 311,
+            "jaccard": 0.9556962025316456
+          }
+        ]
+      },
+      {
+        "from": "2023-06-01",
+        "to": "2023-07-01",
+        "groups_before": 5,
+        "groups_after": 5,
+        "counts": {
+          "continue": 5,
+          "grow": 0,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 819,
+            "size_after": 817,
+            "jaccard": 0.917936694021102
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 61,
+            "size_after": 59,
+            "jaccard": 0.9672131147540983
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 611,
+            "size_after": 631,
+            "jaccard": 0.9166666666666666
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 311,
+            "size_after": 311,
+            "jaccard": 0.9559748427672956
+          },
+          {
+            "event": "continue",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 214,
+            "size_after": 198,
+            "jaccard": 0.8899082568807339
+          }
+        ]
+      },
+      {
+        "from": "2023-07-01",
+        "to": "2023-08-01",
+        "groups_before": 5,
+        "groups_after": 5,
+        "counts": {
+          "continue": 5,
+          "grow": 0,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 817,
+            "size_after": 809,
+            "jaccard": 0.9174528301886793
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 59,
+            "size_after": 60,
+            "jaccard": 0.9833333333333333
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 631,
+            "size_after": 622,
+            "jaccard": 0.9306625577812019
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 311,
+            "size_after": 319,
+            "jaccard": 0.9504643962848297
+          },
+          {
+            "event": "continue",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 198,
+            "size_after": 206,
+            "jaccard": 0.8790697674418605
+          }
+        ]
+      },
+      {
+        "from": "2023-08-01",
+        "to": "2023-09-01",
+        "groups_before": 5,
+        "groups_after": 5,
+        "counts": {
+          "continue": 2,
+          "grow": 0,
+          "shrink": 2,
+          "split": 0,
+          "merge": 0,
+          "birth": 1,
+          "death": 1
+        },
+        "events": [
+          {
+            "event": "death",
+            "from": [
+              1
+            ],
+            "to": [],
+            "size_before": 60,
+            "size_after": 0
+          },
+          {
+            "event": "birth",
+            "from": [],
+            "to": [
+              2
+            ],
+            "size_before": 0,
+            "size_after": 225
+          },
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 809,
+            "size_after": 784,
+            "jaccard": 0.8143507972665148
+          },
+          {
+            "event": "shrink",
+            "from": [
+              2
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 622,
+            "size_after": 539,
+            "jaccard": 0.6657101865136298
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 319,
+            "size_after": 306,
+            "jaccard": 0.9470404984423676
+          },
+          {
+            "event": "shrink",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 206,
+            "size_after": 162,
+            "jaccard": 0.6355555555555555
+          }
+        ]
+      },
+      {
+        "from": "2023-09-01",
+        "to": "2023-10-01",
+        "groups_before": 5,
+        "groups_after": 6,
+        "counts": {
+          "continue": 4,
+          "grow": 0,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 1,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "birth",
+            "from": [],
+            "to": [
+              7
+            ],
+            "size_before": 0,
+            "size_after": 48
+          },
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 784,
+            "size_after": 769,
+            "jaccard": 0.8756038647342995
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 539,
+            "size_after": 510,
+            "jaccard": 0.8086206896551724
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 225,
+            "size_after": 244,
+            "jaccard": 0.7631578947368421
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 306,
+            "size_after": 305,
+            "jaccard": 0.9837662337662337
+          },
+          {
+            "event": "shrink",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 162,
+            "size_after": 140,
+            "jaccard": 0.8414634146341463
+          }
+        ]
+      },
+      {
+        "from": "2023-10-01",
+        "to": "2023-11-01",
+        "groups_before": 6,
+        "groups_after": 6,
+        "counts": {
+          "continue": 3,
+          "grow": 1,
+          "shrink": 2,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 769,
+            "size_after": 799,
+            "jaccard": 0.8403755868544601
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 510,
+            "size_after": 565,
+            "jaccard": 0.8598615916955017
+          },
+          {
+            "event": "shrink",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 244,
+            "size_after": 149,
+            "jaccard": 0.5173745173745173
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 305,
+            "size_after": 318,
+            "jaccard": 0.9347826086956522
+          },
+          {
+            "event": "continue",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 140,
+            "size_after": 152,
+            "jaccard": 0.8481012658227848
+          },
+          {
+            "event": "shrink",
+            "from": [
+              7
+            ],
+            "to": [
+              7
+            ],
+            "size_before": 48,
+            "size_after": 33,
+            "jaccard": 0.6875
+          }
+        ]
+      },
+      {
+        "from": "2023-11-01",
+        "to": "2023-12-01",
+        "groups_before": 6,
+        "groups_after": 6,
+        "counts": {
+          "continue": 5,
+          "grow": 1,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 799,
+            "size_after": 800,
+            "jaccard": 0.901307966706302
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 565,
+            "size_after": 547,
+            "jaccard": 0.891156462585034
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 149,
+            "size_after": 151,
+            "jaccard": 0.8292682926829268
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 318,
+            "size_after": 300,
+            "jaccard": 0.9373040752351097
+          },
+          {
+            "event": "continue",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 152,
+            "size_after": 160,
+            "jaccard": 0.813953488372093
+          },
+          {
+            "event": "grow",
+            "from": [
+              7
+            ],
+            "to": [
+              7
+            ],
+            "size_before": 33,
+            "size_after": 58,
+            "jaccard": 0.5689655172413793
+          }
+        ]
+      },
+      {
+        "from": "2023-12-01",
+        "to": "2024-01-01",
+        "groups_before": 6,
+        "groups_after": 6,
+        "counts": {
+          "continue": 3,
+          "grow": 1,
+          "shrink": 2,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "shrink",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 800,
+            "size_after": 714,
+            "jaccard": 0.6784922394678492
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 547,
+            "size_after": 542,
+            "jaccard": 0.7794117647058824
+          },
+          {
+            "event": "grow",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 151,
+            "size_after": 313,
+            "jaccard": 0.473015873015873
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 300,
+            "size_after": 317,
+            "jaccard": 0.940251572327044
+          },
+          {
+            "event": "shrink",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 160,
+            "size_after": 69,
+            "jaccard": 0.41358024691358025
+          },
+          {
+            "event": "continue",
+            "from": [
+              7
+            ],
+            "to": [
+              7
+            ],
+            "size_before": 58,
+            "size_after": 61,
+            "jaccard": 0.9508196721311475
+          }
+        ]
+      },
+      {
+        "from": "2024-01-01",
+        "to": "2024-02-01",
+        "groups_before": 6,
+        "groups_after": 6,
+        "counts": {
+          "continue": 4,
+          "grow": 1,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 714,
+            "size_after": 681,
+            "jaccard": 0.7547169811320755
+          },
+          {
+            "event": "shrink",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 542,
+            "size_after": 459,
+            "jaccard": 0.7779751332149201
+          },
+          {
+            "event": "grow",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 313,
+            "size_after": 447,
+            "jaccard": 0.6666666666666666
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 317,
+            "size_after": 307,
+            "jaccard": 0.9439252336448598
+          },
+          {
+            "event": "continue",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 69,
+            "size_after": 63,
+            "jaccard": 0.9130434782608695
+          },
+          {
+            "event": "continue",
+            "from": [
+              7
+            ],
+            "to": [
+              7
+            ],
+            "size_before": 61,
+            "size_after": 59,
+            "jaccard": 0.9672131147540983
+          }
+        ]
+      },
+      {
+        "from": "2024-02-01",
+        "to": "2024-03-01",
+        "groups_before": 6,
+        "groups_after": 6,
+        "counts": {
+          "continue": 2,
+          "grow": 3,
+          "shrink": 0,
+          "split": 0,
+          "merge": 0,
+          "birth": 1,
+          "death": 1
+        },
+        "events": [
+          {
+            "event": "death",
+            "from": [
+              2
+            ],
+            "to": [],
+            "size_before": 447,
+            "size_after": 0
+          },
+          {
+            "event": "birth",
+            "from": [],
+            "to": [
+              2
+            ],
+            "size_before": 0,
+            "size_after": 58
+          },
+          {
+            "event": "grow",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 681,
+            "size_after": 889,
+            "jaccard": 0.6168898043254377
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 459,
+            "size_after": 563,
+            "jaccard": 0.7743055555555556
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 307,
+            "size_after": 310,
+            "jaccard": 0.964968152866242
+          },
+          {
+            "event": "grow",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 63,
+            "size_after": 136,
+            "jaccard": 0.4632352941176471
+          },
+          {
+            "event": "continue",
+            "from": [
+              7
+            ],
+            "to": [
+              7
+            ],
+            "size_before": 59,
+            "size_after": 60,
+            "jaccard": 0.9833333333333333
+          }
+        ]
+      },
+      {
+        "from": "2024-03-01",
+        "to": "2024-04-01",
+        "groups_before": 6,
+        "groups_after": 6,
+        "counts": {
+          "continue": 4,
+          "grow": 1,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 889,
+            "size_after": 806,
+            "jaccard": 0.8383947939262473
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 563,
+            "size_after": 667,
+            "jaccard": 0.8061674008810573
+          },
+          {
+            "event": "shrink",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 58,
+            "size_after": 49,
+            "jaccard": 0.8135593220338984
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 310,
+            "size_after": 304,
+            "jaccard": 0.967948717948718
+          },
+          {
+            "event": "continue",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 136,
+            "size_after": 130,
+            "jaccard": 0.9136690647482014
+          },
+          {
+            "event": "continue",
+            "from": [
+              7
+            ],
+            "to": [
+              7
+            ],
+            "size_before": 60,
+            "size_after": 60,
+            "jaccard": 0.9672131147540983
+          }
+        ]
+      },
+      {
+        "from": "2024-04-01",
+        "to": "2024-05-01",
+        "groups_before": 6,
+        "groups_after": 6,
+        "counts": {
+          "continue": 2,
+          "grow": 2,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 1,
+          "death": 1
+        },
+        "events": [
+          {
+            "event": "death",
+            "from": [
+              4
+            ],
+            "to": [],
+            "size_before": 130,
+            "size_after": 0
+          },
+          {
+            "event": "birth",
+            "from": [],
+            "to": [
+              4
+            ],
+            "size_before": 0,
+            "size_after": 28
+          },
+          {
+            "event": "grow",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 806,
+            "size_after": 927,
+            "jaccard": 0.8165618448637316
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 667,
+            "size_after": 619,
+            "jaccard": 0.8828696925329429
+          },
+          {
+            "event": "grow",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 49,
+            "size_after": 70,
+            "jaccard": 0.6301369863013698
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 304,
+            "size_after": 319,
+            "jaccard": 0.940809968847352
+          },
+          {
+            "event": "shrink",
+            "from": [
+              7
+            ],
+            "to": [
+              7
+            ],
+            "size_before": 60,
+            "size_after": 53,
+            "jaccard": 0.8524590163934426
+          }
+        ]
+      },
+      {
+        "from": "2024-05-01",
+        "to": "2024-06-01",
+        "groups_before": 6,
+        "groups_after": 6,
+        "counts": {
+          "continue": 3,
+          "grow": 0,
+          "shrink": 2,
+          "split": 0,
+          "merge": 0,
+          "birth": 1,
+          "death": 1
+        },
+        "events": [
+          {
+            "event": "death",
+            "from": [
+              2
+            ],
+            "to": [],
+            "size_before": 70,
+            "size_after": 0
+          },
+          {
+            "event": "birth",
+            "from": [],
+            "to": [
+              2
+            ],
+            "size_before": 0,
+            "size_after": 261
+          },
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 927,
+            "size_after": 836,
+            "jaccard": 0.8008171603677222
+          },
+          {
+            "event": "shrink",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 619,
+            "size_after": 531,
+            "jaccard": 0.796875
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 319,
+            "size_after": 306,
+            "jaccard": 0.9592476489028213
+          },
+          {
+            "event": "shrink",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 28,
+            "size_after": 24,
+            "jaccard": 0.8571428571428571
+          },
+          {
+            "event": "continue",
+            "from": [
+              7
+            ],
+            "to": [
+              7
+            ],
+            "size_before": 53,
+            "size_after": 58,
+            "jaccard": 0.85
+          }
+        ]
+      },
+      {
+        "from": "2024-06-01",
+        "to": "2024-07-01",
+        "groups_before": 6,
+        "groups_after": 6,
+        "counts": {
+          "continue": 4,
+          "grow": 1,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 836,
+            "size_after": 906,
+            "jaccard": 0.8164754953076121
+          },
+          {
+            "event": "grow",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 531,
+            "size_after": 612,
+            "jaccard": 0.7943485086342229
+          },
+          {
+            "event": "shrink",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 261,
+            "size_after": 100,
+            "jaccard": 0.36742424242424243
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 306,
+            "size_after": 318,
+            "jaccard": 0.9622641509433962
+          },
+          {
+            "event": "continue",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 24,
+            "size_after": 22,
+            "jaccard": 0.9166666666666666
+          },
+          {
+            "event": "continue",
+            "from": [
+              7
+            ],
+            "to": [
+              7
+            ],
+            "size_before": 58,
+            "size_after": 58,
+            "jaccard": 0.9661016949152542
+          }
+        ]
+      },
+      {
+        "from": "2024-07-01",
+        "to": "2024-08-01",
+        "groups_before": 6,
+        "groups_after": 7,
+        "counts": {
+          "continue": 2,
+          "grow": 0,
+          "shrink": 4,
+          "split": 0,
+          "merge": 0,
+          "birth": 1,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "birth",
+            "from": [],
+            "to": [
+              0
+            ],
+            "size_before": 0,
+            "size_after": 138
+          },
+          {
+            "event": "shrink",
+            "from": [
+              0
+            ],
+            "to": [
+              6
+            ],
+            "size_before": 906,
+            "size_after": 802,
+            "jaccard": 0.781021897810219
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 612,
+            "size_after": 610,
+            "jaccard": 0.8571428571428571
+          },
+          {
+            "event": "shrink",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 100,
+            "size_after": 87,
+            "jaccard": 0.8155339805825242
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 318,
+            "size_after": 319,
+            "jaccard": 0.9660493827160493
+          },
+          {
+            "event": "shrink",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 22,
+            "size_after": 12,
+            "jaccard": 0.5454545454545454
+          },
+          {
+            "event": "shrink",
+            "from": [
+              7
+            ],
+            "to": [
+              7
+            ],
+            "size_before": 58,
+            "size_after": 48,
+            "jaccard": 0.8275862068965517
+          }
+        ]
+      },
+      {
+        "from": "2024-08-01",
+        "to": "2024-09-01",
+        "groups_before": 7,
+        "groups_after": 7,
+        "counts": {
+          "continue": 2,
+          "grow": 2,
+          "shrink": 2,
+          "split": 0,
+          "merge": 0,
+          "birth": 1,
+          "death": 1
+        },
+        "events": [
+          {
+            "event": "death",
+            "from": [
+              2
+            ],
+            "to": [],
+            "size_before": 87,
+            "size_after": 0
+          },
+          {
+            "event": "birth",
+            "from": [],
+            "to": [
+              2
+            ],
+            "size_before": 0,
+            "size_after": 243
+          },
+          {
+            "event": "grow",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 138,
+            "size_after": 157,
+            "jaccard": 0.8209876543209876
+          },
+          {
+            "event": "shrink",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 610,
+            "size_after": 545,
+            "jaccard": 0.7796610169491526
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 319,
+            "size_after": 317,
+            "jaccard": 0.950920245398773
+          },
+          {
+            "event": "continue",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 12,
+            "size_after": 11,
+            "jaccard": 0.9166666666666666
+          },
+          {
+            "event": "shrink",
+            "from": [
+              6
+            ],
+            "to": [
+              6
+            ],
+            "size_before": 802,
+            "size_after": 684,
+            "jaccard": 0.7860576923076923
+          },
+          {
+            "event": "grow",
+            "from": [
+              7
+            ],
+            "to": [
+              7
+            ],
+            "size_before": 48,
+            "size_after": 59,
+            "jaccard": 0.8135593220338984
+          }
+        ]
+      },
+      {
+        "from": "2024-09-01",
+        "to": "2024-10-01",
+        "groups_before": 7,
+        "groups_after": 7,
+        "counts": {
+          "continue": 5,
+          "grow": 1,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "continue",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 157,
+            "size_after": 142,
+            "jaccard": 0.8343558282208589
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 545,
+            "size_after": 562,
+            "jaccard": 0.8511705685618729
+          },
+          {
+            "event": "shrink",
+            "from": [
+              2
+            ],
+            "to": [
+              6
+            ],
+            "size_before": 243,
+            "size_after": 158,
+            "jaccard": 0.46886446886446886
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 317,
+            "size_after": 302,
+            "jaccard": 0.9465408805031447
+          },
+          {
+            "event": "continue",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 11,
+            "size_after": 10,
+            "jaccard": 0.9090909090909091
+          },
+          {
+            "event": "grow",
+            "from": [
+              6
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 684,
+            "size_after": 784,
+            "jaccard": 0.7902439024390244
+          },
+          {
+            "event": "continue",
+            "from": [
+              7
+            ],
+            "to": [
+              7
+            ],
+            "size_before": 59,
+            "size_after": 58,
+            "jaccard": 0.9830508474576272
+          }
+        ]
+      },
+      {
+        "from": "2024-10-01",
+        "to": "2024-11-01",
+        "groups_before": 7,
+        "groups_after": 7,
+        "counts": {
+          "continue": 5,
+          "grow": 1,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "shrink",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 142,
+            "size_after": 56,
+            "jaccard": 0.32
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 562,
+            "size_after": 551,
+            "jaccard": 0.8737373737373737
+          },
+          {
+            "event": "continue",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 784,
+            "size_after": 746,
+            "jaccard": 0.7406143344709898
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 302,
+            "size_after": 295,
+            "jaccard": 0.9702970297029703
+          },
+          {
+            "event": "continue",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 10,
+            "size_after": 10,
+            "jaccard": 1.0
+          },
+          {
+            "event": "grow",
+            "from": [
+              6
+            ],
+            "to": [
+              6
+            ],
+            "size_before": 158,
+            "size_after": 298,
+            "jaccard": 0.4805194805194805
+          },
+          {
+            "event": "continue",
+            "from": [
+              7
+            ],
+            "to": [
+              7
+            ],
+            "size_before": 58,
+            "size_after": 60,
+            "jaccard": 0.9666666666666667
+          }
+        ]
+      },
+      {
+        "from": "2024-11-01",
+        "to": "2024-12-01",
+        "groups_before": 7,
+        "groups_after": 7,
+        "counts": {
+          "continue": 4,
+          "grow": 2,
+          "shrink": 1,
+          "split": 0,
+          "merge": 0,
+          "birth": 0,
+          "death": 0
+        },
+        "events": [
+          {
+            "event": "grow",
+            "from": [
+              0
+            ],
+            "to": [
+              0
+            ],
+            "size_before": 56,
+            "size_after": 72,
+            "jaccard": 0.7534246575342466
+          },
+          {
+            "event": "continue",
+            "from": [
+              1
+            ],
+            "to": [
+              1
+            ],
+            "size_before": 551,
+            "size_after": 550,
+            "jaccard": 0.9015544041450777
+          },
+          {
+            "event": "grow",
+            "from": [
+              2
+            ],
+            "to": [
+              2
+            ],
+            "size_before": 746,
+            "size_after": 873,
+            "jaccard": 0.8109619686800895
+          },
+          {
+            "event": "continue",
+            "from": [
+              3
+            ],
+            "to": [
+              3
+            ],
+            "size_before": 295,
+            "size_after": 305,
+            "jaccard": 0.9607843137254902
+          },
+          {
+            "event": "continue",
+            "from": [
+              4
+            ],
+            "to": [
+              4
+            ],
+            "size_before": 10,
+            "size_after": 10,
+            "jaccard": 1.0
+          },
+          {
+            "event": "shrink",
+            "from": [
+              6
+            ],
+            "to": [
+              6
+            ],
+            "size_before": 298,
+            "size_after": 147,
+            "jaccard": 0.47840531561461797
+          },
+          {
+            "event": "continue",
+            "from": [
+              7
+            ],
+            "to": [
+              7
+            ],
+            "size_before": 60,
+            "size_after": 59,
+            "jaccard": 0.9833333333333333
+          }
+        ]
+      }
+    ],
+    "sizes": [
+      {
+        "0": 127,
+        "2": 432,
+        "3": 202,
+        "4": 399,
+        "5": 733,
+        "8": 60,
+        "9": 55,
+        "10": 8
+      },
+      {
+        "0": 116,
+        "2": 459,
+        "3": 205,
+        "4": 405,
+        "5": 746,
+        "8": 76,
+        "10": 9
+      },
+      {
+        "0": 127,
+        "1": 38,
+        "2": 441,
+        "3": 201,
+        "4": 389,
+        "5": 680,
+        "8": 130,
+        "10": 10
+      },
+      {
+        "0": 715,
+        "1": 53,
+        "2": 503,
+        "3": 310,
+        "4": 351,
+        "5": 1,
+        "8": 73,
+        "10": 10
+      },
+      {
+        "0": 746,
+        "1": 59,
+        "2": 501,
+        "3": 307,
+        "4": 356,
+        "8": 39,
+        "10": 8
+      },
+      {
+        "0": 819,
+        "1": 61,
+        "2": 611,
+        "3": 311,
+        "4": 214
+      },
+      {
+        "0": 817,
+        "1": 59,
+        "2": 631,
+        "3": 311,
+        "4": 198
+      },
+      {
+        "0": 809,
+        "1": 60,
+        "2": 622,
+        "3": 319,
+        "4": 206
+      },
+      {
+        "0": 784,
+        "1": 539,
+        "2": 225,
+        "3": 306,
+        "4": 162
+      },
+      {
+        "0": 769,
+        "1": 510,
+        "2": 244,
+        "3": 305,
+        "4": 140,
+        "7": 48
+      },
+      {
+        "0": 799,
+        "1": 565,
+        "2": 149,
+        "3": 318,
+        "4": 152,
+        "7": 33
+      },
+      {
+        "0": 800,
+        "1": 547,
+        "2": 151,
+        "3": 300,
+        "4": 160,
+        "7": 58
+      },
+      {
+        "0": 714,
+        "1": 542,
+        "2": 313,
+        "3": 317,
+        "4": 69,
+        "7": 61
+      },
+      {
+        "0": 681,
+        "1": 459,
+        "2": 447,
+        "3": 307,
+        "4": 63,
+        "7": 59
+      },
+      {
+        "0": 889,
+        "1": 563,
+        "2": 58,
+        "3": 310,
+        "4": 136,
+        "7": 60
+      },
+      {
+        "0": 806,
+        "1": 667,
+        "2": 49,
+        "3": 304,
+        "4": 130,
+        "7": 60
+      },
+      {
+        "0": 927,
+        "1": 619,
+        "2": 70,
+        "3": 319,
+        "4": 28,
+        "7": 53
+      },
+      {
+        "0": 836,
+        "1": 531,
+        "2": 261,
+        "3": 306,
+        "4": 24,
+        "7": 58
+      },
+      {
+        "0": 906,
+        "1": 612,
+        "2": 100,
+        "3": 318,
+        "4": 22,
+        "7": 58
+      },
+      {
+        "0": 138,
+        "1": 610,
+        "2": 87,
+        "3": 319,
+        "4": 12,
+        "6": 802,
+        "7": 48
+      },
+      {
+        "0": 157,
+        "1": 545,
+        "2": 243,
+        "3": 317,
+        "4": 11,
+        "6": 684,
+        "7": 59
+      },
+      {
+        "0": 142,
+        "1": 562,
+        "2": 784,
+        "3": 302,
+        "4": 10,
+        "6": 158,
+        "7": 58
+      },
+      {
+        "0": 56,
+        "1": 551,
+        "2": 746,
+        "3": 295,
+        "4": 10,
+        "6": 298,
+        "7": 60
+      },
+      {
+        "0": 72,
+        "1": 550,
+        "2": 873,
+        "3": 305,
+        "4": 10,
+        "6": 147,
+        "7": 59
+      }
+    ]
+  }
+}

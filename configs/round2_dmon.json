@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "input_glob": "data/raw/*.csv",
+  "seed": 1729,
+  "execution": {
+    "allow_clustering": true,
+    "threads": 2,
+    "task": "round2_v5"
+  },
+  "data_contract": {
+    "identity_mode": "source_territory_id",
+    "stable_territories_verified": false,
+    "measurement_definition_verified": true,
+    "common_denominator_verified": false,
+    "categories_disjoint_verified": false,
+    "evidence": [
+      "reports/source_alignment.json",
+      "docs/DATA_SOURCES.md"
+    ],
+    "temporal_scope": "retrospective_constant_id_sensitivity",
+    "boundary_review_evidence": [
+      "docs/DATA_SOURCES.md",
+      "reports/source_alignment.json",
+      "reports/data_audit.json"
+    ]
+  },
+  "features": {
+    "mode": "log_ratios_to_total",
+    "level_weight": 0.0,
+    "calibration_end": "2023-12-01",
+    "seasonality": "same_month_cross_section"
+  },
+  "graph": {
+    "k": 15,
+    "symmetry": "union",
+    "bandwidth": "median_knn_distance"
+  },
+  "clustering": {
+    "methods": [
+      "kmeans",
+      "ward",
+      "leiden_static"
+    ],
+    "n_clusters": 8,
+    "resolution": 0.7,
+    "temporal_coupling_relative": 0.1,
+    "leiden_iterations": 4
+  },
+  "validation": {
+    "development_end": "2023-12-01",
+    "confirmation_start": "2024-01-01",
+    "confirmation_end": "2024-12-01",
+    "mq_definition": null,
+    "strict_network_undefined": true
+  },
+  "followup": {
+    "stage": "dmon",
+    "output": "runs/round2-20260924-dmon",
+    "joint_dir": "runs/review-20260924-joint",
+    "baseline_dir": "runs/review-20260924-small-k",
+    "ward_archive": "reports/experiments/2026-09-23-v2/screen_partitions.csv.gz",
+    "alpha": 0.25,
+    "max_sweeps": 50,
+    "kmeans_order_seeds": [
+      2718,
+      3141
+    ],
+    "ward_order_seeds": [
+      1729,
+      2718
+    ],
+    "expected_road_sha256": "20cbd5213d3ac1d0a867f097b485431811614b283d7366eb5cba9f65dc80493d",
+    "expected_transport_graph_sha256": "71d169deded54dbe36fb8c0bdd63573b9c073defef41be97acda582d081f1c0a",
+    "expected_ward_archive_sha256": "cc05185c7bd09778e4873707027dd501a098ff8c84769d9b76711653ca594d28",
+    "bootstrap": 500,
+    "published_inputs": true,
+    "ks": [
+      2,
+      4
+    ],
+    "seeds": [
+      1729,
+      2718,
+      3141
+    ],
+    "epochs": 1000,
+    "hidden_dim": 64,
+    "learning_rate": 0.001
+  }
+}

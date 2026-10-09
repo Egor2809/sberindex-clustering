@@ -1,0 +1,1781 @@
+{
+  "sample_rule": "First3 frozenIDs orderedbyterritoryID perregionamongalreadydownloaded2023PMOpages; no outcome/label selection",
+  "sampled_municipalities": 171,
+  "sampled_regions": 57,
+  "source_status_counts": {
+    "parsed": 131,
+    "table_absent": 40
+  },
+  "source_files": [
+    {
+      "entity_id": "tid_1",
+      "file": "79701000-2023.html",
+      "sha256": "5f248588b70ee8c5cc7f89dcb51b18f2bcb3451d9485f00b4c17998ca6afa03b",
+      "source_status": "parsed",
+      "source_name": "Город Майкоп",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=797010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_2",
+      "file": "79703000-2023.html",
+      "sha256": "76db3539f05b6d474d678a94d6f757cbae81afa8921b04fb7f480d245f32d08e",
+      "source_status": "parsed",
+      "source_name": "Город Адыгейск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=797030002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_3",
+      "file": "79605000-2023.html",
+      "sha256": "a4783915eb2a3f5d659944b9a47910ee68c4de81797d88ca508167785ed8be81",
+      "source_status": "parsed",
+      "source_name": "Гиагинский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=796050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_21",
+      "file": "80701000-2023.html",
+      "sha256": "fce4ffcf17ee13cc7c88a20f3e12f0f02c46c76830b7aec2d4ff408c290a074c",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=807010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_22",
+      "file": "80703000-2023.html",
+      "sha256": "14873bfaf30c98d64805bacc49b955f45e8c6a87e5ac1a1c270b96ffbb2e7758",
+      "source_status": "parsed",
+      "source_name": "город Агидель",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=807030002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_23",
+      "file": "80723000-2023.html",
+      "sha256": "d69f2c0ced7b55027008ba0d12cb5c42207b611c8b88e6b66e5b872428649e5d",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=807230002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_10",
+      "file": "84701000-2023.html",
+      "sha256": "6acaf8b886c8142700d56689dc594041dce677417876ce415b4886a118998b63",
+      "source_status": "parsed",
+      "source_name": "Город Горно-Алтайск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=847010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_11",
+      "file": "84610000-2023.html",
+      "sha256": "6025fd902ab6534abbb78302895e712e86a1bfd6f64dd019244bad4ea627e8dc",
+      "source_status": "parsed",
+      "source_name": "Кош-Агачский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=846100002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_12",
+      "file": "84615000-2023.html",
+      "sha256": "0abc45a0cf4eb26f9c01d84f7b26e4a28d0d49c8985c17e4b0106b52e6da3e1e",
+      "source_status": "parsed",
+      "source_name": "Майминский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=846150002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_167",
+      "file": "83701000-2023.html",
+      "sha256": "31109953dcc2525afcba9b471ee48be7f228a8e04b0412b970fa5a63113ee601",
+      "source_status": "parsed",
+      "source_name": "Нальчик",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=837010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_168",
+      "file": "83703000-2023.html",
+      "sha256": "f52ae4078ad7ad6f1129bf21abbf4610d0269d3f1655d757022e36e460a16526",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=837030002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_169",
+      "file": "83710000-2023.html",
+      "sha256": "337f3bd5d2f1328886b5c817161eb6df65c552078fb600042dfc0bcb99b0b88c",
+      "source_status": "parsed",
+      "source_name": "Прохладный",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=837100002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_181",
+      "file": "85605000-2023.html",
+      "sha256": "24498445c729d8dc3a689ddc600f59428d2155799109afbf340e0f9535873f05",
+      "source_status": "parsed",
+      "source_name": "Городовиковский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=856050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_184",
+      "file": "85615000-2023.html",
+      "sha256": "dbc31a6b37593f139c026549a1b0e0ece9722240f0d4e0e26bc8ee8571bb2b59",
+      "source_status": "parsed",
+      "source_name": "Лаганский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=856150002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_185",
+      "file": "85620000-2023.html",
+      "sha256": "a47fe41e65c54dc45ff84ae9cded293d09279b73ff64c1ae709f7d148383b757",
+      "source_status": "parsed",
+      "source_name": "Малодербетовский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=856200002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_194",
+      "file": "91701000-2023.html",
+      "sha256": "aac8e41a8617509cfff2f5be39a0c74d8f22ea4274c5b051a7d9dcf9b66f585d",
+      "source_status": "parsed",
+      "source_name": "Город Черкесск",
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=917010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_195",
+      "file": "91705000-2023.html",
+      "sha256": "8714c210f8afc630a08e8d4e5fde1210b694e2f6661af8573ad2f0238494672f",
+      "source_status": "parsed",
+      "source_name": "Город Карачаевск",
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=917050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_196",
+      "file": "91601000-2023.html",
+      "sha256": "48613c4189c41df4366502d7a0c70c7af401cedca81eed806bf00b22db7b26a5",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=916010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_206",
+      "file": "86701000-2023.html",
+      "sha256": "fe1d2bff09d8ce4f95b81329469c0962c67f2389b44d993c46ff6ceee869b48f",
+      "source_status": "parsed",
+      "source_name": "Петрозаводский городской округ",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=867010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_207",
+      "file": "86706000-2023.html",
+      "sha256": "219716aff3eaf6152f40971a80c48cd6da4ed108f752449426b88c82d2738683",
+      "source_status": "parsed",
+      "source_name": "Костомукшский городской округ",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=867060002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_208",
+      "file": "86604000-2023.html",
+      "sha256": "62708955d6e9e6f4ea45e54056d6d26d5176398d7019044dc1c955f0519fa649",
+      "source_status": "parsed",
+      "source_name": "Беломорский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=866040002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_224",
+      "file": "87701000-2023.html",
+      "sha256": "9f911d19b56509da668f67346876d5df15396fb8a3cbd2036eef99f2853de7ec",
+      "source_status": "parsed",
+      "source_name": "Сыктывкар",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=877010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_225",
+      "file": "87710000-2023.html",
+      "sha256": "c861466ebb9818ecc9e9d30fa28c0e21300725746a465b38065061ba7af6c1d4",
+      "source_status": "parsed",
+      "source_name": "Воркута (до 1 января 2025 года)",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=877100002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_226",
+      "file": "87712000-2023.html",
+      "sha256": "e9407a2da074b9a72c6dbe5eefc51032061e9285ec1619e66ab6ff811aaa078f",
+      "source_status": "parsed",
+      "source_name": "Вуктыл (до 1 января 2024 года)",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=877120002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_269",
+      "file": "88701000-2023.html",
+      "sha256": "31c37379270a57059966f90c5b406bfeb953884f97c6512d1c0f5a1931a6657b",
+      "source_status": "parsed",
+      "source_name": "Город Йошкар-Ола",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=887010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_270",
+      "file": "88705000-2023.html",
+      "sha256": "a80d7e1155796e46df6457bde8cb5c9b361aef1ca44271fc243f15fc2cab1550",
+      "source_status": "parsed",
+      "source_name": "Город Волжск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=887050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_271",
+      "file": "88715000-2023.html",
+      "sha256": "af15205398b2595295fa18d97f091bbee173ee99d5155da15a82f6032cc0fb87",
+      "source_status": "parsed",
+      "source_name": "Город Козьмодемьянск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=887150002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_287",
+      "file": "89603000-2023.html",
+      "sha256": "ef071033092b918caee8bd289b6ea89a02b0e57f15041261ea7b3b967fbd8487",
+      "source_status": "parsed",
+      "source_name": "Ардатовский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=896030002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_288",
+      "file": "89605000-2023.html",
+      "sha256": "bb95818c0d6479ac1615c1c0dd5aad499addd665a85bed55a5fd0da67164ceb9",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=896050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_289",
+      "file": "89607000-2023.html",
+      "sha256": "969c472ff6181293267237962163ec7101e82865de6764e479f32f29f584f887",
+      "source_status": "parsed",
+      "source_name": "Атяшевский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=896070002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_309",
+      "file": "98701000-2023.html",
+      "sha256": "4d555a87f6fa321cb9d7b8426fac17a0da46b8811cc294179a37f3eaf830282d",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=987010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_312",
+      "file": "98603000-2023.html",
+      "sha256": "45140c59b743eab68ffe061c9a0d6fe893d3bfd45be1dc27323b08c302538926",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=986030002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_314",
+      "file": "98608000-2023.html",
+      "sha256": "24907a4eed8ee393c46fef21f040b18354f9e6d7d4dae64b1cd86cb61add2663",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=986080002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_345",
+      "file": "90701000-2023.html",
+      "sha256": "ff0d7c56b9441808de80bb759a1c8d9ccbd35ae0ad7746c009aee06409cc3a23",
+      "source_status": "parsed",
+      "source_name": "город Владикавказ",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=907010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_346",
+      "file": "90605000-2023.html",
+      "sha256": "8b820ee3c365c23adf05f235d42f3108cef3099079ff54201255b92b68b8513a",
+      "source_status": "parsed",
+      "source_name": "Алагирский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=906050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_347",
+      "file": "90610000-2023.html",
+      "sha256": "f66670b1a55e34da932c170cd20f4c7b2c694aff69ece2c89c3029a4b5a9e01e",
+      "source_status": "parsed",
+      "source_name": "Ардонский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=906100002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_354",
+      "file": "92701000-2023.html",
+      "sha256": "76bef448a18f987164395aab97d882dcca36aeddb7009041a633821eb26097ad",
+      "source_status": "parsed",
+      "source_name": "город Казань",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=927010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_355",
+      "file": "92730000-2023.html",
+      "sha256": "4fb7862d1a93d93ef620b82b8910e83f332532eee743fd8d74c080a942fc87b0",
+      "source_status": "parsed",
+      "source_name": "город Набережные Челны",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=927300002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_356",
+      "file": "92601000-2023.html",
+      "sha256": "35149353bab33a0e59c5c0e22b7b9ae0b2b3175bd5921238bd1801ed2dac97d7",
+      "source_status": "parsed",
+      "source_name": "Агрызский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=926010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_401",
+      "file": "93605000-2023.html",
+      "sha256": "985e298219b73149b9a7097c48d5d6735f868f71e613260eba7445f9f05d21b2",
+      "source_status": "parsed",
+      "source_name": "Бай-Тайгинский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=936050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_402",
+      "file": "93610000-2023.html",
+      "sha256": "efdfaee4db89d47c95f4d0ee5c09f1a6892d5614c02c299431f4eec195ee4f24",
+      "source_status": "parsed",
+      "source_name": "Барун-Хемчикский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=936100002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_403",
+      "file": "93615000-2023.html",
+      "sha256": "00ef4e2a7e393c8f4dacb45aac4efd4d91efc4fce637d6ae785ddf818c4617a7",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=936150002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_418",
+      "file": "94701000-2023.html",
+      "sha256": "83b070121272be12c91afc028c3b1d26cc1846ba2f14106507a0056b821a9fec",
+      "source_status": "parsed",
+      "source_name": "Город Ижевск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=947010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_419",
+      "file": "94710000-2023.html",
+      "sha256": "b776b912ceb087822ca90186ed67781d7db288c1f8af0ebbead673ca4d83059f",
+      "source_status": "parsed",
+      "source_name": "Город Воткинск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=947100002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_420",
+      "file": "94720000-2023.html",
+      "sha256": "d1401bd6581f18f47d5d63e657e2d8940438f353cf17e13b0caaf8ed7ce92e2e",
+      "source_status": "parsed",
+      "source_name": "Город Глазов",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=947200002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_448",
+      "file": "95701000-2023.html",
+      "sha256": "6e2270b05d6c61080333cb9f68d2b196661c268e41e81dd17c569fec310bd9af",
+      "source_status": "parsed",
+      "source_name": "город Абакан",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=957010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_449",
+      "file": "95702000-2023.html",
+      "sha256": "c45a515db535679178b25f06faeabb2706b227ba1961b0a0fd7bdc703908e185",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=957020002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_450",
+      "file": "95708000-2023.html",
+      "sha256": "ac8e2da12ff19fe857a6279b49a854a01fe8fd2324976181920217c68445e109",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=957080002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_478",
+      "file": "97701000-2023.html",
+      "sha256": "cb7478866458bee7a6e66e6ea34eec319bcf65b5661e171b22fc0b59d11a3315",
+      "source_status": "parsed",
+      "source_name": "Город Чебоксары",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=977010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_479",
+      "file": "97704000-2023.html",
+      "sha256": "787a445af4a3d8027c300246fcb9b996bba43f2f40918df16ccea436dd7bfef4",
+      "source_status": "parsed",
+      "source_name": "Город Алатырь",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=977040002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_480",
+      "file": "97707000-2023.html",
+      "sha256": "884d161ac51d0e19d7b07934d8ab7a425fb3553218935e205a1ecc4126b50e49",
+      "source_status": "parsed",
+      "source_name": "Город Канаш",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=977070002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_504",
+      "file": "01701000-2023.html",
+      "sha256": "dc258298dddaf8cc57fcb0ff2dc3c8aae00b86f6f031f763724e91cf6876a100",
+      "source_status": "parsed",
+      "source_name": "город Барнаул",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=17010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_505",
+      "file": "01703000-2023.html",
+      "sha256": "2b9e73385b1741ab4ad4df4b0ea5a4f529e755ec0090f8bfaa991a50a9281e4c",
+      "source_status": "parsed",
+      "source_name": "город Алейск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=17030002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_506",
+      "file": "01704000-2023.html",
+      "sha256": "ff2c4bea30671b8d6c57ded9d7243565c327d60cd6a9eee52fd495c4266078da",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=17040002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_666",
+      "file": "04701000-2023.html",
+      "sha256": "df0d2a5c1d6a337f874a27cc46085ff7d861fdbc7f40e00491ea93ea6c173798",
+      "source_status": "parsed",
+      "source_name": "город Красноярск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=47010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_667",
+      "file": "04703000-2023.html",
+      "sha256": "fbd040ca38421599292f4a393f45cfeab1bc5428d48e088581b9dc637703e199",
+      "source_status": "parsed",
+      "source_name": "город Ачинск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=47030002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_668",
+      "file": "04706000-2023.html",
+      "sha256": "3ee368183cf89eab5b0e12ee1e5fa61c3b74110628f11690676aa5853a6e108a",
+      "source_status": "parsed",
+      "source_name": "город Боготол",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=47060002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_775",
+      "file": "05701000-2023.html",
+      "sha256": "3a4f5f520ecd66fbd4b87983261a9af869a9c59fd23a6ccddd9de42dac41f7ab",
+      "source_status": "parsed",
+      "source_name": "Владивостокский",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=57010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_776",
+      "file": "05703000-2023.html",
+      "sha256": "5015a2545445cda5c8609bf3ca7048dd06046806a32b804ff381f633a3ed5bf0",
+      "source_status": "parsed",
+      "source_name": "Арсеньевский",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=57030002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_777",
+      "file": "05705000-2023.html",
+      "sha256": "1be583a655342bea4e4bfd314284aaced57c95bbd5361abea6bd957b2dfc30ca",
+      "source_status": "parsed",
+      "source_name": "Артемовский",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=57050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_809",
+      "file": "07701000-2023.html",
+      "sha256": "052ebbad0ab42ab0fddaf80f2ae62db3d6b5e586872607758d84f89903554a38",
+      "source_status": "parsed",
+      "source_name": "Город Ставрополь",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=77010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_810",
+      "file": "07705000-2023.html",
+      "sha256": "c4dc92dc986eced7054459f8a8d875f8ad9afb1c9dc23ebae7834bd903c184c5",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=77050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_811",
+      "file": "07707000-2023.html",
+      "sha256": "7e18754b5e3461a1621d5f0d97a5b76aeb93658bcae6dd5d3abcd33edf128067",
+      "source_status": "parsed",
+      "source_name": "Георгиевский городской округ (до 2018 года г. Георгиевск)",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=77070002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_842",
+      "file": "08701000-2023.html",
+      "sha256": "b2450185f97cadba968fde7587fe677f2906589c926428fef34e5c0514b67ad6",
+      "source_status": "parsed",
+      "source_name": "Город Хабаровск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=87010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_843",
+      "file": "08709000-2023.html",
+      "sha256": "978c0912dcf7d8e24ce37652516e973e2a2cd3716e34b7f2f9d0a1aa1cf52bb9",
+      "source_status": "parsed",
+      "source_name": "Город Комсомольск-на-Амуре",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=87090002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_844",
+      "file": "08603000-2023.html",
+      "sha256": "ad72607d896981b76c8291204f18a4a213a42762cd5b1421a53aa72d999474d9",
+      "source_status": "parsed",
+      "source_name": "Амурский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=86030002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_870",
+      "file": "10505000-2023.html",
+      "sha256": "fa7ee0a9072c6cf0c204840b12ce6de39a227d962a2e02982ddc1875fbc0ad0b",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=105050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_871",
+      "file": "10508000-2023.html",
+      "sha256": "dcea1c31ed974e8c03e5ed1780c4f2219dab8104a107717cdbb150530a0756d4",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=105080002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_872",
+      "file": "10511000-2023.html",
+      "sha256": "433bea453639f1a0520d6d9be38cf82912e17983b126ee70d09ab5f0c70cd36b",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=105110002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_890",
+      "file": "11701000-2023.html",
+      "sha256": "d6752da9ea14fb4d0750cfcf5a620c2606903bbadaa050049fcabe3a82cd81e8",
+      "source_status": "parsed",
+      "source_name": "Архангельск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=117010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_891",
+      "file": "11708000-2023.html",
+      "sha256": "18a78b9c976507cd7bd5f16542a9941f7202e9407a988cdca7954951af15e834",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=117080002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_892",
+      "file": "11710000-2023.html",
+      "sha256": "f3766f4d10877285624e0292d8b03b3824a1a3017a7a9ac7e073051742b5ddf6",
+      "source_status": "parsed",
+      "source_name": "Котлас",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=117100002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_918",
+      "file": "12701000-2023.html",
+      "sha256": "555ee04f596c354e0f5b08824587dfbde46e1ef3b3f7b53ec82573dda4cc642e",
+      "source_status": "parsed",
+      "source_name": "Город Астрахань",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=127010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_920",
+      "file": "12605000-2023.html",
+      "sha256": "212bca9d88e40dcd2f43e1cf15310121ab3912db6bc00492a9c4a13052406c06",
+      "source_status": "parsed",
+      "source_name": "Ахтубинский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=126050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_922",
+      "file": "12615000-2023.html",
+      "sha256": "95bb4ead606e99543c5728e52a8c34cf1ba1f6b50e35468b86b842c895fc53a3",
+      "source_status": "parsed",
+      "source_name": "Енотаевский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=126150002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_986",
+      "file": "17701000-2023.html",
+      "sha256": "0776a6bfcc3490061a13a58fefe44ee7d9c8f3aa243a4fcf6624b322a8e26e6e",
+      "source_status": "parsed",
+      "source_name": "город Владимир",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=177010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_987",
+      "file": "17720000-2023.html",
+      "sha256": "de8dc544840b9dbf96355e88e137c18cffa9f9ca8262b01624922403de9c0a1f",
+      "source_status": "parsed",
+      "source_name": "город Гусь-Хрустальный",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=177200002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_988",
+      "file": "17725000-2023.html",
+      "sha256": "c48b6ead187985d76dab66a2ab79d3380285baa410014edf39e4080239a295fc",
+      "source_status": "parsed",
+      "source_name": "город Ковров",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=177250002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1007",
+      "file": "18701000-2023.html",
+      "sha256": "7eab58c64916bc39487eef8e439857c3b91866fd8e8e0a82632d997803e37699",
+      "source_status": "parsed",
+      "source_name": "город-герой Волгоград",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=187010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1008",
+      "file": "18710000-2023.html",
+      "sha256": "1cfebf5bedd37068d8eb1b6d460aa5737aab2d05295d177db70d483ed60d4633",
+      "source_status": "parsed",
+      "source_name": "город Волжский",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=187100002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1009",
+      "file": "18715000-2023.html",
+      "sha256": "7fe533b3d3e6ef701daab66a05c1ace0f5fe97da5e33ba58984fa79ee914b3dc",
+      "source_status": "parsed",
+      "source_name": "город Камышин",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=187150002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1047",
+      "file": "19505000-2023.html",
+      "sha256": "4580e019e9bfb66d37df3ef08dd95b329ea6bef529537ff08e4301837462a100",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=195050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1048",
+      "file": "19508000-2023.html",
+      "sha256": "399de5a38c3f737a9046b8f7b05495cd773e0ff1cfb903bf4dfa4e401a497a24",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=195080002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1049",
+      "file": "19510000-2023.html",
+      "sha256": "8a60e8d4ac83cd45060d59a7ef6215fa8b376e87b0c218ce455a98755122a4e5",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=195100002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1107",
+      "file": "24701000-2023.html",
+      "sha256": "2880b4ba7349dbb718e7b3dcb6e47fc468eb4d87aedef3075ce2d46159dabf23",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=247010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1108",
+      "file": "24703000-2023.html",
+      "sha256": "af7b44bad1b9b543dd344853cfd4b44ff0a4b5d13ae8c140c140b695e0c9bb1e",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=247030002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1109",
+      "file": "24705000-2023.html",
+      "sha256": "87e9d3fa352fe58c363e0c89a579a102c9d51e927252cbaba203e138cc958b32",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=247050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1134",
+      "file": "25701000-2023.html",
+      "sha256": "c69ba661a3a934499116510b2d48dbd8e3b34dadac04543089f7a5baadd73c47",
+      "source_status": "parsed",
+      "source_name": "город Иркутск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=257010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1135",
+      "file": "25703000-2023.html",
+      "sha256": "e5395b27d1f3a5fd4619bdc5ebcda95cc9bfb4742eb911d9aea5a36ea10bc414",
+      "source_status": "parsed",
+      "source_name": "Ангарский городской округ",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=257030002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1136",
+      "file": "25714000-2023.html",
+      "sha256": "25d80ef598b5521190f3a89258a30c79102f906dedaa982665341b9f72ef16fc",
+      "source_status": "parsed",
+      "source_name": "город Братск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=257140002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1176",
+      "file": "27701000-2023.html",
+      "sha256": "19a8fd1e8cca0b9f0fd5563685657f079403ff2f973081cbb752dc263cc558f2",
+      "source_status": "parsed",
+      "source_name": "г. Калининград",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=277010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1178",
+      "file": "27712000-2023.html",
+      "sha256": "9a8fc32d78ad4afb7b5a5a820b9e94268b60ac6c7e1a18f8fee49e67a6a971db",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=277120002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1179",
+      "file": "27717000-2023.html",
+      "sha256": "fb2343eb9ef3b2c9803f29f83db1270f27a14c6d602a4e2a85ddc515e6b0e54a",
+      "source_status": "parsed",
+      "source_name": "Пионерский",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=277170002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1198",
+      "file": "29701000-2023.html",
+      "sha256": "896047412795772b0eca057d61beabbcf57b9b3c3c6ca61df6e628ab01a67303",
+      "source_status": "parsed",
+      "source_name": "Городской округ \"город Калуга\"",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=297010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1200",
+      "file": "29602000-2023.html",
+      "sha256": "93b2fcf74d871ab66f85ddefbd3dabde6c83c855be5dbd167c0d6df9d2c503fc",
+      "source_status": "parsed",
+      "source_name": "Бабынинский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=296020002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1201",
+      "file": "29604000-2023.html",
+      "sha256": "a266bd277b27133d0c0c73e05493388fd7bd0a26778f614905d2342f9577050e",
+      "source_status": "parsed",
+      "source_name": "Барятинский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=296040002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_608",
+      "file": "30701000-2023.html",
+      "sha256": "1f39fcd398cf62243a6de5c9a8bdbc12be5b0229adda8300fe39c080d505a64c",
+      "source_status": "parsed",
+      "source_name": "Петропавловск-Камчатский",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=307010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_612",
+      "file": "30607000-2023.html",
+      "sha256": "655d9b455a5434357534264ac1efa2cf4154c886a8d05354d786a23807223cad",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=306070002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_613",
+      "file": "30610000-2023.html",
+      "sha256": "90d3092ee2eccde4358e6f317836fee5017cc61774a36f97f573641a3c4718e0",
+      "source_status": "parsed",
+      "source_name": "Мильковский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=306100002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1224",
+      "file": "32701000-2023.html",
+      "sha256": "eff5405909d7439efca8337710e4a4aed8bdea8c52ea18766b172b25a23c35df",
+      "source_status": "parsed",
+      "source_name": "Кемеровский",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=327010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1225",
+      "file": "32704000-2023.html",
+      "sha256": "f5d8347d1da36f4759e2f41fac96cca5ba368dd819c9891a8bf66a8786358795",
+      "source_status": "parsed",
+      "source_name": "Анжеро-Судженский",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=327040002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1226",
+      "file": "32707000-2023.html",
+      "sha256": "c7460b9f87942c248bf0e99d33e384abeeceaa920809b5594b7b86303ca7e9f1",
+      "source_status": "parsed",
+      "source_name": "Беловский",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=327070002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1258",
+      "file": "33701000-2023.html",
+      "sha256": "ddb11fe66f5ae2a3484895f84ebcf8bd5dd274d14d4c83e296405041265a73ec",
+      "source_status": "parsed",
+      "source_name": "Город Киров",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=337010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1259",
+      "file": "33704000-2023.html",
+      "sha256": "8b58057edf1da201d255044b9cced7a46c5e6c0795538cab2b035cd4df0e78ad",
+      "source_status": "parsed",
+      "source_name": "Город Вятские Поляны",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=337040002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1260",
+      "file": "33707000-2023.html",
+      "sha256": "0b5c7d26a4306623602768056f3bf401a4aa039ff2b0e41634a419b97fcd2a48",
+      "source_status": "parsed",
+      "source_name": "Город Кирово-Чепецк",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=337070002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1303",
+      "file": "34701000-2023.html",
+      "sha256": "f3268ef4ce2547684adf9161d11a7d62efca7a1b8c87a9a5180eb4e571e35acc",
+      "source_status": "parsed",
+      "source_name": "город Кострома",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=347010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1304",
+      "file": "34705000-2023.html",
+      "sha256": "c7c409d244a92915ea2cdcc8110d596ac80eb5a9854147cab22040867b3e341b",
+      "source_status": "parsed",
+      "source_name": "город Буй",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=347050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1305",
+      "file": "34706000-2023.html",
+      "sha256": "f1587c58004a70e5cf8e1b912622057f2fdf6faff755993f5a012f67fb2cce06",
+      "source_status": "parsed",
+      "source_name": "город Волгореченск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=347060002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1333",
+      "file": "37701000-2023.html",
+      "sha256": "e4984caae922d6afe6ca2f0f683b37c4d352ac98a19585452b1bbdf4319ea66e",
+      "source_status": "parsed",
+      "source_name": "город Курган",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=377010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1334",
+      "file": "37705000-2023.html",
+      "sha256": "abf2f484696046ad079d288d0e3a2094d91ce224eb3356cbdd802fcbec39e0a5",
+      "source_status": "parsed",
+      "source_name": "город Шадринск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=377050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1335",
+      "file": "37502000-2023.html",
+      "sha256": "d0516f280b8fd42efdabc1837df1b5206a626a2e9528fe92bf3d3737c05bec81",
+      "source_status": "parsed",
+      "source_name": "Альменевский муниципальный округ",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=375020002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1392",
+      "file": "41603000-2023.html",
+      "sha256": "2170e5736ecfce99241a981137533e8065879b972c46a71ee5a1edd1ebfb9a95",
+      "source_status": "parsed",
+      "source_name": "Бокситогорский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=416030002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1393",
+      "file": "41606000-2023.html",
+      "sha256": "38c4ee4b95e239a53026ddb5bb819d1232e0eee9c5c9a9a754d9a6c86a218e35",
+      "source_status": "parsed",
+      "source_name": "Волосовский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=416060002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1394",
+      "file": "41609000-2023.html",
+      "sha256": "33e43996943b574602cd14c626ea160118ede732b52db850e08a7e1b57648c77",
+      "source_status": "parsed",
+      "source_name": "Волховский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=416090002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1410",
+      "file": "42701000-2023.html",
+      "sha256": "4aa73ea66e93162015de610c65e0376cfcbfce93caedf8a7b8f202486ef1ea57",
+      "source_status": "parsed",
+      "source_name": "город Липецк",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=427010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1411",
+      "file": "42715000-2023.html",
+      "sha256": "4c10ecaff90529f365d6e4e12ff6515afa135ac681029040eb3baede28be4c49",
+      "source_status": "parsed",
+      "source_name": "город Елец",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=427150002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1412",
+      "file": "42603000-2023.html",
+      "sha256": "5f5fcc150a22160f095c97f106e1d4a9fad9c7394b79140346b183d0a12e79ec",
+      "source_status": "parsed",
+      "source_name": "Воловский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=426030002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1430",
+      "file": "44701000-2023.html",
+      "sha256": "46a0c29b3e880b82a0be8f11dc341a39168824df5a09f48a89d7ae259e464651",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=447010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1431",
+      "file": "44502000-2023.html",
+      "sha256": "8ba8855db7b84d0729698b8f660da20b437dd41b533058be6669c754f1d10cdb",
+      "source_status": "parsed",
+      "source_name": "Ольский муниципальный округ (с 2023 г.)",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=445020002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1438",
+      "file": "44522000-2023.html",
+      "sha256": "157236ae069363fcab1be66f11be101d1f70cfc62ac6c351e7a7b3fdf370897a",
+      "source_status": "parsed",
+      "source_name": "Ягоднинский муниципальный округ (с 2023 г.)",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=445220002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1439",
+      "file": "46704000-2023.html",
+      "sha256": "92e2d4109931b64963aeee527e21401399352f211d4a942ba8f06ee3dcd27001",
+      "source_status": "parsed",
+      "source_name": "Балашиха",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=467040002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1440",
+      "file": "46705000-2023.html",
+      "sha256": "c941718864c46242c3808531efdda19d834ae6302086e574e1d21991f47904fb",
+      "source_status": "parsed",
+      "source_name": "Бронницы",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=467050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1443",
+      "file": "46711000-2023.html",
+      "sha256": "0ce8f8eee1dc8f6595465f18ee5ea34b2adad3ccbd1ba47725efba4c36a00d12",
+      "source_status": "parsed",
+      "source_name": "Дзержинский",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=467110002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1506",
+      "file": "47701000-2023.html",
+      "sha256": "eaf1bbd00cbaaf7c3ad59a15a53bb792570e87224e6f7c33d15ea9a2f73aaf44",
+      "source_status": "parsed",
+      "source_name": "город Мурманск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=477010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1507",
+      "file": "47519000-2023.html",
+      "sha256": "63f46632fbae5b65b2f7fb3bf7e1ce404a95ccac77125ff3865e5f1b036ccc0a",
+      "source_status": "parsed",
+      "source_name": "г. Апатиты",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=475190002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1508",
+      "file": "47522000-2023.html",
+      "sha256": "4bdd1d794f3ac3a6ec0c29d929f9e7bc03dd9a0f17e34c2ded25b686d481bcaa",
+      "source_status": "parsed",
+      "source_name": "г. Кировск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=475220002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1523",
+      "file": "22701000-2023.html",
+      "sha256": "33937ec3ed3ffe37f41d51c53685547f761922565682eca3fd6ce8dbba796b0d",
+      "source_status": "parsed",
+      "source_name": "Город Нижний Новгород",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=227010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1525",
+      "file": "22712000-2023.html",
+      "sha256": "3f2e63d97d1656c59ffa5285631bb6e8cf2b867d8ec1a8a3514398797b83ac65",
+      "source_status": "parsed",
+      "source_name": "Город Бор",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=227120002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1526",
+      "file": "22715000-2023.html",
+      "sha256": "3205028e6903249776fa8fd9fabb440869a1b9f94ec0a838a8de6bd6562ab4e1",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=227150002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1575",
+      "file": "49701000-2023.html",
+      "sha256": "966779d3eaff5b7680f8a6b2e3fdb742c9d9a283f4cd813c16075a093bbf7fe1",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=497010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1577",
+      "file": "49606000-2023.html",
+      "sha256": "fd763d41c32d461f7ea0cf71c71dd2cc9893f27f122d8211fe7b4c94a085d3e2",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=496060002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1578",
+      "file": "49608000-2023.html",
+      "sha256": "2ab48d235f06078c935a407d1af7ea1144a4fb962e6e5ed07946650db98c43ce",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=496080002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1597",
+      "file": "50701000-2023.html",
+      "sha256": "6955b9621fbb0b4c02be19746c9e5e4159fdc4518cba9e562002ed23367ac07d",
+      "source_status": "parsed",
+      "source_name": "Городской округ город Новосибирск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=507010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1598",
+      "file": "50708000-2023.html",
+      "sha256": "5b04fef6c015f7a632367b9d65890c89b1ed576262e23ace8b9bbb730489c4d1",
+      "source_status": "parsed",
+      "source_name": "Городской округ город Бердск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=507080002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1599",
+      "file": "50712000-2023.html",
+      "sha256": "3ea48f0cecc6d49167c648baecd47efc1934cb68cfa50befd1a2edd17b6f3bd8",
+      "source_status": "parsed",
+      "source_name": "Городской округ город Искитим",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=507120002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1632",
+      "file": "52701000-2023.html",
+      "sha256": "1b37f7e1adf84d4784027fb0503fc1b472d4d7d7d5c0d86c40ecbebc5032f3f5",
+      "source_status": "parsed",
+      "source_name": "город Омск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=527010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1633",
+      "file": "52601000-2023.html",
+      "sha256": "5395621e6b58d9a7e65ec35cbe9cbc4aaf7b0aa71fe898eb7e7652047b5f9d3c",
+      "source_status": "parsed",
+      "source_name": "Азовский немецкий национальный муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=526010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1634",
+      "file": "52603000-2023.html",
+      "sha256": "1f78fdf5c79fb046062627d74f6e82b5cd89a45ee64a737d7890d4922aa87d46",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=526030002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1665",
+      "file": "53701000-2023.html",
+      "sha256": "75e5c884a2ab71010e406e3471647e930991e5c934f7694b0a91c733a92709f1",
+      "source_status": "parsed",
+      "source_name": "город Оренбург",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=537010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1666",
+      "file": "53704000-2023.html",
+      "sha256": "ff7f16796985a0ee3ca52ebc7976a39bb34f1071d3171db076dd49c906714c18",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=537040002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1667",
+      "file": "53708000-2023.html",
+      "sha256": "041e33c7a4c76f70f19db37ff5b08d0e1a468be526678c1686935742156438df",
+      "source_status": "parsed",
+      "source_name": "город Бугуруслан",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=537080002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1707",
+      "file": "54701000-2023.html",
+      "sha256": "650f11637b9d79d39cdb36ef16a2ff45c2c61f1b05e22216d9c0ee12175af5d6",
+      "source_status": "parsed",
+      "source_name": "город Орел",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=547010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1708",
+      "file": "54705000-2023.html",
+      "sha256": "5df3cdd7310abf2cd7d608c06a734c563e7763fbed6b669130f45da68d4cf69f",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=547050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1709",
+      "file": "54710000-2023.html",
+      "sha256": "df90b9e4ba297edaf6ad326f355c07d516dc2cd280ddb9b7c0132e3b8bc74aaf",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=547100002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1737",
+      "file": "56603000-2023.html",
+      "sha256": "b0c35f67c2f30a6ba71fe9686ef971d423feecec42a9ddbaa86f2663bac03c92",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=566030002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1738",
+      "file": "56609000-2023.html",
+      "sha256": "c9a8f7db091f96eed1c89eb99f16291c2544dea0c3788ba33330bcb4e5aca1f4",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=566090002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1739",
+      "file": "56612000-2023.html",
+      "sha256": "ee7a057ee682c60c27336bfabf72a5ee93741cc515d5f2254583a6930355f7fb",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=566120002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_727",
+      "file": "57701000-2023.html",
+      "sha256": "f3bab81585ff9f2ccdda2955d001446981ca7877a5ded446940c9b82fcb36f99",
+      "source_status": "parsed",
+      "source_name": "Городской округ город Пермь",
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=577010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_731",
+      "file": "57726000-2023.html",
+      "sha256": "58340da7a3b33e59ac69e0c501891dc7564a7f5a1d49020291e96a72142229d7",
+      "source_status": "parsed",
+      "source_name": "Лысьвенский городской округ",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=577260002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_734",
+      "file": "57502000-2023.html",
+      "sha256": "a34824bb1233f16373b5afedcf4d8ab984cebd3c369c3d680dc52a2c23e99901",
+      "source_status": "parsed",
+      "source_name": "Александровский муниципальный округ",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=575020002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1764",
+      "file": "58701000-2023.html",
+      "sha256": "6ddb5a3c2e1585280ba9c899bde26e9835fe21f8c59af79ebd3bc45f1de70c91",
+      "source_status": "parsed",
+      "source_name": "Город Псков",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=587010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1765",
+      "file": "58710000-2023.html",
+      "sha256": "341c7622709e78751b4e2beed10e74ccda422f7681df8b8ed6cece7c120b1469",
+      "source_status": "parsed",
+      "source_name": "Город Великие Луки",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=587100002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1766",
+      "file": "58604000-2023.html",
+      "sha256": "877d7998842fe26fc2dc31467d2201255ef54493878d73a7912c70f6e4752ff7",
+      "source_status": "parsed",
+      "source_name": "Бежаницкий муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=586040002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1845",
+      "file": "61701000-2023.html",
+      "sha256": "5f4f02c96bb13a4bfd941bcfd9df912110af395a218cabdac1954862946f7a77",
+      "source_status": "parsed",
+      "source_name": "Город Рязань",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=617010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1846",
+      "file": "61705000-2023.html",
+      "sha256": "aaabda2ee49c15f744135de94508e2ce62bc6564701b81f331051e7ab5cc0817",
+      "source_status": "parsed",
+      "source_name": "Город Касимов",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=617050002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1848",
+      "file": "61715000-2023.html",
+      "sha256": "3424bbeccd9f6e065def7df1aaa821684785944c92349710b3b536a4bfb7c0b4",
+      "source_status": "parsed",
+      "source_name": "Город Скопин",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=617150002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1874",
+      "file": "36701000-2023.html",
+      "sha256": "9bbb69d63169baa6d592370ca577b9a904a7b65cdba69424307b44482614cfe0",
+      "source_status": "parsed",
+      "source_name": "Самара",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=367010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1875",
+      "file": "36704000-2023.html",
+      "sha256": "a044c37ceb500d5a302fe19b792238011d3b0cea3f002d9006c41b54a8cf27a9",
+      "source_status": "parsed",
+      "source_name": "Жигулевск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=367040002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1876",
+      "file": "36708000-2023.html",
+      "sha256": "2bf36da460c74fa7eef10b400081accaa8662176a0fa277167b7a382abffc830",
+      "source_status": "parsed",
+      "source_name": "Кинель",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=367080002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1912",
+      "file": "63746000-2023.html",
+      "sha256": "a2d1374ae40f920a3c73a66393119da1ae8f4910d7151ad0e7c6a052286b59da",
+      "source_status": "parsed",
+      "source_name": "город Шиханы (ЗАТО до 2019 года)",
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=637460002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1915",
+      "file": "63602000-2023.html",
+      "sha256": "aa6b2c2dceebe59f5be2599e2cfc14fe3689bed340f652e967cbaa984a487a82",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=636020002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1916",
+      "file": "63603000-2023.html",
+      "sha256": "383afe6f6306f31a2fe31ef7507cfd9f102fbadac41fd6cbdc3d78c449e2f93d",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=636030002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1954",
+      "file": "64704000-2023.html",
+      "sha256": "a8bdbbd4df66fea6f38d06fac7d0c10746d97deb598b205da5a0f9554eb40e8b",
+      "source_status": "parsed",
+      "source_name": "Александровск-Сахалинский городской округ",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=647040002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1955",
+      "file": "64708000-2023.html",
+      "sha256": "2349193512cf605a154882f043a42113ba07a0b0558242c71e7ce3f8939d9f18",
+      "source_status": "parsed",
+      "source_name": "Анивский городской округ",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=647080002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1956",
+      "file": "64712000-2023.html",
+      "sha256": "20e06ea443bc0948ec7c00fe05b723d477908ae9c90559177aac1f061b12ca2f",
+      "source_status": "table_absent",
+      "source_name": null,
+      "name_verified": false,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=647120002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1971",
+      "file": "65701000-2023.html",
+      "sha256": "2c7abae8f5cf25a8a51c3644c9005210fcf904dc2e16d5f413af26dcb4d2441c",
+      "source_status": "parsed",
+      "source_name": "муниципальное образование \"город Екатеринбург\"",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=657010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1972",
+      "file": "65728000-2023.html",
+      "sha256": "cc1b8761728d771b2d62648c7751c6b6604b7df3657ea4054c7a93325b849dd4",
+      "source_status": "parsed",
+      "source_name": "Муниципальное образование город Алапаевск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=657280002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_1973",
+      "file": "65703000-2023.html",
+      "sha256": "e4f8a571a736573bc0dbd2917262a86f01dc738c67a2f56ede65025249abff9f",
+      "source_status": "parsed",
+      "source_name": "Артемовский городской округ",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=657030002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_2044",
+      "file": "66701000-2023.html",
+      "sha256": "97040c530eecee95ef858ad2aeee1eed50c03391a32a12aed5b277c73f924619",
+      "source_status": "parsed",
+      "source_name": "город Смоленск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=667010002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_2045",
+      "file": "66710000-2023.html",
+      "sha256": "36713b3d40cb23d8379f7894a047c05a954774961c6130e4288cb44c99e99dc7",
+      "source_status": "parsed",
+      "source_name": "город Десногорск",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=667100002023",
+      "tls_certificate_verified": false
+    },
+    {
+      "entity_id": "tid_2046",
+      "file": "66603000-2023.html",
+      "sha256": "122ae51366ccf0ee3586a8543b39c3d1c3a44cd200e09f5202d394276bd9ca91",
+      "source_status": "parsed",
+      "source_name": "Велижский муниципальный район",
+      "name_verified": true,
+      "url": "https://rosstat.gov.ru/scripts/db_inet2/passport/table.aspx?opt=666030002023",
+      "tls_certificate_verified": false
+    }
+  ],
+  "by_kind": {
+    "wage": {
+      "comparable": 49,
+      "agrees": 49,
+      "discrepancies": []
+    },
+    "headcount": {
+      "comparable": 58,
+      "agrees": 58,
+      "discrepancies": []
+    },
+    "population": {
+      "comparable": 67,
+      "agrees": 64,
+      "discrepancies": [
+        {
+          "entity_id": "tid_1845",
+          "region_code": 62,
+          "kind": "population",
+          "primary_status": "observed",
+          "primary_value": 523203.0,
+          "archive_value": 520509.0,
+          "source_name_verified": true,
+          "comparable": true,
+          "difference_primary_minus_archive": 2694.0,
+          "agrees_at_publication_precision": false,
+          "population_primary_kind": "population_all_ages_both_sexes"
+        },
+        {
+          "entity_id": "tid_1846",
+          "region_code": 62,
+          "kind": "population",
+          "primary_status": "observed",
+          "primary_value": 27821.0,
+          "archive_value": 27537.0,
+          "source_name_verified": true,
+          "comparable": true,
+          "difference_primary_minus_archive": 284.0,
+          "agrees_at_publication_precision": false,
+          "population_primary_kind": "population_all_ages_both_sexes"
+        },
+        {
+          "entity_id": "tid_1848",
+          "region_code": 62,
+          "kind": "population",
+          "primary_status": "observed",
+          "primary_value": 25708.0,
+          "archive_value": 25424.0,
+          "source_name_verified": true,
+          "comparable": true,
+          "difference_primary_minus_archive": 284.0,
+          "agrees_at_publication_precision": false,
+          "population_primary_kind": "population_all_ages_both_sexes"
+        }
+      ]
+    }
+  },
+  "transport_limit": "Official Rosstat HTTPS certificate chain could notbe verified locally; explicit public-data exception. IfTochno archive TLS verified. Noauth or globalTLS change.",
+  "revision_policy": "Contemporary2026PMOpages may revisehistorical2023values; discrepancies reported, archive untouched.",
+  "population_comparison_limit": "Age/sex all-resident counts provide a related indicator check when the exact population-estimate indicator is absent. Three Ryazan discrepancies are cross-indicator comparisons, not verified same-indicator errors."
+}

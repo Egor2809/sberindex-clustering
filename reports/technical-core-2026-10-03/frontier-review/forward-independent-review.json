@@ -1,0 +1,377 @@
+{
+  "status": "pass",
+  "scientific_acceptance": "limited",
+  "scope": "Independent chronological window scaler and prediction/metric audit; no fitting.",
+  "manifest_sha256": "70c6265d61658359a19c2c00c3a687a51bdbf44f0c2331b3dec99319bbd5a134",
+  "archive_fingerprints_match": true,
+  "source_fingerprints_match": true,
+  "cases": [
+    {
+      "candidate": "historical_kmeans4",
+      "train_end": "2023-06-01",
+      "train_only_ratio_scaler_exact": true,
+      "training_test_months_disjoint": true,
+      "monthly": [
+        {
+          "month": "2023-07-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 4.547473508864641e-13,
+          "minimum_occupancy": 84,
+          "S_Dbw": 1.0547368391977978,
+          "S_Dbw_status": "ok",
+          "S_Dbw_diagnostics": null
+        },
+        {
+          "month": "2023-08-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 5.684341886080801e-13,
+          "minimum_occupancy": 71,
+          "S_Dbw": 0.9809915250068697,
+          "S_Dbw_status": "ok",
+          "S_Dbw_diagnostics": null
+        },
+        {
+          "month": "2023-09-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 2.2737367544323206e-13,
+          "minimum_occupancy": 61,
+          "S_Dbw": 0.9741389277940027,
+          "S_Dbw_status": "ok",
+          "S_Dbw_diagnostics": null
+        }
+      ]
+    },
+    {
+      "candidate": "sw_constrained_huber75",
+      "train_end": "2023-06-01",
+      "train_only_ratio_scaler_exact": true,
+      "training_test_months_disjoint": true,
+      "monthly": [
+        {
+          "month": "2023-07-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 2.2737367544323206e-13,
+          "minimum_occupancy": 57,
+          "S_Dbw": 1.0958236672415302,
+          "S_Dbw_status": "ok",
+          "S_Dbw_diagnostics": null
+        },
+        {
+          "month": "2023-08-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 4.547473508864641e-13,
+          "minimum_occupancy": 50,
+          "S_Dbw": 1.0561064770771977,
+          "S_Dbw_status": "ok",
+          "S_Dbw_diagnostics": null
+        },
+        {
+          "month": "2023-09-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 2.2737367544323206e-13,
+          "minimum_occupancy": 41,
+          "S_Dbw": 0.9393190052157775,
+          "S_Dbw_status": "ok",
+          "S_Dbw_diagnostics": null
+        }
+      ]
+    },
+    {
+      "candidate": "sw_constrained_ordinary",
+      "train_end": "2023-06-01",
+      "train_only_ratio_scaler_exact": true,
+      "training_test_months_disjoint": true,
+      "monthly": [
+        {
+          "month": "2023-07-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 2.2737367544323206e-13,
+          "minimum_occupancy": 57,
+          "S_Dbw": 1.0797121845383633,
+          "S_Dbw_status": "ok",
+          "S_Dbw_diagnostics": null
+        },
+        {
+          "month": "2023-08-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 3.410605131648481e-13,
+          "minimum_occupancy": 49,
+          "S_Dbw": 1.031796758260198,
+          "S_Dbw_status": "ok",
+          "S_Dbw_diagnostics": null
+        },
+        {
+          "month": "2023-09-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 2.2737367544323206e-13,
+          "minimum_occupancy": 41,
+          "S_Dbw": 0.9317891504725078,
+          "S_Dbw_status": "ok",
+          "S_Dbw_diagnostics": null
+        }
+      ]
+    },
+    {
+      "candidate": "historical_kmeans4",
+      "train_end": "2023-09-01",
+      "train_only_ratio_scaler_exact": true,
+      "training_test_months_disjoint": true,
+      "monthly": [
+        {
+          "month": "2023-10-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 1.1368683772161603e-13,
+          "minimum_occupancy": 48,
+          "S_Dbw": 1.0390207399540297,
+          "S_Dbw_status": "ok",
+          "S_Dbw_diagnostics": null
+        },
+        {
+          "month": "2023-11-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 6.821210263296962e-13,
+          "minimum_occupancy": 31,
+          "S_Dbw": 1.1367179474495033,
+          "S_Dbw_status": "ok",
+          "S_Dbw_diagnostics": null
+        },
+        {
+          "month": "2023-12-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 1.1368683772161603e-13,
+          "minimum_occupancy": 44,
+          "S_Dbw": 0.9387219307716695,
+          "S_Dbw_status": "ok",
+          "S_Dbw_diagnostics": null
+        }
+      ]
+    },
+    {
+      "candidate": "sw_constrained_huber75",
+      "train_end": "2023-09-01",
+      "train_only_ratio_scaler_exact": true,
+      "training_test_months_disjoint": true,
+      "monthly": [
+        {
+          "month": "2023-10-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 1.1368683772161603e-13,
+          "minimum_occupancy": 34,
+          "S_Dbw": 0.9554074471770135,
+          "S_Dbw_status": "ok",
+          "S_Dbw_diagnostics": null
+        },
+        {
+          "month": "2023-11-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 4.547473508864641e-13,
+          "minimum_occupancy": 20,
+          "S_Dbw": null,
+          "S_Dbw_status": "S_Dbw undefined: zero centroid density",
+          "S_Dbw_diagnostics": {
+            "convention": "S_Dbw-HV01-var/mean-centroid",
+            "radius": 0.24561604368852272,
+            "centroid_densities": [
+              0,
+              144,
+              0,
+              62
+            ],
+            "zero_density_clusters": [
+              0,
+              2
+            ],
+            "undefined_pairs": 1
+          }
+        },
+        {
+          "month": "2023-12-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 1.1368683772161603e-13,
+          "minimum_occupancy": 34,
+          "S_Dbw": 0.8725006379915412,
+          "S_Dbw_status": "ok",
+          "S_Dbw_diagnostics": null
+        }
+      ]
+    },
+    {
+      "candidate": "sw_constrained_ordinary",
+      "train_end": "2023-09-01",
+      "train_only_ratio_scaler_exact": true,
+      "training_test_months_disjoint": true,
+      "monthly": [
+        {
+          "month": "2023-10-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 1.1368683772161603e-13,
+          "minimum_occupancy": 34,
+          "S_Dbw": 0.9569317208551149,
+          "S_Dbw_status": "ok",
+          "S_Dbw_diagnostics": null
+        },
+        {
+          "month": "2023-11-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 6.821210263296962e-13,
+          "minimum_occupancy": 19,
+          "S_Dbw": null,
+          "S_Dbw_status": "S_Dbw undefined: zero centroid density",
+          "S_Dbw_diagnostics": {
+            "convention": "S_Dbw-HV01-var/mean-centroid",
+            "radius": 0.2416693256902347,
+            "centroid_densities": [
+              0,
+              142,
+              0,
+              57
+            ],
+            "zero_density_clusters": [
+              0,
+              2
+            ],
+            "undefined_pairs": 1
+          }
+        },
+        {
+          "month": "2023-12-01",
+          "all_2016_labels_exact": true,
+          "SW_error": 0.0,
+          "CH_error": 0.0,
+          "minimum_occupancy": 34,
+          "S_Dbw": 0.8719512387676048,
+          "S_Dbw_status": "ok",
+          "S_Dbw_diagnostics": null
+        }
+      ]
+    }
+  ],
+  "fit_calls": [
+    {
+      "line": 71,
+      "keywords": [
+        "distances"
+      ]
+    }
+  ],
+  "transfer_safety_failures": [
+    {
+      "candidate": "sw_constrained_huber75",
+      "train_end": "2023-06-01",
+      "month": "2023-07-01",
+      "minimum_occupancy": 57,
+      "three_percent_required": 61,
+      "S_Dbw_status": "ok"
+    },
+    {
+      "candidate": "sw_constrained_huber75",
+      "train_end": "2023-06-01",
+      "month": "2023-08-01",
+      "minimum_occupancy": 50,
+      "three_percent_required": 61,
+      "S_Dbw_status": "ok"
+    },
+    {
+      "candidate": "sw_constrained_huber75",
+      "train_end": "2023-06-01",
+      "month": "2023-09-01",
+      "minimum_occupancy": 41,
+      "three_percent_required": 61,
+      "S_Dbw_status": "ok"
+    },
+    {
+      "candidate": "sw_constrained_ordinary",
+      "train_end": "2023-06-01",
+      "month": "2023-07-01",
+      "minimum_occupancy": 57,
+      "three_percent_required": 61,
+      "S_Dbw_status": "ok"
+    },
+    {
+      "candidate": "sw_constrained_ordinary",
+      "train_end": "2023-06-01",
+      "month": "2023-08-01",
+      "minimum_occupancy": 49,
+      "three_percent_required": 61,
+      "S_Dbw_status": "ok"
+    },
+    {
+      "candidate": "sw_constrained_ordinary",
+      "train_end": "2023-06-01",
+      "month": "2023-09-01",
+      "minimum_occupancy": 41,
+      "three_percent_required": 61,
+      "S_Dbw_status": "ok"
+    },
+    {
+      "candidate": "sw_constrained_huber75",
+      "train_end": "2023-09-01",
+      "month": "2023-10-01",
+      "minimum_occupancy": 34,
+      "three_percent_required": 61,
+      "S_Dbw_status": "ok"
+    },
+    {
+      "candidate": "sw_constrained_huber75",
+      "train_end": "2023-09-01",
+      "month": "2023-11-01",
+      "minimum_occupancy": 20,
+      "three_percent_required": 61,
+      "S_Dbw_status": "S_Dbw undefined: zero centroid density"
+    },
+    {
+      "candidate": "sw_constrained_huber75",
+      "train_end": "2023-09-01",
+      "month": "2023-12-01",
+      "minimum_occupancy": 34,
+      "three_percent_required": 61,
+      "S_Dbw_status": "ok"
+    },
+    {
+      "candidate": "sw_constrained_ordinary",
+      "train_end": "2023-09-01",
+      "month": "2023-10-01",
+      "minimum_occupancy": 34,
+      "three_percent_required": 61,
+      "S_Dbw_status": "ok"
+    },
+    {
+      "candidate": "sw_constrained_ordinary",
+      "train_end": "2023-09-01",
+      "month": "2023-11-01",
+      "minimum_occupancy": 19,
+      "three_percent_required": 61,
+      "S_Dbw_status": "S_Dbw undefined: zero centroid density"
+    },
+    {
+      "candidate": "sw_constrained_ordinary",
+      "train_end": "2023-09-01",
+      "month": "2023-12-01",
+      "minimum_occupancy": 34,
+      "three_percent_required": 61,
+      "S_Dbw_status": "ok"
+    }
+  ],
+  "limitations": [
+    "Previously inspected 2023 windows and retrospectively complete cohort: diagnostic sensitivity, not untouched future or new-territory confirmation.",
+    "Candidate monthly assignments fall below the training 3% occupancy rule in several months; S_Dbw-HV01 is undefined in November for both candidates.",
+    "Some monthly CH ratios also fall below the 95% development guard; development acceptance cannot be transferred as a guarantee."
+  ]
+}

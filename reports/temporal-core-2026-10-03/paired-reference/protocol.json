@@ -1,0 +1,14 @@
+{
+  "scope": "already_explored2024_historical_descriptive_not_holdout",
+  "no_fitting": true,
+  "reference": "all2016_fixed2023_ID_pairs;retrospective_complete_cohort",
+  "estimand": "median_of_paired_same_calendar_month_deltas;not_population_median_difference",
+  "uncertainty": "exact_missing_value_bounds_at_epsilon0;no_error_probability_or_support_policy",
+  "controls_before_effects": [
+    "January_reference_missing5/20/50/60percent;fixedseed1729_random_or_upper_delta_tail",
+    "January_leave_each_of_three_largest_reference_regions",
+    "all12immutablepackets_sealed_Aexact",
+    "publishedcontext_batch_invariance"
+  ],
+  "stop": "one_historical_application;no_fit;no_new_parameter_grid;no_ARI_promotion"
+}

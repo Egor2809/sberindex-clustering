@@ -1,0 +1,10 @@
+{
+  "scope": "re-evaluation of existing annual2023 memberships; no fitting",
+  "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+  "assignments_sha256": "cc05185c7bd09778e4873707027dd501a098ff8c84769d9b76711653ca594d28",
+  "metric_implementation_sha256": "39db5b8b5f30a52ad0ee92eaef4906196ab7d34f6af51ddd508e9d5f7ebdc1fc",
+  "script_sha256": "46402d925d0163595916f47f3416ed701e9c690c17f0f1a4b65dd095d208849b",
+  "n": 2016,
+  "candidates": 26,
+  "reference_graph": "annual2023 attribute union15NN; binary for all network indices"
+}

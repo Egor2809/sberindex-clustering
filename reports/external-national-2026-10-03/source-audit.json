@@ -1,0 +1,174 @@
+{
+  "source_catalog": "https://tochno.st/datasets/bdmo",
+  "source_license": "CC BY 4.0",
+  "archive_sources": [
+    {
+      "kind": "population",
+      "url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20250918/indicators/section31/data_Y48112027_112_v20250918.zip",
+      "file": "population-iftochno.zip",
+      "bytes": 18384847,
+      "sha256": "8e24a30904d10bd5999fb32f9813cae19b2dc03bfcf2d1b519edcb2929f80037",
+      "tls_certificate_verified": true
+    },
+    {
+      "kind": "headcount",
+      "url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20250918/indicators/section32/data_Y48423005_112_v20250918.zip",
+      "file": "headcount-iftochno.zip",
+      "bytes": 50365654,
+      "sha256": "bd57a9f5dca4cb587ced79959de0b83b45cb41196c69b9407a7771d20f38f464",
+      "tls_certificate_verified": true
+    },
+    {
+      "kind": "wage",
+      "url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20250918/indicators/section32/data_Y48423007_112_v20250918.zip",
+      "file": "wage-iftochno.zip",
+      "bytes": 90493674,
+      "sha256": "be97ffd04f1c97344de538ac44f9e73370c43673fc337045d651c4ac7fca4ce5",
+      "tls_certificate_verified": true
+    }
+  ],
+  "registry_sha256": "4150658c3298fbc87ed79838f503f3a5b9a28da33257ff803c7d9231ddb775d6",
+  "frozen_reference_labels_sha256": "4124e33f26d214c96167d3203140058587ad916e31e21c989e9c878e73f1d2bb",
+  "attribution": "Муниципальная статистика России с 2005 года // Росстат; обработка Если быть точным, 2025.",
+  "join": "Exact eight-digit observed OKTMO and year-valid SberIndex territory registry. No stable-code substitution or fuzzy name join.",
+  "source_code_validity": "Inclusive source from/to years; inconsistent or missing source validity excluded conservatively; registry uses half-open year_from/year_to.",
+  "years": [
+    {
+      "year": 2023,
+      "frozen_cohort": 2016,
+      "sources": [
+        {
+          "kind": "wage",
+          "year": 2023,
+          "archive_file": "wage-iftochno.zip",
+          "archive_sha256": "be97ffd04f1c97344de538ac44f9e73370c43673fc337045d651c4ac7fca4ce5",
+          "member": "data_Y48423007_parts/data_Y48423007_year2023_112_v20250918.csv",
+          "member_sha256": "23c8c6635e6d7d7d2e34ef6894c0ad9f56648b2436f61802a9842c4ee080a86c",
+          "annual_broad_sector_rows": 43708
+        },
+        {
+          "kind": "headcount",
+          "year": 2023,
+          "archive_file": "headcount-iftochno.zip",
+          "archive_sha256": "bd57a9f5dca4cb587ced79959de0b83b45cb41196c69b9407a7771d20f38f464",
+          "member": "data_Y48423005_parts/data_Y48423005_year2023_112_v20250918.csv",
+          "member_sha256": "e2cc8f029abd940fc301ea6f13e1c565fdd08803d626cc8e3836b3fe64858e42",
+          "annual_broad_sector_rows": 32287
+        },
+        {
+          "kind": "population",
+          "year": 2023,
+          "archive_file": "population-iftochno.zip",
+          "archive_sha256": "8e24a30904d10bd5999fb32f9813cae19b2dc03bfcf2d1b519edcb2929f80037",
+          "member": "data_Y48112027_parts/data_Y48112027_year2023_112_v20250918.csv",
+          "member_sha256": "5941ec6ffba6b0b28c0b7fea6febe357e961787f69fba457babca1496196478e",
+          "annual_broad_sector_rows": 14868
+        }
+      ],
+      "exact_code_source_rows": 62126,
+      "verified_source_rows": 56672,
+      "exclusion_failures_may_overlap": {
+        "name_verified": 884,
+        "region_verified": 689,
+        "source_code_validity_verified": 4214,
+        "municipal_level_verified": 0,
+        "unit_verified": 0
+      },
+      "conflicting_source_rows": 0,
+      "source_numeric_status": {
+        "observed": 62126
+      },
+      "outcome_coverage": {
+        "log_annual_monthly_wage_rubles": {
+          "n": 1830,
+          "regions": 73
+        },
+        "log_covered_organization_jobs_per_resident": {
+          "n": 1797,
+          "regions": 72
+        },
+        "manufacturing_headcount_share": {
+          "n": 995,
+          "regions": 72
+        },
+        "agriculture_headcount_share": {
+          "n": 1052,
+          "regions": 71
+        },
+        "public_administration_education_health_headcount_share": {
+          "n": 1627,
+          "regions": 73
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "frozen_cohort": 2016,
+      "sources": [
+        {
+          "kind": "wage",
+          "year": 2024,
+          "archive_file": "wage-iftochno.zip",
+          "archive_sha256": "be97ffd04f1c97344de538ac44f9e73370c43673fc337045d651c4ac7fca4ce5",
+          "member": "data_Y48423007_parts/data_Y48423007_year2024_112_v20250918.csv",
+          "member_sha256": "78477a030f2bc4d17d0152eaf25b9c4bcd8decabe0252154d12a3306d0d4f922",
+          "annual_broad_sector_rows": 30427
+        },
+        {
+          "kind": "headcount",
+          "year": 2024,
+          "archive_file": "headcount-iftochno.zip",
+          "archive_sha256": "bd57a9f5dca4cb587ced79959de0b83b45cb41196c69b9407a7771d20f38f464",
+          "member": "data_Y48423005_parts/data_Y48423005_year2024_112_v20250918.csv",
+          "member_sha256": "cdde683ec93bd434554ad6f6c09ab13a155e5b56c74a38fd7c9d7d92670567af",
+          "annual_broad_sector_rows": 30089
+        },
+        {
+          "kind": "population",
+          "year": 2024,
+          "archive_file": "population-iftochno.zip",
+          "archive_sha256": "8e24a30904d10bd5999fb32f9813cae19b2dc03bfcf2d1b519edcb2929f80037",
+          "member": "data_Y48112027_parts/data_Y48112027_year2024_112_v20250918.csv",
+          "member_sha256": "51c0f94db92e3b7e16b145b67c78fc1ee0367bd1b84a144711dbc2a899d688fc",
+          "annual_broad_sector_rows": 14028
+        }
+      ],
+      "exact_code_source_rows": 49802,
+      "verified_source_rows": 45073,
+      "exclusion_failures_may_overlap": {
+        "name_verified": 668,
+        "region_verified": 549,
+        "source_code_validity_verified": 3755,
+        "municipal_level_verified": 0,
+        "unit_verified": 0
+      },
+      "conflicting_source_rows": 0,
+      "source_numeric_status": {
+        "observed": 49800,
+        "missing": 2
+      },
+      "outcome_coverage": {
+        "log_annual_monthly_wage_rubles": {
+          "n": 1681,
+          "regions": 68
+        },
+        "log_covered_organization_jobs_per_resident": {
+          "n": 1680,
+          "regions": 68
+        },
+        "manufacturing_headcount_share": {
+          "n": 879,
+          "regions": 66
+        },
+        "agriculture_headcount_share": {
+          "n": 951,
+          "regions": 66
+        },
+        "public_administration_education_health_headcount_share": {
+          "n": 1503,
+          "regions": 68
+        }
+      }
+    }
+  ]
+}

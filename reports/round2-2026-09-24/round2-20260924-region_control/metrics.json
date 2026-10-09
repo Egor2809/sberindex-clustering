@@ -1,0 +1,766 @@
+[
+  {
+    "id": "kmeans_k2",
+    "n": 2016,
+    "k": 2,
+    "min_cluster_size": 604,
+    "SW": 0.34466857979215787,
+    "MQ": null,
+    "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+    "CH": 1042.7938914436702,
+    "CH_per_n": 0.5172588747240427,
+    "CH_status": "ok",
+    "CH_is_infinite": false,
+    "S_Dbw": 1.343800706217523,
+    "S_Dbw_status": "ok",
+    "S_Dbw_diagnostics": {
+      "convention": "S_Dbw-HV01-var/mean-centroid",
+      "radius": 0.27679385035676063,
+      "centroid_densities": [
+        158,
+        124
+      ],
+      "zero_density_clusters": [],
+      "undefined_pairs": 0
+    },
+    "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+    "S_Dbw_paper": 2.1629393963661196,
+    "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+    "AVI": 0.9429769205426377,
+    "AVU": 1.0,
+    "AVI_undefined_clusters": 0,
+    "AVU_undefined_ordered_pairs": 0,
+    "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+    "TurboMQ": 1.8859538410852754,
+    "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+    "NewmanQ": 0.37022991239304953,
+    "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+    "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity",
+    "ARI_frozen_k4": 0.3457426377779288,
+    "fit": {
+      "reused": true
+    },
+    "road_network": {
+      "AVI": 0.7155248442648668,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "on_real_road": {
+      "objective": 0.7140568335218035,
+      "attribute_SSE_over_TSS": 0.6588602540843284,
+      "graph_cut_fraction": 0.22078631774990048,
+      "SSE": 660.3516431958263,
+      "TSS": 1002.2635894368385,
+      "undirected_edge_mass": 9986.112751337256
+    }
+  },
+  {
+    "id": "joint_road_k2",
+    "n": 2016,
+    "k": 2,
+    "min_cluster_size": 495,
+    "SW": 0.35439681244713134,
+    "MQ": null,
+    "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+    "CH": 1003.2558294826583,
+    "CH_per_n": 0.4976467408148107,
+    "CH_status": "ok",
+    "CH_is_infinite": false,
+    "S_Dbw": 1.260520758501715,
+    "S_Dbw_status": "ok",
+    "S_Dbw_diagnostics": {
+      "convention": "S_Dbw-HV01-var/mean-centroid",
+      "radius": 0.27269068842687444,
+      "centroid_densities": [
+        158,
+        124
+      ],
+      "zero_density_clusters": [],
+      "undefined_pairs": 0
+    },
+    "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+    "S_Dbw_paper": 2.0343444131685873,
+    "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+    "AVI": 0.9408108699984853,
+    "AVU": 1.0,
+    "AVI_undefined_clusters": 0,
+    "AVU_undefined_ordered_pairs": 0,
+    "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+    "TurboMQ": 1.8816217399969706,
+    "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+    "NewmanQ": 0.32475291026699926,
+    "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+    "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity",
+    "ARI_frozen_k4": 0.34090920467434793,
+    "fit": {
+      "reused": true,
+      "alpha": 0.25
+    },
+    "road_network": {
+      "AVI": 0.7780707068737571,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "on_real_road": {
+      "objective": 0.704488894030339,
+      "attribute_SSE_over_TSS": 0.6674939460951582,
+      "graph_cut_fraction": 0.14797979174072304,
+      "SSE": 669.0048783406929,
+      "TSS": 1002.2635894368385,
+      "undirected_edge_mass": 9986.112751337256
+    }
+  },
+  {
+    "id": "joint_same_region_k2",
+    "n": 2016,
+    "k": 2,
+    "min_cluster_size": 478,
+    "SW": 0.35190433301849555,
+    "MQ": null,
+    "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+    "CH": 1003.7764141712987,
+    "CH_per_n": 0.49790496734687434,
+    "CH_status": "ok",
+    "CH_is_infinite": false,
+    "S_Dbw": 1.1590300317330127,
+    "S_Dbw_status": "ok",
+    "S_Dbw_diagnostics": {
+      "convention": "S_Dbw-HV01-var/mean-centroid",
+      "radius": 0.2637099318338239,
+      "centroid_densities": [
+        153,
+        107
+      ],
+      "zero_density_clusters": [],
+      "undefined_pairs": 0
+    },
+    "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+    "S_Dbw_paper": 1.9673500054247957,
+    "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+    "AVI": 0.9543080939300506,
+    "AVU": 1.0,
+    "AVI_undefined_clusters": 0,
+    "AVU_undefined_ordered_pairs": 0,
+    "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+    "TurboMQ": 1.9086161878601011,
+    "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+    "NewmanQ": 0.32772247477732763,
+    "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+    "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity",
+    "ARI_frozen_k4": 0.33797209666954153,
+    "fit": {
+      "graph": "complete within-region unit vertex strength",
+      "alpha": 0.25,
+      "algorithm": "potts_graph_regularized_kmeans",
+      "initialization": "supplied_attribute_baseline",
+      "seed": 1729,
+      "max_sweeps": 50,
+      "converged": true,
+      "sweeps": 11,
+      "moves_per_sweep": [
+        79,
+        30,
+        20,
+        7,
+        7,
+        6,
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      "trace": [
+        {
+          "objective": 0.717708463007262,
+          "attribute_SSE_over_TSS": 0.6588602540843284,
+          "graph_cut_fraction": 0.2353928356917347,
+          "SSE": 660.3516431958263,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.7086761892697248,
+          "attribute_SSE_over_TSS": 0.6641115102743526,
+          "graph_cut_fraction": 0.17825871598148882,
+          "SSE": 665.6147860738924,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.7070454604855116,
+          "attribute_SSE_over_TSS": 0.6658266512519807,
+          "graph_cut_fraction": 0.16487523693412368,
+          "SSE": 667.3338094265202,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.7062734543762721,
+          "attribute_SSE_over_TSS": 0.6658873496168446,
+          "graph_cut_fraction": 0.16154441903770983,
+          "SSE": 667.3946451875617,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.7060325136084791,
+          "attribute_SSE_over_TSS": 0.6663609307689307,
+          "graph_cut_fraction": 0.15868633135819354,
+          "SSE": 667.8692983329411,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.7058335166495017,
+          "attribute_SSE_over_TSS": 0.6660945408854175,
+          "graph_cut_fraction": 0.1589559030563367,
+          "SSE": 667.6023054521015,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.7056287768446066,
+          "attribute_SSE_over_TSS": 0.6665721471896978,
+          "graph_cut_fraction": 0.15622651861963519,
+          "SSE": 668.0809928609672,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.7056206819362204,
+          "attribute_SSE_over_TSS": 0.6670064267471236,
+          "graph_cut_fraction": 0.15445702075638731,
+          "SSE": 668.5162554490119,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.7056160909365731,
+          "attribute_SSE_over_TSS": 0.6670431717263122,
+          "graph_cut_fraction": 0.15429167684104342,
+          "SSE": 668.5530836037472,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.7056104217851862,
+          "attribute_SSE_over_TSS": 0.6671752891710453,
+          "graph_cut_fraction": 0.1537405304565637,
+          "SSE": 668.6855001081326,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.7056013469313236,
+          "attribute_SSE_over_TSS": 0.6673787993511963,
+          "graph_cut_fraction": 0.15289019032050924,
+          "SSE": 668.8894709517776,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.7056013469313236,
+          "attribute_SSE_over_TSS": 0.6673787993511963,
+          "graph_cut_fraction": 0.15289019032050924,
+          "SSE": 668.8894709517776,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        }
+      ],
+      "warnings": [],
+      "optimality": "coordinate local only; nonempty clusters enforced",
+      "objective": 0.7056013469313236,
+      "attribute_SSE_over_TSS": 0.6673787993511963,
+      "graph_cut_fraction": 0.15289019032050924,
+      "SSE": 668.8894709517776,
+      "TSS": 1002.2635894368385,
+      "undirected_edge_mass": 1007.9999999999998
+    },
+    "road_network": {
+      "AVI": 0.7781772494988874,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "on_real_road": {
+      "objective": 0.7075054866272034,
+      "attribute_SSE_over_TSS": 0.6673787993511963,
+      "graph_cut_fraction": 0.1605067491040282,
+      "SSE": 668.8894709517776,
+      "TSS": 1002.2635894368385,
+      "undirected_edge_mass": 9986.112751337256
+    }
+  },
+  {
+    "id": "kmeans_k4",
+    "n": 2016,
+    "k": 4,
+    "min_cluster_size": 127,
+    "SW": 0.24023677355726694,
+    "MQ": null,
+    "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+    "CH": 779.8270404177405,
+    "CH_per_n": 0.3868189684611808,
+    "CH_status": "ok",
+    "CH_is_infinite": false,
+    "S_Dbw": 0.9959874251806291,
+    "S_Dbw_status": "ok",
+    "S_Dbw_diagnostics": {
+      "convention": "S_Dbw-HV01-var/mean-centroid",
+      "radius": 0.1901451020888713,
+      "centroid_densities": [
+        21,
+        22,
+        105,
+        1
+      ],
+      "zero_density_clusters": [],
+      "undefined_pairs": 0
+    },
+    "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+    "S_Dbw_paper": 2.1550278237788945,
+    "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+    "AVI": 0.8847187493492511,
+    "AVU": 0.5296353331236692,
+    "AVI_undefined_clusters": 0,
+    "AVU_undefined_ordered_pairs": 0,
+    "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+    "TurboMQ": 3.5388749973970044,
+    "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+    "NewmanQ": 0.5689886419911083,
+    "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+    "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity",
+    "ARI_frozen_k4": 1.0,
+    "fit": {
+      "reused": true
+    },
+    "road_network": {
+      "AVI": 0.599094049126463,
+      "AVU": 0.5294413574982377,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "on_real_road": {
+      "objective": 0.55001952116823,
+      "attribute_SSE_over_TSS": 0.4623713039160667,
+      "graph_cut_fraction": 0.35059286900865366,
+      "SSE": 463.4179227155083,
+      "TSS": 1002.2635894368385,
+      "undirected_edge_mass": 9986.112751337256
+    }
+  },
+  {
+    "id": "joint_road_k4",
+    "n": 2016,
+    "k": 4,
+    "min_cluster_size": 99,
+    "SW": 0.23257037258833085,
+    "MQ": null,
+    "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+    "CH": 726.0896023341554,
+    "CH_per_n": 0.36016349322130725,
+    "CH_status": "ok",
+    "CH_is_infinite": false,
+    "S_Dbw": 0.9827575977541578,
+    "S_Dbw_status": "ok",
+    "S_Dbw_diagnostics": {
+      "convention": "S_Dbw-HV01-var/mean-centroid",
+      "radius": 0.19696814673462001,
+      "centroid_densities": [
+        28,
+        33,
+        107,
+        1
+      ],
+      "zero_density_clusters": [],
+      "undefined_pairs": 0
+    },
+    "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+    "S_Dbw_paper": 2.1618451681868582,
+    "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+    "AVI": 0.850950947801062,
+    "AVU": 0.5115895776835194,
+    "AVI_undefined_clusters": 0,
+    "AVU_undefined_ordered_pairs": 0,
+    "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+    "TurboMQ": 3.403803791204248,
+    "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+    "NewmanQ": 0.5102527378604175,
+    "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+    "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity",
+    "ARI_frozen_k4": 0.6577402501673151,
+    "fit": {
+      "reused": true,
+      "alpha": 0.25
+    },
+    "road_network": {
+      "AVI": 0.6925953448785689,
+      "AVU": 0.5301251383960245,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "on_real_road": {
+      "objective": 0.5336764702047236,
+      "attribute_SSE_over_TSS": 0.48016012639515976,
+      "graph_cut_fraction": 0.21406537523825542,
+      "SSE": 481.2470117852589,
+      "TSS": 1002.2635894368385,
+      "undirected_edge_mass": 9986.112751337256
+    }
+  },
+  {
+    "id": "joint_same_region_k4",
+    "n": 2016,
+    "k": 4,
+    "min_cluster_size": 133,
+    "SW": 0.2316315148060642,
+    "MQ": null,
+    "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+    "CH": 723.0379880931431,
+    "CH_per_n": 0.3586497956811226,
+    "CH_status": "ok",
+    "CH_is_infinite": false,
+    "S_Dbw": 0.9043759006445069,
+    "S_Dbw_status": "ok",
+    "S_Dbw_diagnostics": {
+      "convention": "S_Dbw-HV01-var/mean-centroid",
+      "radius": 0.19003949957840222,
+      "centroid_densities": [
+        25,
+        29,
+        105,
+        1
+      ],
+      "zero_density_clusters": [],
+      "undefined_pairs": 0
+    },
+    "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+    "S_Dbw_paper": 2.1515576690059763,
+    "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+    "AVI": 0.8559789999476222,
+    "AVU": 0.5214068034679473,
+    "AVI_undefined_clusters": 0,
+    "AVU_undefined_ordered_pairs": 0,
+    "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+    "TurboMQ": 3.4239159997904887,
+    "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+    "NewmanQ": 0.5084419710032709,
+    "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+    "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity",
+    "ARI_frozen_k4": 0.6370374602669453,
+    "fit": {
+      "graph": "complete within-region unit vertex strength",
+      "alpha": 0.25,
+      "algorithm": "potts_graph_regularized_kmeans",
+      "initialization": "supplied_attribute_baseline",
+      "seed": 1729,
+      "max_sweeps": 50,
+      "converged": true,
+      "sweeps": 9,
+      "moves_per_sweep": [
+        193,
+        66,
+        33,
+        18,
+        10,
+        8,
+        4,
+        2,
+        0
+      ],
+      "trace": [
+        {
+          "objective": 0.5616089171467625,
+          "attribute_SSE_over_TSS": 0.4623713039160667,
+          "graph_cut_fraction": 0.3969504529227833,
+          "SSE": 463.4179227155083,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.54425072165911,
+          "attribute_SSE_over_TSS": 0.4741071505685157,
+          "graph_cut_fraction": 0.2805742843623774,
+          "SSE": 475.1803345064722,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.5409476213545351,
+          "attribute_SSE_over_TSS": 0.4785339608548027,
+          "graph_cut_fraction": 0.24965464199892967,
+          "SSE": 479.6171652737621,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.5400480464742664,
+          "attribute_SSE_over_TSS": 0.47825748105444926,
+          "graph_cut_fraction": 0.24716226167926844,
+          "SSE": 479.3400596366531,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.5395706317656309,
+          "attribute_SSE_over_TSS": 0.4788750160531593,
+          "graph_cut_fraction": 0.24278246284988655,
+          "SSE": 479.9589924810631,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.5393749049327087,
+          "attribute_SSE_over_TSS": 0.479676218053905,
+          "graph_cut_fraction": 0.23879474751521468,
+          "SSE": 480.76200807419445,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.5392946336696711,
+          "attribute_SSE_over_TSS": 0.48078416079174563,
+          "graph_cut_fraction": 0.23404189151170215,
+          "SSE": 481.8724587395131,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.5392334937780313,
+          "attribute_SSE_over_TSS": 0.4810280577083232,
+          "graph_cut_fraction": 0.2328217442788324,
+          "SSE": 482.1169077385747,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.5392275515339956,
+          "attribute_SSE_over_TSS": 0.4812114707202788,
+          "graph_cut_fraction": 0.23206432325486726,
+          "SSE": 482.3007359222868,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        },
+        {
+          "objective": 0.5392275515339956,
+          "attribute_SSE_over_TSS": 0.4812114707202788,
+          "graph_cut_fraction": 0.23206432325486726,
+          "SSE": 482.3007359222868,
+          "TSS": 1002.2635894368385,
+          "undirected_edge_mass": 1007.9999999999998
+        }
+      ],
+      "warnings": [],
+      "optimality": "coordinate local only; nonempty clusters enforced",
+      "objective": 0.5392275515339956,
+      "attribute_SSE_over_TSS": 0.4812114707202788,
+      "graph_cut_fraction": 0.23206432325486726,
+      "SSE": 482.3007359222868,
+      "TSS": 1002.2635894368385,
+      "undirected_edge_mass": 1007.9999999999998
+    },
+    "road_network": {
+      "AVI": 0.7058077691530866,
+      "AVU": 0.5279811554172918,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "on_real_road": {
+      "objective": 0.5435442203910053,
+      "attribute_SSE_over_TSS": 0.4812114707202788,
+      "graph_cut_fraction": 0.24933099868290576,
+      "SSE": 482.3007359222868,
+      "TSS": 1002.2635894368385,
+      "undirected_edge_mass": 9986.112751337256
+    }
+  },
+  {
+    "id": "joint_region_shuffled_1730",
+    "n": 2016,
+    "k": 4,
+    "min_cluster_size": 117,
+    "SW": 0.2348460543023631,
+    "MQ": null,
+    "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+    "CH": 731.9930670060807,
+    "CH_per_n": 0.36309179911015904,
+    "CH_status": "ok",
+    "CH_is_infinite": false,
+    "S_Dbw": 0.9535509725052336,
+    "S_Dbw_status": "ok",
+    "S_Dbw_diagnostics": {
+      "convention": "S_Dbw-HV01-var/mean-centroid",
+      "radius": 0.1925167070407369,
+      "centroid_densities": [
+        29,
+        31,
+        107,
+        1
+      ],
+      "zero_density_clusters": [],
+      "undefined_pairs": 0
+    },
+    "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+    "S_Dbw_paper": 2.1539161408939558,
+    "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+    "AVI": 0.8557987244380886,
+    "AVU": 0.5182415050883248,
+    "AVI_undefined_clusters": 0,
+    "AVU_undefined_ordered_pairs": 0,
+    "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+    "TurboMQ": 3.4231948977523543,
+    "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+    "NewmanQ": 0.5136857093643423,
+    "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+    "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity",
+    "ARI_frozen_k4": 0.6753516990884079,
+    "fit": {
+      "reused": true,
+      "null_preserves": "regional mixing, weighted graph topology and within-region degree distribution; not municipality-specific degrees"
+    },
+    "road_network": {
+      "AVI": 0.6692336983681769,
+      "AVU": 0.5310395561301069,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "on_real_road": {
+      "objective": 0.5396942497427444,
+      "attribute_SSE_over_TSS": 0.47813924543950637,
+      "graph_cut_fraction": 0.24622001721295184,
+      "SSE": 479.22155638482116,
+      "TSS": 1002.2635894368385,
+      "undirected_edge_mass": 9986.112751337256
+    }
+  },
+  {
+    "id": "joint_region_shuffled_1731",
+    "n": 2016,
+    "k": 4,
+    "min_cluster_size": 102,
+    "SW": 0.22816912347740215,
+    "MQ": null,
+    "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+    "CH": 722.0495010877793,
+    "CH_per_n": 0.35815947474592225,
+    "CH_status": "ok",
+    "CH_is_infinite": false,
+    "S_Dbw": 0.9941793925870341,
+    "S_Dbw_status": "ok",
+    "S_Dbw_diagnostics": {
+      "convention": "S_Dbw-HV01-var/mean-centroid",
+      "radius": 0.1963880480718434,
+      "centroid_densities": [
+        24,
+        34,
+        100,
+        1
+      ],
+      "zero_density_clusters": [],
+      "undefined_pairs": 0
+    },
+    "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+    "S_Dbw_paper": 2.155498253227642,
+    "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+    "AVI": 0.8449087291034928,
+    "AVU": 0.5132646884616143,
+    "AVI_undefined_clusters": 0,
+    "AVU_undefined_ordered_pairs": 0,
+    "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+    "TurboMQ": 3.379634916413971,
+    "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+    "NewmanQ": 0.5048572682114808,
+    "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+    "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity",
+    "ARI_frozen_k4": 0.6478955552192733,
+    "fit": {
+      "reused": true,
+      "null_preserves": "regional mixing, weighted graph topology and within-region degree distribution; not municipality-specific degrees"
+    },
+    "road_network": {
+      "AVI": 0.6699716539440661,
+      "AVU": 0.5327159535048988,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "on_real_road": {
+      "objective": 0.5407226014966678,
+      "attribute_SSE_over_TSS": 0.48155301287843877,
+      "graph_cut_fraction": 0.23667835447291646,
+      "SSE": 482.6430511916682,
+      "TSS": 1002.2635894368385,
+      "undirected_edge_mass": 9986.112751337256
+    }
+  },
+  {
+    "id": "joint_region_shuffled_1732",
+    "n": 2016,
+    "k": 4,
+    "min_cluster_size": 92,
+    "SW": 0.23260085989929286,
+    "MQ": null,
+    "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+    "CH": 728.8696496800534,
+    "CH_per_n": 0.36154248496034397,
+    "CH_status": "ok",
+    "CH_is_infinite": false,
+    "S_Dbw": 1.034180254710091,
+    "S_Dbw_status": "ok",
+    "S_Dbw_diagnostics": {
+      "convention": "S_Dbw-HV01-var/mean-centroid",
+      "radius": 0.19951165427758305,
+      "centroid_densities": [
+        19,
+        35,
+        103,
+        1
+      ],
+      "zero_density_clusters": [],
+      "undefined_pairs": 0
+    },
+    "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+    "S_Dbw_paper": 2.170381253325352,
+    "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+    "AVI": 0.8510000515615894,
+    "AVU": 0.511250224530983,
+    "AVI_undefined_clusters": 0,
+    "AVU_undefined_ordered_pairs": 0,
+    "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+    "TurboMQ": 3.4040002062463577,
+    "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+    "NewmanQ": 0.5158721604533671,
+    "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+    "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity",
+    "ARI_frozen_k4": 0.6320208606273726,
+    "fit": {
+      "reused": true,
+      "null_preserves": "regional mixing, weighted graph topology and within-region degree distribution; not municipality-specific degrees"
+    },
+    "road_network": {
+      "AVI": 0.6563414922190609,
+      "AVU": 0.535117271460238,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "on_real_road": {
+      "objective": 0.5396348553081328,
+      "attribute_SSE_over_TSS": 0.4792063334357349,
+      "graph_cut_fraction": 0.24171408748959192,
+      "SSE": 480.29105983016615,
+      "TSS": 1002.2635894368385,
+      "undirected_edge_mass": 9986.112751337256
+    }
+  }
+]

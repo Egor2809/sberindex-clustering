@@ -1,0 +1,174 @@
+{
+  "status": "descriptive_numeric_contract_implemented;no_default_promotion;geography_semantics_unresolved",
+  "source_sha256": {
+    "sbercluster/temporal_profiles.py": "a7630de70ad2c28ce925de29dca46000ca04d2376d8625433ef3fdb5100f97b6",
+    "sbercluster/dual_profiles.py": "6bd0b1f778d4803c107e7ca8cc0114fd45d3512ab00d64f051d9f2050c045dec",
+    "scripts/benchmark_temporal_profiles.py": "4f4cb79c5195d2fb4c09790fb72fa7e85f35e395f6243e47c2593355a6422e52",
+    "scripts/benchmark_dual_profiles.py": "88c302aef7dff839e3072e45862ad2a4f41055fcee6caee9451663723f4ee7a1",
+    "scripts/predict_temporal.py": "e8c9307e20044a2fc7ebdec0b8079a640fe6d0b58a7d6239685b3a0046b10d5a",
+    "scripts/predict_dual.py": "f934d30ecf37edfd37924b2169d1fbf4402312c92c69827fc9ffa879ea9a242c",
+    "tests/test_temporal_profiles.py": "9cf2909e7411e0427e6aa06df4826f8e5ec89401209723b5d4d78bcd51ccb304",
+    "tests/test_dual_profiles.py": "427079d5330195eca4bc5e21b8b23f92d1c2c60b3186babf296e587f32ba45b4"
+  },
+  "paired_summary": {
+    "scope": "already_explored2024_historical_descriptive_not_holdout",
+    "fit_executed": false,
+    "default_preserved": true,
+    "reference_n": 2016,
+    "reference_regions": 73,
+    "absolute2024_labels_exact": true,
+    "absolute_ARI": 0.5596999549170326,
+    "paired_relative_ARI": 0.7224944798693295,
+    "absolute_changes": 380,
+    "paired_relative_changes": 218,
+    "paired_common_absolute_geometry_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        584,
+        954,
+        409,
+        69
+      ],
+      "min_cluster_size": 69,
+      "SW": 0.2705607631461717,
+      "CH": 893.0492118930005
+    },
+    "paired_own_relative_geometry_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        584,
+        954,
+        409,
+        69
+      ],
+      "min_cluster_size": 69,
+      "SW": 0.2729226699916604,
+      "CH": 907.9935794675167
+    },
+    "paired_vs_population_correction_max_coordinate_difference": 0.04280440075485864,
+    "absolute_geometric_labels": 2016,
+    "paired_relative_geometric_labels": 2016,
+    "geometry_certificate_scope": "conditional_exact_box_only;no_support_or_measurement_probability",
+    "confirmed_transition_count": 0,
+    "territory_transition_status": "unresolved",
+    "mmd_bandwidth_fit2023": 0.838630505731353,
+    "absolute_mmd2": 0.0980081341447816,
+    "relative_mmd2": 0.0025918041015011717,
+    "absolute_quantiles2023": [
+      [
+        -0.41055945417977474,
+        -0.42470413528332873,
+        -0.3495608593182902,
+        -0.6143503829981434,
+        -0.3996849144601596
+      ],
+      [
+        -0.20074342753599955,
+        -0.2568367818331567,
+        -0.20064607713545252,
+        -0.2542672399787786,
+        -0.20552373774729793
+      ],
+      [
+        -0.00753218460117288,
+        -0.06602452012749271,
+        -0.0033719932946583526,
+        0.010508917074994205,
+        -0.012135067765246765
+      ],
+      [
+        0.1644029316162207,
+        0.12344599956070994,
+        0.23599428865433342,
+        0.16555269762595815,
+        0.23051216370097877
+      ],
+      [
+        0.2926516055273648,
+        0.2676786510020402,
+        0.4164471495786157,
+        0.3023127171275258,
+        0.3429916291233133
+      ]
+    ],
+    "absolute_quantiles2024": [
+      [
+        -0.47985794966647677,
+        0.005047384599311807,
+        -0.3768350835821547,
+        -0.699197819246499,
+        -0.5313961673535431
+      ],
+      [
+        -0.2640826751721388,
+        0.13327955464636418,
+        -0.21739276058529944,
+        -0.3436601207468547,
+        -0.3219179863839941
+      ],
+      [
+        -0.06537714876328647,
+        0.29336247290045553,
+        -0.00956112451472483,
+        -0.06060324505384535,
+        -0.09634357472338688
+      ],
+      [
+        0.11785687450272939,
+        0.4423570075726949,
+        0.25572440892287496,
+        0.09848805860305976,
+        0.1805377424376235
+      ],
+      [
+        0.25704832315742343,
+        0.5587007108399267,
+        0.43564526535738546,
+        0.22036809744118604,
+        0.3056085825267977
+      ]
+    ],
+    "relative_quantiles2024": [
+      [
+        -0.42676623393795243,
+        -0.3392987193203802,
+        -0.381341897279012,
+        -0.6340518091915411,
+        -0.4672678623496797
+      ],
+      [
+        -0.22375187512587344,
+        -0.21229954046949046,
+        -0.22493213551707947,
+        -0.2686299601760076,
+        -0.2628968898587752
+      ],
+      [
+        -0.021606987593830347,
+        -0.049177385232713866,
+        -0.014979231080034782,
+        0.012356802924501756,
+        -0.03183278064981959
+      ],
+      [
+        0.15583995636875123,
+        0.10145211819269773,
+        0.2498851276236108,
+        0.16975765191253672,
+        0.24837479608892565
+      ],
+      [
+        0.29494249734459344,
+        0.22026820665538105,
+        0.43546304389957713,
+        0.2973659784889065,
+        0.36936755587739334
+      ]
+    ]
+  },
+  "tests": {
+    "temporal_profiles": 11,
+    "dual_profiles": 14
+  },
+  "foreign_source_status": "analytical_parts_accepted;local_kernel_checked;full_operational_policy_not_adopted"
+}

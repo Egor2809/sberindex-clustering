@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "fix": "After projecting additions onto the complement of controls, determine their numericalrank relative to original within-region addition columnnorms, with1e-11 relativeoriginalscale floor. Do notnormalize residualroundoff tounit. Samegate inpermutationbranch.",
+  "fixtures": [
+    {
+      "seed": 1903,
+      "n": 120,
+      "regions": 4,
+      "old_unit_normalized_projected_roundoff_partial_r2": 0.0027792470046076995,
+      "fixed_original_scale_rank_partial_r2": 0.0,
+      "projected_addition_frobenius_norm": 6.7503705442147394e-15
+    },
+    {
+      "seed": 2718,
+      "n": 200,
+      "regions": 10,
+      "old_unit_normalized_projected_roundoff_partial_r2": 0.005121913116376499,
+      "fixed_original_scale_rank_partial_r2": 0.0,
+      "projected_addition_frobenius_norm": 1.3107392427444523e-14
+    }
+  ],
+  "new_tests_passed": 21,
+  "real_data_comparison": {
+    "numeric_fields_changed": 204,
+    "maximum_absolute_delta": 1.3183898417423734e-16,
+    "all_blocked_scores_and_intervals_exactly_unchanged": true,
+    "all_cohort_counts_exactly_unchanged": true,
+    "scientific_conclusions_unchanged": true
+  },
+  "source_sha256": {
+    "scripts/validate_external_national.py": "4816a08d13941e81360fba2311be68b5fc2026449e56afb88017789a479906dd",
+    "tests/test_external_national.py": "8f37e5d3f9ff9c3ab148f22b5de647e3583e336e6ed8bf45f567f9191a924287"
+  }
+}

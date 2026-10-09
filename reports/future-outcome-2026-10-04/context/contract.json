@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "endpoint_id": "municipal_annual_wage_2025_v20260928",
+  "provenance": {
+    "fixed_protocol_sha256": "18725c1f20bf19919e4eeb545c80669ceb1cc708ef9f5e39f4f1b577d8606872",
+    "metadata_admission_sha256": "379ceb7ca1328b034a5e1d86f0bfca77f56f53488dfa94b1e6156fdbde85061c",
+    "source_url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20260928/indicators/section32/data_Y48423007_112_v20260928.zip",
+    "source_version": "data_bdmo_118_v20260928",
+    "member": "data_Y48423007_parts/data_Y48423007_year2025_112_v20260928.csv"
+  },
+  "target": {
+    "indicator": "Y48423007",
+    "year": "2025",
+    "period": "Январь-декабрь",
+    "unit": "Рубль",
+    "sector": "Всего по обследуемым видам экономической деятельности"
+  },
+  "predictors": [
+    "linear_controls",
+    "linear_continuous5",
+    "linear_kmeans4",
+    "linear_huber75",
+    "quadratic_controls",
+    "quadratic_continuous5",
+    "quadratic_kmeans4",
+    "quadratic_huber75",
+    "histogram_controls",
+    "histogram_continuous5",
+    "histogram_kmeans4",
+    "histogram_huber75"
+  ],
+  "primary": {
+    "minuend": "histogram_huber75",
+    "subtrahend": "histogram_continuous5",
+    "metric": "equal_region_log_mse",
+    "negative_favors": "histogram_huber75"
+  },
+  "cohort": {
+    "fixed_entities": 1797,
+    "fixed_regions": 72,
+    "metadata_admitted": 1564,
+    "metadata_history_flags": 69,
+    "source_annual_total_rows": 2486
+  },
+  "bootstrap": {
+    "replicates": 1999,
+    "seed": 20261003,
+    "interpretation": "Paired region resampling conditional on frozen predictions and the observed paired cohort. No generic95%coverage guarantee."
+  },
+  "pins": {
+    "predictions": "e3cb45292e9090cd0416a5f2eb6e1d1cfa3e3213c2a144ecd2e387557e286e32",
+    "membership": "dccf766a1166312ceb29212aa6f0a0631c098257da39a39246ca2af297ea86b6",
+    "source_metadata": "9c261179f371436b4c876c088ade343dc2830c64d85395cda39b40e07fa55289",
+    "source_member_deflate": "047b0467ec4d55609af2c20f699d31f13c34ccc14a88828a280901f0002057f3"
+  },
+  "source_member": {
+    "crc32": 3508189538,
+    "uncompressed_bytes": 102396744,
+    "compressed_bytes": 2001457
+  },
+  "identity": {
+    "registry_validity": "year_from<=2025<year_to",
+    "source_validity": "oktmo_year_from<=2025<=oktmo_year_to",
+    "membership_frozen_before_outcomes": true,
+    "history_flagged_entities_retained": true,
+    "boundary_continuity": "unknown"
+  },
+  "claims": {
+    "target": "Observed, exactly joined, metadata-admitted annual2025municipal wages. All1797original IDs remain in audit.",
+    "full_cohort_effect_identified": false,
+    "calendar_prospective_forecast": false,
+    "production_typology_identified": false,
+    "architecture_selection": "Historically selected after2023/2024inspection; currentendpoint is retrospective temporal validation."
+  }
+}

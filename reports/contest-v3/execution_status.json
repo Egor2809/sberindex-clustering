@@ -1,0 +1,13 @@
+{
+  "completed_new_fitting_runs": 0,
+  "completed_evaluation_of_existing_partitions": 26,
+  "descriptive_dynamics_completed": true,
+  "map_matched": 2016,
+  "pending": [
+    "KMeans/Ward K2,K3",
+    "mixed attribute-road spectral alpha grid",
+    "road/trajectory Leiden",
+    "24-layer temporal Leiden omega grid"
+  ],
+  "scope": "Historical v3 status at 2026-09-23; later exploratory calculations are in reports/review-2026-09-24."
+}

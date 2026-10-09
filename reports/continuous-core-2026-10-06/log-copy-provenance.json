@@ -1,0 +1,32 @@
+{
+  "FINAL_CHECKS.json": {
+    "original_sha256": "4b9ba93d11cd27ff3a8b84058a181cb4483852d04360617ec317273e6de2899a",
+    "copied_sha256": "4e740f17c7bd2dcfe332c5e20e426831e97c989832ebab1bde001a9d769b2784",
+    "change": "private path strings replaced; numbers unchanged"
+  },
+  "full-tests.log": {
+    "original_sha256": "35d27e8ac92f6d92e7ee912fa949f3e7541a0a56427521fa2b270357f172efaa",
+    "copied_sha256": "413294cbbd6e963d3e154d4a0c28d97dd1fd69a19968116a8ca3edc5bc6f1d8d",
+    "change": "private path strings replaced; numbers unchanged"
+  },
+  "compile.log": {
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "copied_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "change": "private path strings replaced; numbers unchanged"
+  },
+  "legacy-core.json": {
+    "original_sha256": "6a4bca249db587c24acd6292116bfb007eeb7f8a702240a5c68b3f7ef4a5c9f1",
+    "copied_sha256": "3c1f0c0174931a090832ce4b0c1f249b2da684fc29c9579ad27bcfb49d4f64e1",
+    "change": "private path strings replaced; numbers unchanged"
+  },
+  "continuous-core.json": {
+    "original_sha256": "6773d969257589b3e92663570eb39d9e94a9465eff1b92017af0dd59bb1a8f36",
+    "copied_sha256": "fdb4fcfb6042546277329d7818bd18c69bfbab4034a38b817b55ac54d519e905",
+    "change": "private path strings replaced; numbers unchanged"
+  },
+  "targeted-tests.log": {
+    "original_sha256": "aeca8ee0279361da9be844cc81fbcb04130340f23245cabc4be3f2da21bb65cf",
+    "copied_sha256": "e89eb910c90ea806ae7e83f4514b43d8bc8f2fb35f4475356dd412f96d47f70f",
+    "change": "private path strings replaced; numbers unchanged"
+  }
+}

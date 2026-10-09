@@ -1,0 +1,309 @@
+[
+  {
+    "run_id": "20260923T111955392642Z",
+    "provenance": {
+      "config": {
+        "schema_version": 1,
+        "input_glob": "data/raw/*.csv",
+        "seed": 1729,
+        "execution": {
+          "allow_clustering": true,
+          "threads": 2
+        },
+        "data_contract": {
+          "identity_mode": "source_territory_id",
+          "stable_territories_verified": false,
+          "measurement_definition_verified": true,
+          "common_denominator_verified": false,
+          "categories_disjoint_verified": false,
+          "evidence": [
+            "reports/source_alignment.json",
+            "docs/DATA_SOURCES.md"
+          ]
+        },
+        "features": {
+          "mode": "log_ratios_to_total",
+          "level_weight": 0.0,
+          "calibration_end": "2023-12-01",
+          "seasonality": "same_month_cross_section"
+        },
+        "graph": {
+          "k": 15,
+          "symmetry": "union",
+          "bandwidth": "median_knn_distance"
+        },
+        "clustering": {
+          "methods": [
+            "kmeans",
+            "ward",
+            "leiden_static"
+          ],
+          "n_clusters": 8,
+          "resolution": 1.0,
+          "temporal_coupling_relative": 0.1,
+          "leiden_iterations": 4
+        },
+        "validation": {
+          "development_end": "2023-12-01",
+          "confirmation_start": "2024-01-01",
+          "confirmation_end": "2024-12-01",
+          "mq_definition": null,
+          "strict_network_undefined": true
+        },
+        "run_periods": [
+          "2023-12-01"
+        ]
+      },
+      "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+      "scaler": {
+        "level_center": 10.056787870678566,
+        "level_iqr": 0.4561850995415071,
+        "ratio_center": [
+          -2.9956744346122948,
+          -2.179543987949999,
+          -3.661429048766565,
+          -0.7820032486889154,
+          -2.8273688977704112
+        ],
+        "ratio_iqr": [
+          0.27186403557919503,
+          0.4493995136747726,
+          1.0650995060325594,
+          0.20212500174021586,
+          0.3371095191761597
+        ],
+        "mode": "log_ratios_to_total",
+        "calibration_end": "2023-12-01"
+      },
+      "git_commit": "bc832b793432494ccafcab8642e38152dcc808a8",
+      "source_hashes": {
+        "canonical.py": "469bdf6123bcf22d4dd552ab05aab5fee1fee42316087558c1547fa6c26bae52",
+        "cli.py": "e023b56d5961c5d14b8fb40d5835b296634b32027869a9e161e5a8fbc24a6fac",
+        "data.py": "aca63526ac1271999f308c799ca6960066f622e300d89c585fccbff0f2bba6cd",
+        "dynamics.py": "9f00960e9c868200235e0aa0dc87d5ab6c3fe3755428bab671f816b073a424e3",
+        "features.py": "e22aad131f816027d8a41aa7cff5fcedc54c0f0489a56d092a95df7170dc139b",
+        "graph.py": "9475d10e4927a8094a1558f262da788a44b8d6c02686637bf443785d1010532f",
+        "io.py": "8aaaf7ad6f7bee56eb4c09969e78269634464349ad366338d267868d37a266a7",
+        "metrics.py": "09b28f8c76391429a0648d4e4a13958680e4c9da47c292702ec3568e2d6421df",
+        "models.py": "d43de5cb8784116f1fc51b29d33412749528b5f8c1459730ed1dad46f9bbdaf0",
+        "resources.py": "e5e7721bf4b139337589688d2edc5d9532bbac005f5db0876f5389402f184200",
+        "validation.py": "f4ef20a9ece71152ea5bdc3c0764e13c709dca5c0a25f3b185ba2c5bfd3ef37c",
+        "__init__.py": "30531b8122c986fb77769336c7e87609dcef634be23844399c540ee500d19a34"
+      },
+      "started_at": "20260923T111955392642Z"
+    },
+    "timings": {
+      "stages": [
+        {
+          "method": "kmeans",
+          "period": "2023-12-01",
+          "stage": "fit",
+          "seconds": 3.2445536000013817
+        },
+        {
+          "method": "ward",
+          "period": "2023-12-01",
+          "stage": "fit",
+          "seconds": 0.5983494000029168
+        },
+        {
+          "method": "leiden_static",
+          "period": "2023-12-01",
+          "stage": "fit",
+          "seconds": 9.842131100002007
+        },
+        {
+          "method": "kmeans",
+          "period": "2023-12-01",
+          "stage": "metrics",
+          "seconds": 0.44181860000026063
+        },
+        {
+          "method": "ward",
+          "period": "2023-12-01",
+          "stage": "metrics",
+          "seconds": 0.04608799999914481
+        },
+        {
+          "method": "leiden_static",
+          "period": "2023-12-01",
+          "stage": "metrics",
+          "seconds": 0.44248290000177803
+        }
+      ],
+      "total_seconds": 17.856057500001043
+    }
+  },
+  {
+    "run_id": "20260923T112147761862Z",
+    "provenance": {
+      "config": {
+        "schema_version": 1,
+        "input_glob": "data/raw/*.csv",
+        "seed": 1729,
+        "execution": {
+          "allow_clustering": true,
+          "threads": 2
+        },
+        "data_contract": {
+          "identity_mode": "source_territory_id",
+          "stable_territories_verified": false,
+          "measurement_definition_verified": true,
+          "common_denominator_verified": false,
+          "categories_disjoint_verified": false,
+          "evidence": [
+            "reports/source_alignment.json",
+            "docs/DATA_SOURCES.md"
+          ]
+        },
+        "features": {
+          "mode": "log_ratios_to_total",
+          "level_weight": 0.0,
+          "calibration_end": "2023-12-01",
+          "seasonality": "same_month_cross_section"
+        },
+        "graph": {
+          "k": 15,
+          "symmetry": "union",
+          "bandwidth": "median_knn_distance"
+        },
+        "clustering": {
+          "methods": [
+            "kmeans",
+            "ward",
+            "leiden_static"
+          ],
+          "n_clusters": 8,
+          "resolution": 1.0,
+          "temporal_coupling_relative": 0.1,
+          "leiden_iterations": 4
+        },
+        "validation": {
+          "development_end": "2023-12-01",
+          "confirmation_start": "2024-01-01",
+          "confirmation_end": "2024-12-01",
+          "mq_definition": null,
+          "strict_network_undefined": true
+        },
+        "run_periods": [
+          "2023-01-01",
+          "2023-06-01"
+        ]
+      },
+      "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+      "scaler": {
+        "level_center": 10.056787870678566,
+        "level_iqr": 0.4561850995415071,
+        "ratio_center": [
+          -2.9956744346122948,
+          -2.179543987949999,
+          -3.661429048766565,
+          -0.7820032486889154,
+          -2.8273688977704112
+        ],
+        "ratio_iqr": [
+          0.27186403557919503,
+          0.4493995136747726,
+          1.0650995060325594,
+          0.20212500174021586,
+          0.3371095191761597
+        ],
+        "mode": "log_ratios_to_total",
+        "calibration_end": "2023-12-01"
+      },
+      "git_commit": "bc832b793432494ccafcab8642e38152dcc808a8",
+      "source_hashes": {
+        "canonical.py": "469bdf6123bcf22d4dd552ab05aab5fee1fee42316087558c1547fa6c26bae52",
+        "cli.py": "e023b56d5961c5d14b8fb40d5835b296634b32027869a9e161e5a8fbc24a6fac",
+        "data.py": "aca63526ac1271999f308c799ca6960066f622e300d89c585fccbff0f2bba6cd",
+        "dynamics.py": "9f00960e9c868200235e0aa0dc87d5ab6c3fe3755428bab671f816b073a424e3",
+        "features.py": "e22aad131f816027d8a41aa7cff5fcedc54c0f0489a56d092a95df7170dc139b",
+        "graph.py": "9475d10e4927a8094a1558f262da788a44b8d6c02686637bf443785d1010532f",
+        "io.py": "8aaaf7ad6f7bee56eb4c09969e78269634464349ad366338d267868d37a266a7",
+        "metrics.py": "09b28f8c76391429a0648d4e4a13958680e4c9da47c292702ec3568e2d6421df",
+        "models.py": "d43de5cb8784116f1fc51b29d33412749528b5f8c1459730ed1dad46f9bbdaf0",
+        "resources.py": "e5e7721bf4b139337589688d2edc5d9532bbac005f5db0876f5389402f184200",
+        "validation.py": "f4ef20a9ece71152ea5bdc3c0764e13c709dca5c0a25f3b185ba2c5bfd3ef37c",
+        "__init__.py": "30531b8122c986fb77769336c7e87609dcef634be23844399c540ee500d19a34"
+      },
+      "started_at": "20260923T112147761862Z"
+    },
+    "timings": {
+      "stages": [
+        {
+          "method": "kmeans",
+          "period": "2023-01-01",
+          "stage": "fit",
+          "seconds": 0.9558757000013429
+        },
+        {
+          "method": "ward",
+          "period": "2023-01-01",
+          "stage": "fit",
+          "seconds": 0.07162040000184788
+        },
+        {
+          "method": "leiden_static",
+          "period": "2023-01-01",
+          "stage": "fit",
+          "seconds": 1.128900399999111
+        },
+        {
+          "method": "kmeans",
+          "period": "2023-06-01",
+          "stage": "fit",
+          "seconds": 0.07740220000050613
+        },
+        {
+          "method": "ward",
+          "period": "2023-06-01",
+          "stage": "fit",
+          "seconds": 0.42165119999845047
+        },
+        {
+          "method": "leiden_static",
+          "period": "2023-06-01",
+          "stage": "fit",
+          "seconds": 0.02572429999781889
+        },
+        {
+          "method": "kmeans",
+          "period": "2023-01-01",
+          "stage": "metrics",
+          "seconds": 0.062397199999395525
+        },
+        {
+          "method": "kmeans",
+          "period": "2023-06-01",
+          "stage": "metrics",
+          "seconds": 0.044679799997538794
+        },
+        {
+          "method": "ward",
+          "period": "2023-01-01",
+          "stage": "metrics",
+          "seconds": 0.4525558999994246
+        },
+        {
+          "method": "ward",
+          "period": "2023-06-01",
+          "stage": "metrics",
+          "seconds": 0.04727679999996326
+        },
+        {
+          "method": "leiden_static",
+          "period": "2023-01-01",
+          "stage": "metrics",
+          "seconds": 0.046650800002680626
+        },
+        {
+          "method": "leiden_static",
+          "period": "2023-06-01",
+          "stage": "metrics",
+          "seconds": 0.40963759999795
+        }
+      ],
+      "total_seconds": 6.375982200002909
+    }
+  }
+]

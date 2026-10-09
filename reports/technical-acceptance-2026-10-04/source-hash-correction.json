@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-04",
+  "status": "CORRECTED",
+  "issue": "Official source HTML digest was a transcription typo (65 characters).",
+  "source_url": "https://sber.ru/sberindex/konkurs_sberindex",
+  "incorrect_digest": "65a602862a928546487380766b801c3aab2acdc671cd99cbe2315e3a2ab622c05",
+  "verified_digest": "65a602862a928546487380766b801c3aab2acd671cd99cbe2315e3a2ab622c05",
+  "verification": "SHA-256 independently recomputed from retained exact retrieved HTML bytes; contact independently present in same bytes.",
+  "requirements_sha256_before": "573137aa02700d63ed6a06d68cf7e6ae7bbcf9f8cec0e387b4fb3dfa7df87441",
+  "requirements_sha256_after": "bb1b85dc91c7b0641c18468be166c4456d12cc4d9acf20d16c0a21bcbd8404ba",
+  "manifest_sha256_before": "02d56978d3056bd6a6a36b63a1087b56933715e38f52d2930b1d1f9a009c5807",
+  "manifest_sha256_after": "8c64cab7df7176d5d36958b837dbbde1215033b911ce17e4d3abaca6e4f5c1e9",
+  "scope": "One source metadata string and its containing payload binding changed; code, datasets, labels, numerical results and visual files unchanged. Historical git commit and archive preserve original bytes."
+}

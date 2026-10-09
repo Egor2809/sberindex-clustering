@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "status": "completed_independently_reviewed_national_external_associations_with_scope_limits",
+  "environment": {
+    "python": "3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.22621-SP0",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3"
+  },
+  "limitations": [
+    "Nationwide sourced archive; strict analytic cohorts subset2016 frozenmunicipalities,72/68 regions for wageprobes; not validation ofallRussianmunicipalities",
+    "Retrospectivedescriptiveassociations; noindustrialtyping orcausality",
+    "Randomlabel p-values exploratory reference,not generalconditionalnull",
+    "PrimaryRosstatHTMLTLSchainunverifiedlocally;3poppoint relatedindicator discrepancies reported"
+  ],
+  "files": [
+    {
+      "path": "sbercluster/external_national.py",
+      "sha256": "292b7fffe49b6ad50a3587a2cbb10e7c258788b8898e0a9d34f3288ee29265aa",
+      "bytes": 10409
+    },
+    {
+      "path": "tests/test_external_national.py",
+      "sha256": "8f37e5d3f9ff9c3ab148f22b5de647e3583e336e6ed8bf45f567f9191a924287",
+      "bytes": 12168
+    },
+    {
+      "path": "scripts/check_external_national_sources.py",
+      "sha256": "b8511006f897c8a6509343f5ccf53d4bca242c0dd7c901c3cc608259d4092287",
+      "bytes": 5440
+    },
+    {
+      "path": "scripts/download_external_national.py",
+      "sha256": "76e7bd6d66f9c5261aef7031def880e0acd4724490e8305c503fbf43f5200379",
+      "bytes": 6293
+    },
+    {
+      "path": "scripts/download_external_national_archive.py",
+      "sha256": "87ca7403e8c73efa4a3d53624403e68626650e9d64ca398828a0e4f8d5b63200",
+      "bytes": 3671
+    },
+    {
+      "path": "scripts/prepare_external_national.py",
+      "sha256": "9b813981565acf513dc7c4b0490ea972dd1a77865d54039d5a9c990c96d79dc5",
+      "bytes": 11226
+    },
+    {
+      "path": "scripts/summarize_external_national.py",
+      "sha256": "1dcca4e243b1c0d96cde16ea357ad8bf87182694d52d0becb64c2e0e00b5c80f",
+      "bytes": 19446
+    },
+    {
+      "path": "scripts/validate_external_national.py",
+      "sha256": "4816a08d13941e81360fba2311be68b5fc2026449e56afb88017789a479906dd",
+      "bytes": 16814
+    },
+    {
+      "path": "scripts/validate_external_national_robustness.py",
+      "sha256": "35f5ad56e8d7a4ce8bc30a25a70750e4177f2a7cee4ed570b76f4ee2e26f8ecd",
+      "bytes": 7965
+    },
+    {
+      "path": "reports/external-national-2026-10-03/analysis-spec-addendum.json",
+      "sha256": "1e21e8ab98b77e77922c6cb113ec9a1051826226a4e1984fc9aef3561ca620a0",
+      "bytes": 1007
+    },
+    {
+      "path": "reports/external-national-2026-10-03/analysis-spec.json",
+      "sha256": "a8f03792e51d15574ea39be2670aa698fa8b0698fde3eec2053d405ae931c011",
+      "bytes": 2074
+    },
+    {
+      "path": "reports/external-national-2026-10-03/blocked-predictions.csv",
+      "sha256": "12ccf0291597eaa4f5ee5623b6cdc92d0a5640f3616145a225cdadf77a6353f4",
+      "bytes": 2933477
+    },
+    {
+      "path": "reports/external-national-2026-10-03/blocked-scores.csv",
+      "sha256": "0df886dc7e8aea5ffa7aef8b067cf4160f018c09d21966b9ff566264bfa7a37b",
+      "bytes": 24246
+    },
+    {
+      "path": "reports/external-national-2026-10-03/cohort-2023.csv",
+      "sha256": "dcfcf2ac0af503d696f9492bc8c1bc4e38977cc2bd1b6c12da66463f761d9c62",
+      "bytes": 1276642
+    },
+    {
+      "path": "reports/external-national-2026-10-03/cohort-2024.csv",
+      "sha256": "0c26468eb64f2ed21d16d71faef998f9cdb3a9e69960a7c016737d402b262a07",
+      "bytes": 1186426
+    },
+    {
+      "path": "reports/external-national-2026-10-03/consumer-features.npy",
+      "sha256": "db16fc485169b4a29e9217d6340d36991b2582b323a3c63889f587f428dd9abc",
+      "bytes": 80768
+    },
+    {
+      "path": "reports/external-national-2026-10-03/coverage-by-region-and-cluster.csv",
+      "sha256": "0a46c5831c9d93ffeea4a9f3a70e79d8dcafe22d13f49350a0135f7482059f77",
+      "bytes": 68045
+    },
+    {
+      "path": "reports/external-national-2026-10-03/frozen-labels.json",
+      "sha256": "195e2fdf748e7dae8d3dcafb7515ec70b56896f5ac252e8cd5a355deaa771a70",
+      "bytes": 114366
+    },
+    {
+      "path": "reports/external-national-2026-10-03/join-audit-2023.csv",
+      "sha256": "08ea9369c99b50bb08e89e3995f1b3ccd1601529ea031326d80bd33a27403deb",
+      "bytes": 17639702
+    },
+    {
+      "path": "reports/external-national-2026-10-03/join-audit-2024.csv",
+      "sha256": "3dc716d6b5f6402a91e7e2d81b8ab1deb335b9eb797c75baed1a7e59897e6bbc",
+      "bytes": 14105031
+    },
+    {
+      "path": "reports/external-national-2026-10-03/nonlinear-blocked-scores.csv",
+      "sha256": "9e9613886f34afcd85a87bb5c4b17b476ee5fe177e90f236ac40ec9fe97aad2a",
+      "bytes": 20445
+    },
+    {
+      "path": "reports/external-national-2026-10-03/nonlinear-robustness.json",
+      "sha256": "1e386d713a4f94a377a86a129f7b72bc53cd5f25c69766efa06663459c7ffe98",
+      "bytes": 101402
+    },
+    {
+      "path": "reports/external-national-2026-10-03/primary-source-checks.csv",
+      "sha256": "b515b2ae1fda8dec47b1128f8e00c1e21ee5658de467719e8a0654aaffc1a35e",
+      "bytes": 36172
+    },
+    {
+      "path": "reports/external-national-2026-10-03/primary-source-checks.json",
+      "sha256": "297b603178b4e45eceae756c0be03dc6837ffac2bf855fe7bb6e15d45d3d2a64",
+      "bytes": 75415
+    },
+    {
+      "path": "reports/external-national-2026-10-03/rank-audit.json",
+      "sha256": "66959517334919feac102cbf2c324e77a05bdd442e0cc77858d55f14d62ec425",
+      "bytes": 1433
+    },
+    {
+      "path": "reports/external-national-2026-10-03/README.md",
+      "sha256": "d758b4888dc3fb3edeff05b2c7a283c9dc9aae5c706b9cc9ae61a3c3e8fd4a8e",
+      "bytes": 16784
+    },
+    {
+      "path": "reports/external-national-2026-10-03/results.json",
+      "sha256": "0dd1bfb99cf2dceefbdf2f619fa1d789c2d1aeafc3b95974e456d960a3919ad7",
+      "bytes": 117154
+    },
+    {
+      "path": "reports/external-national-2026-10-03/source-audit.json",
+      "sha256": "a7e9fce8bbe9b429df237e674af795a47e52b0314e94e530970ef968f7d52b2d",
+      "bytes": 6937
+    }
+  ],
+  "rank_audit": "rank-audit.json"
+}

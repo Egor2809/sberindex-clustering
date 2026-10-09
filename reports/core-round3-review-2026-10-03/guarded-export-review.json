@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "no_fit": true,
+  "exact_labels": 12096,
+  "models": 3,
+  "only_model_difference": "identity_mode=source_territory_id",
+  "guarded_payload_hashes": 16,
+  "current_guard_sources_match_export_snapshot": true,
+  "oracle_sha256": "3b5c4137218d5d52ed7fdabf7f6658da006d7b2bba62920829e3c79a6d9de885"
+}

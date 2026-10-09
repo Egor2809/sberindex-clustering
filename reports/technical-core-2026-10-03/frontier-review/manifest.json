@@ -1,0 +1,23 @@
+{
+  "completed_utc": "2026-10-03T14:42:03.511958+00:00",
+  "files_sha256": {
+    "annual2024-independent-review.json": "df04ff6bf565ad8fcbd3879a6038767131debc8f97589b0f87c616fef897ad3e",
+    "environment-freeze.txt": "d4722b522657a2cca7caf86a4029f812466641f87c1d1b779f82892696d79302",
+    "external-degeneracy-independent-review.json": "83e2dfc7fb5af0c36b0b26b5969a1cac08481672ffbfd917dd67c899d285f66b",
+    "external-independent-join-review.json": "8b3754559fa917ae0549508301e6d43f16cee704c1fc63fcd6df99c0056ce2e7",
+    "external-independent-stat-review.json": "66e53619c895840f0b017c82462fd4161895498f6fb1d6951eded659b2a768fe",
+    "final-export-independent-review.json": "45e8352eb0883008200fe3e1cb8f38f6b7153e278df8f5575af34533dd339f95",
+    "forward-independent-review.json": "b71bb1e921f707e31e87d91c0f003ff32f709e9d4117ab198b2ecc974363b5ae",
+    "fresh-full-suite.json": "4f1515251052785c14cd45d551cb53b9b34f0aa888e1b42cdbd8c574ae207ad4",
+    "fresh-raw-replay.json": "858ff99a1d814d35181d51b6aad11f000ad1988ab2895fba41d61efd9a7ea642",
+    "method-independent-screen-review.json": "11387fb9463195306a25b63a1f037063032fc7ae3393a2d4831992b572da6bdd",
+    "method-independent-validation-review.json": "d202f7cce8b0117fcde699fa2feccb17165860f44b6d322db9e64c32d2c7840b",
+    "metric-reference-audit.json": "94e4f1380f3d4872c677465c786e1917781947a7afd6c61817373c8f3c6dcb91",
+    "official-source.json": "b09748c7669cc8f0ea32298c7ac13f61209d0ea447c80503d67aa7c210997219",
+    "README.md": "eb40e91d2fc3bff14df4872e5ed6faf153bc11800b42a90853c36ce4fdeade92",
+    "requirements.json": "89dce28c0d79097f6966378264d9314e7f93cc6e359e69bac49d69c4f9f2e2ff",
+    "scientific-package-independent-review.json": "83ba270b0eead713a6e677cc9ef95b2b15d960405202048fe64fd893ca01207c",
+    "submission-access.json": "c5dfb6652c8d159d96fc3a55e149718328a2b048b988ea65ca4b49a38af33291",
+    "tests.log": "3e7b28eff6de31bb3c0945364aafee6deaa96eedb59ccee5d2bfd3f8fdce7964"
+  }
+}

@@ -1,0 +1,1415 @@
+[
+  {
+    "id": "kmeans_k2",
+    "n": 2016,
+    "k": 2,
+    "min_cluster_size": 604,
+    "SW": 0.34466857979215787,
+    "MQ": null,
+    "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+    "CH": 1042.7938914436702,
+    "CH_per_n": 0.5172588747240427,
+    "CH_status": "ok",
+    "CH_is_infinite": false,
+    "S_Dbw": 1.343800706217523,
+    "S_Dbw_status": "ok",
+    "S_Dbw_diagnostics": {
+      "convention": "S_Dbw-HV01-var/mean-centroid",
+      "radius": 0.27679385035676063,
+      "centroid_densities": [
+        158,
+        124
+      ],
+      "zero_density_clusters": [],
+      "undefined_pairs": 0
+    },
+    "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+    "S_Dbw_paper": 2.1629393963661196,
+    "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+    "AVI": 0.9429769205426377,
+    "AVU": 1.0,
+    "AVI_undefined_clusters": 0,
+    "AVU_undefined_ordered_pairs": 0,
+    "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+    "TurboMQ": 1.8859538410852754,
+    "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+    "NewmanQ": 0.37022991239304953,
+    "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+    "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity",
+    "ARI_frozen_k4": 0.3457426377779288,
+    "fit": {
+      "reused": true
+    },
+    "road_network": {
+      "AVI": 0.7155248442648668,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "on_real_road": {
+      "objective": 0.7140568335218035,
+      "attribute_SSE_over_TSS": 0.6588602540843284,
+      "graph_cut_fraction": 0.22078631774990048,
+      "SSE": 660.3516431958263,
+      "TSS": 1002.2635894368385,
+      "undirected_edge_mass": 9986.112751337256
+    }
+  },
+  {
+    "id": "joint_road_k2",
+    "n": 2016,
+    "k": 2,
+    "min_cluster_size": 495,
+    "SW": 0.35439681244713134,
+    "MQ": null,
+    "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+    "CH": 1003.2558294826583,
+    "CH_per_n": 0.4976467408148107,
+    "CH_status": "ok",
+    "CH_is_infinite": false,
+    "S_Dbw": 1.260520758501715,
+    "S_Dbw_status": "ok",
+    "S_Dbw_diagnostics": {
+      "convention": "S_Dbw-HV01-var/mean-centroid",
+      "radius": 0.27269068842687444,
+      "centroid_densities": [
+        158,
+        124
+      ],
+      "zero_density_clusters": [],
+      "undefined_pairs": 0
+    },
+    "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+    "S_Dbw_paper": 2.0343444131685873,
+    "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+    "AVI": 0.9408108699984853,
+    "AVU": 1.0,
+    "AVI_undefined_clusters": 0,
+    "AVU_undefined_ordered_pairs": 0,
+    "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+    "TurboMQ": 1.8816217399969706,
+    "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+    "NewmanQ": 0.32475291026699926,
+    "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+    "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity",
+    "ARI_frozen_k4": 0.34090920467434793,
+    "fit": {
+      "reused": true
+    },
+    "road_network": {
+      "AVI": 0.7780707068737571,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "on_real_road": {
+      "objective": 0.704488894030339,
+      "attribute_SSE_over_TSS": 0.6674939460951582,
+      "graph_cut_fraction": 0.14797979174072304,
+      "SSE": 669.0048783406929,
+      "TSS": 1002.2635894368385,
+      "undirected_edge_mass": 9986.112751337256
+    }
+  },
+  {
+    "id": "dmon_k2_seed1729",
+    "n": 2016,
+    "k": 2,
+    "min_cluster_size": 830,
+    "SW": 0.19228642227786463,
+    "MQ": null,
+    "MQ_status": "definition_pending_organizer; see named TurboMQ and NewmanQ candidates",
+    "CH": 528.3805400973148,
+    "CH_per_n": 0.2620935218736681,
+    "CH_status": "ok",
+    "CH_is_infinite": false,
+    "S_Dbw": 1.9828844755098682,
+    "S_Dbw_status": "ok",
+    "S_Dbw_diagnostics": {
+      "convention": "S_Dbw-HV01-var/mean-centroid",
+      "radius": 0.30745415293068074,
+      "centroid_densities": [
+        145,
+        65
+      ],
+      "zero_density_clusters": [],
+      "undefined_pairs": 0
+    },
+    "S_Dbw_paper_convention": "Shalileh2025-Eq14-literal-outside-radius; diagnostic-only; differs from HV01 density convention; not for ranking",
+    "S_Dbw_paper": 2.6151942572184375,
+    "S_Dbw_paper_status": "computed_diagnostic_only_not_for_ranking",
+    "AVI": 0.7553957537073104,
+    "AVU": 1.0,
+    "AVI_undefined_clusters": 0,
+    "AVU_undefined_ordered_pairs": 0,
+    "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+    "TurboMQ": 1.5107915074146208,
+    "TurboMQ_status": "ok_named_candidate_not_official_MQ",
+    "NewmanQ": 0.24707246265649307,
+    "NewmanQ_status": "ok_named_candidate_not_official_MQ",
+    "network_quality_convention": "binary; symmetric adjacency; TurboMQ sum of cluster factors; NewmanQ configuration-model modularity",
+    "ARI_frozen_k4": 0.2757442756934549,
+    "fit": {
+      "method": "dmon_paper_eq5_sparse_gcn",
+      "reference_revision": "5b09c22d73a9d35eb6c5d2a99b95677a45053466",
+      "seed": 1729,
+      "epochs": 200,
+      "hidden_dim": 64,
+      "learning_rate": 0.001,
+      "collapse_weight": 1.0,
+      "dropout_rate": 0.0,
+      "added_self_loops": false,
+      "selection": "minimum_training_objective_including_initialization",
+      "stop_reason": "fixed_epoch_budget",
+      "best_epoch": 200,
+      "initial_objective": -0.0009951659012585878,
+      "final_objective": -0.35621389746665955,
+      "best_objective": -0.35621389746665955,
+      "best_negative_soft_modularity": -0.36601516604423523,
+      "best_collapse_loss": 0.009801268577575684,
+      "n_nodes": 2016,
+      "n_features": 5,
+      "n_clusters": 2,
+      "n_edges": 18538,
+      "graph_volume": 19972.2265625,
+      "isolated_nodes": 10,
+      "hard_cluster_sizes": [
+        1186,
+        830
+      ],
+      "occupied_clusters": 2,
+      "soft_cluster_sizes": [
+        1149.474737717954,
+        866.5252655301292
+      ],
+      "torch_version": "2.8.0+cpu",
+      "dtype": "float32",
+      "device": "cpu",
+      "trace": [
+        {
+          "epoch": 0,
+          "objective": -0.0009951659012585878,
+          "negative_soft_modularity": -0.0011234350968152285,
+          "collapse_loss": 0.00012826919555664062
+        },
+        {
+          "epoch": 1,
+          "objective": -0.0014280298491939902,
+          "negative_soft_modularity": -0.001471183612011373,
+          "collapse_loss": 4.315376281738281e-05
+        },
+        {
+          "epoch": 2,
+          "objective": -0.0019023019121959805,
+          "negative_soft_modularity": -0.0019071894930675626,
+          "collapse_loss": 4.887580871582031e-06
+        },
+        {
+          "epoch": 3,
+          "objective": -0.0024439729750156403,
+          "negative_soft_modularity": -0.0024450458586215973,
+          "collapse_loss": 1.0728836059570312e-06
+        },
+        {
+          "epoch": 4,
+          "objective": -0.0030794821213930845,
+          "negative_soft_modularity": -0.0030875883530825377,
+          "collapse_loss": 8.106231689453125e-06
+        },
+        {
+          "epoch": 5,
+          "objective": -0.0038299986626952887,
+          "negative_soft_modularity": -0.00384239642880857,
+          "collapse_loss": 1.239776611328125e-05
+        },
+        {
+          "epoch": 6,
+          "objective": -0.004698529839515686,
+          "negative_soft_modularity": -0.004709616303443909,
+          "collapse_loss": 1.1086463928222656e-05
+        },
+        {
+          "epoch": 7,
+          "objective": -0.005687630269676447,
+          "negative_soft_modularity": -0.00569418678060174,
+          "collapse_loss": 6.556510925292969e-06
+        },
+        {
+          "epoch": 8,
+          "objective": -0.0068000247702002525,
+          "negative_soft_modularity": -0.006802170537412167,
+          "collapse_loss": 2.1457672119140625e-06
+        },
+        {
+          "epoch": 9,
+          "objective": -0.008033872582018375,
+          "negative_soft_modularity": -0.0080338129773736,
+          "collapse_loss": -5.960464477539063e-08
+        },
+        {
+          "epoch": 10,
+          "objective": -0.009394658729434013,
+          "negative_soft_modularity": -0.009396446868777275,
+          "collapse_loss": 1.7881393432617188e-06
+        },
+        {
+          "epoch": 11,
+          "objective": -0.0108842384070158,
+          "negative_soft_modularity": -0.010892225429415703,
+          "collapse_loss": 7.987022399902344e-06
+        },
+        {
+          "epoch": 12,
+          "objective": -0.012503467500209808,
+          "negative_soft_modularity": -0.012521587312221527,
+          "collapse_loss": 1.811981201171875e-05
+        },
+        {
+          "epoch": 13,
+          "objective": -0.014258799143135548,
+          "negative_soft_modularity": -0.014289912767708302,
+          "collapse_loss": 3.1113624572753906e-05
+        },
+        {
+          "epoch": 14,
+          "objective": -0.016151951625943184,
+          "negative_soft_modularity": -0.016198324039578438,
+          "collapse_loss": 4.6372413635253906e-05
+        },
+        {
+          "epoch": 15,
+          "objective": -0.018184613436460495,
+          "negative_soft_modularity": -0.018247555941343307,
+          "collapse_loss": 6.29425048828125e-05
+        },
+        {
+          "epoch": 16,
+          "objective": -0.020360643044114113,
+          "negative_soft_modularity": -0.02044122852385044,
+          "collapse_loss": 8.058547973632812e-05
+        },
+        {
+          "epoch": 17,
+          "objective": -0.022676760330796242,
+          "negative_soft_modularity": -0.022776061668992043,
+          "collapse_loss": 9.930133819580078e-05
+        },
+        {
+          "epoch": 18,
+          "objective": -0.025138212367892265,
+          "negative_soft_modularity": -0.0252577792853117,
+          "collapse_loss": 0.0001195669174194336
+        },
+        {
+          "epoch": 19,
+          "objective": -0.027740638703107834,
+          "negative_soft_modularity": -0.027882616966962814,
+          "collapse_loss": 0.00014197826385498047
+        },
+        {
+          "epoch": 20,
+          "objective": -0.030486227944493294,
+          "negative_soft_modularity": -0.03065335936844349,
+          "collapse_loss": 0.0001671314239501953
+        },
+        {
+          "epoch": 21,
+          "objective": -0.03337215259671211,
+          "negative_soft_modularity": -0.03356849029660225,
+          "collapse_loss": 0.00019633769989013672
+        },
+        {
+          "epoch": 22,
+          "objective": -0.0363936573266983,
+          "negative_soft_modularity": -0.03662361204624176,
+          "collapse_loss": 0.00022995471954345703
+        },
+        {
+          "epoch": 23,
+          "objective": -0.039553314447402954,
+          "negative_soft_modularity": -0.03982248902320862,
+          "collapse_loss": 0.00026917457580566406
+        },
+        {
+          "epoch": 24,
+          "objective": -0.0428435243666172,
+          "negative_soft_modularity": -0.04315871372818947,
+          "collapse_loss": 0.0003151893615722656
+        },
+        {
+          "epoch": 25,
+          "objective": -0.04626097157597542,
+          "negative_soft_modularity": -0.04663028195500374,
+          "collapse_loss": 0.0003693103790283203
+        },
+        {
+          "epoch": 26,
+          "objective": -0.04980417713522911,
+          "negative_soft_modularity": -0.05023714527487755,
+          "collapse_loss": 0.0004329681396484375
+        },
+        {
+          "epoch": 27,
+          "objective": -0.053464509546756744,
+          "negative_soft_modularity": -0.05397246032953262,
+          "collapse_loss": 0.0005079507827758789
+        },
+        {
+          "epoch": 28,
+          "objective": -0.057238005101680756,
+          "negative_soft_modularity": -0.05783417075872421,
+          "collapse_loss": 0.000596165657043457
+        },
+        {
+          "epoch": 29,
+          "objective": -0.06111711636185646,
+          "negative_soft_modularity": -0.0618169941008091,
+          "collapse_loss": 0.0006998777389526367
+        },
+        {
+          "epoch": 30,
+          "objective": -0.06509634852409363,
+          "negative_soft_modularity": -0.06591746211051941,
+          "collapse_loss": 0.0008211135864257812
+        },
+        {
+          "epoch": 31,
+          "objective": -0.06916607916355133,
+          "negative_soft_modularity": -0.07012893259525299,
+          "collapse_loss": 0.0009628534317016602
+        },
+        {
+          "epoch": 32,
+          "objective": -0.07332159578800201,
+          "negative_soft_modularity": -0.0744486004114151,
+          "collapse_loss": 0.001127004623413086
+        },
+        {
+          "epoch": 33,
+          "objective": -0.07755180448293686,
+          "negative_soft_modularity": -0.07886811345815659,
+          "collapse_loss": 0.0013163089752197266
+        },
+        {
+          "epoch": 34,
+          "objective": -0.08184678852558136,
+          "negative_soft_modularity": -0.08337970077991486,
+          "collapse_loss": 0.001532912254333496
+        },
+        {
+          "epoch": 35,
+          "objective": -0.08620140701532364,
+          "negative_soft_modularity": -0.0879809632897377,
+          "collapse_loss": 0.0017795562744140625
+        },
+        {
+          "epoch": 36,
+          "objective": -0.09060303866863251,
+          "negative_soft_modularity": -0.09266094863414764,
+          "collapse_loss": 0.0020579099655151367
+        },
+        {
+          "epoch": 37,
+          "objective": -0.09504064917564392,
+          "negative_soft_modularity": -0.0974101722240448,
+          "collapse_loss": 0.002369523048400879
+        },
+        {
+          "epoch": 38,
+          "objective": -0.0995059385895729,
+          "negative_soft_modularity": -0.10222188383340836,
+          "collapse_loss": 0.0027159452438354492
+        },
+        {
+          "epoch": 39,
+          "objective": -0.1039871796965599,
+          "negative_soft_modularity": -0.10708459466695786,
+          "collapse_loss": 0.0030974149703979492
+        },
+        {
+          "epoch": 40,
+          "objective": -0.10847347974777222,
+          "negative_soft_modularity": -0.1119878888130188,
+          "collapse_loss": 0.003514409065246582
+        },
+        {
+          "epoch": 41,
+          "objective": -0.11295672506093979,
+          "negative_soft_modularity": -0.11692281812429428,
+          "collapse_loss": 0.003966093063354492
+        },
+        {
+          "epoch": 42,
+          "objective": -0.1174265667796135,
+          "negative_soft_modularity": -0.12187891453504562,
+          "collapse_loss": 0.004452347755432129
+        },
+        {
+          "epoch": 43,
+          "objective": -0.12187239527702332,
+          "negative_soft_modularity": -0.12684425711631775,
+          "collapse_loss": 0.004971861839294434
+        },
+        {
+          "epoch": 44,
+          "objective": -0.12628762423992157,
+          "negative_soft_modularity": -0.1318102329969406,
+          "collapse_loss": 0.005522608757019043
+        },
+        {
+          "epoch": 45,
+          "objective": -0.1306607723236084,
+          "negative_soft_modularity": -0.13676345348358154,
+          "collapse_loss": 0.0061026811599731445
+        },
+        {
+          "epoch": 46,
+          "objective": -0.1349867284297943,
+          "negative_soft_modularity": -0.14169642329216003,
+          "collapse_loss": 0.006709694862365723
+        },
+        {
+          "epoch": 47,
+          "objective": -0.1392531841993332,
+          "negative_soft_modularity": -0.1465938538312912,
+          "collapse_loss": 0.007340669631958008
+        },
+        {
+          "epoch": 48,
+          "objective": -0.14345785975456238,
+          "negative_soft_modularity": -0.15145060420036316,
+          "collapse_loss": 0.007992744445800781
+        },
+        {
+          "epoch": 49,
+          "objective": -0.14759206771850586,
+          "negative_soft_modularity": -0.15625536441802979,
+          "collapse_loss": 0.008663296699523926
+        },
+        {
+          "epoch": 50,
+          "objective": -0.15165090560913086,
+          "negative_soft_modularity": -0.16100072860717773,
+          "collapse_loss": 0.009349822998046875
+        },
+        {
+          "epoch": 51,
+          "objective": -0.15562835335731506,
+          "negative_soft_modularity": -0.16567817330360413,
+          "collapse_loss": 0.010049819946289062
+        },
+        {
+          "epoch": 52,
+          "objective": -0.15952160954475403,
+          "negative_soft_modularity": -0.1702825129032135,
+          "collapse_loss": 0.010760903358459473
+        },
+        {
+          "epoch": 53,
+          "objective": -0.163326233625412,
+          "negative_soft_modularity": -0.17480763792991638,
+          "collapse_loss": 0.011481404304504395
+        },
+        {
+          "epoch": 54,
+          "objective": -0.16703802347183228,
+          "negative_soft_modularity": -0.1792469620704651,
+          "collapse_loss": 0.012208938598632812
+        },
+        {
+          "epoch": 55,
+          "objective": -0.1706571727991104,
+          "negative_soft_modularity": -0.18359924852848053,
+          "collapse_loss": 0.012942075729370117
+        },
+        {
+          "epoch": 56,
+          "objective": -0.17418107390403748,
+          "negative_soft_modularity": -0.18786033987998962,
+          "collapse_loss": 0.013679265975952148
+        },
+        {
+          "epoch": 57,
+          "objective": -0.17760708928108215,
+          "negative_soft_modularity": -0.192026287317276,
+          "collapse_loss": 0.014419198036193848
+        },
+        {
+          "epoch": 58,
+          "objective": -0.18093439936637878,
+          "negative_soft_modularity": -0.19609448313713074,
+          "collapse_loss": 0.015160083770751953
+        },
+        {
+          "epoch": 59,
+          "objective": -0.18416047096252441,
+          "negative_soft_modularity": -0.20006132125854492,
+          "collapse_loss": 0.015900850296020508
+        },
+        {
+          "epoch": 60,
+          "objective": -0.18728792667388916,
+          "negative_soft_modularity": -0.20392704010009766,
+          "collapse_loss": 0.016639113426208496
+        },
+        {
+          "epoch": 61,
+          "objective": -0.19031521677970886,
+          "negative_soft_modularity": -0.20768782496452332,
+          "collapse_loss": 0.017372608184814453
+        },
+        {
+          "epoch": 62,
+          "objective": -0.19324320554733276,
+          "negative_soft_modularity": -0.21134251356124878,
+          "collapse_loss": 0.018099308013916016
+        },
+        {
+          "epoch": 63,
+          "objective": -0.1960734724998474,
+          "negative_soft_modularity": -0.21489030122756958,
+          "collapse_loss": 0.018816828727722168
+        },
+        {
+          "epoch": 64,
+          "objective": -0.19880755245685577,
+          "negative_soft_modularity": -0.21833010017871857,
+          "collapse_loss": 0.019522547721862793
+        },
+        {
+          "epoch": 65,
+          "objective": -0.20144881308078766,
+          "negative_soft_modularity": -0.22166265547275543,
+          "collapse_loss": 0.020213842391967773
+        },
+        {
+          "epoch": 66,
+          "objective": -0.20399707555770874,
+          "negative_soft_modularity": -0.22488588094711304,
+          "collapse_loss": 0.020888805389404297
+        },
+        {
+          "epoch": 67,
+          "objective": -0.2064552754163742,
+          "negative_soft_modularity": -0.228000208735466,
+          "collapse_loss": 0.021544933319091797
+        },
+        {
+          "epoch": 68,
+          "objective": -0.20882560312747955,
+          "negative_soft_modularity": -0.23100663721561432,
+          "collapse_loss": 0.022181034088134766
+        },
+        {
+          "epoch": 69,
+          "objective": -0.21111233532428741,
+          "negative_soft_modularity": -0.2339077740907669,
+          "collapse_loss": 0.022795438766479492
+        },
+        {
+          "epoch": 70,
+          "objective": -0.21331629157066345,
+          "negative_soft_modularity": -0.23670276999473572,
+          "collapse_loss": 0.023386478424072266
+        },
+        {
+          "epoch": 71,
+          "objective": -0.21544043719768524,
+          "negative_soft_modularity": -0.23939327895641327,
+          "collapse_loss": 0.023952841758728027
+        },
+        {
+          "epoch": 72,
+          "objective": -0.21748867630958557,
+          "negative_soft_modularity": -0.24198153614997864,
+          "collapse_loss": 0.024492859840393066
+        },
+        {
+          "epoch": 73,
+          "objective": -0.21946369111537933,
+          "negative_soft_modularity": -0.24447010457515717,
+          "collapse_loss": 0.025006413459777832
+        },
+        {
+          "epoch": 74,
+          "objective": -0.22136856615543365,
+          "negative_soft_modularity": -0.24686111509799957,
+          "collapse_loss": 0.025492548942565918
+        },
+        {
+          "epoch": 75,
+          "objective": -0.2232065200805664,
+          "negative_soft_modularity": -0.24915766716003418,
+          "collapse_loss": 0.025951147079467773
+        },
+        {
+          "epoch": 76,
+          "objective": -0.2249773144721985,
+          "negative_soft_modularity": -0.25135964155197144,
+          "collapse_loss": 0.02638232707977295
+        },
+        {
+          "epoch": 77,
+          "objective": -0.22668787837028503,
+          "negative_soft_modularity": -0.2534734904766083,
+          "collapse_loss": 0.026785612106323242
+        },
+        {
+          "epoch": 78,
+          "objective": -0.22833973169326782,
+          "negative_soft_modularity": -0.25550132989883423,
+          "collapse_loss": 0.027161598205566406
+        },
+        {
+          "epoch": 79,
+          "objective": -0.2299349009990692,
+          "negative_soft_modularity": -0.25744637846946716,
+          "collapse_loss": 0.02751147747039795
+        },
+        {
+          "epoch": 80,
+          "objective": -0.2314772605895996,
+          "negative_soft_modularity": -0.2593127489089966,
+          "collapse_loss": 0.027835488319396973
+        },
+        {
+          "epoch": 81,
+          "objective": -0.23296654224395752,
+          "negative_soft_modularity": -0.26110076904296875,
+          "collapse_loss": 0.02813422679901123
+        },
+        {
+          "epoch": 82,
+          "objective": -0.2344096302986145,
+          "negative_soft_modularity": -0.2628169655799866,
+          "collapse_loss": 0.02840733528137207
+        },
+        {
+          "epoch": 83,
+          "objective": -0.23580655455589294,
+          "negative_soft_modularity": -0.26446279883384705,
+          "collapse_loss": 0.0286562442779541
+        },
+        {
+          "epoch": 84,
+          "objective": -0.23716044425964355,
+          "negative_soft_modularity": -0.2660421133041382,
+          "collapse_loss": 0.02888166904449463
+        },
+        {
+          "epoch": 85,
+          "objective": -0.23847365379333496,
+          "negative_soft_modularity": -0.26755857467651367,
+          "collapse_loss": 0.02908492088317871
+        },
+        {
+          "epoch": 86,
+          "objective": -0.2397463619709015,
+          "negative_soft_modularity": -0.26901355385780334,
+          "collapse_loss": 0.029267191886901855
+        },
+        {
+          "epoch": 87,
+          "objective": -0.2409837543964386,
+          "negative_soft_modularity": -0.2704130709171295,
+          "collapse_loss": 0.029429316520690918
+        },
+        {
+          "epoch": 88,
+          "objective": -0.24218511581420898,
+          "negative_soft_modularity": -0.2717571258544922,
+          "collapse_loss": 0.029572010040283203
+        },
+        {
+          "epoch": 89,
+          "objective": -0.24335536360740662,
+          "negative_soft_modularity": -0.27305135130882263,
+          "collapse_loss": 0.029695987701416016
+        },
+        {
+          "epoch": 90,
+          "objective": -0.24449312686920166,
+          "negative_soft_modularity": -0.2742955684661865,
+          "collapse_loss": 0.029802441596984863
+        },
+        {
+          "epoch": 91,
+          "objective": -0.24560341238975525,
+          "negative_soft_modularity": -0.2754952609539032,
+          "collapse_loss": 0.02989184856414795
+        },
+        {
+          "epoch": 92,
+          "objective": -0.24668735265731812,
+          "negative_soft_modularity": -0.2766520380973816,
+          "collapse_loss": 0.029964685440063477
+        },
+        {
+          "epoch": 93,
+          "objective": -0.24774429202079773,
+          "negative_soft_modularity": -0.2777656018733978,
+          "collapse_loss": 0.030021309852600098
+        },
+        {
+          "epoch": 94,
+          "objective": -0.24877828359603882,
+          "negative_soft_modularity": -0.27884072065353394,
+          "collapse_loss": 0.030062437057495117
+        },
+        {
+          "epoch": 95,
+          "objective": -0.2497902810573578,
+          "negative_soft_modularity": -0.279878705739975,
+          "collapse_loss": 0.030088424682617188
+        },
+        {
+          "epoch": 96,
+          "objective": -0.25078311562538147,
+          "negative_soft_modularity": -0.2808820307254791,
+          "collapse_loss": 0.030098915100097656
+        },
+        {
+          "epoch": 97,
+          "objective": -0.251756876707077,
+          "negative_soft_modularity": -0.28185078501701355,
+          "collapse_loss": 0.030093908309936523
+        },
+        {
+          "epoch": 98,
+          "objective": -0.25271233916282654,
+          "negative_soft_modularity": -0.282786101102829,
+          "collapse_loss": 0.03007376194000244
+        },
+        {
+          "epoch": 99,
+          "objective": -0.2536541819572449,
+          "negative_soft_modularity": -0.28369277715682983,
+          "collapse_loss": 0.03003859519958496
+        },
+        {
+          "epoch": 100,
+          "objective": -0.2545810639858246,
+          "negative_soft_modularity": -0.28456923365592957,
+          "collapse_loss": 0.02998816967010498
+        },
+        {
+          "epoch": 101,
+          "objective": -0.2554951310157776,
+          "negative_soft_modularity": -0.2854180932044983,
+          "collapse_loss": 0.029922962188720703
+        },
+        {
+          "epoch": 102,
+          "objective": -0.25639820098876953,
+          "negative_soft_modularity": -0.2862417697906494,
+          "collapse_loss": 0.029843568801879883
+        },
+        {
+          "epoch": 103,
+          "objective": -0.2572920024394989,
+          "negative_soft_modularity": -0.28704211115837097,
+          "collapse_loss": 0.02975010871887207
+        },
+        {
+          "epoch": 104,
+          "objective": -0.25817736983299255,
+          "negative_soft_modularity": -0.2878201901912689,
+          "collapse_loss": 0.029642820358276367
+        },
+        {
+          "epoch": 105,
+          "objective": -0.2590557634830475,
+          "negative_soft_modularity": -0.2885773479938507,
+          "collapse_loss": 0.029521584510803223
+        },
+        {
+          "epoch": 106,
+          "objective": -0.2599279284477234,
+          "negative_soft_modularity": -0.2893144488334656,
+          "collapse_loss": 0.029386520385742188
+        },
+        {
+          "epoch": 107,
+          "objective": -0.260796457529068,
+          "negative_soft_modularity": -0.2900337278842926,
+          "collapse_loss": 0.02923727035522461
+        },
+        {
+          "epoch": 108,
+          "objective": -0.2616630494594574,
+          "negative_soft_modularity": -0.29073747992515564,
+          "collapse_loss": 0.029074430465698242
+        },
+        {
+          "epoch": 109,
+          "objective": -0.26252683997154236,
+          "negative_soft_modularity": -0.291424959897995,
+          "collapse_loss": 0.028898119926452637
+        },
+        {
+          "epoch": 110,
+          "objective": -0.26339080929756165,
+          "negative_soft_modularity": -0.29209914803504944,
+          "collapse_loss": 0.028708338737487793
+        },
+        {
+          "epoch": 111,
+          "objective": -0.2642557621002197,
+          "negative_soft_modularity": -0.29276132583618164,
+          "collapse_loss": 0.028505563735961914
+        },
+        {
+          "epoch": 112,
+          "objective": -0.26512184739112854,
+          "negative_soft_modularity": -0.2934127151966095,
+          "collapse_loss": 0.028290867805480957
+        },
+        {
+          "epoch": 113,
+          "objective": -0.26599234342575073,
+          "negative_soft_modularity": -0.2940576672554016,
+          "collapse_loss": 0.02806532382965088
+        },
+        {
+          "epoch": 114,
+          "objective": -0.2668677866458893,
+          "negative_soft_modularity": -0.29469767212867737,
+          "collapse_loss": 0.027829885482788086
+        },
+        {
+          "epoch": 115,
+          "objective": -0.26774752140045166,
+          "negative_soft_modularity": -0.29533278942108154,
+          "collapse_loss": 0.027585268020629883
+        },
+        {
+          "epoch": 116,
+          "objective": -0.2686338424682617,
+          "negative_soft_modularity": -0.2959657907485962,
+          "collapse_loss": 0.027331948280334473
+        },
+        {
+          "epoch": 117,
+          "objective": -0.26952818036079407,
+          "negative_soft_modularity": -0.296598345041275,
+          "collapse_loss": 0.027070164680480957
+        },
+        {
+          "epoch": 118,
+          "objective": -0.2704330384731293,
+          "negative_soft_modularity": -0.29723355174064636,
+          "collapse_loss": 0.02680051326751709
+        },
+        {
+          "epoch": 119,
+          "objective": -0.2713467478752136,
+          "negative_soft_modularity": -0.2978697419166565,
+          "collapse_loss": 0.02652299404144287
+        },
+        {
+          "epoch": 120,
+          "objective": -0.27227020263671875,
+          "negative_soft_modularity": -0.29850876331329346,
+          "collapse_loss": 0.026238560676574707
+        },
+        {
+          "epoch": 121,
+          "objective": -0.2732048034667969,
+          "negative_soft_modularity": -0.299152135848999,
+          "collapse_loss": 0.02594733238220215
+        },
+        {
+          "epoch": 122,
+          "objective": -0.2741517126560211,
+          "negative_soft_modularity": -0.2998017370700836,
+          "collapse_loss": 0.0256500244140625
+        },
+        {
+          "epoch": 123,
+          "objective": -0.2751113474369049,
+          "negative_soft_modularity": -0.3004589378833771,
+          "collapse_loss": 0.025347590446472168
+        },
+        {
+          "epoch": 124,
+          "objective": -0.27608388662338257,
+          "negative_soft_modularity": -0.3011241555213928,
+          "collapse_loss": 0.025040268898010254
+        },
+        {
+          "epoch": 125,
+          "objective": -0.2770717740058899,
+          "negative_soft_modularity": -0.3018001914024353,
+          "collapse_loss": 0.02472841739654541
+        },
+        {
+          "epoch": 126,
+          "objective": -0.27807214856147766,
+          "negative_soft_modularity": -0.3024848997592926,
+          "collapse_loss": 0.02441275119781494
+        },
+        {
+          "epoch": 127,
+          "objective": -0.2790863811969757,
+          "negative_soft_modularity": -0.3031807243824005,
+          "collapse_loss": 0.024094343185424805
+        },
+        {
+          "epoch": 128,
+          "objective": -0.2801149785518646,
+          "negative_soft_modularity": -0.3038886487483978,
+          "collapse_loss": 0.023773670196533203
+        },
+        {
+          "epoch": 129,
+          "objective": -0.2811582684516907,
+          "negative_soft_modularity": -0.30460888147354126,
+          "collapse_loss": 0.023450613021850586
+        },
+        {
+          "epoch": 130,
+          "objective": -0.2822166979312897,
+          "negative_soft_modularity": -0.30534353852272034,
+          "collapse_loss": 0.023126840591430664
+        },
+        {
+          "epoch": 131,
+          "objective": -0.28328999876976013,
+          "negative_soft_modularity": -0.30609259009361267,
+          "collapse_loss": 0.02280259132385254
+        },
+        {
+          "epoch": 132,
+          "objective": -0.2843779921531677,
+          "negative_soft_modularity": -0.3068569302558899,
+          "collapse_loss": 0.022478938102722168
+        },
+        {
+          "epoch": 133,
+          "objective": -0.285480797290802,
+          "negative_soft_modularity": -0.30763906240463257,
+          "collapse_loss": 0.022158265113830566
+        },
+        {
+          "epoch": 134,
+          "objective": -0.2865971028804779,
+          "negative_soft_modularity": -0.3084375560283661,
+          "collapse_loss": 0.021840453147888184
+        },
+        {
+          "epoch": 135,
+          "objective": -0.2877282500267029,
+          "negative_soft_modularity": -0.3092551827430725,
+          "collapse_loss": 0.02152693271636963
+        },
+        {
+          "epoch": 136,
+          "objective": -0.28886914253234863,
+          "negative_soft_modularity": -0.31008875370025635,
+          "collapse_loss": 0.021219611167907715
+        },
+        {
+          "epoch": 137,
+          "objective": -0.2900257706642151,
+          "negative_soft_modularity": -0.3109453320503235,
+          "collapse_loss": 0.0209195613861084
+        },
+        {
+          "epoch": 138,
+          "objective": -0.2911933958530426,
+          "negative_soft_modularity": -0.3118208944797516,
+          "collapse_loss": 0.020627498626708984
+        },
+        {
+          "epoch": 139,
+          "objective": -0.292370468378067,
+          "negative_soft_modularity": -0.31271472573280334,
+          "collapse_loss": 0.020344257354736328
+        },
+        {
+          "epoch": 140,
+          "objective": -0.2935584783554077,
+          "negative_soft_modularity": -0.3136284351348877,
+          "collapse_loss": 0.02006995677947998
+        },
+        {
+          "epoch": 141,
+          "objective": -0.2947538197040558,
+          "negative_soft_modularity": -0.31455865502357483,
+          "collapse_loss": 0.019804835319519043
+        },
+        {
+          "epoch": 142,
+          "objective": -0.29595819115638733,
+          "negative_soft_modularity": -0.3155064880847931,
+          "collapse_loss": 0.01954829692840576
+        },
+        {
+          "epoch": 143,
+          "objective": -0.29716917872428894,
+          "negative_soft_modularity": -0.3164688050746918,
+          "collapse_loss": 0.019299626350402832
+        },
+        {
+          "epoch": 144,
+          "objective": -0.2983841896057129,
+          "negative_soft_modularity": -0.3174431324005127,
+          "collapse_loss": 0.019058942794799805
+        },
+        {
+          "epoch": 145,
+          "objective": -0.29960498213768005,
+          "negative_soft_modularity": -0.3184297978878021,
+          "collapse_loss": 0.01882481575012207
+        },
+        {
+          "epoch": 146,
+          "objective": -0.30082929134368896,
+          "negative_soft_modularity": -0.31942689418792725,
+          "collapse_loss": 0.01859760284423828
+        },
+        {
+          "epoch": 147,
+          "objective": -0.30205532908439636,
+          "negative_soft_modularity": -0.32043179869651794,
+          "collapse_loss": 0.018376469612121582
+        },
+        {
+          "epoch": 148,
+          "objective": -0.30328255891799927,
+          "negative_soft_modularity": -0.32144349813461304,
+          "collapse_loss": 0.01816093921661377
+        },
+        {
+          "epoch": 149,
+          "objective": -0.3045104742050171,
+          "negative_soft_modularity": -0.32246172428131104,
+          "collapse_loss": 0.017951250076293945
+        },
+        {
+          "epoch": 150,
+          "objective": -0.3057382106781006,
+          "negative_soft_modularity": -0.3234844207763672,
+          "collapse_loss": 0.0177462100982666
+        },
+        {
+          "epoch": 151,
+          "objective": -0.306964248418808,
+          "negative_soft_modularity": -0.32450971007347107,
+          "collapse_loss": 0.017545461654663086
+        },
+        {
+          "epoch": 152,
+          "objective": -0.3081885278224945,
+          "negative_soft_modularity": -0.3255368173122406,
+          "collapse_loss": 0.017348289489746094
+        },
+        {
+          "epoch": 153,
+          "objective": -0.3094084560871124,
+          "negative_soft_modularity": -0.32656243443489075,
+          "collapse_loss": 0.01715397834777832
+        },
+        {
+          "epoch": 154,
+          "objective": -0.310626357793808,
+          "negative_soft_modularity": -0.3275875747203827,
+          "collapse_loss": 0.016961216926574707
+        },
+        {
+          "epoch": 155,
+          "objective": -0.31183871626853943,
+          "negative_soft_modularity": -0.32860812544822693,
+          "collapse_loss": 0.0167694091796875
+        },
+        {
+          "epoch": 156,
+          "objective": -0.3130469024181366,
+          "negative_soft_modularity": -0.32962605357170105,
+          "collapse_loss": 0.016579151153564453
+        },
+        {
+          "epoch": 157,
+          "objective": -0.3142484426498413,
+          "negative_soft_modularity": -0.3306386470794678,
+          "collapse_loss": 0.016390204429626465
+        },
+        {
+          "epoch": 158,
+          "objective": -0.3154423236846924,
+          "negative_soft_modularity": -0.331645131111145,
+          "collapse_loss": 0.016202807426452637
+        },
+        {
+          "epoch": 159,
+          "objective": -0.31663036346435547,
+          "negative_soft_modularity": -0.332647442817688,
+          "collapse_loss": 0.01601707935333252
+        },
+        {
+          "epoch": 160,
+          "objective": -0.3178091049194336,
+          "negative_soft_modularity": -0.3336418867111206,
+          "collapse_loss": 0.01583278179168701
+        },
+        {
+          "epoch": 161,
+          "objective": -0.3189815580844879,
+          "negative_soft_modularity": -0.3346312344074249,
+          "collapse_loss": 0.01564967632293701
+        },
+        {
+          "epoch": 162,
+          "objective": -0.3201434910297394,
+          "negative_soft_modularity": -0.33561137318611145,
+          "collapse_loss": 0.01546788215637207
+        },
+        {
+          "epoch": 163,
+          "objective": -0.32129621505737305,
+          "negative_soft_modularity": -0.3365844488143921,
+          "collapse_loss": 0.015288233757019043
+        },
+        {
+          "epoch": 164,
+          "objective": -0.32244178652763367,
+          "negative_soft_modularity": -0.33755216002464294,
+          "collapse_loss": 0.015110373497009277
+        },
+        {
+          "epoch": 165,
+          "objective": -0.3235745131969452,
+          "negative_soft_modularity": -0.33850952982902527,
+          "collapse_loss": 0.014935016632080078
+        },
+        {
+          "epoch": 166,
+          "objective": -0.32469895482063293,
+          "negative_soft_modularity": -0.3394613564014435,
+          "collapse_loss": 0.014762401580810547
+        },
+        {
+          "epoch": 167,
+          "objective": -0.32581084966659546,
+          "negative_soft_modularity": -0.34040361642837524,
+          "collapse_loss": 0.014592766761779785
+        },
+        {
+          "epoch": 168,
+          "objective": -0.3269137144088745,
+          "negative_soft_modularity": -0.34133923053741455,
+          "collapse_loss": 0.014425516128540039
+        },
+        {
+          "epoch": 169,
+          "objective": -0.3280029892921448,
+          "negative_soft_modularity": -0.34226375818252563,
+          "collapse_loss": 0.01426076889038086
+        },
+        {
+          "epoch": 170,
+          "objective": -0.32908210158348083,
+          "negative_soft_modularity": -0.343180388212204,
+          "collapse_loss": 0.014098286628723145
+        },
+        {
+          "epoch": 171,
+          "objective": -0.33014971017837524,
+          "negative_soft_modularity": -0.3440861105918884,
+          "collapse_loss": 0.013936400413513184
+        },
+        {
+          "epoch": 172,
+          "objective": -0.3312045633792877,
+          "negative_soft_modularity": -0.34497979283332825,
+          "collapse_loss": 0.013775229454040527
+        },
+        {
+          "epoch": 173,
+          "objective": -0.3322484791278839,
+          "negative_soft_modularity": -0.34586289525032043,
+          "collapse_loss": 0.013614416122436523
+        },
+        {
+          "epoch": 174,
+          "objective": -0.33327969908714294,
+          "negative_soft_modularity": -0.34673330187797546,
+          "collapse_loss": 0.01345360279083252
+        },
+        {
+          "epoch": 175,
+          "objective": -0.33430105447769165,
+          "negative_soft_modularity": -0.34759432077407837,
+          "collapse_loss": 0.013293266296386719
+        },
+        {
+          "epoch": 176,
+          "objective": -0.3353090286254883,
+          "negative_soft_modularity": -0.34844231605529785,
+          "collapse_loss": 0.01313328742980957
+        },
+        {
+          "epoch": 177,
+          "objective": -0.33630621433258057,
+          "negative_soft_modularity": -0.34927868843078613,
+          "collapse_loss": 0.012972474098205566
+        },
+        {
+          "epoch": 178,
+          "objective": -0.3372924327850342,
+          "negative_soft_modularity": -0.3501044511795044,
+          "collapse_loss": 0.012812018394470215
+        },
+        {
+          "epoch": 179,
+          "objective": -0.3382665812969208,
+          "negative_soft_modularity": -0.35091862082481384,
+          "collapse_loss": 0.012652039527893066
+        },
+        {
+          "epoch": 180,
+          "objective": -0.33922839164733887,
+          "negative_soft_modularity": -0.3517218828201294,
+          "collapse_loss": 0.012493491172790527
+        },
+        {
+          "epoch": 181,
+          "objective": -0.34017935395240784,
+          "negative_soft_modularity": -0.3525160849094391,
+          "collapse_loss": 0.01233673095703125
+        },
+        {
+          "epoch": 182,
+          "objective": -0.3411201238632202,
+          "negative_soft_modularity": -0.3533027172088623,
+          "collapse_loss": 0.01218259334564209
+        },
+        {
+          "epoch": 183,
+          "objective": -0.342048704624176,
+          "negative_soft_modularity": -0.3540797829627991,
+          "collapse_loss": 0.012031078338623047
+        },
+        {
+          "epoch": 184,
+          "objective": -0.3429664671421051,
+          "negative_soft_modularity": -0.3548491299152374,
+          "collapse_loss": 0.011882662773132324
+        },
+        {
+          "epoch": 185,
+          "objective": -0.3438728451728821,
+          "negative_soft_modularity": -0.35561007261276245,
+          "collapse_loss": 0.011737227439880371
+        },
+        {
+          "epoch": 186,
+          "objective": -0.3447679579257965,
+          "negative_soft_modularity": -0.3563624918460846,
+          "collapse_loss": 0.011594533920288086
+        },
+        {
+          "epoch": 187,
+          "objective": -0.34565356373786926,
+          "negative_soft_modularity": -0.3571080267429352,
+          "collapse_loss": 0.011454463005065918
+        },
+        {
+          "epoch": 188,
+          "objective": -0.34652701020240784,
+          "negative_soft_modularity": -0.35784414410591125,
+          "collapse_loss": 0.011317133903503418
+        },
+        {
+          "epoch": 189,
+          "objective": -0.34739089012145996,
+          "negative_soft_modularity": -0.35857343673706055,
+          "collapse_loss": 0.011182546615600586
+        },
+        {
+          "epoch": 190,
+          "objective": -0.3482449948787689,
+          "negative_soft_modularity": -0.35929498076438904,
+          "collapse_loss": 0.011049985885620117
+        },
+        {
+          "epoch": 191,
+          "objective": -0.34908780455589294,
+          "negative_soft_modularity": -0.36000677943229675,
+          "collapse_loss": 0.010918974876403809
+        },
+        {
+          "epoch": 192,
+          "objective": -0.3499201834201813,
+          "negative_soft_modularity": -0.3607091009616852,
+          "collapse_loss": 0.010788917541503906
+        },
+        {
+          "epoch": 193,
+          "objective": -0.3507434129714966,
+          "negative_soft_modularity": -0.3614029884338379,
+          "collapse_loss": 0.010659575462341309
+        },
+        {
+          "epoch": 194,
+          "objective": -0.3515547215938568,
+          "negative_soft_modularity": -0.3620857894420624,
+          "collapse_loss": 0.010531067848205566
+        },
+        {
+          "epoch": 195,
+          "objective": -0.35235682129859924,
+          "negative_soft_modularity": -0.36276116967201233,
+          "collapse_loss": 0.010404348373413086
+        },
+        {
+          "epoch": 196,
+          "objective": -0.35314807295799255,
+          "negative_soft_modularity": -0.3634274899959564,
+          "collapse_loss": 0.010279417037963867
+        },
+        {
+          "epoch": 197,
+          "objective": -0.3539295494556427,
+          "negative_soft_modularity": -0.3640860617160797,
+          "collapse_loss": 0.010156512260437012
+        },
+        {
+          "epoch": 198,
+          "objective": -0.35470256209373474,
+          "negative_soft_modularity": -0.36473819613456726,
+          "collapse_loss": 0.01003563404083252
+        },
+        {
+          "epoch": 199,
+          "objective": -0.35546228289604187,
+          "negative_soft_modularity": -0.3653794229030609,
+          "collapse_loss": 0.009917140007019043
+        },
+        {
+          "epoch": 200,
+          "objective": -0.35621389746665955,
+          "negative_soft_modularity": -0.36601516604423523,
+          "collapse_loss": 0.009801268577575684
+        }
+      ]
+    },
+    "road_network": {
+      "AVI": 0.8669185403692217,
+      "AVU": 1.0,
+      "AVI_undefined_clusters": 0,
+      "AVU_undefined_ordered_pairs": 0,
+      "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K"
+    },
+    "on_real_road": {
+      "objective": 0.8095306666206968,
+      "attribute_SSE_over_TSS": 0.7921709469672504,
+      "graph_cut_fraction": 0.0694388786137857,
+      "SSE": 793.9640967549759,
+      "TSS": 1002.2635894368385,
+      "undirected_edge_mass": 9986.112751337256
+    }
+  }
+]

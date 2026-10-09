@@ -1,0 +1,194 @@
+[
+  {
+    "year": 2023,
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        644,
+        859,
+        386,
+        127
+      ],
+      "min_cluster_size": 127,
+      "SW": 0.24023677355726694,
+      "CH": 779.8270404177405
+    }
+  },
+  {
+    "year": 2023,
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        465,
+        1142,
+        285,
+        124
+      ],
+      "min_cluster_size": 124,
+      "SW": 0.2603235659165621,
+      "CH": 740.9090687628085
+    }
+  },
+  {
+    "year": 2023,
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        430,
+        1159,
+        304,
+        123
+      ],
+      "min_cluster_size": 123,
+      "SW": 0.2594688137442849,
+      "CH": 740.8684784372731
+    }
+  },
+  {
+    "year": 2023,
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        103,
+        646,
+        387,
+        880
+      ],
+      "min_cluster_size": 103,
+      "SW": 0.2414210682394289,
+      "CH": 775.0488355692252
+    }
+  },
+  {
+    "year": 2023,
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        731,
+        449,
+        741,
+        95
+      ],
+      "min_cluster_size": 95,
+      "SW": 0.23677907571427487,
+      "CH": 757.9428500888996
+    }
+  },
+  {
+    "year": 2023,
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        692,
+        775,
+        97,
+        452
+      ],
+      "min_cluster_size": 97,
+      "SW": 0.22921920910035876,
+      "CH": 733.2751893237014
+    }
+  },
+  {
+    "year": 2024,
+    "id": "historical_kmeans4",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        413,
+        1162,
+        414,
+        27
+      ],
+      "min_cluster_size": 27,
+      "SW": 0.2696761212955069,
+      "CH": 814.2749996304317
+    }
+  },
+  {
+    "year": 2024,
+    "id": "sw_constrained_huber75",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        289,
+        1363,
+        336,
+        28
+      ],
+      "min_cluster_size": 28,
+      "SW": 0.2831636014229919,
+      "CH": 739.69760800521
+    }
+  },
+  {
+    "year": 2024,
+    "id": "sw_constrained_ordinary",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        248,
+        1392,
+        348,
+        28
+      ],
+      "min_cluster_size": 28,
+      "SW": 0.2796125256986809,
+      "CH": 719.3060261540347
+    }
+  },
+  {
+    "year": 2024,
+    "id": "calendar_only",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        27,
+        461,
+        423,
+        1105
+      ],
+      "min_cluster_size": 27,
+      "SW": 0.26826856185785886,
+      "CH": 823.5698038835212
+    }
+  },
+  {
+    "year": 2024,
+    "id": "calendar_reliability_half",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        1027,
+        491,
+        476,
+        22
+      ],
+      "min_cluster_size": 22,
+      "SW": 0.2545907369619368,
+      "CH": 780.6090567407347
+    }
+  },
+  {
+    "year": 2024,
+    "id": "calendar_reliability_full",
+    "common_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        951,
+        517,
+        23,
+        525
+      ],
+      "min_cluster_size": 23,
+      "SW": 0.23443943830220895,
+      "CH": 733.1694140611859
+    }
+  }
+]

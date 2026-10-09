@@ -1,0 +1,32 @@
+{
+  "screen": {
+    "original_manifest_sha256": "9cc1209055e9e1aaee3d36b4901d06b1a86739e944653cd176cb2b06be6e078b",
+    "scientific_manifest_sha256": "a8c1e15e5ebb969425e521d47a690971237902e8facb3a01b16ced34945ed24f",
+    "host_runtime_fields_removed": true
+  },
+  "constrained": {
+    "original_manifest_sha256": "842d52a0288650360703df63af095f0c3f254179779229c56c1ea9cd6ccc031b",
+    "scientific_manifest_sha256": "5798a4bb864bd3358aceac2764dfa77458f3f43af63f76151d706d08726c4bca",
+    "host_runtime_fields_removed": true
+  },
+  "validation": {
+    "original_manifest_sha256": "9a27d1fcd3a369cf9d593f1ae1068856b33740e86a31b6d70737a0639591b827",
+    "scientific_manifest_sha256": "77df5acb443710977f1c12287ff86ba0be32e780d57b114a1757b46aef0e1526",
+    "host_runtime_fields_removed": true
+  },
+  "denominator": {
+    "original_manifest_sha256": "cdc1f7f2befd89690161e31b201a5303fd5eba9a5baca07f07f4f75aa622ce19",
+    "scientific_manifest_sha256": "aade7b3b4636e68d63d48ac455e540e208a78f7e99ea4f6585678c7a45a16eea",
+    "host_runtime_fields_removed": false
+  },
+  "forward": {
+    "original_manifest_sha256": "70c6265d61658359a19c2c00c3a687a51bdbf44f0c2331b3dec99319bbd5a134",
+    "scientific_manifest_sha256": "13fa08a5531c360c7886ecfbe351e01b06a4a9b19dc014cf4dcbb3ea42ecbb6b",
+    "host_runtime_fields_removed": false
+  },
+  "models": {
+    "original_manifest_sha256": "ba278bb478f0fe75742ea69ee6eeca80ca2300f94a4352b62d7bfea5562c4e47",
+    "scientific_manifest_sha256": "61e5a9c8f603e5b016954ff9ef9a010ea990abd59d564e7cf831c9002c209e9a",
+    "host_runtime_fields_removed": false
+  }
+}

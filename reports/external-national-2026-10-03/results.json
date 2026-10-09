@@ -1,0 +1,2884 @@
+{
+  "status": "completed_exploratory_independent_external_validation",
+  "outcomes": [
+    "log_annual_monthly_wage_rubles",
+    "log_covered_organization_jobs_per_resident",
+    "manufacturing_headcount_share",
+    "agriculture_headcount_share",
+    "public_administration_education_health_headcount_share"
+  ],
+  "models": [
+    "historical_kmeans4",
+    "sw_constrained_huber75",
+    "sw_constrained_ordinary"
+  ],
+  "input_hashes": {
+    "reports\\external-national-2026-10-03\\analysis-spec.json": "a8f03792e51d15574ea39be2670aa698fa8b0698fde3eec2053d405ae931c011",
+    "reports\\external-national-2026-10-03\\analysis-spec-addendum.json": "1e21e8ab98b77e77922c6cb113ec9a1051826226a4e1984fc9aef3561ca620a0",
+    "reports\\external-national-2026-10-03\\frozen-labels.json": "195e2fdf748e7dae8d3dcafb7515ec70b56896f5ac252e8cd5a355deaa771a70",
+    "reports\\external-national-2026-10-03\\consumer-features.npy": "db16fc485169b4a29e9217d6340d36991b2582b323a3c63889f587f428dd9abc",
+    "reports\\external-national-2026-10-03\\cohort-2023.csv": "dcfcf2ac0af503d696f9492bc8c1bc4e38977cc2bd1b6c12da66463f761d9c62",
+    "reports\\external-national-2026-10-03\\cohort-2024.csv": "0c26468eb64f2ed21d16d71faef998f9cdb3a9e69960a7c016737d402b262a07",
+    "data\\processed\\panel.csv": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa"
+  },
+  "controls": "Within-region: region FE, municipal type,logresidentpopulation,logmedianannual2023totalexpense. Blocked: same observedcovariates without region FE.",
+  "held_out_region_handling": "No held-out region outcomes used for fitting/scaling/intercept; unseenregion FE never estimated. Frozen unsupervised labels/features are transductive to expensepanel.",
+  "denominator_audit": "Monthly commonratiolevel=mean_jlog(category_j/total). Monthly contrasts=logcategory_j-mean_jlogcategory; total cancels exactly. Projection occurs BEFORE coordinatewiseannualmedian.",
+  "limits": "Annual retrospective associations only; no industrialtyping, causalclaim orfutureforecast. Organizationheadcount excludes smallbusiness; jobs/resident is notresidentemploymentrate. Economicoutcomes didnotchoose clusters. Random-label permutation p-values are exploratory references, not rigorous conditional-null p-values given correlated continuouscontrols; Holm adjustment cannotrepairthatnull. Regionbootstrap errors are descriptive; unmeasuredconfounding/spatialdependence mayremain.",
+  "cohorts": [
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "source_outcome_n": 1830,
+      "complete_controls_n": 1797,
+      "regions": 72,
+      "complete_controls_counts_by_cluster": {
+        "0": 604,
+        "1": 839,
+        "2": 229,
+        "3": 125
+      }
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "source_outcome_n": 1797,
+      "complete_controls_n": 1797,
+      "regions": 72,
+      "complete_controls_counts_by_cluster": {
+        "0": 604,
+        "1": 839,
+        "2": 229,
+        "3": 125
+      }
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "source_outcome_n": 995,
+      "complete_controls_n": 970,
+      "regions": 71,
+      "complete_controls_counts_by_cluster": {
+        "0": 428,
+        "1": 309,
+        "2": 191,
+        "3": 42
+      }
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "source_outcome_n": 1052,
+      "complete_controls_n": 1043,
+      "regions": 70,
+      "complete_controls_counts_by_cluster": {
+        "0": 381,
+        "1": 473,
+        "2": 98,
+        "3": 91
+      }
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "source_outcome_n": 1627,
+      "complete_controls_n": 1594,
+      "regions": 72,
+      "complete_controls_counts_by_cluster": {
+        "0": 576,
+        "1": 705,
+        "2": 204,
+        "3": 109
+      }
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "source_outcome_n": 1681,
+      "complete_controls_n": 1680,
+      "regions": 68,
+      "complete_controls_counts_by_cluster": {
+        "0": 579,
+        "1": 759,
+        "2": 215,
+        "3": 127
+      }
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "source_outcome_n": 1680,
+      "complete_controls_n": 1680,
+      "regions": 68,
+      "complete_controls_counts_by_cluster": {
+        "0": 579,
+        "1": 759,
+        "2": 215,
+        "3": 127
+      }
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "source_outcome_n": 879,
+      "complete_controls_n": 879,
+      "regions": 66,
+      "complete_controls_counts_by_cluster": {
+        "0": 387,
+        "1": 284,
+        "2": 165,
+        "3": 43
+      }
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "source_outcome_n": 951,
+      "complete_controls_n": 951,
+      "regions": 66,
+      "complete_controls_counts_by_cluster": {
+        "0": 361,
+        "1": 416,
+        "2": 89,
+        "3": 85
+      }
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "source_outcome_n": 1503,
+      "complete_controls_n": 1502,
+      "regions": 68,
+      "complete_controls_counts_by_cluster": {
+        "0": 556,
+        "1": 642,
+        "2": 194,
+        "3": 110
+      }
+    }
+  ],
+  "within_region_associations": [
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "model": "historical_kmeans4",
+      "n": 1797,
+      "regions": 72,
+      "partial_r_squared": 0.016995367980869126,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.016222131481127673,
+      "partial_r2_after_denominator_free_contrasts_control": 0.013800658994640455,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1715,
+          "partial_r_squared": 0.02036794556144453
+        },
+        "exclude_source_boundary_history": {
+          "n": 1741,
+          "partial_r_squared": 0.0163958358183428
+        },
+        "exclude_registry_version_changes": {
+          "n": 1797,
+          "partial_r_squared": 0.016995367980869126
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "model": "sw_constrained_huber75",
+      "n": 1797,
+      "regions": 72,
+      "partial_r_squared": 0.0201089203696585,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.01961800470905016,
+      "partial_r2_after_denominator_free_contrasts_control": 0.012995392806902453,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1715,
+          "partial_r_squared": 0.023688228840072063
+        },
+        "exclude_source_boundary_history": {
+          "n": 1741,
+          "partial_r_squared": 0.019822037206907568
+        },
+        "exclude_registry_version_changes": {
+          "n": 1797,
+          "partial_r_squared": 0.0201089203696585
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "model": "sw_constrained_ordinary",
+      "n": 1797,
+      "regions": 72,
+      "partial_r_squared": 0.01940720653319609,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.018775782989205382,
+      "partial_r2_after_denominator_free_contrasts_control": 0.014520316398817599,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1715,
+          "partial_r_squared": 0.02298265400217376
+        },
+        "exclude_source_boundary_history": {
+          "n": 1741,
+          "partial_r_squared": 0.01847604548100731
+        },
+        "exclude_registry_version_changes": {
+          "n": 1797,
+          "partial_r_squared": 0.01940720653319609
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "model": "historical_kmeans4",
+      "n": 1797,
+      "regions": 72,
+      "partial_r_squared": 0.020696657487141352,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.01918279992104388,
+      "partial_r2_after_denominator_free_contrasts_control": 0.009460872785754233,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1715,
+          "partial_r_squared": 0.03938455345603245
+        },
+        "exclude_source_boundary_history": {
+          "n": 1741,
+          "partial_r_squared": 0.02046364146606064
+        },
+        "exclude_registry_version_changes": {
+          "n": 1797,
+          "partial_r_squared": 0.020696657487141352
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "model": "sw_constrained_huber75",
+      "n": 1797,
+      "regions": 72,
+      "partial_r_squared": 0.026922746879961688,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.026227110499230863,
+      "partial_r2_after_denominator_free_contrasts_control": 0.013988379195515797,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1715,
+          "partial_r_squared": 0.04868739194240947
+        },
+        "exclude_source_boundary_history": {
+          "n": 1741,
+          "partial_r_squared": 0.02698602106100704
+        },
+        "exclude_registry_version_changes": {
+          "n": 1797,
+          "partial_r_squared": 0.026922746879961688
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "model": "sw_constrained_ordinary",
+      "n": 1797,
+      "regions": 72,
+      "partial_r_squared": 0.026975390097400628,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.026202740364028573,
+      "partial_r2_after_denominator_free_contrasts_control": 0.01437220942579572,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1715,
+          "partial_r_squared": 0.04944429791571189
+        },
+        "exclude_source_boundary_history": {
+          "n": 1741,
+          "partial_r_squared": 0.026622611651546304
+        },
+        "exclude_registry_version_changes": {
+          "n": 1797,
+          "partial_r_squared": 0.026975390097400628
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "model": "historical_kmeans4",
+      "n": 970,
+      "regions": 71,
+      "partial_r_squared": 0.03202094954300802,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.03522702811603518,
+      "partial_r2_after_denominator_free_contrasts_control": 0.021428611555247837,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 906,
+          "partial_r_squared": 0.03779030615330501
+        },
+        "exclude_source_boundary_history": {
+          "n": 925,
+          "partial_r_squared": 0.028914172359819867
+        },
+        "exclude_registry_version_changes": {
+          "n": 970,
+          "partial_r_squared": 0.03202094954300802
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "model": "sw_constrained_huber75",
+      "n": 970,
+      "regions": 71,
+      "partial_r_squared": 0.05145416384859213,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.05632326058338098,
+      "partial_r2_after_denominator_free_contrasts_control": 0.03322001133033195,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 906,
+          "partial_r_squared": 0.051357564116948765
+        },
+        "exclude_source_boundary_history": {
+          "n": 925,
+          "partial_r_squared": 0.049028151596837176
+        },
+        "exclude_registry_version_changes": {
+          "n": 970,
+          "partial_r_squared": 0.05145416384859213
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "model": "sw_constrained_ordinary",
+      "n": 970,
+      "regions": 71,
+      "partial_r_squared": 0.042632576743656926,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.047960160506667654,
+      "partial_r2_after_denominator_free_contrasts_control": 0.023237837170692905,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 906,
+          "partial_r_squared": 0.04196413257681066
+        },
+        "exclude_source_boundary_history": {
+          "n": 925,
+          "partial_r_squared": 0.03891754463321722
+        },
+        "exclude_registry_version_changes": {
+          "n": 970,
+          "partial_r_squared": 0.042632576743656926
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "model": "historical_kmeans4",
+      "n": 1043,
+      "regions": 70,
+      "partial_r_squared": 0.005533569475504026,
+      "permutation_p": 0.156,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.010308667901103167,
+      "partial_r2_after_denominator_free_contrasts_control": 0.010506268824678125,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1041,
+          "partial_r_squared": 0.005545686340791227
+        },
+        "exclude_source_boundary_history": {
+          "n": 1011,
+          "partial_r_squared": 0.005688575759833732
+        },
+        "exclude_registry_version_changes": {
+          "n": 1043,
+          "partial_r_squared": 0.005533569475504026
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.46799999999999997
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "model": "sw_constrained_huber75",
+      "n": 1043,
+      "regions": 70,
+      "partial_r_squared": 0.004890613042720413,
+      "permutation_p": 0.191,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.009710154371962978,
+      "partial_r2_after_denominator_free_contrasts_control": 0.009695360478495434,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1041,
+          "partial_r_squared": 0.004894918745833243
+        },
+        "exclude_source_boundary_history": {
+          "n": 1011,
+          "partial_r_squared": 0.005047351239169891
+        },
+        "exclude_registry_version_changes": {
+          "n": 1043,
+          "partial_r_squared": 0.004890613042720413
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.46799999999999997
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "model": "sw_constrained_ordinary",
+      "n": 1043,
+      "regions": 70,
+      "partial_r_squared": 0.005078202809733055,
+      "permutation_p": 0.162,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.009434639124107129,
+      "partial_r2_after_denominator_free_contrasts_control": 0.00979687382032572,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1041,
+          "partial_r_squared": 0.005084493042154902
+        },
+        "exclude_source_boundary_history": {
+          "n": 1011,
+          "partial_r_squared": 0.004754728532580079
+        },
+        "exclude_registry_version_changes": {
+          "n": 1043,
+          "partial_r_squared": 0.005078202809733055
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.46799999999999997
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "model": "historical_kmeans4",
+      "n": 1594,
+      "regions": 72,
+      "partial_r_squared": 0.04567959840163926,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.04328158162424464,
+      "partial_r2_after_denominator_free_contrasts_control": 0.020028030302801536,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1535,
+          "partial_r_squared": 0.054881799289045075
+        },
+        "exclude_source_boundary_history": {
+          "n": 1538,
+          "partial_r_squared": 0.04420942279959307
+        },
+        "exclude_registry_version_changes": {
+          "n": 1594,
+          "partial_r_squared": 0.04567959840163926
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "model": "sw_constrained_huber75",
+      "n": 1594,
+      "regions": 72,
+      "partial_r_squared": 0.04890177804100475,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.047407840192038773,
+      "partial_r2_after_denominator_free_contrasts_control": 0.017260017746201464,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1535,
+          "partial_r_squared": 0.059881988640210715
+        },
+        "exclude_source_boundary_history": {
+          "n": 1538,
+          "partial_r_squared": 0.04756316916376752
+        },
+        "exclude_registry_version_changes": {
+          "n": 1594,
+          "partial_r_squared": 0.04890177804100475
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "model": "sw_constrained_ordinary",
+      "n": 1594,
+      "regions": 72,
+      "partial_r_squared": 0.0459183640839818,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.04413457596841545,
+      "partial_r2_after_denominator_free_contrasts_control": 0.014568930188392877,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1535,
+          "partial_r_squared": 0.05490985949615354
+        },
+        "exclude_source_boundary_history": {
+          "n": 1538,
+          "partial_r_squared": 0.04466971415360755
+        },
+        "exclude_registry_version_changes": {
+          "n": 1594,
+          "partial_r_squared": 0.0459183640839818
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "model": "historical_kmeans4",
+      "n": 1680,
+      "regions": 68,
+      "partial_r_squared": 0.017899254480751574,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.016002775039043862,
+      "partial_r2_after_denominator_free_contrasts_control": 0.011608735270804051,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1598,
+          "partial_r_squared": 0.021346332393165877
+        },
+        "exclude_source_boundary_history": {
+          "n": 1627,
+          "partial_r_squared": 0.017493578242017693
+        },
+        "exclude_registry_version_changes": {
+          "n": 1622,
+          "partial_r_squared": 0.011690698109361478
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "model": "sw_constrained_huber75",
+      "n": 1680,
+      "regions": 68,
+      "partial_r_squared": 0.022357058383438197,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.020779851256514378,
+      "partial_r2_after_denominator_free_contrasts_control": 0.010564108240983897,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1598,
+          "partial_r_squared": 0.02625015348220819
+        },
+        "exclude_source_boundary_history": {
+          "n": 1627,
+          "partial_r_squared": 0.02207133057329427
+        },
+        "exclude_registry_version_changes": {
+          "n": 1622,
+          "partial_r_squared": 0.01886756902817186
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "model": "sw_constrained_ordinary",
+      "n": 1680,
+      "regions": 68,
+      "partial_r_squared": 0.020443455745481617,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.01870222000157256,
+      "partial_r2_after_denominator_free_contrasts_control": 0.011498256007440696,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1598,
+          "partial_r_squared": 0.024080804503170714
+        },
+        "exclude_source_boundary_history": {
+          "n": 1627,
+          "partial_r_squared": 0.0200299754691856
+        },
+        "exclude_registry_version_changes": {
+          "n": 1622,
+          "partial_r_squared": 0.016864352772977403
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "model": "historical_kmeans4",
+      "n": 1680,
+      "regions": 68,
+      "partial_r_squared": 0.02007880705332642,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.018465052744303566,
+      "partial_r2_after_denominator_free_contrasts_control": 0.008827061723381992,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1598,
+          "partial_r_squared": 0.03913587859944867
+        },
+        "exclude_source_boundary_history": {
+          "n": 1627,
+          "partial_r_squared": 0.019795319572660584
+        },
+        "exclude_registry_version_changes": {
+          "n": 1622,
+          "partial_r_squared": 0.015016425262844373
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "model": "sw_constrained_huber75",
+      "n": 1680,
+      "regions": 68,
+      "partial_r_squared": 0.025359449920644192,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.024465979184109973,
+      "partial_r2_after_denominator_free_contrasts_control": 0.012459559412912253,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1598,
+          "partial_r_squared": 0.047389236589562005
+        },
+        "exclude_source_boundary_history": {
+          "n": 1627,
+          "partial_r_squared": 0.02518325223501103
+        },
+        "exclude_registry_version_changes": {
+          "n": 1622,
+          "partial_r_squared": 0.023901787976348354
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "model": "sw_constrained_ordinary",
+      "n": 1680,
+      "regions": 68,
+      "partial_r_squared": 0.024752256039138786,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.023752836521109065,
+      "partial_r2_after_denominator_free_contrasts_control": 0.012234597956515353,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1598,
+          "partial_r_squared": 0.047133577705990894
+        },
+        "exclude_source_boundary_history": {
+          "n": 1627,
+          "partial_r_squared": 0.024478458840620016
+        },
+        "exclude_registry_version_changes": {
+          "n": 1622,
+          "partial_r_squared": 0.023281368834624543
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "model": "historical_kmeans4",
+      "n": 879,
+      "regions": 66,
+      "partial_r_squared": 0.031147107128169597,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.03322832095379031,
+      "partial_r2_after_denominator_free_contrasts_control": 0.021284834823600086,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 831,
+          "partial_r_squared": 0.03582302324217804
+        },
+        "exclude_source_boundary_history": {
+          "n": 838,
+          "partial_r_squared": 0.027177009306180444
+        },
+        "exclude_registry_version_changes": {
+          "n": 866,
+          "partial_r_squared": 0.031516895735827104
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "model": "sw_constrained_huber75",
+      "n": 879,
+      "regions": 66,
+      "partial_r_squared": 0.05310311278527512,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.05784340703608083,
+      "partial_r2_after_denominator_free_contrasts_control": 0.03331655088637316,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 831,
+          "partial_r_squared": 0.05190332035047186
+        },
+        "exclude_source_boundary_history": {
+          "n": 838,
+          "partial_r_squared": 0.050768965684152734
+        },
+        "exclude_registry_version_changes": {
+          "n": 866,
+          "partial_r_squared": 0.05409746623321808
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "model": "sw_constrained_ordinary",
+      "n": 879,
+      "regions": 66,
+      "partial_r_squared": 0.04378537816682534,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.04855754853225135,
+      "partial_r2_after_denominator_free_contrasts_control": 0.023287787888082178,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 831,
+          "partial_r_squared": 0.04143170754390774
+        },
+        "exclude_source_boundary_history": {
+          "n": 838,
+          "partial_r_squared": 0.03990074538396606
+        },
+        "exclude_registry_version_changes": {
+          "n": 866,
+          "partial_r_squared": 0.04479530157265725
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "model": "historical_kmeans4",
+      "n": 951,
+      "regions": 66,
+      "partial_r_squared": 0.004973047755334183,
+      "permutation_p": 0.226,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.008075076582211039,
+      "partial_r2_after_denominator_free_contrasts_control": 0.008804290609563711,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 950,
+          "partial_r_squared": 0.004973047755334189
+        },
+        "exclude_source_boundary_history": {
+          "n": 924,
+          "partial_r_squared": 0.0046308439250474
+        },
+        "exclude_registry_version_changes": {
+          "n": 921,
+          "partial_r_squared": 0.006188312155888013
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.678
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "model": "sw_constrained_huber75",
+      "n": 951,
+      "regions": 66,
+      "partial_r_squared": 0.0039579104771563095,
+      "permutation_p": 0.319,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.007254145442242077,
+      "partial_r2_after_denominator_free_contrasts_control": 0.0075257381310920995,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 950,
+          "partial_r_squared": 0.003957910477156307
+        },
+        "exclude_source_boundary_history": {
+          "n": 924,
+          "partial_r_squared": 0.0031258817353369468
+        },
+        "exclude_registry_version_changes": {
+          "n": 921,
+          "partial_r_squared": 0.004669499499141339
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.678
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "model": "sw_constrained_ordinary",
+      "n": 951,
+      "regions": 66,
+      "partial_r_squared": 0.00454443871352975,
+      "permutation_p": 0.24,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.007310300375843465,
+      "partial_r2_after_denominator_free_contrasts_control": 0.00781400216288978,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 950,
+          "partial_r_squared": 0.004544438713529742
+        },
+        "exclude_source_boundary_history": {
+          "n": 924,
+          "partial_r_squared": 0.0033067476467069593
+        },
+        "exclude_registry_version_changes": {
+          "n": 921,
+          "partial_r_squared": 0.005070872286796474
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.678
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "model": "historical_kmeans4",
+      "n": 1502,
+      "regions": 68,
+      "partial_r_squared": 0.0405519753389627,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.03808721340662881,
+      "partial_r2_after_denominator_free_contrasts_control": 0.015557173156370546,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1438,
+          "partial_r_squared": 0.050557048573818084
+        },
+        "exclude_source_boundary_history": {
+          "n": 1449,
+          "partial_r_squared": 0.03929493263068236
+        },
+        "exclude_registry_version_changes": {
+          "n": 1446,
+          "partial_r_squared": 0.03543757102094318
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "model": "sw_constrained_huber75",
+      "n": 1502,
+      "regions": 68,
+      "partial_r_squared": 0.04351689283554174,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.04158461060884706,
+      "partial_r2_after_denominator_free_contrasts_control": 0.013289862504556224,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1438,
+          "partial_r_squared": 0.055563038270183225
+        },
+        "exclude_source_boundary_history": {
+          "n": 1449,
+          "partial_r_squared": 0.042583775870812635
+        },
+        "exclude_registry_version_changes": {
+          "n": 1446,
+          "partial_r_squared": 0.04187594710761309
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "model": "sw_constrained_ordinary",
+      "n": 1502,
+      "regions": 68,
+      "partial_r_squared": 0.03927711155422655,
+      "permutation_p": 0.001,
+      "permutation_scheme": "labels permuted within region; both sides re-residualized on all controls",
+      "permutation_interpretation": "Exploratory random-label reference, not a rigorous general conditional-null test: labels may remain associated with continuous controls. Holm adjustment does not fix that null mismatch.",
+      "valid_draws": 999,
+      "seed": 20261003,
+      "partial_r2_after_shared_ratio_level_control": 0.03711290559151342,
+      "partial_r2_after_denominator_free_contrasts_control": 0.009935629136815349,
+      "sensitivity": {
+        "exclude_intracity": {
+          "n": 1438,
+          "partial_r_squared": 0.048786057714259055
+        },
+        "exclude_source_boundary_history": {
+          "n": 1449,
+          "partial_r_squared": 0.03894107372783543
+        },
+        "exclude_registry_version_changes": {
+          "n": 1446,
+          "partial_r_squared": 0.03731540622432708
+        }
+      },
+      "holm_p_year_5outcomes_3models": 0.015
+    }
+  ],
+  "blocked_scores": [
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls",
+      "municipality_rmse": 0.1846183700476747,
+      "municipality_mae": 0.1382106387703696,
+      "equal_region_mse": 0.035378539108098385,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0016489380912067281,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0031347433263256897,
+        -0.0001042224481457554
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.002076155147573094,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.004225528912751976,
+        4.3749805013721317e-05
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.17948656783590694,
+      "municipality_mae": 0.1341480658821986,
+      "equal_region_mse": 0.03330238396052529,
+      "equal_region_mse_improvement_vs_controls": 0.002076155147573094,
+      "paired_region_bootstrap_improvement_95": [
+        -4.374980501372148e-05,
+        0.004225528912751975
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.00042721705636636603,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0014380057988979946,
+        0.00223643232114285
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_shared_ratio_level",
+      "municipality_rmse": 0.18371757971168784,
+      "municipality_mae": 0.13690939224876225,
+      "equal_region_mse": 0.03462194425046114,
+      "equal_region_mse_improvement_vs_controls": 0.0007565948576372464,
+      "paired_region_bootstrap_improvement_95": [
+        -3.602522070782256e-05,
+        0.0016616523812683765
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0008923432335694818,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.002322936216128144,
+        0.000495135743186781
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0013195602899358481,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.003574814382559425,
+        0.001091992714841447
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_denominator_free_contrasts",
+      "municipality_rmse": 0.17955820306002812,
+      "municipality_mae": 0.13475959785234498,
+      "equal_region_mse": 0.033048050524596424,
+      "equal_region_mse_improvement_vs_controls": 0.0023304885835019706,
+      "paired_region_bootstrap_improvement_95": [
+        0.00029434443420606145,
+        0.004291829293206139
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0006815504922952427,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0009624655416876787,
+        0.0022344550064722054
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.00025433343592887636,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0007463004725841426,
+        0.0017196873528889322
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.17983717971206156,
+      "municipality_mae": 0.13389391035711698,
+      "equal_region_mse": 0.03372960101689166,
+      "equal_region_mse_improvement_vs_controls": 0.0016489380912067281,
+      "paired_region_bootstrap_improvement_95": [
+        0.00010422244814575533,
+        0.0031347433263256897
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.00042721705636636603,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00223643232114285,
+        0.0014380057988979946
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.1794496915722277,
+      "municipality_mae": 0.13373657890074914,
+      "equal_region_mse": 0.03358084602395894,
+      "equal_region_mse_improvement_vs_controls": 0.00179769308413944,
+      "paired_region_bootstrap_improvement_95": [
+        0.00024450439512918294,
+        0.0033769068095470213
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.00014875499293271182,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00037678829481941934,
+        0.000786856139194441
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.00027846206343365453,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.002235174743463541,
+        0.0017884834048332858
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.1795099037819643,
+      "municipality_mae": 0.13385571905098942,
+      "equal_region_mse": 0.03360446161441582,
+      "equal_region_mse_improvement_vs_controls": 0.0017740774936825703,
+      "paired_region_bootstrap_improvement_95": [
+        0.00021464361231395826,
+        0.0032971346220156844
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0001251394024758422,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00037756456697525206,
+        0.0007079769184843716
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.000302077653890524,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0022524770766527446,
+        0.001745586449945376
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls",
+      "municipality_rmse": 0.4224375810443379,
+      "municipality_mae": 0.29080931066851773,
+      "equal_region_mse": 0.16079536760097402,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.003529693786691245,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.009826150863344365,
+        0.0034312823384094315
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.008405677731385683,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.016551159459915307,
+        -0.00044047544165747867
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.41239959105992435,
+      "municipality_mae": 0.2841559832702827,
+      "equal_region_mse": 0.1523896898695883,
+      "equal_region_mse_improvement_vs_controls": 0.008405677731385683,
+      "paired_region_bootstrap_improvement_95": [
+        0.00044047544165747737,
+        0.016551159459915303
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.004875983944694439,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0033139269862516884,
+        0.01359341394213307
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_shared_ratio_level",
+      "municipality_rmse": 0.4229864898541479,
+      "municipality_mae": 0.28907634894070516,
+      "equal_region_mse": 0.1593785892501083,
+      "equal_region_mse_improvement_vs_controls": 0.001416778350865693,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0016535042995721029,
+        0.004467225390346348
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.002112915435825551,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.006389510105784253,
+        0.0029846107625904105
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.006988899380519991,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.014911974041066204,
+        0.0006442892988680364
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_denominator_free_contrasts",
+      "municipality_rmse": 0.4119937717553517,
+      "municipality_mae": 0.2835065292843779,
+      "equal_region_mse": 0.1519142179862528,
+      "equal_region_mse_improvement_vs_controls": 0.008881149614721194,
+      "paired_region_bootstrap_improvement_95": [
+        0.001035050094470537,
+        0.01672809512516165
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.005351455828029949,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0022560268244296096,
+        0.013120628675813154
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.00047547188333550965,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0008810655717252971,
+        0.002145999502661312
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.4217686743203602,
+      "municipality_mae": 0.2889040529931228,
+      "equal_region_mse": 0.15726567381428272,
+      "equal_region_mse_improvement_vs_controls": 0.003529693786691245,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0034312823384094315,
+        0.009826150863344364
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.004875983944694439,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.013593413942133073,
+        0.0033139269862516867
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.42777920464068786,
+      "municipality_mae": 0.28913997845864436,
+      "equal_region_mse": 0.15985142526254714,
+      "equal_region_mse_improvement_vs_controls": 0.0009439423384268547,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00879232345384569,
+        0.009359794871542673
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.00258575144826439,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.007958922004021029,
+        0.0013641176772216353
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.007461735392958829,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.01932003906175886,
+        0.002778546512422279
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.42784983630629336,
+      "municipality_mae": 0.2889974059336057,
+      "equal_region_mse": 0.15957240390534633,
+      "equal_region_mse_improvement_vs_controls": 0.0012229636956276647,
+      "paired_region_bootstrap_improvement_95": [
+        -0.008820898732971401,
+        0.010113024152738143
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.00230673009106358,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.008100101338287724,
+        0.0018513438998709302
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.007182714035758019,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.01957357901775679,
+        0.0031822481876642773
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "n": 970,
+      "regions": 71,
+      "predictor": "controls",
+      "municipality_rmse": 0.1324202246454657,
+      "municipality_mae": 0.10872130698612083,
+      "equal_region_mse": 0.01798807362303296,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.00034362657463987077,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0013567737498505507,
+        0.0006455264613539002
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.001994203707145136,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.003300206626824523,
+        -0.0007021127836807218
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "n": 970,
+      "regions": 71,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.1252426820122424,
+      "municipality_mae": 0.10028211348355716,
+      "equal_region_mse": 0.015993869915887828,
+      "equal_region_mse_improvement_vs_controls": 0.001994203707145136,
+      "paired_region_bootstrap_improvement_95": [
+        0.0007021127836807216,
+        0.003300206626824522
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.001650577132505265,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0006235548566624088,
+        0.0026508854062157125
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "n": 970,
+      "regions": 71,
+      "predictor": "controls_plus_shared_ratio_level",
+      "municipality_rmse": 0.13240527943879174,
+      "municipality_mae": 0.10831983818227388,
+      "equal_region_mse": 0.018269707727976363,
+      "equal_region_mse_improvement_vs_controls": -0.0002816341049434009,
+      "paired_region_bootstrap_improvement_95": [
+        -0.000917529676898549,
+        0.0002460964911631427
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0006252606795832716,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0019274798549877993,
+        0.0005899832926859894
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0022758378120885368,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0037065963121989893,
+        -0.0009147583027091546
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "n": 970,
+      "regions": 71,
+      "predictor": "controls_plus_denominator_free_contrasts",
+      "municipality_rmse": 0.12811380666530342,
+      "municipality_mae": 0.10363945940770483,
+      "equal_region_mse": 0.016352961448292656,
+      "equal_region_mse_improvement_vs_controls": 0.0016351121747403006,
+      "paired_region_bootstrap_improvement_95": [
+        0.0005932329815359886,
+        0.0025950604536952807
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0012914856001004298,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.00019338702845194856,
+        0.0025029217160304137
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0003590915324048356,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0012880233501119341,
+        0.00058912742800168
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "n": 970,
+      "regions": 71,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.1313583342676403,
+      "municipality_mae": 0.10748624389260694,
+      "equal_region_mse": 0.017644447048393096,
+      "equal_region_mse_improvement_vs_controls": 0.00034362657463987077,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0006455264613539003,
+        0.0013567737498505505
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.001650577132505265,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0026508854062157125,
+        -0.0006235548566624088
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "n": 970,
+      "regions": 71,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.13032039017373323,
+      "municipality_mae": 0.10514978052733995,
+      "equal_region_mse": 0.0170754814232302,
+      "equal_region_mse_improvement_vs_controls": 0.0009125921998027612,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00023435329290411342,
+        0.0021895111088872697
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0005689656251628908,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -3.862576175895365e-05,
+        0.0012914511370574738
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0010816115073423744,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.002150359584972651,
+        -5.469136516036491e-05
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "n": 970,
+      "regions": 71,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.13088370765618867,
+      "municipality_mae": 0.10622416569043847,
+      "equal_region_mse": 0.017249733027046573,
+      "equal_region_mse_improvement_vs_controls": 0.0007383405959863892,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0003125372205750291,
+        0.0018433489398379096
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0003947140213465186,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00014208062575002414,
+        0.0010133596592243061
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0012558631111587466,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.002291017899367521,
+        -0.0002852624263262942
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "n": 1043,
+      "regions": 70,
+      "predictor": "controls",
+      "municipality_rmse": 0.08913890197525247,
+      "municipality_mae": 0.06746440627974987,
+      "equal_region_mse": 0.007197379591367105,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 6.87410088206816e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0001063810869389265,
+        0.00025798200255518493
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -8.710291398906837e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.000426977843335521,
+        0.0002370813118556983
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "n": 1043,
+      "regions": 70,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.08854954988847388,
+      "municipality_mae": 0.06605977885680507,
+      "equal_region_mse": 0.007110276677378037,
+      "equal_region_mse_improvement_vs_controls": 8.710291398906837e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00023708131185569832,
+        0.00042697784333552087
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.00015584392280975002,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -9.92484914803871e-05,
+        0.0004445327242858662
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "n": 1043,
+      "regions": 70,
+      "predictor": "controls_plus_shared_ratio_level",
+      "municipality_rmse": 0.08933542119137293,
+      "municipality_mae": 0.06765492722338953,
+      "equal_region_mse": 0.007228728393887724,
+      "equal_region_mse_improvement_vs_controls": -3.134880252062107e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -5.8363346568270674e-05,
+        -1.073917946143657e-05
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 3.739220630006056e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00014319860829544123,
+        0.0002333942700302957
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.00011845171650968945,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0004707502139761822,
+        0.0002085241228649177
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "n": 1043,
+      "regions": 70,
+      "predictor": "controls_plus_denominator_free_contrasts",
+      "municipality_rmse": 0.08870786184519004,
+      "municipality_mae": 0.06620207365610331,
+      "equal_region_mse": 0.007186713715162934,
+      "equal_region_mse_improvement_vs_controls": 1.0665876204171866e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00032184512348990295,
+        0.00035267443405951227
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 7.940688502485347e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00020019648377849614,
+        0.00037724570293264336
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -7.643703778489652e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00017834339479520182,
+        8.848655453781282e-06
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "n": 1043,
+      "regions": 70,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.08892608939152721,
+      "municipality_mae": 0.0668931649171388,
+      "equal_region_mse": 0.007266120600187785,
+      "equal_region_mse_improvement_vs_controls": -6.87410088206816e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.000257982002555185,
+        0.0001063810869389265
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.00015584392280975002,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0004445327242858662,
+        9.92484914803871e-05
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "n": 1043,
+      "regions": 70,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.088883635525009,
+      "municipality_mae": 0.06716247722049133,
+      "equal_region_mse": 0.007231331152506764,
+      "equal_region_mse_improvement_vs_controls": -3.3951561139657697e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00021020639631347723,
+        0.000131855657549432
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 3.4789447681023906e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00010591795559301757,
+        0.00018569928152896407
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0001210544751287261,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0003956641554094642,
+        0.00016041863263654974
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "n": 1043,
+      "regions": 70,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.08881313894229735,
+      "municipality_mae": 0.06705669754126921,
+      "equal_region_mse": 0.007245404345770785,
+      "equal_region_mse_improvement_vs_controls": -4.8024754403681634e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0002326238226280701,
+        0.00013192550187409737
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 2.071625441699997e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00013448686463550996,
+        0.00018068946268129165
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.00013512766839275002,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00040681901016333913,
+        0.0001386537781778472
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1594,
+      "regions": 72,
+      "predictor": "controls",
+      "municipality_rmse": 0.13594934330346362,
+      "municipality_mae": 0.10801963078757446,
+      "equal_region_mse": 0.02301151787668789,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0014068651294028712,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.003438721360966762,
+        0.0003681586857815104
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.003918012921049439,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.006388333206123199,
+        -0.002001010089117702
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1594,
+      "regions": 72,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.12658689790913683,
+      "municipality_mae": 0.10001953328622758,
+      "equal_region_mse": 0.019093504955638455,
+      "equal_region_mse_improvement_vs_controls": 0.003918012921049439,
+      "paired_region_bootstrap_improvement_95": [
+        0.002001010089117702,
+        0.006388333206123199
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0025111477916465678,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.00029982964478338683,
+        0.0047333627701194965
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1594,
+      "regions": 72,
+      "predictor": "controls_plus_shared_ratio_level",
+      "municipality_rmse": 0.13644357149005032,
+      "municipality_mae": 0.1082994359382361,
+      "equal_region_mse": 0.023292564997535608,
+      "equal_region_mse_improvement_vs_controls": -0.00028104712084771615,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0005264986040142319,
+        -8.731721318629452e-05
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0016879122502505874,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.003893200674264132,
+        0.00022995724900041844
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.004199060041897155,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00684409733175257,
+        -0.0021588090958855723
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1594,
+      "regions": 72,
+      "predictor": "controls_plus_denominator_free_contrasts",
+      "municipality_rmse": 0.12736474379697904,
+      "municipality_mae": 0.10063582745151892,
+      "equal_region_mse": 0.019689815977155564,
+      "equal_region_mse_improvement_vs_controls": 0.003321701899532324,
+      "paired_region_bootstrap_improvement_95": [
+        0.0015235129899593591,
+        0.005530945651085084
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0019148367701294529,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0007132850565441475,
+        0.004302204801397835
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0005963110215171146,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0013290196939499373,
+        6.3205263399359416e-06
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1594,
+      "regions": 72,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.13494121934217015,
+      "municipality_mae": 0.10657639926253169,
+      "equal_region_mse": 0.02160465274728502,
+      "equal_region_mse_improvement_vs_controls": 0.0014068651294028712,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0003681586857815104,
+        0.003438721360966762
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0025111477916465678,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0047333627701194965,
+        -0.0002998296447833869
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1594,
+      "regions": 72,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.1347280545914933,
+      "municipality_mae": 0.10737132016390856,
+      "equal_region_mse": 0.020776564561624824,
+      "equal_region_mse_improvement_vs_controls": 0.0022349533150630685,
+      "paired_region_bootstrap_improvement_95": [
+        0.00035004255428515896,
+        0.004534945853764301
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0008280881856601972,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        5.545490257102998e-05,
+        0.0017890489051099073
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0016830596059863702,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.003966963956657003,
+        0.0006415536518847217
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1594,
+      "regions": 72,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.13492217273139326,
+      "municipality_mae": 0.10746263238442809,
+      "equal_region_mse": 0.0210211958320505,
+      "equal_region_mse_improvement_vs_controls": 0.0019903220446373924,
+      "paired_region_bootstrap_improvement_95": [
+        0.0002673574407394742,
+        0.004061019651305986
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0005834569152345214,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -9.43893557113249e-05,
+        0.0014305029050251396
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.001927690876412046,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.004136194036046922,
+        0.00025035305752566157
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls",
+      "municipality_rmse": 0.18347624479191416,
+      "municipality_mae": 0.13934346085122187,
+      "equal_region_mse": 0.03351652525548715,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0015459179316026938,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.002991215378219918,
+        -0.00010419424726372603
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0018236679979014559,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0040474715056683435,
+        0.00036950128091036485
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.17909697309401748,
+      "municipality_mae": 0.1350170710329962,
+      "equal_region_mse": 0.031692857257585694,
+      "equal_region_mse_improvement_vs_controls": 0.0018236679979014559,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00036950128091036485,
+        0.004047471505668343
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.00027775006629876227,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0015360509625312112,
+        0.0019597632482810557
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_shared_ratio_level",
+      "municipality_rmse": 0.18315020332922263,
+      "municipality_mae": 0.13869975563723508,
+      "equal_region_mse": 0.033162032678099196,
+      "equal_region_mse_improvement_vs_controls": 0.00035449257738795015,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0002304739485851672,
+        0.0009106961561790398
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0011914253542147436,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.002589710987698286,
+        0.00015843280419204986
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0014691754205135056,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0036630216914479903,
+        0.0006374177750881096
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_denominator_free_contrasts",
+      "municipality_rmse": 0.17914068598962304,
+      "municipality_mae": 0.13561869326257928,
+      "equal_region_mse": 0.031733043842504687,
+      "equal_region_mse_improvement_vs_controls": 0.0017834814129824644,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0002978845510873184,
+        0.003902843595850349
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.00023756348137977067,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.001439185444813867,
+        0.0018686620088095621
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -4.018658491899151e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0006234796257429471,
+        0.0006269950085428742
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.17871581857275187,
+      "municipality_mae": 0.13517625720626913,
+      "equal_region_mse": 0.03197060732388446,
+      "equal_region_mse_improvement_vs_controls": 0.0015459179316026938,
+      "paired_region_bootstrap_improvement_95": [
+        0.00010419424726372577,
+        0.0029912153782199174
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.00027775006629876227,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.001959763248281056,
+        0.001536050962531211
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.17855121539817087,
+      "municipality_mae": 0.13479348162608665,
+      "equal_region_mse": 0.03194078720835882,
+      "equal_region_mse_improvement_vs_controls": 0.001575738047128333,
+      "paired_region_bootstrap_improvement_95": [
+        7.288806095821925e-05,
+        0.003088466150949021
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 2.9820115525639377e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00048113862561183647,
+        0.0005833384282413326
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0002479299507731229,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.002070339384208169,
+        0.0018093762496687715
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.17870445776519697,
+      "municipality_mae": 0.1349178202221635,
+      "equal_region_mse": 0.032020735661187,
+      "equal_region_mse_improvement_vs_controls": 0.0014957895943001436,
+      "paired_region_bootstrap_improvement_95": [
+        6.394009061885095e-05,
+        0.002919768333949375
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -5.012833730255012e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0005150800601865511,
+        0.00043382928926898956
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0003278784036013123,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0021614956633982997,
+        0.0016524024666845745
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls",
+      "municipality_rmse": 0.42408621328890794,
+      "municipality_mae": 0.29642898581753635,
+      "equal_region_mse": 0.16310852261700998,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0022034735431255134,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.007466058006516283,
+        0.003992975904756266
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.006814042961384719,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.014450829984010012,
+        0.0013349206540190924
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.41534835937632025,
+      "municipality_mae": 0.29178306575516816,
+      "equal_region_mse": 0.15629447965562526,
+      "equal_region_mse_improvement_vs_controls": 0.006814042961384719,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0013349206540190929,
+        0.014450829984010012
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.004610569418259206,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0038931780486693756,
+        0.013183571299168214
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_shared_ratio_level",
+      "municipality_rmse": 0.42492640454544284,
+      "municipality_mae": 0.2952198618148084,
+      "equal_region_mse": 0.16220106700442657,
+      "equal_region_mse_improvement_vs_controls": 0.0009074556125834431,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0016806969440811737,
+        0.003498202703936644
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0012960179305420698,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.005202466379099976,
+        0.003406056923137879
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0059065873488012765,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.013811704940075569,
+        0.0019060478985025615
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_denominator_free_contrasts",
+      "municipality_rmse": 0.41499581826494614,
+      "municipality_mae": 0.29065053245401956,
+      "equal_region_mse": 0.15611363990309238,
+      "equal_region_mse_improvement_vs_controls": 0.006994882713917622,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0009667109633039995,
+        0.01447076405817653
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0047914091707921104,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.003027224449523457,
+        0.012503635836499518
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.00018083975253290307,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0014778803759917442,
+        0.0019269316418511376
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.42390044669617727,
+      "municipality_mae": 0.2948907148706833,
+      "equal_region_mse": 0.16090504907388445,
+      "equal_region_mse_improvement_vs_controls": 0.0022034735431255134,
+      "paired_region_bootstrap_improvement_95": [
+        -0.003992975904756271,
+        0.0074660580065162825
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.004610569418259206,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.013183571299168216,
+        0.003893178048669375
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.4282770303920974,
+      "municipality_mae": 0.2951463442764136,
+      "equal_region_mse": 0.16291086457087323,
+      "equal_region_mse_improvement_vs_controls": 0.00019765804613676972,
+      "paired_region_bootstrap_improvement_95": [
+        -0.007682231118902083,
+        0.006679577205853843
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0020058154969887433,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.005667930245796637,
+        0.0008459641287156107
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.006616384915247951,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.016818114278522915,
+        0.0032757886145329154
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.42825666983496186,
+      "municipality_mae": 0.2951205024017674,
+      "equal_region_mse": 0.1625434450756774,
+      "equal_region_mse_improvement_vs_controls": 0.000565077541332618,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00764193158141782,
+        0.007286717804352595
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.001638396001792895,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.005631766307205256,
+        0.0013973959257662456
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.006248965420052101,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.016497239101131458,
+        0.003711393237294936
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "n": 879,
+      "regions": 66,
+      "predictor": "controls",
+      "municipality_rmse": 0.13959897950794395,
+      "municipality_mae": 0.1141690055137385,
+      "equal_region_mse": 0.019631466305910426,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0002120796305609887,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0011193051700347759,
+        0.0008746458726849958
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.002203959980698164,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0036386905723427886,
+        -0.0007312459254388235
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "n": 879,
+      "regions": 66,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.13252994537215396,
+      "municipality_mae": 0.10652183312392084,
+      "equal_region_mse": 0.017427506325212262,
+      "equal_region_mse_improvement_vs_controls": 0.002203959980698164,
+      "paired_region_bootstrap_improvement_95": [
+        0.0007312459254388231,
+        0.003638690572342788
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.001991880350137176,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0008032412598006631,
+        0.0031786013404424365
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "n": 879,
+      "regions": 66,
+      "predictor": "controls_plus_shared_ratio_level",
+      "municipality_rmse": 0.13942769846975162,
+      "municipality_mae": 0.11360628217160663,
+      "equal_region_mse": 0.019715036302524892,
+      "equal_region_mse_improvement_vs_controls": -8.356999661446509e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0007085064541556014,
+        0.0004883498767209343
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0002956496271754538,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0014898827491347027,
+        0.0009437200635862206
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0022875299773126296,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0037341030493790914,
+        -0.000755036925031334
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "n": 879,
+      "regions": 66,
+      "predictor": "controls_plus_denominator_free_contrasts",
+      "municipality_rmse": 0.13521290949913425,
+      "municipality_mae": 0.10883837083328356,
+      "equal_region_mse": 0.017966475410289652,
+      "equal_region_mse_improvement_vs_controls": 0.0016649908956207786,
+      "paired_region_bootstrap_improvement_95": [
+        0.0003686741144592246,
+        0.0028749593019828565
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0014529112650597897,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.00016714419837653505,
+        0.0027625906842132773
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0005389690850773858,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0013585647869103637,
+        0.00030366953096302567
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "n": 879,
+      "regions": 66,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.13888046013498978,
+      "municipality_mae": 0.11340864486801712,
+      "equal_region_mse": 0.01941938667534944,
+      "equal_region_mse_improvement_vs_controls": 0.0002120796305609887,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0008746458726849961,
+        0.0011193051700347759
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.001991880350137176,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0031786013404424365,
+        -0.0008032412598006631
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "n": 879,
+      "regions": 66,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.1380972916930665,
+      "municipality_mae": 0.11142612314051761,
+      "equal_region_mse": 0.0190132744639441,
+      "equal_region_mse_improvement_vs_controls": 0.0006181918419663288,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0005202010060827904,
+        0.0016984240409542667
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.00040611221140534026,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00021195053036237972,
+        0.0010320953236365794
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0015857681387318355,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.002774541498122789,
+        -0.0004420097718526678
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "n": 879,
+      "regions": 66,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.13855119772933025,
+      "municipality_mae": 0.11227739022683086,
+      "equal_region_mse": 0.01912953572859809,
+      "equal_region_mse_improvement_vs_controls": 0.0005019305773123339,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0005414035867165443,
+        0.0014852450221823287
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0002898509467513452,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00026276439411939247,
+        0.0008296201420820836
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0017020294033858302,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0028629196664200483,
+        -0.0006035907631649544
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "n": 951,
+      "regions": 66,
+      "predictor": "controls",
+      "municipality_rmse": 0.08833362143351252,
+      "municipality_mae": 0.06652005460502405,
+      "equal_region_mse": 0.007162505556274233,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 2.4136296188438936e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00017327481550587513,
+        0.0002291941877622971
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -8.18318250229343e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00040928339838790554,
+        0.00021956803093716855
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "n": 951,
+      "regions": 66,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.08787068018423821,
+      "municipality_mae": 0.06521232343333017,
+      "equal_region_mse": 0.007080673731251299,
+      "equal_region_mse_improvement_vs_controls": 8.18318250229343e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00021956803093716858,
+        0.0004092833983879055
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0001059681212113732,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00011689753464610743,
+        0.0003382590771242398
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "n": 951,
+      "regions": 66,
+      "predictor": "controls_plus_shared_ratio_level",
+      "municipality_rmse": 0.08854237758009414,
+      "municipality_mae": 0.06674393766254892,
+      "equal_region_mse": 0.007200975153518917,
+      "equal_region_mse_improvement_vs_controls": -3.8469597244684203e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -6.499334359492898e-05,
+        -1.7752654414708633e-05
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -1.4333301056245253e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00021391516850470665,
+        0.00019569780003485216
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0001203014222676185,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00045956302709633057,
+        0.00019097804495669834
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "n": 951,
+      "regions": 66,
+      "predictor": "controls_plus_denominator_free_contrasts",
+      "municipality_rmse": 0.08795908799978432,
+      "municipality_mae": 0.06537420327622932,
+      "equal_region_mse": 0.007138413506555125,
+      "equal_region_mse_improvement_vs_controls": 2.4092049719108732e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0003118565547567271,
+        0.0003745861603575631
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 4.8228345907547695e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00022870198035122508,
+        0.00030283219854846814
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -5.773977530382553e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0001786948420227648,
+        2.5025348837700827e-05
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "n": 951,
+      "regions": 66,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.08802262615377265,
+      "municipality_mae": 0.0657533818102817,
+      "equal_region_mse": 0.0071866418524626705,
+      "equal_region_mse_improvement_vs_controls": -2.4136296188438936e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00022919418776229714,
+        0.00017327481550587513
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0001059681212113732,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00033825907712423987,
+        0.00011689753464610742
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "n": 951,
+      "regions": 66,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.08811895891177042,
+      "municipality_mae": 0.06624200874588045,
+      "equal_region_mse": 0.007198255555075334,
+      "equal_region_mse_improvement_vs_controls": -3.574999880110246e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00022042622057360638,
+        0.00013781480129956212
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -1.1613702612663517e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00015464134160416245,
+        0.00012663578914540454
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.00011758182382403674,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00036557486120857117,
+        0.00011080641154449177
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "n": 951,
+      "regions": 66,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.08804217269046372,
+      "municipality_mae": 0.06607446510866247,
+      "equal_region_mse": 0.0072044693154508736,
+      "equal_region_mse_improvement_vs_controls": -4.196375917664117e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00023134960518111263,
+        0.00014110444964050495
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -1.782746298820225e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00017162684559969912,
+        0.00012722013241946127
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.00012379558419957544,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0003597869575966941,
+        0.00010092335837724517
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1502,
+      "regions": 68,
+      "predictor": "controls",
+      "municipality_rmse": 0.13873085156863094,
+      "municipality_mae": 0.11075842126512601,
+      "equal_region_mse": 0.023105427860713474,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.001166160886982506,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.002445823465280483,
+        -4.465220047373168e-05
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0035735026693430407,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.006320634037917834,
+        -0.0011842620217379749
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1502,
+      "regions": 68,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.1288594366296531,
+      "municipality_mae": 0.10208850279647741,
+      "equal_region_mse": 0.01953192519137044,
+      "equal_region_mse_improvement_vs_controls": 0.0035735026693430407,
+      "paired_region_bootstrap_improvement_95": [
+        0.0011842620217379736,
+        0.006320634037917832
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.002407341782360534,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00010836420853890775,
+        0.004949957731245496
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1502,
+      "regions": 68,
+      "predictor": "controls_plus_shared_ratio_level",
+      "municipality_rmse": 0.13910028511402533,
+      "municipality_mae": 0.1108791886684844,
+      "equal_region_mse": 0.023455465201075654,
+      "equal_region_mse_improvement_vs_controls": -0.0003500373403621781,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0007206998528616543,
+        -5.318336446810672e-05
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0015161982273446844,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.003093732452424798,
+        -0.00017045140149451164
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.003923540009705219,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.006963753762040038,
+        -0.0013633700071938762
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1502,
+      "regions": 68,
+      "predictor": "controls_plus_denominator_free_contrasts",
+      "municipality_rmse": 0.1293716895463024,
+      "municipality_mae": 0.10246000232178376,
+      "equal_region_mse": 0.01996291685210549,
+      "equal_region_mse_improvement_vs_controls": 0.0031425110086079856,
+      "paired_region_bootstrap_improvement_95": [
+        0.0007756982833748638,
+        0.0057497924288159715
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0019763501216254788,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0007369122129053225,
+        0.00457911536067559
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.00043099166073505557,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0009281485370741357,
+        -3.2014809060268375e-05
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1502,
+      "regions": 68,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.13827046245347047,
+      "municipality_mae": 0.10970776536728304,
+      "equal_region_mse": 0.021939266973730966,
+      "equal_region_mse_improvement_vs_controls": 0.001166160886982506,
+      "paired_region_bootstrap_improvement_95": [
+        4.4652200473731635e-05,
+        0.0024458234652804827
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.002407341782360534,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.004949957731245497,
+        0.00010836420853890761
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1502,
+      "regions": 68,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.13787853776235076,
+      "municipality_mae": 0.11021601454286524,
+      "equal_region_mse": 0.021356166731606292,
+      "equal_region_mse_improvement_vs_controls": 0.0017492611291071841,
+      "paired_region_bootstrap_improvement_95": [
+        0.0003761246011046782,
+        0.0033311470722838616
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0005831002421246778,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -2.3965791821605546e-05,
+        0.0012811423338565924
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0018242415402358562,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.004418207630360756,
+        0.0008819002864086663
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1502,
+      "regions": 68,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.13804862475147456,
+      "municipality_mae": 0.11033234836189364,
+      "equal_region_mse": 0.021555081705751943,
+      "equal_region_mse_improvement_vs_controls": 0.0015503461549615306,
+      "paired_region_bootstrap_improvement_95": [
+        0.00027286909436329476,
+        0.003007293488173677
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0003841852679790245,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.000143015973478648,
+        0.001014697761200652
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.00202315651438151,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.004566124153443026,
+        0.0005819282821619885
+      ]
+    }
+  ]
+}

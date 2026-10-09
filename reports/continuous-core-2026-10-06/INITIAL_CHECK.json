@@ -1,0 +1,10 @@
+{
+  "archive_sha256": "11a2eaf00a551978ed47fa77bbd72438475f4e8984fcde54cd078e625ebe998d",
+  "zip_crc": "PASS",
+  "return_payload_hashes": "PASS",
+  "task_request_commit_match": true,
+  "copied_request_hash_match": true,
+  "original_input_files_matched": 160,
+  "original_input_mismatches": [],
+  "received_files": 359
+}

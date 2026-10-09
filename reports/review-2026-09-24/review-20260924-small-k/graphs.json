@@ -1,0 +1,11 @@
+{
+  "attribute": {
+    "k": 15,
+    "symmetry": "union",
+    "sigma": 0.18752701242227154,
+    "edges": 20479,
+    "components": 1,
+    "isolates": 0,
+    "median_strength": 10.967129328989014
+  }
+}

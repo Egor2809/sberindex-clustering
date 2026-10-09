@@ -1,0 +1,62 @@
+[
+  {
+    "representation": "2023-01-01",
+    "reference": {
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.18633143424952855,
+      "edges": 20592,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.944298179174226
+    },
+    "local": {
+      "kernel": "exp(-d2/(sigma_i*sigma_j))",
+      "scale_neighbor": 7,
+      "k": 15,
+      "components": 1,
+      "edges": 20592,
+      "isolates": 0
+    }
+  },
+  {
+    "representation": "2023-06-01",
+    "reference": {
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.20060755766226784,
+      "edges": 20610,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.927567369978085
+    },
+    "local": {
+      "kernel": "exp(-d2/(sigma_i*sigma_j))",
+      "scale_neighbor": 7,
+      "k": 15,
+      "components": 1,
+      "edges": 20610,
+      "isolates": 0
+    }
+  },
+  {
+    "representation": "2023-12-01",
+    "reference": {
+      "k": 15,
+      "symmetry": "union",
+      "sigma": 0.1986176241514097,
+      "edges": 20532,
+      "components": 1,
+      "isolates": 0,
+      "median_strength": 10.968699311974001
+    },
+    "local": {
+      "kernel": "exp(-d2/(sigma_i*sigma_j))",
+      "scale_neighbor": 7,
+      "k": 15,
+      "components": 1,
+      "edges": 20532,
+      "isolates": 0
+    }
+  }
+]

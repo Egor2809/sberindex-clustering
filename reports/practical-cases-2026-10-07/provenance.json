@@ -1,0 +1,50 @@
+{
+  "inputs": [
+    {
+      "role": "atlas",
+      "path": "docs/index.html",
+      "sha256": "cd0f733e02c2019fa81459a50a986c5df421acf284df254c40dd140bcb9b64cd"
+    },
+    {
+      "role": "bridge",
+      "path": "reports/external-v4/municipality_bridge.csv",
+      "sha256": "3898c2201a871cbcc1fca4b5c1f09a7be5ed68583b12338e8bf55cc91e9b5bc5"
+    },
+    {
+      "role": "cohort",
+      "path": "reports/external-national-2026-10-03/cohort-2023.csv",
+      "sha256": "dcfcf2ac0af503d696f9492bc8c1bc4e38977cc2bd1b6c12da66463f761d9c62"
+    },
+    {
+      "role": "paired",
+      "path": "reports/temporal-core-2026-10-03/paired-reference/assignments.csv",
+      "sha256": "ad5bfc2bf0e3238223eb8c9c8f358bbbabf0bb8d72cab1f8fd7a8f03f58b7437"
+    },
+    {
+      "role": "abazinsky",
+      "path": "reports/round2-cases/abazinsky.json",
+      "sha256": "c8f77c857a34977f527f8f51ab37f32c9189aa3693294ab5a8aae8394507297f"
+    },
+    {
+      "role": "sector_validation",
+      "path": "reports/economic-generalization-2026-10-03/sectors/results.json",
+      "sha256": "d24b76cb9428f3915d93f816d23e5674e6888e8d9a3dc58aa8f3a3814d71cb3f"
+    },
+    {
+      "role": "external_manifest",
+      "path": "reports/external-national-2026-10-03/manifest.json",
+      "sha256": "dc2c95cc0bcc41ec8f1c23c5cc18a0791d9b7371ecbb2a1a32cf4955f601f8f9"
+    }
+  ],
+  "decoded_payload_sha256": "d5ec36081c5ba34614ecefe51aa564f6c8c1bdfe20b30b486282fd2a47a9fb35",
+  "authoritative_atlas_input": "decoded_payload_sha256; this is independent of HTML presentation",
+  "atlas_html_hash_role": "Historical input file at calculation time, not a required hash of the final assembled HTML",
+  "script_sha256": "a9d4d22217dc45c00991b2022900bed0d48edacbb47cc2581543a33037405453",
+  "command": "python -X utf8 scripts/build_practical_cases.py",
+  "profile_rule": "Median of monthly category/All categories ratios in 2023, then median across municipalities in a frozen group. Ratios need not be additive or disjoint.",
+  "expense_semantics": "Model estimate of average monthly cashless consumer expenses of municipal residents; no repeated division by population",
+  "wage_semantics": "Average monthly organization wage excluding small businesses, not all resident income",
+  "analogue_rule": "Euclidean distance over saved 5 standardized annual features, ID ascending tie break. Same municipal type, symmetric expense factor 1.25; region reported, not filtered.",
+  "scope": "Descriptive historical cases. No new fitting, no causal effect, no industry labels, no 2025 outcomes.",
+  "selection": "First entity_id in the raw-change-only subset for both adjustments; illustrative retrospective choice"
+}

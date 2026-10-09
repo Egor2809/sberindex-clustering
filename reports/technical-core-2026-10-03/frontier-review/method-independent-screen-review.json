@@ -1,0 +1,115 @@
+{
+  "status": "pass",
+  "scope": "read-only independent source+algebra+saved-artifact audit; no fitting",
+  "CH_bound_derivation": "At fixed N,K,TSS=T and baseline SSE=S0, CH/CH0=(T/S-1)/(T/S0-1); requiring ratio>=r is exactly S<=T/[1+r(T/S0-1)] on 0<S0<T. SSE uses original-coordinate partition centroids, not saved transformed decision centers.",
+  "source_fingerprints_match": {
+    "sbercluster/selection_frontier.py": true,
+    "scripts/benchmark_frontier.py": true,
+    "sbercluster/research.py": true,
+    "sbercluster/features.py": true,
+    "sbercluster/metrics.py": true,
+    "sbercluster/graph.py": true,
+    "sbercluster/published_inputs.py": true
+  },
+  "archive_fingerprints_match": {
+    "features.npy": true,
+    "labels.json": true,
+    "models.json": true,
+    "provenance.json": true,
+    "screen.json": true,
+    "shortlist.json": true,
+    "source/sbercluster/features.py": true,
+    "source/sbercluster/graph.py": true,
+    "source/sbercluster/metrics.py": true,
+    "source/sbercluster/published_inputs.py": true,
+    "source/sbercluster/research.py": true,
+    "source/sbercluster/selection_frontier.py": true,
+    "source/scripts/benchmark_frontier.py": true,
+    "status.json": true
+  },
+  "fresh_raw_frozen_feature_coordinates_exact": true,
+  "fit_call_keywords": [
+    {
+      "lineno": 138,
+      "keywords": [
+        "initial_labels",
+        "distances"
+      ]
+    },
+    {
+      "lineno": 184,
+      "keywords": [
+        "distances"
+      ]
+    },
+    {
+      "lineno": 201,
+      "keywords": [
+        "distances"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "historical_kmeans4",
+      "occupied_k": 4,
+      "SSE_original_centroids": 463.41792271550827,
+      "CH_independent": 779.8270404177409,
+      "CH_recorded": 779.8270404177405,
+      "CH_error": 4.547473508864641e-13,
+      "prediction_roundtrip_exact": true,
+      "minimum_CH_ratio": null,
+      "SSE_bound_independent": null,
+      "SSE_bound_recorded": null,
+      "final_partition_obeys_CH_bound": null,
+      "perturbed_prediction_exact": true
+    },
+    {
+      "id": "sw_constrained_ordinary",
+      "occupied_k": 4,
+      "SSE_original_centroids": 476.2083204095325,
+      "CH_independent": 740.8684784372734,
+      "CH_recorded": 740.8684784372731,
+      "CH_error": 3.410605131648481e-13,
+      "prediction_roundtrip_exact": true,
+      "minimum_CH_ratio": 0.95,
+      "SSE_bound_independent": 476.2193830124522,
+      "SSE_bound_recorded": 476.2193830124522,
+      "final_partition_obeys_CH_bound": true,
+      "perturbed_prediction_exact": true
+    },
+    {
+      "id": "sw_constrained_covariance50",
+      "occupied_k": 4,
+      "SSE_original_centroids": 476.16701249025596,
+      "CH_independent": 740.9909303885855,
+      "CH_recorded": 740.9909303885851,
+      "CH_error": 4.547473508864641e-13,
+      "prediction_roundtrip_exact": true,
+      "minimum_CH_ratio": 0.95,
+      "SSE_bound_independent": 476.2193830124522,
+      "SSE_bound_recorded": 476.2193830124522,
+      "final_partition_obeys_CH_bound": true,
+      "perturbed_prediction_exact": true
+    },
+    {
+      "id": "sw_constrained_huber75",
+      "occupied_k": 4,
+      "SSE_original_centroids": 476.1946268823182,
+      "CH_independent": 740.909068762809,
+      "CH_recorded": 740.9090687628085,
+      "CH_error": 5.684341886080801e-13,
+      "prediction_roundtrip_exact": true,
+      "minimum_CH_ratio": 0.95,
+      "SSE_bound_independent": 476.2193830124522,
+      "SSE_bound_recorded": 476.2193830124522,
+      "final_partition_obeys_CH_bound": true,
+      "perturbed_prediction_exact": true
+    }
+  ],
+  "limitations": [
+    "Accepted tuning trace records SW but no per-trial SSE; exact bound enforced in read source before any trial SW evaluation.",
+    "Cross-quarter fit calls have no initial_labels; frozen full-2023 scaler/cohort already inspected; this is sensitivity, not untouched confirmation.",
+    "No criterion or conclusion about independent economic validity follows from SW/CH gains."
+  ]
+}

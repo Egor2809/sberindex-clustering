@@ -1,0 +1,86 @@
+{
+  "schema": 1,
+  "capture_mode": "Rendered ChatGPT answer and RETURN.md preview, selected statements transcribed; original ZIP bytes not received",
+  "archive_hashes_locally_verified": false,
+  "selected_ui_model": "6 Pro / Latest / 5/5; selection observed before dispatch and not changed",
+  "acceptance_policy": "External findings accepted only after local reproduction and targeted correction; external synthetic counts are reviewer reported",
+  "reviews": [
+    {
+      "task_id": "pro-offline-acceptance-20261004",
+      "request_sha256": "1ae42e024260a04303943db4190936bff54399f31b64e4198a64c6016b63813c",
+      "status_in_return": "complete",
+      "decision": "FIX_REQUIRED_FOR_FULL_GATE",
+      "input_runner_sha256": "d551497dc0c81ada721e8f3721ad7dd97958b40ac3cd904f71907bf1151edb31",
+      "reviewer_reported_checks": {
+        "supplied_unit_tests": 12,
+        "adversarial_cases": 44,
+        "synthetic_replayed_labels": 18
+      },
+      "limitations": [
+        "Full repository report packages and several modules absent from handoff",
+        "No real6048 replay or Windows run by external reviewer",
+        "Synthetic Linux CPython3.13.5, not full pinned Linux CI"
+      ],
+      "findings": [
+        {
+          "id": "F01",
+          "issue": "Canonical structural packet validation missing",
+          "local_disposition": "Reproduced and fixed"
+        },
+        {
+          "id": "F02",
+          "issue": "Unexpected dependency failure accepted as intentional refusal",
+          "local_disposition": "Reproduced and fixed"
+        }
+      ],
+      "reported_zip_sha256": "f765944bc978c85e94d43a2e0fb6fa32cb89b22f871f64a4244be3910d66af16"
+    },
+    {
+      "task_id": "pro-future-protocol-20261004",
+      "request_sha256": "bf64db375312c35729d2b66ebfb7d24b86b1a98c86c817f943999a91847e13d2",
+      "status_in_return": "complete",
+      "decision": "CONDITIONALLY ADMISSIBLE; ACTUAL2025 SOURCE/OUTCOME NOT ADMITTED BY INITIAL REVIEW",
+      "fixed_protocol_sha256": "18725c1f20bf19919e4eeb545c80669ceb1cc708ef9f5e39f4f1b577d8606872",
+      "reviewer_reported_checks": {
+        "synthetic_tests": 30,
+        "compositions": 10,
+        "metric_rows": 120,
+        "directed_comparison_rows": 1440
+      },
+      "limitations": [
+        "Real predictions CSV not supplied in initial handoff",
+        "No new wage values accessed",
+        "Metadata and new implementation require separate supplement admission"
+      ],
+      "findings": [
+        {
+          "id": "R1",
+          "issue": "Old gain convention is opposite to fixed delta",
+          "local_disposition": "New module computes direct delta, independent oracle test"
+        },
+        {
+          "id": "R2",
+          "issue": "Old sample variance undefined for all singleton regions",
+          "local_disposition": "New module uses null and explicit pair scope, independent oracle test"
+        }
+      ],
+      "reported_zip_sha256": "1dc59b981fe7be26a86ddb9143831ec5d530e0686562d713324b2ddfe77fe653"
+    }
+  ],
+  "download_limitation": "Browser download controls and viewer returned no download event or local file; no authenticated URL/API bypass used",
+  "future_supplement": {
+    "status": "COMPLETE_EXTERNALLY; CRITICAL_CSV_FINDING_CLOSED_LOCALLY; ACTUAL_SCORE_HELD",
+    "input_zip_sha256": "441798c662cd42262ad541cf4e42bda0585af2026e4f01c1d40cb55ba65d3def",
+    "module_sha256": "020b42d1366d92b407db6bce233874726ad816dfde879f729a5a7520f70d8d59",
+    "reviewer_reported_checks": {
+      "supplied_tests": 22,
+      "named_checks": 21,
+      "passed": 17,
+      "confirmed_strictness_gap": 4
+    },
+    "finding": "S1: quotes, metadata duplicate headers and predictions/metadata malformed row widths",
+    "local_disposition": "Strict CSV syntax, duplicate metadata headers and row widths fixed; independent local acceptance",
+    "registry_limitation": "External reviewer did not receive registry or actual predictions/member bytes",
+    "final_local_module_sha256": "b58fa23f12d974e4ddeefad0788de9e7b498588881bc6141abe1e5c8eccf02e8"
+  }
+}

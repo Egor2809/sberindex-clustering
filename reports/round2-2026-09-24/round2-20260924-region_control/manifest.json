@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "stage": "region_control",
+  "source_files_sha256": {
+    "external_comparison.json": "3d720a14967f35137725efd5e7a15d9eccb8e1edca1050e6a1b90f4a1773563b",
+    "graphs.json": "b8ba1b219cdf26806229661378444790fbea59addf522a65fc72305d2a03073f",
+    "labels.json": "2903999c2d31eb6b9417f1c9c3418c16a2bbddb003da4375e76a314f19e4dfc2",
+    "metrics.csv": "5f3bff0837936712f7fe17047d7135d0299eb89538d1d7918fad4c5f24d45955",
+    "metrics.json": "af699c940a62c5ecfcd9bd29de5f54dbed79ceb4b8bd81ee01913655bdd999ad",
+    "regional_effect.json": "e33aa4713b9ce7cf9976fd9420a1d861df3db9022876fbcab7706806d84e17a3",
+    "status.json": "3d306b5586a2597333f1a9fb0c95ec46e885d43916c3a0422b4e2d905270f0c7",
+    "summary.json": "3d306b5586a2597333f1a9fb0c95ec46e885d43916c3a0422b4e2d905270f0c7"
+  },
+  "files_sha256": {
+    "external_comparison.json": "3d720a14967f35137725efd5e7a15d9eccb8e1edca1050e6a1b90f4a1773563b",
+    "graphs.json": "b8ba1b219cdf26806229661378444790fbea59addf522a65fc72305d2a03073f",
+    "labels.json.gz": "df850a4e2acf73e6a7bab9a0237e2bb101730205edc5f3d53209f8a01598ac65",
+    "metrics.csv": "5f3bff0837936712f7fe17047d7135d0299eb89538d1d7918fad4c5f24d45955",
+    "metrics.json": "af699c940a62c5ecfcd9bd29de5f54dbed79ceb4b8bd81ee01913655bdd999ad",
+    "provenance.json": "10a0268164d451cb96a859936c0ec52e7099902b7d9082268b1c808db8150915",
+    "regional_effect.json": "e33aa4713b9ce7cf9976fd9420a1d861df3db9022876fbcab7706806d84e17a3",
+    "status.json": "3d306b5586a2597333f1a9fb0c95ec46e885d43916c3a0422b4e2d905270f0c7",
+    "summary.json": "3d306b5586a2597333f1a9fb0c95ec46e885d43916c3a0422b4e2d905270f0c7"
+  },
+  "source_objects": {
+    "sbercluster/round2.py": "616a5aac84070739715f3622aff489beb8a2712926f55079fa83c0d3546ed413",
+    "sbercluster/followup.py": "e68fe157e0db40e59ad1731607c347b293e0f079f9359fbae982cc88089a76dc",
+    "sbercluster/joint.py": "dff858b2c30adf8a3e257a52dc049135a9a3b0381322a9e21bee8aab9c611cb0",
+    "sbercluster/features.py": "e22aad131f816027d8a41aa7cff5fcedc54c0f0489a56d092a95df7170dc139b",
+    "sbercluster/graph.py": "9475d10e4927a8094a1558f262da788a44b8d6c02686637bf443785d1010532f",
+    "sbercluster/metrics.py": "9fded2f77b6fd4a53141f7f0f0dc1092999b42fdf792985e102331e3c9897928",
+    "sbercluster/models.py": "d99054dfa50bf0d7c7803863b5620cd7f041ec1ca36e5a78128e178df257cf1b",
+    "sbercluster/contest_graphs.py": "6ebfddbd10b05d26312d583858625b0d3742940dcde5dd3ce43e2bcdceb3dc4f",
+    "sbercluster/dynamics.py": "9f00960e9c868200235e0aa0dc87d5ab6c3fe3755428bab671f816b073a424e3",
+    "sbercluster/io.py": "89f49856593b24d525bddeada28624b46279aa6f211b72e02e95d9c1db61fdf9",
+    "sbercluster/published_inputs.py": "3a19cf1747f431e761be2af0973f36e5e54b0d60f9916685bc20d496010847ae",
+    "sbercluster/research.py": "62675a7557fed94989f57b4f360eb56289a26214d9f6a7b0e65d09986cc79afd",
+    "scripts/external_validation_v4.py": "d160269340576bbac90f7bb3c451625c77789e1578e1988887caf5956a52516e"
+  },
+  "source_object_root": "../source_objects",
+  "scope": "Exploratory; no untouched 2024 holdout"
+}

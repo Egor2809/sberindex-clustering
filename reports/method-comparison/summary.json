@@ -1,0 +1,1663 @@
+{
+  "n": 2016,
+  "partitions": 54,
+  "axes": {
+    "X23": "2023 annual profile features",
+    "P23": "2023 kNN profile graph",
+    "C23": "2023 lagged co-movement graph",
+    "R": "road graph (observed highway pairs)",
+    "X24": "2024 features, 2023 labels kept",
+    "P24": "2024 kNN profile graph, 2023 labels kept",
+    "C24": "2024 co-movement graph, 2023 labels kept"
+  },
+  "roles": {
+    "fit": "axis used by the method for fitting; circular",
+    "selection": "axis used by the first (pre-2026-10-07) version of the rule that selected this partition; excluded from its winners and ranks like a fitted axis",
+    "year_2024": "same kind of axis one year later",
+    "external": "graph the method never saw"
+  },
+  "first_selection": {
+    "network_typology": [
+      "C24",
+      "X24"
+    ],
+    "network_two_level": [
+      "C24",
+      "X24"
+    ]
+  },
+  "degenerate": {
+    "2": [
+      "C23_AVU",
+      "C24_AVU",
+      "P23_AVU",
+      "P24_AVU",
+      "R_AVU"
+    ],
+    "3": [
+      "C23_AVU",
+      "C24_AVU",
+      "P23_AVU",
+      "P24_AVU",
+      "R_AVU"
+    ],
+    "4": [],
+    "6": []
+  },
+  "neutral_keys": [
+    "R_MQ",
+    "C24_MQ",
+    "P24_MQ",
+    "X24_SW"
+  ],
+  "min_size": 20,
+  "winners": {
+    "2": {
+      "C23_AVI": {
+        "partition": "ward_k2",
+        "family": "Ward",
+        "value": 0.859202,
+        "candidates": 7
+      },
+      "C23_MQ": {
+        "partition": "kmeans_k2",
+        "family": "KMeans",
+        "value": 0.243416,
+        "candidates": 7
+      },
+      "R_AVI": {
+        "partition": "ward_k2",
+        "family": "Ward",
+        "value": 0.90356,
+        "candidates": 3
+      },
+      "R_MQ": {
+        "partition": "ward_k2",
+        "family": "Ward",
+        "value": 0.223873,
+        "candidates": 3
+      },
+      "X24_SW": {
+        "partition": "joint_same_region_k2",
+        "family": "совместная модель: профиль и регион",
+        "value": 0.400403,
+        "candidates": 7
+      },
+      "X24_CH": {
+        "partition": "kmeans_k2",
+        "family": "KMeans",
+        "value": 1433.001202,
+        "candidates": 7
+      },
+      "X24_S_Dbw": {
+        "partition": "ward_k2",
+        "family": "Ward",
+        "value": 0.786576,
+        "candidates": 7
+      },
+      "P24_AVI": {
+        "partition": "ward_k2",
+        "family": "Ward",
+        "value": 0.959446,
+        "candidates": 7
+      },
+      "P24_MQ": {
+        "partition": "kmeans_k2",
+        "family": "KMeans",
+        "value": 0.36445,
+        "candidates": 7
+      },
+      "C24_AVI": {
+        "partition": "ward_k2",
+        "family": "Ward",
+        "value": 0.837374,
+        "candidates": 7
+      },
+      "C24_MQ": {
+        "partition": "joint_same_region_k2",
+        "family": "совместная модель: профиль и регион",
+        "value": 0.232287,
+        "candidates": 7
+      }
+    },
+    "3": {
+      "C23_AVI": {
+        "partition": "ward_k3",
+        "family": "Ward",
+        "value": 0.674159,
+        "candidates": 4
+      },
+      "C23_MQ": {
+        "partition": "ward_k3",
+        "family": "Ward",
+        "value": 0.266592,
+        "candidates": 4
+      },
+      "R_AVI": {
+        "partition": "registry_type3",
+        "family": "тип МО по реестру (без обучения)",
+        "value": 0.683126,
+        "candidates": 5
+      },
+      "R_MQ": {
+        "partition": "kmeans_k3",
+        "family": "KMeans",
+        "value": 0.302259,
+        "candidates": 5
+      },
+      "X24_SW": {
+        "partition": "spectral3_profile_comovement",
+        "family": "спектральная на графе профиля и совместного движения",
+        "value": 0.255299,
+        "candidates": 5
+      },
+      "X24_CH": {
+        "partition": "kmeans_k3",
+        "family": "KMeans",
+        "value": 938.256206,
+        "candidates": 5
+      },
+      "X24_S_Dbw": {
+        "partition": "joint_road_k3",
+        "family": "совместная модель: профиль и дороги",
+        "value": 0.895096,
+        "candidates": 5
+      },
+      "P24_AVI": {
+        "partition": "network_typology",
+        "family": "сетевая типология Leiden (профиль и совместное движение)",
+        "value": 0.879513,
+        "candidates": 6
+      },
+      "P24_MQ": {
+        "partition": "kmeans_k3",
+        "family": "KMeans",
+        "value": 0.478349,
+        "candidates": 6
+      },
+      "C24_AVI": {
+        "partition": "spectral3_profile_comovement",
+        "family": "спектральная на графе профиля и совместного движения",
+        "value": 0.652272,
+        "candidates": 5
+      },
+      "C24_MQ": {
+        "partition": "spectral3_profile_comovement",
+        "family": "спектральная на графе профиля и совместного движения",
+        "value": 0.234608,
+        "candidates": 5
+      }
+    },
+    "4": {
+      "X23_SW": {
+        "partition": "registry_type4",
+        "family": "тип МО по реестру (без обучения)",
+        "value": 0.029619,
+        "candidates": 2
+      },
+      "X23_CH": {
+        "partition": "registry_type4",
+        "family": "тип МО по реестру (без обучения)",
+        "value": 252.417399,
+        "candidates": 2
+      },
+      "X23_S_Dbw": {
+        "partition": "registry_type4",
+        "family": "тип МО по реестру (без обучения)",
+        "value": 1.066624,
+        "candidates": 2
+      },
+      "P23_AVI": {
+        "partition": "leiden_comovement_only",
+        "family": "Leiden только на совместном движении",
+        "value": 0.605859,
+        "candidates": 2
+      },
+      "P23_AVU": {
+        "partition": "registry_type4",
+        "family": "тип МО по реестру (без обучения)",
+        "value": 0.538449,
+        "candidates": 2
+      },
+      "P23_MQ": {
+        "partition": "leiden_comovement_only",
+        "family": "Leiden только на совместном движении",
+        "value": 0.251508,
+        "candidates": 2
+      },
+      "C23_AVI": {
+        "partition": "leiden_profile_only",
+        "family": "Leiden на графе профилей",
+        "value": 0.550447,
+        "candidates": 13
+      },
+      "C23_AVU": {
+        "partition": "registry_type4",
+        "family": "тип МО по реестру (без обучения)",
+        "value": 0.530351,
+        "candidates": 13
+      },
+      "C23_MQ": {
+        "partition": "ward_k4",
+        "family": "Ward",
+        "value": 0.262511,
+        "candidates": 13
+      },
+      "R_AVI": {
+        "partition": "joint_same_region_k4",
+        "family": "совместная модель: профиль и регион",
+        "value": 0.705808,
+        "candidates": 9
+      },
+      "R_AVU": {
+        "partition": "leiden_comovement_only",
+        "family": "Leiden только на совместном движении",
+        "value": 0.508109,
+        "candidates": 9
+      },
+      "R_MQ": {
+        "partition": "joint_same_region_k4",
+        "family": "совместная модель: профиль и регион",
+        "value": 0.363778,
+        "candidates": 9
+      },
+      "X24_SW": {
+        "partition": "huber75_k4",
+        "family": "Huber75",
+        "value": 0.260091,
+        "candidates": 14
+      },
+      "X24_CH": {
+        "partition": "kmeans_k4",
+        "family": "KMeans",
+        "value": 831.301491,
+        "candidates": 14
+      },
+      "X24_S_Dbw": {
+        "partition": "joint_same_region_k4",
+        "family": "совместная модель: профиль и регион",
+        "value": 0.818116,
+        "candidates": 14
+      },
+      "P24_AVI": {
+        "partition": "spectral_local_k4",
+        "family": "спектральная на графе профилей",
+        "value": 0.85155,
+        "candidates": 14
+      },
+      "P24_AVU": {
+        "partition": "joint_road_sensitivity_k4",
+        "family": "совместная модель: профиль и дороги",
+        "value": 0.514326,
+        "candidates": 14
+      },
+      "P24_MQ": {
+        "partition": "leiden_profile_only",
+        "family": "Leiden на графе профилей",
+        "value": 0.522083,
+        "candidates": 14
+      },
+      "C24_AVI": {
+        "partition": "leiden_comovement_only",
+        "family": "Leiden только на совместном движении",
+        "value": 0.63848,
+        "candidates": 14
+      },
+      "C24_AVU": {
+        "partition": "leiden_comovement_only",
+        "family": "Leiden только на совместном движении",
+        "value": 0.531945,
+        "candidates": 14
+      },
+      "C24_MQ": {
+        "partition": "leiden_comovement_only",
+        "family": "Leiden только на совместном движении",
+        "value": 0.237227,
+        "candidates": 14
+      }
+    },
+    "6": {
+      "C23_AVI": {
+        "partition": "temporal_leiden_seed3141",
+        "family": "временной Leiden (24 месяца, профиль и дороги)",
+        "value": 0.427703,
+        "candidates": 6
+      },
+      "C23_AVU": {
+        "partition": "temporal_leiden_seed2718",
+        "family": "временной Leiden (24 месяца, профиль и дороги)",
+        "value": 0.416351,
+        "candidates": 6
+      },
+      "C23_MQ": {
+        "partition": "temporal_leiden_seed3141",
+        "family": "временной Leiden (24 месяца, профиль и дороги)",
+        "value": 0.242979,
+        "candidates": 6
+      },
+      "R_AVI": {
+        "partition": "ward_k6",
+        "family": "Ward",
+        "value": 0.531528,
+        "candidates": 4
+      },
+      "R_AVU": {
+        "partition": "ward_k6",
+        "family": "Ward",
+        "value": 0.433669,
+        "candidates": 4
+      },
+      "R_MQ": {
+        "partition": "gmm_full_k6",
+        "family": "Gaussian mixture",
+        "value": 0.324483,
+        "candidates": 4
+      },
+      "X24_SW": {
+        "partition": "kmeans_k6",
+        "family": "KMeans",
+        "value": 0.179647,
+        "candidates": 4
+      },
+      "X24_CH": {
+        "partition": "kmeans_k6",
+        "family": "KMeans",
+        "value": 642.617767,
+        "candidates": 4
+      },
+      "X24_S_Dbw": {
+        "partition": "spectral_local_k6",
+        "family": "спектральная на графе профилей",
+        "value": 0.784876,
+        "candidates": 4
+      },
+      "P24_AVI": {
+        "partition": "spectral_local_k6",
+        "family": "спектральная на графе профилей",
+        "value": 0.782467,
+        "candidates": 4
+      },
+      "P24_AVU": {
+        "partition": "ward_k6",
+        "family": "Ward",
+        "value": 0.471915,
+        "candidates": 4
+      },
+      "P24_MQ": {
+        "partition": "kmeans_k6",
+        "family": "KMeans",
+        "value": 0.546223,
+        "candidates": 4
+      },
+      "C24_AVI": {
+        "partition": "temporal_leiden_seed2718",
+        "family": "временной Leiden (24 месяца, профиль и дороги)",
+        "value": 0.408535,
+        "candidates": 6
+      },
+      "C24_AVU": {
+        "partition": "temporal_leiden_seed2718",
+        "family": "временной Leiden (24 месяца, профиль и дороги)",
+        "value": 0.416455,
+        "candidates": 6
+      },
+      "C24_MQ": {
+        "partition": "temporal_leiden_seed3141",
+        "family": "временной Leiden (24 месяца, профиль и дороги)",
+        "value": 0.22119,
+        "candidates": 6
+      }
+    }
+  },
+  "neutral_rank": {
+    "2": [
+      {
+        "partition": "joint_same_region_k2",
+        "family": "совместная модель: профиль и регион",
+        "mean_rank": 1.5,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            2,
+            3
+          ],
+          "C24_MQ": [
+            1,
+            7
+          ],
+          "P24_MQ": [
+            2,
+            7
+          ],
+          "X24_SW": [
+            1,
+            7
+          ]
+        },
+        "R_MQ": 0.21887,
+        "C24_MQ": 0.232287,
+        "P24_MQ": 0.322901,
+        "X24_SW": 0.400403
+      },
+      {
+        "partition": "kmeans_k2",
+        "family": "KMeans",
+        "mean_rank": 2.25,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            3,
+            3
+          ],
+          "C24_MQ": [
+            2,
+            7
+          ],
+          "P24_MQ": [
+            1,
+            7
+          ],
+          "X24_SW": [
+            3,
+            7
+          ]
+        },
+        "R_MQ": 0.190937,
+        "C24_MQ": 0.22705,
+        "P24_MQ": 0.36445,
+        "X24_SW": 0.391002
+      },
+      {
+        "partition": "joint_road_k2",
+        "family": "совместная модель: профиль и дороги",
+        "mean_rank": 2.667,
+        "axes": 3,
+        "places": {
+          "C24_MQ": [
+            3,
+            7
+          ],
+          "P24_MQ": [
+            3,
+            7
+          ],
+          "X24_SW": [
+            2,
+            7
+          ]
+        },
+        "R_MQ": 0.222707,
+        "C24_MQ": 0.22133,
+        "P24_MQ": 0.317989,
+        "X24_SW": 0.397394
+      },
+      {
+        "partition": "ward_k2",
+        "family": "Ward",
+        "mean_rank": 4.0,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            1,
+            3
+          ],
+          "C24_MQ": [
+            4,
+            7
+          ],
+          "P24_MQ": [
+            7,
+            7
+          ],
+          "X24_SW": [
+            4,
+            7
+          ]
+        },
+        "R_MQ": 0.223873,
+        "C24_MQ": 0.184588,
+        "P24_MQ": 0.226909,
+        "X24_SW": 0.372875
+      },
+      {
+        "partition": "dmon_k2_seed1729",
+        "family": "DMoN (признаки на дорожном графе)",
+        "mean_rank": 5.333,
+        "axes": 3,
+        "places": {
+          "C24_MQ": [
+            7,
+            7
+          ],
+          "P24_MQ": [
+            4,
+            7
+          ],
+          "X24_SW": [
+            5,
+            7
+          ]
+        },
+        "R_MQ": 0.412373,
+        "C24_MQ": 0.120361,
+        "P24_MQ": 0.251091,
+        "X24_SW": 0.180462
+      },
+      {
+        "partition": "dmon_k2_seed2718",
+        "family": "DMoN (признаки на дорожном графе)",
+        "mean_rank": 5.667,
+        "axes": 3,
+        "places": {
+          "C24_MQ": [
+            5,
+            7
+          ],
+          "P24_MQ": [
+            5,
+            7
+          ],
+          "X24_SW": [
+            7,
+            7
+          ]
+        },
+        "R_MQ": 0.409806,
+        "C24_MQ": 0.121232,
+        "P24_MQ": 0.249927,
+        "X24_SW": 0.179498
+      },
+      {
+        "partition": "dmon_k2_seed3141",
+        "family": "DMoN (признаки на дорожном графе)",
+        "mean_rank": 6.0,
+        "axes": 3,
+        "places": {
+          "C24_MQ": [
+            6,
+            7
+          ],
+          "P24_MQ": [
+            6,
+            7
+          ],
+          "X24_SW": [
+            6,
+            7
+          ]
+        },
+        "R_MQ": 0.408957,
+        "C24_MQ": 0.121058,
+        "P24_MQ": 0.249524,
+        "X24_SW": 0.180062
+      }
+    ],
+    "3": [
+      {
+        "partition": "kmeans_k3",
+        "family": "KMeans",
+        "mean_rank": 1.75,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            1,
+            5
+          ],
+          "C24_MQ": [
+            2,
+            5
+          ],
+          "P24_MQ": [
+            1,
+            6
+          ],
+          "X24_SW": [
+            3,
+            5
+          ]
+        },
+        "R_MQ": 0.302259,
+        "C24_MQ": 0.223495,
+        "P24_MQ": 0.478349,
+        "X24_SW": 0.239861
+      },
+      {
+        "partition": "joint_road_k3",
+        "family": "совместная модель: профиль и дороги",
+        "mean_rank": 2.667,
+        "axes": 3,
+        "places": {
+          "C24_MQ": [
+            3,
+            5
+          ],
+          "P24_MQ": [
+            3,
+            6
+          ],
+          "X24_SW": [
+            2,
+            5
+          ]
+        },
+        "R_MQ": 0.363981,
+        "C24_MQ": 0.219577,
+        "P24_MQ": 0.41682,
+        "X24_SW": 0.244412
+      },
+      {
+        "partition": "spectral3_profile_comovement",
+        "family": "спектральная на графе профиля и совместного движения",
+        "mean_rank": 2.75,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            5,
+            5
+          ],
+          "C24_MQ": [
+            1,
+            5
+          ],
+          "P24_MQ": [
+            4,
+            6
+          ],
+          "X24_SW": [
+            1,
+            5
+          ]
+        },
+        "R_MQ": 0.183908,
+        "C24_MQ": 0.234608,
+        "P24_MQ": 0.394104,
+        "X24_SW": 0.255299
+      },
+      {
+        "partition": "ward_k3",
+        "family": "Ward",
+        "mean_rank": 3.25,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            2,
+            5
+          ],
+          "C24_MQ": [
+            5,
+            5
+          ],
+          "P24_MQ": [
+            2,
+            6
+          ],
+          "X24_SW": [
+            4,
+            5
+          ]
+        },
+        "R_MQ": 0.261231,
+        "C24_MQ": 0.217305,
+        "P24_MQ": 0.466195,
+        "X24_SW": 0.217685
+      },
+      {
+        "partition": "registry_type3",
+        "family": "тип МО по реестру (без обучения)",
+        "mean_rank": 4.5,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            3,
+            5
+          ],
+          "C24_MQ": [
+            4,
+            5
+          ],
+          "P24_MQ": [
+            6,
+            6
+          ],
+          "X24_SW": [
+            5,
+            5
+          ]
+        },
+        "R_MQ": 0.241823,
+        "C24_MQ": 0.219207,
+        "P24_MQ": 0.258025,
+        "X24_SW": 0.113838
+      },
+      {
+        "partition": "network_typology",
+        "family": "сетевая типология Leiden (профиль и совместное движение)",
+        "mean_rank": 4.5,
+        "axes": 2,
+        "places": {
+          "R_MQ": [
+            4,
+            5
+          ],
+          "P24_MQ": [
+            5,
+            6
+          ]
+        },
+        "R_MQ": 0.206526,
+        "C24_MQ": 0.258438,
+        "P24_MQ": 0.386374,
+        "X24_SW": 0.258587
+      }
+    ],
+    "4": [
+      {
+        "partition": "joint_same_region_k4",
+        "family": "совместная модель: профиль и регион",
+        "mean_rank": 3.75,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            1,
+            9
+          ],
+          "C24_MQ": [
+            5,
+            14
+          ],
+          "P24_MQ": [
+            6,
+            14
+          ],
+          "X24_SW": [
+            3,
+            14
+          ]
+        },
+        "R_MQ": 0.363778,
+        "C24_MQ": 0.22249,
+        "P24_MQ": 0.467235,
+        "X24_SW": 0.230752
+      },
+      {
+        "partition": "huber75_k4",
+        "family": "Huber75",
+        "mean_rank": 4.25,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            7,
+            9
+          ],
+          "C24_MQ": [
+            4,
+            14
+          ],
+          "P24_MQ": [
+            5,
+            14
+          ],
+          "X24_SW": [
+            1,
+            14
+          ]
+        },
+        "R_MQ": 0.267615,
+        "C24_MQ": 0.225853,
+        "P24_MQ": 0.474765,
+        "X24_SW": 0.260091
+      },
+      {
+        "partition": "joint_road_k4",
+        "family": "совместная модель: профиль и дороги",
+        "mean_rank": 4.667,
+        "axes": 3,
+        "places": {
+          "C24_MQ": [
+            3,
+            14
+          ],
+          "P24_MQ": [
+            7,
+            14
+          ],
+          "X24_SW": [
+            4,
+            14
+          ]
+        },
+        "R_MQ": 0.374543,
+        "C24_MQ": 0.229059,
+        "P24_MQ": 0.465469,
+        "X24_SW": 0.221258
+      },
+      {
+        "partition": "leiden_profile_only",
+        "family": "Leiden на графе профилей",
+        "mean_rank": 4.75,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            3,
+            9
+          ],
+          "C24_MQ": [
+            7,
+            14
+          ],
+          "P24_MQ": [
+            1,
+            14
+          ],
+          "X24_SW": [
+            8,
+            14
+          ]
+        },
+        "R_MQ": 0.30364,
+        "C24_MQ": 0.216889,
+        "P24_MQ": 0.522083,
+        "X24_SW": 0.159801
+      },
+      {
+        "partition": "ward_k4",
+        "family": "Ward",
+        "mean_rank": 4.75,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            5,
+            9
+          ],
+          "C24_MQ": [
+            6,
+            14
+          ],
+          "P24_MQ": [
+            3,
+            14
+          ],
+          "X24_SW": [
+            5,
+            14
+          ]
+        },
+        "R_MQ": 0.284446,
+        "C24_MQ": 0.222344,
+        "P24_MQ": 0.486784,
+        "X24_SW": 0.220082
+      },
+      {
+        "partition": "kmeans_k4",
+        "family": "KMeans",
+        "mean_rank": 5.0,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            6,
+            9
+          ],
+          "C24_MQ": [
+            10,
+            14
+          ],
+          "P24_MQ": [
+            2,
+            14
+          ],
+          "X24_SW": [
+            2,
+            14
+          ]
+        },
+        "R_MQ": 0.275573,
+        "C24_MQ": 0.208332,
+        "P24_MQ": 0.511828,
+        "X24_SW": 0.244169
+      },
+      {
+        "partition": "spectral_local_k4",
+        "family": "спектральная на графе профилей",
+        "mean_rank": 5.25,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            2,
+            9
+          ],
+          "C24_MQ": [
+            8,
+            14
+          ],
+          "P24_MQ": [
+            4,
+            14
+          ],
+          "X24_SW": [
+            7,
+            14
+          ]
+        },
+        "R_MQ": 0.315387,
+        "C24_MQ": 0.216741,
+        "P24_MQ": 0.483497,
+        "X24_SW": 0.18174
+      },
+      {
+        "partition": "gmm_full_k4",
+        "family": "Gaussian mixture",
+        "mean_rank": 6.0,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            8,
+            9
+          ],
+          "C24_MQ": [
+            2,
+            14
+          ],
+          "P24_MQ": [
+            8,
+            14
+          ],
+          "X24_SW": [
+            6,
+            14
+          ]
+        },
+        "R_MQ": 0.263825,
+        "C24_MQ": 0.235046,
+        "P24_MQ": 0.447581,
+        "X24_SW": 0.194247
+      },
+      {
+        "partition": "leiden_comovement_only",
+        "family": "Leiden только на совместном движении",
+        "mean_rank": 9.0,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            9,
+            9
+          ],
+          "C24_MQ": [
+            1,
+            14
+          ],
+          "P24_MQ": [
+            13,
+            14
+          ],
+          "X24_SW": [
+            13,
+            14
+          ]
+        },
+        "R_MQ": 0.209358,
+        "C24_MQ": 0.237227,
+        "P24_MQ": 0.25869,
+        "X24_SW": 0.05279
+      },
+      {
+        "partition": "joint_road_sensitivity_k4",
+        "family": "совместная модель: профиль и дороги",
+        "mean_rank": 9.333,
+        "axes": 3,
+        "places": {
+          "C24_MQ": [
+            9,
+            14
+          ],
+          "P24_MQ": [
+            10,
+            14
+          ],
+          "X24_SW": [
+            9,
+            14
+          ]
+        },
+        "R_MQ": 0.527393,
+        "C24_MQ": 0.209981,
+        "P24_MQ": 0.359198,
+        "X24_SW": 0.14368
+      },
+      {
+        "partition": "dmon_k4_seed2718",
+        "family": "DMoN (признаки на дорожном графе)",
+        "mean_rank": 10.333,
+        "axes": 3,
+        "places": {
+          "C24_MQ": [
+            12,
+            14
+          ],
+          "P24_MQ": [
+            9,
+            14
+          ],
+          "X24_SW": [
+            10,
+            14
+          ]
+        },
+        "R_MQ": 0.615268,
+        "C24_MQ": 0.190284,
+        "P24_MQ": 0.372663,
+        "X24_SW": 0.078347
+      },
+      {
+        "partition": "registry_type4",
+        "family": "тип МО по реестру (без обучения)",
+        "mean_rank": 10.75,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            4,
+            9
+          ],
+          "C24_MQ": [
+            11,
+            14
+          ],
+          "P24_MQ": [
+            14,
+            14
+          ],
+          "X24_SW": [
+            14,
+            14
+          ]
+        },
+        "R_MQ": 0.29782,
+        "C24_MQ": 0.194541,
+        "P24_MQ": 0.238607,
+        "X24_SW": 0.026002
+      },
+      {
+        "partition": "dmon_k4_seed1729",
+        "family": "DMoN (признаки на дорожном графе)",
+        "mean_rank": 11.667,
+        "axes": 3,
+        "places": {
+          "C24_MQ": [
+            13,
+            14
+          ],
+          "P24_MQ": [
+            11,
+            14
+          ],
+          "X24_SW": [
+            11,
+            14
+          ]
+        },
+        "R_MQ": 0.601997,
+        "C24_MQ": 0.188847,
+        "P24_MQ": 0.354662,
+        "X24_SW": 0.076034
+      },
+      {
+        "partition": "dmon_k4_seed3141",
+        "family": "DMoN (признаки на дорожном графе)",
+        "mean_rank": 12.667,
+        "axes": 3,
+        "places": {
+          "C24_MQ": [
+            14,
+            14
+          ],
+          "P24_MQ": [
+            12,
+            14
+          ],
+          "X24_SW": [
+            12,
+            14
+          ]
+        },
+        "R_MQ": 0.606481,
+        "C24_MQ": 0.174941,
+        "P24_MQ": 0.337633,
+        "X24_SW": 0.054789
+      }
+    ],
+    "6": [
+      {
+        "partition": "temporal_leiden_seed3141",
+        "family": "временной Leiden (24 месяца, профиль и дороги)",
+        "mean_rank": 1.0,
+        "axes": 1,
+        "places": {
+          "C24_MQ": [
+            1,
+            6
+          ]
+        },
+        "R_MQ": 0.603279,
+        "C24_MQ": 0.22119,
+        "P24_MQ": 0.429364,
+        "X24_SW": 0.08395
+      },
+      {
+        "partition": "temporal_leiden_seed2718",
+        "family": "временной Leiden (24 месяца, профиль и дороги)",
+        "mean_rank": 2.0,
+        "axes": 1,
+        "places": {
+          "C24_MQ": [
+            2,
+            6
+          ]
+        },
+        "R_MQ": 0.586475,
+        "C24_MQ": 0.216761,
+        "P24_MQ": 0.418871,
+        "X24_SW": 0.063709
+      },
+      {
+        "partition": "kmeans_k6",
+        "family": "KMeans",
+        "mean_rank": 2.25,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            3,
+            4
+          ],
+          "C24_MQ": [
+            4,
+            6
+          ],
+          "P24_MQ": [
+            1,
+            4
+          ],
+          "X24_SW": [
+            1,
+            4
+          ]
+        },
+        "R_MQ": 0.302629,
+        "C24_MQ": 0.193926,
+        "P24_MQ": 0.546223,
+        "X24_SW": 0.179647
+      },
+      {
+        "partition": "gmm_full_k6",
+        "family": "Gaussian mixture",
+        "mean_rank": 3.0,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            1,
+            4
+          ],
+          "C24_MQ": [
+            3,
+            6
+          ],
+          "P24_MQ": [
+            4,
+            4
+          ],
+          "X24_SW": [
+            4,
+            4
+          ]
+        },
+        "R_MQ": 0.324483,
+        "C24_MQ": 0.212761,
+        "P24_MQ": 0.49717,
+        "X24_SW": 0.104493
+      },
+      {
+        "partition": "ward_k6",
+        "family": "Ward",
+        "mean_rank": 3.25,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            2,
+            4
+          ],
+          "C24_MQ": [
+            5,
+            6
+          ],
+          "P24_MQ": [
+            3,
+            4
+          ],
+          "X24_SW": [
+            3,
+            4
+          ]
+        },
+        "R_MQ": 0.304223,
+        "C24_MQ": 0.191365,
+        "P24_MQ": 0.521005,
+        "X24_SW": 0.124594
+      },
+      {
+        "partition": "spectral_local_k6",
+        "family": "спектральная на графе профилей",
+        "mean_rank": 3.5,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            4,
+            4
+          ],
+          "C24_MQ": [
+            6,
+            6
+          ],
+          "P24_MQ": [
+            2,
+            4
+          ],
+          "X24_SW": [
+            2,
+            4
+          ]
+        },
+        "R_MQ": 0.285379,
+        "C24_MQ": 0.180074,
+        "P24_MQ": 0.540891,
+        "X24_SW": 0.134256
+      }
+    ]
+  },
+  "neutral_rank_excluding_P24_too": {
+    "3": [
+      {
+        "partition": "kmeans_k3",
+        "family": "KMeans",
+        "mean_rank": 1.75,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            1,
+            5
+          ],
+          "C24_MQ": [
+            2,
+            5
+          ],
+          "P24_MQ": [
+            1,
+            5
+          ],
+          "X24_SW": [
+            3,
+            5
+          ]
+        },
+        "R_MQ": 0.302259,
+        "C24_MQ": 0.223495,
+        "P24_MQ": 0.478349,
+        "X24_SW": 0.239861
+      },
+      {
+        "partition": "joint_road_k3",
+        "family": "совместная модель: профиль и дороги",
+        "mean_rank": 2.667,
+        "axes": 3,
+        "places": {
+          "C24_MQ": [
+            3,
+            5
+          ],
+          "P24_MQ": [
+            3,
+            5
+          ],
+          "X24_SW": [
+            2,
+            5
+          ]
+        },
+        "R_MQ": 0.363981,
+        "C24_MQ": 0.219577,
+        "P24_MQ": 0.41682,
+        "X24_SW": 0.244412
+      },
+      {
+        "partition": "spectral3_profile_comovement",
+        "family": "спектральная на графе профиля и совместного движения",
+        "mean_rank": 2.75,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            5,
+            5
+          ],
+          "C24_MQ": [
+            1,
+            5
+          ],
+          "P24_MQ": [
+            4,
+            5
+          ],
+          "X24_SW": [
+            1,
+            5
+          ]
+        },
+        "R_MQ": 0.183908,
+        "C24_MQ": 0.234608,
+        "P24_MQ": 0.394104,
+        "X24_SW": 0.255299
+      },
+      {
+        "partition": "ward_k3",
+        "family": "Ward",
+        "mean_rank": 3.25,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            2,
+            5
+          ],
+          "C24_MQ": [
+            5,
+            5
+          ],
+          "P24_MQ": [
+            2,
+            5
+          ],
+          "X24_SW": [
+            4,
+            5
+          ]
+        },
+        "R_MQ": 0.261231,
+        "C24_MQ": 0.217305,
+        "P24_MQ": 0.466195,
+        "X24_SW": 0.217685
+      },
+      {
+        "partition": "network_typology",
+        "family": "сетевая типология Leiden (профиль и совместное движение)",
+        "mean_rank": 4.0,
+        "axes": 1,
+        "places": {
+          "R_MQ": [
+            4,
+            5
+          ]
+        },
+        "R_MQ": 0.206526,
+        "C24_MQ": 0.258438,
+        "P24_MQ": 0.386374,
+        "X24_SW": 0.258587
+      },
+      {
+        "partition": "registry_type3",
+        "family": "тип МО по реестру (без обучения)",
+        "mean_rank": 4.25,
+        "axes": 4,
+        "places": {
+          "R_MQ": [
+            3,
+            5
+          ],
+          "C24_MQ": [
+            4,
+            5
+          ],
+          "P24_MQ": [
+            5,
+            5
+          ],
+          "X24_SW": [
+            5,
+            5
+          ]
+        },
+        "R_MQ": 0.241823,
+        "C24_MQ": 0.219207,
+        "P24_MQ": 0.258025,
+        "X24_SW": 0.113838
+      }
+    ]
+  },
+  "baselines": {
+    "partitions": [
+      "registry_type3",
+      "registry_type4"
+    ],
+    "registry_types": {
+      "внутригородская территория города федерального значения": 242,
+      "городской округ": 446,
+      "муниципальный округ": 283,
+      "муниципальный район": 1045
+    },
+    "agreement": {
+      "registry_type3": {
+        "network_typology": {
+          "ARI": 0.4492,
+          "NMI": 0.4091
+        },
+        "kmeans_k4": {
+          "ARI": 0.239,
+          "NMI": 0.2827
+        },
+        "temporal_leiden_seed1729": {
+          "ARI": 0.1778,
+          "NMI": 0.2791
+        },
+        "temporal_leiden_seed1729_monthly_median": {
+          "ARI": 0.1808,
+          "NMI": 0.2748,
+          "months": 24
+        }
+      },
+      "registry_type4": {
+        "network_typology": {
+          "ARI": 0.2851,
+          "NMI": 0.3415
+        },
+        "kmeans_k4": {
+          "ARI": 0.2022,
+          "NMI": 0.2438
+        },
+        "temporal_leiden_seed1729": {
+          "ARI": 0.1553,
+          "NMI": 0.2523
+        },
+        "temporal_leiden_seed1729_monthly_median": {
+          "ARI": 0.1549,
+          "NMI": 0.2475,
+          "months": 24
+        }
+      }
+    }
+  },
+  "network_core_selection_audit": {
+    "source": "reports/network-core/candidates.csv",
+    "current_rule": {
+      "selected": "leiden_a0.75_g0.3",
+      "front": [
+        "leiden_a0_g0.75",
+        "leiden_a0_g1",
+        "leiden_a0.25_g0.3",
+        "leiden_a0.25_g0.5",
+        "leiden_a0.25_g0.75",
+        "leiden_a0.5_g0.5",
+        "leiden_a0.75_g0.3"
+      ],
+      "top_rank_sums": {
+        "leiden_a0.75_g0.3": 31.0,
+        "leiden_a0.5_g0.5": 29.5
+      }
+    },
+    "current_rule_without_AVU": {
+      "selected": "leiden_a0.75_g0.3",
+      "front": [
+        "leiden_a0_g0.75",
+        "leiden_a0_g1",
+        "leiden_a0.25_g0.3",
+        "leiden_a0.25_g0.5",
+        "leiden_a0.25_g0.75",
+        "leiden_a0.5_g0.5",
+        "leiden_a0.75_g0.3"
+      ],
+      "top_rank_sums": {
+        "leiden_a0.75_g0.3": 28.5,
+        "leiden_a0.5_g0.5": 27.0
+      }
+    },
+    "first_rule_oot": {
+      "selected": "leiden_a0.75_g0.3",
+      "front": [
+        "leiden_a0.75_g0.3"
+      ],
+      "top_rank_sums": {
+        "leiden_a0.75_g0.3": 6.0
+      }
+    }
+  },
+  "temporal_seeds": {
+    "base_seed": "1729",
+    "match_jaccard": 0.5,
+    "per_seed": {
+      "1729": {
+        "tracks": 14,
+        "stable": 7,
+        "groups_per_month": [
+          8,
+          7,
+          8,
+          8,
+          7,
+          5,
+          5,
+          5,
+          5,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "stable_cover": 0.9532
+      },
+      "2718": {
+        "tracks": 13,
+        "stable": 9,
+        "groups_per_month": [
+          7,
+          7,
+          7,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8
+        ],
+        "stable_cover": 0.9885
+      },
+      "3141": {
+        "tracks": 12,
+        "stable": 6,
+        "groups_per_month": [
+          7,
+          6,
+          7,
+          6,
+          6,
+          6,
+          6,
+          6,
+          5,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "stable_cover": 0.9484
+      }
+    },
+    "base_group_best_jaccard": [
+      {
+        "size_cells": 18865,
+        "2718": 0.8902,
+        "3141": 0.921
+      },
+      {
+        "size_cells": 13172,
+        "2718": 0.8928,
+        "3141": 0.8844
+      },
+      {
+        "size_cells": 7114,
+        "2718": 0.9746,
+        "3141": 0.9827
+      },
+      {
+        "size_cells": 3429,
+        "2718": 0.6346,
+        "3141": 0.6375
+      },
+      {
+        "size_cells": 2195,
+        "2718": 0.5334,
+        "3141": 0.6903
+      },
+      {
+        "size_cells": 1217,
+        "2718": 0.823,
+        "3141": 0.8323
+      },
+      {
+        "size_cells": 127,
+        "2718": 0.0568,
+        "3141": 0.0206
+      }
+    ],
+    "base_groups_found_in_all_seeds": 6
+  }
+}

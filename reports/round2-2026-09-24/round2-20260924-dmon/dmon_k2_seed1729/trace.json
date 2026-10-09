@@ -1,0 +1,6008 @@
+[
+  {
+    "epoch": 0,
+    "objective": -0.0009951659012585878,
+    "negative_soft_modularity": -0.0011234350968152285,
+    "collapse_loss": 0.00012826919555664062
+  },
+  {
+    "epoch": 1,
+    "objective": -0.0014280298491939902,
+    "negative_soft_modularity": -0.001471183612011373,
+    "collapse_loss": 4.315376281738281e-05
+  },
+  {
+    "epoch": 2,
+    "objective": -0.0019023019121959805,
+    "negative_soft_modularity": -0.0019071894930675626,
+    "collapse_loss": 4.887580871582031e-06
+  },
+  {
+    "epoch": 3,
+    "objective": -0.0024439729750156403,
+    "negative_soft_modularity": -0.0024450458586215973,
+    "collapse_loss": 1.0728836059570312e-06
+  },
+  {
+    "epoch": 4,
+    "objective": -0.0030794821213930845,
+    "negative_soft_modularity": -0.0030875883530825377,
+    "collapse_loss": 8.106231689453125e-06
+  },
+  {
+    "epoch": 5,
+    "objective": -0.0038299986626952887,
+    "negative_soft_modularity": -0.00384239642880857,
+    "collapse_loss": 1.239776611328125e-05
+  },
+  {
+    "epoch": 6,
+    "objective": -0.004698529839515686,
+    "negative_soft_modularity": -0.004709616303443909,
+    "collapse_loss": 1.1086463928222656e-05
+  },
+  {
+    "epoch": 7,
+    "objective": -0.005687630269676447,
+    "negative_soft_modularity": -0.00569418678060174,
+    "collapse_loss": 6.556510925292969e-06
+  },
+  {
+    "epoch": 8,
+    "objective": -0.0068000247702002525,
+    "negative_soft_modularity": -0.006802170537412167,
+    "collapse_loss": 2.1457672119140625e-06
+  },
+  {
+    "epoch": 9,
+    "objective": -0.008033872582018375,
+    "negative_soft_modularity": -0.0080338129773736,
+    "collapse_loss": -5.960464477539063e-08
+  },
+  {
+    "epoch": 10,
+    "objective": -0.009394658729434013,
+    "negative_soft_modularity": -0.009396446868777275,
+    "collapse_loss": 1.7881393432617188e-06
+  },
+  {
+    "epoch": 11,
+    "objective": -0.0108842384070158,
+    "negative_soft_modularity": -0.010892225429415703,
+    "collapse_loss": 7.987022399902344e-06
+  },
+  {
+    "epoch": 12,
+    "objective": -0.012503467500209808,
+    "negative_soft_modularity": -0.012521587312221527,
+    "collapse_loss": 1.811981201171875e-05
+  },
+  {
+    "epoch": 13,
+    "objective": -0.014258799143135548,
+    "negative_soft_modularity": -0.014289912767708302,
+    "collapse_loss": 3.1113624572753906e-05
+  },
+  {
+    "epoch": 14,
+    "objective": -0.016151951625943184,
+    "negative_soft_modularity": -0.016198324039578438,
+    "collapse_loss": 4.6372413635253906e-05
+  },
+  {
+    "epoch": 15,
+    "objective": -0.018184613436460495,
+    "negative_soft_modularity": -0.018247555941343307,
+    "collapse_loss": 6.29425048828125e-05
+  },
+  {
+    "epoch": 16,
+    "objective": -0.020360643044114113,
+    "negative_soft_modularity": -0.02044122852385044,
+    "collapse_loss": 8.058547973632812e-05
+  },
+  {
+    "epoch": 17,
+    "objective": -0.022676760330796242,
+    "negative_soft_modularity": -0.022776061668992043,
+    "collapse_loss": 9.930133819580078e-05
+  },
+  {
+    "epoch": 18,
+    "objective": -0.025138212367892265,
+    "negative_soft_modularity": -0.0252577792853117,
+    "collapse_loss": 0.0001195669174194336
+  },
+  {
+    "epoch": 19,
+    "objective": -0.027740638703107834,
+    "negative_soft_modularity": -0.027882616966962814,
+    "collapse_loss": 0.00014197826385498047
+  },
+  {
+    "epoch": 20,
+    "objective": -0.030486227944493294,
+    "negative_soft_modularity": -0.03065335936844349,
+    "collapse_loss": 0.0001671314239501953
+  },
+  {
+    "epoch": 21,
+    "objective": -0.03337215259671211,
+    "negative_soft_modularity": -0.03356849029660225,
+    "collapse_loss": 0.00019633769989013672
+  },
+  {
+    "epoch": 22,
+    "objective": -0.0363936573266983,
+    "negative_soft_modularity": -0.03662361204624176,
+    "collapse_loss": 0.00022995471954345703
+  },
+  {
+    "epoch": 23,
+    "objective": -0.039553314447402954,
+    "negative_soft_modularity": -0.03982248902320862,
+    "collapse_loss": 0.00026917457580566406
+  },
+  {
+    "epoch": 24,
+    "objective": -0.0428435243666172,
+    "negative_soft_modularity": -0.04315871372818947,
+    "collapse_loss": 0.0003151893615722656
+  },
+  {
+    "epoch": 25,
+    "objective": -0.04626097157597542,
+    "negative_soft_modularity": -0.04663028195500374,
+    "collapse_loss": 0.0003693103790283203
+  },
+  {
+    "epoch": 26,
+    "objective": -0.04980417713522911,
+    "negative_soft_modularity": -0.05023714527487755,
+    "collapse_loss": 0.0004329681396484375
+  },
+  {
+    "epoch": 27,
+    "objective": -0.053464509546756744,
+    "negative_soft_modularity": -0.05397246032953262,
+    "collapse_loss": 0.0005079507827758789
+  },
+  {
+    "epoch": 28,
+    "objective": -0.057238005101680756,
+    "negative_soft_modularity": -0.05783417075872421,
+    "collapse_loss": 0.000596165657043457
+  },
+  {
+    "epoch": 29,
+    "objective": -0.06111711636185646,
+    "negative_soft_modularity": -0.0618169941008091,
+    "collapse_loss": 0.0006998777389526367
+  },
+  {
+    "epoch": 30,
+    "objective": -0.06509634852409363,
+    "negative_soft_modularity": -0.06591746211051941,
+    "collapse_loss": 0.0008211135864257812
+  },
+  {
+    "epoch": 31,
+    "objective": -0.06916607916355133,
+    "negative_soft_modularity": -0.07012893259525299,
+    "collapse_loss": 0.0009628534317016602
+  },
+  {
+    "epoch": 32,
+    "objective": -0.07332159578800201,
+    "negative_soft_modularity": -0.0744486004114151,
+    "collapse_loss": 0.001127004623413086
+  },
+  {
+    "epoch": 33,
+    "objective": -0.07755180448293686,
+    "negative_soft_modularity": -0.07886811345815659,
+    "collapse_loss": 0.0013163089752197266
+  },
+  {
+    "epoch": 34,
+    "objective": -0.08184678852558136,
+    "negative_soft_modularity": -0.08337970077991486,
+    "collapse_loss": 0.001532912254333496
+  },
+  {
+    "epoch": 35,
+    "objective": -0.08620140701532364,
+    "negative_soft_modularity": -0.0879809632897377,
+    "collapse_loss": 0.0017795562744140625
+  },
+  {
+    "epoch": 36,
+    "objective": -0.09060303866863251,
+    "negative_soft_modularity": -0.09266094863414764,
+    "collapse_loss": 0.0020579099655151367
+  },
+  {
+    "epoch": 37,
+    "objective": -0.09504064917564392,
+    "negative_soft_modularity": -0.0974101722240448,
+    "collapse_loss": 0.002369523048400879
+  },
+  {
+    "epoch": 38,
+    "objective": -0.0995059385895729,
+    "negative_soft_modularity": -0.10222188383340836,
+    "collapse_loss": 0.0027159452438354492
+  },
+  {
+    "epoch": 39,
+    "objective": -0.1039871796965599,
+    "negative_soft_modularity": -0.10708459466695786,
+    "collapse_loss": 0.0030974149703979492
+  },
+  {
+    "epoch": 40,
+    "objective": -0.10847347974777222,
+    "negative_soft_modularity": -0.1119878888130188,
+    "collapse_loss": 0.003514409065246582
+  },
+  {
+    "epoch": 41,
+    "objective": -0.11295672506093979,
+    "negative_soft_modularity": -0.11692281812429428,
+    "collapse_loss": 0.003966093063354492
+  },
+  {
+    "epoch": 42,
+    "objective": -0.1174265667796135,
+    "negative_soft_modularity": -0.12187891453504562,
+    "collapse_loss": 0.004452347755432129
+  },
+  {
+    "epoch": 43,
+    "objective": -0.12187239527702332,
+    "negative_soft_modularity": -0.12684425711631775,
+    "collapse_loss": 0.004971861839294434
+  },
+  {
+    "epoch": 44,
+    "objective": -0.12628762423992157,
+    "negative_soft_modularity": -0.1318102329969406,
+    "collapse_loss": 0.005522608757019043
+  },
+  {
+    "epoch": 45,
+    "objective": -0.1306607723236084,
+    "negative_soft_modularity": -0.13676345348358154,
+    "collapse_loss": 0.0061026811599731445
+  },
+  {
+    "epoch": 46,
+    "objective": -0.1349867284297943,
+    "negative_soft_modularity": -0.14169642329216003,
+    "collapse_loss": 0.006709694862365723
+  },
+  {
+    "epoch": 47,
+    "objective": -0.1392531841993332,
+    "negative_soft_modularity": -0.1465938538312912,
+    "collapse_loss": 0.007340669631958008
+  },
+  {
+    "epoch": 48,
+    "objective": -0.14345785975456238,
+    "negative_soft_modularity": -0.15145060420036316,
+    "collapse_loss": 0.007992744445800781
+  },
+  {
+    "epoch": 49,
+    "objective": -0.14759206771850586,
+    "negative_soft_modularity": -0.15625536441802979,
+    "collapse_loss": 0.008663296699523926
+  },
+  {
+    "epoch": 50,
+    "objective": -0.15165090560913086,
+    "negative_soft_modularity": -0.16100072860717773,
+    "collapse_loss": 0.009349822998046875
+  },
+  {
+    "epoch": 51,
+    "objective": -0.15562835335731506,
+    "negative_soft_modularity": -0.16567817330360413,
+    "collapse_loss": 0.010049819946289062
+  },
+  {
+    "epoch": 52,
+    "objective": -0.15952160954475403,
+    "negative_soft_modularity": -0.1702825129032135,
+    "collapse_loss": 0.010760903358459473
+  },
+  {
+    "epoch": 53,
+    "objective": -0.163326233625412,
+    "negative_soft_modularity": -0.17480763792991638,
+    "collapse_loss": 0.011481404304504395
+  },
+  {
+    "epoch": 54,
+    "objective": -0.16703802347183228,
+    "negative_soft_modularity": -0.1792469620704651,
+    "collapse_loss": 0.012208938598632812
+  },
+  {
+    "epoch": 55,
+    "objective": -0.1706571727991104,
+    "negative_soft_modularity": -0.18359924852848053,
+    "collapse_loss": 0.012942075729370117
+  },
+  {
+    "epoch": 56,
+    "objective": -0.17418107390403748,
+    "negative_soft_modularity": -0.18786033987998962,
+    "collapse_loss": 0.013679265975952148
+  },
+  {
+    "epoch": 57,
+    "objective": -0.17760708928108215,
+    "negative_soft_modularity": -0.192026287317276,
+    "collapse_loss": 0.014419198036193848
+  },
+  {
+    "epoch": 58,
+    "objective": -0.18093439936637878,
+    "negative_soft_modularity": -0.19609448313713074,
+    "collapse_loss": 0.015160083770751953
+  },
+  {
+    "epoch": 59,
+    "objective": -0.18416047096252441,
+    "negative_soft_modularity": -0.20006132125854492,
+    "collapse_loss": 0.015900850296020508
+  },
+  {
+    "epoch": 60,
+    "objective": -0.18728792667388916,
+    "negative_soft_modularity": -0.20392704010009766,
+    "collapse_loss": 0.016639113426208496
+  },
+  {
+    "epoch": 61,
+    "objective": -0.19031521677970886,
+    "negative_soft_modularity": -0.20768782496452332,
+    "collapse_loss": 0.017372608184814453
+  },
+  {
+    "epoch": 62,
+    "objective": -0.19324320554733276,
+    "negative_soft_modularity": -0.21134251356124878,
+    "collapse_loss": 0.018099308013916016
+  },
+  {
+    "epoch": 63,
+    "objective": -0.1960734724998474,
+    "negative_soft_modularity": -0.21489030122756958,
+    "collapse_loss": 0.018816828727722168
+  },
+  {
+    "epoch": 64,
+    "objective": -0.19880755245685577,
+    "negative_soft_modularity": -0.21833010017871857,
+    "collapse_loss": 0.019522547721862793
+  },
+  {
+    "epoch": 65,
+    "objective": -0.20144881308078766,
+    "negative_soft_modularity": -0.22166265547275543,
+    "collapse_loss": 0.020213842391967773
+  },
+  {
+    "epoch": 66,
+    "objective": -0.20399707555770874,
+    "negative_soft_modularity": -0.22488588094711304,
+    "collapse_loss": 0.020888805389404297
+  },
+  {
+    "epoch": 67,
+    "objective": -0.2064552754163742,
+    "negative_soft_modularity": -0.228000208735466,
+    "collapse_loss": 0.021544933319091797
+  },
+  {
+    "epoch": 68,
+    "objective": -0.20882560312747955,
+    "negative_soft_modularity": -0.23100663721561432,
+    "collapse_loss": 0.022181034088134766
+  },
+  {
+    "epoch": 69,
+    "objective": -0.21111233532428741,
+    "negative_soft_modularity": -0.2339077740907669,
+    "collapse_loss": 0.022795438766479492
+  },
+  {
+    "epoch": 70,
+    "objective": -0.21331629157066345,
+    "negative_soft_modularity": -0.23670276999473572,
+    "collapse_loss": 0.023386478424072266
+  },
+  {
+    "epoch": 71,
+    "objective": -0.21544043719768524,
+    "negative_soft_modularity": -0.23939327895641327,
+    "collapse_loss": 0.023952841758728027
+  },
+  {
+    "epoch": 72,
+    "objective": -0.21748867630958557,
+    "negative_soft_modularity": -0.24198153614997864,
+    "collapse_loss": 0.024492859840393066
+  },
+  {
+    "epoch": 73,
+    "objective": -0.21946369111537933,
+    "negative_soft_modularity": -0.24447010457515717,
+    "collapse_loss": 0.025006413459777832
+  },
+  {
+    "epoch": 74,
+    "objective": -0.22136856615543365,
+    "negative_soft_modularity": -0.24686111509799957,
+    "collapse_loss": 0.025492548942565918
+  },
+  {
+    "epoch": 75,
+    "objective": -0.2232065200805664,
+    "negative_soft_modularity": -0.24915766716003418,
+    "collapse_loss": 0.025951147079467773
+  },
+  {
+    "epoch": 76,
+    "objective": -0.2249773144721985,
+    "negative_soft_modularity": -0.25135964155197144,
+    "collapse_loss": 0.02638232707977295
+  },
+  {
+    "epoch": 77,
+    "objective": -0.22668787837028503,
+    "negative_soft_modularity": -0.2534734904766083,
+    "collapse_loss": 0.026785612106323242
+  },
+  {
+    "epoch": 78,
+    "objective": -0.22833973169326782,
+    "negative_soft_modularity": -0.25550132989883423,
+    "collapse_loss": 0.027161598205566406
+  },
+  {
+    "epoch": 79,
+    "objective": -0.2299349009990692,
+    "negative_soft_modularity": -0.25744637846946716,
+    "collapse_loss": 0.02751147747039795
+  },
+  {
+    "epoch": 80,
+    "objective": -0.2314772605895996,
+    "negative_soft_modularity": -0.2593127489089966,
+    "collapse_loss": 0.027835488319396973
+  },
+  {
+    "epoch": 81,
+    "objective": -0.23296654224395752,
+    "negative_soft_modularity": -0.26110076904296875,
+    "collapse_loss": 0.02813422679901123
+  },
+  {
+    "epoch": 82,
+    "objective": -0.2344096302986145,
+    "negative_soft_modularity": -0.2628169655799866,
+    "collapse_loss": 0.02840733528137207
+  },
+  {
+    "epoch": 83,
+    "objective": -0.23580655455589294,
+    "negative_soft_modularity": -0.26446279883384705,
+    "collapse_loss": 0.0286562442779541
+  },
+  {
+    "epoch": 84,
+    "objective": -0.23716044425964355,
+    "negative_soft_modularity": -0.2660421133041382,
+    "collapse_loss": 0.02888166904449463
+  },
+  {
+    "epoch": 85,
+    "objective": -0.23847365379333496,
+    "negative_soft_modularity": -0.26755857467651367,
+    "collapse_loss": 0.02908492088317871
+  },
+  {
+    "epoch": 86,
+    "objective": -0.2397463619709015,
+    "negative_soft_modularity": -0.26901355385780334,
+    "collapse_loss": 0.029267191886901855
+  },
+  {
+    "epoch": 87,
+    "objective": -0.2409837543964386,
+    "negative_soft_modularity": -0.2704130709171295,
+    "collapse_loss": 0.029429316520690918
+  },
+  {
+    "epoch": 88,
+    "objective": -0.24218511581420898,
+    "negative_soft_modularity": -0.2717571258544922,
+    "collapse_loss": 0.029572010040283203
+  },
+  {
+    "epoch": 89,
+    "objective": -0.24335536360740662,
+    "negative_soft_modularity": -0.27305135130882263,
+    "collapse_loss": 0.029695987701416016
+  },
+  {
+    "epoch": 90,
+    "objective": -0.24449312686920166,
+    "negative_soft_modularity": -0.2742955684661865,
+    "collapse_loss": 0.029802441596984863
+  },
+  {
+    "epoch": 91,
+    "objective": -0.24560341238975525,
+    "negative_soft_modularity": -0.2754952609539032,
+    "collapse_loss": 0.02989184856414795
+  },
+  {
+    "epoch": 92,
+    "objective": -0.24668735265731812,
+    "negative_soft_modularity": -0.2766520380973816,
+    "collapse_loss": 0.029964685440063477
+  },
+  {
+    "epoch": 93,
+    "objective": -0.24774429202079773,
+    "negative_soft_modularity": -0.2777656018733978,
+    "collapse_loss": 0.030021309852600098
+  },
+  {
+    "epoch": 94,
+    "objective": -0.24877828359603882,
+    "negative_soft_modularity": -0.27884072065353394,
+    "collapse_loss": 0.030062437057495117
+  },
+  {
+    "epoch": 95,
+    "objective": -0.2497902810573578,
+    "negative_soft_modularity": -0.279878705739975,
+    "collapse_loss": 0.030088424682617188
+  },
+  {
+    "epoch": 96,
+    "objective": -0.25078311562538147,
+    "negative_soft_modularity": -0.2808820307254791,
+    "collapse_loss": 0.030098915100097656
+  },
+  {
+    "epoch": 97,
+    "objective": -0.251756876707077,
+    "negative_soft_modularity": -0.28185078501701355,
+    "collapse_loss": 0.030093908309936523
+  },
+  {
+    "epoch": 98,
+    "objective": -0.25271233916282654,
+    "negative_soft_modularity": -0.282786101102829,
+    "collapse_loss": 0.03007376194000244
+  },
+  {
+    "epoch": 99,
+    "objective": -0.2536541819572449,
+    "negative_soft_modularity": -0.28369277715682983,
+    "collapse_loss": 0.03003859519958496
+  },
+  {
+    "epoch": 100,
+    "objective": -0.2545810639858246,
+    "negative_soft_modularity": -0.28456923365592957,
+    "collapse_loss": 0.02998816967010498
+  },
+  {
+    "epoch": 101,
+    "objective": -0.2554951310157776,
+    "negative_soft_modularity": -0.2854180932044983,
+    "collapse_loss": 0.029922962188720703
+  },
+  {
+    "epoch": 102,
+    "objective": -0.25639820098876953,
+    "negative_soft_modularity": -0.2862417697906494,
+    "collapse_loss": 0.029843568801879883
+  },
+  {
+    "epoch": 103,
+    "objective": -0.2572920024394989,
+    "negative_soft_modularity": -0.28704211115837097,
+    "collapse_loss": 0.02975010871887207
+  },
+  {
+    "epoch": 104,
+    "objective": -0.25817736983299255,
+    "negative_soft_modularity": -0.2878201901912689,
+    "collapse_loss": 0.029642820358276367
+  },
+  {
+    "epoch": 105,
+    "objective": -0.2590557634830475,
+    "negative_soft_modularity": -0.2885773479938507,
+    "collapse_loss": 0.029521584510803223
+  },
+  {
+    "epoch": 106,
+    "objective": -0.2599279284477234,
+    "negative_soft_modularity": -0.2893144488334656,
+    "collapse_loss": 0.029386520385742188
+  },
+  {
+    "epoch": 107,
+    "objective": -0.260796457529068,
+    "negative_soft_modularity": -0.2900337278842926,
+    "collapse_loss": 0.02923727035522461
+  },
+  {
+    "epoch": 108,
+    "objective": -0.2616630494594574,
+    "negative_soft_modularity": -0.29073747992515564,
+    "collapse_loss": 0.029074430465698242
+  },
+  {
+    "epoch": 109,
+    "objective": -0.26252683997154236,
+    "negative_soft_modularity": -0.291424959897995,
+    "collapse_loss": 0.028898119926452637
+  },
+  {
+    "epoch": 110,
+    "objective": -0.26339080929756165,
+    "negative_soft_modularity": -0.29209914803504944,
+    "collapse_loss": 0.028708338737487793
+  },
+  {
+    "epoch": 111,
+    "objective": -0.2642557621002197,
+    "negative_soft_modularity": -0.29276132583618164,
+    "collapse_loss": 0.028505563735961914
+  },
+  {
+    "epoch": 112,
+    "objective": -0.26512184739112854,
+    "negative_soft_modularity": -0.2934127151966095,
+    "collapse_loss": 0.028290867805480957
+  },
+  {
+    "epoch": 113,
+    "objective": -0.26599234342575073,
+    "negative_soft_modularity": -0.2940576672554016,
+    "collapse_loss": 0.02806532382965088
+  },
+  {
+    "epoch": 114,
+    "objective": -0.2668677866458893,
+    "negative_soft_modularity": -0.29469767212867737,
+    "collapse_loss": 0.027829885482788086
+  },
+  {
+    "epoch": 115,
+    "objective": -0.26774752140045166,
+    "negative_soft_modularity": -0.29533278942108154,
+    "collapse_loss": 0.027585268020629883
+  },
+  {
+    "epoch": 116,
+    "objective": -0.2686338424682617,
+    "negative_soft_modularity": -0.2959657907485962,
+    "collapse_loss": 0.027331948280334473
+  },
+  {
+    "epoch": 117,
+    "objective": -0.26952818036079407,
+    "negative_soft_modularity": -0.296598345041275,
+    "collapse_loss": 0.027070164680480957
+  },
+  {
+    "epoch": 118,
+    "objective": -0.2704330384731293,
+    "negative_soft_modularity": -0.29723355174064636,
+    "collapse_loss": 0.02680051326751709
+  },
+  {
+    "epoch": 119,
+    "objective": -0.2713467478752136,
+    "negative_soft_modularity": -0.2978697419166565,
+    "collapse_loss": 0.02652299404144287
+  },
+  {
+    "epoch": 120,
+    "objective": -0.27227020263671875,
+    "negative_soft_modularity": -0.29850876331329346,
+    "collapse_loss": 0.026238560676574707
+  },
+  {
+    "epoch": 121,
+    "objective": -0.2732048034667969,
+    "negative_soft_modularity": -0.299152135848999,
+    "collapse_loss": 0.02594733238220215
+  },
+  {
+    "epoch": 122,
+    "objective": -0.2741517126560211,
+    "negative_soft_modularity": -0.2998017370700836,
+    "collapse_loss": 0.0256500244140625
+  },
+  {
+    "epoch": 123,
+    "objective": -0.2751113474369049,
+    "negative_soft_modularity": -0.3004589378833771,
+    "collapse_loss": 0.025347590446472168
+  },
+  {
+    "epoch": 124,
+    "objective": -0.27608388662338257,
+    "negative_soft_modularity": -0.3011241555213928,
+    "collapse_loss": 0.025040268898010254
+  },
+  {
+    "epoch": 125,
+    "objective": -0.2770717740058899,
+    "negative_soft_modularity": -0.3018001914024353,
+    "collapse_loss": 0.02472841739654541
+  },
+  {
+    "epoch": 126,
+    "objective": -0.27807214856147766,
+    "negative_soft_modularity": -0.3024848997592926,
+    "collapse_loss": 0.02441275119781494
+  },
+  {
+    "epoch": 127,
+    "objective": -0.2790863811969757,
+    "negative_soft_modularity": -0.3031807243824005,
+    "collapse_loss": 0.024094343185424805
+  },
+  {
+    "epoch": 128,
+    "objective": -0.2801149785518646,
+    "negative_soft_modularity": -0.3038886487483978,
+    "collapse_loss": 0.023773670196533203
+  },
+  {
+    "epoch": 129,
+    "objective": -0.2811582684516907,
+    "negative_soft_modularity": -0.30460888147354126,
+    "collapse_loss": 0.023450613021850586
+  },
+  {
+    "epoch": 130,
+    "objective": -0.2822166979312897,
+    "negative_soft_modularity": -0.30534353852272034,
+    "collapse_loss": 0.023126840591430664
+  },
+  {
+    "epoch": 131,
+    "objective": -0.28328999876976013,
+    "negative_soft_modularity": -0.30609259009361267,
+    "collapse_loss": 0.02280259132385254
+  },
+  {
+    "epoch": 132,
+    "objective": -0.2843779921531677,
+    "negative_soft_modularity": -0.3068569302558899,
+    "collapse_loss": 0.022478938102722168
+  },
+  {
+    "epoch": 133,
+    "objective": -0.285480797290802,
+    "negative_soft_modularity": -0.30763906240463257,
+    "collapse_loss": 0.022158265113830566
+  },
+  {
+    "epoch": 134,
+    "objective": -0.2865971028804779,
+    "negative_soft_modularity": -0.3084375560283661,
+    "collapse_loss": 0.021840453147888184
+  },
+  {
+    "epoch": 135,
+    "objective": -0.2877282500267029,
+    "negative_soft_modularity": -0.3092551827430725,
+    "collapse_loss": 0.02152693271636963
+  },
+  {
+    "epoch": 136,
+    "objective": -0.28886914253234863,
+    "negative_soft_modularity": -0.31008875370025635,
+    "collapse_loss": 0.021219611167907715
+  },
+  {
+    "epoch": 137,
+    "objective": -0.2900257706642151,
+    "negative_soft_modularity": -0.3109453320503235,
+    "collapse_loss": 0.0209195613861084
+  },
+  {
+    "epoch": 138,
+    "objective": -0.2911933958530426,
+    "negative_soft_modularity": -0.3118208944797516,
+    "collapse_loss": 0.020627498626708984
+  },
+  {
+    "epoch": 139,
+    "objective": -0.292370468378067,
+    "negative_soft_modularity": -0.31271472573280334,
+    "collapse_loss": 0.020344257354736328
+  },
+  {
+    "epoch": 140,
+    "objective": -0.2935584783554077,
+    "negative_soft_modularity": -0.3136284351348877,
+    "collapse_loss": 0.02006995677947998
+  },
+  {
+    "epoch": 141,
+    "objective": -0.2947538197040558,
+    "negative_soft_modularity": -0.31455865502357483,
+    "collapse_loss": 0.019804835319519043
+  },
+  {
+    "epoch": 142,
+    "objective": -0.29595819115638733,
+    "negative_soft_modularity": -0.3155064880847931,
+    "collapse_loss": 0.01954829692840576
+  },
+  {
+    "epoch": 143,
+    "objective": -0.29716917872428894,
+    "negative_soft_modularity": -0.3164688050746918,
+    "collapse_loss": 0.019299626350402832
+  },
+  {
+    "epoch": 144,
+    "objective": -0.2983841896057129,
+    "negative_soft_modularity": -0.3174431324005127,
+    "collapse_loss": 0.019058942794799805
+  },
+  {
+    "epoch": 145,
+    "objective": -0.29960498213768005,
+    "negative_soft_modularity": -0.3184297978878021,
+    "collapse_loss": 0.01882481575012207
+  },
+  {
+    "epoch": 146,
+    "objective": -0.30082929134368896,
+    "negative_soft_modularity": -0.31942689418792725,
+    "collapse_loss": 0.01859760284423828
+  },
+  {
+    "epoch": 147,
+    "objective": -0.30205532908439636,
+    "negative_soft_modularity": -0.32043179869651794,
+    "collapse_loss": 0.018376469612121582
+  },
+  {
+    "epoch": 148,
+    "objective": -0.30328255891799927,
+    "negative_soft_modularity": -0.32144349813461304,
+    "collapse_loss": 0.01816093921661377
+  },
+  {
+    "epoch": 149,
+    "objective": -0.3045104742050171,
+    "negative_soft_modularity": -0.32246172428131104,
+    "collapse_loss": 0.017951250076293945
+  },
+  {
+    "epoch": 150,
+    "objective": -0.3057382106781006,
+    "negative_soft_modularity": -0.3234844207763672,
+    "collapse_loss": 0.0177462100982666
+  },
+  {
+    "epoch": 151,
+    "objective": -0.306964248418808,
+    "negative_soft_modularity": -0.32450971007347107,
+    "collapse_loss": 0.017545461654663086
+  },
+  {
+    "epoch": 152,
+    "objective": -0.3081885278224945,
+    "negative_soft_modularity": -0.3255368173122406,
+    "collapse_loss": 0.017348289489746094
+  },
+  {
+    "epoch": 153,
+    "objective": -0.3094084560871124,
+    "negative_soft_modularity": -0.32656243443489075,
+    "collapse_loss": 0.01715397834777832
+  },
+  {
+    "epoch": 154,
+    "objective": -0.310626357793808,
+    "negative_soft_modularity": -0.3275875747203827,
+    "collapse_loss": 0.016961216926574707
+  },
+  {
+    "epoch": 155,
+    "objective": -0.31183871626853943,
+    "negative_soft_modularity": -0.32860812544822693,
+    "collapse_loss": 0.0167694091796875
+  },
+  {
+    "epoch": 156,
+    "objective": -0.3130469024181366,
+    "negative_soft_modularity": -0.32962605357170105,
+    "collapse_loss": 0.016579151153564453
+  },
+  {
+    "epoch": 157,
+    "objective": -0.3142484426498413,
+    "negative_soft_modularity": -0.3306386470794678,
+    "collapse_loss": 0.016390204429626465
+  },
+  {
+    "epoch": 158,
+    "objective": -0.3154423236846924,
+    "negative_soft_modularity": -0.331645131111145,
+    "collapse_loss": 0.016202807426452637
+  },
+  {
+    "epoch": 159,
+    "objective": -0.31663036346435547,
+    "negative_soft_modularity": -0.332647442817688,
+    "collapse_loss": 0.01601707935333252
+  },
+  {
+    "epoch": 160,
+    "objective": -0.3178091049194336,
+    "negative_soft_modularity": -0.3336418867111206,
+    "collapse_loss": 0.01583278179168701
+  },
+  {
+    "epoch": 161,
+    "objective": -0.3189815580844879,
+    "negative_soft_modularity": -0.3346312344074249,
+    "collapse_loss": 0.01564967632293701
+  },
+  {
+    "epoch": 162,
+    "objective": -0.3201434910297394,
+    "negative_soft_modularity": -0.33561137318611145,
+    "collapse_loss": 0.01546788215637207
+  },
+  {
+    "epoch": 163,
+    "objective": -0.32129621505737305,
+    "negative_soft_modularity": -0.3365844488143921,
+    "collapse_loss": 0.015288233757019043
+  },
+  {
+    "epoch": 164,
+    "objective": -0.32244178652763367,
+    "negative_soft_modularity": -0.33755216002464294,
+    "collapse_loss": 0.015110373497009277
+  },
+  {
+    "epoch": 165,
+    "objective": -0.3235745131969452,
+    "negative_soft_modularity": -0.33850952982902527,
+    "collapse_loss": 0.014935016632080078
+  },
+  {
+    "epoch": 166,
+    "objective": -0.32469895482063293,
+    "negative_soft_modularity": -0.3394613564014435,
+    "collapse_loss": 0.014762401580810547
+  },
+  {
+    "epoch": 167,
+    "objective": -0.32581084966659546,
+    "negative_soft_modularity": -0.34040361642837524,
+    "collapse_loss": 0.014592766761779785
+  },
+  {
+    "epoch": 168,
+    "objective": -0.3269137144088745,
+    "negative_soft_modularity": -0.34133923053741455,
+    "collapse_loss": 0.014425516128540039
+  },
+  {
+    "epoch": 169,
+    "objective": -0.3280029892921448,
+    "negative_soft_modularity": -0.34226375818252563,
+    "collapse_loss": 0.01426076889038086
+  },
+  {
+    "epoch": 170,
+    "objective": -0.32908210158348083,
+    "negative_soft_modularity": -0.343180388212204,
+    "collapse_loss": 0.014098286628723145
+  },
+  {
+    "epoch": 171,
+    "objective": -0.33014971017837524,
+    "negative_soft_modularity": -0.3440861105918884,
+    "collapse_loss": 0.013936400413513184
+  },
+  {
+    "epoch": 172,
+    "objective": -0.3312045633792877,
+    "negative_soft_modularity": -0.34497979283332825,
+    "collapse_loss": 0.013775229454040527
+  },
+  {
+    "epoch": 173,
+    "objective": -0.3322484791278839,
+    "negative_soft_modularity": -0.34586289525032043,
+    "collapse_loss": 0.013614416122436523
+  },
+  {
+    "epoch": 174,
+    "objective": -0.33327969908714294,
+    "negative_soft_modularity": -0.34673330187797546,
+    "collapse_loss": 0.01345360279083252
+  },
+  {
+    "epoch": 175,
+    "objective": -0.33430105447769165,
+    "negative_soft_modularity": -0.34759432077407837,
+    "collapse_loss": 0.013293266296386719
+  },
+  {
+    "epoch": 176,
+    "objective": -0.3353090286254883,
+    "negative_soft_modularity": -0.34844231605529785,
+    "collapse_loss": 0.01313328742980957
+  },
+  {
+    "epoch": 177,
+    "objective": -0.33630621433258057,
+    "negative_soft_modularity": -0.34927868843078613,
+    "collapse_loss": 0.012972474098205566
+  },
+  {
+    "epoch": 178,
+    "objective": -0.3372924327850342,
+    "negative_soft_modularity": -0.3501044511795044,
+    "collapse_loss": 0.012812018394470215
+  },
+  {
+    "epoch": 179,
+    "objective": -0.3382665812969208,
+    "negative_soft_modularity": -0.35091862082481384,
+    "collapse_loss": 0.012652039527893066
+  },
+  {
+    "epoch": 180,
+    "objective": -0.33922839164733887,
+    "negative_soft_modularity": -0.3517218828201294,
+    "collapse_loss": 0.012493491172790527
+  },
+  {
+    "epoch": 181,
+    "objective": -0.34017935395240784,
+    "negative_soft_modularity": -0.3525160849094391,
+    "collapse_loss": 0.01233673095703125
+  },
+  {
+    "epoch": 182,
+    "objective": -0.3411201238632202,
+    "negative_soft_modularity": -0.3533027172088623,
+    "collapse_loss": 0.01218259334564209
+  },
+  {
+    "epoch": 183,
+    "objective": -0.342048704624176,
+    "negative_soft_modularity": -0.3540797829627991,
+    "collapse_loss": 0.012031078338623047
+  },
+  {
+    "epoch": 184,
+    "objective": -0.3429664671421051,
+    "negative_soft_modularity": -0.3548491299152374,
+    "collapse_loss": 0.011882662773132324
+  },
+  {
+    "epoch": 185,
+    "objective": -0.3438728451728821,
+    "negative_soft_modularity": -0.35561007261276245,
+    "collapse_loss": 0.011737227439880371
+  },
+  {
+    "epoch": 186,
+    "objective": -0.3447679579257965,
+    "negative_soft_modularity": -0.3563624918460846,
+    "collapse_loss": 0.011594533920288086
+  },
+  {
+    "epoch": 187,
+    "objective": -0.34565356373786926,
+    "negative_soft_modularity": -0.3571080267429352,
+    "collapse_loss": 0.011454463005065918
+  },
+  {
+    "epoch": 188,
+    "objective": -0.34652701020240784,
+    "negative_soft_modularity": -0.35784414410591125,
+    "collapse_loss": 0.011317133903503418
+  },
+  {
+    "epoch": 189,
+    "objective": -0.34739089012145996,
+    "negative_soft_modularity": -0.35857343673706055,
+    "collapse_loss": 0.011182546615600586
+  },
+  {
+    "epoch": 190,
+    "objective": -0.3482449948787689,
+    "negative_soft_modularity": -0.35929498076438904,
+    "collapse_loss": 0.011049985885620117
+  },
+  {
+    "epoch": 191,
+    "objective": -0.34908780455589294,
+    "negative_soft_modularity": -0.36000677943229675,
+    "collapse_loss": 0.010918974876403809
+  },
+  {
+    "epoch": 192,
+    "objective": -0.3499201834201813,
+    "negative_soft_modularity": -0.3607091009616852,
+    "collapse_loss": 0.010788917541503906
+  },
+  {
+    "epoch": 193,
+    "objective": -0.3507434129714966,
+    "negative_soft_modularity": -0.3614029884338379,
+    "collapse_loss": 0.010659575462341309
+  },
+  {
+    "epoch": 194,
+    "objective": -0.3515547215938568,
+    "negative_soft_modularity": -0.3620857894420624,
+    "collapse_loss": 0.010531067848205566
+  },
+  {
+    "epoch": 195,
+    "objective": -0.35235682129859924,
+    "negative_soft_modularity": -0.36276116967201233,
+    "collapse_loss": 0.010404348373413086
+  },
+  {
+    "epoch": 196,
+    "objective": -0.35314807295799255,
+    "negative_soft_modularity": -0.3634274899959564,
+    "collapse_loss": 0.010279417037963867
+  },
+  {
+    "epoch": 197,
+    "objective": -0.3539295494556427,
+    "negative_soft_modularity": -0.3640860617160797,
+    "collapse_loss": 0.010156512260437012
+  },
+  {
+    "epoch": 198,
+    "objective": -0.35470256209373474,
+    "negative_soft_modularity": -0.36473819613456726,
+    "collapse_loss": 0.01003563404083252
+  },
+  {
+    "epoch": 199,
+    "objective": -0.35546228289604187,
+    "negative_soft_modularity": -0.3653794229030609,
+    "collapse_loss": 0.009917140007019043
+  },
+  {
+    "epoch": 200,
+    "objective": -0.35621389746665955,
+    "negative_soft_modularity": -0.36601516604423523,
+    "collapse_loss": 0.009801268577575684
+  },
+  {
+    "epoch": 201,
+    "objective": -0.35695531964302063,
+    "negative_soft_modularity": -0.3666435778141022,
+    "collapse_loss": 0.009688258171081543
+  },
+  {
+    "epoch": 202,
+    "objective": -0.35768595337867737,
+    "negative_soft_modularity": -0.3672645390033722,
+    "collapse_loss": 0.009578585624694824
+  },
+  {
+    "epoch": 203,
+    "objective": -0.35840609669685364,
+    "negative_soft_modularity": -0.3678789436817169,
+    "collapse_loss": 0.009472846984863281
+  },
+  {
+    "epoch": 204,
+    "objective": -0.3591163158416748,
+    "negative_soft_modularity": -0.3684864044189453,
+    "collapse_loss": 0.009370088577270508
+  },
+  {
+    "epoch": 205,
+    "objective": -0.35981684923171997,
+    "negative_soft_modularity": -0.3690870404243469,
+    "collapse_loss": 0.009270191192626953
+  },
+  {
+    "epoch": 206,
+    "objective": -0.3605072498321533,
+    "negative_soft_modularity": -0.36968040466308594,
+    "collapse_loss": 0.009173154830932617
+  },
+  {
+    "epoch": 207,
+    "objective": -0.36118724942207336,
+    "negative_soft_modularity": -0.370265394449234,
+    "collapse_loss": 0.009078145027160645
+  },
+  {
+    "epoch": 208,
+    "objective": -0.36185744404792786,
+    "negative_soft_modularity": -0.37084296345710754,
+    "collapse_loss": 0.008985519409179688
+  },
+  {
+    "epoch": 209,
+    "objective": -0.3625165522098541,
+    "negative_soft_modularity": -0.37141111493110657,
+    "collapse_loss": 0.008894562721252441
+  },
+  {
+    "epoch": 210,
+    "objective": -0.3631674349308014,
+    "negative_soft_modularity": -0.37197235226631165,
+    "collapse_loss": 0.008804917335510254
+  },
+  {
+    "epoch": 211,
+    "objective": -0.3638051450252533,
+    "negative_soft_modularity": -0.3725212514400482,
+    "collapse_loss": 0.008716106414794922
+  },
+  {
+    "epoch": 212,
+    "objective": -0.3644337058067322,
+    "negative_soft_modularity": -0.37306302785873413,
+    "collapse_loss": 0.008629322052001953
+  },
+  {
+    "epoch": 213,
+    "objective": -0.3650536835193634,
+    "negative_soft_modularity": -0.37359824776649475,
+    "collapse_loss": 0.008544564247131348
+  },
+  {
+    "epoch": 214,
+    "objective": -0.3656613230705261,
+    "negative_soft_modularity": -0.3741239905357361,
+    "collapse_loss": 0.008462667465209961
+  },
+  {
+    "epoch": 215,
+    "objective": -0.3662604093551636,
+    "negative_soft_modularity": -0.37464380264282227,
+    "collapse_loss": 0.008383393287658691
+  },
+  {
+    "epoch": 216,
+    "objective": -0.36684876680374146,
+    "negative_soft_modularity": -0.3751559853553772,
+    "collapse_loss": 0.008307218551635742
+  },
+  {
+    "epoch": 217,
+    "objective": -0.3674275577068329,
+    "negative_soft_modularity": -0.37566182017326355,
+    "collapse_loss": 0.008234262466430664
+  },
+  {
+    "epoch": 218,
+    "objective": -0.3679962456226349,
+    "negative_soft_modularity": -0.3761606514453888,
+    "collapse_loss": 0.008164405822753906
+  },
+  {
+    "epoch": 219,
+    "objective": -0.3685554265975952,
+    "negative_soft_modularity": -0.3766528367996216,
+    "collapse_loss": 0.008097410202026367
+  },
+  {
+    "epoch": 220,
+    "objective": -0.36910364031791687,
+    "negative_soft_modularity": -0.377137154340744,
+    "collapse_loss": 0.008033514022827148
+  },
+  {
+    "epoch": 221,
+    "objective": -0.36964231729507446,
+    "negative_soft_modularity": -0.37761515378952026,
+    "collapse_loss": 0.0079728364944458
+  },
+  {
+    "epoch": 222,
+    "objective": -0.3701727092266083,
+    "negative_soft_modularity": -0.37808749079704285,
+    "collapse_loss": 0.00791478157043457
+  },
+  {
+    "epoch": 223,
+    "objective": -0.37069061398506165,
+    "negative_soft_modularity": -0.3785499632358551,
+    "collapse_loss": 0.007859349250793457
+  },
+  {
+    "epoch": 224,
+    "objective": -0.3712025582790375,
+    "negative_soft_modularity": -0.3790085017681122,
+    "collapse_loss": 0.007805943489074707
+  },
+  {
+    "epoch": 225,
+    "objective": -0.37170279026031494,
+    "negative_soft_modularity": -0.37945759296417236,
+    "collapse_loss": 0.007754802703857422
+  },
+  {
+    "epoch": 226,
+    "objective": -0.37219324707984924,
+    "negative_soft_modularity": -0.37989869713783264,
+    "collapse_loss": 0.0077054500579833984
+  },
+  {
+    "epoch": 227,
+    "objective": -0.3726743757724762,
+    "negative_soft_modularity": -0.38033249974250793,
+    "collapse_loss": 0.007658123970031738
+  },
+  {
+    "epoch": 228,
+    "objective": -0.3731476366519928,
+    "negative_soft_modularity": -0.38075974583625793,
+    "collapse_loss": 0.007612109184265137
+  },
+  {
+    "epoch": 229,
+    "objective": -0.3736106753349304,
+    "negative_soft_modularity": -0.38117796182632446,
+    "collapse_loss": 0.007567286491394043
+  },
+  {
+    "epoch": 230,
+    "objective": -0.3740655779838562,
+    "negative_soft_modularity": -0.38158923387527466,
+    "collapse_loss": 0.007523655891418457
+  },
+  {
+    "epoch": 231,
+    "objective": -0.37451082468032837,
+    "negative_soft_modularity": -0.38199180364608765,
+    "collapse_loss": 0.007480978965759277
+  },
+  {
+    "epoch": 232,
+    "objective": -0.37494778633117676,
+    "negative_soft_modularity": -0.3823871612548828,
+    "collapse_loss": 0.007439374923706055
+  },
+  {
+    "epoch": 233,
+    "objective": -0.3753758370876312,
+    "negative_soft_modularity": -0.38277456164360046,
+    "collapse_loss": 0.007398724555969238
+  },
+  {
+    "epoch": 234,
+    "objective": -0.37579527497291565,
+    "negative_soft_modularity": -0.3831545412540436,
+    "collapse_loss": 0.00735926628112793
+  },
+  {
+    "epoch": 235,
+    "objective": -0.3762070834636688,
+    "negative_soft_modularity": -0.38352784514427185,
+    "collapse_loss": 0.007320761680603027
+  },
+  {
+    "epoch": 236,
+    "objective": -0.37661027908325195,
+    "negative_soft_modularity": -0.38389384746551514,
+    "collapse_loss": 0.007283568382263184
+  },
+  {
+    "epoch": 237,
+    "objective": -0.37700578570365906,
+    "negative_soft_modularity": -0.38425299525260925,
+    "collapse_loss": 0.007247209548950195
+  },
+  {
+    "epoch": 238,
+    "objective": -0.3773932456970215,
+    "negative_soft_modularity": -0.3846052885055542,
+    "collapse_loss": 0.007212042808532715
+  },
+  {
+    "epoch": 239,
+    "objective": -0.377773642539978,
+    "negative_soft_modularity": -0.384951114654541,
+    "collapse_loss": 0.007177472114562988
+  },
+  {
+    "epoch": 240,
+    "objective": -0.3781469762325287,
+    "negative_soft_modularity": -0.3852907121181488,
+    "collapse_loss": 0.007143735885620117
+  },
+  {
+    "epoch": 241,
+    "objective": -0.3785116672515869,
+    "negative_soft_modularity": -0.38562262058258057,
+    "collapse_loss": 0.007110953330993652
+  },
+  {
+    "epoch": 242,
+    "objective": -0.3788699507713318,
+    "negative_soft_modularity": -0.38594919443130493,
+    "collapse_loss": 0.0070792436599731445
+  },
+  {
+    "epoch": 243,
+    "objective": -0.3792199492454529,
+    "negative_soft_modularity": -0.38626784086227417,
+    "collapse_loss": 0.007047891616821289
+  },
+  {
+    "epoch": 244,
+    "objective": -0.3795643746852875,
+    "negative_soft_modularity": -0.3865818679332733,
+    "collapse_loss": 0.00701749324798584
+  },
+  {
+    "epoch": 245,
+    "objective": -0.37990161776542664,
+    "negative_soft_modularity": -0.38688966631889343,
+    "collapse_loss": 0.006988048553466797
+  },
+  {
+    "epoch": 246,
+    "objective": -0.38023194670677185,
+    "negative_soft_modularity": -0.387191504240036,
+    "collapse_loss": 0.00695955753326416
+  },
+  {
+    "epoch": 247,
+    "objective": -0.3805563747882843,
+    "negative_soft_modularity": -0.38748839497566223,
+    "collapse_loss": 0.00693202018737793
+  },
+  {
+    "epoch": 248,
+    "objective": -0.38087478280067444,
+    "negative_soft_modularity": -0.38778045773506165,
+    "collapse_loss": 0.006905674934387207
+  },
+  {
+    "epoch": 249,
+    "objective": -0.38118669390678406,
+    "negative_soft_modularity": -0.3880675733089447,
+    "collapse_loss": 0.0068808794021606445
+  },
+  {
+    "epoch": 250,
+    "objective": -0.38149183988571167,
+    "negative_soft_modularity": -0.38834935426712036,
+    "collapse_loss": 0.006857514381408691
+  },
+  {
+    "epoch": 251,
+    "objective": -0.3817930221557617,
+    "negative_soft_modularity": -0.38862836360931396,
+    "collapse_loss": 0.006835341453552246
+  },
+  {
+    "epoch": 252,
+    "objective": -0.3820882737636566,
+    "negative_soft_modularity": -0.3889027535915375,
+    "collapse_loss": 0.006814479827880859
+  },
+  {
+    "epoch": 253,
+    "objective": -0.38237661123275757,
+    "negative_soft_modularity": -0.3891715407371521,
+    "collapse_loss": 0.006794929504394531
+  },
+  {
+    "epoch": 254,
+    "objective": -0.38266003131866455,
+    "negative_soft_modularity": -0.38943636417388916,
+    "collapse_loss": 0.006776332855224609
+  },
+  {
+    "epoch": 255,
+    "objective": -0.3829391598701477,
+    "negative_soft_modularity": -0.3896976113319397,
+    "collapse_loss": 0.006758451461791992
+  },
+  {
+    "epoch": 256,
+    "objective": -0.38321247696876526,
+    "negative_soft_modularity": -0.3899538815021515,
+    "collapse_loss": 0.0067414045333862305
+  },
+  {
+    "epoch": 257,
+    "objective": -0.3834816515445709,
+    "negative_soft_modularity": -0.39020660519599915,
+    "collapse_loss": 0.006724953651428223
+  },
+  {
+    "epoch": 258,
+    "objective": -0.3837449848651886,
+    "negative_soft_modularity": -0.3904537260532379,
+    "collapse_loss": 0.006708741188049316
+  },
+  {
+    "epoch": 259,
+    "objective": -0.3840029537677765,
+    "negative_soft_modularity": -0.3906959593296051,
+    "collapse_loss": 0.006693005561828613
+  },
+  {
+    "epoch": 260,
+    "objective": -0.38425737619400024,
+    "negative_soft_modularity": -0.3909345269203186,
+    "collapse_loss": 0.006677150726318359
+  },
+  {
+    "epoch": 261,
+    "objective": -0.3845064640045166,
+    "negative_soft_modularity": -0.39116811752319336,
+    "collapse_loss": 0.006661653518676758
+  },
+  {
+    "epoch": 262,
+    "objective": -0.38475266098976135,
+    "negative_soft_modularity": -0.3913990557193756,
+    "collapse_loss": 0.006646394729614258
+  },
+  {
+    "epoch": 263,
+    "objective": -0.38499313592910767,
+    "negative_soft_modularity": -0.3916245102882385,
+    "collapse_loss": 0.006631374359130859
+  },
+  {
+    "epoch": 264,
+    "objective": -0.3852308690547943,
+    "negative_soft_modularity": -0.3918474614620209,
+    "collapse_loss": 0.0066165924072265625
+  },
+  {
+    "epoch": 265,
+    "objective": -0.38546422123908997,
+    "negative_soft_modularity": -0.3920663893222809,
+    "collapse_loss": 0.006602168083190918
+  },
+  {
+    "epoch": 266,
+    "objective": -0.3856920897960663,
+    "negative_soft_modularity": -0.3922801911830902,
+    "collapse_loss": 0.006588101387023926
+  },
+  {
+    "epoch": 267,
+    "objective": -0.38591915369033813,
+    "negative_soft_modularity": -0.39249318838119507,
+    "collapse_loss": 0.006574034690856934
+  },
+  {
+    "epoch": 268,
+    "objective": -0.3861391246318817,
+    "negative_soft_modularity": -0.39269909262657166,
+    "collapse_loss": 0.006559967994689941
+  },
+  {
+    "epoch": 269,
+    "objective": -0.3863573372364044,
+    "negative_soft_modularity": -0.39290323853492737,
+    "collapse_loss": 0.006545901298522949
+  },
+  {
+    "epoch": 270,
+    "objective": -0.3865709602832794,
+    "negative_soft_modularity": -0.3931029140949249,
+    "collapse_loss": 0.006531953811645508
+  },
+  {
+    "epoch": 271,
+    "objective": -0.38678184151649475,
+    "negative_soft_modularity": -0.39329996705055237,
+    "collapse_loss": 0.006518125534057617
+  },
+  {
+    "epoch": 272,
+    "objective": -0.38699057698249817,
+    "negative_soft_modularity": -0.393495112657547,
+    "collapse_loss": 0.006504535675048828
+  },
+  {
+    "epoch": 273,
+    "objective": -0.38719436526298523,
+    "negative_soft_modularity": -0.393685907125473,
+    "collapse_loss": 0.006491541862487793
+  },
+  {
+    "epoch": 274,
+    "objective": -0.3873960077762604,
+    "negative_soft_modularity": -0.39387503266334534,
+    "collapse_loss": 0.006479024887084961
+  },
+  {
+    "epoch": 275,
+    "objective": -0.38759392499923706,
+    "negative_soft_modularity": -0.39406031370162964,
+    "collapse_loss": 0.006466388702392578
+  },
+  {
+    "epoch": 276,
+    "objective": -0.3877892792224884,
+    "negative_soft_modularity": -0.3942435085773468,
+    "collapse_loss": 0.0064542293548583984
+  },
+  {
+    "epoch": 277,
+    "objective": -0.38798096776008606,
+    "negative_soft_modularity": -0.3944235146045685,
+    "collapse_loss": 0.006442546844482422
+  },
+  {
+    "epoch": 278,
+    "objective": -0.388170450925827,
+    "negative_soft_modularity": -0.3946017920970917,
+    "collapse_loss": 0.0064313411712646484
+  },
+  {
+    "epoch": 279,
+    "objective": -0.38835692405700684,
+    "negative_soft_modularity": -0.39477741718292236,
+    "collapse_loss": 0.006420493125915527
+  },
+  {
+    "epoch": 280,
+    "objective": -0.3885411322116852,
+    "negative_soft_modularity": -0.3949512541294098,
+    "collapse_loss": 0.006410121917724609
+  },
+  {
+    "epoch": 281,
+    "objective": -0.38872194290161133,
+    "negative_soft_modularity": -0.3951222896575928,
+    "collapse_loss": 0.006400346755981445
+  },
+  {
+    "epoch": 282,
+    "objective": -0.3889014422893524,
+    "negative_soft_modularity": -0.3952922523021698,
+    "collapse_loss": 0.006390810012817383
+  },
+  {
+    "epoch": 283,
+    "objective": -0.3890761733055115,
+    "negative_soft_modularity": -0.39545804262161255,
+    "collapse_loss": 0.006381869316101074
+  },
+  {
+    "epoch": 284,
+    "objective": -0.38925009965896606,
+    "negative_soft_modularity": -0.39562326669692993,
+    "collapse_loss": 0.006373167037963867
+  },
+  {
+    "epoch": 285,
+    "objective": -0.3894212245941162,
+    "negative_soft_modularity": -0.3957860469818115,
+    "collapse_loss": 0.0063648223876953125
+  },
+  {
+    "epoch": 286,
+    "objective": -0.38959088921546936,
+    "negative_soft_modularity": -0.39594724774360657,
+    "collapse_loss": 0.006356358528137207
+  },
+  {
+    "epoch": 287,
+    "objective": -0.3897578716278076,
+    "negative_soft_modularity": -0.39610588550567627,
+    "collapse_loss": 0.006348013877868652
+  },
+  {
+    "epoch": 288,
+    "objective": -0.3899214565753937,
+    "negative_soft_modularity": -0.3962610065937042,
+    "collapse_loss": 0.006339550018310547
+  },
+  {
+    "epoch": 289,
+    "objective": -0.3900831937789917,
+    "negative_soft_modularity": -0.3964146375656128,
+    "collapse_loss": 0.006331443786621094
+  },
+  {
+    "epoch": 290,
+    "objective": -0.39024385809898376,
+    "negative_soft_modularity": -0.39656731486320496,
+    "collapse_loss": 0.006323456764221191
+  },
+  {
+    "epoch": 291,
+    "objective": -0.39040201902389526,
+    "negative_soft_modularity": -0.3967178463935852,
+    "collapse_loss": 0.006315827369689941
+  },
+  {
+    "epoch": 292,
+    "objective": -0.3905583918094635,
+    "negative_soft_modularity": -0.39686718583106995,
+    "collapse_loss": 0.006308794021606445
+  },
+  {
+    "epoch": 293,
+    "objective": -0.3907112777233124,
+    "negative_soft_modularity": -0.39701327681541443,
+    "collapse_loss": 0.006301999092102051
+  },
+  {
+    "epoch": 294,
+    "objective": -0.3908637762069702,
+    "negative_soft_modularity": -0.3971595764160156,
+    "collapse_loss": 0.00629580020904541
+  },
+  {
+    "epoch": 295,
+    "objective": -0.39101430773735046,
+    "negative_soft_modularity": -0.3973042666912079,
+    "collapse_loss": 0.006289958953857422
+  },
+  {
+    "epoch": 296,
+    "objective": -0.39116236567497253,
+    "negative_soft_modularity": -0.3974468410015106,
+    "collapse_loss": 0.006284475326538086
+  },
+  {
+    "epoch": 297,
+    "objective": -0.3913090229034424,
+    "negative_soft_modularity": -0.39758825302124023,
+    "collapse_loss": 0.0062792301177978516
+  },
+  {
+    "epoch": 298,
+    "objective": -0.39145395159721375,
+    "negative_soft_modularity": -0.3977280557155609,
+    "collapse_loss": 0.006274104118347168
+  },
+  {
+    "epoch": 299,
+    "objective": -0.39159736037254333,
+    "negative_soft_modularity": -0.39786645770072937,
+    "collapse_loss": 0.006269097328186035
+  },
+  {
+    "epoch": 300,
+    "objective": -0.3917384147644043,
+    "negative_soft_modularity": -0.3980027437210083,
+    "collapse_loss": 0.006264328956604004
+  },
+  {
+    "epoch": 301,
+    "objective": -0.39187705516815186,
+    "negative_soft_modularity": -0.3981363773345947,
+    "collapse_loss": 0.006259322166442871
+  },
+  {
+    "epoch": 302,
+    "objective": -0.3920152187347412,
+    "negative_soft_modularity": -0.3982696533203125,
+    "collapse_loss": 0.006254434585571289
+  },
+  {
+    "epoch": 303,
+    "objective": -0.3921510875225067,
+    "negative_soft_modularity": -0.39840075373649597,
+    "collapse_loss": 0.006249666213989258
+  },
+  {
+    "epoch": 304,
+    "objective": -0.39228713512420654,
+    "negative_soft_modularity": -0.39853203296661377,
+    "collapse_loss": 0.0062448978424072266
+  },
+  {
+    "epoch": 305,
+    "objective": -0.3924192786216736,
+    "negative_soft_modularity": -0.3986594080924988,
+    "collapse_loss": 0.006240129470825195
+  },
+  {
+    "epoch": 306,
+    "objective": -0.3925507664680481,
+    "negative_soft_modularity": -0.3987862467765808,
+    "collapse_loss": 0.006235480308532715
+  },
+  {
+    "epoch": 307,
+    "objective": -0.3926815092563629,
+    "negative_soft_modularity": -0.3989122211933136,
+    "collapse_loss": 0.006230711936950684
+  },
+  {
+    "epoch": 308,
+    "objective": -0.39280974864959717,
+    "negative_soft_modularity": -0.3990360498428345,
+    "collapse_loss": 0.006226301193237305
+  },
+  {
+    "epoch": 309,
+    "objective": -0.3929373621940613,
+    "negative_soft_modularity": -0.3991594910621643,
+    "collapse_loss": 0.006222128868103027
+  },
+  {
+    "epoch": 310,
+    "objective": -0.393063485622406,
+    "negative_soft_modularity": -0.3992813229560852,
+    "collapse_loss": 0.006217837333679199
+  },
+  {
+    "epoch": 311,
+    "objective": -0.39318835735321045,
+    "negative_soft_modularity": -0.3994021415710449,
+    "collapse_loss": 0.006213784217834473
+  },
+  {
+    "epoch": 312,
+    "objective": -0.3933117985725403,
+    "negative_soft_modularity": -0.3995216488838196,
+    "collapse_loss": 0.006209850311279297
+  },
+  {
+    "epoch": 313,
+    "objective": -0.39343374967575073,
+    "negative_soft_modularity": -0.3996397852897644,
+    "collapse_loss": 0.006206035614013672
+  },
+  {
+    "epoch": 314,
+    "objective": -0.3935539424419403,
+    "negative_soft_modularity": -0.3997558057308197,
+    "collapse_loss": 0.0062018632888793945
+  },
+  {
+    "epoch": 315,
+    "objective": -0.3936736583709717,
+    "negative_soft_modularity": -0.3998713493347168,
+    "collapse_loss": 0.006197690963745117
+  },
+  {
+    "epoch": 316,
+    "objective": -0.39379188418388367,
+    "negative_soft_modularity": -0.39998504519462585,
+    "collapse_loss": 0.0061931610107421875
+  },
+  {
+    "epoch": 317,
+    "objective": -0.39390841126441956,
+    "negative_soft_modularity": -0.40009716153144836,
+    "collapse_loss": 0.006188750267028809
+  },
+  {
+    "epoch": 318,
+    "objective": -0.39402538537979126,
+    "negative_soft_modularity": -0.40020960569381714,
+    "collapse_loss": 0.006184220314025879
+  },
+  {
+    "epoch": 319,
+    "objective": -0.39413967728614807,
+    "negative_soft_modularity": -0.4003197252750397,
+    "collapse_loss": 0.0061800479888916016
+  },
+  {
+    "epoch": 320,
+    "objective": -0.39425337314605713,
+    "negative_soft_modularity": -0.40042924880981445,
+    "collapse_loss": 0.006175875663757324
+  },
+  {
+    "epoch": 321,
+    "objective": -0.3943658173084259,
+    "negative_soft_modularity": -0.40053799748420715,
+    "collapse_loss": 0.00617218017578125
+  },
+  {
+    "epoch": 322,
+    "objective": -0.3944767117500305,
+    "negative_soft_modularity": -0.4006454348564148,
+    "collapse_loss": 0.006168723106384277
+  },
+  {
+    "epoch": 323,
+    "objective": -0.3945873975753784,
+    "negative_soft_modularity": -0.4007529020309448,
+    "collapse_loss": 0.006165504455566406
+  },
+  {
+    "epoch": 324,
+    "objective": -0.39469611644744873,
+    "negative_soft_modularity": -0.4008587598800659,
+    "collapse_loss": 0.0061626434326171875
+  },
+  {
+    "epoch": 325,
+    "objective": -0.39480429887771606,
+    "negative_soft_modularity": -0.40096431970596313,
+    "collapse_loss": 0.00616002082824707
+  },
+  {
+    "epoch": 326,
+    "objective": -0.3949112594127655,
+    "negative_soft_modularity": -0.4010692536830902,
+    "collapse_loss": 0.006157994270324707
+  },
+  {
+    "epoch": 327,
+    "objective": -0.3950183689594269,
+    "negative_soft_modularity": -0.4011745750904083,
+    "collapse_loss": 0.006156206130981445
+  },
+  {
+    "epoch": 328,
+    "objective": -0.39512261748313904,
+    "negative_soft_modularity": -0.4012775123119354,
+    "collapse_loss": 0.006154894828796387
+  },
+  {
+    "epoch": 329,
+    "objective": -0.3952266573905945,
+    "negative_soft_modularity": -0.4013804793357849,
+    "collapse_loss": 0.00615382194519043
+  },
+  {
+    "epoch": 330,
+    "objective": -0.39532914757728577,
+    "negative_soft_modularity": -0.40148189663887024,
+    "collapse_loss": 0.006152749061584473
+  },
+  {
+    "epoch": 331,
+    "objective": -0.3954318165779114,
+    "negative_soft_modularity": -0.401583731174469,
+    "collapse_loss": 0.006151914596557617
+  },
+  {
+    "epoch": 332,
+    "objective": -0.3955335021018982,
+    "negative_soft_modularity": -0.4016844630241394,
+    "collapse_loss": 0.006150960922241211
+  },
+  {
+    "epoch": 333,
+    "objective": -0.3956342041492462,
+    "negative_soft_modularity": -0.401784211397171,
+    "collapse_loss": 0.006150007247924805
+  },
+  {
+    "epoch": 334,
+    "objective": -0.3957330882549286,
+    "negative_soft_modularity": -0.40188202261924744,
+    "collapse_loss": 0.006148934364318848
+  },
+  {
+    "epoch": 335,
+    "objective": -0.39583227038383484,
+    "negative_soft_modularity": -0.4019794166088104,
+    "collapse_loss": 0.006147146224975586
+  },
+  {
+    "epoch": 336,
+    "objective": -0.39592915773391724,
+    "negative_soft_modularity": -0.40207427740097046,
+    "collapse_loss": 0.006145119667053223
+  },
+  {
+    "epoch": 337,
+    "objective": -0.39602527022361755,
+    "negative_soft_modularity": -0.40216800570487976,
+    "collapse_loss": 0.006142735481262207
+  },
+  {
+    "epoch": 338,
+    "objective": -0.3961213231086731,
+    "negative_soft_modularity": -0.4022611975669861,
+    "collapse_loss": 0.006139874458312988
+  },
+  {
+    "epoch": 339,
+    "objective": -0.3962176442146301,
+    "negative_soft_modularity": -0.40235453844070435,
+    "collapse_loss": 0.006136894226074219
+  },
+  {
+    "epoch": 340,
+    "objective": -0.3963119685649872,
+    "negative_soft_modularity": -0.40244588255882263,
+    "collapse_loss": 0.006133913993835449
+  },
+  {
+    "epoch": 341,
+    "objective": -0.39640548825263977,
+    "negative_soft_modularity": -0.40253642201423645,
+    "collapse_loss": 0.00613093376159668
+  },
+  {
+    "epoch": 342,
+    "objective": -0.39649754762649536,
+    "negative_soft_modularity": -0.402626097202301,
+    "collapse_loss": 0.006128549575805664
+  },
+  {
+    "epoch": 343,
+    "objective": -0.39659014344215393,
+    "negative_soft_modularity": -0.40271666646003723,
+    "collapse_loss": 0.006126523017883301
+  },
+  {
+    "epoch": 344,
+    "objective": -0.3966819643974304,
+    "negative_soft_modularity": -0.40280681848526,
+    "collapse_loss": 0.00612485408782959
+  },
+  {
+    "epoch": 345,
+    "objective": -0.39677193760871887,
+    "negative_soft_modularity": -0.4028957188129425,
+    "collapse_loss": 0.006123781204223633
+  },
+  {
+    "epoch": 346,
+    "objective": -0.3968624770641327,
+    "negative_soft_modularity": -0.4029857814311981,
+    "collapse_loss": 0.00612330436706543
+  },
+  {
+    "epoch": 347,
+    "objective": -0.3969511091709137,
+    "negative_soft_modularity": -0.4030745327472687,
+    "collapse_loss": 0.0061234235763549805
+  },
+  {
+    "epoch": 348,
+    "objective": -0.39703914523124695,
+    "negative_soft_modularity": -0.40316304564476013,
+    "collapse_loss": 0.006123900413513184
+  },
+  {
+    "epoch": 349,
+    "objective": -0.397127628326416,
+    "negative_soft_modularity": -0.4032527208328247,
+    "collapse_loss": 0.006125092506408691
+  },
+  {
+    "epoch": 350,
+    "objective": -0.39721444249153137,
+    "negative_soft_modularity": -0.4033409655094147,
+    "collapse_loss": 0.006126523017883301
+  },
+  {
+    "epoch": 351,
+    "objective": -0.3973006010055542,
+    "negative_soft_modularity": -0.4034287929534912,
+    "collapse_loss": 0.006128191947937012
+  },
+  {
+    "epoch": 352,
+    "objective": -0.3973862826824188,
+    "negative_soft_modularity": -0.40351602435112,
+    "collapse_loss": 0.006129741668701172
+  },
+  {
+    "epoch": 353,
+    "objective": -0.3974708318710327,
+    "negative_soft_modularity": -0.40360188484191895,
+    "collapse_loss": 0.0061310529708862305
+  },
+  {
+    "epoch": 354,
+    "objective": -0.39755550026893616,
+    "negative_soft_modularity": -0.4036877453327179,
+    "collapse_loss": 0.006132245063781738
+  },
+  {
+    "epoch": 355,
+    "objective": -0.3976399004459381,
+    "negative_soft_modularity": -0.40377286076545715,
+    "collapse_loss": 0.006132960319519043
+  },
+  {
+    "epoch": 356,
+    "objective": -0.397723525762558,
+    "negative_soft_modularity": -0.40385720133781433,
+    "collapse_loss": 0.006133675575256348
+  },
+  {
+    "epoch": 357,
+    "objective": -0.3978060185909271,
+    "negative_soft_modularity": -0.4039400517940521,
+    "collapse_loss": 0.006134033203125
+  },
+  {
+    "epoch": 358,
+    "objective": -0.3978867828845978,
+    "negative_soft_modularity": -0.404021292924881,
+    "collapse_loss": 0.006134510040283203
+  },
+  {
+    "epoch": 359,
+    "objective": -0.3979686200618744,
+    "negative_soft_modularity": -0.4041036069393158,
+    "collapse_loss": 0.006134986877441406
+  },
+  {
+    "epoch": 360,
+    "objective": -0.3980487585067749,
+    "negative_soft_modularity": -0.4041844606399536,
+    "collapse_loss": 0.006135702133178711
+  },
+  {
+    "epoch": 361,
+    "objective": -0.39812928438186646,
+    "negative_soft_modularity": -0.40426570177078247,
+    "collapse_loss": 0.006136417388916016
+  },
+  {
+    "epoch": 362,
+    "objective": -0.39820894598960876,
+    "negative_soft_modularity": -0.4043465554714203,
+    "collapse_loss": 0.0061376094818115234
+  },
+  {
+    "epoch": 363,
+    "objective": -0.39828750491142273,
+    "negative_soft_modularity": -0.40442654490470886,
+    "collapse_loss": 0.006139039993286133
+  },
+  {
+    "epoch": 364,
+    "objective": -0.39836639165878296,
+    "negative_soft_modularity": -0.40450698137283325,
+    "collapse_loss": 0.006140589714050293
+  },
+  {
+    "epoch": 365,
+    "objective": -0.3984445631504059,
+    "negative_soft_modularity": -0.40458694100379944,
+    "collapse_loss": 0.006142377853393555
+  },
+  {
+    "epoch": 366,
+    "objective": -0.39852091670036316,
+    "negative_soft_modularity": -0.4046644866466522,
+    "collapse_loss": 0.0061435699462890625
+  },
+  {
+    "epoch": 367,
+    "objective": -0.39859870076179504,
+    "negative_soft_modularity": -0.40474334359169006,
+    "collapse_loss": 0.0061446428298950195
+  },
+  {
+    "epoch": 368,
+    "objective": -0.3986753225326538,
+    "negative_soft_modularity": -0.4048210382461548,
+    "collapse_loss": 0.0061457157135009766
+  },
+  {
+    "epoch": 369,
+    "objective": -0.3987502157688141,
+    "negative_soft_modularity": -0.40489712357521057,
+    "collapse_loss": 0.006146907806396484
+  },
+  {
+    "epoch": 370,
+    "objective": -0.39882561564445496,
+    "negative_soft_modularity": -0.40497395396232605,
+    "collapse_loss": 0.006148338317871094
+  },
+  {
+    "epoch": 371,
+    "objective": -0.39890024065971375,
+    "negative_soft_modularity": -0.4050498902797699,
+    "collapse_loss": 0.006149649620056152
+  },
+  {
+    "epoch": 372,
+    "objective": -0.3989739716053009,
+    "negative_soft_modularity": -0.4051251709461212,
+    "collapse_loss": 0.0061511993408203125
+  },
+  {
+    "epoch": 373,
+    "objective": -0.39904800057411194,
+    "negative_soft_modularity": -0.40520063042640686,
+    "collapse_loss": 0.006152629852294922
+  },
+  {
+    "epoch": 374,
+    "objective": -0.3991202712059021,
+    "negative_soft_modularity": -0.4052744507789612,
+    "collapse_loss": 0.006154179573059082
+  },
+  {
+    "epoch": 375,
+    "objective": -0.3991932272911072,
+    "negative_soft_modularity": -0.40534883737564087,
+    "collapse_loss": 0.006155610084533691
+  },
+  {
+    "epoch": 376,
+    "objective": -0.3992656469345093,
+    "negative_soft_modularity": -0.40542304515838623,
+    "collapse_loss": 0.006157398223876953
+  },
+  {
+    "epoch": 377,
+    "objective": -0.39933812618255615,
+    "negative_soft_modularity": -0.405497670173645,
+    "collapse_loss": 0.006159543991088867
+  },
+  {
+    "epoch": 378,
+    "objective": -0.3994097113609314,
+    "negative_soft_modularity": -0.40557199716567993,
+    "collapse_loss": 0.006162285804748535
+  },
+  {
+    "epoch": 379,
+    "objective": -0.3994794189929962,
+    "negative_soft_modularity": -0.40564456582069397,
+    "collapse_loss": 0.006165146827697754
+  },
+  {
+    "epoch": 380,
+    "objective": -0.39955028891563416,
+    "negative_soft_modularity": -0.40571829676628113,
+    "collapse_loss": 0.006168007850646973
+  },
+  {
+    "epoch": 381,
+    "objective": -0.39962050318717957,
+    "negative_soft_modularity": -0.4057914912700653,
+    "collapse_loss": 0.006170988082885742
+  },
+  {
+    "epoch": 382,
+    "objective": -0.399689644575119,
+    "negative_soft_modularity": -0.40586361289024353,
+    "collapse_loss": 0.006173968315124512
+  },
+  {
+    "epoch": 383,
+    "objective": -0.39975860714912415,
+    "negative_soft_modularity": -0.405935674905777,
+    "collapse_loss": 0.006177067756652832
+  },
+  {
+    "epoch": 384,
+    "objective": -0.3998282253742218,
+    "negative_soft_modularity": -0.40600839257240295,
+    "collapse_loss": 0.006180167198181152
+  },
+  {
+    "epoch": 385,
+    "objective": -0.39989596605300903,
+    "negative_soft_modularity": -0.4060789942741394,
+    "collapse_loss": 0.006183028221130371
+  },
+  {
+    "epoch": 386,
+    "objective": -0.3999638855457306,
+    "negative_soft_modularity": -0.40614989399909973,
+    "collapse_loss": 0.006186008453369141
+  },
+  {
+    "epoch": 387,
+    "objective": -0.4000304937362671,
+    "negative_soft_modularity": -0.406219482421875,
+    "collapse_loss": 0.00618898868560791
+  },
+  {
+    "epoch": 388,
+    "objective": -0.40009811520576477,
+    "negative_soft_modularity": -0.40628984570503235,
+    "collapse_loss": 0.006191730499267578
+  },
+  {
+    "epoch": 389,
+    "objective": -0.40016472339630127,
+    "negative_soft_modularity": -0.40635955333709717,
+    "collapse_loss": 0.0061948299407958984
+  },
+  {
+    "epoch": 390,
+    "objective": -0.4002319872379303,
+    "negative_soft_modularity": -0.4064296782016754,
+    "collapse_loss": 0.006197690963745117
+  },
+  {
+    "epoch": 391,
+    "objective": -0.40029701590538025,
+    "negative_soft_modularity": -0.4064980447292328,
+    "collapse_loss": 0.006201028823852539
+  },
+  {
+    "epoch": 392,
+    "objective": -0.40036261081695557,
+    "negative_soft_modularity": -0.40656721591949463,
+    "collapse_loss": 0.0062046051025390625
+  },
+  {
+    "epoch": 393,
+    "objective": -0.4004281461238861,
+    "negative_soft_modularity": -0.40663620829582214,
+    "collapse_loss": 0.006208062171936035
+  },
+  {
+    "epoch": 394,
+    "objective": -0.4004932641983032,
+    "negative_soft_modularity": -0.40670502185821533,
+    "collapse_loss": 0.006211757659912109
+  },
+  {
+    "epoch": 395,
+    "objective": -0.40055719017982483,
+    "negative_soft_modularity": -0.4067728817462921,
+    "collapse_loss": 0.006215691566467285
+  },
+  {
+    "epoch": 396,
+    "objective": -0.4006213843822479,
+    "negative_soft_modularity": -0.40684112906455994,
+    "collapse_loss": 0.006219744682312012
+  },
+  {
+    "epoch": 397,
+    "objective": -0.40068501234054565,
+    "negative_soft_modularity": -0.4069090485572815,
+    "collapse_loss": 0.00622403621673584
+  },
+  {
+    "epoch": 398,
+    "objective": -0.4007478356361389,
+    "negative_soft_modularity": -0.4069764018058777,
+    "collapse_loss": 0.0062285661697387695
+  },
+  {
+    "epoch": 399,
+    "objective": -0.400810569524765,
+    "negative_soft_modularity": -0.4070436656475067,
+    "collapse_loss": 0.006233096122741699
+  },
+  {
+    "epoch": 400,
+    "objective": -0.4008742570877075,
+    "negative_soft_modularity": -0.40711236000061035,
+    "collapse_loss": 0.006238102912902832
+  },
+  {
+    "epoch": 401,
+    "objective": -0.40093526244163513,
+    "negative_soft_modularity": -0.4071783721446991,
+    "collapse_loss": 0.006243109703063965
+  },
+  {
+    "epoch": 402,
+    "objective": -0.40099725127220154,
+    "negative_soft_modularity": -0.40724536776542664,
+    "collapse_loss": 0.006248116493225098
+  },
+  {
+    "epoch": 403,
+    "objective": -0.4010598659515381,
+    "negative_soft_modularity": -0.4073129892349243,
+    "collapse_loss": 0.0062531232833862305
+  },
+  {
+    "epoch": 404,
+    "objective": -0.4011199176311493,
+    "negative_soft_modularity": -0.4073779284954071,
+    "collapse_loss": 0.0062580108642578125
+  },
+  {
+    "epoch": 405,
+    "objective": -0.4011809229850769,
+    "negative_soft_modularity": -0.4074435830116272,
+    "collapse_loss": 0.006262660026550293
+  },
+  {
+    "epoch": 406,
+    "objective": -0.40124231576919556,
+    "negative_soft_modularity": -0.4075097441673279,
+    "collapse_loss": 0.006267428398132324
+  },
+  {
+    "epoch": 407,
+    "objective": -0.4013029932975769,
+    "negative_soft_modularity": -0.4075750708580017,
+    "collapse_loss": 0.006272077560424805
+  },
+  {
+    "epoch": 408,
+    "objective": -0.4013623595237732,
+    "negative_soft_modularity": -0.4076390862464905,
+    "collapse_loss": 0.006276726722717285
+  },
+  {
+    "epoch": 409,
+    "objective": -0.4014221727848053,
+    "negative_soft_modularity": -0.4077036678791046,
+    "collapse_loss": 0.006281495094299316
+  },
+  {
+    "epoch": 410,
+    "objective": -0.4014817476272583,
+    "negative_soft_modularity": -0.40776801109313965,
+    "collapse_loss": 0.006286263465881348
+  },
+  {
+    "epoch": 411,
+    "objective": -0.4015409052371979,
+    "negative_soft_modularity": -0.40783217549324036,
+    "collapse_loss": 0.0062912702560424805
+  },
+  {
+    "epoch": 412,
+    "objective": -0.4015994668006897,
+    "negative_soft_modularity": -0.40789586305618286,
+    "collapse_loss": 0.006296396255493164
+  },
+  {
+    "epoch": 413,
+    "objective": -0.4016578793525696,
+    "negative_soft_modularity": -0.4079594016075134,
+    "collapse_loss": 0.006301522254943848
+  },
+  {
+    "epoch": 414,
+    "objective": -0.40171611309051514,
+    "negative_soft_modularity": -0.40802276134490967,
+    "collapse_loss": 0.006306648254394531
+  },
+  {
+    "epoch": 415,
+    "objective": -0.4017731249332428,
+    "negative_soft_modularity": -0.40808501839637756,
+    "collapse_loss": 0.006311893463134766
+  },
+  {
+    "epoch": 416,
+    "objective": -0.4018304646015167,
+    "negative_soft_modularity": -0.4081474840641022,
+    "collapse_loss": 0.006317019462585449
+  },
+  {
+    "epoch": 417,
+    "objective": -0.401887983083725,
+    "negative_soft_modularity": -0.4082101285457611,
+    "collapse_loss": 0.006322145462036133
+  },
+  {
+    "epoch": 418,
+    "objective": -0.40194475650787354,
+    "negative_soft_modularity": -0.40827226638793945,
+    "collapse_loss": 0.006327509880065918
+  },
+  {
+    "epoch": 419,
+    "objective": -0.4020006060600281,
+    "negative_soft_modularity": -0.40833359956741333,
+    "collapse_loss": 0.006332993507385254
+  },
+  {
+    "epoch": 420,
+    "objective": -0.40205809473991394,
+    "negative_soft_modularity": -0.40839657187461853,
+    "collapse_loss": 0.00633847713470459
+  },
+  {
+    "epoch": 421,
+    "objective": -0.40211474895477295,
+    "negative_soft_modularity": -0.4084590673446655,
+    "collapse_loss": 0.006344318389892578
+  },
+  {
+    "epoch": 422,
+    "objective": -0.40216994285583496,
+    "negative_soft_modularity": -0.4085204601287842,
+    "collapse_loss": 0.006350517272949219
+  },
+  {
+    "epoch": 423,
+    "objective": -0.40222612023353577,
+    "negative_soft_modularity": -0.4085830748081207,
+    "collapse_loss": 0.006356954574584961
+  },
+  {
+    "epoch": 424,
+    "objective": -0.40228211879730225,
+    "negative_soft_modularity": -0.40864574909210205,
+    "collapse_loss": 0.006363630294799805
+  },
+  {
+    "epoch": 425,
+    "objective": -0.402336984872818,
+    "negative_soft_modularity": -0.4087071716785431,
+    "collapse_loss": 0.006370186805725098
+  },
+  {
+    "epoch": 426,
+    "objective": -0.4023917317390442,
+    "negative_soft_modularity": -0.4087689518928528,
+    "collapse_loss": 0.006377220153808594
+  },
+  {
+    "epoch": 427,
+    "objective": -0.40244564414024353,
+    "negative_soft_modularity": -0.4088298976421356,
+    "collapse_loss": 0.00638425350189209
+  },
+  {
+    "epoch": 428,
+    "objective": -0.40250083804130554,
+    "negative_soft_modularity": -0.40889212489128113,
+    "collapse_loss": 0.006391286849975586
+  },
+  {
+    "epoch": 429,
+    "objective": -0.4025548994541168,
+    "negative_soft_modularity": -0.408953458070755,
+    "collapse_loss": 0.006398558616638184
+  },
+  {
+    "epoch": 430,
+    "objective": -0.40260931849479675,
+    "negative_soft_modularity": -0.40901491045951843,
+    "collapse_loss": 0.00640559196472168
+  },
+  {
+    "epoch": 431,
+    "objective": -0.402662456035614,
+    "negative_soft_modularity": -0.40907520055770874,
+    "collapse_loss": 0.0064127445220947266
+  },
+  {
+    "epoch": 432,
+    "objective": -0.40271466970443726,
+    "negative_soft_modularity": -0.4091343283653259,
+    "collapse_loss": 0.006419658660888672
+  },
+  {
+    "epoch": 433,
+    "objective": -0.4027693569660187,
+    "negative_soft_modularity": -0.4091959297657013,
+    "collapse_loss": 0.006426572799682617
+  },
+  {
+    "epoch": 434,
+    "objective": -0.40282174944877625,
+    "negative_soft_modularity": -0.4092552363872528,
+    "collapse_loss": 0.0064334869384765625
+  },
+  {
+    "epoch": 435,
+    "objective": -0.4028746485710144,
+    "negative_soft_modularity": -0.40931493043899536,
+    "collapse_loss": 0.006440281867980957
+  },
+  {
+    "epoch": 436,
+    "objective": -0.4029269516468048,
+    "negative_soft_modularity": -0.4093739092350006,
+    "collapse_loss": 0.006446957588195801
+  },
+  {
+    "epoch": 437,
+    "objective": -0.4029793441295624,
+    "negative_soft_modularity": -0.409432977437973,
+    "collapse_loss": 0.0064536333084106445
+  },
+  {
+    "epoch": 438,
+    "objective": -0.40303245186805725,
+    "negative_soft_modularity": -0.40949276089668274,
+    "collapse_loss": 0.006460309028625488
+  },
+  {
+    "epoch": 439,
+    "objective": -0.40308406949043274,
+    "negative_soft_modularity": -0.4095514118671417,
+    "collapse_loss": 0.006467342376708984
+  },
+  {
+    "epoch": 440,
+    "objective": -0.4031360447406769,
+    "negative_soft_modularity": -0.40961018204689026,
+    "collapse_loss": 0.006474137306213379
+  },
+  {
+    "epoch": 441,
+    "objective": -0.4031873941421509,
+    "negative_soft_modularity": -0.40966880321502686,
+    "collapse_loss": 0.0064814090728759766
+  },
+  {
+    "epoch": 442,
+    "objective": -0.40323901176452637,
+    "negative_soft_modularity": -0.4097280502319336,
+    "collapse_loss": 0.0064890384674072266
+  },
+  {
+    "epoch": 443,
+    "objective": -0.4032905697822571,
+    "negative_soft_modularity": -0.40978747606277466,
+    "collapse_loss": 0.006496906280517578
+  },
+  {
+    "epoch": 444,
+    "objective": -0.4033410847187042,
+    "negative_soft_modularity": -0.40984609723091125,
+    "collapse_loss": 0.006505012512207031
+  },
+  {
+    "epoch": 445,
+    "objective": -0.40339210629463196,
+    "negative_soft_modularity": -0.409905344247818,
+    "collapse_loss": 0.006513237953186035
+  },
+  {
+    "epoch": 446,
+    "objective": -0.40344202518463135,
+    "negative_soft_modularity": -0.4099637269973755,
+    "collapse_loss": 0.006521701812744141
+  },
+  {
+    "epoch": 447,
+    "objective": -0.4034922420978546,
+    "negative_soft_modularity": -0.41002240777015686,
+    "collapse_loss": 0.006530165672302246
+  },
+  {
+    "epoch": 448,
+    "objective": -0.403542697429657,
+    "negative_soft_modularity": -0.41008132696151733,
+    "collapse_loss": 0.0065386295318603516
+  },
+  {
+    "epoch": 449,
+    "objective": -0.4035938084125519,
+    "negative_soft_modularity": -0.4101410210132599,
+    "collapse_loss": 0.006547212600708008
+  },
+  {
+    "epoch": 450,
+    "objective": -0.4036431908607483,
+    "negative_soft_modularity": -0.41019898653030396,
+    "collapse_loss": 0.006555795669555664
+  },
+  {
+    "epoch": 451,
+    "objective": -0.4036926329135895,
+    "negative_soft_modularity": -0.4102570116519928,
+    "collapse_loss": 0.00656437873840332
+  },
+  {
+    "epoch": 452,
+    "objective": -0.4037420451641083,
+    "negative_soft_modularity": -0.41031500697135925,
+    "collapse_loss": 0.0065729618072509766
+  },
+  {
+    "epoch": 453,
+    "objective": -0.4037916660308838,
+    "negative_soft_modularity": -0.41037309169769287,
+    "collapse_loss": 0.006581425666809082
+  },
+  {
+    "epoch": 454,
+    "objective": -0.4038403332233429,
+    "negative_soft_modularity": -0.41043034195899963,
+    "collapse_loss": 0.006590008735656738
+  },
+  {
+    "epoch": 455,
+    "objective": -0.40389055013656616,
+    "negative_soft_modularity": -0.410489022731781,
+    "collapse_loss": 0.006598472595214844
+  },
+  {
+    "epoch": 456,
+    "objective": -0.4039381444454193,
+    "negative_soft_modularity": -0.4105452001094818,
+    "collapse_loss": 0.0066070556640625
+  },
+  {
+    "epoch": 457,
+    "objective": -0.4039877653121948,
+    "negative_soft_modularity": -0.4106031656265259,
+    "collapse_loss": 0.006615400314331055
+  },
+  {
+    "epoch": 458,
+    "objective": -0.4040363132953644,
+    "negative_soft_modularity": -0.41066017746925354,
+    "collapse_loss": 0.00662386417388916
+  },
+  {
+    "epoch": 459,
+    "objective": -0.40408581495285034,
+    "negative_soft_modularity": -0.4107181429862976,
+    "collapse_loss": 0.006632328033447266
+  },
+  {
+    "epoch": 460,
+    "objective": -0.40413421392440796,
+    "negative_soft_modularity": -0.41077476739883423,
+    "collapse_loss": 0.0066405534744262695
+  },
+  {
+    "epoch": 461,
+    "objective": -0.4041820764541626,
+    "negative_soft_modularity": -0.4108312129974365,
+    "collapse_loss": 0.006649136543273926
+  },
+  {
+    "epoch": 462,
+    "objective": -0.40422961115837097,
+    "negative_soft_modularity": -0.41088733077049255,
+    "collapse_loss": 0.006657719612121582
+  },
+  {
+    "epoch": 463,
+    "objective": -0.40427783131599426,
+    "negative_soft_modularity": -0.41094425320625305,
+    "collapse_loss": 0.006666421890258789
+  },
+  {
+    "epoch": 464,
+    "objective": -0.404325395822525,
+    "negative_soft_modularity": -0.41100063920021057,
+    "collapse_loss": 0.006675243377685547
+  },
+  {
+    "epoch": 465,
+    "objective": -0.4043729305267334,
+    "negative_soft_modularity": -0.41105759143829346,
+    "collapse_loss": 0.006684660911560059
+  },
+  {
+    "epoch": 466,
+    "objective": -0.4044203758239746,
+    "negative_soft_modularity": -0.41111505031585693,
+    "collapse_loss": 0.006694674491882324
+  },
+  {
+    "epoch": 467,
+    "objective": -0.40446844696998596,
+    "negative_soft_modularity": -0.4111737310886383,
+    "collapse_loss": 0.006705284118652344
+  },
+  {
+    "epoch": 468,
+    "objective": -0.40451580286026,
+    "negative_soft_modularity": -0.411232054233551,
+    "collapse_loss": 0.006716251373291016
+  },
+  {
+    "epoch": 469,
+    "objective": -0.40456268191337585,
+    "negative_soft_modularity": -0.41129013895988464,
+    "collapse_loss": 0.006727457046508789
+  },
+  {
+    "epoch": 470,
+    "objective": -0.4046095609664917,
+    "negative_soft_modularity": -0.4113485813140869,
+    "collapse_loss": 0.006739020347595215
+  },
+  {
+    "epoch": 471,
+    "objective": -0.404656320810318,
+    "negative_soft_modularity": -0.41140714287757874,
+    "collapse_loss": 0.006750822067260742
+  },
+  {
+    "epoch": 472,
+    "objective": -0.4047028124332428,
+    "negative_soft_modularity": -0.4114650785923004,
+    "collapse_loss": 0.006762266159057617
+  },
+  {
+    "epoch": 473,
+    "objective": -0.404750257730484,
+    "negative_soft_modularity": -0.4115239679813385,
+    "collapse_loss": 0.006773710250854492
+  },
+  {
+    "epoch": 474,
+    "objective": -0.40479642152786255,
+    "negative_soft_modularity": -0.41158145666122437,
+    "collapse_loss": 0.006785035133361816
+  },
+  {
+    "epoch": 475,
+    "objective": -0.4048433303833008,
+    "negative_soft_modularity": -0.4116396903991699,
+    "collapse_loss": 0.006796360015869141
+  },
+  {
+    "epoch": 476,
+    "objective": -0.4048895239830017,
+    "negative_soft_modularity": -0.4116972088813782,
+    "collapse_loss": 0.006807684898376465
+  },
+  {
+    "epoch": 477,
+    "objective": -0.40493524074554443,
+    "negative_soft_modularity": -0.4117543697357178,
+    "collapse_loss": 0.00681912899017334
+  },
+  {
+    "epoch": 478,
+    "objective": -0.40498122572898865,
+    "negative_soft_modularity": -0.41181179881095886,
+    "collapse_loss": 0.006830573081970215
+  },
+  {
+    "epoch": 479,
+    "objective": -0.4050278067588806,
+    "negative_soft_modularity": -0.41186994314193726,
+    "collapse_loss": 0.006842136383056641
+  },
+  {
+    "epoch": 480,
+    "objective": -0.40507349371910095,
+    "negative_soft_modularity": -0.411927193403244,
+    "collapse_loss": 0.006853699684143066
+  },
+  {
+    "epoch": 481,
+    "objective": -0.40511906147003174,
+    "negative_soft_modularity": -0.41198408603668213,
+    "collapse_loss": 0.006865024566650391
+  },
+  {
+    "epoch": 482,
+    "objective": -0.4051643908023834,
+    "negative_soft_modularity": -0.41204074025154114,
+    "collapse_loss": 0.006876349449157715
+  },
+  {
+    "epoch": 483,
+    "objective": -0.4052104651927948,
+    "negative_soft_modularity": -0.41209766268730164,
+    "collapse_loss": 0.006887197494506836
+  },
+  {
+    "epoch": 484,
+    "objective": -0.40525639057159424,
+    "negative_soft_modularity": -0.4121544361114502,
+    "collapse_loss": 0.006898045539855957
+  },
+  {
+    "epoch": 485,
+    "objective": -0.4053013026714325,
+    "negative_soft_modularity": -0.4122098386287689,
+    "collapse_loss": 0.006908535957336426
+  },
+  {
+    "epoch": 486,
+    "objective": -0.40534675121307373,
+    "negative_soft_modularity": -0.412265419960022,
+    "collapse_loss": 0.006918668746948242
+  },
+  {
+    "epoch": 487,
+    "objective": -0.4053919315338135,
+    "negative_soft_modularity": -0.41232097148895264,
+    "collapse_loss": 0.00692903995513916
+  },
+  {
+    "epoch": 488,
+    "objective": -0.4054374396800995,
+    "negative_soft_modularity": -0.41237637400627136,
+    "collapse_loss": 0.006938934326171875
+  },
+  {
+    "epoch": 489,
+    "objective": -0.4054826498031616,
+    "negative_soft_modularity": -0.4124314785003662,
+    "collapse_loss": 0.00694882869720459
+  },
+  {
+    "epoch": 490,
+    "objective": -0.4055277705192566,
+    "negative_soft_modularity": -0.412486732006073,
+    "collapse_loss": 0.006958961486816406
+  },
+  {
+    "epoch": 491,
+    "objective": -0.4055725336074829,
+    "negative_soft_modularity": -0.41254138946533203,
+    "collapse_loss": 0.006968855857849121
+  },
+  {
+    "epoch": 492,
+    "objective": -0.40561750531196594,
+    "negative_soft_modularity": -0.4125964939594269,
+    "collapse_loss": 0.0069789886474609375
+  },
+  {
+    "epoch": 493,
+    "objective": -0.4056612551212311,
+    "negative_soft_modularity": -0.41265061497688293,
+    "collapse_loss": 0.0069893598556518555
+  },
+  {
+    "epoch": 494,
+    "objective": -0.40570616722106934,
+    "negative_soft_modularity": -0.41270601749420166,
+    "collapse_loss": 0.006999850273132324
+  },
+  {
+    "epoch": 495,
+    "objective": -0.4057510495185852,
+    "negative_soft_modularity": -0.4127616286277771,
+    "collapse_loss": 0.0070105791091918945
+  },
+  {
+    "epoch": 496,
+    "objective": -0.40579575300216675,
+    "negative_soft_modularity": -0.41281741857528687,
+    "collapse_loss": 0.007021665573120117
+  },
+  {
+    "epoch": 497,
+    "objective": -0.4058400094509125,
+    "negative_soft_modularity": -0.4128729999065399,
+    "collapse_loss": 0.007032990455627441
+  },
+  {
+    "epoch": 498,
+    "objective": -0.4058847427368164,
+    "negative_soft_modularity": -0.4129295349121094,
+    "collapse_loss": 0.007044792175292969
+  },
+  {
+    "epoch": 499,
+    "objective": -0.40592849254608154,
+    "negative_soft_modularity": -0.41298508644104004,
+    "collapse_loss": 0.007056593894958496
+  },
+  {
+    "epoch": 500,
+    "objective": -0.40597304701805115,
+    "negative_soft_modularity": -0.4130415618419647,
+    "collapse_loss": 0.007068514823913574
+  },
+  {
+    "epoch": 501,
+    "objective": -0.406017005443573,
+    "negative_soft_modularity": -0.41309767961502075,
+    "collapse_loss": 0.007080674171447754
+  },
+  {
+    "epoch": 502,
+    "objective": -0.4060609042644501,
+    "negative_soft_modularity": -0.41315361857414246,
+    "collapse_loss": 0.007092714309692383
+  },
+  {
+    "epoch": 503,
+    "objective": -0.40610525012016296,
+    "negative_soft_modularity": -0.4132098853588104,
+    "collapse_loss": 0.007104635238647461
+  },
+  {
+    "epoch": 504,
+    "objective": -0.40614965558052063,
+    "negative_soft_modularity": -0.4132660925388336,
+    "collapse_loss": 0.007116436958312988
+  },
+  {
+    "epoch": 505,
+    "objective": -0.4061932861804962,
+    "negative_soft_modularity": -0.41332152485847473,
+    "collapse_loss": 0.007128238677978516
+  },
+  {
+    "epoch": 506,
+    "objective": -0.4062373638153076,
+    "negative_soft_modularity": -0.41337692737579346,
+    "collapse_loss": 0.00713956356048584
+  },
+  {
+    "epoch": 507,
+    "objective": -0.40628138184547424,
+    "negative_soft_modularity": -0.4134325087070465,
+    "collapse_loss": 0.007151126861572266
+  },
+  {
+    "epoch": 508,
+    "objective": -0.4063243269920349,
+    "negative_soft_modularity": -0.41348689794540405,
+    "collapse_loss": 0.007162570953369141
+  },
+  {
+    "epoch": 509,
+    "objective": -0.4063689708709717,
+    "negative_soft_modularity": -0.41354262828826904,
+    "collapse_loss": 0.007173657417297363
+  },
+  {
+    "epoch": 510,
+    "objective": -0.40641170740127563,
+    "negative_soft_modularity": -0.41359657049179077,
+    "collapse_loss": 0.007184863090515137
+  },
+  {
+    "epoch": 511,
+    "objective": -0.4064556956291199,
+    "negative_soft_modularity": -0.4136517643928528,
+    "collapse_loss": 0.00719606876373291
+  },
+  {
+    "epoch": 512,
+    "objective": -0.4064992666244507,
+    "negative_soft_modularity": -0.41370654106140137,
+    "collapse_loss": 0.007207274436950684
+  },
+  {
+    "epoch": 513,
+    "objective": -0.40654298663139343,
+    "negative_soft_modularity": -0.41376134753227234,
+    "collapse_loss": 0.007218360900878906
+  },
+  {
+    "epoch": 514,
+    "objective": -0.4065864384174347,
+    "negative_soft_modularity": -0.41381576657295227,
+    "collapse_loss": 0.007229328155517578
+  },
+  {
+    "epoch": 515,
+    "objective": -0.40662920475006104,
+    "negative_soft_modularity": -0.4138692617416382,
+    "collapse_loss": 0.0072400569915771484
+  },
+  {
+    "epoch": 516,
+    "objective": -0.40667226910591125,
+    "negative_soft_modularity": -0.4139229357242584,
+    "collapse_loss": 0.007250666618347168
+  },
+  {
+    "epoch": 517,
+    "objective": -0.40671506524086,
+    "negative_soft_modularity": -0.41397610306739807,
+    "collapse_loss": 0.007261037826538086
+  },
+  {
+    "epoch": 518,
+    "objective": -0.40675821900367737,
+    "negative_soft_modularity": -0.41402938961982727,
+    "collapse_loss": 0.007271170616149902
+  },
+  {
+    "epoch": 519,
+    "objective": -0.4068012237548828,
+    "negative_soft_modularity": -0.4140826463699341,
+    "collapse_loss": 0.0072814226150512695
+  },
+  {
+    "epoch": 520,
+    "objective": -0.40684404969215393,
+    "negative_soft_modularity": -0.41413548588752747,
+    "collapse_loss": 0.007291436195373535
+  },
+  {
+    "epoch": 521,
+    "objective": -0.4068870544433594,
+    "negative_soft_modularity": -0.4141885042190552,
+    "collapse_loss": 0.007301449775695801
+  },
+  {
+    "epoch": 522,
+    "objective": -0.40692949295043945,
+    "negative_soft_modularity": -0.4142407178878784,
+    "collapse_loss": 0.007311224937438965
+  },
+  {
+    "epoch": 523,
+    "objective": -0.4069732129573822,
+    "negative_soft_modularity": -0.41429421305656433,
+    "collapse_loss": 0.007321000099182129
+  },
+  {
+    "epoch": 524,
+    "objective": -0.4070158004760742,
+    "negative_soft_modularity": -0.41434669494628906,
+    "collapse_loss": 0.007330894470214844
+  },
+  {
+    "epoch": 525,
+    "objective": -0.4070582687854767,
+    "negative_soft_modularity": -0.41439953446388245,
+    "collapse_loss": 0.007341265678405762
+  },
+  {
+    "epoch": 526,
+    "objective": -0.4071004390716553,
+    "negative_soft_modularity": -0.41445159912109375,
+    "collapse_loss": 0.0073511600494384766
+  },
+  {
+    "epoch": 527,
+    "objective": -0.40714383125305176,
+    "negative_soft_modularity": -0.4145047664642334,
+    "collapse_loss": 0.007360935211181641
+  },
+  {
+    "epoch": 528,
+    "objective": -0.40718546509742737,
+    "negative_soft_modularity": -0.4145565330982208,
+    "collapse_loss": 0.007371068000793457
+  },
+  {
+    "epoch": 529,
+    "objective": -0.4072282612323761,
+    "negative_soft_modularity": -0.4146093428134918,
+    "collapse_loss": 0.007381081581115723
+  },
+  {
+    "epoch": 530,
+    "objective": -0.4072701334953308,
+    "negative_soft_modularity": -0.4146612286567688,
+    "collapse_loss": 0.007391095161437988
+  },
+  {
+    "epoch": 531,
+    "objective": -0.4073134958744049,
+    "negative_soft_modularity": -0.4147144854068756,
+    "collapse_loss": 0.007400989532470703
+  },
+  {
+    "epoch": 532,
+    "objective": -0.40735533833503723,
+    "negative_soft_modularity": -0.41476622223854065,
+    "collapse_loss": 0.007410883903503418
+  },
+  {
+    "epoch": 533,
+    "objective": -0.4073978364467621,
+    "negative_soft_modularity": -0.4148183763027191,
+    "collapse_loss": 0.007420539855957031
+  },
+  {
+    "epoch": 534,
+    "objective": -0.40743985772132874,
+    "negative_soft_modularity": -0.41487017273902893,
+    "collapse_loss": 0.007430315017700195
+  },
+  {
+    "epoch": 535,
+    "objective": -0.40748313069343567,
+    "negative_soft_modularity": -0.4149229824542999,
+    "collapse_loss": 0.007439851760864258
+  },
+  {
+    "epoch": 536,
+    "objective": -0.4075242578983307,
+    "negative_soft_modularity": -0.41497376561164856,
+    "collapse_loss": 0.007449507713317871
+  },
+  {
+    "epoch": 537,
+    "objective": -0.4075656831264496,
+    "negative_soft_modularity": -0.4150247275829315,
+    "collapse_loss": 0.007459044456481934
+  },
+  {
+    "epoch": 538,
+    "objective": -0.40760788321495056,
+    "negative_soft_modularity": -0.41507646441459656,
+    "collapse_loss": 0.007468581199645996
+  },
+  {
+    "epoch": 539,
+    "objective": -0.4076497256755829,
+    "negative_soft_modularity": -0.41512784361839294,
+    "collapse_loss": 0.007478117942810059
+  },
+  {
+    "epoch": 540,
+    "objective": -0.4076918959617615,
+    "negative_soft_modularity": -0.41517966985702515,
+    "collapse_loss": 0.007487773895263672
+  },
+  {
+    "epoch": 541,
+    "objective": -0.4077344536781311,
+    "negative_soft_modularity": -0.4152318835258484,
+    "collapse_loss": 0.007497429847717285
+  },
+  {
+    "epoch": 542,
+    "objective": -0.4077761769294739,
+    "negative_soft_modularity": -0.4152836203575134,
+    "collapse_loss": 0.007507443428039551
+  },
+  {
+    "epoch": 543,
+    "objective": -0.4078178107738495,
+    "negative_soft_modularity": -0.41533514857292175,
+    "collapse_loss": 0.007517337799072266
+  },
+  {
+    "epoch": 544,
+    "objective": -0.40785956382751465,
+    "negative_soft_modularity": -0.41538679599761963,
+    "collapse_loss": 0.0075272321701049805
+  },
+  {
+    "epoch": 545,
+    "objective": -0.4079013168811798,
+    "negative_soft_modularity": -0.41543832421302795,
+    "collapse_loss": 0.0075370073318481445
+  },
+  {
+    "epoch": 546,
+    "objective": -0.40794289112091064,
+    "negative_soft_modularity": -0.41548943519592285,
+    "collapse_loss": 0.007546544075012207
+  },
+  {
+    "epoch": 547,
+    "objective": -0.4079838693141937,
+    "negative_soft_modularity": -0.41553983092308044,
+    "collapse_loss": 0.007555961608886719
+  },
+  {
+    "epoch": 548,
+    "objective": -0.408025324344635,
+    "negative_soft_modularity": -0.4155905842781067,
+    "collapse_loss": 0.00756525993347168
+  },
+  {
+    "epoch": 549,
+    "objective": -0.4080670475959778,
+    "negative_soft_modularity": -0.4156416058540344,
+    "collapse_loss": 0.007574558258056641
+  },
+  {
+    "epoch": 550,
+    "objective": -0.4081082344055176,
+    "negative_soft_modularity": -0.41569197177886963,
+    "collapse_loss": 0.007583737373352051
+  },
+  {
+    "epoch": 551,
+    "objective": -0.4081498980522156,
+    "negative_soft_modularity": -0.4157424569129944,
+    "collapse_loss": 0.007592558860778809
+  },
+  {
+    "epoch": 552,
+    "objective": -0.40819087624549866,
+    "negative_soft_modularity": -0.4157921373844147,
+    "collapse_loss": 0.007601261138916016
+  },
+  {
+    "epoch": 553,
+    "objective": -0.4082326591014862,
+    "negative_soft_modularity": -0.4158422648906708,
+    "collapse_loss": 0.00760960578918457
+  },
+  {
+    "epoch": 554,
+    "objective": -0.40827372670173645,
+    "negative_soft_modularity": -0.4158913195133209,
+    "collapse_loss": 0.007617592811584473
+  },
+  {
+    "epoch": 555,
+    "objective": -0.4083147943019867,
+    "negative_soft_modularity": -0.4159402549266815,
+    "collapse_loss": 0.007625460624694824
+  },
+  {
+    "epoch": 556,
+    "objective": -0.4083564281463623,
+    "negative_soft_modularity": -0.41598939895629883,
+    "collapse_loss": 0.0076329708099365234
+  },
+  {
+    "epoch": 557,
+    "objective": -0.40839728713035583,
+    "negative_soft_modularity": -0.4160376489162445,
+    "collapse_loss": 0.007640361785888672
+  },
+  {
+    "epoch": 558,
+    "objective": -0.40843912959098816,
+    "negative_soft_modularity": -0.416086882352829,
+    "collapse_loss": 0.00764775276184082
+  },
+  {
+    "epoch": 559,
+    "objective": -0.40847963094711304,
+    "negative_soft_modularity": -0.41613441705703735,
+    "collapse_loss": 0.007654786109924316
+  },
+  {
+    "epoch": 560,
+    "objective": -0.4085206091403961,
+    "negative_soft_modularity": -0.41618219017982483,
+    "collapse_loss": 0.007661581039428711
+  },
+  {
+    "epoch": 561,
+    "objective": -0.4085613191127777,
+    "negative_soft_modularity": -0.41622957587242126,
+    "collapse_loss": 0.007668256759643555
+  },
+  {
+    "epoch": 562,
+    "objective": -0.40860283374786377,
+    "negative_soft_modularity": -0.4162776470184326,
+    "collapse_loss": 0.007674813270568848
+  },
+  {
+    "epoch": 563,
+    "objective": -0.4086444079875946,
+    "negative_soft_modularity": -0.41632553935050964,
+    "collapse_loss": 0.007681131362915039
+  },
+  {
+    "epoch": 564,
+    "objective": -0.40868517756462097,
+    "negative_soft_modularity": -0.4163726270198822,
+    "collapse_loss": 0.0076874494552612305
+  },
+  {
+    "epoch": 565,
+    "objective": -0.40872639417648315,
+    "negative_soft_modularity": -0.4164199233055115,
+    "collapse_loss": 0.00769352912902832
+  },
+  {
+    "epoch": 566,
+    "objective": -0.4087671637535095,
+    "negative_soft_modularity": -0.4164666533470154,
+    "collapse_loss": 0.007699489593505859
+  },
+  {
+    "epoch": 567,
+    "objective": -0.4088078439235687,
+    "negative_soft_modularity": -0.416513055562973,
+    "collapse_loss": 0.007705211639404297
+  },
+  {
+    "epoch": 568,
+    "objective": -0.4088478982448578,
+    "negative_soft_modularity": -0.4165588319301605,
+    "collapse_loss": 0.007710933685302734
+  },
+  {
+    "epoch": 569,
+    "objective": -0.4088892340660095,
+    "negative_soft_modularity": -0.41660553216934204,
+    "collapse_loss": 0.0077162981033325195
+  },
+  {
+    "epoch": 570,
+    "objective": -0.4089292883872986,
+    "negative_soft_modularity": -0.4166509509086609,
+    "collapse_loss": 0.007721662521362305
+  },
+  {
+    "epoch": 571,
+    "objective": -0.4089704155921936,
+    "negative_soft_modularity": -0.4166972041130066,
+    "collapse_loss": 0.007726788520812988
+  },
+  {
+    "epoch": 572,
+    "objective": -0.4090101718902588,
+    "negative_soft_modularity": -0.41674208641052246,
+    "collapse_loss": 0.007731914520263672
+  },
+  {
+    "epoch": 573,
+    "objective": -0.40905138850212097,
+    "negative_soft_modularity": -0.4167885482311249,
+    "collapse_loss": 0.007737159729003906
+  },
+  {
+    "epoch": 574,
+    "objective": -0.40909186005592346,
+    "negative_soft_modularity": -0.4168345034122467,
+    "collapse_loss": 0.007742643356323242
+  },
+  {
+    "epoch": 575,
+    "objective": -0.40913262963294983,
+    "negative_soft_modularity": -0.4168807566165924,
+    "collapse_loss": 0.007748126983642578
+  },
+  {
+    "epoch": 576,
+    "objective": -0.40917283296585083,
+    "negative_soft_modularity": -0.41692692041397095,
+    "collapse_loss": 0.007754087448120117
+  },
+  {
+    "epoch": 577,
+    "objective": -0.4092141389846802,
+    "negative_soft_modularity": -0.4169740676879883,
+    "collapse_loss": 0.0077599287033081055
+  },
+  {
+    "epoch": 578,
+    "objective": -0.40925389528274536,
+    "negative_soft_modularity": -0.4170200228691101,
+    "collapse_loss": 0.007766127586364746
+  },
+  {
+    "epoch": 579,
+    "objective": -0.40929463505744934,
+    "negative_soft_modularity": -0.4170669615268707,
+    "collapse_loss": 0.007772326469421387
+  },
+  {
+    "epoch": 580,
+    "objective": -0.4093354344367981,
+    "negative_soft_modularity": -0.4171138405799866,
+    "collapse_loss": 0.0077784061431884766
+  },
+  {
+    "epoch": 581,
+    "objective": -0.4093751907348633,
+    "negative_soft_modularity": -0.41715943813323975,
+    "collapse_loss": 0.007784247398376465
+  },
+  {
+    "epoch": 582,
+    "objective": -0.409415602684021,
+    "negative_soft_modularity": -0.4172050952911377,
+    "collapse_loss": 0.007789492607116699
+  },
+  {
+    "epoch": 583,
+    "objective": -0.40945664048194885,
+    "negative_soft_modularity": -0.41725125908851624,
+    "collapse_loss": 0.007794618606567383
+  },
+  {
+    "epoch": 584,
+    "objective": -0.409496545791626,
+    "negative_soft_modularity": -0.41729605197906494,
+    "collapse_loss": 0.007799506187438965
+  },
+  {
+    "epoch": 585,
+    "objective": -0.40953758358955383,
+    "negative_soft_modularity": -0.41734185814857483,
+    "collapse_loss": 0.007804274559020996
+  },
+  {
+    "epoch": 586,
+    "objective": -0.409577339887619,
+    "negative_soft_modularity": -0.4173865020275116,
+    "collapse_loss": 0.007809162139892578
+  },
+  {
+    "epoch": 587,
+    "objective": -0.40961819887161255,
+    "negative_soft_modularity": -0.4174317717552185,
+    "collapse_loss": 0.007813572883605957
+  },
+  {
+    "epoch": 588,
+    "objective": -0.4096582233905792,
+    "negative_soft_modularity": -0.4174765646457672,
+    "collapse_loss": 0.007818341255187988
+  },
+  {
+    "epoch": 589,
+    "objective": -0.4096989333629608,
+    "negative_soft_modularity": -0.41752204298973083,
+    "collapse_loss": 0.00782310962677002
+  },
+  {
+    "epoch": 590,
+    "objective": -0.40973877906799316,
+    "negative_soft_modularity": -0.41756677627563477,
+    "collapse_loss": 0.007827997207641602
+  },
+  {
+    "epoch": 591,
+    "objective": -0.4097789525985718,
+    "negative_soft_modularity": -0.4176119565963745,
+    "collapse_loss": 0.007833003997802734
+  },
+  {
+    "epoch": 592,
+    "objective": -0.40981823205947876,
+    "negative_soft_modularity": -0.4176561236381531,
+    "collapse_loss": 0.007837891578674316
+  },
+  {
+    "epoch": 593,
+    "objective": -0.40985941886901855,
+    "negative_soft_modularity": -0.417702317237854,
+    "collapse_loss": 0.00784289836883545
+  },
+  {
+    "epoch": 594,
+    "objective": -0.40989992022514343,
+    "negative_soft_modularity": -0.41774782538414,
+    "collapse_loss": 0.007847905158996582
+  },
+  {
+    "epoch": 595,
+    "objective": -0.40994030237197876,
+    "negative_soft_modularity": -0.4177929759025574,
+    "collapse_loss": 0.007852673530578613
+  },
+  {
+    "epoch": 596,
+    "objective": -0.40998029708862305,
+    "negative_soft_modularity": -0.4178375005722046,
+    "collapse_loss": 0.007857203483581543
+  },
+  {
+    "epoch": 597,
+    "objective": -0.4100206196308136,
+    "negative_soft_modularity": -0.41788211464881897,
+    "collapse_loss": 0.007861495018005371
+  },
+  {
+    "epoch": 598,
+    "objective": -0.41006046533584595,
+    "negative_soft_modularity": -0.4179263710975647,
+    "collapse_loss": 0.00786590576171875
+  },
+  {
+    "epoch": 599,
+    "objective": -0.4101005792617798,
+    "negative_soft_modularity": -0.4179706573486328,
+    "collapse_loss": 0.007870078086853027
+  },
+  {
+    "epoch": 600,
+    "objective": -0.41014084219932556,
+    "negative_soft_modularity": -0.4180152118206024,
+    "collapse_loss": 0.007874369621276855
+  },
+  {
+    "epoch": 601,
+    "objective": -0.41018107533454895,
+    "negative_soft_modularity": -0.41805949807167053,
+    "collapse_loss": 0.007878422737121582
+  },
+  {
+    "epoch": 602,
+    "objective": -0.41022175550460815,
+    "negative_soft_modularity": -0.41810399293899536,
+    "collapse_loss": 0.007882237434387207
+  },
+  {
+    "epoch": 603,
+    "objective": -0.41026178002357483,
+    "negative_soft_modularity": -0.4181477129459381,
+    "collapse_loss": 0.007885932922363281
+  },
+  {
+    "epoch": 604,
+    "objective": -0.41030165553092957,
+    "negative_soft_modularity": -0.41819092631340027,
+    "collapse_loss": 0.007889270782470703
+  },
+  {
+    "epoch": 605,
+    "objective": -0.4103420376777649,
+    "negative_soft_modularity": -0.4182341694831848,
+    "collapse_loss": 0.007892131805419922
+  },
+  {
+    "epoch": 606,
+    "objective": -0.4103826582431793,
+    "negative_soft_modularity": -0.4182772934436798,
+    "collapse_loss": 0.007894635200500488
+  },
+  {
+    "epoch": 607,
+    "objective": -0.4104229211807251,
+    "negative_soft_modularity": -0.41831982135772705,
+    "collapse_loss": 0.007896900177001953
+  },
+  {
+    "epoch": 608,
+    "objective": -0.4104631245136261,
+    "negative_soft_modularity": -0.41836193203926086,
+    "collapse_loss": 0.007898807525634766
+  },
+  {
+    "epoch": 609,
+    "objective": -0.4105023145675659,
+    "negative_soft_modularity": -0.4184027910232544,
+    "collapse_loss": 0.007900476455688477
+  },
+  {
+    "epoch": 610,
+    "objective": -0.4105431139469147,
+    "negative_soft_modularity": -0.4184449017047882,
+    "collapse_loss": 0.007901787757873535
+  },
+  {
+    "epoch": 611,
+    "objective": -0.41058340668678284,
+    "negative_soft_modularity": -0.41848626732826233,
+    "collapse_loss": 0.007902860641479492
+  },
+  {
+    "epoch": 612,
+    "objective": -0.4106239378452301,
+    "negative_soft_modularity": -0.41852787137031555,
+    "collapse_loss": 0.00790393352508545
+  },
+  {
+    "epoch": 613,
+    "objective": -0.4106634259223938,
+    "negative_soft_modularity": -0.41856855154037476,
+    "collapse_loss": 0.007905125617980957
+  },
+  {
+    "epoch": 614,
+    "objective": -0.41070321202278137,
+    "negative_soft_modularity": -0.41860952973365784,
+    "collapse_loss": 0.007906317710876465
+  },
+  {
+    "epoch": 615,
+    "objective": -0.4107440412044525,
+    "negative_soft_modularity": -0.4186517894268036,
+    "collapse_loss": 0.007907748222351074
+  },
+  {
+    "epoch": 616,
+    "objective": -0.41078439354896545,
+    "negative_soft_modularity": -0.4186936914920807,
+    "collapse_loss": 0.007909297943115234
+  },
+  {
+    "epoch": 617,
+    "objective": -0.41082465648651123,
+    "negative_soft_modularity": -0.4187356233596802,
+    "collapse_loss": 0.007910966873168945
+  },
+  {
+    "epoch": 618,
+    "objective": -0.4108646810054779,
+    "negative_soft_modularity": -0.41877755522727966,
+    "collapse_loss": 0.007912874221801758
+  },
+  {
+    "epoch": 619,
+    "objective": -0.41090530157089233,
+    "negative_soft_modularity": -0.4188200831413269,
+    "collapse_loss": 0.00791478157043457
+  },
+  {
+    "epoch": 620,
+    "objective": -0.41094547510147095,
+    "negative_soft_modularity": -0.4188620448112488,
+    "collapse_loss": 0.007916569709777832
+  },
+  {
+    "epoch": 621,
+    "objective": -0.41098594665527344,
+    "negative_soft_modularity": -0.418904185295105,
+    "collapse_loss": 0.007918238639831543
+  },
+  {
+    "epoch": 622,
+    "objective": -0.4110259413719177,
+    "negative_soft_modularity": -0.4189456105232239,
+    "collapse_loss": 0.007919669151306152
+  },
+  {
+    "epoch": 623,
+    "objective": -0.41106587648391724,
+    "negative_soft_modularity": -0.41898661851882935,
+    "collapse_loss": 0.00792074203491211
+  },
+  {
+    "epoch": 624,
+    "objective": -0.41110652685165405,
+    "negative_soft_modularity": -0.41902798414230347,
+    "collapse_loss": 0.007921457290649414
+  },
+  {
+    "epoch": 625,
+    "objective": -0.41114741563796997,
+    "negative_soft_modularity": -0.4190693497657776,
+    "collapse_loss": 0.007921934127807617
+  },
+  {
+    "epoch": 626,
+    "objective": -0.4111874997615814,
+    "negative_soft_modularity": -0.41910943388938904,
+    "collapse_loss": 0.007921934127807617
+  },
+  {
+    "epoch": 627,
+    "objective": -0.4112273156642914,
+    "negative_soft_modularity": -0.419149249792099,
+    "collapse_loss": 0.007921934127807617
+  },
+  {
+    "epoch": 628,
+    "objective": -0.41126665472984314,
+    "negative_soft_modularity": -0.4191884696483612,
+    "collapse_loss": 0.007921814918518066
+  },
+  {
+    "epoch": 629,
+    "objective": -0.411307692527771,
+    "negative_soft_modularity": -0.4192293882369995,
+    "collapse_loss": 0.007921695709228516
+  },
+  {
+    "epoch": 630,
+    "objective": -0.41134676337242126,
+    "negative_soft_modularity": -0.41926810145378113,
+    "collapse_loss": 0.007921338081359863
+  },
+  {
+    "epoch": 631,
+    "objective": -0.4113878607749939,
+    "negative_soft_modularity": -0.4193088412284851,
+    "collapse_loss": 0.007920980453491211
+  },
+  {
+    "epoch": 632,
+    "objective": -0.4114276170730591,
+    "negative_soft_modularity": -0.4193481206893921,
+    "collapse_loss": 0.007920503616333008
+  },
+  {
+    "epoch": 633,
+    "objective": -0.41146746277809143,
+    "negative_soft_modularity": -0.4193871319293976,
+    "collapse_loss": 0.007919669151306152
+  },
+  {
+    "epoch": 634,
+    "objective": -0.41150787472724915,
+    "negative_soft_modularity": -0.4194265902042389,
+    "collapse_loss": 0.007918715476989746
+  },
+  {
+    "epoch": 635,
+    "objective": -0.41154733300209045,
+    "negative_soft_modularity": -0.41946521401405334,
+    "collapse_loss": 0.00791788101196289
+  },
+  {
+    "epoch": 636,
+    "objective": -0.41158732771873474,
+    "negative_soft_modularity": -0.41950365900993347,
+    "collapse_loss": 0.00791633129119873
+  },
+  {
+    "epoch": 637,
+    "objective": -0.41162773966789246,
+    "negative_soft_modularity": -0.4195420444011688,
+    "collapse_loss": 0.007914304733276367
+  },
+  {
+    "epoch": 638,
+    "objective": -0.4116674065589905,
+    "negative_soft_modularity": -0.4195794463157654,
+    "collapse_loss": 0.007912039756774902
+  },
+  {
+    "epoch": 639,
+    "objective": -0.41170740127563477,
+    "negative_soft_modularity": -0.41961669921875,
+    "collapse_loss": 0.007909297943115234
+  },
+  {
+    "epoch": 640,
+    "objective": -0.4117477238178253,
+    "negative_soft_modularity": -0.41965416073799133,
+    "collapse_loss": 0.007906436920166016
+  },
+  {
+    "epoch": 641,
+    "objective": -0.41178765892982483,
+    "negative_soft_modularity": -0.4196911156177521,
+    "collapse_loss": 0.007903456687927246
+  },
+  {
+    "epoch": 642,
+    "objective": -0.4118281602859497,
+    "negative_soft_modularity": -0.41972851753234863,
+    "collapse_loss": 0.007900357246398926
+  },
+  {
+    "epoch": 643,
+    "objective": -0.4118677079677582,
+    "negative_soft_modularity": -0.41976508498191833,
+    "collapse_loss": 0.007897377014160156
+  },
+  {
+    "epoch": 644,
+    "objective": -0.41190776228904724,
+    "negative_soft_modularity": -0.4198019206523895,
+    "collapse_loss": 0.007894158363342285
+  },
+  {
+    "epoch": 645,
+    "objective": -0.41194719076156616,
+    "negative_soft_modularity": -0.4198382496833801,
+    "collapse_loss": 0.007891058921813965
+  },
+  {
+    "epoch": 646,
+    "objective": -0.41198694705963135,
+    "negative_soft_modularity": -0.41987502574920654,
+    "collapse_loss": 0.007888078689575195
+  },
+  {
+    "epoch": 647,
+    "objective": -0.4120268225669861,
+    "negative_soft_modularity": -0.4199121594429016,
+    "collapse_loss": 0.007885336875915527
+  },
+  {
+    "epoch": 648,
+    "objective": -0.41206637024879456,
+    "negative_soft_modularity": -0.41994884610176086,
+    "collapse_loss": 0.007882475852966309
+  },
+  {
+    "epoch": 649,
+    "objective": -0.41210609674453735,
+    "negative_soft_modularity": -0.4199860692024231,
+    "collapse_loss": 0.007879972457885742
+  },
+  {
+    "epoch": 650,
+    "objective": -0.41214632987976074,
+    "negative_soft_modularity": -0.4200235605239868,
+    "collapse_loss": 0.007877230644226074
+  },
+  {
+    "epoch": 651,
+    "objective": -0.4121854603290558,
+    "negative_soft_modularity": -0.4200601875782013,
+    "collapse_loss": 0.007874727249145508
+  },
+  {
+    "epoch": 652,
+    "objective": -0.41222482919692993,
+    "negative_soft_modularity": -0.42009681463241577,
+    "collapse_loss": 0.00787198543548584
+  },
+  {
+    "epoch": 653,
+    "objective": -0.4122644066810608,
+    "negative_soft_modularity": -0.4201332926750183,
+    "collapse_loss": 0.00786888599395752
+  },
+  {
+    "epoch": 654,
+    "objective": -0.4123036861419678,
+    "negative_soft_modularity": -0.4201691150665283,
+    "collapse_loss": 0.007865428924560547
+  },
+  {
+    "epoch": 655,
+    "objective": -0.4123440086841583,
+    "negative_soft_modularity": -0.4202057421207428,
+    "collapse_loss": 0.007861733436584473
+  },
+  {
+    "epoch": 656,
+    "objective": -0.412383109331131,
+    "negative_soft_modularity": -0.4202409088611603,
+    "collapse_loss": 0.007857799530029297
+  },
+  {
+    "epoch": 657,
+    "objective": -0.4124222993850708,
+    "negative_soft_modularity": -0.4202761650085449,
+    "collapse_loss": 0.007853865623474121
+  },
+  {
+    "epoch": 658,
+    "objective": -0.4124625623226166,
+    "negative_soft_modularity": -0.42031189799308777,
+    "collapse_loss": 0.007849335670471191
+  },
+  {
+    "epoch": 659,
+    "objective": -0.4125012755393982,
+    "negative_soft_modularity": -0.42034608125686646,
+    "collapse_loss": 0.007844805717468262
+  },
+  {
+    "epoch": 660,
+    "objective": -0.41254106163978577,
+    "negative_soft_modularity": -0.42038121819496155,
+    "collapse_loss": 0.007840156555175781
+  },
+  {
+    "epoch": 661,
+    "objective": -0.4125797152519226,
+    "negative_soft_modularity": -0.420415461063385,
+    "collapse_loss": 0.007835745811462402
+  },
+  {
+    "epoch": 662,
+    "objective": -0.41261938214302063,
+    "negative_soft_modularity": -0.42045071721076965,
+    "collapse_loss": 0.007831335067749023
+  },
+  {
+    "epoch": 663,
+    "objective": -0.41265779733657837,
+    "negative_soft_modularity": -0.4204851984977722,
+    "collapse_loss": 0.007827401161193848
+  },
+  {
+    "epoch": 664,
+    "objective": -0.41269737482070923,
+    "negative_soft_modularity": -0.42052048444747925,
+    "collapse_loss": 0.00782310962677002
+  },
+  {
+    "epoch": 665,
+    "objective": -0.41273656487464905,
+    "negative_soft_modularity": -0.42055514454841614,
+    "collapse_loss": 0.00781857967376709
+  },
+  {
+    "epoch": 666,
+    "objective": -0.41277629137039185,
+    "negative_soft_modularity": -0.42058998346328735,
+    "collapse_loss": 0.007813692092895508
+  },
+  {
+    "epoch": 667,
+    "objective": -0.4128149747848511,
+    "negative_soft_modularity": -0.42062342166900635,
+    "collapse_loss": 0.0078084468841552734
+  },
+  {
+    "epoch": 668,
+    "objective": -0.41285407543182373,
+    "negative_soft_modularity": -0.4206571578979492,
+    "collapse_loss": 0.007803082466125488
+  },
+  {
+    "epoch": 669,
+    "objective": -0.4128935933113098,
+    "negative_soft_modularity": -0.42069095373153687,
+    "collapse_loss": 0.007797360420227051
+  },
+  {
+    "epoch": 670,
+    "objective": -0.4129315912723541,
+    "negative_soft_modularity": -0.4207231104373932,
+    "collapse_loss": 0.0077915191650390625
+  },
+  {
+    "epoch": 671,
+    "objective": -0.4129701852798462,
+    "negative_soft_modularity": -0.42075562477111816,
+    "collapse_loss": 0.007785439491271973
+  },
+  {
+    "epoch": 672,
+    "objective": -0.4130094349384308,
+    "negative_soft_modularity": -0.42078903317451477,
+    "collapse_loss": 0.007779598236083984
+  },
+  {
+    "epoch": 673,
+    "objective": -0.4130482077598572,
+    "negative_soft_modularity": -0.4208223223686218,
+    "collapse_loss": 0.0077741146087646484
+  },
+  {
+    "epoch": 674,
+    "objective": -0.4130861163139343,
+    "negative_soft_modularity": -0.42085474729537964,
+    "collapse_loss": 0.0077686309814453125
+  },
+  {
+    "epoch": 675,
+    "objective": -0.41312479972839355,
+    "negative_soft_modularity": -0.42088818550109863,
+    "collapse_loss": 0.007763385772705078
+  },
+  {
+    "epoch": 676,
+    "objective": -0.4131636321544647,
+    "negative_soft_modularity": -0.42092129588127136,
+    "collapse_loss": 0.007757663726806641
+  },
+  {
+    "epoch": 677,
+    "objective": -0.4132019281387329,
+    "negative_soft_modularity": -0.42095351219177246,
+    "collapse_loss": 0.007751584053039551
+  },
+  {
+    "epoch": 678,
+    "objective": -0.4132400453090668,
+    "negative_soft_modularity": -0.4209849536418915,
+    "collapse_loss": 0.007744908332824707
+  },
+  {
+    "epoch": 679,
+    "objective": -0.41327863931655884,
+    "negative_soft_modularity": -0.4210166335105896,
+    "collapse_loss": 0.007737994194030762
+  },
+  {
+    "epoch": 680,
+    "objective": -0.4133165776729584,
+    "negative_soft_modularity": -0.42104730010032654,
+    "collapse_loss": 0.007730722427368164
+  },
+  {
+    "epoch": 681,
+    "objective": -0.41335561871528625,
+    "negative_soft_modularity": -0.4210794270038605,
+    "collapse_loss": 0.007723808288574219
+  },
+  {
+    "epoch": 682,
+    "objective": -0.413393497467041,
+    "negative_soft_modularity": -0.42111051082611084,
+    "collapse_loss": 0.007717013359069824
+  },
+  {
+    "epoch": 683,
+    "objective": -0.4134317636489868,
+    "negative_soft_modularity": -0.4211423397064209,
+    "collapse_loss": 0.007710576057434082
+  },
+  {
+    "epoch": 684,
+    "objective": -0.4134697914123535,
+    "negative_soft_modularity": -0.42117393016815186,
+    "collapse_loss": 0.00770413875579834
+  },
+  {
+    "epoch": 685,
+    "objective": -0.41350823640823364,
+    "negative_soft_modularity": -0.4212060570716858,
+    "collapse_loss": 0.0076978206634521484
+  },
+  {
+    "epoch": 686,
+    "objective": -0.4135451912879944,
+    "negative_soft_modularity": -0.421237051486969,
+    "collapse_loss": 0.007691860198974609
+  },
+  {
+    "epoch": 687,
+    "objective": -0.41358235478401184,
+    "negative_soft_modularity": -0.4212677776813507,
+    "collapse_loss": 0.007685422897338867
+  },
+  {
+    "epoch": 688,
+    "objective": -0.41362160444259644,
+    "negative_soft_modularity": -0.42130082845687866,
+    "collapse_loss": 0.0076792240142822266
+  },
+  {
+    "epoch": 689,
+    "objective": -0.4136587977409363,
+    "negative_soft_modularity": -0.42133158445358276,
+    "collapse_loss": 0.007672786712646484
+  },
+  {
+    "epoch": 690,
+    "objective": -0.4136970639228821,
+    "negative_soft_modularity": -0.42136305570602417,
+    "collapse_loss": 0.00766599178314209
+  },
+  {
+    "epoch": 691,
+    "objective": -0.41373351216316223,
+    "negative_soft_modularity": -0.4213927090167999,
+    "collapse_loss": 0.007659196853637695
+  },
+  {
+    "epoch": 692,
+    "objective": -0.41377076506614685,
+    "negative_soft_modularity": -0.42142316699028015,
+    "collapse_loss": 0.007652401924133301
+  },
+  {
+    "epoch": 693,
+    "objective": -0.4138093888759613,
+    "negative_soft_modularity": -0.42145463824272156,
+    "collapse_loss": 0.007645249366760254
+  },
+  {
+    "epoch": 694,
+    "objective": -0.4138469099998474,
+    "negative_soft_modularity": -0.42148441076278687,
+    "collapse_loss": 0.007637500762939453
+  },
+  {
+    "epoch": 695,
+    "objective": -0.41388368606567383,
+    "negative_soft_modularity": -0.42151331901550293,
+    "collapse_loss": 0.0076296329498291016
+  },
+  {
+    "epoch": 696,
+    "objective": -0.4139205813407898,
+    "negative_soft_modularity": -0.42154210805892944,
+    "collapse_loss": 0.0076215267181396484
+  },
+  {
+    "epoch": 697,
+    "objective": -0.41395846009254456,
+    "negative_soft_modularity": -0.4215715229511261,
+    "collapse_loss": 0.007613062858581543
+  },
+  {
+    "epoch": 698,
+    "objective": -0.41399553418159485,
+    "negative_soft_modularity": -0.42159977555274963,
+    "collapse_loss": 0.007604241371154785
+  },
+  {
+    "epoch": 699,
+    "objective": -0.4140319526195526,
+    "negative_soft_modularity": -0.421627014875412,
+    "collapse_loss": 0.007595062255859375
+  },
+  {
+    "epoch": 700,
+    "objective": -0.41406887769699097,
+    "negative_soft_modularity": -0.4216546416282654,
+    "collapse_loss": 0.007585763931274414
+  },
+  {
+    "epoch": 701,
+    "objective": -0.41410642862319946,
+    "negative_soft_modularity": -0.421683132648468,
+    "collapse_loss": 0.007576704025268555
+  },
+  {
+    "epoch": 702,
+    "objective": -0.41414305567741394,
+    "negative_soft_modularity": -0.4217105805873871,
+    "collapse_loss": 0.0075675249099731445
+  },
+  {
+    "epoch": 703,
+    "objective": -0.41417932510375977,
+    "negative_soft_modularity": -0.42173779010772705,
+    "collapse_loss": 0.007558465003967285
+  },
+  {
+    "epoch": 704,
+    "objective": -0.41421636939048767,
+    "negative_soft_modularity": -0.42176541686058044,
+    "collapse_loss": 0.0075490474700927734
+  },
+  {
+    "epoch": 705,
+    "objective": -0.41425344347953796,
+    "negative_soft_modularity": -0.42179355025291443,
+    "collapse_loss": 0.007540106773376465
+  },
+  {
+    "epoch": 706,
+    "objective": -0.4142899811267853,
+    "negative_soft_modularity": -0.4218210279941559,
+    "collapse_loss": 0.0075310468673706055
+  },
+  {
+    "epoch": 707,
+    "objective": -0.41432589292526245,
+    "negative_soft_modularity": -0.42184776067733765,
+    "collapse_loss": 0.007521867752075195
+  },
+  {
+    "epoch": 708,
+    "objective": -0.4143623411655426,
+    "negative_soft_modularity": -0.42187514901161194,
+    "collapse_loss": 0.007512807846069336
+  },
+  {
+    "epoch": 709,
+    "objective": -0.4143992066383362,
+    "negative_soft_modularity": -0.4219028353691101,
+    "collapse_loss": 0.007503628730773926
+  },
+  {
+    "epoch": 710,
+    "objective": -0.41443493962287903,
+    "negative_soft_modularity": -0.421929270029068,
+    "collapse_loss": 0.007494330406188965
+  },
+  {
+    "epoch": 711,
+    "objective": -0.4144711196422577,
+    "negative_soft_modularity": -0.42195650935173035,
+    "collapse_loss": 0.007485389709472656
+  },
+  {
+    "epoch": 712,
+    "objective": -0.4145070016384125,
+    "negative_soft_modularity": -0.4219834506511688,
+    "collapse_loss": 0.007476449012756348
+  },
+  {
+    "epoch": 713,
+    "objective": -0.4145433306694031,
+    "negative_soft_modularity": -0.4220108389854431,
+    "collapse_loss": 0.007467508316040039
+  },
+  {
+    "epoch": 714,
+    "objective": -0.4145800471305847,
+    "negative_soft_modularity": -0.42203861474990845,
+    "collapse_loss": 0.0074585676193237305
+  },
+  {
+    "epoch": 715,
+    "objective": -0.4146151542663574,
+    "negative_soft_modularity": -0.42206478118896484,
+    "collapse_loss": 0.007449626922607422
+  },
+  {
+    "epoch": 716,
+    "objective": -0.41465145349502563,
+    "negative_soft_modularity": -0.4220920205116272,
+    "collapse_loss": 0.0074405670166015625
+  },
+  {
+    "epoch": 717,
+    "objective": -0.4146868586540222,
+    "negative_soft_modularity": -0.4221181273460388,
+    "collapse_loss": 0.0074312686920166016
+  },
+  {
+    "epoch": 718,
+    "objective": -0.4147229492664337,
+    "negative_soft_modularity": -0.4221448004245758,
+    "collapse_loss": 0.00742185115814209
+  },
+  {
+    "epoch": 719,
+    "objective": -0.4147583842277527,
+    "negative_soft_modularity": -0.42217081785202026,
+    "collapse_loss": 0.007412433624267578
+  },
+  {
+    "epoch": 720,
+    "objective": -0.4147941470146179,
+    "negative_soft_modularity": -0.4221969246864319,
+    "collapse_loss": 0.007402777671813965
+  },
+  {
+    "epoch": 721,
+    "objective": -0.4148295819759369,
+    "negative_soft_modularity": -0.4222230613231659,
+    "collapse_loss": 0.007393479347229004
+  },
+  {
+    "epoch": 722,
+    "objective": -0.4148651659488678,
+    "negative_soft_modularity": -0.42224934697151184,
+    "collapse_loss": 0.007384181022644043
+  },
+  {
+    "epoch": 723,
+    "objective": -0.41490083932876587,
+    "negative_soft_modularity": -0.42227596044540405,
+    "collapse_loss": 0.007375121116638184
+  },
+  {
+    "epoch": 724,
+    "objective": -0.414935827255249,
+    "negative_soft_modularity": -0.42230212688446045,
+    "collapse_loss": 0.007366299629211426
+  },
+  {
+    "epoch": 725,
+    "objective": -0.4149717688560486,
+    "negative_soft_modularity": -0.42232948541641235,
+    "collapse_loss": 0.0073577165603637695
+  },
+  {
+    "epoch": 726,
+    "objective": -0.41500699520111084,
+    "negative_soft_modularity": -0.4223564863204956,
+    "collapse_loss": 0.007349491119384766
+  },
+  {
+    "epoch": 727,
+    "objective": -0.4150420129299164,
+    "negative_soft_modularity": -0.42238327860832214,
+    "collapse_loss": 0.007341265678405762
+  },
+  {
+    "epoch": 728,
+    "objective": -0.4150768518447876,
+    "negative_soft_modularity": -0.42240989208221436,
+    "collapse_loss": 0.007333040237426758
+  },
+  {
+    "epoch": 729,
+    "objective": -0.41511180996894836,
+    "negative_soft_modularity": -0.4224371016025543,
+    "collapse_loss": 0.007325291633605957
+  },
+  {
+    "epoch": 730,
+    "objective": -0.4151473343372345,
+    "negative_soft_modularity": -0.42246440052986145,
+    "collapse_loss": 0.007317066192626953
+  },
+  {
+    "epoch": 731,
+    "objective": -0.4151820242404938,
+    "negative_soft_modularity": -0.4224909842014313,
+    "collapse_loss": 0.0073089599609375
+  },
+  {
+    "epoch": 732,
+    "objective": -0.4152167737483978,
+    "negative_soft_modularity": -0.42251715064048767,
+    "collapse_loss": 0.007300376892089844
+  },
+  {
+    "epoch": 733,
+    "objective": -0.4152521789073944,
+    "negative_soft_modularity": -0.42254361510276794,
+    "collapse_loss": 0.007291436195373535
+  },
+  {
+    "epoch": 734,
+    "objective": -0.4152871370315552,
+    "negative_soft_modularity": -0.42256903648376465,
+    "collapse_loss": 0.007281899452209473
+  },
+  {
+    "epoch": 735,
+    "objective": -0.4153214395046234,
+    "negative_soft_modularity": -0.4225936830043793,
+    "collapse_loss": 0.007272243499755859
+  },
+  {
+    "epoch": 736,
+    "objective": -0.41535666584968567,
+    "negative_soft_modularity": -0.4226190149784088,
+    "collapse_loss": 0.0072623491287231445
+  },
+  {
+    "epoch": 737,
+    "objective": -0.4153907001018524,
+    "negative_soft_modularity": -0.42264315485954285,
+    "collapse_loss": 0.00725245475769043
+  },
+  {
+    "epoch": 738,
+    "objective": -0.41542568802833557,
+    "negative_soft_modularity": -0.4226682484149933,
+    "collapse_loss": 0.007242560386657715
+  },
+  {
+    "epoch": 739,
+    "objective": -0.41546037793159485,
+    "negative_soft_modularity": -0.42269280552864075,
+    "collapse_loss": 0.0072324275970458984
+  },
+  {
+    "epoch": 740,
+    "objective": -0.41549423336982727,
+    "negative_soft_modularity": -0.42271700501441956,
+    "collapse_loss": 0.007222771644592285
+  },
+  {
+    "epoch": 741,
+    "objective": -0.41552847623825073,
+    "negative_soft_modularity": -0.4227415919303894,
+    "collapse_loss": 0.007213115692138672
+  },
+  {
+    "epoch": 742,
+    "objective": -0.41556286811828613,
+    "negative_soft_modularity": -0.4227663278579712,
+    "collapse_loss": 0.007203459739685059
+  },
+  {
+    "epoch": 743,
+    "objective": -0.41559696197509766,
+    "negative_soft_modularity": -0.4227907657623291,
+    "collapse_loss": 0.007193803787231445
+  },
+  {
+    "epoch": 744,
+    "objective": -0.41563087701797485,
+    "negative_soft_modularity": -0.4228150248527527,
+    "collapse_loss": 0.007184147834777832
+  },
+  {
+    "epoch": 745,
+    "objective": -0.4156646132469177,
+    "negative_soft_modularity": -0.4228392243385315,
+    "collapse_loss": 0.0071746110916137695
+  },
+  {
+    "epoch": 746,
+    "objective": -0.4156996011734009,
+    "negative_soft_modularity": -0.4228649139404297,
+    "collapse_loss": 0.007165312767028809
+  },
+  {
+    "epoch": 747,
+    "objective": -0.4157332181930542,
+    "negative_soft_modularity": -0.4228893518447876,
+    "collapse_loss": 0.0071561336517333984
+  },
+  {
+    "epoch": 748,
+    "objective": -0.41576695442199707,
+    "negative_soft_modularity": -0.42291390895843506,
+    "collapse_loss": 0.007146954536437988
+  },
+  {
+    "epoch": 749,
+    "objective": -0.41580110788345337,
+    "negative_soft_modularity": -0.42293888330459595,
+    "collapse_loss": 0.007137775421142578
+  },
+  {
+    "epoch": 750,
+    "objective": -0.41583436727523804,
+    "negative_soft_modularity": -0.42296284437179565,
+    "collapse_loss": 0.007128477096557617
+  },
+  {
+    "epoch": 751,
+    "objective": -0.41586795449256897,
+    "negative_soft_modularity": -0.4229871332645416,
+    "collapse_loss": 0.007119178771972656
+  },
+  {
+    "epoch": 752,
+    "objective": -0.41590234637260437,
+    "negative_soft_modularity": -0.42301222681999207,
+    "collapse_loss": 0.007109880447387695
+  },
+  {
+    "epoch": 753,
+    "objective": -0.41593602299690247,
+    "negative_soft_modularity": -0.42303648591041565,
+    "collapse_loss": 0.007100462913513184
+  },
+  {
+    "epoch": 754,
+    "objective": -0.4159693121910095,
+    "negative_soft_modularity": -0.42306023836135864,
+    "collapse_loss": 0.007090926170349121
+  },
+  {
+    "epoch": 755,
+    "objective": -0.4160032868385315,
+    "negative_soft_modularity": -0.4230847954750061,
+    "collapse_loss": 0.007081508636474609
+  },
+  {
+    "epoch": 756,
+    "objective": -0.41603684425354004,
+    "negative_soft_modularity": -0.4231090545654297,
+    "collapse_loss": 0.0070722103118896484
+  },
+  {
+    "epoch": 757,
+    "objective": -0.41606974601745605,
+    "negative_soft_modularity": -0.42313289642333984,
+    "collapse_loss": 0.007063150405883789
+  },
+  {
+    "epoch": 758,
+    "objective": -0.41610315442085266,
+    "negative_soft_modularity": -0.42315784096717834,
+    "collapse_loss": 0.007054686546325684
+  },
+  {
+    "epoch": 759,
+    "objective": -0.4161357581615448,
+    "negative_soft_modularity": -0.42318257689476013,
+    "collapse_loss": 0.007046818733215332
+  },
+  {
+    "epoch": 760,
+    "objective": -0.41616979241371155,
+    "negative_soft_modularity": -0.42320874333381653,
+    "collapse_loss": 0.0070389509201049805
+  },
+  {
+    "epoch": 761,
+    "objective": -0.4162026643753052,
+    "negative_soft_modularity": -0.4232339859008789,
+    "collapse_loss": 0.0070313215255737305
+  },
+  {
+    "epoch": 762,
+    "objective": -0.41623613238334656,
+    "negative_soft_modularity": -0.42325958609580994,
+    "collapse_loss": 0.007023453712463379
+  },
+  {
+    "epoch": 763,
+    "objective": -0.41626855731010437,
+    "negative_soft_modularity": -0.4232843816280365,
+    "collapse_loss": 0.007015824317932129
+  },
+  {
+    "epoch": 764,
+    "objective": -0.416302889585495,
+    "negative_soft_modularity": -0.4233104884624481,
+    "collapse_loss": 0.007007598876953125
+  },
+  {
+    "epoch": 765,
+    "objective": -0.41633549332618713,
+    "negative_soft_modularity": -0.4233347475528717,
+    "collapse_loss": 0.00699925422668457
+  },
+  {
+    "epoch": 766,
+    "objective": -0.41636839509010315,
+    "negative_soft_modularity": -0.42335930466651917,
+    "collapse_loss": 0.006990909576416016
+  },
+  {
+    "epoch": 767,
+    "objective": -0.41640153527259827,
+    "negative_soft_modularity": -0.42338433861732483,
+    "collapse_loss": 0.0069828033447265625
+  },
+  {
+    "epoch": 768,
+    "objective": -0.41643381118774414,
+    "negative_soft_modularity": -0.423409104347229,
+    "collapse_loss": 0.006975293159484863
+  },
+  {
+    "epoch": 769,
+    "objective": -0.4164663851261139,
+    "negative_soft_modularity": -0.42343440651893616,
+    "collapse_loss": 0.006968021392822266
+  },
+  {
+    "epoch": 770,
+    "objective": -0.4165005385875702,
+    "negative_soft_modularity": -0.42346152663230896,
+    "collapse_loss": 0.0069609880447387695
+  },
+  {
+    "epoch": 771,
+    "objective": -0.41653314232826233,
+    "negative_soft_modularity": -0.42348721623420715,
+    "collapse_loss": 0.006954073905944824
+  },
+  {
+    "epoch": 772,
+    "objective": -0.4165653884410858,
+    "negative_soft_modularity": -0.4235125482082367,
+    "collapse_loss": 0.006947159767150879
+  },
+  {
+    "epoch": 773,
+    "objective": -0.41659867763519287,
+    "negative_soft_modularity": -0.4235386848449707,
+    "collapse_loss": 0.006940007209777832
+  },
+  {
+    "epoch": 774,
+    "objective": -0.41663140058517456,
+    "negative_soft_modularity": -0.42356353998184204,
+    "collapse_loss": 0.0069321393966674805
+  },
+  {
+    "epoch": 775,
+    "objective": -0.4166644215583801,
+    "negative_soft_modularity": -0.42358821630477905,
+    "collapse_loss": 0.006923794746398926
+  },
+  {
+    "epoch": 776,
+    "objective": -0.4166972041130066,
+    "negative_soft_modularity": -0.4236127734184265,
+    "collapse_loss": 0.006915569305419922
+  },
+  {
+    "epoch": 777,
+    "objective": -0.4167294502258301,
+    "negative_soft_modularity": -0.42363691329956055,
+    "collapse_loss": 0.006907463073730469
+  },
+  {
+    "epoch": 778,
+    "objective": -0.4167618751525879,
+    "negative_soft_modularity": -0.423661470413208,
+    "collapse_loss": 0.006899595260620117
+  },
+  {
+    "epoch": 779,
+    "objective": -0.41679519414901733,
+    "negative_soft_modularity": -0.42368656396865845,
+    "collapse_loss": 0.006891369819641113
+  },
+  {
+    "epoch": 780,
+    "objective": -0.4168277680873871,
+    "negative_soft_modularity": -0.4237106740474701,
+    "collapse_loss": 0.006882905960083008
+  },
+  {
+    "epoch": 781,
+    "objective": -0.4168603718280792,
+    "negative_soft_modularity": -0.423734575510025,
+    "collapse_loss": 0.006874203681945801
+  },
+  {
+    "epoch": 782,
+    "objective": -0.41689333319664,
+    "negative_soft_modularity": -0.42375847697257996,
+    "collapse_loss": 0.006865143775939941
+  },
+  {
+    "epoch": 783,
+    "objective": -0.4169253408908844,
+    "negative_soft_modularity": -0.42378130555152893,
+    "collapse_loss": 0.006855964660644531
+  },
+  {
+    "epoch": 784,
+    "objective": -0.4169580936431885,
+    "negative_soft_modularity": -0.42380547523498535,
+    "collapse_loss": 0.006847381591796875
+  },
+  {
+    "epoch": 785,
+    "objective": -0.4169904887676239,
+    "negative_soft_modularity": -0.4238297641277313,
+    "collapse_loss": 0.006839275360107422
+  },
+  {
+    "epoch": 786,
+    "objective": -0.41702309250831604,
+    "negative_soft_modularity": -0.423854261636734,
+    "collapse_loss": 0.006831169128417969
+  },
+  {
+    "epoch": 787,
+    "objective": -0.417055606842041,
+    "negative_soft_modularity": -0.42387914657592773,
+    "collapse_loss": 0.006823539733886719
+  },
+  {
+    "epoch": 788,
+    "objective": -0.41708898544311523,
+    "negative_soft_modularity": -0.42390477657318115,
+    "collapse_loss": 0.006815791130065918
+  },
+  {
+    "epoch": 789,
+    "objective": -0.4171203672885895,
+    "negative_soft_modularity": -0.42392852902412415,
+    "collapse_loss": 0.006808161735534668
+  },
+  {
+    "epoch": 790,
+    "objective": -0.41715338826179504,
+    "negative_soft_modularity": -0.42395392060279846,
+    "collapse_loss": 0.006800532341003418
+  },
+  {
+    "epoch": 791,
+    "objective": -0.41718587279319763,
+    "negative_soft_modularity": -0.4239790141582489,
+    "collapse_loss": 0.0067931413650512695
+  },
+  {
+    "epoch": 792,
+    "objective": -0.4172176718711853,
+    "negative_soft_modularity": -0.424003541469574,
+    "collapse_loss": 0.006785869598388672
+  },
+  {
+    "epoch": 793,
+    "objective": -0.4172506332397461,
+    "negative_soft_modularity": -0.42402970790863037,
+    "collapse_loss": 0.006779074668884277
+  },
+  {
+    "epoch": 794,
+    "objective": -0.4172828495502472,
+    "negative_soft_modularity": -0.4240553677082062,
+    "collapse_loss": 0.006772518157958984
+  },
+  {
+    "epoch": 795,
+    "objective": -0.4173150360584259,
+    "negative_soft_modularity": -0.42408135533332825,
+    "collapse_loss": 0.006766319274902344
+  },
+  {
+    "epoch": 796,
+    "objective": -0.4173472821712494,
+    "negative_soft_modularity": -0.4241076409816742,
+    "collapse_loss": 0.006760358810424805
+  },
+  {
+    "epoch": 797,
+    "objective": -0.41738006472587585,
+    "negative_soft_modularity": -0.42413458228111267,
+    "collapse_loss": 0.006754517555236816
+  },
+  {
+    "epoch": 798,
+    "objective": -0.41741159558296204,
+    "negative_soft_modularity": -0.42416051030158997,
+    "collapse_loss": 0.00674891471862793
+  },
+  {
+    "epoch": 799,
+    "objective": -0.41744479537010193,
+    "negative_soft_modularity": -0.4241877496242523,
+    "collapse_loss": 0.006742954254150391
+  },
+  {
+    "epoch": 800,
+    "objective": -0.4174767732620239,
+    "negative_soft_modularity": -0.424214243888855,
+    "collapse_loss": 0.006737470626831055
+  },
+  {
+    "epoch": 801,
+    "objective": -0.4175090491771698,
+    "negative_soft_modularity": -0.4242407977581024,
+    "collapse_loss": 0.006731748580932617
+  },
+  {
+    "epoch": 802,
+    "objective": -0.4175418019294739,
+    "negative_soft_modularity": -0.4242681860923767,
+    "collapse_loss": 0.006726384162902832
+  },
+  {
+    "epoch": 803,
+    "objective": -0.4175739288330078,
+    "negative_soft_modularity": -0.4242945909500122,
+    "collapse_loss": 0.0067206621170043945
+  },
+  {
+    "epoch": 804,
+    "objective": -0.41760632395744324,
+    "negative_soft_modularity": -0.4243212640285492,
+    "collapse_loss": 0.006714940071105957
+  },
+  {
+    "epoch": 805,
+    "objective": -0.4176386594772339,
+    "negative_soft_modularity": -0.4243476390838623,
+    "collapse_loss": 0.006708979606628418
+  },
+  {
+    "epoch": 806,
+    "objective": -0.41767075657844543,
+    "negative_soft_modularity": -0.4243737757205963,
+    "collapse_loss": 0.006703019142150879
+  },
+  {
+    "epoch": 807,
+    "objective": -0.4177030920982361,
+    "negative_soft_modularity": -0.4243999123573303,
+    "collapse_loss": 0.006696820259094238
+  },
+  {
+    "epoch": 808,
+    "objective": -0.4177350699901581,
+    "negative_soft_modularity": -0.42442557215690613,
+    "collapse_loss": 0.006690502166748047
+  },
+  {
+    "epoch": 809,
+    "objective": -0.41776731610298157,
+    "negative_soft_modularity": -0.4244517385959625,
+    "collapse_loss": 0.006684422492980957
+  },
+  {
+    "epoch": 810,
+    "objective": -0.4177999496459961,
+    "negative_soft_modularity": -0.4244781732559204,
+    "collapse_loss": 0.006678223609924316
+  },
+  {
+    "epoch": 811,
+    "objective": -0.41783177852630615,
+    "negative_soft_modularity": -0.42450380325317383,
+    "collapse_loss": 0.006672024726867676
+  },
+  {
+    "epoch": 812,
+    "objective": -0.41786450147628784,
+    "negative_soft_modularity": -0.4245304465293884,
+    "collapse_loss": 0.006665945053100586
+  },
+  {
+    "epoch": 813,
+    "objective": -0.41789692640304565,
+    "negative_soft_modularity": -0.42455679178237915,
+    "collapse_loss": 0.006659865379333496
+  },
+  {
+    "epoch": 814,
+    "objective": -0.41792917251586914,
+    "negative_soft_modularity": -0.42458319664001465,
+    "collapse_loss": 0.006654024124145508
+  },
+  {
+    "epoch": 815,
+    "objective": -0.4179607927799225,
+    "negative_soft_modularity": -0.42460933327674866,
+    "collapse_loss": 0.006648540496826172
+  },
+  {
+    "epoch": 816,
+    "objective": -0.4179938733577728,
+    "negative_soft_modularity": -0.4246375262737274,
+    "collapse_loss": 0.00664365291595459
+  },
+  {
+    "epoch": 817,
+    "objective": -0.41802626848220825,
+    "negative_soft_modularity": -0.42466527223587036,
+    "collapse_loss": 0.006639003753662109
+  },
+  {
+    "epoch": 818,
+    "objective": -0.41805827617645264,
+    "negative_soft_modularity": -0.42469263076782227,
+    "collapse_loss": 0.006634354591369629
+  },
+  {
+    "epoch": 819,
+    "objective": -0.4180910885334015,
+    "negative_soft_modularity": -0.42472055554389954,
+    "collapse_loss": 0.006629467010498047
+  },
+  {
+    "epoch": 820,
+    "objective": -0.41812267899513245,
+    "negative_soft_modularity": -0.4247467815876007,
+    "collapse_loss": 0.006624102592468262
+  },
+  {
+    "epoch": 821,
+    "objective": -0.41815507411956787,
+    "negative_soft_modularity": -0.42477357387542725,
+    "collapse_loss": 0.006618499755859375
+  },
+  {
+    "epoch": 822,
+    "objective": -0.41818711161613464,
+    "negative_soft_modularity": -0.42480000853538513,
+    "collapse_loss": 0.006612896919250488
+  },
+  {
+    "epoch": 823,
+    "objective": -0.41821974515914917,
+    "negative_soft_modularity": -0.42482680082321167,
+    "collapse_loss": 0.0066070556640625
+  },
+  {
+    "epoch": 824,
+    "objective": -0.4182514548301697,
+    "negative_soft_modularity": -0.4248529076576233,
+    "collapse_loss": 0.006601452827453613
+  },
+  {
+    "epoch": 825,
+    "objective": -0.41828444600105286,
+    "negative_soft_modularity": -0.42488065361976624,
+    "collapse_loss": 0.006596207618713379
+  },
+  {
+    "epoch": 826,
+    "objective": -0.4183166027069092,
+    "negative_soft_modularity": -0.424907922744751,
+    "collapse_loss": 0.006591320037841797
+  },
+  {
+    "epoch": 827,
+    "objective": -0.41834792494773865,
+    "negative_soft_modularity": -0.42493483424186707,
+    "collapse_loss": 0.006586909294128418
+  },
+  {
+    "epoch": 828,
+    "objective": -0.4183807373046875,
+    "negative_soft_modularity": -0.42496347427368164,
+    "collapse_loss": 0.006582736968994141
+  },
+  {
+    "epoch": 829,
+    "objective": -0.41841307282447815,
+    "negative_soft_modularity": -0.4249918758869171,
+    "collapse_loss": 0.006578803062438965
+  },
+  {
+    "epoch": 830,
+    "objective": -0.41844600439071655,
+    "negative_soft_modularity": -0.425021231174469,
+    "collapse_loss": 0.006575226783752441
+  },
+  {
+    "epoch": 831,
+    "objective": -0.4184786081314087,
+    "negative_soft_modularity": -0.42505061626434326,
+    "collapse_loss": 0.00657200813293457
+  },
+  {
+    "epoch": 832,
+    "objective": -0.41851046681404114,
+    "negative_soft_modularity": -0.4250796139240265,
+    "collapse_loss": 0.0065691471099853516
+  },
+  {
+    "epoch": 833,
+    "objective": -0.41854339838027954,
+    "negative_soft_modularity": -0.4251096844673157,
+    "collapse_loss": 0.006566286087036133
+  },
+  {
+    "epoch": 834,
+    "objective": -0.4185751676559448,
+    "negative_soft_modularity": -0.4251384735107422,
+    "collapse_loss": 0.006563305854797363
+  },
+  {
+    "epoch": 835,
+    "objective": -0.4186069071292877,
+    "negative_soft_modularity": -0.42516711354255676,
+    "collapse_loss": 0.006560206413269043
+  },
+  {
+    "epoch": 836,
+    "objective": -0.4186396300792694,
+    "negative_soft_modularity": -0.42519649863243103,
+    "collapse_loss": 0.006556868553161621
+  },
+  {
+    "epoch": 837,
+    "objective": -0.4186722934246063,
+    "negative_soft_modularity": -0.42522570490837097,
+    "collapse_loss": 0.0065534114837646484
+  },
+  {
+    "epoch": 838,
+    "objective": -0.41870373487472534,
+    "negative_soft_modularity": -0.42525357007980347,
+    "collapse_loss": 0.006549835205078125
+  },
+  {
+    "epoch": 839,
+    "objective": -0.41873636841773987,
+    "negative_soft_modularity": -0.4252825081348419,
+    "collapse_loss": 0.006546139717102051
+  },
+  {
+    "epoch": 840,
+    "objective": -0.41876888275146484,
+    "negative_soft_modularity": -0.4253113269805908,
+    "collapse_loss": 0.0065424442291259766
+  },
+  {
+    "epoch": 841,
+    "objective": -0.41880086064338684,
+    "negative_soft_modularity": -0.4253394901752472,
+    "collapse_loss": 0.0065386295318603516
+  },
+  {
+    "epoch": 842,
+    "objective": -0.418833464384079,
+    "negative_soft_modularity": -0.4253682792186737,
+    "collapse_loss": 0.0065348148345947266
+  },
+  {
+    "epoch": 843,
+    "objective": -0.41886550188064575,
+    "negative_soft_modularity": -0.42539697885513306,
+    "collapse_loss": 0.006531476974487305
+  },
+  {
+    "epoch": 844,
+    "objective": -0.41889768838882446,
+    "negative_soft_modularity": -0.42542582750320435,
+    "collapse_loss": 0.006528139114379883
+  },
+  {
+    "epoch": 845,
+    "objective": -0.4189295768737793,
+    "negative_soft_modularity": -0.4254544973373413,
+    "collapse_loss": 0.006524920463562012
+  },
+  {
+    "epoch": 846,
+    "objective": -0.4189620614051819,
+    "negative_soft_modularity": -0.425483763217926,
+    "collapse_loss": 0.006521701812744141
+  },
+  {
+    "epoch": 847,
+    "objective": -0.4189941883087158,
+    "negative_soft_modularity": -0.4255129098892212,
+    "collapse_loss": 0.006518721580505371
+  },
+  {
+    "epoch": 848,
+    "objective": -0.4190267324447632,
+    "negative_soft_modularity": -0.42554259300231934,
+    "collapse_loss": 0.006515860557556152
+  },
+  {
+    "epoch": 849,
+    "objective": -0.4190589487552643,
+    "negative_soft_modularity": -0.42557182908058167,
+    "collapse_loss": 0.006512880325317383
+  },
+  {
+    "epoch": 850,
+    "objective": -0.41909077763557434,
+    "negative_soft_modularity": -0.42560043931007385,
+    "collapse_loss": 0.006509661674499512
+  },
+  {
+    "epoch": 851,
+    "objective": -0.41912347078323364,
+    "negative_soft_modularity": -0.4256296753883362,
+    "collapse_loss": 0.006506204605102539
+  },
+  {
+    "epoch": 852,
+    "objective": -0.4191555678844452,
+    "negative_soft_modularity": -0.4256581962108612,
+    "collapse_loss": 0.006502628326416016
+  },
+  {
+    "epoch": 853,
+    "objective": -0.4191876947879791,
+    "negative_soft_modularity": -0.4256865084171295,
+    "collapse_loss": 0.006498813629150391
+  },
+  {
+    "epoch": 854,
+    "objective": -0.41921910643577576,
+    "negative_soft_modularity": -0.4257144629955292,
+    "collapse_loss": 0.006495356559753418
+  },
+  {
+    "epoch": 855,
+    "objective": -0.4192517101764679,
+    "negative_soft_modularity": -0.42574408650398254,
+    "collapse_loss": 0.0064923763275146484
+  },
+  {
+    "epoch": 856,
+    "objective": -0.41928401589393616,
+    "negative_soft_modularity": -0.4257735311985016,
+    "collapse_loss": 0.00648951530456543
+  },
+  {
+    "epoch": 857,
+    "objective": -0.4193161129951477,
+    "negative_soft_modularity": -0.4258025288581848,
+    "collapse_loss": 0.006486415863037109
+  },
+  {
+    "epoch": 858,
+    "objective": -0.4193481504917145,
+    "negative_soft_modularity": -0.42583146691322327,
+    "collapse_loss": 0.006483316421508789
+  },
+  {
+    "epoch": 859,
+    "objective": -0.41938045620918274,
+    "negative_soft_modularity": -0.4258604347705841,
+    "collapse_loss": 0.006479978561401367
+  },
+  {
+    "epoch": 860,
+    "objective": -0.41941210627555847,
+    "negative_soft_modularity": -0.42588862776756287,
+    "collapse_loss": 0.0064765214920043945
+  },
+  {
+    "epoch": 861,
+    "objective": -0.4194440245628357,
+    "negative_soft_modularity": -0.4259170889854431,
+    "collapse_loss": 0.006473064422607422
+  },
+  {
+    "epoch": 862,
+    "objective": -0.4194762408733368,
+    "negative_soft_modularity": -0.42594608664512634,
+    "collapse_loss": 0.006469845771789551
+  },
+  {
+    "epoch": 863,
+    "objective": -0.419508159160614,
+    "negative_soft_modularity": -0.42597538232803345,
+    "collapse_loss": 0.006467223167419434
+  },
+  {
+    "epoch": 864,
+    "objective": -0.41954103112220764,
+    "negative_soft_modularity": -0.4260057508945465,
+    "collapse_loss": 0.006464719772338867
+  },
+  {
+    "epoch": 865,
+    "objective": -0.41957247257232666,
+    "negative_soft_modularity": -0.42603468894958496,
+    "collapse_loss": 0.006462216377258301
+  },
+  {
+    "epoch": 866,
+    "objective": -0.4196038842201233,
+    "negative_soft_modularity": -0.426063597202301,
+    "collapse_loss": 0.006459712982177734
+  },
+  {
+    "epoch": 867,
+    "objective": -0.41963595151901245,
+    "negative_soft_modularity": -0.4260931611061096,
+    "collapse_loss": 0.006457209587097168
+  },
+  {
+    "epoch": 868,
+    "objective": -0.4196675419807434,
+    "negative_soft_modularity": -0.42612260580062866,
+    "collapse_loss": 0.006455063819885254
+  },
+  {
+    "epoch": 869,
+    "objective": -0.41969990730285645,
+    "negative_soft_modularity": -0.426153302192688,
+    "collapse_loss": 0.006453394889831543
+  },
+  {
+    "epoch": 870,
+    "objective": -0.41973182559013367,
+    "negative_soft_modularity": -0.4261828362941742,
+    "collapse_loss": 0.006451010704040527
+  },
+  {
+    "epoch": 871,
+    "objective": -0.4197637140750885,
+    "negative_soft_modularity": -0.42621198296546936,
+    "collapse_loss": 0.006448268890380859
+  },
+  {
+    "epoch": 872,
+    "objective": -0.419795423746109,
+    "negative_soft_modularity": -0.42624083161354065,
+    "collapse_loss": 0.006445407867431641
+  },
+  {
+    "epoch": 873,
+    "objective": -0.4198272228240967,
+    "negative_soft_modularity": -0.42627012729644775,
+    "collapse_loss": 0.006442904472351074
+  },
+  {
+    "epoch": 874,
+    "objective": -0.41985851526260376,
+    "negative_soft_modularity": -0.42629891633987427,
+    "collapse_loss": 0.006440401077270508
+  },
+  {
+    "epoch": 875,
+    "objective": -0.4198909103870392,
+    "negative_soft_modularity": -0.42632928490638733,
+    "collapse_loss": 0.0064383745193481445
+  },
+  {
+    "epoch": 876,
+    "objective": -0.41992270946502686,
+    "negative_soft_modularity": -0.4263594150543213,
+    "collapse_loss": 0.006436705589294434
+  },
+  {
+    "epoch": 877,
+    "objective": -0.4199541509151459,
+    "negative_soft_modularity": -0.4263894259929657,
+    "collapse_loss": 0.006435275077819824
+  },
+  {
+    "epoch": 878,
+    "objective": -0.4199863374233246,
+    "negative_soft_modularity": -0.42642053961753845,
+    "collapse_loss": 0.006434202194213867
+  },
+  {
+    "epoch": 879,
+    "objective": -0.42001768946647644,
+    "negative_soft_modularity": -0.42645129561424255,
+    "collapse_loss": 0.006433606147766113
+  },
+  {
+    "epoch": 880,
+    "objective": -0.4200490415096283,
+    "negative_soft_modularity": -0.42648252844810486,
+    "collapse_loss": 0.0064334869384765625
+  },
+  {
+    "epoch": 881,
+    "objective": -0.4200809895992279,
+    "negative_soft_modularity": -0.426514595746994,
+    "collapse_loss": 0.006433606147766113
+  },
+  {
+    "epoch": 882,
+    "objective": -0.4201124906539917,
+    "negative_soft_modularity": -0.42654669284820557,
+    "collapse_loss": 0.006434202194213867
+  },
+  {
+    "epoch": 883,
+    "objective": -0.4201440215110779,
+    "negative_soft_modularity": -0.42657846212387085,
+    "collapse_loss": 0.006434440612792969
+  },
+  {
+    "epoch": 884,
+    "objective": -0.4201757609844208,
+    "negative_soft_modularity": -0.42661044001579285,
+    "collapse_loss": 0.00643467903137207
+  },
+  {
+    "epoch": 885,
+    "objective": -0.4202069938182831,
+    "negative_soft_modularity": -0.42664167284965515,
+    "collapse_loss": 0.00643467903137207
+  },
+  {
+    "epoch": 886,
+    "objective": -0.42023903131484985,
+    "negative_soft_modularity": -0.4266737103462219,
+    "collapse_loss": 0.00643467903137207
+  },
+  {
+    "epoch": 887,
+    "objective": -0.42027080059051514,
+    "negative_soft_modularity": -0.4267052412033081,
+    "collapse_loss": 0.006434440612792969
+  },
+  {
+    "epoch": 888,
+    "objective": -0.4203026592731476,
+    "negative_soft_modularity": -0.426736980676651,
+    "collapse_loss": 0.006434321403503418
+  },
+  {
+    "epoch": 889,
+    "objective": -0.4203340411186218,
+    "negative_soft_modularity": -0.42676812410354614,
+    "collapse_loss": 0.006434082984924316
+  },
+  {
+    "epoch": 890,
+    "objective": -0.42036545276641846,
+    "negative_soft_modularity": -0.426798939704895,
+    "collapse_loss": 0.0064334869384765625
+  },
+  {
+    "epoch": 891,
+    "objective": -0.4203965365886688,
+    "negative_soft_modularity": -0.4268295466899872,
+    "collapse_loss": 0.006433010101318359
+  },
+  {
+    "epoch": 892,
+    "objective": -0.4204285442829132,
+    "negative_soft_modularity": -0.42686107754707336,
+    "collapse_loss": 0.006432533264160156
+  },
+  {
+    "epoch": 893,
+    "objective": -0.42045947909355164,
+    "negative_soft_modularity": -0.4268915355205536,
+    "collapse_loss": 0.006432056427001953
+  },
+  {
+    "epoch": 894,
+    "objective": -0.4204908609390259,
+    "negative_soft_modularity": -0.4269227981567383,
+    "collapse_loss": 0.006431937217712402
+  },
+  {
+    "epoch": 895,
+    "objective": -0.4205227494239807,
+    "negative_soft_modularity": -0.42695456743240356,
+    "collapse_loss": 0.0064318180084228516
+  },
+  {
+    "epoch": 896,
+    "objective": -0.4205542504787445,
+    "negative_soft_modularity": -0.42698630690574646,
+    "collapse_loss": 0.006432056427001953
+  },
+  {
+    "epoch": 897,
+    "objective": -0.42058587074279785,
+    "negative_soft_modularity": -0.42701804637908936,
+    "collapse_loss": 0.006432175636291504
+  },
+  {
+    "epoch": 898,
+    "objective": -0.4206172823905945,
+    "negative_soft_modularity": -0.42704957723617554,
+    "collapse_loss": 0.006432294845581055
+  },
+  {
+    "epoch": 899,
+    "objective": -0.42064929008483887,
+    "negative_soft_modularity": -0.4270817041397095,
+    "collapse_loss": 0.0064324140548706055
+  },
+  {
+    "epoch": 900,
+    "objective": -0.42068004608154297,
+    "negative_soft_modularity": -0.42711305618286133,
+    "collapse_loss": 0.006433010101318359
+  },
+  {
+    "epoch": 901,
+    "objective": -0.42071229219436646,
+    "negative_soft_modularity": -0.42714589834213257,
+    "collapse_loss": 0.006433606147766113
+  },
+  {
+    "epoch": 902,
+    "objective": -0.42074334621429443,
+    "negative_soft_modularity": -0.4271777868270874,
+    "collapse_loss": 0.006434440612792969
+  },
+  {
+    "epoch": 903,
+    "objective": -0.42077478766441345,
+    "negative_soft_modularity": -0.4272099435329437,
+    "collapse_loss": 0.0064351558685302734
+  },
+  {
+    "epoch": 904,
+    "objective": -0.420805960893631,
+    "negative_soft_modularity": -0.42724183201789856,
+    "collapse_loss": 0.006435871124267578
+  },
+  {
+    "epoch": 905,
+    "objective": -0.4208374321460724,
+    "negative_soft_modularity": -0.42727401852607727,
+    "collapse_loss": 0.006436586380004883
+  },
+  {
+    "epoch": 906,
+    "objective": -0.42086902260780334,
+    "negative_soft_modularity": -0.42730608582496643,
+    "collapse_loss": 0.006437063217163086
+  },
+  {
+    "epoch": 907,
+    "objective": -0.4209006428718567,
+    "negative_soft_modularity": -0.4273378252983093,
+    "collapse_loss": 0.006437182426452637
+  },
+  {
+    "epoch": 908,
+    "objective": -0.42093193531036377,
+    "negative_soft_modularity": -0.4273688793182373,
+    "collapse_loss": 0.006436944007873535
+  },
+  {
+    "epoch": 909,
+    "objective": -0.4209635257720947,
+    "negative_soft_modularity": -0.4274001121520996,
+    "collapse_loss": 0.006436586380004883
+  },
+  {
+    "epoch": 910,
+    "objective": -0.42099466919898987,
+    "negative_soft_modularity": -0.427430659532547,
+    "collapse_loss": 0.006435990333557129
+  },
+  {
+    "epoch": 911,
+    "objective": -0.42102569341659546,
+    "negative_soft_modularity": -0.4274607300758362,
+    "collapse_loss": 0.006435036659240723
+  },
+  {
+    "epoch": 912,
+    "objective": -0.4210573732852936,
+    "negative_soft_modularity": -0.4274914562702179,
+    "collapse_loss": 0.006434082984924316
+  },
+  {
+    "epoch": 913,
+    "objective": -0.4210885465145111,
+    "negative_soft_modularity": -0.427521675825119,
+    "collapse_loss": 0.00643312931060791
+  },
+  {
+    "epoch": 914,
+    "objective": -0.4211193323135376,
+    "negative_soft_modularity": -0.42755138874053955,
+    "collapse_loss": 0.006432056427001953
+  },
+  {
+    "epoch": 915,
+    "objective": -0.42115071415901184,
+    "negative_soft_modularity": -0.42758169770240784,
+    "collapse_loss": 0.006430983543395996
+  },
+  {
+    "epoch": 916,
+    "objective": -0.4211818277835846,
+    "negative_soft_modularity": -0.42761197686195374,
+    "collapse_loss": 0.006430149078369141
+  },
+  {
+    "epoch": 917,
+    "objective": -0.4212128221988678,
+    "negative_soft_modularity": -0.42764273285865784,
+    "collapse_loss": 0.006429910659790039
+  },
+  {
+    "epoch": 918,
+    "objective": -0.42124366760253906,
+    "negative_soft_modularity": -0.4276735782623291,
+    "collapse_loss": 0.006429910659790039
+  },
+  {
+    "epoch": 919,
+    "objective": -0.42127472162246704,
+    "negative_soft_modularity": -0.42770522832870483,
+    "collapse_loss": 0.006430506706237793
+  },
+  {
+    "epoch": 920,
+    "objective": -0.4213060140609741,
+    "negative_soft_modularity": -0.4277369976043701,
+    "collapse_loss": 0.006430983543395996
+  },
+  {
+    "epoch": 921,
+    "objective": -0.421337366104126,
+    "negative_soft_modularity": -0.42776942253112793,
+    "collapse_loss": 0.006432056427001953
+  },
+  {
+    "epoch": 922,
+    "objective": -0.42136892676353455,
+    "negative_soft_modularity": -0.427802175283432,
+    "collapse_loss": 0.006433248519897461
+  },
+  {
+    "epoch": 923,
+    "objective": -0.42139899730682373,
+    "negative_soft_modularity": -0.42783427238464355,
+    "collapse_loss": 0.006435275077819824
+  },
+  {
+    "epoch": 924,
+    "objective": -0.4214304983615875,
+    "negative_soft_modularity": -0.4278680384159088,
+    "collapse_loss": 0.006437540054321289
+  },
+  {
+    "epoch": 925,
+    "objective": -0.42146047949790955,
+    "negative_soft_modularity": -0.42790016531944275,
+    "collapse_loss": 0.006439685821533203
+  },
+  {
+    "epoch": 926,
+    "objective": -0.42149174213409424,
+    "negative_soft_modularity": -0.4279329776763916,
+    "collapse_loss": 0.006441235542297363
+  },
+  {
+    "epoch": 927,
+    "objective": -0.42152273654937744,
+    "negative_soft_modularity": -0.4279642105102539,
+    "collapse_loss": 0.006441473960876465
+  },
+  {
+    "epoch": 928,
+    "objective": -0.4215528964996338,
+    "negative_soft_modularity": -0.42799341678619385,
+    "collapse_loss": 0.006440520286560059
+  },
+  {
+    "epoch": 929,
+    "objective": -0.4215835928916931,
+    "negative_soft_modularity": -0.42802196741104126,
+    "collapse_loss": 0.0064383745193481445
+  },
+  {
+    "epoch": 930,
+    "objective": -0.4216145873069763,
+    "negative_soft_modularity": -0.42805105447769165,
+    "collapse_loss": 0.006436467170715332
+  },
+  {
+    "epoch": 931,
+    "objective": -0.42164504528045654,
+    "negative_soft_modularity": -0.42807936668395996,
+    "collapse_loss": 0.006434321403503418
+  },
+  {
+    "epoch": 932,
+    "objective": -0.42167577147483826,
+    "negative_soft_modularity": -0.42810818552970886,
+    "collapse_loss": 0.0064324140548706055
+  },
+  {
+    "epoch": 933,
+    "objective": -0.4217056632041931,
+    "negative_soft_modularity": -0.42813628911972046,
+    "collapse_loss": 0.006430625915527344
+  },
+  {
+    "epoch": 934,
+    "objective": -0.4217357933521271,
+    "negative_soft_modularity": -0.4281647503376007,
+    "collapse_loss": 0.006428956985473633
+  },
+  {
+    "epoch": 935,
+    "objective": -0.4217659831047058,
+    "negative_soft_modularity": -0.4281933903694153,
+    "collapse_loss": 0.006427407264709473
+  },
+  {
+    "epoch": 936,
+    "objective": -0.421796053647995,
+    "negative_soft_modularity": -0.4282221496105194,
+    "collapse_loss": 0.006426095962524414
+  },
+  {
+    "epoch": 937,
+    "objective": -0.4218263030052185,
+    "negative_soft_modularity": -0.42825108766555786,
+    "collapse_loss": 0.0064247846603393555
+  },
+  {
+    "epoch": 938,
+    "objective": -0.4218565821647644,
+    "negative_soft_modularity": -0.4282802939414978,
+    "collapse_loss": 0.0064237117767333984
+  },
+  {
+    "epoch": 939,
+    "objective": -0.4218861758708954,
+    "negative_soft_modularity": -0.4283091723918915,
+    "collapse_loss": 0.006422996520996094
+  },
+  {
+    "epoch": 940,
+    "objective": -0.4219155013561249,
+    "negative_soft_modularity": -0.42833778262138367,
+    "collapse_loss": 0.006422281265258789
+  },
+  {
+    "epoch": 941,
+    "objective": -0.42194584012031555,
+    "negative_soft_modularity": -0.4283672869205475,
+    "collapse_loss": 0.006421446800231934
+  },
+  {
+    "epoch": 942,
+    "objective": -0.42197519540786743,
+    "negative_soft_modularity": -0.42839568853378296,
+    "collapse_loss": 0.006420493125915527
+  },
+  {
+    "epoch": 943,
+    "objective": -0.4220038652420044,
+    "negative_soft_modularity": -0.4284231662750244,
+    "collapse_loss": 0.0064193010330200195
+  },
+  {
+    "epoch": 944,
+    "objective": -0.42203372716903687,
+    "negative_soft_modularity": -0.4284519553184509,
+    "collapse_loss": 0.0064182281494140625
+  },
+  {
+    "epoch": 945,
+    "objective": -0.42206263542175293,
+    "negative_soft_modularity": -0.4284796714782715,
+    "collapse_loss": 0.006417036056518555
+  },
+  {
+    "epoch": 946,
+    "objective": -0.4220917522907257,
+    "negative_soft_modularity": -0.42850735783576965,
+    "collapse_loss": 0.006415605545043945
+  },
+  {
+    "epoch": 947,
+    "objective": -0.4221205413341522,
+    "negative_soft_modularity": -0.428534597158432,
+    "collapse_loss": 0.006414055824279785
+  },
+  {
+    "epoch": 948,
+    "objective": -0.42214953899383545,
+    "negative_soft_modularity": -0.4285616874694824,
+    "collapse_loss": 0.006412148475646973
+  },
+  {
+    "epoch": 949,
+    "objective": -0.4221782684326172,
+    "negative_soft_modularity": -0.4285881519317627,
+    "collapse_loss": 0.006409883499145508
+  },
+  {
+    "epoch": 950,
+    "objective": -0.422206312417984,
+    "negative_soft_modularity": -0.4286135733127594,
+    "collapse_loss": 0.006407260894775391
+  },
+  {
+    "epoch": 951,
+    "objective": -0.4222349226474762,
+    "negative_soft_modularity": -0.42863956093788147,
+    "collapse_loss": 0.0064046382904052734
+  },
+  {
+    "epoch": 952,
+    "objective": -0.4222636818885803,
+    "negative_soft_modularity": -0.4286659359931946,
+    "collapse_loss": 0.006402254104614258
+  },
+  {
+    "epoch": 953,
+    "objective": -0.4222918152809143,
+    "negative_soft_modularity": -0.4286918044090271,
+    "collapse_loss": 0.006399989128112793
+  },
+  {
+    "epoch": 954,
+    "objective": -0.42231985926628113,
+    "negative_soft_modularity": -0.428717702627182,
+    "collapse_loss": 0.006397843360900879
+  },
+  {
+    "epoch": 955,
+    "objective": -0.4223475158214569,
+    "negative_soft_modularity": -0.4287430942058563,
+    "collapse_loss": 0.006395578384399414
+  },
+  {
+    "epoch": 956,
+    "objective": -0.42237618565559387,
+    "negative_soft_modularity": -0.4287697374820709,
+    "collapse_loss": 0.006393551826477051
+  },
+  {
+    "epoch": 957,
+    "objective": -0.4224037230014801,
+    "negative_soft_modularity": -0.4287952482700348,
+    "collapse_loss": 0.0063915252685546875
+  },
+  {
+    "epoch": 958,
+    "objective": -0.42243093252182007,
+    "negative_soft_modularity": -0.4288204312324524,
+    "collapse_loss": 0.006389498710632324
+  },
+  {
+    "epoch": 959,
+    "objective": -0.4224584400653839,
+    "negative_soft_modularity": -0.428846150636673,
+    "collapse_loss": 0.0063877105712890625
+  },
+  {
+    "epoch": 960,
+    "objective": -0.4224855303764343,
+    "negative_soft_modularity": -0.4288714528083801,
+    "collapse_loss": 0.006385922431945801
+  },
+  {
+    "epoch": 961,
+    "objective": -0.4225127398967743,
+    "negative_soft_modularity": -0.4288967549800873,
+    "collapse_loss": 0.006384015083312988
+  },
+  {
+    "epoch": 962,
+    "objective": -0.42253950238227844,
+    "negative_soft_modularity": -0.42892125248908997,
+    "collapse_loss": 0.0063817501068115234
+  },
+  {
+    "epoch": 963,
+    "objective": -0.42256686091423035,
+    "negative_soft_modularity": -0.4289463460445404,
+    "collapse_loss": 0.006379485130310059
+  },
+  {
+    "epoch": 964,
+    "objective": -0.4225924015045166,
+    "negative_soft_modularity": -0.4289693832397461,
+    "collapse_loss": 0.006376981735229492
+  },
+  {
+    "epoch": 965,
+    "objective": -0.42261961102485657,
+    "negative_soft_modularity": -0.4289945662021637,
+    "collapse_loss": 0.006374955177307129
+  },
+  {
+    "epoch": 966,
+    "objective": -0.4226464033126831,
+    "negative_soft_modularity": -0.4290189743041992,
+    "collapse_loss": 0.006372570991516113
+  },
+  {
+    "epoch": 967,
+    "objective": -0.42267268896102905,
+    "negative_soft_modularity": -0.4290422797203064,
+    "collapse_loss": 0.006369590759277344
+  },
+  {
+    "epoch": 968,
+    "objective": -0.4226990342140198,
+    "negative_soft_modularity": -0.42906540632247925,
+    "collapse_loss": 0.006366372108459473
+  },
+  {
+    "epoch": 969,
+    "objective": -0.42272549867630005,
+    "negative_soft_modularity": -0.4290880560874939,
+    "collapse_loss": 0.006362557411193848
+  },
+  {
+    "epoch": 970,
+    "objective": -0.42275136709213257,
+    "negative_soft_modularity": -0.42910999059677124,
+    "collapse_loss": 0.006358623504638672
+  },
+  {
+    "epoch": 971,
+    "objective": -0.4227775037288666,
+    "negative_soft_modularity": -0.4291323125362396,
+    "collapse_loss": 0.006354808807373047
+  },
+  {
+    "epoch": 972,
+    "objective": -0.42280346155166626,
+    "negative_soft_modularity": -0.42915505170822144,
+    "collapse_loss": 0.006351590156555176
+  },
+  {
+    "epoch": 973,
+    "objective": -0.4228280782699585,
+    "negative_soft_modularity": -0.42917680740356445,
+    "collapse_loss": 0.006348729133605957
+  },
+  {
+    "epoch": 974,
+    "objective": -0.4228537082672119,
+    "negative_soft_modularity": -0.42919981479644775,
+    "collapse_loss": 0.00634610652923584
+  },
+  {
+    "epoch": 975,
+    "objective": -0.4228791892528534,
+    "negative_soft_modularity": -0.4292229115962982,
+    "collapse_loss": 0.006343722343444824
+  },
+  {
+    "epoch": 976,
+    "objective": -0.4229033589363098,
+    "negative_soft_modularity": -0.4292450547218323,
+    "collapse_loss": 0.006341695785522461
+  },
+  {
+    "epoch": 977,
+    "objective": -0.4229283928871155,
+    "negative_soft_modularity": -0.42926841974258423,
+    "collapse_loss": 0.00634002685546875
+  },
+  {
+    "epoch": 978,
+    "objective": -0.4229539632797241,
+    "negative_soft_modularity": -0.4292926788330078,
+    "collapse_loss": 0.006338715553283691
+  },
+  {
+    "epoch": 979,
+    "objective": -0.42297878861427307,
+    "negative_soft_modularity": -0.4293164312839508,
+    "collapse_loss": 0.006337642669677734
+  },
+  {
+    "epoch": 980,
+    "objective": -0.42300328612327576,
+    "negative_soft_modularity": -0.4293399751186371,
+    "collapse_loss": 0.006336688995361328
+  },
+  {
+    "epoch": 981,
+    "objective": -0.4230276346206665,
+    "negative_soft_modularity": -0.4293633699417114,
+    "collapse_loss": 0.006335735321044922
+  },
+  {
+    "epoch": 982,
+    "objective": -0.4230524003505707,
+    "negative_soft_modularity": -0.42938706278800964,
+    "collapse_loss": 0.006334662437438965
+  },
+  {
+    "epoch": 983,
+    "objective": -0.4230772852897644,
+    "negative_soft_modularity": -0.42941004037857056,
+    "collapse_loss": 0.006332755088806152
+  },
+  {
+    "epoch": 984,
+    "objective": -0.4231007695198059,
+    "negative_soft_modularity": -0.42943066358566284,
+    "collapse_loss": 0.006329894065856934
+  },
+  {
+    "epoch": 985,
+    "objective": -0.4231250286102295,
+    "negative_soft_modularity": -0.429451584815979,
+    "collapse_loss": 0.006326556205749512
+  },
+  {
+    "epoch": 986,
+    "objective": -0.4231489300727844,
+    "negative_soft_modularity": -0.42947179079055786,
+    "collapse_loss": 0.0063228607177734375
+  },
+  {
+    "epoch": 987,
+    "objective": -0.42317232489585876,
+    "negative_soft_modularity": -0.4294910132884979,
+    "collapse_loss": 0.00631868839263916
+  },
+  {
+    "epoch": 988,
+    "objective": -0.423196941614151,
+    "negative_soft_modularity": -0.42951110005378723,
+    "collapse_loss": 0.0063141584396362305
+  },
+  {
+    "epoch": 989,
+    "objective": -0.42321956157684326,
+    "negative_soft_modularity": -0.42952942848205566,
+    "collapse_loss": 0.006309866905212402
+  },
+  {
+    "epoch": 990,
+    "objective": -0.42324304580688477,
+    "negative_soft_modularity": -0.42954909801483154,
+    "collapse_loss": 0.006306052207946777
+  },
+  {
+    "epoch": 991,
+    "objective": -0.4232665002346039,
+    "negative_soft_modularity": -0.4295690953731537,
+    "collapse_loss": 0.006302595138549805
+  },
+  {
+    "epoch": 992,
+    "objective": -0.42328962683677673,
+    "negative_soft_modularity": -0.42958971858024597,
+    "collapse_loss": 0.006300091743469238
+  },
+  {
+    "epoch": 993,
+    "objective": -0.4233122766017914,
+    "negative_soft_modularity": -0.4296104609966278,
+    "collapse_loss": 0.006298184394836426
+  },
+  {
+    "epoch": 994,
+    "objective": -0.42333516478538513,
+    "negative_soft_modularity": -0.42963168025016785,
+    "collapse_loss": 0.006296515464782715
+  },
+  {
+    "epoch": 995,
+    "objective": -0.423357754945755,
+    "negative_soft_modularity": -0.429652601480484,
+    "collapse_loss": 0.006294846534729004
+  },
+  {
+    "epoch": 996,
+    "objective": -0.4233808219432831,
+    "negative_soft_modularity": -0.4296738803386688,
+    "collapse_loss": 0.006293058395385742
+  },
+  {
+    "epoch": 997,
+    "objective": -0.42340368032455444,
+    "negative_soft_modularity": -0.4296947121620178,
+    "collapse_loss": 0.006291031837463379
+  },
+  {
+    "epoch": 998,
+    "objective": -0.42342522740364075,
+    "negative_soft_modularity": -0.4297138750553131,
+    "collapse_loss": 0.006288647651672363
+  },
+  {
+    "epoch": 999,
+    "objective": -0.4234476089477539,
+    "negative_soft_modularity": -0.42973363399505615,
+    "collapse_loss": 0.006286025047302246
+  },
+  {
+    "epoch": 1000,
+    "objective": -0.42346975207328796,
+    "negative_soft_modularity": -0.42975303530693054,
+    "collapse_loss": 0.006283283233642578
+  }
+]

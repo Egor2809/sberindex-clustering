@@ -1,0 +1,78 @@
+{
+  "created_utc": "2026-10-02T05:24:53.675418+00:00",
+  "config": {
+    "schema_version": 1,
+    "seed": 1729,
+    "data_contract": {
+      "identity_mode": "source_territory_id",
+      "stable_territories_verified": false,
+      "measurement_definition_verified": true,
+      "common_denominator_verified": false,
+      "categories_disjoint_verified": false,
+      "evidence": [
+        "reports/source_alignment.json",
+        "docs/DATA_SOURCES.md"
+      ]
+    },
+    "features": {
+      "mode": "log_ratios_to_total",
+      "level_weight": 0.0,
+      "calibration_end": "2023-12-01",
+      "seasonality": "same_month_cross_section"
+    },
+    "graph": {
+      "k": 15
+    },
+    "edge_rules": {
+      "series_months": 24,
+      "max_lag": 3,
+      "dtw_window": 2,
+      "n_clusters": 4,
+      "k_grid": [
+        5,
+        10,
+        15,
+        30
+      ],
+      "source_dir": "artifacts/sources/acquisition",
+      "output": "reports/edge-rules",
+      "min_cluster_size": 20,
+      "leiden_iterations": 2
+    },
+    "events": {
+      "jaccard_threshold": 0.3,
+      "size_change": 0.1,
+      "temporal_labels": "reports/round2-2026-09-24/round2-20260924-temporal_grid/temporal_omega0.01_seed1729.json.gz"
+    }
+  },
+  "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+  "implementation": {
+    "metrics.py": "532b16c56570285f9737229fb4fc87bbffb6d96480bf948e1255908962f456dc",
+    "contest_analysis.py": "fea8d2b0073145109c611ce06f7a62d57e85eadc8f219a5e4db0787669a95267",
+    "edge_rules.py": "b9873b090a8ae184685875181c9e8985e4b3a602ca277e5a4d3f01d629caa12a",
+    "contest_graphs.py": "6ebfddbd10b05d26312d583858625b0d3742940dcde5dd3ce43e2bcdceb3dc4f",
+    "models.py": "d99054dfa50bf0d7c7803863b5620cd7f041ec1ca36e5a78128e178df257cf1b",
+    "research.py": "62675a7557fed94989f57b4f360eb56289a26214d9f6a7b0e65d09986cc79afd",
+    "contest.py": "529be4a1f0930f1fc992e233314abc4c4a45b0419964df83d58956557d5065f2",
+    "round2.py": "b5c68ff6bc262dd23eb2ff202ed7a016f63aeb7c882248af4fb40761bd4ddda5",
+    "graph.py": "9475d10e4927a8094a1558f262da788a44b8d6c02686637bf443785d1010532f",
+    "io.py": "89f49856593b24d525bddeada28624b46279aa6f211b72e02e95d9c1db61fdf9",
+    "__init__.py": "30531b8122c986fb77769336c7e87609dcef634be23844399c540ee500d19a34",
+    "features.py": "e22aad131f816027d8a41aa7cff5fcedc54c0f0489a56d092a95df7170dc139b",
+    "dmon.py": "16f9bb74e9b66622658f808a20141440e4059cf3efd426f8967d0407c2894f27",
+    "edge_study.py": "3ae9e53a6fe5652b3dea13fec9100ef6affc6fe620bd4daa5b2cdcac9d01d6e2",
+    "followup.py": "e68fe157e0db40e59ad1731607c347b293e0f079f9359fbae982cc88089a76dc",
+    "robustness.py": "b7b68ae1e8c4e662ea8d9a2143dfc8aad04928cab1815a8b0f72ece69cd100c1",
+    "cli.py": "ee4daf6a1479e06afb2a9aea4b1a2f6e9d265b9e6d3e1bed1716acc168df92c9",
+    "canonical.py": "872508b108e54b83f2e8c321c40ccdd5414017d78380df3a1abf9112cdf48b0f",
+    "temporal_profiles.py": "f6bcb5b167bcb277490db338c25e718a093d12ae05338951b90599fdc54c92dd",
+    "joint.py": "dff858b2c30adf8a3e257a52dc049135a9a3b0381322a9e21bee8aab9c611cb0",
+    "resources.py": "ecde44657bfe3933d58c299fd5b1981a454671c5ad4578046e22e2841ed70ef3",
+    "research_validation.py": "c8c804aa9d7d3d80f173633c0518a53ee631c214d6c482559daf2f51b8fca2ae",
+    "published_inputs.py": "3a19cf1747f431e761be2af0973f36e5e54b0d60f9916685bc20d496010847ae",
+    "data.py": "aca63526ac1271999f308c799ca6960066f622e300d89c585fccbff0f2bba6cd",
+    "dynamics.py": "97d4279a919b388816a83203a4c3e7e05355ff0930dc56e3b1dcd63607058c08",
+    "validation.py": "f4ef20a9ece71152ea5bdc3c0764e13c709dca5c0a25f3b185ba2c5bfd3ef37c"
+  },
+  "seconds": 568.2196192909905
+}

@@ -1,0 +1,66 @@
+{
+  "status": "pass",
+  "scope": "Independent exported-rule algebra, raw-panel replay, consumed-byte fingerprint and calendar aggregation audit; no fitting.",
+  "manifest_sha256": "ba278bb478f0fe75742ea69ee6eeca80ca2300f94a4352b62d7bfea5562c4e47",
+  "manifest_matches": true,
+  "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+  "models": [
+    {
+      "id": "historical_kmeans4",
+      "artifact_sha256": "12e72c67cd6e2db9d3249a9211670eb04336c69fa5883cb5b1a0277496edb334",
+      "n": 2016,
+      "exact_ID_order": true,
+      "manual_full_rule_equals_saved": true,
+      "library_full_rule_equals_saved": true,
+      "legacy_loader_rejects_kind": true,
+      "checked_bytes_parsed_once": true
+    },
+    {
+      "id": "sw_constrained_huber75",
+      "artifact_sha256": "41a1071c7d35019f93218d09b6b5abc293bec3b3b4fafdc740cf2c7ac572003a",
+      "n": 2016,
+      "exact_ID_order": true,
+      "manual_full_rule_equals_saved": true,
+      "library_full_rule_equals_saved": true,
+      "legacy_loader_rejects_kind": true,
+      "checked_bytes_parsed_once": true
+    },
+    {
+      "id": "sw_constrained_ordinary",
+      "artifact_sha256": "c3a6ee51ba00c2825b9346e2b248710b4a8214df1bdf4a9f192cc978a055bd30",
+      "n": 2016,
+      "exact_ID_order": true,
+      "manual_full_rule_equals_saved": true,
+      "library_full_rule_equals_saved": true,
+      "legacy_loader_rejects_kind": true,
+      "checked_bytes_parsed_once": true
+    }
+  ],
+  "contrast_order": {
+    "monthly_TOTAL_counterfactual_max_error": 6.661338147750939e-16,
+    "project_then_median_matches_manual_at_1e_minus_12": true,
+    "project_then_median_max_error": 2.220446049250313e-16,
+    "median_then_project_actual_difference": 0.27506322227181274,
+    "direction_annihilated_max_error": 1.1102230246251565e-16,
+    "scope": "Denominator-free relative category contrasts; calendar-year monthly medians follow the canonical basis transformation."
+  },
+  "fresh_environment_cli": {
+    "exit_code": 0,
+    "status": "completed",
+    "all_2016_labels_exact": true,
+    "consumed_panel_sha256_exact": true,
+    "verified_model_sha256_exact": true,
+    "output_labels_sha256_exact": true
+  },
+  "limitations": [
+    "Replays the inspected development cohort, not a future calendar year or unseen municipality.",
+    "The new CLI exports descriptive consumer-profile assignments and does not certify economic production type or stable boundaries."
+  ],
+  "canonical_public_H75_CLI": {
+    "status": "completed",
+    "n": 2016,
+    "labels_exact_against_independent_raw_replay": true,
+    "model_sha256": "41a1071c7d35019f93218d09b6b5abc293bec3b3b4fafdc740cf2c7ac572003a",
+    "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa"
+  }
+}

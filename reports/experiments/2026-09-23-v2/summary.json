@@ -1,0 +1,14 @@
+{
+  "n_territories": 2016,
+  "screen_partitions": 104,
+  "stability_perturbations": 56,
+  "selected_candidate": "kmeans_k4",
+  "source_runs": {
+    "annual": "research-20260923T123427735210Z",
+    "months": "research-20260923T123523157700Z",
+    "stability": "research-20260923T123755575253Z",
+    "validation": "research-20260923T132832891346Z"
+  },
+  "holdout_completed": true,
+  "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa"
+}

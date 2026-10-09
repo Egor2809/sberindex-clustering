@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "seed": 1729,
+  "permutations": 999,
+  "bootstrap_repetitions": 1000,
+  "indicators": "reports/external-municipal/municipal_indicators.csv",
+  "market_access": "data/processed/market_access_2024.csv",
+  "labels": "reports/experiments/2026-09-23-v2/validation/reference_assignments.csv",
+  "research_config": "configs/research_validation.json",
+  "output": "reports/type-validation",
+  "type_names": {
+    "0": "Сбалансированный: средние МО",
+    "1": "Продуктовый: малые районы",
+    "2": "Городской сервисный",
+    "3": "Удалённый: мало маркетплейсов"
+  },
+  "outcomes": [
+    {"column": "wage_2023", "transform": "log", "label": "Зарплата крупных и средних организаций, 2023"},
+    {"column": "above_working_age_share_2023", "transform": "identity", "label": "Доля старше трудоспособного возраста, 2023"},
+    {"column": "share_trade", "transform": "identity", "label": "Доля работников в торговле (G)"},
+    {"column": "share_public_services", "transform": "identity", "label": "Доля работников в бюджетном секторе (O+P+Q)"},
+    {"column": "market_access", "transform": "identity", "label": "Индекс доступности рынков СберИндекса, 2024"}
+  ],
+  "controls": ["region_population", "region_population_mo_type"],
+  "published_peer_means": {
+    "temporal_consensus_15": 2.679,
+    "profile_15": 2.721,
+    "region_all": 2.812
+  },
+  "peer_contrasts": [
+    ["temporal_consensus_15", "profile_15"],
+    ["temporal_consensus_15", "region_all"],
+    ["profile_15", "region_all"]
+  ]
+}

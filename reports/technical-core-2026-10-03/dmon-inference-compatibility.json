@@ -1,0 +1,55 @@
+{
+  "scope": "Forward inference only; no fit/optimizer/training execution",
+  "torch_version": "2.8.0+cu129",
+  "source_sha256": "0b79c433e30cd64b107f9f8aa1ecdfba32db243433444c4dd39e5bc2c4e7e1b2",
+  "checkpoints": [
+    {
+      "id": "dmon_k2_seed1729",
+      "same_labels": true,
+      "max_assignment_difference": 0.0,
+      "historical_best_objective": -0.43908974528312683,
+      "recomputed_objective": -0.4390897750854492,
+      "absolute_objective_difference": 2.9802322387695312e-08
+    },
+    {
+      "id": "dmon_k2_seed2718",
+      "same_labels": true,
+      "max_assignment_difference": 0.0,
+      "historical_best_objective": -0.4371452033519745,
+      "recomputed_objective": -0.4371451139450073,
+      "absolute_objective_difference": 8.940696716308594e-08
+    },
+    {
+      "id": "dmon_k2_seed3141",
+      "same_labels": true,
+      "max_assignment_difference": 0.0,
+      "historical_best_objective": -0.43706992268562317,
+      "recomputed_objective": -0.4370698928833008,
+      "absolute_objective_difference": 2.9802322387695312e-08
+    },
+    {
+      "id": "dmon_k4_seed1729",
+      "same_labels": true,
+      "max_assignment_difference": 0.0,
+      "historical_best_objective": -0.6537492275238037,
+      "recomputed_objective": -0.6537491679191589,
+      "absolute_objective_difference": 5.960464477539063e-08
+    },
+    {
+      "id": "dmon_k4_seed2718",
+      "same_labels": true,
+      "max_assignment_difference": 0.0,
+      "historical_best_objective": -0.6485469341278076,
+      "recomputed_objective": -0.6485469341278076,
+      "absolute_objective_difference": 0.0
+    },
+    {
+      "id": "dmon_k4_seed3141",
+      "same_labels": true,
+      "max_assignment_difference": 0.0,
+      "historical_best_objective": -0.6533007621765137,
+      "recomputed_objective": -0.6533007621765137,
+      "absolute_objective_difference": 0.0
+    }
+  ]
+}

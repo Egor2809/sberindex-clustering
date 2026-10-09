@@ -1,0 +1,7 @@
+{
+  "candidate": "annual_2023__kmeans_k4",
+  "entities": 2016,
+  "exact_label_match": true,
+  "partition_match_up_to_label_permutation": true,
+  "different_numeric_labels": 0
+}

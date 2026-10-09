@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "updated_utc": "2026-09-24T16:54:34.424016+00:00",
+  "atlas": {
+    "sha256": "66865193134f857fad378903e4e710799de8db58145e55b091e9d97a14336947",
+    "bytes": 5161870,
+    "url": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+    "anonymous_deployment_verified": true,
+    "anonymous_check": {
+      "url": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+      "utc": "2026-09-24T16:50:10.750519+00:00",
+      "sha256": "66865193134f857fad378903e4e710799de8db58145e55b091e9d97a14336947",
+      "expected_sha256": "66865193134f857fad378903e4e710799de8db58145e55b091e9d97a14336947",
+      "bytes": 5161870,
+      "exact_match": true
+    },
+    "deployment_run": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+    "deployment_status": "success"
+  },
+  "local_tests": {
+    "platform": "Windows",
+    "discovered": 118,
+    "passed": 118,
+    "skipped": 0
+  },
+  "browsers": {
+    "chrome": {
+      "passed": 46,
+      "failed": 0,
+      "javascript_errors": 0,
+      "load_to_map_ms": 2662,
+      "protocol": "browser/chrome-after.json"
+    },
+    "msedge": {
+      "passed": 46,
+      "failed": 0,
+      "javascript_errors": 0,
+      "load_to_map_ms": 2131,
+      "protocol": "browser/msedge-after.json"
+    },
+    "chromium_ci": {
+      "passed": 46,
+      "javascript_errors": 0,
+      "protocol": "browser/chromium-after.json"
+    },
+    "chrome_live": {
+      "passed": 46,
+      "javascript_errors": 0,
+      "load_to_map_ms": 3223,
+      "protocol": "browser/chrome-live.json",
+      "url": "закрытый репозиторий предыдущего этапа, ссылка недоступна"
+    }
+  },
+  "scientific_experiments": {
+    "completed": true,
+    "static_and_dmon_run": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+    "static_note": "Completed stages recovered from the interrupted run; no incomplete temporal labels used.",
+    "complete_temporal_run": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+    "temporal_artifact_sha256": "93bcc6f5dedac2694ae51bcfa9fa4ba06ec2354fd5d663a4f507f0966b8b8cd2",
+    "temporal_variants": 15,
+    "temporal_new_fits": 13,
+    "temporal_reused": 2
+  },
+  "ci": {
+    "status": "passed",
+    "pull_request": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+    "tested_head": "1f49b50df704844422b0af49fb77f0f0ede64ab0",
+    "pr_run": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+    "python_tests": {
+      "discovered": 118,
+      "skipped": 9,
+      "passed": 109
+    },
+    "compileall": true,
+    "exact_atlas_rebuild": true,
+    "docker_built": true,
+    "kmeans4_exact_labels": 2016,
+    "kmeans4_label_differences": 0,
+    "small_k_new_partitions": 4,
+    "merge_commit": "9d25eb16f6b41c45e77c3d623026f148e8588e0f",
+    "merge_tree_equals_tested_tree": true,
+    "tree": "857ad354eca624a4d51af5941bb90b4d5ce452ec",
+    "main_run": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+    "main_status": "passed"
+  },
+  "limitations": [
+    "Actual Opera not tested.",
+    "Local load time is not a universal benchmark.",
+    "Scientific limitations are stated in docs/ROUND2_RESULTS.md."
+  ]
+}

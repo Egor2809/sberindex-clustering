@@ -1,0 +1,158 @@
+{
+  "baseline_commit": "aed2bc92e9f5d6a2e9abce8c2a8a68243a360e9a",
+  "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+  "features_bitwise_equal": true,
+  "months": 24,
+  "entities": 2016,
+  "feature_shape": [
+    2016,
+    5
+  ],
+  "external_max_absolute_delta": 3.3306690738754696e-16,
+  "external": [
+    {
+      "subset": "all",
+      "outcome": "market_access",
+      "control": "none",
+      "old": 0.4053861998931933,
+      "new": 0.40538619989319336,
+      "absolute_delta": 5.551115123125783e-17
+    },
+    {
+      "subset": "all",
+      "outcome": "market_access",
+      "control": "region",
+      "old": 0.09495368211863127,
+      "new": 0.09495368211863128,
+      "absolute_delta": 1.3877787807814457e-17
+    },
+    {
+      "subset": "all",
+      "outcome": "market_access",
+      "control": "type",
+      "old": 0.17833251051288068,
+      "new": 0.17833251051288068,
+      "absolute_delta": 0.0
+    },
+    {
+      "subset": "all",
+      "outcome": "market_access",
+      "control": "region_type",
+      "old": 0.11243143002248501,
+      "new": 0.11243143002248501,
+      "absolute_delta": 0.0
+    },
+    {
+      "subset": "all",
+      "outcome": "market_access",
+      "control": "region_type_level",
+      "old": 0.03236766910091857,
+      "new": 0.03236766910091856,
+      "absolute_delta": 6.938893903907228e-18
+    },
+    {
+      "subset": "all",
+      "outcome": "log_expense_2023",
+      "control": "none",
+      "old": 0.5380008077481359,
+      "new": 0.5380008077481362,
+      "absolute_delta": 3.3306690738754696e-16
+    },
+    {
+      "subset": "all",
+      "outcome": "log_expense_2023",
+      "control": "region",
+      "old": 0.3730584955063912,
+      "new": 0.3730584955063909,
+      "absolute_delta": 2.7755575615628914e-16
+    },
+    {
+      "subset": "all",
+      "outcome": "log_expense_2023",
+      "control": "type",
+      "old": 0.24637120519400035,
+      "new": 0.24637120519400035,
+      "absolute_delta": 0.0
+    },
+    {
+      "subset": "all",
+      "outcome": "log_expense_2023",
+      "control": "region_type",
+      "old": 0.27794073595184193,
+      "new": 0.27794073595184215,
+      "absolute_delta": 2.220446049250313e-16
+    },
+    {
+      "subset": "without_intracity",
+      "outcome": "market_access",
+      "control": "none",
+      "old": 0.21796903036876059,
+      "new": 0.21796903036876056,
+      "absolute_delta": 2.7755575615628914e-17
+    },
+    {
+      "subset": "without_intracity",
+      "outcome": "market_access",
+      "control": "region",
+      "old": 0.09158721844912492,
+      "new": 0.09158721844912492,
+      "absolute_delta": 0.0
+    },
+    {
+      "subset": "without_intracity",
+      "outcome": "market_access",
+      "control": "type",
+      "old": 0.21507563061798077,
+      "new": 0.21507563061798082,
+      "absolute_delta": 5.551115123125783e-17
+    },
+    {
+      "subset": "without_intracity",
+      "outcome": "market_access",
+      "control": "region_type",
+      "old": 0.10855637465831283,
+      "new": 0.10855637465831278,
+      "absolute_delta": 5.551115123125783e-17
+    },
+    {
+      "subset": "without_intracity",
+      "outcome": "market_access",
+      "control": "region_type_level",
+      "old": 0.031719919148543024,
+      "new": 0.03171991914854303,
+      "absolute_delta": 6.938893903907228e-18
+    },
+    {
+      "subset": "without_intracity",
+      "outcome": "log_expense_2023",
+      "control": "none",
+      "old": 0.3122054641193281,
+      "new": 0.31220546411932787,
+      "absolute_delta": 2.220446049250313e-16
+    },
+    {
+      "subset": "without_intracity",
+      "outcome": "log_expense_2023",
+      "control": "region",
+      "old": 0.38836389256411874,
+      "new": 0.3883638925641185,
+      "absolute_delta": 2.220446049250313e-16
+    },
+    {
+      "subset": "without_intracity",
+      "outcome": "log_expense_2023",
+      "control": "type",
+      "old": 0.251588967914768,
+      "new": 0.2515889679147681,
+      "absolute_delta": 1.1102230246251565e-16
+    },
+    {
+      "subset": "without_intracity",
+      "outcome": "log_expense_2023",
+      "control": "region_type",
+      "old": 0.28983536450550423,
+      "new": 0.28983536450550407,
+      "absolute_delta": 1.6653345369377348e-16
+    }
+  ]
+}

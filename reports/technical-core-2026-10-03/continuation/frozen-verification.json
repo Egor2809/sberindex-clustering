@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "fitting_executed": false,
+  "monthly_labels_exact": 48384,
+  "annual_labels_exact": {
+    "2023": 2016,
+    "2024": 2016
+  },
+  "max_monthly_margin_error": 0.0,
+  "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+  "model_sha256": "95cd20e1fc4239b4d762826708e35a5af4610eb17a909c25cb85f7f78d1b1308",
+  "reference_sha256": "4124e33f26d214c96167d3203140058587ad916e31e21c989e9c878e73f1d2bb",
+  "monthly_reference_sha256": "af97e247246052ca118c353b034f8b288504fa4a99b9f5b7e10630d657ffc41e"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "omega_relative": 0,
+    "graph_layer": "attribute_road",
+    "months": 3,
+    "mean_ARI_adjacent": 0.7201362704483412,
+    "mean_matched_churn": 0.14037698412698413,
+    "mean_SW": 0.07486111551101303,
+    "groups_min": 6,
+    "groups_max": 9,
+    "omega": 0.0,
+    "optimisation_improvement": 4054.0563473547277,
+    "inference_scope": "retrospective_joint_optimisation; NOT an online early-warning system",
+    "boundary_stability_verified": false,
+    "boundary_caveat": "2024 within-year changes not independently cleared; memberships are descriptive, not verified structural transitions"
+  },
+  {
+    "omega_relative": 0.1,
+    "graph_layer": "attribute_road",
+    "months": 3,
+    "mean_ARI_adjacent": 0.9628411681627906,
+    "mean_matched_churn": 0.012648809523809479,
+    "mean_SW": 0.07037046495729754,
+    "groups_min": 9,
+    "groups_max": 9,
+    "omega": 0.09905319419716113,
+    "optimisation_improvement": 4813.587153178887,
+    "inference_scope": "retrospective_joint_optimisation; NOT an online early-warning system",
+    "boundary_stability_verified": false,
+    "boundary_caveat": "2024 within-year changes not independently cleared; memberships are descriptive, not verified structural transitions"
+  }
+]

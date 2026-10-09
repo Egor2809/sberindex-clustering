@@ -1,0 +1,50 @@
+[
+  {
+    "id": "omega0.03_seed1729",
+    "omega": 0.03,
+    "seed": 1729,
+    "months": 3,
+    "mean_ARI_adjacent": 0.8340324501948302,
+    "mean_churn": 0.06746031746031746,
+    "mean_SW": 0.06906950911041214,
+    "valid_SW_months": 3,
+    "groups_min": 8,
+    "groups_max": 8,
+    "iterations": 4,
+    "reused": false,
+    "ambiguous_vertex_months": 0,
+    "transition_definition": "Change under canonical maximum-overlap matching; ambiguous vertices excluded from unanimous events; no agreement on destination implied"
+  },
+  {
+    "id": "omega0.03_seed2718",
+    "omega": 0.03,
+    "seed": 2718,
+    "months": 3,
+    "mean_ARI_adjacent": 0.8387577583054349,
+    "mean_churn": 0.06820436507936507,
+    "mean_SW": 0.07829700076038056,
+    "valid_SW_months": 3,
+    "groups_min": 9,
+    "groups_max": 9,
+    "iterations": 4,
+    "reused": false,
+    "ambiguous_vertex_months": 0,
+    "transition_definition": "Change under canonical maximum-overlap matching; ambiguous vertices excluded from unanimous events; no agreement on destination implied"
+  },
+  {
+    "id": "omega0.03_seed3141",
+    "omega": 0.03,
+    "seed": 3141,
+    "months": 3,
+    "mean_ARI_adjacent": 0.8292205017191826,
+    "mean_churn": 0.06969246031746032,
+    "mean_SW": 0.07398528689062282,
+    "valid_SW_months": 3,
+    "groups_min": 9,
+    "groups_max": 9,
+    "iterations": 4,
+    "reused": false,
+    "ambiguous_vertex_months": 0,
+    "transition_definition": "Change under canonical maximum-overlap matching; ambiguous vertices excluded from unanimous events; no agreement on destination implied"
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "status": "pass",
+  "scope": "Independent fully-confounded additions at three scales and identifiable positive-control verification.",
+  "source_sha256": {
+    "scripts/validate_external_national.py": "4816a08d13941e81360fba2311be68b5fc2026449e56afb88017789a479906dd",
+    "tests/test_external_national.py": "8f37e5d3f9ff9c3ab148f22b5de647e3583e336e6ed8bf45f567f9191a924287"
+  },
+  "cases": [
+    {
+      "seed": 1903,
+      "addition_scale": 1e-09,
+      "fully_control_spanned_partial_r2": 0.0,
+      "expected": 0.0,
+      "residual_norm": 1.2195984129267338e-23
+    },
+    {
+      "seed": 1903,
+      "addition_scale": 1.0,
+      "fully_control_spanned_partial_r2": 0.0,
+      "expected": 0.0,
+      "residual_norm": 1.1611288880004076e-14
+    },
+    {
+      "seed": 1903,
+      "addition_scale": 1000000000.0,
+      "fully_control_spanned_partial_r2": 0.0,
+      "expected": 0.0,
+      "residual_norm": 1.0874295307836516e-05
+    },
+    {
+      "seed": 1903,
+      "permutation_observed_effect": 0.0,
+      "reference_p": 1.0,
+      "expected_effect": 0.0,
+      "expected_p": 1.0
+    },
+    {
+      "seed": 2718,
+      "addition_scale": 1e-09,
+      "fully_control_spanned_partial_r2": 0.0,
+      "expected": 0.0,
+      "residual_norm": 1.9293555574438846e-23
+    },
+    {
+      "seed": 2718,
+      "addition_scale": 1.0,
+      "fully_control_spanned_partial_r2": 0.0,
+      "expected": 0.0,
+      "residual_norm": 1.8512032629411557e-14
+    },
+    {
+      "seed": 2718,
+      "addition_scale": 1000000000.0,
+      "fully_control_spanned_partial_r2": 0.0,
+      "expected": 0.0,
+      "residual_norm": 1.8795438955864433e-05
+    },
+    {
+      "seed": 2718,
+      "permutation_observed_effect": 0.0,
+      "reference_p": 1.0,
+      "expected_effect": 0.0,
+      "expected_p": 1.0
+    },
+    {
+      "seed": 7265,
+      "addition_scale": 1e-09,
+      "fully_control_spanned_partial_r2": 0.0,
+      "expected": 0.0,
+      "residual_norm": 1.58248124637257e-23
+    },
+    {
+      "seed": 7265,
+      "addition_scale": 1.0,
+      "fully_control_spanned_partial_r2": 0.0,
+      "expected": 0.0,
+      "residual_norm": 1.5619165036182597e-14
+    },
+    {
+      "seed": 7265,
+      "addition_scale": 1000000000.0,
+      "fully_control_spanned_partial_r2": 0.0,
+      "expected": 0.0,
+      "residual_norm": 1.553824612177204e-05
+    },
+    {
+      "seed": 7265,
+      "permutation_observed_effect": 0.0,
+      "reference_p": 1.0,
+      "expected_effect": 0.0,
+      "expected_p": 1.0
+    }
+  ],
+  "identifiable_positive_control_partial_r2": 0.9962653257584806,
+  "interpretation": "Residual design singular values are evaluated relative to original addition norms, avoiding promotion of projection roundoff to a unit-rank predictor. This numerical correction does not fix the conditional exchangeability limitation of random-label p-values."
+}

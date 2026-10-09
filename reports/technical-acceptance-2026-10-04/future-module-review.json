@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-04",
+  "status": "PASS_CODE_REVIEW_AND_CSV_VALIDATION_FIXES",
+  "scope": "Frozen retrospective annual endpoint implementation: code inspection and synthetic decoder controls before actual value access",
+  "code": {
+    "sbercluster/future_outcome_validation.py": "b58fa23f12d974e4ddeefad0788de9e7b498588881bc6141abe1e5c8eccf02e8",
+    "scripts/validate_future_outcome.py": "8c48a26e46c6f3e423dc3166765ee0563344ff1033144a3a4684e7175749fcd8",
+    "tests/test_future_outcome_validation.py": "01dd35cc77836dbcacd932cb36ced1874499990d5d8ff47b28f6b10e83997970",
+    "docs/FUTURE_OUTCOME_VALIDATION.md": "2dad0582a587ce08aa4d15eb5aeac6ff2faec5a85fbbbbdbb32afe8bc7315abe"
+  },
+  "fixed_contract_pins_inspected": {
+    "contract": "1954c73a4c2d9fb90b7ade073ca647919a873fa838fb67b6ebacb7b9f37f84fc",
+    "protocol": "18725c1f20bf19919e4eeb545c80669ceb1cc708ef9f5e39f4f1b577d8606872",
+    "metadata_admission": "379ceb7ca1328b034a5e1d86f0bfca77f56f53488dfa94b1e6156fdbde85061c"
+  },
+  "blocking_findings_remaining_in_reviewed_scope": [],
+  "resolved_findings": [
+    {
+      "id": "CSV_QUOTE_SYNTAX",
+      "reviewed_before_sha256": "020b42d1366d92b407db6bce233874726ad816dfde879f729a5a7520f70d8d59",
+      "status": "FIXED_AND_INDEPENDENTLY_ACCEPTED",
+      "consequence": "Byte pins do not enforce CSV grammar; malformed quoted fields could become different finite numeric tokens instead of refusal",
+      "before_controls": [
+        {
+          "synthetic_field": "\"100\"0",
+          "permissive_materialized_token": "1000",
+          "synthetic_compressed_sha256": "ef7a8b759289cfb54726a83ff7aebaf0bf0dee6fead757eab74b6034630021ee"
+        },
+        {
+          "synthetic_field": "\"100",
+          "permissive_materialized_token": "100\n",
+          "synthetic_compressed_sha256": "ef375e9e55d14987324fffc8de86c4f8f68cdb6a637b9cd416b6d66f8178f9f5"
+        }
+      ],
+      "patch_only_three_strict_kwargs": true,
+      "strict_reader_count": 3,
+      "after_controls": [
+        {
+          "case": "valid_utf8_BOM_quoted_semicolon_embedded_quote_multiline",
+          "status": "PRESERVED_EXACTLY"
+        },
+        {
+          "case": "\"100\"0",
+          "status": "REJECTED",
+          "exception": "csv.Error",
+          "reason": "';' expected after '\"'"
+        },
+        {
+          "case": "\"100",
+          "status": "REJECTED",
+          "exception": "csv.Error",
+          "reason": "unexpected end of data"
+        }
+      ],
+      "private_before_evidence_sha256": "c6125978afdef5aa1613ccf61879d9e56a676dba3c2554f9d426bf116a5ae6d8",
+      "private_after_evidence_sha256": "06236072da24a31c44a3c0bc9c411d35408f1477cd268c41b0ba3ea297685405",
+      "reviewed_after_sha256": "9d94033ec7e9e31d9af94118bf2bf21147ad8f224e70a3027e4fe4b4e4969183"
+    },
+    {
+      "id": "CSV_HEADERS_AND_ROW_WIDTH",
+      "status": "FIXED_AND_INDEPENDENTLY_ACCEPTED",
+      "reviewed_before_sha256": "9d94033ec7e9e31d9af94118bf2bf21147ad8f224e70a3027e4fe4b4e4969183",
+      "reviewed_after_sha256": "b58fa23f12d974e4ddeefad0788de9e7b498588881bc6141abe1e5c8eccf02e8",
+      "source_diff_only_three_validation_blocks": true,
+      "before_controls": [
+        {
+          "case": "metadata_duplicate_header",
+          "status": "ACCEPTED"
+        },
+        {
+          "case": "metadata_extra_field",
+          "status": "ACCEPTED"
+        },
+        {
+          "case": "metadata_missing_optional_field",
+          "status": "ACCEPTED"
+        },
+        {
+          "case": "predictions_extra_field",
+          "status": "ACCEPTED"
+        },
+        {
+          "case": "predictions_missing_optional_field",
+          "status": "ACCEPTED"
+        }
+      ],
+      "after_controls": [
+        {
+          "case": "metadata_duplicate_header",
+          "status": "REJECTED",
+          "exception": "ValueError",
+          "reason": "Unique source metadata headers required"
+        },
+        {
+          "case": "metadata_extra_field",
+          "status": "REJECTED",
+          "exception": "ValueError",
+          "reason": "Malformed source metadata CSV row"
+        },
+        {
+          "case": "metadata_missing_optional_field",
+          "status": "REJECTED",
+          "exception": "ValueError",
+          "reason": "Malformed source metadata CSV row"
+        },
+        {
+          "case": "predictions_extra_field",
+          "status": "REJECTED",
+          "exception": "ValueError",
+          "reason": "Malformed prediction CSV row"
+        },
+        {
+          "case": "predictions_missing_optional_field",
+          "status": "REJECTED",
+          "exception": "ValueError",
+          "reason": "Malformed prediction CSV row"
+        },
+        {
+          "case": "valid_metadata_optional_empty_quoted",
+          "status": "PRESERVED"
+        },
+        {
+          "case": "valid_predictions_unused_history_token",
+          "status": "PRESERVED"
+        }
+      ],
+      "private_before_evidence_sha256": "ac341a94d23d0acdfc396fc4bb149a2f574bf1c6cf85b6cd35fa83544baa20b8",
+      "private_after_evidence_sha256": "63c859810e28e6f991f04de08b24c04b06b03147968e534f794462ab86cbd39c"
+    }
+  ],
+  "static_checks": {
+    "equal_region_mse": "Within-region mean squared error, then unweighted mean over observed regions",
+    "primary_difference": "histogram_huber75 minus histogram_continuous5; negative favors histogram_huber75",
+    "shared_cohort_and_draws": "One observed entity index set and shared regional bootstrap draws for all twelve predictors and comparisons",
+    "centered_error": "Sample variance with ddof 1; only regions with at least two observations, explicitly reported",
+    "empty_cases": "Null metrics and not_estimable status; no silent missing-region or singleton imputation",
+    "membership": "All frozen IDs remain audited; metadata rejections, territorial history flags and unavailable outcome statuses preserved",
+    "coverage": "Fixed and observed regions plus entirely unobserved regions explicitly reported",
+    "pins": "External contract pin, scientific input pins before value parsing, pinned input reload, and file checks after source consumption",
+    "endpoint": "Exact annual target and unit; duplicate keys, metadata drift and incomplete annual key coverage rejected",
+    "decoder": "Bounded raw-DEFLATE stream with completion, length, CRC, truncation and trailing-byte checks",
+    "cli": "Default check stage verifies pins without parsing outcome values; score is explicit; no fitting or network access"
+  },
+  "author_reported_targeted_tests": {
+    "tests": 27,
+    "status": "PASS",
+    "compile": "PASS",
+    "independent_review_repeated_whole_suite": false
+  },
+  "real_source_opened": false,
+  "actual_outcome_values_parsed": false,
+  "score_functions_called": false,
+  "actual_score_status_at_review_freeze": "HELD",
+  "external_supplement_status_at_review_freeze": "COMPLETED",
+  "fits_run": false,
+  "limits": [
+    "This is software acceptance within the frozen contract, not authorization to access actual endpoint values",
+    "Independent source admission and any actual score belong to separate release evidence",
+    "The longitudinal identifier contract does not certify geographic boundary continuity",
+    "Full-cohort effects and calendar prospective forecasting are not certified"
+  ],
+  "scientific_inputs_and_scoring_formulas_changed": false
+}

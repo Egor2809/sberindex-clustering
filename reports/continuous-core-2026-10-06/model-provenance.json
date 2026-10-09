@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "source_model_sha256": "6000163eb591530a6cb8135c6e3c3c0bd5e8f1ee17f7b2eaa92b38304b5bae38",
+  "source_return_archive_sha256": "11a2eaf00a551978ed47fa77bbd72438475f4e8984fcde54cd078e625ebe998d",
+  "request_sha256": "6d5c342f8e678627a5312b6b05945f325bdb115fd8b1bea3e63e1442473a68a5",
+  "base_commit": "f6758a7a924cff91823144aaff7c2a0bfe8fc9dc",
+  "model_copied_without_refitting": true,
+  "accepted_role": "additional continuous explanation; original labels retained",
+  "economic_candidate_promoted": false,
+  "real_2025_values_read": false,
+  "new_dependencies": false
+}

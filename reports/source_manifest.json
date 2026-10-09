@@ -1,0 +1,60 @@
+{
+  "retrieved": "2026-09-23",
+  "files": [
+    {
+      "path": "artifacts/sources/acquisition/hackathonlicence.zip",
+      "bytes": 19603203,
+      "sha256": "a9f932ff4096a7df797d1547987937f34d3995ac445b4748177114488d12b010"
+    },
+    {
+      "path": "artifacts/sources/acquisition/metadata_municipal_dict_sberindex_2.pdf",
+      "bytes": 333567,
+      "sha256": "05707427a64061552d1f23f74f578a99fdabeff69f0c8a0fc99d924210fee0b3"
+    },
+    {
+      "path": "artifacts/sources/acquisition/municipal_expenses_description.json",
+      "bytes": 9624,
+      "sha256": "1b88f25e1fbd4badee830d089b3d78b7c5c86a7a5cf7c4532bc0ccf33317ecb1"
+    },
+    {
+      "path": "artifacts/sources/acquisition/municipal_registry_landing.json",
+      "bytes": 6605,
+      "sha256": "cceb20345abe013c1d901696268bf49364b9eba969dd7bfa71817100aa649418"
+    },
+    {
+      "path": "artifacts/sources/acquisition/t_dict_municipal.rar",
+      "bytes": 26925727,
+      "sha256": "319ed22684b77716641bc15b61f7325adc44e9fc47e9be2973d88412d27d21f5"
+    },
+    {
+      "path": "artifacts/sources/acquisition/t_dict_municipal_districts.xlsx",
+      "bytes": 322024,
+      "sha256": "4150658c3298fbc87ed79838f503f3a5b9a28da33257ff803c7d9231ddb775d6"
+    },
+    {
+      "path": "artifacts/sources/acquisition/t_dict_municipal_districts_poly.gpkg",
+      "bytes": 74334208,
+      "sha256": "e62027630d48e4a13f9b6d173dd074d7358706743fe859ca3b7fa30fefa9813a"
+    },
+    {
+      "path": "artifacts/sources/acquisition/hackathonlicence/connection.parquet",
+      "bytes": 21904682,
+      "sha256": "20cbd5213d3ac1d0a867f097b485431811614b283d7366eb5cba9f65dc80493d"
+    },
+    {
+      "path": "artifacts/sources/acquisition/hackathonlicence/consumption.parquet",
+      "bytes": 2373939,
+      "sha256": "9833ddaaee7b2a182ed4cceeed16469031700ea87d508bd976150c6770ef8a61"
+    },
+    {
+      "path": "artifacts/sources/acquisition/hackathonlicence/market_access.parquet",
+      "bytes": 25163,
+      "sha256": "434258afe322b7e6e6610b2552d129ae47094613de72dae3d13f6965a28d1dc1"
+    },
+    {
+      "path": "artifacts/sources/acquisition/hackathonlicence/Данные_СберИндекс_лицензия.pdf",
+      "bytes": 538791,
+      "sha256": "030269e726f969250b911a1fcb72131a4b61c3952aad10c8470ce9c0736c472f"
+    }
+  ]
+}

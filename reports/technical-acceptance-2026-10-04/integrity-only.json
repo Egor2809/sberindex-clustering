@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "root": "<REPOSITORY_ROOT>",
+  "fitting_executed": false,
+  "raw_data_used": false,
+  "scientific_status": "not_assessed",
+  "status": "PASS_INTEGRITY_ONLY",
+  "integrity": [
+    {
+      "package": "reports/model-frontier-2026-10-03",
+      "manifest_sha256": "8358cd398ff5d50944140bda4ef09869b45fc0a8d1229741f8934c0a29fd908b",
+      "status": "PASS",
+      "payload_files": 201,
+      "payload_bytes": 2869299,
+      "current_snapshot": [
+        {
+          "path": "docs/MODEL_FRONTIER.md",
+          "expected_sha256": "e52776aab5deb3c8b67bf9053492f3c3e09287a9de3f3d1cb734e0c7dd66d232",
+          "actual_sha256": "e52776aab5deb3c8b67bf9053492f3c3e09287a9de3f3d1cb734e0c7dd66d232",
+          "status": "MATCH"
+        },
+        {
+          "path": "configs/model_frontier_20261003.json",
+          "expected_sha256": "7c9ed8acdc10d3ae4252fb8613cd1074e8c5cb6aba7dbf0b486c05b4e4840b5d",
+          "actual_sha256": "7c9ed8acdc10d3ae4252fb8613cd1074e8c5cb6aba7dbf0b486c05b4e4840b5d",
+          "status": "MATCH"
+        }
+      ]
+    },
+    {
+      "package": "reports/temporal-core-2026-10-03",
+      "manifest_sha256": "80f0fe361870dbe7345c049df572321674703d7abc39be3cccc388816af2d9b6",
+      "status": "PASS",
+      "payload_files": 57,
+      "payload_bytes": 794695,
+      "current_snapshot": []
+    },
+    {
+      "package": "reports/economic-generalization-2026-10-03",
+      "manifest_sha256": "9c12518c92efe264aa72d582c46ca6d5d2309d653a4de5d07021e8a60807dad8",
+      "status": "PASS",
+      "payload_files": 325,
+      "payload_bytes": 19067822,
+      "current_snapshot": [
+        {
+          "path": "docs/ECONOMIC_GENERALIZATION.md",
+          "expected_sha256": "554fce0d1b710c836a3241176d11fca882bfde3a97451627bf4056b4b7d20ce1",
+          "actual_sha256": "554fce0d1b710c836a3241176d11fca882bfde3a97451627bf4056b4b7d20ce1",
+          "status": "MATCH"
+        },
+        {
+          "path": "sbercluster/economic_generalization.py",
+          "expected_sha256": "d3a563f6db2ec3f1901a8aa8b3dc08fceb4eb83a02062c41d83bd5b042bcd55a",
+          "actual_sha256": "d3a563f6db2ec3f1901a8aa8b3dc08fceb4eb83a02062c41d83bd5b042bcd55a",
+          "status": "MATCH"
+        },
+        {
+          "path": "sbercluster/economic_sector_bounds.py",
+          "expected_sha256": "2e517993bedfc114cd21c54e897bcf9622eafabebb6adf205dc8a5c2ef46810d",
+          "actual_sha256": "2e517993bedfc114cd21c54e897bcf9622eafabebb6adf205dc8a5c2ef46810d",
+          "status": "MATCH"
+        },
+        {
+          "path": "scripts/validate_economic_generalization.py",
+          "expected_sha256": "69daeab36b0c8ac0ef012767ca4e29209fb05774e7ddff15a336a8110f9bde38",
+          "actual_sha256": "69daeab36b0c8ac0ef012767ca4e29209fb05774e7ddff15a336a8110f9bde38",
+          "status": "MATCH"
+        },
+        {
+          "path": "scripts/validate_economic_sector_generalization.py",
+          "expected_sha256": "612bdba9ed79f15f3a55e648ed3261411ba8f3368b3ac8c07bec9863f306d4a6",
+          "actual_sha256": "612bdba9ed79f15f3a55e648ed3261411ba8f3368b3ac8c07bec9863f306d4a6",
+          "status": "MATCH"
+        },
+        {
+          "path": "tests/test_economic_generalization.py",
+          "expected_sha256": "1a8fce9364acbfdfff5c36014b3c0eea3cfad5f50750c042af714dd90567a401",
+          "actual_sha256": "1a8fce9364acbfdfff5c36014b3c0eea3cfad5f50750c042af714dd90567a401",
+          "status": "MATCH"
+        },
+        {
+          "path": "tests/test_economic_sector_bounds.py",
+          "expected_sha256": "5b5c421673c43a8fbf041b7d73e91160b602d608ffbc3b1d7eac17f6e2c94f2c",
+          "actual_sha256": "5b5c421673c43a8fbf041b7d73e91160b602d608ffbc3b1d7eac17f6e2c94f2c",
+          "status": "MATCH"
+        }
+      ]
+    },
+    {
+      "package": "reports/core-round3-review-2026-10-03",
+      "manifest_sha256": "8c64cab7df7176d5d36958b837dbbde1215033b911ce17e4d3abaca6e4f5c1e9",
+      "status": "PASS",
+      "payload_files": 27,
+      "payload_bytes": 169773,
+      "current_snapshot": []
+    }
+  ],
+  "predictions": {
+    "status": "NOT_RUN",
+    "reason": "--integrity-only"
+  },
+  "payload_snapshot_stable": true,
+  "elapsed_seconds": 1.3910000000032596,
+  "exit_code": 0
+}

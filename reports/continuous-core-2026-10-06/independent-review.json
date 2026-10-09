@@ -1,0 +1,19 @@
+{
+  "status": "ACCEPTED_FOR_ADDITIONAL_CONTINUOUS_INFERENCE",
+  "reviewer_independent_of_implementation": true,
+  "findings": [],
+  "targeted_tests_passed": 8,
+  "checked": [
+    "exact original legacy rules/scaler/centers",
+    "strict input validation",
+    "weights distinct from original labels",
+    "no fitting/real2025",
+    "CLI/output preservation",
+    "portable dependency list"
+  ],
+  "not_repeated": [
+    "full suite",
+    "full real-panel replay"
+  ],
+  "scope": "Code/input review; scientific superiority not assessed"
+}

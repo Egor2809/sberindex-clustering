@@ -1,0 +1,455 @@
+{
+  "status": "PASS",
+  "scope": "Independent arithmetic on existing returned forecasts; no model fitting",
+  "score_rows_checked": 40,
+  "maximum_difference": 5.551115123125783e-17,
+  "score_checks": [
+    {
+      "suite": "economic_screen",
+      "year": "2023",
+      "candidate": "controls",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 6.938893903907228e-18
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2023",
+      "candidate": "continuous5",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 6.938893903907228e-18
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2023",
+      "candidate": "kmeans4",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 6.938893903907228e-18
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2023",
+      "candidate": "huber75",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 0.0
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2023",
+      "candidate": "mixture4",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 6.938893903907228e-18
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2023",
+      "candidate": "continuous5_region_weighted",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 2.7755575615628914e-17
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2023",
+      "candidate": "continuous5_temporal15",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 8.673617379884035e-19
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2023",
+      "candidate": "controls_geo3",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 6.938893903907228e-18
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2023",
+      "candidate": "continuous5_geo3",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 4.336808689942018e-19
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2023",
+      "candidate": "continuous5_geo3_temporal15",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 3.469446951953614e-18
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2023",
+      "candidate": "controls_temporal15",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 2.7755575615628914e-17
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2023",
+      "candidate": "continuous5_geo3_region_weighted",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 3.469446951953614e-18
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2024",
+      "candidate": "controls",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 2.7755575615628914e-17
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2024",
+      "candidate": "continuous5",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 2.7755575615628914e-17
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2024",
+      "candidate": "kmeans4",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 0.0
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2024",
+      "candidate": "huber75",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 2.7755575615628914e-17
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2024",
+      "candidate": "mixture4",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 2.7755575615628914e-17
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2024",
+      "candidate": "continuous5_region_weighted",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 0.0
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2024",
+      "candidate": "continuous5_temporal15",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 2.7755575615628914e-17
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2024",
+      "candidate": "controls_geo3",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 5.551115123125783e-17
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2024",
+      "candidate": "continuous5_geo3",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 2.7755575615628914e-17
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2024",
+      "candidate": "continuous5_geo3_temporal15",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 3.469446951953614e-18
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2024",
+      "candidate": "controls_temporal15",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 0.0
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2024",
+      "candidate": "continuous5_geo3_region_weighted",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 1.3877787807814457e-17
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2023",
+      "candidate": "controls",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 2.7755575615628914e-17
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2023",
+      "candidate": "continuous5",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 0.0
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2023",
+      "candidate": "mixture4",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 3.469446951953614e-18
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2023",
+      "candidate": "continuous5_temporal15",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 2.7755575615628914e-17
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2023",
+      "candidate": "controls_geo3",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 3.469446951953614e-18
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2023",
+      "candidate": "continuous5_geo3",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 6.938893903907228e-18
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2023",
+      "candidate": "continuous5_geo3_temporal15",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 6.938893903907228e-18
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2023",
+      "candidate": "continuous5_geo3_region_weighted",
+      "n": 1797,
+      "regions": 72,
+      "max_difference": 6.938893903907228e-18
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2024",
+      "candidate": "controls",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 5.551115123125783e-17
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2024",
+      "candidate": "continuous5",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 2.7755575615628914e-17
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2024",
+      "candidate": "mixture4",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 2.7755575615628914e-17
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2024",
+      "candidate": "continuous5_temporal15",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 3.469446951953614e-18
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2024",
+      "candidate": "controls_geo3",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 2.7755575615628914e-17
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2024",
+      "candidate": "continuous5_geo3",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 2.7755575615628914e-17
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2024",
+      "candidate": "continuous5_geo3_temporal15",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 6.938893903907228e-18
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2024",
+      "candidate": "continuous5_geo3_region_weighted",
+      "n": 1678,
+      "regions": 68,
+      "max_difference": 2.7755575615628914e-17
+    }
+  ],
+  "gains": [
+    {
+      "suite": "economic_screen",
+      "year": "2023",
+      "baseline_mse": 0.03129993104699736,
+      "candidate_mse": 0.028078649542540135,
+      "relative_reduction_percent": 10.29165687176888,
+      "controls_geo3_mse": 0.03040456336207603
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2024",
+      "baseline_mse": 0.05855607754714961,
+      "candidate_mse": 0.05704488632233187,
+      "relative_reduction_percent": 2.5807589717752495,
+      "controls_geo3_mse": 0.06061935840676342
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2023",
+      "baseline_mse": 0.036955725104656584,
+      "candidate_mse": 0.03227944542983419,
+      "relative_reduction_percent": 12.653735413334264,
+      "controls_geo3_mse": 0.03134431713795712
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2024",
+      "baseline_mse": 0.06086791172870242,
+      "candidate_mse": 0.056919856979414436,
+      "relative_reduction_percent": 6.486266141156721,
+      "controls_geo3_mse": 0.05798673286682957
+    }
+  ],
+  "reported_intervals": [
+    {
+      "suite": "economic_screen",
+      "year": "2023",
+      "candidate": "continuous5_geo3_region_weighted",
+      "reference": "continuous5",
+      "delta_candidate_minus_reference": "-0.003221281504457226",
+      "descriptive_region_bootstrap_low": "-0.005449132913103437",
+      "descriptive_region_bootstrap_high": "-0.0010447020849236363",
+      "fraction_regions_improved": "0.6388888888888888",
+      "median_region_delta": "-0.001247480104479456"
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2023",
+      "candidate": "continuous5_geo3_region_weighted",
+      "reference": "controls_geo3",
+      "delta_candidate_minus_reference": "-0.002325913819535899",
+      "descriptive_region_bootstrap_low": "-0.004770222282160624",
+      "descriptive_region_bootstrap_high": "-0.0003368332711025913",
+      "fraction_regions_improved": "0.5138888888888888",
+      "median_region_delta": "-0.0004225822213779996"
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2024",
+      "candidate": "continuous5_geo3_region_weighted",
+      "reference": "continuous5",
+      "delta_candidate_minus_reference": "-0.0015111912248177376",
+      "descriptive_region_bootstrap_low": "-0.006403677606307092",
+      "descriptive_region_bootstrap_high": "0.0035037882404454555",
+      "fraction_regions_improved": "0.6029411764705882",
+      "median_region_delta": "-0.0014786455227660134"
+    },
+    {
+      "suite": "economic_screen",
+      "year": "2024",
+      "candidate": "continuous5_geo3_region_weighted",
+      "reference": "controls_geo3",
+      "delta_candidate_minus_reference": "-0.003574472084431547",
+      "descriptive_region_bootstrap_low": "-0.007969886952291352",
+      "descriptive_region_bootstrap_high": "-0.00023389144376494874",
+      "fraction_regions_improved": "0.6470588235294118",
+      "median_region_delta": "-0.001704704456329035"
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2023",
+      "candidate": "continuous5_geo3_region_weighted",
+      "reference": "continuous5",
+      "delta_candidate_minus_reference": "-0.004676279674822394",
+      "descriptive_region_bootstrap_low": "-0.00794053153721148",
+      "descriptive_region_bootstrap_high": "-0.0018135521493852793",
+      "fraction_regions_improved": "0.6388888888888888",
+      "median_region_delta": "-0.002173423240514284"
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2023",
+      "candidate": "continuous5_geo3_region_weighted",
+      "reference": "controls_geo3",
+      "delta_candidate_minus_reference": "0.0009351282918770744",
+      "descriptive_region_bootstrap_low": "-0.0015757070613975192",
+      "descriptive_region_bootstrap_high": "0.00353885391242408",
+      "fraction_regions_improved": "0.3611111111111111",
+      "median_region_delta": "0.0010601505935038391"
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2024",
+      "candidate": "continuous5_geo3_region_weighted",
+      "reference": "continuous5",
+      "delta_candidate_minus_reference": "-0.003948054749287982",
+      "descriptive_region_bootstrap_low": "-0.008683348211358983",
+      "descriptive_region_bootstrap_high": "0.0006523734923290172",
+      "fraction_regions_improved": "0.5147058823529411",
+      "median_region_delta": "-0.0008356949053983059"
+    },
+    {
+      "suite": "spatial_stress",
+      "year": "2024",
+      "candidate": "continuous5_geo3_region_weighted",
+      "reference": "controls_geo3",
+      "delta_candidate_minus_reference": "-0.0010668758874151298",
+      "descriptive_region_bootstrap_low": "-0.004417315678750012",
+      "descriptive_region_bootstrap_high": "0.001960660079549531",
+      "fraction_regions_improved": "0.5294117647058824",
+      "median_region_delta": "-0.00046395278048193527"
+    }
+  ],
+  "2024_common_bias_squared_fraction": 0.4839051128029705,
+  "new_training_runs": 0,
+  "2025_values_read": false
+}

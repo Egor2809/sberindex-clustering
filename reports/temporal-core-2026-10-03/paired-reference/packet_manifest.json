@@ -1,0 +1,52 @@
+{
+  "packets": {
+    "2024-01-01": {
+      "path": "packets/2024-01-01.json",
+      "sha256": "5b0da83ce9371e7bcc36ed5e683092b5b6253c1989547f1e48a3f597335c4253"
+    },
+    "2024-02-01": {
+      "path": "packets/2024-02-01.json",
+      "sha256": "98a1a631e48609b2814a535c876de851dd990b3baef5bdf93542d381e7f73237"
+    },
+    "2024-03-01": {
+      "path": "packets/2024-03-01.json",
+      "sha256": "bfc304f191c1ad9de4e2eb37bf51ab0557ade4afd8746d714255be786a8af02b"
+    },
+    "2024-04-01": {
+      "path": "packets/2024-04-01.json",
+      "sha256": "16a886d64aacaac9b8a67badc204046d624d4f24ef57f30ea34a71825a4177ee"
+    },
+    "2024-05-01": {
+      "path": "packets/2024-05-01.json",
+      "sha256": "1e630ee427b91018584f00d1fe539797d7fce36cb43b3b01e990b5e62b333185"
+    },
+    "2024-06-01": {
+      "path": "packets/2024-06-01.json",
+      "sha256": "f4849baa9c268503275c82c6e7fd947dc48e2bd4d5aa6e48acee56004abe3d0e"
+    },
+    "2024-07-01": {
+      "path": "packets/2024-07-01.json",
+      "sha256": "68c5c7b52e3e526873ac6a332d89d3601c04231a88059ec567f575a736a311bb"
+    },
+    "2024-08-01": {
+      "path": "packets/2024-08-01.json",
+      "sha256": "d858dbf99878f23404e8d36846a35bcf09b891891191a0866441bd0cff67e199"
+    },
+    "2024-09-01": {
+      "path": "packets/2024-09-01.json",
+      "sha256": "d8170162c9cc627cf8f1b7ecea0af29ae76c7ad9c56de7deff0a95bb0dc9e136"
+    },
+    "2024-10-01": {
+      "path": "packets/2024-10-01.json",
+      "sha256": "a65c8f6a12f26404d8da04f5f245176ff16f448c4cf8a142966affe841572c02"
+    },
+    "2024-11-01": {
+      "path": "packets/2024-11-01.json",
+      "sha256": "604b540b3ee03cf899c6e60b8bdc6990f0e600a76c7910d135c98f22f12d5f66"
+    },
+    "2024-12-01": {
+      "path": "packets/2024-12-01.json",
+      "sha256": "6ddf11d2c303bdf413fd9de1421a51731900100a171a2dfe93d4b49ac4a80f9f"
+    }
+  }
+}

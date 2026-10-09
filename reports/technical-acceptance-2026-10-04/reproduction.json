@@ -1,0 +1,28 @@
+{
+  "reviewed_source_sha256": "d551497dc0c81ada721e8f3721ad7dd97958b40ac3cd904f71907bf1151edb31",
+  "F01": {
+    "unsupported_revision": {
+      "old_accepted_packets": 12,
+      "canonical_rejection": "Unsupported sealed reference revision"
+    },
+    "missing_mandatory_field": {
+      "old_accepted_packets": 12,
+      "canonical_rejection": "Malformed reference packet schema"
+    },
+    "wrong_dimension": {
+      "old_accepted_packets": 12,
+      "canonical_rejection": "Correction vectors must have five coordinates"
+    },
+    "reversed_interval": {
+      "old_accepted_packets": 12,
+      "canonical_rejection": "Invalid correction interval"
+    }
+  },
+  "F02": {
+    "missing_module_was_accepted_as_expected_refusal": true,
+    "child_exit": 1,
+    "child_stderr": "<PYTHON_EXECUTABLE>: No module named sbercluster_missing_dependency_fixture\n",
+    "success_route_exception_class": "AcceptanceError",
+    "old_main_classification": "FAIL/1 for AcceptanceError"
+  }
+}

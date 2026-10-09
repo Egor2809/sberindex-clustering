@@ -1,0 +1,26 @@
+{
+  "indicators": "reports/external-municipal/municipal_indicators.csv",
+  "labels": "reports/experiments/2026-09-23-v2/validation/reference_assignments.csv",
+  "output": "reports/external-municipal",
+  "seed": 1729,
+  "bootstrap_draws": 500,
+  "cluster_names": {
+    "0": "Сбалансированный: средние МО",
+    "1": "Продуктовый: малые районы",
+    "2": "Городской сервисный",
+    "3": "Удалённый: мало маркетплейсов"
+  },
+  "outcomes": [
+    {"column": "population", "transform": "log", "label": "Население, чел."},
+    {"column": "urban_share_2024", "transform": "identity", "label": "Доля городского населения, 2024"},
+    {"column": "above_working_age_share_2023", "transform": "identity", "label": "Доля старше трудоспособного возраста, 2023"},
+    {"column": "wage_2023", "transform": "log", "label": "Среднемесячная зарплата (крупные и средние организации), руб., 2023"},
+    {"column": "jobs_per_1000", "transform": "log", "label": "Работники крупных и средних организаций на 1000 жителей, 2023"},
+    {"column": "share_public_services", "transform": "identity", "label": "Доля работников в госуправлении, образовании и здравоохранении (O+P+Q)"},
+    {"column": "share_trade", "transform": "identity", "label": "Доля работников в торговле (G)"},
+    {"column": "share_manufacturing", "transform": "identity", "label": "Доля работников в обрабатывающих производствах (C)"},
+    {"column": "share_agriculture", "transform": "identity", "label": "Доля работников в сельском хозяйстве (A)"}
+  ],
+  "controls": ["none", "region", "region_type"],
+  "subsets": ["all", "without_moscow_petersburg"]
+}

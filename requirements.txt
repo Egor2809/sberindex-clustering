@@ -1,0 +1,9 @@
+# Core versions already available locally; Python 3.10 tested.
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.14.1
+scikit-learn==1.5.2
+networkx==3.4.2
+polars==1.35.2
+openpyxl==3.1.5
+psutil==6.1.0

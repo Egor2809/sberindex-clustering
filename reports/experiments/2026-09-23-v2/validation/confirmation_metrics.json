@@ -1,0 +1,44 @@
+{
+  "candidate": {
+    "id": "kmeans_k4",
+    "method": "kmeans",
+    "k": 4
+  },
+  "frozen_prototype_scores_2024": {
+    "n": 2016,
+    "k": 4,
+    "min_cluster_size": 27,
+    "SW": 0.2696761212955069,
+    "CH": 814.2749996304317,
+    "MQ": null,
+    "MQ_status": "definition_pending_organizer",
+    "S_Dbw": 0.9248459972334828,
+    "S_Dbw_diagnostics": {
+      "convention": "S_Dbw-HV01-var/mean-centroid",
+      "radius": 0.19729683089357342,
+      "centroid_densities": [
+        33,
+        47,
+        115,
+        0
+      ],
+      "zero_density_clusters": [
+        3
+      ],
+      "undefined_pairs": 0
+    },
+    "AVI": 0.8201859164214758,
+    "AVU": 0.5185909008012051,
+    "AVI_undefined_clusters": 0,
+    "AVU_undefined_ordered_pairs": 0,
+    "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+    "max_cluster_size": 1162,
+    "median_cluster_size": 413.5,
+    "negative_silhouette_fraction": 0.07539682539682539,
+    "below_20_territories_clusters": 0
+  },
+  "ARI_reference_to_2024": 0.5596999549170326,
+  "changed_label_fraction": 0.1884920634920635,
+  "boundary_comparability": "2024 administrative transformations not independently cleared",
+  "scope": "fixed 2023 prototypes on annual 2024 profile; retrospective complete cohort"
+}

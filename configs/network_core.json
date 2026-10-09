@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "seed": 1729,
+  "data_contract": {
+    "identity_mode": "source_territory_id",
+    "stable_territories_verified": false,
+    "measurement_definition_verified": true,
+    "common_denominator_verified": false,
+    "categories_disjoint_verified": false,
+    "evidence": [
+      "reports/source_alignment.json",
+      "docs/DATA_SOURCES.md"
+    ]
+  },
+  "features": {
+    "mode": "log_ratios_to_total",
+    "level_weight": 0.0,
+    "calibration_end": "2023-12-01",
+    "seasonality": "same_month_cross_section"
+  },
+  "network_core": {
+    "output": "reports/network-core",
+    "source_dir": "artifacts/sources/acquisition",
+    "external": "reports/external-municipal/municipal_indicators.csv",
+    "fit_year": "2023",
+    "test_year": "2024",
+    "k": 15,
+    "max_lag": 3,
+    "alphas": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "gammas": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "seeds": 20,
+    "leiden_iterations": -1,
+    "min_size": 20,
+    "consensus": "medoid_partition_max_mean_ari",
+    "bootstrap": 200,
+    "selection": {
+      "min_seed_ari": 0.8,
+      "min_size": 20,
+      "k_min": 3,
+      "k_max": 12,
+      "pareto": [
+        {
+          "key": "in_SW",
+          "direction": 1
+        },
+        {
+          "key": "in_C_MQ",
+          "direction": 1
+        }
+      ],
+      "rank": [
+        {
+          "key": "in_SW",
+          "direction": 1,
+          "weight": 1.0
+        },
+        {
+          "key": "in_CH",
+          "direction": 1,
+          "weight": 1.0
+        },
+        {
+          "key": "in_S_Dbw",
+          "direction": -1,
+          "weight": 1.0
+        },
+        {
+          "key": "in_P_AVI",
+          "direction": 1,
+          "weight": 0.5
+        },
+        {
+          "key": "in_C_AVI",
+          "direction": 1,
+          "weight": 0.5
+        },
+        {
+          "key": "in_P_AVU",
+          "direction": -1,
+          "weight": 0.5
+        },
+        {
+          "key": "in_C_AVU",
+          "direction": -1,
+          "weight": 0.5
+        },
+        {
+          "key": "in_P_MQ",
+          "direction": 1,
+          "weight": 0.5
+        },
+        {
+          "key": "in_C_MQ",
+          "direction": 1,
+          "weight": 0.5
+        }
+      ],
+      "tiebreak": [
+        {
+          "key": "seed_ari",
+          "direction": 1
+        },
+        {
+          "key": "k",
+          "direction": -1
+        }
+      ],
+      "note": "Selection uses 2023 only: Pareto on in_SW and in_C_MQ, rank sum over 2023 feature indices and half-weighted network indices on the 2023 profile graph P and co-movement graph C. 2024 metrics (oot_*) and the road graph R are reported, never used for selection. Revised on 2026-10-07 from the earlier oot_* rule; both rules pick the same level-1 variant."
+    },
+    "level2": {
+      "groups": [
+        0,
+        1
+      ],
+      "k": 15,
+      "alphas": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "gammas": [
+        0.1,
+        0.2,
+        0.3,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "seeds": 20,
+      "leiden_iterations": -1,
+      "min_size": 20,
+      "selection": {
+        "min_seed_ari": 0.8,
+        "min_size": 20,
+        "k_min": 2,
+        "k_max": 8,
+        "pareto": [
+          {
+            "key": "in_SW",
+            "direction": 1
+          },
+          {
+            "key": "in_C_MQ",
+            "direction": 1
+          }
+        ],
+        "rank": [
+          {
+            "key": "in_SW",
+            "direction": 1,
+            "weight": 1.0
+          },
+          {
+            "key": "in_CH",
+            "direction": 1,
+            "weight": 1.0
+          },
+          {
+            "key": "in_S_Dbw",
+            "direction": -1,
+            "weight": 1.0
+          },
+          {
+            "key": "in_P_AVI",
+            "direction": 1,
+            "weight": 0.5
+          },
+          {
+            "key": "in_C_AVI",
+            "direction": 1,
+            "weight": 0.5
+          },
+          {
+            "key": "in_P_AVU",
+            "direction": -1,
+            "weight": 0.5
+          },
+          {
+            "key": "in_C_AVU",
+            "direction": -1,
+            "weight": 0.5
+          },
+          {
+            "key": "in_P_MQ",
+            "direction": 1,
+            "weight": 0.5
+          },
+          {
+            "key": "in_C_MQ",
+            "direction": 1,
+            "weight": 0.5
+          }
+        ],
+        "tiebreak": [
+          {
+            "key": "seed_ari",
+            "direction": 1
+          },
+          {
+            "key": "k",
+            "direction": -1
+          }
+        ],
+        "note": "Same 2023-only filter and Pareto/rank rule as level 1 with 2 to 8 subtypes; P and C are rebuilt inside each group; a group with no admissible variant stays whole. Revised on 2026-10-07 from the earlier oot_* rule."
+      },
+      "level_names": {
+        "0": "районы",
+        "1": "города",
+        "2": "Москва и Петербург"
+      },
+      "central_members": 3,
+      "external_targets": [
+        {
+          "name": "log_wage_2023",
+          "column": "wage_2023",
+          "transform": "log"
+        },
+        {
+          "name": "marketplace_share_2023",
+          "column": "marketplace_share",
+          "transform": "identity"
+        },
+        {
+          "name": "log_jobs_per_1000",
+          "column": "jobs_per_1000",
+          "transform": "log"
+        },
+        {
+          "name": "above_working_age_share_2023",
+          "column": "above_working_age_share_2023",
+          "transform": "identity"
+        },
+        {
+          "name": "share_trade",
+          "column": "share_trade",
+          "transform": "identity"
+        },
+        {
+          "name": "share_public_services",
+          "column": "share_public_services",
+          "transform": "identity"
+        }
+      ],
+      "working_names": {
+        "0.1": "продуктовые районы",
+        "0.2": "районы со смешанной корзиной",
+        "1.1": "города и крупные районы",
+        "1.2": "северные районы с малой долей маркетплейсов",
+        "2": "Москва и Петербург"
+      },
+      "working_names_note": "Descriptive labels added after the run from profiles.json; they do not affect any selection.",
+      "sensitivity_min_oot_rerun_ari": 0.5,
+      "sensitivity_note": "Post-hoc check added after the run: the frozen rule plus oot_rerun_ari >= 0.5; reported only, never used for the typology."
+    }
+  }
+}

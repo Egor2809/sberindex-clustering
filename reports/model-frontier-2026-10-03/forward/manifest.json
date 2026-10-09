@@ -1,0 +1,16 @@
+{
+  "scientific_copy_of_original_manifest_sha256": "70c6265d61658359a19c2c00c3a687a51bdbf44f0c2331b3dec99319bbd5a134",
+  "files_sha256": {
+    "labels.npz": "2c4520e98231f695f27de628bb5b18fd0baf0a0e2313dc6db4302dbf4c6e8c51",
+    "models.json": "a81ae998f1ffb1d55514e3ed5dab93d1e1604cf661447f479449450df628ad41",
+    "provenance.json": "b69ea234c93c6121ce31e8b65c0654e642c4ee5a055d79687a47b0d3a6e9945f",
+    "results.json": "4259d5b637648d0585b1387e6631712001239fe892274980036d0b4a645cd351",
+    "source/sbercluster/features.py": "42f9af6c3d7cd88b69e74c296fdf902d8c673ffc1a07854cb7b195314f7b0706",
+    "source/sbercluster/graph.py": "b3b8a68077646b42c8bcb63a0a6b7679bd74504715aae6e4a5b06e7aa838dcd5",
+    "source/sbercluster/metrics.py": "2fe619bdfe8b8bb7e7d8f57a70961219e5fec7f9e610fe3357ffa3b473fe4b27",
+    "source/sbercluster/selection_frontier.py": "0bcd8604fca0855d74bc60a6f600cd9c5cfd13894918795ace242e15cf797576",
+    "source/scripts/benchmark_forward.py": "e90853696a311e44da1fc56036ff3a2ceceeb53f8ef13f4aa35f2d6c691bc203",
+    "status.json": "9749ef1b2803c522e971dff0a724f799ecd5c0e85e34e256dc011e368bbaf150",
+    "summary.json": "5886697e41731adbff09e864822073bb7e2e6b56188e840340f64c7e045982ec"
+  }
+}

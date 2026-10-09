@@ -1,0 +1,11 @@
+{
+  "status": "EXECUTED",
+  "evidence_kind": "ACTUAL_POST_SCREEN_SPATIAL_STRESS",
+  "blocks": 9,
+  "learner_fits": 72,
+  "prediction_entities": 1797,
+  "no_2025_outcomes": true,
+  "no_2024_predictors": true,
+  "config_sha256": "e7ec12fdeacc785a8a789707aea4fe5b39546e3fa248f2f6d12b495e84ecd084",
+  "elapsed_seconds": 9.097620258000006
+}

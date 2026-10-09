@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "endpoint_fills_direct_squared_loss": 24,
+  "allmissing_region_fixed_denominator": "PASS",
+  "weighting_distinction": {
+    "equal_region_bounds": [
+      0.0,
+      1.0
+    ],
+    "municipality_bounds": [
+      -0.5,
+      1.0
+    ],
+    "observed_only_gain": 1.0
+  },
+  "allobserved_collapse_reversal_permutation": "PASS",
+  "illegal_outcome_or_prediction_rejected": "PASS",
+  "scope": "Sharp finite eligible-cohort identification bounds, not confidence intervals or future validity",
+  "source_sha256": "2e517993bedfc114cd21c54e897bcf9622eafabebb6adf205dc8a5c2ef46810d",
+  "oracle_sha256": "bba84fdeb76ee6fe9d89bfbd83fcc18bc469e3cd0145851ed7803f2de7f1ec98"
+}

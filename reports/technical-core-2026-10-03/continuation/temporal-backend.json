@@ -1,0 +1,50 @@
+[
+  {
+    "iterations": 4,
+    "labels": [
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ]
+    ],
+    "info": {
+      "omega": 0.10500000000000001,
+      "optimisation_improvement": 6.74,
+      "inference_scope": "retrospective_joint_optimisation; NOT an online early-warning system",
+      "boundary_stability_verified": true,
+      "boundary_caveat": null
+    }
+  },
+  {
+    "iterations": -1,
+    "labels": [
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ]
+    ],
+    "info": {
+      "omega": 0.10500000000000001,
+      "optimisation_improvement": 6.74,
+      "inference_scope": "retrospective_joint_optimisation; NOT an online early-warning system",
+      "boundary_stability_verified": true,
+      "boundary_caveat": null
+    }
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "dmon_k2_seed1729",
+    "requested_k": 2,
+    "seed": 1729,
+    "epochs": 13500,
+    "best_epoch": 13499,
+    "stop_reason": "training_plateau",
+    "plateau_reached": true,
+    "SW_1000": 0.18007423297735164,
+    "SW_plateau": 0.1807232361498534,
+    "loss_1000": -0.42346975207328796,
+    "loss_plateau": -0.43908974528312683,
+    "road_cut_1000": 0.059118994466963476,
+    "road_cut_plateau": 0.05242300387745808,
+    "partial_R2": 0.005084288282270118,
+    "delta_to_kmeans_ci95": [
+      -0.05743365413278937,
+      -0.0006719205731241238
+    ],
+    "occupied_k": 2,
+    "training_seconds": 118.45183610000822
+  },
+  {
+    "id": "dmon_k2_seed2718",
+    "requested_k": 2,
+    "seed": 2718,
+    "epochs": 12000,
+    "best_epoch": 11996,
+    "stop_reason": "training_plateau",
+    "plateau_reached": true,
+    "SW_1000": 0.1790804718778396,
+    "SW_plateau": 0.17991835604062734,
+    "loss_1000": -0.4242522418498993,
+    "loss_plateau": -0.4371452033519745,
+    "road_cut_1000": 0.05834062768507407,
+    "road_cut_plateau": 0.05421832823003634,
+    "partial_R2": 0.008128917478878148,
+    "delta_to_kmeans_ci95": [
+      -0.0539576722198995,
+      0.002393471569732699
+    ],
+    "occupied_k": 2,
+    "training_seconds": 103.75719439999375
+  },
+  {
+    "id": "dmon_k2_seed3141",
+    "requested_k": 2,
+    "seed": 3141,
+    "epochs": 10000,
+    "best_epoch": 9998,
+    "stop_reason": "training_plateau",
+    "plateau_reached": true,
+    "SW_1000": 0.17820764405381329,
+    "SW_plateau": 0.18024209795435323,
+    "loss_1000": -0.42543455958366394,
+    "loss_plateau": -0.43706992268562317,
+    "road_cut_1000": 0.0562486236652329,
+    "road_cut_plateau": 0.05426564604989129,
+    "partial_R2": 0.008783367625832983,
+    "delta_to_kmeans_ci95": [
+      -0.05344879432686451,
+      0.0026130892022235767
+    ],
+    "occupied_k": 2,
+    "training_seconds": 86.70952800000669
+  },
+  {
+    "id": "dmon_k4_seed1729",
+    "requested_k": 4,
+    "seed": 1729,
+    "epochs": 12000,
+    "best_epoch": 11998,
+    "stop_reason": "training_plateau",
+    "plateau_reached": true,
+    "SW_1000": 0.10826144369213746,
+    "SW_plateau": 0.09963520790001668,
+    "loss_1000": -0.612988293170929,
+    "loss_plateau": -0.6537492275238037,
+    "road_cut_1000": 0.09343578062612773,
+    "road_cut_plateau": 0.0748250280234561,
+    "partial_R2": 0.014087825741038167,
+    "delta_to_kmeans_ci95": [
+      -0.050859781357404064,
+      0.009233691089898388
+    ],
+    "occupied_k": 4,
+    "training_seconds": 106.91961989999982
+  },
+  {
+    "id": "dmon_k4_seed2718",
+    "requested_k": 4,
+    "seed": 2718,
+    "epochs": 16500,
+    "best_epoch": 16478,
+    "stop_reason": "training_plateau",
+    "plateau_reached": true,
+    "SW_1000": 0.10547473502842929,
+    "SW_plateau": 0.10165930760761212,
+    "loss_1000": -0.6205450296401978,
+    "loss_plateau": -0.6485469341278076,
+    "road_cut_1000": 0.08623115651268498,
+    "road_cut_plateau": 0.07744852552784015,
+    "partial_R2": 0.007290948572200629,
+    "delta_to_kmeans_ci95": [
+      -0.06042999115921373,
+      0.006305409911986311
+    ],
+    "occupied_k": 4,
+    "training_seconds": 147.6196229000052
+  },
+  {
+    "id": "dmon_k4_seed3141",
+    "requested_k": 4,
+    "seed": 3141,
+    "epochs": 13500,
+    "best_epoch": 13497,
+    "stop_reason": "training_plateau",
+    "plateau_reached": true,
+    "SW_1000": 0.1005737866904041,
+    "SW_plateau": 0.07725562506148688,
+    "loss_1000": -0.6127736568450928,
+    "loss_plateau": -0.6533007621765137,
+    "road_cut_1000": 0.08705857415673003,
+    "road_cut_plateau": 0.06988941620882891,
+    "partial_R2": 0.006941706865116714,
+    "delta_to_kmeans_ci95": [
+      -0.05479347185691716,
+      -0.0020330297418012684
+    ],
+    "occupied_k": 4,
+    "training_seconds": 120.31387549999636
+  }
+]

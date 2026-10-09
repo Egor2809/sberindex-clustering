@@ -1,0 +1,57 @@
+[
+  {
+    "omega": 0,
+    "pairwise_seed_monthly_ARI_mean": 0.8330088367099858,
+    "pairwise_seed_monthly_ARI_min": 0.471061817920282,
+    "unanimous_transition_events": 3500,
+    "territories_with_unanimous_transition": 979,
+    "any_seed_transition_events": 13556,
+    "ambiguous_vertex_months": 0,
+    "ambiguous_seed_vertex_months": 0,
+    "unanimous_among_any": 0.2581882561227501
+  },
+  {
+    "omega": 0.01,
+    "pairwise_seed_monthly_ARI_mean": 0.856616979713267,
+    "pairwise_seed_monthly_ARI_min": 0.6061541789830156,
+    "unanimous_transition_events": 2544,
+    "territories_with_unanimous_transition": 886,
+    "any_seed_transition_events": 9754,
+    "ambiguous_vertex_months": 0,
+    "ambiguous_seed_vertex_months": 0,
+    "unanimous_among_any": 0.2608160754562231
+  },
+  {
+    "omega": 0.03,
+    "pairwise_seed_monthly_ARI_mean": 0.8559656250531733,
+    "pairwise_seed_monthly_ARI_min": 0.6692425426620254,
+    "unanimous_transition_events": 1157,
+    "territories_with_unanimous_transition": 495,
+    "any_seed_transition_events": 6273,
+    "ambiguous_vertex_months": 0,
+    "ambiguous_seed_vertex_months": 0,
+    "unanimous_among_any": 0.18444125617726764
+  },
+  {
+    "omega": 0.06,
+    "pairwise_seed_monthly_ARI_mean": 0.8375020875782775,
+    "pairwise_seed_monthly_ARI_min": 0.6711303371238662,
+    "unanimous_transition_events": 491,
+    "territories_with_unanimous_transition": 251,
+    "any_seed_transition_events": 3722,
+    "ambiguous_vertex_months": 0,
+    "ambiguous_seed_vertex_months": 0,
+    "unanimous_among_any": 0.13191832348199892
+  },
+  {
+    "omega": 0.1,
+    "pairwise_seed_monthly_ARI_mean": 0.870290779384318,
+    "pairwise_seed_monthly_ARI_min": 0.7701946284218669,
+    "unanimous_transition_events": 214,
+    "territories_with_unanimous_transition": 127,
+    "any_seed_transition_events": 1108,
+    "ambiguous_vertex_months": 0,
+    "ambiguous_seed_vertex_months": 0,
+    "unanimous_among_any": 0.1931407942238267
+  }
+]

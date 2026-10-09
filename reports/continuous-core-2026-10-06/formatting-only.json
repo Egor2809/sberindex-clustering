@@ -1,0 +1,8 @@
+{
+  "sbercluster/continuous_geometry.py": {
+    "before_sha256": "13c4883d43ee9b37fe67d83bb3323456ae0ce991447ebde69f99f059be4942d1",
+    "after_sha256": "24e3d1bde6ac46ce95cb3a8efe5bb54ad6fb0a5ef0a3ce7f28ce48519a93375f",
+    "ast_unchanged": true,
+    "change": "remove surplus final blank line only"
+  }
+}

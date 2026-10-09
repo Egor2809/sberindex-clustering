@@ -1,0 +1,165 @@
+{
+  "status": "PASS",
+  "scope": "Independent fixed-prediction arithmetic and saved fold contract audit, no new fit",
+  "folds": 72,
+  "representation_rules_verified": 144,
+  "eligible_training_H75_CH_ratio_range": [
+    0.950006038731301,
+    0.9515682108802345
+  ],
+  "minimum_H75_training_cluster_size": 106,
+  "largest_profile_error": 0.0,
+  "first_fold_independent_SVD_prediction_errors": {
+    "controls": 3.552713678800501e-15,
+    "continuous5": 7.105427357601002e-15,
+    "kmeans4": 5.329070518200751e-15,
+    "huber75": 8.881784197001252e-15
+  },
+  "score_rows": 24,
+  "all_pair_bootstrap_comparisons": 288,
+  "bootstrap_draws": 1999,
+  "largest_score_or_interval_error": 1.2576745200831851e-16,
+  "year_summary": [
+    {
+      "year": 2023,
+      "n": 1797,
+      "regions": 72,
+      "RMSE": {
+        "histogram_controls": 0.17914463971040318,
+        "histogram_continuous5": 0.17092470002869595,
+        "histogram_kmeans4": 0.1760532248199776,
+        "histogram_huber75": 0.17426382067270582
+      },
+      "h75_vs_k4_by_family": {
+        "linear": {
+          "equal_region_mse_improvement": 0.00017218961370780994,
+          "conditional_region_bootstrap_95": [
+            -0.00029527732310971936,
+            0.0006959735320628346
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0001479212946023082,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00031258580462375173,
+            0.0006967666501982025
+          ],
+          "region_fraction_improved_mse": 0.5138888888888888
+        },
+        "quadratic": {
+          "equal_region_mse_improvement": 0.0003537066034847781,
+          "conditional_region_bootstrap_95": [
+            -0.00017809856368512577,
+            0.0009983518529701977
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0002595612478666385,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00027709987929861645,
+            0.0010000860571621716
+          ],
+          "region_fraction_improved_mse": 0.5277777777777778
+        },
+        "histogram": {
+          "equal_region_mse_improvement": 0.00159534642268669,
+          "conditional_region_bootstrap_95": [
+            0.0003560799611717917,
+            0.0029479199028665465
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0013843543690758501,
+          "conditional_centered_region_bootstrap_95": [
+            0.0002998683129183561,
+            0.0027139662963426704
+          ],
+          "region_fraction_improved_mse": 0.625
+        }
+      },
+      "histogram_h75_vs_continuous5": {
+        "equal_region_mse_improvement": -0.0011816691003301459,
+        "conditional_region_bootstrap_95": [
+          -0.003815045315474607,
+          0.0013930829405936814
+        ],
+        "equal_region_centered_error_variance_improvement": -3.8740611216250896e-05,
+        "conditional_centered_region_bootstrap_95": [
+          -0.0017198227731795761,
+          0.0015670181757276797
+        ],
+        "region_fraction_improved_mse": 0.4305555555555556
+      }
+    },
+    {
+      "year": 2024,
+      "n": 1678,
+      "regions": 68,
+      "RMSE": {
+        "histogram_controls": 0.24805101727681875,
+        "histogram_continuous5": 0.24254438323415348,
+        "histogram_kmeans4": 0.24658584528539348,
+        "histogram_huber75": 0.24464165215031208
+      },
+      "h75_vs_k4_by_family": {
+        "linear": {
+          "equal_region_mse_improvement": 0.0003912508685729777,
+          "conditional_region_bootstrap_95": [
+            -0.0003651852586465065,
+            0.00125240163339211
+          ],
+          "equal_region_centered_error_variance_improvement": 8.683517944862e-05,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00036636703834800737,
+            0.0006063732483151617
+          ],
+          "region_fraction_improved_mse": 0.5882352941176471
+        },
+        "quadratic": {
+          "equal_region_mse_improvement": 0.0005835890474315838,
+          "conditional_region_bootstrap_95": [
+            -0.0001804154723769019,
+            0.0015807402534925008
+          ],
+          "equal_region_centered_error_variance_improvement": 0.00022892756912765256,
+          "conditional_centered_region_bootstrap_95": [
+            -0.00031338551722000273,
+            0.0009171872605712149
+          ],
+          "region_fraction_improved_mse": 0.6029411764705882
+        },
+        "histogram": {
+          "equal_region_mse_improvement": 0.0015613616764236272,
+          "conditional_region_bootstrap_95": [
+            0.00016323358925868293,
+            0.003464679833643674
+          ],
+          "equal_region_centered_error_variance_improvement": 0.0013554049485632912,
+          "conditional_centered_region_bootstrap_95": [
+            0.0002822091198757372,
+            0.0026963044802976194
+          ],
+          "region_fraction_improved_mse": 0.5882352941176471
+        }
+      },
+      "histogram_h75_vs_continuous5": {
+        "equal_region_mse_improvement": -0.0010207076470220842,
+        "conditional_region_bootstrap_95": [
+          -0.005332759094771142,
+          0.003531604056392401
+        ],
+        "equal_region_centered_error_variance_improvement": -0.00034475370528101143,
+        "conditional_centered_region_bootstrap_95": [
+          -0.0020280589618022603,
+          0.0012244959579900394
+        ],
+        "region_fraction_improved_mse": 0.45588235294117646
+      }
+    }
+  ],
+  "numeric_functions_unchanged_from_run": {
+    "sbercluster/economic_generalization.py": true,
+    "scripts/validate_economic_generalization.py": true,
+    "sbercluster/selection_frontier.py": true
+  },
+  "2024_same2023_probes_and_inputs": true,
+  "architecture_selection_still_historical": true,
+  "strict_run_protocol_sha256": "cc2e747b0b85f0ead1864b4a8e6798642be969d60055c429fe0831bfedd0b128",
+  "results_sha256": "dcfb36c245c76548aab666a2d702d09b7eb683789adf8bf6eae145de94caec92",
+  "predictions_sha256": "e3cb45292e9090cd0416a5f2eb6e1d1cfa3e3213c2a144ecd2e387557e286e32",
+  "oracle_sha256": "7e9ba36b98129006a6849f4935523f1feff5fab07e79be783b69d95dd2ede416"
+}

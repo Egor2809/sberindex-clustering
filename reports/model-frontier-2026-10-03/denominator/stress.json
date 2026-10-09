@@ -1,0 +1,242 @@
+[
+  {
+    "id": "historical_kmeans4",
+    "mode": "constant_per_entity",
+    "log_multiplier_sd": 0.1,
+    "ARI": 0.8461411050714781,
+    "changed": 127,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "sw_constrained_huber75",
+    "mode": "constant_per_entity",
+    "log_multiplier_sd": 0.1,
+    "ARI": 0.8626319361691661,
+    "changed": 115,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "sw_constrained_ordinary",
+    "mode": "constant_per_entity",
+    "log_multiplier_sd": 0.1,
+    "ARI": 0.8710935360376121,
+    "changed": 108,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "contrast_kmeans2",
+    "mode": "constant_per_entity",
+    "log_multiplier_sd": 0.1,
+    "ARI": 1.0,
+    "changed": 0,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "contrast_kmeans4",
+    "mode": "constant_per_entity",
+    "log_multiplier_sd": 0.1,
+    "ARI": 1.0,
+    "changed": 0,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "historical_kmeans4",
+    "mode": "constant_per_entity",
+    "log_multiplier_sd": 0.25,
+    "ARI": 0.6264467637948149,
+    "changed": 353,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "sw_constrained_huber75",
+    "mode": "constant_per_entity",
+    "log_multiplier_sd": 0.25,
+    "ARI": 0.6328603583502014,
+    "changed": 348,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "sw_constrained_ordinary",
+    "mode": "constant_per_entity",
+    "log_multiplier_sd": 0.25,
+    "ARI": 0.6438450085628689,
+    "changed": 336,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "contrast_kmeans2",
+    "mode": "constant_per_entity",
+    "log_multiplier_sd": 0.25,
+    "ARI": 1.0,
+    "changed": 0,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "contrast_kmeans4",
+    "mode": "constant_per_entity",
+    "log_multiplier_sd": 0.25,
+    "ARI": 1.0,
+    "changed": 0,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "historical_kmeans4",
+    "mode": "constant_per_entity",
+    "log_multiplier_sd": 0.5,
+    "ARI": 0.3944112163261614,
+    "changed": 655,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "sw_constrained_huber75",
+    "mode": "constant_per_entity",
+    "log_multiplier_sd": 0.5,
+    "ARI": 0.4200958638469014,
+    "changed": 631,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "sw_constrained_ordinary",
+    "mode": "constant_per_entity",
+    "log_multiplier_sd": 0.5,
+    "ARI": 0.4187583120089946,
+    "changed": 627,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "contrast_kmeans2",
+    "mode": "constant_per_entity",
+    "log_multiplier_sd": 0.5,
+    "ARI": 1.0,
+    "changed": 0,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "contrast_kmeans4",
+    "mode": "constant_per_entity",
+    "log_multiplier_sd": 0.5,
+    "ARI": 1.0,
+    "changed": 0,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "historical_kmeans4",
+    "mode": "independent_per_entity_month",
+    "log_multiplier_sd": 0.1,
+    "ARI": 0.8920759898631757,
+    "changed": 79,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "sw_constrained_huber75",
+    "mode": "independent_per_entity_month",
+    "log_multiplier_sd": 0.1,
+    "ARI": 0.9281270349320835,
+    "changed": 56,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "sw_constrained_ordinary",
+    "mode": "independent_per_entity_month",
+    "log_multiplier_sd": 0.1,
+    "ARI": 0.9171495799441697,
+    "changed": 66,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "contrast_kmeans2",
+    "mode": "independent_per_entity_month",
+    "log_multiplier_sd": 0.1,
+    "ARI": 1.0,
+    "changed": 0,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "contrast_kmeans4",
+    "mode": "independent_per_entity_month",
+    "log_multiplier_sd": 0.1,
+    "ARI": 1.0,
+    "changed": 0,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "historical_kmeans4",
+    "mode": "independent_per_entity_month",
+    "log_multiplier_sd": 0.25,
+    "ARI": 0.798683121086396,
+    "changed": 158,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "sw_constrained_huber75",
+    "mode": "independent_per_entity_month",
+    "log_multiplier_sd": 0.25,
+    "ARI": 0.8478739352759199,
+    "changed": 125,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "sw_constrained_ordinary",
+    "mode": "independent_per_entity_month",
+    "log_multiplier_sd": 0.25,
+    "ARI": 0.8385270549425556,
+    "changed": 137,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "contrast_kmeans2",
+    "mode": "independent_per_entity_month",
+    "log_multiplier_sd": 0.25,
+    "ARI": 1.0,
+    "changed": 0,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "contrast_kmeans4",
+    "mode": "independent_per_entity_month",
+    "log_multiplier_sd": 0.25,
+    "ARI": 1.0,
+    "changed": 0,
+    "contrast_feature_max_abs_difference": 4.440892098500626e-16
+  },
+  {
+    "id": "historical_kmeans4",
+    "mode": "independent_per_entity_month",
+    "log_multiplier_sd": 0.5,
+    "ARI": 0.6663964117747364,
+    "changed": 288,
+    "contrast_feature_max_abs_difference": 4.718447854656915e-16
+  },
+  {
+    "id": "sw_constrained_huber75",
+    "mode": "independent_per_entity_month",
+    "log_multiplier_sd": 0.5,
+    "ARI": 0.7164132847064045,
+    "changed": 254,
+    "contrast_feature_max_abs_difference": 4.718447854656915e-16
+  },
+  {
+    "id": "sw_constrained_ordinary",
+    "mode": "independent_per_entity_month",
+    "log_multiplier_sd": 0.5,
+    "ARI": 0.728373651600247,
+    "changed": 242,
+    "contrast_feature_max_abs_difference": 4.718447854656915e-16
+  },
+  {
+    "id": "contrast_kmeans2",
+    "mode": "independent_per_entity_month",
+    "log_multiplier_sd": 0.5,
+    "ARI": 1.0,
+    "changed": 0,
+    "contrast_feature_max_abs_difference": 4.718447854656915e-16
+  },
+  {
+    "id": "contrast_kmeans4",
+    "mode": "independent_per_entity_month",
+    "log_multiplier_sd": 0.5,
+    "ARI": 1.0,
+    "changed": 0,
+    "contrast_feature_max_abs_difference": 4.718447854656915e-16
+  }
+]

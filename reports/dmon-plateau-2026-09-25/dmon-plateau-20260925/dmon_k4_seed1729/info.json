@@ -1,0 +1,230 @@
+{
+  "method": "dmon_paper_eq5_sparse_gcn",
+  "reference_revision": "5b09c22d73a9d35eb6c5d2a99b95677a45053466",
+  "seed": 1729,
+  "epochs": 12000,
+  "hidden_dim": 64,
+  "learning_rate": 0.001,
+  "collapse_weight": 1.0,
+  "dropout_rate": 0.0,
+  "added_self_loops": false,
+  "selection": "minimum_training_objective_including_initialization",
+  "stop_reason": "training_plateau",
+  "best_epoch": 11998,
+  "initial_objective": -0.0030109190847724676,
+  "final_objective": -0.6537491679191589,
+  "best_objective": -0.6537492275238037,
+  "best_negative_soft_modularity": -0.662358283996582,
+  "best_collapse_loss": 0.00860905647277832,
+  "n_nodes": 2016,
+  "n_features": 5,
+  "n_clusters": 4,
+  "n_edges": 18538,
+  "graph_volume": 19972.2265625,
+  "isolated_nodes": 10,
+  "hard_cluster_sizes": [
+    568,
+    551,
+    398,
+    499
+  ],
+  "occupied_clusters": 4,
+  "soft_cluster_sizes": [
+    568.0695310780336,
+    550.9424666575613,
+    397.9979275273647,
+    498.9900761078388
+  ],
+  "torch_version": "2.8.0+cu129",
+  "dtype": "float32",
+  "device": "cpu",
+  "max_epochs": 50000,
+  "plateau_rule": {
+    "check_every": 500,
+    "min_epochs": 3000,
+    "patience": 3,
+    "min_delta": 0.0001,
+    "max_label_change_fraction": 0.001
+  },
+  "plateau_checks": [
+    {
+      "epoch": 0,
+      "best_objective": -0.0030109190847724676,
+      "best_loss_gain": null,
+      "hard_label_change_fraction": null,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 500,
+      "best_objective": -0.5852403044700623,
+      "best_loss_gain": 0.5822293853852898,
+      "hard_label_change_fraction": 0.5183531746031746,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 1000,
+      "best_objective": -0.6129885315895081,
+      "best_loss_gain": 0.0277482271194458,
+      "hard_label_change_fraction": 0.033234126984126984,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 1500,
+      "best_objective": -0.6266167759895325,
+      "best_loss_gain": 0.013628244400024414,
+      "hard_label_change_fraction": 0.020337301587301588,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 2000,
+      "best_objective": -0.6326451301574707,
+      "best_loss_gain": 0.006028354167938232,
+      "hard_label_change_fraction": 0.006944444444444444,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 2500,
+      "best_objective": -0.6360079646110535,
+      "best_loss_gain": 0.0033628344535827637,
+      "hard_label_change_fraction": 0.006944444444444444,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 3000,
+      "best_objective": -0.638167679309845,
+      "best_loss_gain": 0.002159714698791504,
+      "hard_label_change_fraction": 0.003968253968253968,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 3500,
+      "best_objective": -0.6403742432594299,
+      "best_loss_gain": 0.002206563949584961,
+      "hard_label_change_fraction": 0.009424603174603174,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 4000,
+      "best_objective": -0.6419500708580017,
+      "best_loss_gain": 0.0015758275985717773,
+      "hard_label_change_fraction": 0.00744047619047619,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 4500,
+      "best_objective": -0.6438040733337402,
+      "best_loss_gain": 0.0018540024757385254,
+      "hard_label_change_fraction": 0.005952380952380952,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 5000,
+      "best_objective": -0.6457225680351257,
+      "best_loss_gain": 0.001918494701385498,
+      "hard_label_change_fraction": 0.008432539682539682,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 5500,
+      "best_objective": -0.6484330296516418,
+      "best_loss_gain": 0.0027104616165161133,
+      "hard_label_change_fraction": 0.009424603174603174,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 6000,
+      "best_objective": -0.6495791077613831,
+      "best_loss_gain": 0.001146078109741211,
+      "hard_label_change_fraction": 0.00248015873015873,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 6500,
+      "best_objective": -0.6503198146820068,
+      "best_loss_gain": 0.0007407069206237793,
+      "hard_label_change_fraction": 0.000496031746031746,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 7000,
+      "best_objective": -0.6512169241905212,
+      "best_loss_gain": 0.0008971095085144043,
+      "hard_label_change_fraction": 0.00248015873015873,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 7500,
+      "best_objective": -0.6519924998283386,
+      "best_loss_gain": 0.0007755756378173828,
+      "hard_label_change_fraction": 0.00248015873015873,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 8000,
+      "best_objective": -0.6523780226707458,
+      "best_loss_gain": 0.00038552284240722656,
+      "hard_label_change_fraction": 0.000992063492063492,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 8500,
+      "best_objective": -0.6525791883468628,
+      "best_loss_gain": 0.00020116567611694336,
+      "hard_label_change_fraction": 0.000496031746031746,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 9000,
+      "best_objective": -0.6527252793312073,
+      "best_loss_gain": 0.00014609098434448242,
+      "hard_label_change_fraction": 0.0,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 9500,
+      "best_objective": -0.6528105735778809,
+      "best_loss_gain": 8.529424667358398e-05,
+      "hard_label_change_fraction": 0.0,
+      "consecutive_plateau_windows": 1
+    },
+    {
+      "epoch": 10000,
+      "best_objective": -0.6532855033874512,
+      "best_loss_gain": 0.0004749298095703125,
+      "hard_label_change_fraction": 0.002976190476190476,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 10500,
+      "best_objective": -0.6536166071891785,
+      "best_loss_gain": 0.0003311038017272949,
+      "hard_label_change_fraction": 0.000992063492063492,
+      "consecutive_plateau_windows": 0
+    },
+    {
+      "epoch": 11000,
+      "best_objective": -0.6536778807640076,
+      "best_loss_gain": 6.127357482910156e-05,
+      "hard_label_change_fraction": 0.000496031746031746,
+      "consecutive_plateau_windows": 1
+    },
+    {
+      "epoch": 11500,
+      "best_objective": -0.6537259817123413,
+      "best_loss_gain": 4.8100948333740234e-05,
+      "hard_label_change_fraction": 0.000496031746031746,
+      "consecutive_plateau_windows": 2
+    },
+    {
+      "epoch": 12000,
+      "best_objective": -0.6537492275238037,
+      "best_loss_gain": 2.3245811462402344e-05,
+      "hard_label_change_fraction": 0.0,
+      "consecutive_plateau_windows": 3
+    }
+  ],
+  "plateau_reached": true,
+  "training_seconds": 106.91961989999982,
+  "initialization": "replayed_from_seed_to_preserve_Adam_trajectory",
+  "trace_file": "trace.json.gz"
+}

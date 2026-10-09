@@ -1,0 +1,100 @@
+[
+  {
+    "problem": "National expense fitting can leak heldout-region representation information.",
+    "evidence": [
+      "economic-evidence-review.json",
+      "oracle-results-economic-current.json"
+    ],
+    "effect": "A region-outcome-only split cannot establish full-pipeline generalization.",
+    "check": "All 72 new folds exclude heldout expenses from scaler, annual training profiles, K4/H75 initialization and fitting. All 144 saved rules/labels and 72 H75 training guards independently reconstructed; fixed prediction arithmetic verified.",
+    "status": "PASS",
+    "limitation": "Historical architecture selection used national 2023 expenses; the new fold fitting is strict, architecture-selection independence is not claimed."
+  },
+  {
+    "problem": "Evaluation-batch centering or future fitting can change nominal inductive predictions.",
+    "evidence": [
+      "oracle-results-temporal-current.json",
+      "pipeline-controls-review.json",
+      "paired-evidence-review.json"
+    ],
+    "effect": "Batch composition and future data can alter the fitted rule or its provenance.",
+    "check": "Future perturbation, row/chunk/order/batch isolation, pre-median correction, unknown identities and missing calendar support tested. Exact consumed-byte readers and exclusive CLI writes verified.",
+    "status": "PASS",
+    "limitation": "Fixed-reference R requires current reference data and is a separately scoped contextual view."
+  },
+  {
+    "problem": "Calendar/reliability arms could be promoted using their own transformed metric alone.",
+    "evidence": [
+      "temporal-evidence-review.json",
+      "guarded-export-review.json"
+    ],
+    "effect": "Apparent fitted-space improvement can hide common-space/occupancy loss.",
+    "check": "All three fixed arms fail the declared joint screen; baseline remains. Export guards preserve all 12,096 archived labels.",
+    "status": "FAIL",
+    "scope": "Candidate promotion only; implementation and reproducibility checks pass."
+  },
+  {
+    "problem": "A difference of population medians need not equal the median of paired changes.",
+    "evidence": [
+      "dual-contract-review.json",
+      "paired-evidence-review.json"
+    ],
+    "effect": "Population-composition changes can be mistaken for reference-entity changes.",
+    "check": "Fixed IDs paired before monthly median; all 12 packets and 2,016 A/R labels independently reconstructed. Missing-reference order-statistic intervals and 384 synthetic box vertices checked; 11 historical missing controls contain the known full median.",
+    "status": "PASS",
+    "limitation": "ARI 0.722494/218 changes is descriptive. Exact geometric certificates at epsilon=0 assume their declared boxes; no support, causal, boundary-continuity or future guarantees. Territorial transitions remain unresolved."
+  },
+  {
+    "problem": "A family-specific H75 wage result may be presented as universal economic superiority.",
+    "evidence": [
+      "economic-evidence-review.json"
+    ],
+    "effect": "Probe-family dependence and a stronger continuous comparator can be obscured.",
+    "check": "24 scores and 288 fixed-prediction bootstrap comparisons independently recomputed. H75 beats K4 with positive conditional intervals only for histogram probes; linear/quadratic intervals cross zero. Continuous-five histogram has lower observed RMSE in both years.",
+    "status": "LIMITED",
+    "limitation": "Intervals are conditional on fixed overlapping-fold predictions and do not include architecture selection or multiplicity correction."
+  },
+  {
+    "problem": "2024 outcome scoring may be mistaken for an untouched future confirmation.",
+    "evidence": [
+      "economic-evidence-review.json",
+      "pipeline-controls-review.json"
+    ],
+    "effect": "Outcome timing and retrospective cohort selection can overstate deployment evidence.",
+    "check": "The same 2023-fitted predictions, controls and representation score 1,678 entities/68 regions in 2024, versus 1,797/72 in 2023; no 2024 fit or covariates. Centered error variance remains an after-prediction diagnostic.",
+    "status": "LIMITED",
+    "limitation": "Exploratory retrospective 2023-to-2024 backtest with previously inspected outcomes; no prospective guarantee."
+  },
+  {
+    "problem": "Sector eligibility could accidentally inherit wage observability.",
+    "evidence": [
+      "sector-cohort-independence.json",
+      "sector-evidence-review.json"
+    ],
+    "effect": "The target cohort and missingness interpretation would be biased.",
+    "check": "All 2,016 registry rows start the join; population independently reconstructed from its own verified total series. There are 1,797 positive, one zero and 218 missing population values; the 1,797 positive cases empirically also have wages. Sector eligibility uses controls, not wage availability.",
+    "status": "PASS",
+    "limitation": "The sector estimand is conditional on valid controls for 1,797 entities/72 regions, not all 2,016 expense entities."
+  },
+  {
+    "problem": "Observed-case sector scores discard missing targets and entire missing regions.",
+    "evidence": [
+      "sector-bounds-controls.json",
+      "sector-evidence-review.json"
+    ],
+    "effect": "A complete-case advantage need not hold for the fixed eligible cohort.",
+    "check": "864 probes and 48 bound comparisons reconstructed from fixed predictions; missing-region denominators retained. All 36 nonself equal-region bounds cross zero.",
+    "status": "LIMITED",
+    "limitation": "No arbitrary-missingness advantage established for these three sector targets. Bounds are finite-cohort identification bounds over [0,1], not confidence intervals; no joint sector constraints imposed."
+  },
+  {
+    "problem": "Official MQ definition and final reviewer access are unavailable in local code evidence.",
+    "evidence": [
+      "requirements.json"
+    ],
+    "effect": "A complete six-ICVI or submission-access claim cannot be certified.",
+    "check": "Current official page names MQ without a formula/reference. Repository existence is separate from jury view access; no access or privacy changes performed.",
+    "status": "UNVERIFIED",
+    "limitation": "External definition/access gaps are separate from passed implementation gates."
+  }
+]

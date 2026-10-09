@@ -1,0 +1,1557 @@
+{
+  "scope": "Fixed four-type labels described by open municipal statistics; no clustering fitted, no causal claims.",
+  "n": 2016,
+  "inputs": {
+    "indicators": {
+      "path": "reports/external-municipal/municipal_indicators.csv",
+      "sha256": "66f260cf6ba61e8bc708ad29e13f184390611442c422b3694512ca07325a177c"
+    },
+    "labels": {
+      "path": "reports/experiments/2026-09-23-v2/validation/reference_assignments.csv",
+      "sha256": "4124e33f26d214c96167d3203140058587ad916e31e21c989e9c878e73f1d2bb"
+    },
+    "config": {
+      "path": "configs/external_municipal.json",
+      "sha256": "7d421a0b8038de8731e205a169a7a942ba72a753c968e008121aaa28a3f5a66e"
+    }
+  },
+  "script_sha256": "1f0351007ca6ac2f75459a5d289232c593e27b829739690353e43957a4fcba04",
+  "outcomes": [
+    {
+      "column": "population",
+      "transform": "log",
+      "label": "Население, чел."
+    },
+    {
+      "column": "urban_share_2024",
+      "transform": "identity",
+      "label": "Доля городского населения, 2024"
+    },
+    {
+      "column": "above_working_age_share_2023",
+      "transform": "identity",
+      "label": "Доля старше трудоспособного возраста, 2023"
+    },
+    {
+      "column": "wage_2023",
+      "transform": "log",
+      "label": "Среднемесячная зарплата (крупные и средние организации), руб., 2023"
+    },
+    {
+      "column": "jobs_per_1000",
+      "transform": "log",
+      "label": "Работники крупных и средних организаций на 1000 жителей, 2023"
+    },
+    {
+      "column": "share_public_services",
+      "transform": "identity",
+      "label": "Доля работников в госуправлении, образовании и здравоохранении (O+P+Q)"
+    },
+    {
+      "column": "share_trade",
+      "transform": "identity",
+      "label": "Доля работников в торговле (G)"
+    },
+    {
+      "column": "share_manufacturing",
+      "transform": "identity",
+      "label": "Доля работников в обрабатывающих производствах (C)"
+    },
+    {
+      "column": "share_agriculture",
+      "transform": "identity",
+      "label": "Доля работников в сельском хозяйстве (A)"
+    }
+  ],
+  "coverage": [
+    {
+      "cluster": 0,
+      "type": "Сбалансированный: средние МО",
+      "n": 644,
+      "population": 643,
+      "urban_share_2024": 580,
+      "above_working_age_share_2023": 632,
+      "wage_2023": 644,
+      "jobs_per_1000": 643,
+      "share_public_services": 611,
+      "share_trade": 624,
+      "share_manufacturing": 459,
+      "share_agriculture": 395
+    },
+    {
+      "cluster": 1,
+      "type": "Продуктовый: малые районы",
+      "n": 859,
+      "population": 859,
+      "urban_share_2024": 714,
+      "above_working_age_share_2023": 834,
+      "wage_2023": 859,
+      "jobs_per_1000": 859,
+      "share_public_services": 723,
+      "share_trade": 834,
+      "share_manufacturing": 313,
+      "share_agriculture": 486
+    },
+    {
+      "cluster": 2,
+      "type": "Городской сервисный",
+      "n": 386,
+      "population": 385,
+      "urban_share_2024": 375,
+      "above_working_age_share_2023": 285,
+      "wage_2023": 386,
+      "jobs_per_1000": 385,
+      "share_public_services": 303,
+      "share_trade": 372,
+      "share_manufacturing": 327,
+      "share_agriculture": 107
+    },
+    {
+      "cluster": 3,
+      "type": "Удалённый: мало маркетплейсов",
+      "n": 127,
+      "population": 124,
+      "urban_share_2024": 87,
+      "above_working_age_share_2023": 118,
+      "wage_2023": 127,
+      "jobs_per_1000": 124,
+      "share_public_services": 111,
+      "share_trade": 96,
+      "share_manufacturing": 42,
+      "share_agriculture": 91
+    }
+  ],
+  "summary": [
+    {
+      "outcome": "population",
+      "cluster": 0,
+      "type": "Сбалансированный: средние МО",
+      "n_total": 644,
+      "n_observed": 643,
+      "median": 35844.0,
+      "q25": 20479.0,
+      "q75": 61101.5,
+      "regions": 68,
+      "median_log": 10.48693146800411,
+      "within_region_median_pct": 18.72947971128014
+    },
+    {
+      "outcome": "population",
+      "cluster": 1,
+      "type": "Продуктовый: малые районы",
+      "n_total": 859,
+      "n_observed": 859,
+      "median": 14930.0,
+      "q25": 10354.5,
+      "q75": 22962.0,
+      "regions": 61,
+      "median_log": 9.611127890533236,
+      "within_region_median_pct": -33.61118782958902
+    },
+    {
+      "outcome": "population",
+      "cluster": 2,
+      "type": "Городской сервисный",
+      "n_total": 386,
+      "n_observed": 385,
+      "median": 87933.0,
+      "q25": 55293.0,
+      "q75": 146633.0,
+      "regions": 54,
+      "median_log": 11.384330439839488,
+      "within_region_median_pct": 45.98161636009708
+    },
+    {
+      "outcome": "population",
+      "cluster": 3,
+      "type": "Удалённый: мало маркетплейсов",
+      "n_total": 127,
+      "n_observed": 124,
+      "median": 12123.0,
+      "q25": 7313.5,
+      "q75": 22173.25,
+      "regions": 25,
+      "median_log": 9.402815537823177,
+      "within_region_median_pct": -28.03556693724988
+    },
+    {
+      "outcome": "urban_share_2024",
+      "cluster": 0,
+      "type": "Сбалансированный: средние МО",
+      "n_total": 644,
+      "n_observed": 580,
+      "median": 0.605901,
+      "q25": 0.0,
+      "q75": 0.937925,
+      "regions": 62,
+      "within_region_median_pp": 6.2211324285714245
+    },
+    {
+      "outcome": "urban_share_2024",
+      "cluster": 1,
+      "type": "Продуктовый: малые районы",
+      "n_total": 859,
+      "n_observed": 714,
+      "median": 0.450101,
+      "q25": 0.0,
+      "q75": 0.62378075,
+      "regions": 56,
+      "within_region_median_pp": -4.753638988095238
+    },
+    {
+      "outcome": "urban_share_2024",
+      "cluster": 2,
+      "type": "Городской сервисный",
+      "n_total": 386,
+      "n_observed": 375,
+      "median": 1.0,
+      "q25": 0.999547,
+      "q75": 1.0,
+      "regions": 50,
+      "within_region_median_pp": 0.0
+    },
+    {
+      "outcome": "urban_share_2024",
+      "cluster": 3,
+      "type": "Удалённый: мало маркетплейсов",
+      "n_total": 127,
+      "n_observed": 87,
+      "median": 0.407395,
+      "q25": 0.0,
+      "q75": 0.644595,
+      "regions": 22,
+      "within_region_median_pp": -15.606231372549018
+    },
+    {
+      "outcome": "above_working_age_share_2023",
+      "cluster": 0,
+      "type": "Сбалансированный: средние МО",
+      "n_total": 644,
+      "n_observed": 632,
+      "median": 0.2568955,
+      "q25": 0.23308675,
+      "q75": 0.27787225000000004,
+      "regions": 67,
+      "within_region_median_pp": -0.6380782051282042
+    },
+    {
+      "outcome": "above_working_age_share_2023",
+      "cluster": 1,
+      "type": "Продуктовый: малые районы",
+      "n_total": 859,
+      "n_observed": 834,
+      "median": 0.2956025,
+      "q25": 0.26867925000000004,
+      "q75": 0.323222,
+      "regions": 61,
+      "within_region_median_pp": 0.8448870779220768
+    },
+    {
+      "outcome": "above_working_age_share_2023",
+      "cluster": 2,
+      "type": "Городской сервисный",
+      "n_total": 386,
+      "n_observed": 285,
+      "median": 0.249645,
+      "q25": 0.223195,
+      "q75": 0.273464,
+      "regions": 53,
+      "within_region_median_pp": -0.8508666666666664
+    },
+    {
+      "outcome": "above_working_age_share_2023",
+      "cluster": 3,
+      "type": "Удалённый: мало маркетплейсов",
+      "n_total": 127,
+      "n_observed": 118,
+      "median": 0.21922049999999998,
+      "q25": 0.183091,
+      "q75": 0.25448499999999996,
+      "regions": 23,
+      "within_region_median_pp": 0.430724507389163
+    },
+    {
+      "outcome": "wage_2023",
+      "cluster": 0,
+      "type": "Сбалансированный: средние МО",
+      "n_total": 644,
+      "n_observed": 644,
+      "median": 52716.0,
+      "q25": 44284.075,
+      "q75": 63680.05,
+      "regions": 68,
+      "median_log": 10.872674205090842,
+      "within_region_median_pct": 0.07660683934718193
+    },
+    {
+      "outcome": "wage_2023",
+      "cluster": 1,
+      "type": "Продуктовый: малые районы",
+      "n_total": 859,
+      "n_observed": 859,
+      "median": 43992.6,
+      "q25": 39064.3,
+      "q75": 50305.15,
+      "regions": 61,
+      "median_log": 10.691776716938069,
+      "within_region_median_pct": -5.996293614193426
+    },
+    {
+      "outcome": "wage_2023",
+      "cluster": 2,
+      "type": "Городской сервисный",
+      "n_total": 386,
+      "n_observed": 386,
+      "median": 98762.5,
+      "q25": 74294.95,
+      "q75": 124428.55,
+      "regions": 55,
+      "median_log": 11.500472640152854,
+      "within_region_median_pct": 7.059306946528898
+    },
+    {
+      "outcome": "wage_2023",
+      "cluster": 3,
+      "type": "Удалённый: мало маркетплейсов",
+      "n_total": 127,
+      "n_observed": 127,
+      "median": 83860.8,
+      "q25": 65936.54999999999,
+      "q75": 109314.95,
+      "regions": 25,
+      "median_log": 11.33691356038829,
+      "within_region_median_pct": -2.248978711413663
+    },
+    {
+      "outcome": "jobs_per_1000",
+      "cluster": 0,
+      "type": "Сбалансированный: средние МО",
+      "n_total": 644,
+      "n_observed": 643,
+      "median": 182.01404,
+      "q25": 141.8766405,
+      "q75": 234.2504295,
+      "regions": 68,
+      "median_log": 5.204083826958581,
+      "within_region_median_pct": -1.5518656576442247
+    },
+    {
+      "outcome": "jobs_per_1000",
+      "cluster": 1,
+      "type": "Продуктовый: малые районы",
+      "n_total": 859,
+      "n_observed": 859,
+      "median": 160.308616,
+      "q25": 133.350597,
+      "q75": 194.410046,
+      "regions": 61,
+      "median_log": 5.077100807391282,
+      "within_region_median_pct": -6.954857168945894
+    },
+    {
+      "outcome": "jobs_per_1000",
+      "cluster": 2,
+      "type": "Городской сервисный",
+      "n_total": 386,
+      "n_observed": 385,
+      "median": 191.317247,
+      "q25": 106.235436,
+      "q75": 292.224614,
+      "regions": 54,
+      "median_log": 5.253933029204071,
+      "within_region_median_pct": 0.5525089292982344
+    },
+    {
+      "outcome": "jobs_per_1000",
+      "cluster": 3,
+      "type": "Удалённый: мало маркетплейсов",
+      "n_total": 127,
+      "n_observed": 124,
+      "median": 242.119046,
+      "q25": 187.04244425,
+      "q75": 423.019066,
+      "regions": 25,
+      "median_log": 5.489396716556255,
+      "within_region_median_pct": -1.523974100054093
+    },
+    {
+      "outcome": "share_public_services",
+      "cluster": 0,
+      "type": "Сбалансированный: средние МО",
+      "n_total": 644,
+      "n_observed": 611,
+      "median": 0.430898,
+      "q25": 0.337702,
+      "q75": 0.560861,
+      "regions": 65,
+      "within_region_median_pp": -2.684313953488371
+    },
+    {
+      "outcome": "share_public_services",
+      "cluster": 1,
+      "type": "Продуктовый: малые районы",
+      "n_total": 859,
+      "n_observed": 723,
+      "median": 0.520307,
+      "q25": 0.4272045,
+      "q75": 0.6179870000000001,
+      "regions": 56,
+      "within_region_median_pp": 3.767214285714282
+    },
+    {
+      "outcome": "share_public_services",
+      "cluster": 2,
+      "type": "Городской сервисный",
+      "n_total": 386,
+      "n_observed": 303,
+      "median": 0.31919,
+      "q25": 0.232494,
+      "q75": 0.443051,
+      "regions": 55,
+      "within_region_median_pp": -5.22580795454545
+    },
+    {
+      "outcome": "share_public_services",
+      "cluster": 3,
+      "type": "Удалённый: мало маркетплейсов",
+      "n_total": 127,
+      "n_observed": 111,
+      "median": 0.452521,
+      "q25": 0.261654,
+      "q75": 0.6084955000000001,
+      "regions": 22,
+      "within_region_median_pp": 0.5432333333333372
+    },
+    {
+      "outcome": "share_trade",
+      "cluster": 0,
+      "type": "Сбалансированный: средние МО",
+      "n_total": 644,
+      "n_observed": 624,
+      "median": 0.0430465,
+      "q25": 0.0305685,
+      "q75": 0.058063000000000003,
+      "regions": 67,
+      "within_region_median_pp": -0.3215750000000005
+    },
+    {
+      "outcome": "share_trade",
+      "cluster": 1,
+      "type": "Продуктовый: малые районы",
+      "n_total": 859,
+      "n_observed": 834,
+      "median": 0.037531499999999995,
+      "q25": 0.02792675,
+      "q75": 0.04930625,
+      "regions": 58,
+      "within_region_median_pp": -0.8190333333333334
+    },
+    {
+      "outcome": "share_trade",
+      "cluster": 2,
+      "type": "Городской сервисный",
+      "n_total": 386,
+      "n_observed": 372,
+      "median": 0.0981265,
+      "q25": 0.05922575,
+      "q75": 0.16837074999999999,
+      "regions": 55,
+      "within_region_median_pp": 0.005178571428571255
+    },
+    {
+      "outcome": "share_trade",
+      "cluster": 3,
+      "type": "Удалённый: мало маркетплейсов",
+      "n_total": 127,
+      "n_observed": 96,
+      "median": 0.01204,
+      "q25": 0.006786,
+      "q75": 0.02263875,
+      "regions": 23,
+      "within_region_median_pp": -0.6982257326007327
+    },
+    {
+      "outcome": "share_manufacturing",
+      "cluster": 0,
+      "type": "Сбалансированный: средние МО",
+      "n_total": 644,
+      "n_observed": 459,
+      "median": 0.145909,
+      "q25": 0.054701,
+      "q75": 0.2825105,
+      "regions": 66,
+      "within_region_median_pp": -0.550761224489793
+    },
+    {
+      "outcome": "share_manufacturing",
+      "cluster": 1,
+      "type": "Продуктовый: малые районы",
+      "n_total": 859,
+      "n_observed": 313,
+      "median": 0.130684,
+      "q25": 0.061557,
+      "q75": 0.261468,
+      "regions": 53,
+      "within_region_median_pp": -3.9548875000000003
+    },
+    {
+      "outcome": "share_manufacturing",
+      "cluster": 2,
+      "type": "Городской сервисный",
+      "n_total": 386,
+      "n_observed": 327,
+      "median": 0.114559,
+      "q25": 0.053761,
+      "q75": 0.2208925,
+      "regions": 52,
+      "within_region_median_pp": -2.4942
+    },
+    {
+      "outcome": "share_manufacturing",
+      "cluster": 3,
+      "type": "Удалённый: мало маркетплейсов",
+      "n_total": 127,
+      "n_observed": 42,
+      "median": 0.049453,
+      "q25": 0.021444249999999998,
+      "q75": 0.158701,
+      "regions": 19,
+      "within_region_median_pp": -1.149407142857143
+    },
+    {
+      "outcome": "share_agriculture",
+      "cluster": 0,
+      "type": "Сбалансированный: средние МО",
+      "n_total": 644,
+      "n_observed": 395,
+      "median": 0.04963,
+      "q25": 0.015047999999999999,
+      "q75": 0.1147305,
+      "regions": 62,
+      "within_region_median_pp": -2.3869607142857143
+    },
+    {
+      "outcome": "share_agriculture",
+      "cluster": 1,
+      "type": "Продуктовый: малые районы",
+      "n_total": 859,
+      "n_observed": 486,
+      "median": 0.105413,
+      "q25": 0.05003775,
+      "q75": 0.18960725,
+      "regions": 50,
+      "within_region_median_pp": 0.41220230769230815
+    },
+    {
+      "outcome": "share_agriculture",
+      "cluster": 2,
+      "type": "Городской сервисный",
+      "n_total": 386,
+      "n_observed": 107,
+      "median": 0.00956,
+      "q25": 0.00438,
+      "q75": 0.031966,
+      "regions": 52,
+      "within_region_median_pp": -5.01755
+    },
+    {
+      "outcome": "share_agriculture",
+      "cluster": 3,
+      "type": "Удалённый: мало маркетплейсов",
+      "n_total": 127,
+      "n_observed": 91,
+      "median": 0.031213,
+      "q25": 0.0160795,
+      "q75": 0.0814685,
+      "regions": 18,
+      "within_region_median_pp": -0.7033666666666666
+    }
+  ],
+  "effects": [
+    {
+      "subset": "all",
+      "outcome": "population",
+      "transform": "log",
+      "controls": "none",
+      "n": 2011,
+      "regions": 73,
+      "strata": 1,
+      "eta_squared": 0.45310479116505603,
+      "region_bootstrap_percentile_95": [
+        0.37091286301722187,
+        0.5334897050354431
+      ],
+      "kruskal_wallis": {
+        "H": 899.4797510075814,
+        "p_value": 1.1478141114702336e-194
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "population",
+      "transform": "log",
+      "controls": "region",
+      "n": 2011,
+      "regions": 73,
+      "strata": 73,
+      "eta_squared": 0.432327559554222,
+      "region_bootstrap_percentile_95": [
+        0.3743147819048521,
+        0.48601559083382034
+      ],
+      "kruskal_wallis": {
+        "H": 380.90812749556375,
+        "p_value": 3.0222955986444716e-82
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "population",
+      "transform": "log",
+      "controls": "region_type",
+      "n": 2011,
+      "regions": 73,
+      "strata": 153,
+      "eta_squared": 0.3380874601840129,
+      "region_bootstrap_percentile_95": [
+        0.27849206454068687,
+        0.3938102178988408
+      ],
+      "kruskal_wallis": {
+        "H": 194.4315546858662,
+        "p_value": 6.733865884044379e-42
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "urban_share_2024",
+      "transform": "identity",
+      "controls": "none",
+      "n": 1756,
+      "regions": 67,
+      "strata": 1,
+      "eta_squared": 0.2493277006254111,
+      "region_bootstrap_percentile_95": [
+        0.060211892340884254,
+        0.39711217812938737
+      ],
+      "kruskal_wallis": {
+        "H": 548.7276290634009,
+        "p_value": 1.3113453949791817e-118
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "urban_share_2024",
+      "transform": "identity",
+      "controls": "region",
+      "n": 1756,
+      "regions": 67,
+      "strata": 67,
+      "eta_squared": 0.11144542050924865,
+      "region_bootstrap_percentile_95": [
+        0.07602710497882613,
+        0.15167903720958872
+      ],
+      "kruskal_wallis": {
+        "H": 70.73717430632693,
+        "p_value": 2.967536329720044e-15
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "urban_share_2024",
+      "transform": "identity",
+      "controls": "region_type",
+      "n": 1756,
+      "regions": 67,
+      "strata": 137,
+      "eta_squared": 0.009787580152258567,
+      "region_bootstrap_percentile_95": [
+        0.002380868983819187,
+        0.028743808713392247
+      ],
+      "kruskal_wallis": {
+        "H": 1.919274843335347,
+        "p_value": 0.5893293663782508
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "above_working_age_share_2023",
+      "transform": "identity",
+      "controls": "none",
+      "n": 1869,
+      "regions": 72,
+      "strata": 1,
+      "eta_squared": 0.2621029799591556,
+      "region_bootstrap_percentile_95": [
+        0.1968511612934952,
+        0.36202520184515957
+      ],
+      "kruskal_wallis": {
+        "H": 533.3865208513075,
+        "p_value": 2.7724368302121596e-115
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "above_working_age_share_2023",
+      "transform": "identity",
+      "controls": "region",
+      "n": 1869,
+      "regions": 72,
+      "strata": 72,
+      "eta_squared": 0.14566555888789673,
+      "region_bootstrap_percentile_95": [
+        0.11288811886478371,
+        0.18125129006154503
+      ],
+      "kruskal_wallis": {
+        "H": 133.74844586797053,
+        "p_value": 8.417630840443583e-29
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "above_working_age_share_2023",
+      "transform": "identity",
+      "controls": "region_type",
+      "n": 1869,
+      "regions": 72,
+      "strata": 148,
+      "eta_squared": 0.12023484975112875,
+      "region_bootstrap_percentile_95": [
+        0.08834652660150341,
+        0.1566578238411745
+      ],
+      "kruskal_wallis": {
+        "H": 77.14389467194631,
+        "p_value": 1.257566721597831e-16
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "wage_2023",
+      "transform": "log",
+      "controls": "none",
+      "n": 2016,
+      "regions": 73,
+      "strata": 1,
+      "eta_squared": 0.46260175922526764,
+      "region_bootstrap_percentile_95": [
+        0.2583895882576763,
+        0.6048878672515626
+      ],
+      "kruskal_wallis": {
+        "H": 814.2574340640322,
+        "p_value": 3.500242065738133e-176
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "wage_2023",
+      "transform": "log",
+      "controls": "region",
+      "n": 2016,
+      "regions": 73,
+      "strata": 73,
+      "eta_squared": 0.13011844714924084,
+      "region_bootstrap_percentile_95": [
+        0.08466731268589887,
+        0.18251095695296635
+      ],
+      "kruskal_wallis": {
+        "H": 88.73306816855074,
+        "p_value": 4.0987940415623053e-19
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "wage_2023",
+      "transform": "log",
+      "controls": "region_type",
+      "n": 2016,
+      "regions": 73,
+      "strata": 153,
+      "eta_squared": 0.08336795873602307,
+      "region_bootstrap_percentile_95": [
+        0.04820466247689801,
+        0.1324582117237108
+      ],
+      "kruskal_wallis": {
+        "H": 38.73699890338121,
+        "p_value": 1.9732264743320264e-08
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "jobs_per_1000",
+      "transform": "log",
+      "controls": "none",
+      "n": 2011,
+      "regions": 73,
+      "strata": 1,
+      "eta_squared": 0.06173617891733791,
+      "region_bootstrap_percentile_95": [
+        0.027281336736419134,
+        0.14443793169592928
+      ],
+      "kruskal_wallis": {
+        "H": 115.6698936992434,
+        "p_value": 6.604790331304792e-25
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "jobs_per_1000",
+      "transform": "log",
+      "controls": "region",
+      "n": 2011,
+      "regions": 73,
+      "strata": 73,
+      "eta_squared": 0.022160658037320157,
+      "region_bootstrap_percentile_95": [
+        0.008540348102979841,
+        0.07099041601381052
+      ],
+      "kruskal_wallis": {
+        "H": 17.3267499367621,
+        "p_value": 0.0006053810413852773
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "jobs_per_1000",
+      "transform": "log",
+      "controls": "region_type",
+      "n": 2011,
+      "regions": 73,
+      "strata": 153,
+      "eta_squared": 0.010390403055026972,
+      "region_bootstrap_percentile_95": [
+        0.0021653390867441514,
+        0.055666127636263794
+      ],
+      "kruskal_wallis": {
+        "H": 2.0496390982884254,
+        "p_value": 0.5621681050686282
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "share_public_services",
+      "transform": "identity",
+      "controls": "none",
+      "n": 1748,
+      "regions": 73,
+      "strata": 1,
+      "eta_squared": 0.1104859967376104,
+      "region_bootstrap_percentile_95": [
+        0.04189068429958737,
+        0.19470539613441432
+      ],
+      "kruskal_wallis": {
+        "H": 210.67748459892073,
+        "p_value": 2.0785551446974946e-45
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "share_public_services",
+      "transform": "identity",
+      "controls": "region",
+      "n": 1748,
+      "regions": 73,
+      "strata": 73,
+      "eta_squared": 0.06972953126247633,
+      "region_bootstrap_percentile_95": [
+        0.0407747485624041,
+        0.10994840601961572
+      ],
+      "kruskal_wallis": {
+        "H": 80.70762292352174,
+        "p_value": 2.1639347616222365e-17
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "share_public_services",
+      "transform": "identity",
+      "controls": "region_type",
+      "n": 1748,
+      "regions": 73,
+      "strata": 152,
+      "eta_squared": 0.037803164588496994,
+      "region_bootstrap_percentile_95": [
+        0.01713476058269497,
+        0.07450012961364968
+      ],
+      "kruskal_wallis": {
+        "H": 35.95696857176389,
+        "p_value": 7.646901512546716e-08
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "share_trade",
+      "transform": "identity",
+      "controls": "none",
+      "n": 1926,
+      "regions": 73,
+      "strata": 1,
+      "eta_squared": 0.29895123441479193,
+      "region_bootstrap_percentile_95": [
+        0.16660752499987133,
+        0.3422384585507913
+      ],
+      "kruskal_wallis": {
+        "H": 545.3515564463909,
+        "p_value": 7.071095243605106e-118
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "share_trade",
+      "transform": "identity",
+      "controls": "region",
+      "n": 1926,
+      "regions": 73,
+      "strata": 73,
+      "eta_squared": 0.06389698411751958,
+      "region_bootstrap_percentile_95": [
+        0.027728319665565642,
+        0.19678880978577087
+      ],
+      "kruskal_wallis": {
+        "H": 30.4865302765809,
+        "p_value": 1.090261889786714e-06
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "share_trade",
+      "transform": "identity",
+      "controls": "region_type",
+      "n": 1926,
+      "regions": 73,
+      "strata": 152,
+      "eta_squared": 0.05036055357347115,
+      "region_bootstrap_percentile_95": [
+        0.02051446536191537,
+        0.167517567942016
+      ],
+      "kruskal_wallis": {
+        "H": 4.738231418276359,
+        "p_value": 0.1919997380319394
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "share_manufacturing",
+      "transform": "identity",
+      "controls": "none",
+      "n": 1141,
+      "regions": 72,
+      "strata": 1,
+      "eta_squared": 0.01511235680326869,
+      "region_bootstrap_percentile_95": [
+        0.0034661316679687124,
+        0.05587480695246578
+      ],
+      "kruskal_wallis": {
+        "H": 15.15068870179129,
+        "p_value": 0.0016922995975015831
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "share_manufacturing",
+      "transform": "identity",
+      "controls": "region",
+      "n": 1141,
+      "regions": 72,
+      "strata": 72,
+      "eta_squared": 0.018720254219137828,
+      "region_bootstrap_percentile_95": [
+        0.007515847795399923,
+        0.042995965911320995
+      ],
+      "kruskal_wallis": {
+        "H": 17.92030690011879,
+        "p_value": 0.0004568130754245092
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "share_manufacturing",
+      "transform": "identity",
+      "controls": "region_type",
+      "n": 1141,
+      "regions": 72,
+      "strata": 147,
+      "eta_squared": 0.007130705235629409,
+      "region_bootstrap_percentile_95": [
+        0.0014555944480863759,
+        0.024191230745935384
+      ],
+      "kruskal_wallis": {
+        "H": 7.564110206684561,
+        "p_value": 0.055933867375246464
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "share_agriculture",
+      "transform": "identity",
+      "controls": "none",
+      "n": 1079,
+      "regions": 72,
+      "strata": 1,
+      "eta_squared": 0.11389850147589851,
+      "region_bootstrap_percentile_95": [
+        0.07491868796391382,
+        0.1722627648254626
+      ],
+      "kruskal_wallis": {
+        "H": 189.87511059505118,
+        "p_value": 6.49511961471746e-41
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "share_agriculture",
+      "transform": "identity",
+      "controls": "region",
+      "n": 1079,
+      "regions": 72,
+      "strata": 72,
+      "eta_squared": 0.07754059356884523,
+      "region_bootstrap_percentile_95": [
+        0.049363797753074076,
+        0.12399894672110713
+      ],
+      "kruskal_wallis": {
+        "H": 63.02786382946963,
+        "p_value": 1.3246866892718882e-13
+      }
+    },
+    {
+      "subset": "all",
+      "outcome": "share_agriculture",
+      "transform": "identity",
+      "controls": "region_type",
+      "n": 1079,
+      "regions": 72,
+      "strata": 144,
+      "eta_squared": 0.02087970961611231,
+      "region_bootstrap_percentile_95": [
+        0.006058822877529976,
+        0.058189172953100034
+      ],
+      "kruskal_wallis": {
+        "H": 5.015977057910846,
+        "p_value": 0.17063095703401365
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "population",
+      "transform": "log",
+      "controls": "none",
+      "n": 1769,
+      "regions": 71,
+      "strata": 1,
+      "eta_squared": 0.4749307198061028,
+      "region_bootstrap_percentile_95": [
+        0.4021097530353949,
+        0.53691334778883
+      ],
+      "kruskal_wallis": {
+        "H": 702.6869416147179,
+        "p_value": 5.487911674064557e-152
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "population",
+      "transform": "log",
+      "controls": "region",
+      "n": 1769,
+      "regions": 71,
+      "strata": 71,
+      "eta_squared": 0.45704347368095827,
+      "region_bootstrap_percentile_95": [
+        0.41031103853464973,
+        0.496899731689685
+      ],
+      "kruskal_wallis": {
+        "H": 417.48690138979697,
+        "p_value": 3.6071920508058506e-90
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "population",
+      "transform": "log",
+      "controls": "region_type",
+      "n": 1769,
+      "regions": 71,
+      "strata": 151,
+      "eta_squared": 0.36339584723609036,
+      "region_bootstrap_percentile_95": [
+        0.30735500890260153,
+        0.41003846413169015
+      ],
+      "kruskal_wallis": {
+        "H": 224.15484947946157,
+        "p_value": 2.5382342177012806e-48
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "urban_share_2024",
+      "transform": "identity",
+      "controls": "none",
+      "n": 1514,
+      "regions": 65,
+      "strata": 1,
+      "eta_squared": 0.07611100340497852,
+      "region_bootstrap_percentile_95": [
+        0.03694653789779475,
+        0.13575345244854262
+      ],
+      "kruskal_wallis": {
+        "H": 130.1186075840461,
+        "p_value": 5.099330522368693e-28
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "urban_share_2024",
+      "transform": "identity",
+      "controls": "region",
+      "n": 1514,
+      "regions": 65,
+      "strata": 65,
+      "eta_squared": 0.11397256564728409,
+      "region_bootstrap_percentile_95": [
+        0.07991101658970606,
+        0.15160464043129485
+      ],
+      "kruskal_wallis": {
+        "H": 98.66808221417614,
+        "p_value": 3.0051289457284464e-21
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "urban_share_2024",
+      "transform": "identity",
+      "controls": "region_type",
+      "n": 1514,
+      "regions": 65,
+      "strata": 135,
+      "eta_squared": 0.009997772122668116,
+      "region_bootstrap_percentile_95": [
+        0.0024217269679518492,
+        0.0331194061338313
+      ],
+      "kruskal_wallis": {
+        "H": 4.121522197741186,
+        "p_value": 0.24863739320255163
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "above_working_age_share_2023",
+      "transform": "identity",
+      "controls": "none",
+      "n": 1725,
+      "regions": 71,
+      "strata": 1,
+      "eta_squared": 0.29863051621092807,
+      "region_bootstrap_percentile_95": [
+        0.24399285877630086,
+        0.3963594478466609
+      ],
+      "kruskal_wallis": {
+        "H": 579.3003452309179,
+        "p_value": 3.095052800141298e-125
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "above_working_age_share_2023",
+      "transform": "identity",
+      "controls": "region",
+      "n": 1725,
+      "regions": 71,
+      "strata": 71,
+      "eta_squared": 0.15182994882414197,
+      "region_bootstrap_percentile_95": [
+        0.11726154552928954,
+        0.19184906914904384
+      ],
+      "kruskal_wallis": {
+        "H": 172.24708066503143,
+        "p_value": 4.164255959958915e-37
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "above_working_age_share_2023",
+      "transform": "identity",
+      "controls": "region_type",
+      "n": 1725,
+      "regions": 71,
+      "strata": 147,
+      "eta_squared": 0.1257205732731564,
+      "region_bootstrap_percentile_95": [
+        0.09002938383620078,
+        0.17214394713836675
+      ],
+      "kruskal_wallis": {
+        "H": 107.63931772896929,
+        "p_value": 3.5344725228969476e-23
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "wage_2023",
+      "transform": "log",
+      "controls": "none",
+      "n": 1774,
+      "regions": 71,
+      "strata": 1,
+      "eta_squared": 0.28920407726417385,
+      "region_bootstrap_percentile_95": [
+        0.20429771506929634,
+        0.40261100636616254
+      ],
+      "kruskal_wallis": {
+        "H": 436.23365745260384,
+        "p_value": 3.1322518508216687e-94
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "wage_2023",
+      "transform": "log",
+      "controls": "region",
+      "n": 1774,
+      "regions": 71,
+      "strata": 71,
+      "eta_squared": 0.15706957314346207,
+      "region_bootstrap_percentile_95": [
+        0.11355222690098231,
+        0.20709566435881716
+      ],
+      "kruskal_wallis": {
+        "H": 160.60083348737953,
+        "p_value": 1.3597699625937137e-34
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "wage_2023",
+      "transform": "log",
+      "controls": "region_type",
+      "n": 1774,
+      "regions": 71,
+      "strata": 151,
+      "eta_squared": 0.10238839182058194,
+      "region_bootstrap_percentile_95": [
+        0.06841807827506834,
+        0.15064602671991378
+      ],
+      "kruskal_wallis": {
+        "H": 84.07569510362578,
+        "p_value": 4.097759239392677e-18
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "jobs_per_1000",
+      "transform": "log",
+      "controls": "none",
+      "n": 1769,
+      "regions": 71,
+      "strata": 1,
+      "eta_squared": 0.11049427862470979,
+      "region_bootstrap_percentile_95": [
+        0.060993309248696025,
+        0.18616623025194698
+      ],
+      "kruskal_wallis": {
+        "H": 137.48882665265864,
+        "p_value": 1.3148596441963784e-29
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "jobs_per_1000",
+      "transform": "log",
+      "controls": "region",
+      "n": 1769,
+      "regions": 71,
+      "strata": 71,
+      "eta_squared": 0.05504209331876134,
+      "region_bootstrap_percentile_95": [
+        0.033326693753621184,
+        0.09770491528862459
+      ],
+      "kruskal_wallis": {
+        "H": 50.685247481730585,
+        "p_value": 5.708833501624666e-11
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "jobs_per_1000",
+      "transform": "log",
+      "controls": "region_type",
+      "n": 1769,
+      "regions": 71,
+      "strata": 151,
+      "eta_squared": 0.028725235808604095,
+      "region_bootstrap_percentile_95": [
+        0.006718514516017557,
+        0.08296927255330956
+      ],
+      "kruskal_wallis": {
+        "H": 15.543173634152806,
+        "p_value": 0.0014066701417410135
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "share_public_services",
+      "transform": "identity",
+      "controls": "none",
+      "n": 1593,
+      "regions": 71,
+      "strata": 1,
+      "eta_squared": 0.06550381767452547,
+      "region_bootstrap_percentile_95": [
+        0.030688234349101243,
+        0.1381791505317683
+      ],
+      "kruskal_wallis": {
+        "H": 119.87475133824421,
+        "p_value": 8.211283180540612e-26
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "share_public_services",
+      "transform": "identity",
+      "controls": "region",
+      "n": 1593,
+      "regions": 71,
+      "strata": 71,
+      "eta_squared": 0.08186260368357139,
+      "region_bootstrap_percentile_95": [
+        0.05291058805192845,
+        0.12387416760443687
+      ],
+      "kruskal_wallis": {
+        "H": 85.86864966389658,
+        "p_value": 1.689231438365362e-18
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "share_public_services",
+      "transform": "identity",
+      "controls": "region_type",
+      "n": 1593,
+      "regions": 71,
+      "strata": 150,
+      "eta_squared": 0.04554442769596758,
+      "region_bootstrap_percentile_95": [
+        0.024056360001180957,
+        0.08292202370703218
+      ],
+      "kruskal_wallis": {
+        "H": 32.96389033663886,
+        "p_value": 3.2776548512454053e-07
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "share_trade",
+      "transform": "identity",
+      "controls": "none",
+      "n": 1700,
+      "regions": 71,
+      "strata": 1,
+      "eta_squared": 0.2074972907225872,
+      "region_bootstrap_percentile_95": [
+        0.1174595558702769,
+        0.2944339025941353
+      ],
+      "kruskal_wallis": {
+        "H": 322.90107517072954,
+        "p_value": 1.0983380202467225e-69
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "share_trade",
+      "transform": "identity",
+      "controls": "region",
+      "n": 1700,
+      "regions": 71,
+      "strata": 71,
+      "eta_squared": 0.16235199899882327,
+      "region_bootstrap_percentile_95": [
+        0.12322223420644157,
+        0.2283447020075685
+      ],
+      "kruskal_wallis": {
+        "H": 138.68332685047338,
+        "p_value": 7.266892959982015e-30
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "share_trade",
+      "transform": "identity",
+      "controls": "region_type",
+      "n": 1700,
+      "regions": 71,
+      "strata": 150,
+      "eta_squared": 0.13318542059817254,
+      "region_bootstrap_percentile_95": [
+        0.09821902025717909,
+        0.19078747806837454
+      ],
+      "kruskal_wallis": {
+        "H": 85.752877810991,
+        "p_value": 1.788719863321419e-18
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "share_manufacturing",
+      "transform": "identity",
+      "controls": "none",
+      "n": 942,
+      "regions": 70,
+      "strata": 1,
+      "eta_squared": 0.012591887733385978,
+      "region_bootstrap_percentile_95": [
+        0.003195882494301795,
+        0.037666317476490435
+      ],
+      "kruskal_wallis": {
+        "H": 14.428045184539062,
+        "p_value": 0.0023767923368980893
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "share_manufacturing",
+      "transform": "identity",
+      "controls": "region",
+      "n": 942,
+      "regions": 70,
+      "strata": 70,
+      "eta_squared": 0.023015029987941936,
+      "region_bootstrap_percentile_95": [
+        0.008791410403436527,
+        0.0482540677527984
+      ],
+      "kruskal_wallis": {
+        "H": 19.856362768789648,
+        "p_value": 0.00018178295018147554
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "share_manufacturing",
+      "transform": "identity",
+      "controls": "region_type",
+      "n": 942,
+      "regions": 70,
+      "strata": 145,
+      "eta_squared": 0.0063975153184735725,
+      "region_bootstrap_percentile_95": [
+        0.001168859592694039,
+        0.023865637678221727
+      ],
+      "kruskal_wallis": {
+        "H": 3.7536044412391645,
+        "p_value": 0.28932903023388956
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "share_agriculture",
+      "transform": "identity",
+      "controls": "none",
+      "n": 1071,
+      "regions": 70,
+      "strata": 1,
+      "eta_squared": 0.10845500713507668,
+      "region_bootstrap_percentile_95": [
+        0.07104955211857689,
+        0.16294706360814137
+      ],
+      "kruskal_wallis": {
+        "H": 175.21781748914387,
+        "p_value": 9.508702974360529e-38
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "share_agriculture",
+      "transform": "identity",
+      "controls": "region",
+      "n": 1071,
+      "regions": 70,
+      "strata": 70,
+      "eta_squared": 0.0775406586546557,
+      "region_bootstrap_percentile_95": [
+        0.047574927270401635,
+        0.12104936928282735
+      ],
+      "kruskal_wallis": {
+        "H": 68.97827796645996,
+        "p_value": 7.06346937692887e-15
+      }
+    },
+    {
+      "subset": "without_moscow_petersburg",
+      "outcome": "share_agriculture",
+      "transform": "identity",
+      "controls": "region_type",
+      "n": 1071,
+      "regions": 70,
+      "strata": 142,
+      "eta_squared": 0.020879730232900857,
+      "region_bootstrap_percentile_95": [
+        0.00417569750288656,
+        0.06009640326161641
+      ],
+      "kruskal_wallis": {
+        "H": 5.916097064484468,
+        "p_value": 0.11576440880683228
+      }
+    }
+  ],
+  "definitions": {
+    "eta_squared_none": "between-type sum of squares / total sum of squares of the transformed outcome",
+    "eta_squared_region": "partial R² of type dummies after removing region means (within-region share of variance explained)",
+    "eta_squared_region_type": "same after removing region × municipal-type means",
+    "kruskal_wallis_controlled": "test on deviations from the stratum mean; heuristic, deviations are not independent",
+    "within_region_median": "median deviation of the type from its region mean: % for log outcomes, percentage points for shares"
+  },
+  "limitations": [
+    "Wages and headcount cover large and medium organisations only and are counted where organisations are registered, not where people live.",
+    "Population uses Rosstat 1 January 2024 where the 2023 OKTMO code is present in the bulletin and BD PMO 1 January 2023 otherwise.",
+    "Sector shares are left empty when a section is absent or suppressed in the source, so their coverage is uneven and biased towards larger municipalities.",
+    "Region-block bootstrap intervals are descriptive; partial R² is upward biased under a null."
+  ]
+}

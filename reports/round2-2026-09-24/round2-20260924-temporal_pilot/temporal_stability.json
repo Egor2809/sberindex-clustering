@@ -1,0 +1,13 @@
+[
+  {
+    "omega": 0.03,
+    "pairwise_seed_monthly_ARI_mean": 0.9147912048301912,
+    "pairwise_seed_monthly_ARI_min": 0.8616399921789782,
+    "unanimous_transition_events": 127,
+    "territories_with_unanimous_transition": 116,
+    "any_seed_transition_events": 415,
+    "ambiguous_vertex_months": 0,
+    "ambiguous_seed_vertex_months": 0,
+    "unanimous_among_any": 0.3060240963855422
+  }
+]

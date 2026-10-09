@@ -1,0 +1,65 @@
+{
+  "status": "planned_not_executed",
+  "pilot": {
+    "months": [
+      "2023-01-01",
+      "2023-06-01",
+      "2023-12-01"
+    ],
+    "seed": 1729
+  },
+  "development": {
+    "period": [
+      "2023-01-01",
+      "2023-12-01"
+    ],
+    "seeds": [
+      1729,
+      2718,
+      3141
+    ],
+    "cluster_counts": [
+      4,
+      6,
+      8,
+      12
+    ],
+    "neighbors": [
+      10,
+      15,
+      30
+    ],
+    "symmetry": [
+      "union",
+      "mutual"
+    ],
+    "leiden_resolution": [
+      0.5,
+      1.0,
+      1.5
+    ],
+    "temporal_coupling_relative": [
+      0.0,
+      0.05,
+      0.1,
+      0.25
+    ],
+    "instruction": "Not a Cartesian grid. Pilot, choose a stable region on 2023, freeze, then inspect 2024. Temporal coupling only after identity validation."
+  },
+  "controls": [
+    "continuous_neighbors",
+    "level_only",
+    "same_region_if_verified",
+    "profile_without_level",
+    "frozen_partition",
+    "single_cloud_null",
+    "known_partition_positive",
+    "planted_temporal_shift"
+  ],
+  "acceptance": {
+    "selection": "Pareto comparison: feature separation, topology, seed and parameter stability, held-out utility; no arbitrary scalar average of ICVI.",
+    "temporal": "Must reduce spurious churn AND preserve planted shifts compared with zero coupling and frozen partition.",
+    "utility": "Peers selected from pre-cutoff features should have concordant held-out changes compared with region/level/random controls. Later peer outcomes are observed only for assessment: retrospective concordance, NOT forecasting. Common cohort, no self-neighbors, paired municipality bootstrap.",
+    "stop": "If graph gives no reproducible added value, keep simpler economic analogs plus the required attributed network; report conditional typology, not natural classes."
+  }
+}

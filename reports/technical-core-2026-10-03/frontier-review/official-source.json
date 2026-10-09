@@ -1,0 +1,12 @@
+{
+  "url": "https://sber.ru/sberindex/konkurs_sberindex",
+  "checked_utc": "2026-10-03T13:24:06.228008+00:00",
+  "http_status": 200,
+  "HTML_sha256": "9042ece255c22c2fe9e5661ddcd9dc3e612afe6525891d5bb0854f1701abfcb0",
+  "HTML_bytes": 643845,
+  "task": "clustering",
+  "deadline_date": "2026-10-09",
+  "deadline_exact_time": "not stated in inspected page",
+  "comparison_to_saved_source": "Clustering obligations and 15/15/15/15/30/10 rubric unchanged; live page additionally explicitly identifies the supplied unique municipality ID and ID/name registry.",
+  "MQ_definition": "Acronym present without formula or reference; exact official definition remains unverified."
+}

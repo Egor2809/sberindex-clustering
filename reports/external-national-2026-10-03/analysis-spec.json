@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-10-03T13:37:19.474410+00:00",
+  "status": "outcomes_and_controls_fixed_before_any_cluster_effect_analysis",
+  "years": [
+    2023,
+    2024
+  ],
+  "primary_outcome": "log_annual_monthly_wage_rubles",
+  "secondary_outcomes": [
+    "log_covered_organization_jobs_per_resident",
+    "manufacturing_headcount_share",
+    "agriculture_headcount_share",
+    "public_administration_education_health_headcount_share"
+  ],
+  "scope": "Rosstat organizations excluding small businesses; workforce headcount counts jobs/workplace, resident population all ages; ratio is not employment rate",
+  "observed_identity": "exact observed OKTMO eight-digit at observation year; year-valid SberIndex stable territory ID, source name corroboration, never source oktmo_stable replacement",
+  "missingness": "No zero-fill, suppressed/missing remain missing; no averaging duplicate keys; broadsector shares require published numerator+total",
+  "within_association_controls": [
+    "region fixed effects",
+    "municipal type",
+    "log population",
+    "log annual expense2023"
+  ],
+  "blocked_evaluation": "Leave-one-region-out; every probe fit uses other regions only; type+logpopulation+logexpense baseline (no held-out region effect or outcome centering); fixed five continuous consumer features as strong comparator; frozen KMeans4 as cluster predictor",
+  "outcome_selection": "No outcome-driven choice of clustering or new clustering fit; primary labels predate newlyacquired outcomes",
+  "inference": "Descriptive/retrospective external association; no causality, industrial typology, forecast or benefit beyond continuous features claimed",
+  "multiplicity": "Family of five outcomes separately per year, report all and Holm adjustment for within-region permutation tests; exploratory secondary outcomes",
+  "robustness": [
+    "2023 and2024 separately",
+    "exclude Moscow/Petersburg intracity",
+    "exclude registry code/version changes2023to2024",
+    "within-region permutation",
+    "region bootstrap paired errors"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "scope": "Publication packaging update. Machine execution diagnostics are omitted; source data, memberships and scientific metric tables are unchanged. Original source hashes remain evidence of the historical implementation.",
+  "removed": [
+    {
+      "path": "reports/experiments/2026-09-23-v2/resources_summary.json",
+      "sha256": "258b235cc9313a7ac90daa19aef4b97c5eeae849999a0b4a0bcfe3ec0b1590f9",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/resources-20260923T121115092769Z.json",
+      "sha256": "cc2898ae4656082a2673d8e77941cc733f67c8806f8fae0c757dd26d554f18a5",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/resources-20260923T121644061446Z.json",
+      "sha256": "48ad62b52831afa993c48c24e1327718d0c8a7ea65432751f2235a7e9ac178c0",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/resources-20260923T122003263474Z.json",
+      "sha256": "defeadc0888e2a87b5d4799c6ba047781b16fbfef965f1f301d602808a9cc6cd",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/resources-20260923T122456864185Z.json",
+      "sha256": "f0ddc2aa5735d3d0cf1dbbd425cbfb4d286280ef2a158be9e431faecbe989014",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/resources-20260923T122747686012Z.json",
+      "sha256": "7d6c7950ee70c3dc53ff986f8dc4df548852964a517d5281bcd0cdbef03c342f",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/resources-20260923T123420008149Z.json",
+      "sha256": "eccf7e635ef0a7bee728c76094f1b42a1fead81e833c9934dd253a110bcf9068",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/resources-20260923T123518607925Z.json",
+      "sha256": "d0d6c39853daf3c1d5b5f5c8e9c3ead99095d1618bda603c69b9aa8a69c3cf6a",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/resources-20260923T123751011725Z.json",
+      "sha256": "bee72eb39d45832e4a3da7d058f09e8e289716105f842676f07e68a994f07b99",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/resources-20260923T124040707666Z.json",
+      "sha256": "f481f099923b98b6c0e9d01862b4b1e3528f6305f45cf8de750273fbbe045254",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/resources-20260923T124959991196Z.json",
+      "sha256": "894364020570293bcb8fbd4e4c1db6df5d4b1b6c22c46e136af93927b731a6eb",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/resources-20260923T125658887854Z.json",
+      "sha256": "ce304e47fa19be0d50bae9ac6f4f7342f15e0a4a3563dc7ad24d23c213fd21ba",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/resources-20260923T130351509173Z.json",
+      "sha256": "887bcc7fddd14861b8a6ac7653d199903c6cb3d037e15dd2692109e91770c38e",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/resources-20260923T132828254989Z.json",
+      "sha256": "1fd55ccca6339d3fe0979c3fd3aaf5fa05ce20b69abbaa48bd122e78ad405a18",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/research-20260923T123427735210Z/implementation_snapshot/sbercluster/resources.py",
+      "sha256": "e5e7721bf4b139337589688d2edc5d9532bbac005f5db0876f5389402f184200",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/research-20260923T123427735210Z/implementation_snapshot/scripts/run_bounded.py",
+      "sha256": "cf6e3383c8a3f05d54f3c4a2ff99dc8031b25bfbf7647b648cf199793dcf09e5",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/research-20260923T123523157700Z/implementation_snapshot/sbercluster/resources.py",
+      "sha256": "e5e7721bf4b139337589688d2edc5d9532bbac005f5db0876f5389402f184200",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/research-20260923T123523157700Z/implementation_snapshot/scripts/run_bounded.py",
+      "sha256": "cf6e3383c8a3f05d54f3c4a2ff99dc8031b25bfbf7647b648cf199793dcf09e5",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/research-20260923T123755575253Z/implementation_snapshot/sbercluster/resources.py",
+      "sha256": "e5e7721bf4b139337589688d2edc5d9532bbac005f5db0876f5389402f184200",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/research-20260923T123755575253Z/implementation_snapshot/scripts/run_bounded.py",
+      "sha256": "cf6e3383c8a3f05d54f3c4a2ff99dc8031b25bfbf7647b648cf199793dcf09e5",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/research-20260923T132832891346Z/implementation_snapshot/sbercluster/resources.py",
+      "sha256": "e5e7721bf4b139337589688d2edc5d9532bbac005f5db0876f5389402f184200",
+      "category": "machine_execution_diagnostics"
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/research-20260923T132832891346Z/implementation_snapshot/scripts/run_bounded.py",
+      "sha256": "3aa1cd67d39701645ce401733343b81e3785a4c6da5669776866eda2a0a6f958",
+      "category": "machine_execution_diagnostics"
+    }
+  ],
+  "redacted": [
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/research-20260923T123427735210Z/provenance.json",
+      "before_sha256": "15e43b0dcaba35f8d9132309d5480c5d7d05d4969aa7a5b451d3cb84b3cc71b3",
+      "after_sha256": "6cadea882db69838dd0522b264f40f6af6e6462d232f74dd7ef3132fb22553c0",
+      "removed_fields": [
+        "execution.resource_profile"
+      ]
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/research-20260923T123523157700Z/provenance.json",
+      "before_sha256": "b0b74b0981bcfd5ea4a66c06979af41f2627eda27e4e5e97c6b5090cbbad3750",
+      "after_sha256": "6275588f3951aa689051011be538bfb4380977e4aa87ff09db135cbb67a14014",
+      "removed_fields": [
+        "execution.resource_profile"
+      ]
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/research-20260923T123755575253Z/provenance.json",
+      "before_sha256": "297d52b684de7af63ae621e1bb22dd866d0dc697687a60a9c510f97ad0351534",
+      "after_sha256": "edc53ea58a8b0b63e040f3bdf3f1c0184d08860ad1de8c565225bbc4ca30f4a2",
+      "removed_fields": [
+        "execution.resource_profile"
+      ]
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/provenance/research-20260923T132832891346Z/provenance.json",
+      "before_sha256": "06bf74d3123bda77c1a1775d68c6b7aedecc78fd07b87e8fd19fe2241b673958",
+      "after_sha256": "976dd9c3f8e34b78c1936461505ede4cc28931d6aca4dd634ef30f634d412c15",
+      "removed_fields": [
+        "execution.resource_profile"
+      ]
+    },
+    {
+      "path": "reports/experiments/2026-09-23-v2/validation/provenance.json",
+      "before_sha256": "06bf74d3123bda77c1a1775d68c6b7aedecc78fd07b87e8fd19fe2241b673958",
+      "after_sha256": "976dd9c3f8e34b78c1936461505ede4cc28931d6aca4dd634ef30f634d412c15",
+      "removed_fields": [
+        "execution.resource_profile"
+      ]
+    }
+  ]
+}

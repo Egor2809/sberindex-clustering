@@ -1,0 +1,327 @@
+{
+  "created_utc": "2026-10-07T13:14:02.483177+00:00",
+  "config": {
+    "schema_version": 1,
+    "seed": 1729,
+    "data_contract": {
+      "identity_mode": "source_territory_id",
+      "stable_territories_verified": false,
+      "measurement_definition_verified": true,
+      "common_denominator_verified": false,
+      "categories_disjoint_verified": false,
+      "evidence": [
+        "reports/source_alignment.json",
+        "docs/DATA_SOURCES.md"
+      ]
+    },
+    "features": {
+      "mode": "log_ratios_to_total",
+      "level_weight": 0.0,
+      "calibration_end": "2023-12-01",
+      "seasonality": "same_month_cross_section"
+    },
+    "network_core": {
+      "output": "artifacts/network-core-in2023",
+      "source_dir": "artifacts/sources/acquisition",
+      "external": "reports/external-municipal/municipal_indicators.csv",
+      "fit_year": "2023",
+      "test_year": "2024",
+      "k": 15,
+      "max_lag": 3,
+      "alphas": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "gammas": [
+        0.1,
+        0.2,
+        0.3,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "seeds": 20,
+      "leiden_iterations": -1,
+      "min_size": 20,
+      "consensus": "medoid_partition_max_mean_ari",
+      "bootstrap": 200,
+      "selection": {
+        "min_seed_ari": 0.8,
+        "min_size": 20,
+        "k_min": 3,
+        "k_max": 12,
+        "pareto": [
+          {
+            "key": "in_SW",
+            "direction": 1
+          },
+          {
+            "key": "in_C_MQ",
+            "direction": 1
+          }
+        ],
+        "rank": [
+          {
+            "key": "in_SW",
+            "direction": 1,
+            "weight": 1.0
+          },
+          {
+            "key": "in_CH",
+            "direction": 1,
+            "weight": 1.0
+          },
+          {
+            "key": "in_S_Dbw",
+            "direction": -1,
+            "weight": 1.0
+          },
+          {
+            "key": "in_P_AVI",
+            "direction": 1,
+            "weight": 0.5
+          },
+          {
+            "key": "in_C_AVI",
+            "direction": 1,
+            "weight": 0.5
+          },
+          {
+            "key": "in_P_AVU",
+            "direction": -1,
+            "weight": 0.5
+          },
+          {
+            "key": "in_C_AVU",
+            "direction": -1,
+            "weight": 0.5
+          },
+          {
+            "key": "in_P_MQ",
+            "direction": 1,
+            "weight": 0.5
+          },
+          {
+            "key": "in_C_MQ",
+            "direction": 1,
+            "weight": 0.5
+          }
+        ],
+        "tiebreak": [
+          {
+            "key": "seed_ari",
+            "direction": 1
+          },
+          {
+            "key": "k",
+            "direction": -1
+          }
+        ],
+        "note": "Selection uses 2023 only: Pareto on in_SW and in_C_MQ, rank sum over 2023 feature indices and half-weighted network indices on the 2023 profile graph P and co-movement graph C. 2024 metrics (oot_*) and the road graph R are reported, never used for selection. Revised on 2026-10-07 from the earlier oot_* rule; both rules pick the same level-1 variant."
+      },
+      "level2": {
+        "groups": [
+          0,
+          1
+        ],
+        "k": 15,
+        "alphas": [
+          0.0,
+          0.25,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "gammas": [
+          0.1,
+          0.2,
+          0.3,
+          0.5,
+          0.75,
+          1.0
+        ],
+        "seeds": 20,
+        "leiden_iterations": -1,
+        "min_size": 20,
+        "selection": {
+          "min_seed_ari": 0.8,
+          "min_size": 20,
+          "k_min": 2,
+          "k_max": 8,
+          "pareto": [
+            {
+              "key": "in_SW",
+              "direction": 1
+            },
+            {
+              "key": "in_C_MQ",
+              "direction": 1
+            }
+          ],
+          "rank": [
+            {
+              "key": "in_SW",
+              "direction": 1,
+              "weight": 1.0
+            },
+            {
+              "key": "in_CH",
+              "direction": 1,
+              "weight": 1.0
+            },
+            {
+              "key": "in_S_Dbw",
+              "direction": -1,
+              "weight": 1.0
+            },
+            {
+              "key": "in_P_AVI",
+              "direction": 1,
+              "weight": 0.5
+            },
+            {
+              "key": "in_C_AVI",
+              "direction": 1,
+              "weight": 0.5
+            },
+            {
+              "key": "in_P_AVU",
+              "direction": -1,
+              "weight": 0.5
+            },
+            {
+              "key": "in_C_AVU",
+              "direction": -1,
+              "weight": 0.5
+            },
+            {
+              "key": "in_P_MQ",
+              "direction": 1,
+              "weight": 0.5
+            },
+            {
+              "key": "in_C_MQ",
+              "direction": 1,
+              "weight": 0.5
+            }
+          ],
+          "tiebreak": [
+            {
+              "key": "seed_ari",
+              "direction": 1
+            },
+            {
+              "key": "k",
+              "direction": -1
+            }
+          ],
+          "note": "Same 2023-only filter and Pareto/rank rule as level 1 with 2 to 8 subtypes; P and C are rebuilt inside each group; a group with no admissible variant stays whole. Revised on 2026-10-07 from the earlier oot_* rule."
+        },
+        "level_names": {
+          "0": "районы",
+          "1": "города",
+          "2": "Москва и Петербург"
+        },
+        "central_members": 3,
+        "external_targets": [
+          {
+            "name": "log_wage_2023",
+            "column": "wage_2023",
+            "transform": "log"
+          },
+          {
+            "name": "marketplace_share_2023",
+            "column": "marketplace_share",
+            "transform": "identity"
+          },
+          {
+            "name": "log_jobs_per_1000",
+            "column": "jobs_per_1000",
+            "transform": "log"
+          },
+          {
+            "name": "above_working_age_share_2023",
+            "column": "above_working_age_share_2023",
+            "transform": "identity"
+          },
+          {
+            "name": "share_trade",
+            "column": "share_trade",
+            "transform": "identity"
+          },
+          {
+            "name": "share_public_services",
+            "column": "share_public_services",
+            "transform": "identity"
+          }
+        ],
+        "working_names": {
+          "0.1": "продуктовые районы",
+          "0.2": "районы со смешанной корзиной",
+          "1.1": "города и крупные районы",
+          "1.2": "северные районы с малой долей маркетплейсов",
+          "2": "Москва и Петербург"
+        },
+        "working_names_note": "Descriptive labels added after the run from profiles.json; they do not affect any selection.",
+        "sensitivity_min_oot_rerun_ari": 0.5,
+        "sensitivity_note": "Post-hoc check added after the run: the frozen rule plus oot_rerun_ari >= 0.5; reported only, never used for the typology."
+      }
+    }
+  },
+  "inputs": {
+    "data/processed/panel.csv": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+    "reports/external-municipal/municipal_indicators.csv": "66f260cf6ba61e8bc708ad29e13f184390611442c422b3694512ca07325a177c",
+    "artifacts/sources/acquisition/hackathonlicence/connection.parquet": "20cbd5213d3ac1d0a867f097b485431811614b283d7366eb5cba9f65dc80493d",
+    "reports/experiments/2026-09-23-v2/validation/frozen_prototypes.json": "95cd20e1fc4239b4d762826708e35a5af4610eb17a909c25cb85f7f78d1b1308",
+    "reports/experiments/2026-09-23-v2/validation/reference_assignments.csv": "4124e33f26d214c96167d3203140058587ad916e31e21c989e9c878e73f1d2bb"
+  },
+  "implementation": {
+    "__init__.py": "30531b8122c986fb77769336c7e87609dcef634be23844399c540ee500d19a34",
+    "canonical.py": "0c09d03e91ba4a192b4fe781a06d138376e8e7b04035da747112de8d735f106a",
+    "cli.py": "c7dfc5502a4d50f429af50a7a14e61deb010fa1bef469392648e48ed267da6f9",
+    "contest.py": "407c73ef2e28d9f0574de7a3b243c03ec231a29ed984b2e7f6e623e82f04121c",
+    "contest_analysis.py": "048626194da6fc73be9421f9f3a12f0b5ab812c0ca92ce4c45c72413d0d6845b",
+    "contest_graphs.py": "ae02c221c76f5b24a35a63b9d5544be9a62825dd4d10a4c92b6f9a83996dabe3",
+    "continuous_atlas.py": "e1958b9f91ecac8d4b7fd19dbdc4dcf5354947c7afe71c682b5dde953da57481",
+    "continuous_geometry.py": "24e3d1bde6ac46ce95cb3a8efe5bb54ad6fb0a5ef0a3ce7f28ce48519a93375f",
+    "data.py": "253764aedfde19c4ea94ca544b867f41ed31e47ca517cfe7bcfb3a62455a402a",
+    "dmon.py": "0b79c433e30cd64b107f9f8aa1ecdfba32db243433444c4dd39e5bc2c4e7e1b2",
+    "dual_profiles.py": "6bd0b1f778d4803c107e7ca8cc0114fd45d3512ab00d64f051d9f2050c045dec",
+    "dynamics.py": "15861b3eb4f8d8e4c1d9e7b978dc16b2cb9553a27d7ab64881c093fdef7169c7",
+    "economic_generalization.py": "d3a563f6db2ec3f1901a8aa8b3dc08fceb4eb83a02062c41d83bd5b042bcd55a",
+    "economic_sector_bounds.py": "2e517993bedfc114cd21c54e897bcf9622eafabebb6adf205dc8a5c2ef46810d",
+    "edge_rules.py": "b9873b090a8ae184685875181c9e8985e4b3a602ca277e5a4d3f01d629caa12a",
+    "edge_study.py": "3ae9e53a6fe5652b3dea13fec9100ef6affc6fe620bd4daa5b2cdcac9d01d6e2",
+    "external_national.py": "292b7fffe49b6ad50a3587a2cbb10e7c258788b8898e0a9d34f3288ee29265aa",
+    "features.py": "42f9af6c3d7cd88b69e74c296fdf902d8c673ffc1a07854cb7b195314f7b0706",
+    "followup.py": "ac3a70f5262467c364b05dbd7f58049ad4ed29ebdfa487b306790305b4bddda7",
+    "future_outcome_validation.py": "b58fa23f12d974e4ddeefad0788de9e7b498588881bc6141abe1e5c8eccf02e8",
+    "graph.py": "b3b8a68077646b42c8bcb63a0a6b7679bd74504715aae6e4a5b06e7aa838dcd5",
+    "inference.py": "fa8382a3e347715733b95974f851888c528db0f9bcb4d889571f2770dec90a02",
+    "input_contracts.py": "751fd01ef03c2af5e6f0abc2e059dc9cf04cac1a9b4b37798e9b099e732ee995",
+    "io.py": "3ed7b4fb6167ad45565438709c278f4badf37aea2d1c5a96c898dd993666e479",
+    "joint.py": "33732d5133814e3f5794338343420abb6104494b356998e071c249b9672d9fb1",
+    "method_comparison.py": "670b01b5455c13efba2a4d0d16eca53dcd5e49ce20af6f1fcccd1690ef7f3069",
+    "metrics.py": "5fbc58f90dcab19c3128f8006d1c2df38f92e36c77861ea7245698737779bb9c",
+    "models.py": "a8d8a124c27c72bc74fb846e9be1745392dde437d8b4271c6f5e58d60a2fb2bf",
+    "network_core.py": "4f42028af81fa006f8c5d2d358027bd229eb8356de0bdca98bd0af6a7f482bf5",
+    "published_inputs.py": "b0d8944e4f3cb479f5e2f56f248426ad5e92a7fa37835f9b28bab0555b7b57d4",
+    "research.py": "e0aca39f6bb1be86e75774654fa413a760c474006af579281395fc7c29f18e9c",
+    "research_validation.py": "29e94c01557cb131decf9e4542c6f93bc7aea5fa73633f2973e31ec6dac1faa0",
+    "resources.py": "ecde44657bfe3933d58c299fd5b1981a454671c5ad4578046e22e2841ed70ef3",
+    "robustness.py": "2114534c63628526accd42f3f7edba512ca8850baea4204a0763816a43a1d414",
+    "round2.py": "daadbac96279be263e9794bb62468696baaa6cde9f833fcdf2c87d75eba591c3",
+    "selection_artifacts.py": "eb30f5c6fb5cb61a0e4b7244f7c778d28a74643d4f8375736a5452fd3c9f1bb6",
+    "selection_contrasts.py": "5d116791dc9c11ffcfac99219caf844f9c927b1fcebc25200db0b0dbb66c22ce",
+    "selection_frontier.py": "0bcd8604fca0855d74bc60a6f600cd9c5cfd13894918795ace242e15cf797576",
+    "temporal_groups.py": "5e893e4e452455c597656df41fcc1738b7de6cbd90b401de7fdf98216e1f5611",
+    "temporal_profiles.py": "a7630de70ad2c28ce925de29dca46000ca04d2376d8625433ef3fdb5100f97b6",
+    "temporal_quality.py": "068be012cfacb7943bd180cdfd7369ea4f9886200a74de5428b91f636c6cfd45",
+    "validation.py": "f4ef20a9ece71152ea5bdc3c0764e13c709dca5c0a25f3b185ba2c5bfd3ef37c"
+  },
+  "script_sha256": "cf8fa746bc55238cee433680ff7996a9a54eba7215972c8670945cc845b436f4",
+  "seconds": 587.2468792090076
+}

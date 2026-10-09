@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "cohort_n": 2016,
+  "population_source_valid_observed_n": 1798,
+  "positive_population_n": 1797,
+  "valid_zero_population_n": 1,
+  "cohort_missing_population_n": 218,
+  "positive_population_without_wage_n": 0,
+  "no_positive_population_source_rows_n": 187,
+  "no_population_source_row_entities_n": 32,
+  "invalid_join_reason_counts_on_missing_population_rows": {
+    "name_verified": 38,
+    "region_verified": 23,
+    "source_code_validity_verified": 143,
+    "municipal_level_verified": 0,
+    "unit_verified": 0
+  },
+  "source_value_statuses_on_missing_population_rows": {
+    "observed": 187
+  },
+  "conflicting_key_rows_on_missing_population": 0,
+  "proof": "Each published population value reconstructed from independent population total series with its own join verification, not wage availability. Cohort starts all2016 registry entities and left-merges joint indicator pivot."
+}

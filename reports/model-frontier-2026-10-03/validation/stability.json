@@ -1,0 +1,6278 @@
+{
+  "historical_kmeans4": [
+    {
+      "draw": 0,
+      "seed": 2200,
+      "month_indices": [
+        0,
+        1,
+        2,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "ARI": 0.6825840549182519,
+      "cluster_sizes": [
+        111,
+        808,
+        430,
+        667
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          111,
+          808,
+          430,
+          667
+        ]
+      }
+    },
+    {
+      "draw": 1,
+      "seed": 2201,
+      "month_indices": [
+        10,
+        11,
+        0,
+        8,
+        9,
+        10,
+        8,
+        9,
+        10,
+        1,
+        2,
+        3
+      ],
+      "ARI": 0.8467705895943068,
+      "cluster_sizes": [
+        873,
+        391,
+        144,
+        608
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          873,
+          391,
+          144,
+          608
+        ]
+      }
+    },
+    {
+      "draw": 2,
+      "seed": 2202,
+      "month_indices": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        1,
+        2,
+        3,
+        8,
+        9,
+        10
+      ],
+      "ARI": 0.8829405523670402,
+      "cluster_sizes": [
+        608,
+        139,
+        877,
+        392
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          608,
+          139,
+          877,
+          392
+        ]
+      }
+    },
+    {
+      "draw": 3,
+      "seed": 2203,
+      "month_indices": [
+        2,
+        3,
+        4,
+        3,
+        4,
+        5,
+        0,
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "ARI": 0.7991256284714812,
+      "cluster_sizes": [
+        92,
+        856,
+        397,
+        671
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          92,
+          856,
+          397,
+          671
+        ]
+      }
+    },
+    {
+      "draw": 4,
+      "seed": 2204,
+      "month_indices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        1,
+        2,
+        3,
+        10,
+        11,
+        0
+      ],
+      "ARI": 0.9028277491407652,
+      "cluster_sizes": [
+        846,
+        400,
+        123,
+        647
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          846,
+          400,
+          123,
+          647
+        ]
+      }
+    },
+    {
+      "draw": 5,
+      "seed": 2205,
+      "month_indices": [
+        10,
+        11,
+        0,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        8,
+        9,
+        10
+      ],
+      "ARI": 0.8249598588719582,
+      "cluster_sizes": [
+        136,
+        395,
+        876,
+        609
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          136,
+          395,
+          876,
+          609
+        ]
+      }
+    },
+    {
+      "draw": 6,
+      "seed": 2206,
+      "month_indices": [
+        10,
+        11,
+        0,
+        7,
+        8,
+        9,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0
+      ],
+      "ARI": 0.8338905530833574,
+      "cluster_sizes": [
+        127,
+        855,
+        400,
+        634
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          127,
+          855,
+          400,
+          634
+        ]
+      }
+    },
+    {
+      "draw": 7,
+      "seed": 2207,
+      "month_indices": [
+        8,
+        9,
+        10,
+        7,
+        8,
+        9,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "ARI": 0.8407272130075523,
+      "cluster_sizes": [
+        398,
+        864,
+        133,
+        621
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          398,
+          864,
+          133,
+          621
+        ]
+      }
+    },
+    {
+      "draw": 8,
+      "seed": 2208,
+      "month_indices": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        4,
+        5,
+        6,
+        5,
+        6,
+        7
+      ],
+      "ARI": 0.939564296433181,
+      "cluster_sizes": [
+        127,
+        381,
+        647,
+        861
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          127,
+          381,
+          647,
+          861
+        ]
+      }
+    },
+    {
+      "draw": 9,
+      "seed": 2209,
+      "month_indices": [
+        7,
+        8,
+        9,
+        3,
+        4,
+        5,
+        11,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.880342559139318,
+      "cluster_sizes": [
+        878,
+        385,
+        135,
+        618
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          878,
+          385,
+          135,
+          618
+        ]
+      }
+    },
+    {
+      "draw": 10,
+      "seed": 2210,
+      "month_indices": [
+        9,
+        10,
+        11,
+        9,
+        10,
+        11,
+        2,
+        3,
+        4,
+        2,
+        3,
+        4
+      ],
+      "ARI": 0.8852766591308087,
+      "cluster_sizes": [
+        822,
+        659,
+        127,
+        408
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          822,
+          659,
+          127,
+          408
+        ]
+      }
+    },
+    {
+      "draw": 11,
+      "seed": 2211,
+      "month_indices": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11,
+        8,
+        9,
+        10,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.7916249073790225,
+      "cluster_sizes": [
+        121,
+        672,
+        809,
+        414
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          121,
+          672,
+          809,
+          414
+        ]
+      }
+    },
+    {
+      "draw": 12,
+      "seed": 2212,
+      "month_indices": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        4,
+        5,
+        6,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.67480212393522,
+      "cluster_sizes": [
+        813,
+        435,
+        671,
+        97
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          813,
+          435,
+          671,
+          97
+        ]
+      }
+    },
+    {
+      "draw": 13,
+      "seed": 2213,
+      "month_indices": [
+        11,
+        0,
+        1,
+        10,
+        11,
+        0,
+        4,
+        5,
+        6,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.7778665956964746,
+      "cluster_sizes": [
+        657,
+        828,
+        127,
+        404
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          657,
+          828,
+          127,
+          404
+        ]
+      }
+    },
+    {
+      "draw": 14,
+      "seed": 2214,
+      "month_indices": [
+        4,
+        5,
+        6,
+        3,
+        4,
+        5,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3
+      ],
+      "ARI": 0.8618791389869458,
+      "cluster_sizes": [
+        393,
+        841,
+        103,
+        679
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          393,
+          841,
+          103,
+          679
+        ]
+      }
+    },
+    {
+      "draw": 15,
+      "seed": 2215,
+      "month_indices": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        11,
+        0,
+        1,
+        10,
+        11,
+        0
+      ],
+      "ARI": 0.8840905064147029,
+      "cluster_sizes": [
+        651,
+        403,
+        124,
+        838
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          651,
+          403,
+          124,
+          838
+        ]
+      }
+    },
+    {
+      "draw": 16,
+      "seed": 2216,
+      "month_indices": [
+        11,
+        0,
+        1,
+        5,
+        6,
+        7,
+        7,
+        8,
+        9,
+        9,
+        10,
+        11
+      ],
+      "ARI": 0.8926699697111901,
+      "cluster_sizes": [
+        873,
+        390,
+        625,
+        128
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          873,
+          390,
+          625,
+          128
+        ]
+      }
+    },
+    {
+      "draw": 17,
+      "seed": 2217,
+      "month_indices": [
+        3,
+        4,
+        5,
+        5,
+        6,
+        7,
+        4,
+        5,
+        6,
+        6,
+        7,
+        8
+      ],
+      "ARI": 0.8855203865875013,
+      "cluster_sizes": [
+        860,
+        388,
+        116,
+        652
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          860,
+          388,
+          116,
+          652
+        ]
+      }
+    },
+    {
+      "draw": 18,
+      "seed": 2218,
+      "month_indices": [
+        9,
+        10,
+        11,
+        2,
+        3,
+        4,
+        3,
+        4,
+        5,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.7850461382831313,
+      "cluster_sizes": [
+        94,
+        827,
+        420,
+        675
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          94,
+          827,
+          420,
+          675
+        ]
+      }
+    },
+    {
+      "draw": 19,
+      "seed": 2219,
+      "month_indices": [
+        8,
+        9,
+        10,
+        8,
+        9,
+        10,
+        4,
+        5,
+        6,
+        5,
+        6,
+        7
+      ],
+      "ARI": 0.8535734912753391,
+      "cluster_sizes": [
+        610,
+        396,
+        134,
+        876
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          610,
+          396,
+          134,
+          876
+        ]
+      }
+    },
+    {
+      "draw": 20,
+      "seed": 2220,
+      "month_indices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        10,
+        11,
+        0,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.8905873974033007,
+      "cluster_sizes": [
+        835,
+        396,
+        649,
+        136
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          835,
+          396,
+          649,
+          136
+        ]
+      }
+    },
+    {
+      "draw": 21,
+      "seed": 2221,
+      "month_indices": [
+        9,
+        10,
+        11,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.8707743142197905,
+      "cluster_sizes": [
+        867,
+        130,
+        392,
+        627
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          867,
+          130,
+          392,
+          627
+        ]
+      }
+    },
+    {
+      "draw": 22,
+      "seed": 2222,
+      "month_indices": [
+        10,
+        11,
+        0,
+        3,
+        4,
+        5,
+        3,
+        4,
+        5,
+        3,
+        4,
+        5
+      ],
+      "ARI": 0.8326169975492288,
+      "cluster_sizes": [
+        698,
+        818,
+        397,
+        103
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          698,
+          818,
+          397,
+          103
+        ]
+      }
+    },
+    {
+      "draw": 23,
+      "seed": 2223,
+      "month_indices": [
+        8,
+        9,
+        10,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0
+      ],
+      "ARI": 0.8753663575785658,
+      "cluster_sizes": [
+        872,
+        393,
+        135,
+        616
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          872,
+          393,
+          135,
+          616
+        ]
+      }
+    },
+    {
+      "draw": 24,
+      "seed": 2224,
+      "month_indices": [
+        1,
+        2,
+        3,
+        8,
+        9,
+        10,
+        0,
+        1,
+        2,
+        9,
+        10,
+        11
+      ],
+      "ARI": 0.8551736258882094,
+      "cluster_sizes": [
+        121,
+        654,
+        834,
+        407
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          121,
+          654,
+          834,
+          407
+        ]
+      }
+    },
+    {
+      "draw": 25,
+      "seed": 2225,
+      "month_indices": [
+        6,
+        7,
+        8,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.9411593139719617,
+      "cluster_sizes": [
+        863,
+        390,
+        128,
+        635
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          863,
+          390,
+          128,
+          635
+        ]
+      }
+    },
+    {
+      "draw": 26,
+      "seed": 2226,
+      "month_indices": [
+        9,
+        10,
+        11,
+        6,
+        7,
+        8,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11
+      ],
+      "ARI": 0.8799835676967105,
+      "cluster_sizes": [
+        869,
+        392,
+        627,
+        128
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          869,
+          392,
+          627,
+          128
+        ]
+      }
+    },
+    {
+      "draw": 27,
+      "seed": 2227,
+      "month_indices": [
+        7,
+        8,
+        9,
+        9,
+        10,
+        11,
+        11,
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "ARI": 0.8433868059497263,
+      "cluster_sizes": [
+        138,
+        634,
+        842,
+        402
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          138,
+          634,
+          842,
+          402
+        ]
+      }
+    },
+    {
+      "draw": 28,
+      "seed": 2228,
+      "month_indices": [
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        8,
+        9,
+        10,
+        10,
+        11,
+        0
+      ],
+      "ARI": 0.8498177222094861,
+      "cluster_sizes": [
+        882,
+        606,
+        131,
+        397
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          882,
+          606,
+          131,
+          397
+        ]
+      }
+    },
+    {
+      "draw": 29,
+      "seed": 2229,
+      "month_indices": [
+        7,
+        8,
+        9,
+        0,
+        1,
+        2,
+        6,
+        7,
+        8,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.6828946930882912,
+      "cluster_sizes": [
+        123,
+        809,
+        438,
+        646
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [],
+        "maximum_common_space_sse": null,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          123,
+          809,
+          438,
+          646
+        ]
+      }
+    }
+  ],
+  "sw_constrained_huber75": [
+    {
+      "draw": 0,
+      "seed": 2200,
+      "month_indices": [
+        0,
+        1,
+        2,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "ARI": 0.7792063668933317,
+      "cluster_sizes": [
+        81,
+        1129,
+        358,
+        448
+      ],
+      "fit": {
+        "huber_iterations": 31,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.22719889443543004,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.23920160179821998,
+            "accepted": 20
+          },
+          {
+            "pass": 2,
+            "SW": 0.24614285710378092,
+            "accepted": 15
+          },
+          {
+            "pass": 3,
+            "SW": 0.2507328758269815,
+            "accepted": 7
+          },
+          {
+            "pass": 4,
+            "SW": 0.25438435650579244,
+            "accepted": 9
+          },
+          {
+            "pass": 5,
+            "SW": 0.2551258053590668,
+            "accepted": 4
+          },
+          {
+            "pass": 6,
+            "SW": 0.2555223171246153,
+            "accepted": 2
+          },
+          {
+            "pass": 7,
+            "SW": 0.25606063040131355,
+            "accepted": 1
+          },
+          {
+            "pass": 8,
+            "SW": 0.25606063040131355,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 467.23537795867117,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          81,
+          1129,
+          358,
+          448
+        ]
+      }
+    },
+    {
+      "draw": 1,
+      "seed": 2201,
+      "month_indices": [
+        10,
+        11,
+        0,
+        8,
+        9,
+        10,
+        8,
+        9,
+        10,
+        1,
+        2,
+        3
+      ],
+      "ARI": 0.9014499461855253,
+      "cluster_sizes": [
+        1141,
+        276,
+        127,
+        472
+      ],
+      "fit": {
+        "huber_iterations": 12,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.2396182258878738,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24911847021323832,
+            "accepted": 20
+          },
+          {
+            "pass": 2,
+            "SW": 0.2533131225386867,
+            "accepted": 11
+          },
+          {
+            "pass": 3,
+            "SW": 0.25717111267002296,
+            "accepted": 14
+          },
+          {
+            "pass": 4,
+            "SW": 0.25899469904635036,
+            "accepted": 11
+          },
+          {
+            "pass": 5,
+            "SW": 0.2593111601121708,
+            "accepted": 4
+          },
+          {
+            "pass": 6,
+            "SW": 0.25969397580523734,
+            "accepted": 4
+          },
+          {
+            "pass": 7,
+            "SW": 0.25971097207414334,
+            "accepted": 1
+          },
+          {
+            "pass": 8,
+            "SW": 0.2599444185485464,
+            "accepted": 2
+          }
+        ],
+        "maximum_common_space_sse": 480.26561641053553,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1141,
+          276,
+          127,
+          472
+        ]
+      }
+    },
+    {
+      "draw": 2,
+      "seed": 2202,
+      "month_indices": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        1,
+        2,
+        3,
+        8,
+        9,
+        10
+      ],
+      "ARI": 0.8994010654576168,
+      "cluster_sizes": [
+        446,
+        120,
+        1124,
+        326
+      ],
+      "fit": {
+        "huber_iterations": 25,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.24077274830240697,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.25128944940711184,
+            "accepted": 19
+          },
+          {
+            "pass": 2,
+            "SW": 0.2603125320507047,
+            "accepted": 21
+          },
+          {
+            "pass": 3,
+            "SW": 0.2652929249431861,
+            "accepted": 10
+          },
+          {
+            "pass": 4,
+            "SW": 0.2662415064771569,
+            "accepted": 7
+          },
+          {
+            "pass": 5,
+            "SW": 0.2663428949568107,
+            "accepted": 2
+          },
+          {
+            "pass": 6,
+            "SW": 0.26660828766554384,
+            "accepted": 2
+          },
+          {
+            "pass": 7,
+            "SW": 0.26660828766554384,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.266775878979969,
+            "accepted": 4
+          }
+        ],
+        "maximum_common_space_sse": 479.33856257424037,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          446,
+          120,
+          1124,
+          326
+        ]
+      }
+    },
+    {
+      "draw": 3,
+      "seed": 2203,
+      "month_indices": [
+        2,
+        3,
+        4,
+        3,
+        4,
+        5,
+        0,
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "ARI": 0.8558786493414208,
+      "cluster_sizes": [
+        77,
+        1152,
+        318,
+        469
+      ],
+      "fit": {
+        "huber_iterations": 19,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23786179556766893,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24722984977624554,
+            "accepted": 19
+          },
+          {
+            "pass": 2,
+            "SW": 0.25364907585565,
+            "accepted": 13
+          },
+          {
+            "pass": 3,
+            "SW": 0.2591411422618059,
+            "accepted": 15
+          },
+          {
+            "pass": 4,
+            "SW": 0.2605082464839344,
+            "accepted": 5
+          },
+          {
+            "pass": 5,
+            "SW": 0.2609716671939133,
+            "accepted": 7
+          },
+          {
+            "pass": 6,
+            "SW": 0.2609948312641612,
+            "accepted": 1
+          },
+          {
+            "pass": 7,
+            "SW": 0.2610410011977779,
+            "accepted": 1
+          },
+          {
+            "pass": 8,
+            "SW": 0.26119899414971787,
+            "accepted": 2
+          }
+        ],
+        "maximum_common_space_sse": 494.4784859701557,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          77,
+          1152,
+          318,
+          469
+        ]
+      }
+    },
+    {
+      "draw": 4,
+      "seed": 2204,
+      "month_indices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        1,
+        2,
+        3,
+        10,
+        11,
+        0
+      ],
+      "ARI": 0.9333474658082058,
+      "cluster_sizes": [
+        1127,
+        296,
+        120,
+        473
+      ],
+      "fit": {
+        "huber_iterations": 25,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23291694201021856,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24422734110891026,
+            "accepted": 21
+          },
+          {
+            "pass": 2,
+            "SW": 0.2507663687997811,
+            "accepted": 18
+          },
+          {
+            "pass": 3,
+            "SW": 0.257479081609751,
+            "accepted": 16
+          },
+          {
+            "pass": 4,
+            "SW": 0.2584978471330569,
+            "accepted": 6
+          },
+          {
+            "pass": 5,
+            "SW": 0.25921158280643936,
+            "accepted": 2
+          },
+          {
+            "pass": 6,
+            "SW": 0.25921158280643936,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.2592307196255129,
+            "accepted": 1
+          },
+          {
+            "pass": 8,
+            "SW": 0.2592307196255129,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 473.4354495690988,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1127,
+          296,
+          120,
+          473
+        ]
+      }
+    },
+    {
+      "draw": 5,
+      "seed": 2205,
+      "month_indices": [
+        10,
+        11,
+        0,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        8,
+        9,
+        10
+      ],
+      "ARI": 0.8473816174959116,
+      "cluster_sizes": [
+        114,
+        315,
+        1107,
+        480
+      ],
+      "fit": {
+        "huber_iterations": 25,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.24364644439761174,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2536404663170616,
+            "accepted": 22
+          },
+          {
+            "pass": 2,
+            "SW": 0.2609846041929552,
+            "accepted": 15
+          },
+          {
+            "pass": 3,
+            "SW": 0.2642314407377208,
+            "accepted": 13
+          },
+          {
+            "pass": 4,
+            "SW": 0.26470506690519546,
+            "accepted": 4
+          },
+          {
+            "pass": 5,
+            "SW": 0.26491304591186443,
+            "accepted": 2
+          },
+          {
+            "pass": 6,
+            "SW": 0.26491304591186443,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.26491304591186443,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.26491304591186443,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 491.7532567242194,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          114,
+          315,
+          1107,
+          480
+        ]
+      }
+    },
+    {
+      "draw": 6,
+      "seed": 2206,
+      "month_indices": [
+        10,
+        11,
+        0,
+        7,
+        8,
+        9,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0
+      ],
+      "ARI": 0.8708453705536613,
+      "cluster_sizes": [
+        131,
+        1109,
+        323,
+        453
+      ],
+      "fit": {
+        "huber_iterations": 28,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.238262969911944,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2488958733559628,
+            "accepted": 21
+          },
+          {
+            "pass": 2,
+            "SW": 0.2560727842078431,
+            "accepted": 14
+          },
+          {
+            "pass": 3,
+            "SW": 0.2614764250417166,
+            "accepted": 14
+          },
+          {
+            "pass": 4,
+            "SW": 0.2622671840272265,
+            "accepted": 7
+          },
+          {
+            "pass": 5,
+            "SW": 0.2622770001617797,
+            "accepted": 1
+          },
+          {
+            "pass": 6,
+            "SW": 0.262473648238801,
+            "accepted": 2
+          },
+          {
+            "pass": 7,
+            "SW": 0.262473648238801,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.26259911207317604,
+            "accepted": 1
+          }
+        ],
+        "maximum_common_space_sse": 484.6888188561177,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          131,
+          1109,
+          323,
+          453
+        ]
+      }
+    },
+    {
+      "draw": 7,
+      "seed": 2207,
+      "month_indices": [
+        8,
+        9,
+        10,
+        7,
+        8,
+        9,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "ARI": 0.8567676850350642,
+      "cluster_sizes": [
+        284,
+        1134,
+        114,
+        484
+      ],
+      "fit": {
+        "huber_iterations": 28,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23779378715575847,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24885255250095295,
+            "accepted": 19
+          },
+          {
+            "pass": 2,
+            "SW": 0.2558609922802518,
+            "accepted": 19
+          },
+          {
+            "pass": 3,
+            "SW": 0.26108716941799726,
+            "accepted": 19
+          },
+          {
+            "pass": 4,
+            "SW": 0.26189295324313505,
+            "accepted": 11
+          },
+          {
+            "pass": 5,
+            "SW": 0.26205329056857407,
+            "accepted": 4
+          },
+          {
+            "pass": 6,
+            "SW": 0.26205329056857407,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.26205329056857407,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.26221991668088973,
+            "accepted": 2
+          }
+        ],
+        "maximum_common_space_sse": 500.77352610316206,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          284,
+          1134,
+          114,
+          484
+        ]
+      }
+    },
+    {
+      "draw": 8,
+      "seed": 2208,
+      "month_indices": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        4,
+        5,
+        6,
+        5,
+        6,
+        7
+      ],
+      "ARI": 0.9335473721662567,
+      "cluster_sizes": [
+        123,
+        278,
+        465,
+        1150
+      ],
+      "fit": {
+        "huber_iterations": 32,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.24047097232605522,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.25169590624645966,
+            "accepted": 22
+          },
+          {
+            "pass": 2,
+            "SW": 0.2584986009909038,
+            "accepted": 20
+          },
+          {
+            "pass": 3,
+            "SW": 0.26213366000273514,
+            "accepted": 11
+          },
+          {
+            "pass": 4,
+            "SW": 0.2630792234288758,
+            "accepted": 7
+          },
+          {
+            "pass": 5,
+            "SW": 0.2631219733433216,
+            "accepted": 1
+          },
+          {
+            "pass": 6,
+            "SW": 0.2631219733433216,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.2632300857927645,
+            "accepted": 1
+          },
+          {
+            "pass": 8,
+            "SW": 0.2632400897098335,
+            "accepted": 1
+          }
+        ],
+        "maximum_common_space_sse": 490.05657371709464,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          123,
+          278,
+          465,
+          1150
+        ]
+      }
+    },
+    {
+      "draw": 9,
+      "seed": 2209,
+      "month_indices": [
+        7,
+        8,
+        9,
+        3,
+        4,
+        5,
+        11,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.8995833076958673,
+      "cluster_sizes": [
+        1164,
+        310,
+        110,
+        432
+      ],
+      "fit": {
+        "huber_iterations": 15,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.22952455747944542,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2414230789463849,
+            "accepted": 22
+          },
+          {
+            "pass": 2,
+            "SW": 0.2489527912050199,
+            "accepted": 17
+          },
+          {
+            "pass": 3,
+            "SW": 0.25454324854863275,
+            "accepted": 14
+          },
+          {
+            "pass": 4,
+            "SW": 0.2565493891052725,
+            "accepted": 5
+          },
+          {
+            "pass": 5,
+            "SW": 0.2567872767052109,
+            "accepted": 2
+          },
+          {
+            "pass": 6,
+            "SW": 0.2567872767052109,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.2567872767052109,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.2567872767052109,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 473.0917721248498,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1164,
+          310,
+          110,
+          432
+        ]
+      }
+    },
+    {
+      "draw": 10,
+      "seed": 2210,
+      "month_indices": [
+        9,
+        10,
+        11,
+        9,
+        10,
+        11,
+        2,
+        3,
+        4,
+        2,
+        3,
+        4
+      ],
+      "ARI": 0.8990103768965277,
+      "cluster_sizes": [
+        1133,
+        459,
+        98,
+        326
+      ],
+      "fit": {
+        "huber_iterations": 21,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.2376174271070057,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2436304140858218,
+            "accepted": 18
+          },
+          {
+            "pass": 2,
+            "SW": 0.2504311655368631,
+            "accepted": 19
+          },
+          {
+            "pass": 3,
+            "SW": 0.2593515901347768,
+            "accepted": 14
+          },
+          {
+            "pass": 4,
+            "SW": 0.2610557738240164,
+            "accepted": 9
+          },
+          {
+            "pass": 5,
+            "SW": 0.2618969226982613,
+            "accepted": 7
+          },
+          {
+            "pass": 6,
+            "SW": 0.26211714670767905,
+            "accepted": 2
+          },
+          {
+            "pass": 7,
+            "SW": 0.26211714670767905,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.2623464798759199,
+            "accepted": 3
+          }
+        ],
+        "maximum_common_space_sse": 489.8608860637806,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1133,
+          459,
+          98,
+          326
+        ]
+      }
+    },
+    {
+      "draw": 11,
+      "seed": 2211,
+      "month_indices": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11,
+        8,
+        9,
+        10,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.8187196994520463,
+      "cluster_sizes": [
+        105,
+        428,
+        1124,
+        359
+      ],
+      "fit": {
+        "huber_iterations": 26,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.2258140717078626,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.23503803880163202,
+            "accepted": 18
+          },
+          {
+            "pass": 2,
+            "SW": 0.24662651377965525,
+            "accepted": 21
+          },
+          {
+            "pass": 3,
+            "SW": 0.2519204094960089,
+            "accepted": 13
+          },
+          {
+            "pass": 4,
+            "SW": 0.2552873635106353,
+            "accepted": 9
+          },
+          {
+            "pass": 5,
+            "SW": 0.2557706411909868,
+            "accepted": 2
+          },
+          {
+            "pass": 6,
+            "SW": 0.2557706411909868,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.2558133633699087,
+            "accepted": 1
+          },
+          {
+            "pass": 8,
+            "SW": 0.2558901075377851,
+            "accepted": 2
+          }
+        ],
+        "maximum_common_space_sse": 458.8677341679261,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          105,
+          428,
+          1124,
+          359
+        ]
+      }
+    },
+    {
+      "draw": 12,
+      "seed": 2212,
+      "month_indices": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        4,
+        5,
+        6,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.8766025918870666,
+      "cluster_sizes": [
+        1158,
+        321,
+        426,
+        111
+      ],
+      "fit": {
+        "huber_iterations": 25,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.22882221140127607,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2385805195508694,
+            "accepted": 20
+          },
+          {
+            "pass": 2,
+            "SW": 0.24699724861044825,
+            "accepted": 19
+          },
+          {
+            "pass": 3,
+            "SW": 0.25077804839798623,
+            "accepted": 13
+          },
+          {
+            "pass": 4,
+            "SW": 0.2532735885915348,
+            "accepted": 9
+          },
+          {
+            "pass": 5,
+            "SW": 0.2533964588196271,
+            "accepted": 1
+          },
+          {
+            "pass": 6,
+            "SW": 0.2533964588196271,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.25405002695823403,
+            "accepted": 4
+          },
+          {
+            "pass": 8,
+            "SW": 0.2542043337370289,
+            "accepted": 3
+          }
+        ],
+        "maximum_common_space_sse": 477.3538197564694,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1158,
+          321,
+          426,
+          111
+        ]
+      }
+    },
+    {
+      "draw": 13,
+      "seed": 2213,
+      "month_indices": [
+        11,
+        0,
+        1,
+        10,
+        11,
+        0,
+        4,
+        5,
+        6,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.7940800202445397,
+      "cluster_sizes": [
+        413,
+        1140,
+        96,
+        367
+      ],
+      "fit": {
+        "huber_iterations": 18,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.22576035867579836,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.23630829338923492,
+            "accepted": 20
+          },
+          {
+            "pass": 2,
+            "SW": 0.2446251964938463,
+            "accepted": 17
+          },
+          {
+            "pass": 3,
+            "SW": 0.24952255275043245,
+            "accepted": 11
+          },
+          {
+            "pass": 4,
+            "SW": 0.25117431586474975,
+            "accepted": 8
+          },
+          {
+            "pass": 5,
+            "SW": 0.25316784864532854,
+            "accepted": 10
+          },
+          {
+            "pass": 6,
+            "SW": 0.2543054274017796,
+            "accepted": 3
+          },
+          {
+            "pass": 7,
+            "SW": 0.2543054274017796,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.25438738140181677,
+            "accepted": 2
+          }
+        ],
+        "maximum_common_space_sse": 467.16369228056766,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          413,
+          1140,
+          96,
+          367
+        ]
+      }
+    },
+    {
+      "draw": 14,
+      "seed": 2214,
+      "month_indices": [
+        4,
+        5,
+        6,
+        3,
+        4,
+        5,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3
+      ],
+      "ARI": 0.8944011849217621,
+      "cluster_sizes": [
+        318,
+        1178,
+        91,
+        429
+      ],
+      "fit": {
+        "huber_iterations": 16,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23874292893413637,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24460997692714104,
+            "accepted": 17
+          },
+          {
+            "pass": 2,
+            "SW": 0.25286354962281393,
+            "accepted": 17
+          },
+          {
+            "pass": 3,
+            "SW": 0.2579168125798756,
+            "accepted": 14
+          },
+          {
+            "pass": 4,
+            "SW": 0.25910930826447687,
+            "accepted": 5
+          },
+          {
+            "pass": 5,
+            "SW": 0.25922011018146235,
+            "accepted": 1
+          },
+          {
+            "pass": 6,
+            "SW": 0.25993249034328225,
+            "accepted": 3
+          },
+          {
+            "pass": 7,
+            "SW": 0.25993249034328225,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.2599700238198155,
+            "accepted": 3
+          }
+        ],
+        "maximum_common_space_sse": 496.34475978481777,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          318,
+          1178,
+          91,
+          429
+        ]
+      }
+    },
+    {
+      "draw": 15,
+      "seed": 2215,
+      "month_indices": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        11,
+        0,
+        1,
+        10,
+        11,
+        0
+      ],
+      "ARI": 0.9053470549797957,
+      "cluster_sizes": [
+        445,
+        323,
+        106,
+        1142
+      ],
+      "fit": {
+        "huber_iterations": 19,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23800707651437694,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24764827290900554,
+            "accepted": 21
+          },
+          {
+            "pass": 2,
+            "SW": 0.25614876016671845,
+            "accepted": 17
+          },
+          {
+            "pass": 3,
+            "SW": 0.2605124050181544,
+            "accepted": 11
+          },
+          {
+            "pass": 4,
+            "SW": 0.26144910369542484,
+            "accepted": 7
+          },
+          {
+            "pass": 5,
+            "SW": 0.2614654010865786,
+            "accepted": 1
+          },
+          {
+            "pass": 6,
+            "SW": 0.2615016282693554,
+            "accepted": 1
+          },
+          {
+            "pass": 7,
+            "SW": 0.2615016282693554,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.2615047661222496,
+            "accepted": 1
+          }
+        ],
+        "maximum_common_space_sse": 485.000764346907,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          445,
+          323,
+          106,
+          1142
+        ]
+      }
+    },
+    {
+      "draw": 16,
+      "seed": 2216,
+      "month_indices": [
+        11,
+        0,
+        1,
+        5,
+        6,
+        7,
+        7,
+        8,
+        9,
+        9,
+        10,
+        11
+      ],
+      "ARI": 0.9158064784201296,
+      "cluster_sizes": [
+        1129,
+        296,
+        461,
+        130
+      ],
+      "fit": {
+        "huber_iterations": 27,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.2395433671001759,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2496269963199931,
+            "accepted": 20
+          },
+          {
+            "pass": 2,
+            "SW": 0.2567244492958234,
+            "accepted": 17
+          },
+          {
+            "pass": 3,
+            "SW": 0.26119387066574806,
+            "accepted": 12
+          },
+          {
+            "pass": 4,
+            "SW": 0.261393707218784,
+            "accepted": 2
+          },
+          {
+            "pass": 5,
+            "SW": 0.2620051263045409,
+            "accepted": 2
+          },
+          {
+            "pass": 6,
+            "SW": 0.2625064404307258,
+            "accepted": 3
+          },
+          {
+            "pass": 7,
+            "SW": 0.2625307277026244,
+            "accepted": 1
+          },
+          {
+            "pass": 8,
+            "SW": 0.2625307277026244,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 482.5155249487828,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1129,
+          296,
+          461,
+          130
+        ]
+      }
+    },
+    {
+      "draw": 17,
+      "seed": 2217,
+      "month_indices": [
+        3,
+        4,
+        5,
+        5,
+        6,
+        7,
+        4,
+        5,
+        6,
+        6,
+        7,
+        8
+      ],
+      "ARI": 0.9229280867560663,
+      "cluster_sizes": [
+        1141,
+        282,
+        128,
+        465
+      ],
+      "fit": {
+        "huber_iterations": 17,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.245094664150519,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2546067113087142,
+            "accepted": 21
+          },
+          {
+            "pass": 2,
+            "SW": 0.26023462414998844,
+            "accepted": 15
+          },
+          {
+            "pass": 3,
+            "SW": 0.26415116813020817,
+            "accepted": 14
+          },
+          {
+            "pass": 4,
+            "SW": 0.26456652441154105,
+            "accepted": 5
+          },
+          {
+            "pass": 5,
+            "SW": 0.2651234496236175,
+            "accepted": 4
+          },
+          {
+            "pass": 6,
+            "SW": 0.2651234496236175,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.2651234496236175,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.26521192860285125,
+            "accepted": 1
+          }
+        ],
+        "maximum_common_space_sse": 512.0626641347284,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1141,
+          282,
+          128,
+          465
+        ]
+      }
+    },
+    {
+      "draw": 18,
+      "seed": 2218,
+      "month_indices": [
+        9,
+        10,
+        11,
+        2,
+        3,
+        4,
+        3,
+        4,
+        5,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.8859521167015143,
+      "cluster_sizes": [
+        117,
+        1129,
+        306,
+        464
+      ],
+      "fit": {
+        "huber_iterations": 18,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.2329409777076244,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.23899828889096936,
+            "accepted": 17
+          },
+          {
+            "pass": 2,
+            "SW": 0.25014540018029496,
+            "accepted": 21
+          },
+          {
+            "pass": 3,
+            "SW": 0.25658934932688393,
+            "accepted": 19
+          },
+          {
+            "pass": 4,
+            "SW": 0.25817106975977805,
+            "accepted": 5
+          },
+          {
+            "pass": 5,
+            "SW": 0.25817106975977805,
+            "accepted": 0
+          },
+          {
+            "pass": 6,
+            "SW": 0.2584146206614137,
+            "accepted": 2
+          },
+          {
+            "pass": 7,
+            "SW": 0.2584643329762482,
+            "accepted": 2
+          },
+          {
+            "pass": 8,
+            "SW": 0.2585941541799911,
+            "accepted": 1
+          }
+        ],
+        "maximum_common_space_sse": 491.6032782225573,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          117,
+          1129,
+          306,
+          464
+        ]
+      }
+    },
+    {
+      "draw": 19,
+      "seed": 2219,
+      "month_indices": [
+        8,
+        9,
+        10,
+        8,
+        9,
+        10,
+        4,
+        5,
+        6,
+        5,
+        6,
+        7
+      ],
+      "ARI": 0.859863240795028,
+      "cluster_sizes": [
+        487,
+        280,
+        127,
+        1122
+      ],
+      "fit": {
+        "huber_iterations": 26,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.2459419818347292,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.25645403783089465,
+            "accepted": 19
+          },
+          {
+            "pass": 2,
+            "SW": 0.2622922953377687,
+            "accepted": 14
+          },
+          {
+            "pass": 3,
+            "SW": 0.2661806078547878,
+            "accepted": 18
+          },
+          {
+            "pass": 4,
+            "SW": 0.2667984335618013,
+            "accepted": 4
+          },
+          {
+            "pass": 5,
+            "SW": 0.2668858023555892,
+            "accepted": 1
+          },
+          {
+            "pass": 6,
+            "SW": 0.2668858023555892,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.2671105455445134,
+            "accepted": 7
+          },
+          {
+            "pass": 8,
+            "SW": 0.26729555144327893,
+            "accepted": 3
+          }
+        ],
+        "maximum_common_space_sse": 495.65441404929027,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          487,
+          280,
+          127,
+          1122
+        ]
+      }
+    },
+    {
+      "draw": 20,
+      "seed": 2220,
+      "month_indices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        10,
+        11,
+        0,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.9371748851824457,
+      "cluster_sizes": [
+        1137,
+        308,
+        451,
+        120
+      ],
+      "fit": {
+        "huber_iterations": 27,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.231188265705888,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24138679804770521,
+            "accepted": 21
+          },
+          {
+            "pass": 2,
+            "SW": 0.2503199019523682,
+            "accepted": 19
+          },
+          {
+            "pass": 3,
+            "SW": 0.2555260267256399,
+            "accepted": 15
+          },
+          {
+            "pass": 4,
+            "SW": 0.2565059132003533,
+            "accepted": 6
+          },
+          {
+            "pass": 5,
+            "SW": 0.25700856208226003,
+            "accepted": 2
+          },
+          {
+            "pass": 6,
+            "SW": 0.25703699831590676,
+            "accepted": 1
+          },
+          {
+            "pass": 7,
+            "SW": 0.2570711204648836,
+            "accepted": 1
+          },
+          {
+            "pass": 8,
+            "SW": 0.2571156781287842,
+            "accepted": 1
+          }
+        ],
+        "maximum_common_space_sse": 469.4710515104505,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1137,
+          308,
+          451,
+          120
+        ]
+      }
+    },
+    {
+      "draw": 21,
+      "seed": 2221,
+      "month_indices": [
+        9,
+        10,
+        11,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.9015214044314657,
+      "cluster_sizes": [
+        1123,
+        119,
+        305,
+        469
+      ],
+      "fit": {
+        "huber_iterations": 22,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23557351296322848,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2461798954033701,
+            "accepted": 22
+          },
+          {
+            "pass": 2,
+            "SW": 0.2556061093165131,
+            "accepted": 17
+          },
+          {
+            "pass": 3,
+            "SW": 0.2578022141899514,
+            "accepted": 10
+          },
+          {
+            "pass": 4,
+            "SW": 0.25874831390147796,
+            "accepted": 4
+          },
+          {
+            "pass": 5,
+            "SW": 0.25935157223492955,
+            "accepted": 3
+          },
+          {
+            "pass": 6,
+            "SW": 0.25942410644723224,
+            "accepted": 2
+          },
+          {
+            "pass": 7,
+            "SW": 0.2594938884756708,
+            "accepted": 1
+          },
+          {
+            "pass": 8,
+            "SW": 0.2594938884756708,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 480.5640011595519,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1123,
+          119,
+          305,
+          469
+        ]
+      }
+    },
+    {
+      "draw": 22,
+      "seed": 2222,
+      "month_indices": [
+        10,
+        11,
+        0,
+        3,
+        4,
+        5,
+        3,
+        4,
+        5,
+        3,
+        4,
+        5
+      ],
+      "ARI": 0.8679788878636159,
+      "cluster_sizes": [
+        491,
+        1132,
+        307,
+        86
+      ],
+      "fit": {
+        "huber_iterations": 23,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23915030892847955,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24559593326099818,
+            "accepted": 18
+          },
+          {
+            "pass": 2,
+            "SW": 0.252096746680039,
+            "accepted": 14
+          },
+          {
+            "pass": 3,
+            "SW": 0.25862330977659403,
+            "accepted": 16
+          },
+          {
+            "pass": 4,
+            "SW": 0.2598118206907545,
+            "accepted": 3
+          },
+          {
+            "pass": 5,
+            "SW": 0.2598118206907545,
+            "accepted": 0
+          },
+          {
+            "pass": 6,
+            "SW": 0.259841492769509,
+            "accepted": 1
+          },
+          {
+            "pass": 7,
+            "SW": 0.259841492769509,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.26004026170048966,
+            "accepted": 2
+          }
+        ],
+        "maximum_common_space_sse": 524.101336644412,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          491,
+          1132,
+          307,
+          86
+        ]
+      }
+    },
+    {
+      "draw": 23,
+      "seed": 2223,
+      "month_indices": [
+        8,
+        9,
+        10,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0
+      ],
+      "ARI": 0.9053072019616581,
+      "cluster_sizes": [
+        1126,
+        289,
+        121,
+        480
+      ],
+      "fit": {
+        "huber_iterations": 20,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23895969104226344,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24899465625102077,
+            "accepted": 16
+          },
+          {
+            "pass": 2,
+            "SW": 0.2575757491531349,
+            "accepted": 19
+          },
+          {
+            "pass": 3,
+            "SW": 0.2622778395838382,
+            "accepted": 17
+          },
+          {
+            "pass": 4,
+            "SW": 0.2631711233801606,
+            "accepted": 2
+          },
+          {
+            "pass": 5,
+            "SW": 0.2631711233801606,
+            "accepted": 0
+          },
+          {
+            "pass": 6,
+            "SW": 0.2631799126042153,
+            "accepted": 1
+          },
+          {
+            "pass": 7,
+            "SW": 0.2631799126042153,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.2632014360053866,
+            "accepted": 1
+          }
+        ],
+        "maximum_common_space_sse": 484.80677465860913,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1126,
+          289,
+          121,
+          480
+        ]
+      }
+    },
+    {
+      "draw": 24,
+      "seed": 2224,
+      "month_indices": [
+        1,
+        2,
+        3,
+        8,
+        9,
+        10,
+        0,
+        1,
+        2,
+        9,
+        10,
+        11
+      ],
+      "ARI": 0.881206076826029,
+      "cluster_sizes": [
+        120,
+        433,
+        1141,
+        322
+      ],
+      "fit": {
+        "huber_iterations": 19,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.22762593095902608,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2396789072773176,
+            "accepted": 22
+          },
+          {
+            "pass": 2,
+            "SW": 0.24798548602186551,
+            "accepted": 18
+          },
+          {
+            "pass": 3,
+            "SW": 0.2498388468908446,
+            "accepted": 8
+          },
+          {
+            "pass": 4,
+            "SW": 0.25197929797974666,
+            "accepted": 11
+          },
+          {
+            "pass": 5,
+            "SW": 0.25397697593524177,
+            "accepted": 8
+          },
+          {
+            "pass": 6,
+            "SW": 0.2542101544746943,
+            "accepted": 3
+          },
+          {
+            "pass": 7,
+            "SW": 0.2542515945593504,
+            "accepted": 2
+          },
+          {
+            "pass": 8,
+            "SW": 0.2542515945593504,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 469.8480101479552,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          120,
+          433,
+          1141,
+          322
+        ]
+      }
+    },
+    {
+      "draw": 25,
+      "seed": 2225,
+      "month_indices": [
+        6,
+        7,
+        8,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.9457829636451354,
+      "cluster_sizes": [
+        1154,
+        294,
+        118,
+        450
+      ],
+      "fit": {
+        "huber_iterations": 12,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23330514287487192,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24360159861033934,
+            "accepted": 17
+          },
+          {
+            "pass": 2,
+            "SW": 0.24900833228591954,
+            "accepted": 16
+          },
+          {
+            "pass": 3,
+            "SW": 0.25395910048500847,
+            "accepted": 14
+          },
+          {
+            "pass": 4,
+            "SW": 0.2558325018078126,
+            "accepted": 10
+          },
+          {
+            "pass": 5,
+            "SW": 0.25616878225546924,
+            "accepted": 2
+          },
+          {
+            "pass": 6,
+            "SW": 0.2562757494518376,
+            "accepted": 1
+          },
+          {
+            "pass": 7,
+            "SW": 0.2562757494518376,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.2563270678257847,
+            "accepted": 2
+          }
+        ],
+        "maximum_common_space_sse": 471.8255874817751,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1154,
+          294,
+          118,
+          450
+        ]
+      }
+    },
+    {
+      "draw": 26,
+      "seed": 2226,
+      "month_indices": [
+        9,
+        10,
+        11,
+        6,
+        7,
+        8,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11
+      ],
+      "ARI": 0.8794472839634658,
+      "cluster_sizes": [
+        1108,
+        320,
+        439,
+        149
+      ],
+      "fit": {
+        "huber_iterations": 29,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23748227908073968,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2496960987027662,
+            "accepted": 22
+          },
+          {
+            "pass": 2,
+            "SW": 0.2586322504928345,
+            "accepted": 18
+          },
+          {
+            "pass": 3,
+            "SW": 0.25904203384134505,
+            "accepted": 4
+          },
+          {
+            "pass": 4,
+            "SW": 0.2593625380696494,
+            "accepted": 3
+          },
+          {
+            "pass": 5,
+            "SW": 0.2593625380696494,
+            "accepted": 0
+          },
+          {
+            "pass": 6,
+            "SW": 0.259405540820731,
+            "accepted": 2
+          },
+          {
+            "pass": 7,
+            "SW": 0.259405540820731,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.2598594409408613,
+            "accepted": 3
+          }
+        ],
+        "maximum_common_space_sse": 482.7011489114402,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1108,
+          320,
+          439,
+          149
+        ]
+      }
+    },
+    {
+      "draw": 27,
+      "seed": 2227,
+      "month_indices": [
+        7,
+        8,
+        9,
+        9,
+        10,
+        11,
+        11,
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "ARI": 0.9045437755824505,
+      "cluster_sizes": [
+        131,
+        442,
+        1147,
+        296
+      ],
+      "fit": {
+        "huber_iterations": 29,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23580176928428637,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24665987483179241,
+            "accepted": 22
+          },
+          {
+            "pass": 2,
+            "SW": 0.2540877456292129,
+            "accepted": 18
+          },
+          {
+            "pass": 3,
+            "SW": 0.26018441719553176,
+            "accepted": 17
+          },
+          {
+            "pass": 4,
+            "SW": 0.26082835191661213,
+            "accepted": 8
+          },
+          {
+            "pass": 5,
+            "SW": 0.26145230894832083,
+            "accepted": 6
+          },
+          {
+            "pass": 6,
+            "SW": 0.26170461457948785,
+            "accepted": 3
+          },
+          {
+            "pass": 7,
+            "SW": 0.26170461457948785,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.2617478149506262,
+            "accepted": 1
+          }
+        ],
+        "maximum_common_space_sse": 484.1987316358958,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          131,
+          442,
+          1147,
+          296
+        ]
+      }
+    },
+    {
+      "draw": 28,
+      "seed": 2228,
+      "month_indices": [
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        8,
+        9,
+        10,
+        10,
+        11,
+        0
+      ],
+      "ARI": 0.8801348928606281,
+      "cluster_sizes": [
+        1130,
+        447,
+        116,
+        323
+      ],
+      "fit": {
+        "huber_iterations": 25,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.2427175761746977,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2518340684393418,
+            "accepted": 21
+          },
+          {
+            "pass": 2,
+            "SW": 0.2577169815736995,
+            "accepted": 14
+          },
+          {
+            "pass": 3,
+            "SW": 0.2640058182886968,
+            "accepted": 14
+          },
+          {
+            "pass": 4,
+            "SW": 0.2651367848097273,
+            "accepted": 4
+          },
+          {
+            "pass": 5,
+            "SW": 0.2651367848097273,
+            "accepted": 0
+          },
+          {
+            "pass": 6,
+            "SW": 0.26522662805849667,
+            "accepted": 2
+          },
+          {
+            "pass": 7,
+            "SW": 0.26522662805849667,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.26527502623488447,
+            "accepted": 2
+          }
+        ],
+        "maximum_common_space_sse": 490.5972429424377,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1130,
+          447,
+          116,
+          323
+        ]
+      }
+    },
+    {
+      "draw": 29,
+      "seed": 2229,
+      "month_indices": [
+        7,
+        8,
+        9,
+        0,
+        1,
+        2,
+        6,
+        7,
+        8,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.6570131552022875,
+      "cluster_sizes": [
+        73,
+        1065,
+        465,
+        413
+      ],
+      "fit": {
+        "huber_iterations": 23,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.2294403844998914,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2372625846201319,
+            "accepted": 18
+          },
+          {
+            "pass": 2,
+            "SW": 0.24447523831568346,
+            "accepted": 16
+          },
+          {
+            "pass": 3,
+            "SW": 0.2524544481416375,
+            "accepted": 12
+          },
+          {
+            "pass": 4,
+            "SW": 0.2588600959705274,
+            "accepted": 12
+          },
+          {
+            "pass": 5,
+            "SW": 0.2621150624659096,
+            "accepted": 11
+          },
+          {
+            "pass": 6,
+            "SW": 0.2635885683508985,
+            "accepted": 4
+          },
+          {
+            "pass": 7,
+            "SW": 0.2635885683508985,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.26421548199470013,
+            "accepted": 3
+          }
+        ],
+        "maximum_common_space_sse": 456.6736206798523,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          73,
+          1065,
+          465,
+          413
+        ]
+      }
+    }
+  ],
+  "sw_constrained_ordinary": [
+    {
+      "draw": 0,
+      "seed": 2200,
+      "month_indices": [
+        0,
+        1,
+        2,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "ARI": 0.6918540199719281,
+      "cluster_sizes": [
+        64,
+        1107,
+        454,
+        391
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23266154502874364,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2443430788379655,
+            "accepted": 19
+          },
+          {
+            "pass": 2,
+            "SW": 0.25252263261506325,
+            "accepted": 18
+          },
+          {
+            "pass": 3,
+            "SW": 0.2664023102459293,
+            "accepted": 17
+          },
+          {
+            "pass": 4,
+            "SW": 0.26844003958277196,
+            "accepted": 4
+          },
+          {
+            "pass": 5,
+            "SW": 0.2689455750186881,
+            "accepted": 5
+          },
+          {
+            "pass": 6,
+            "SW": 0.2702818314432635,
+            "accepted": 2
+          },
+          {
+            "pass": 7,
+            "SW": 0.2708897940674119,
+            "accepted": 3
+          },
+          {
+            "pass": 8,
+            "SW": 0.27134375221497903,
+            "accepted": 1
+          }
+        ],
+        "maximum_common_space_sse": 467.23537795867117,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          64,
+          1107,
+          454,
+          391
+        ]
+      }
+    },
+    {
+      "draw": 1,
+      "seed": 2201,
+      "month_indices": [
+        10,
+        11,
+        0,
+        8,
+        9,
+        10,
+        8,
+        9,
+        10,
+        1,
+        2,
+        3
+      ],
+      "ARI": 0.8695358173967067,
+      "cluster_sizes": [
+        1133,
+        293,
+        115,
+        475
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.2414412826565735,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2490484894923865,
+            "accepted": 15
+          },
+          {
+            "pass": 2,
+            "SW": 0.2579326422337972,
+            "accepted": 19
+          },
+          {
+            "pass": 3,
+            "SW": 0.258676700234242,
+            "accepted": 4
+          },
+          {
+            "pass": 4,
+            "SW": 0.2587815601370051,
+            "accepted": 5
+          },
+          {
+            "pass": 5,
+            "SW": 0.2587815601370051,
+            "accepted": 0
+          },
+          {
+            "pass": 6,
+            "SW": 0.259230370582308,
+            "accepted": 6
+          },
+          {
+            "pass": 7,
+            "SW": 0.2597088506264399,
+            "accepted": 5
+          },
+          {
+            "pass": 8,
+            "SW": 0.26014874851620895,
+            "accepted": 3
+          }
+        ],
+        "maximum_common_space_sse": 480.26561641053553,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1133,
+          293,
+          115,
+          475
+        ]
+      }
+    },
+    {
+      "draw": 2,
+      "seed": 2202,
+      "month_indices": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        1,
+        2,
+        3,
+        8,
+        9,
+        10
+      ],
+      "ARI": 0.9109245327072014,
+      "cluster_sizes": [
+        445,
+        124,
+        1151,
+        296
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.2468408708653785,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2546208554743514,
+            "accepted": 19
+          },
+          {
+            "pass": 2,
+            "SW": 0.2599048853695093,
+            "accepted": 14
+          },
+          {
+            "pass": 3,
+            "SW": 0.2641230250248203,
+            "accepted": 11
+          },
+          {
+            "pass": 4,
+            "SW": 0.26459223004337573,
+            "accepted": 6
+          },
+          {
+            "pass": 5,
+            "SW": 0.2649251370235698,
+            "accepted": 4
+          },
+          {
+            "pass": 6,
+            "SW": 0.2649251370235698,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.2649251370235698,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.2649251370235698,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 479.33856257424037,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          445,
+          124,
+          1151,
+          296
+        ]
+      }
+    },
+    {
+      "draw": 3,
+      "seed": 2203,
+      "month_indices": [
+        2,
+        3,
+        4,
+        3,
+        4,
+        5,
+        0,
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "ARI": 0.7259014506554207,
+      "cluster_sizes": [
+        66,
+        1096,
+        417,
+        437
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.2435693495360008,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.25013927461390195,
+            "accepted": 17
+          },
+          {
+            "pass": 2,
+            "SW": 0.25796251359290095,
+            "accepted": 16
+          },
+          {
+            "pass": 3,
+            "SW": 0.2590495493211295,
+            "accepted": 4
+          },
+          {
+            "pass": 4,
+            "SW": 0.2625214303368066,
+            "accepted": 11
+          },
+          {
+            "pass": 5,
+            "SW": 0.26365860723258294,
+            "accepted": 4
+          },
+          {
+            "pass": 6,
+            "SW": 0.26418971432174837,
+            "accepted": 3
+          },
+          {
+            "pass": 7,
+            "SW": 0.26418971432174837,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.26428596878424393,
+            "accepted": 2
+          }
+        ],
+        "maximum_common_space_sse": 494.4784859701557,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          66,
+          1096,
+          417,
+          437
+        ]
+      }
+    },
+    {
+      "draw": 4,
+      "seed": 2204,
+      "month_indices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        1,
+        2,
+        3,
+        10,
+        11,
+        0
+      ],
+      "ARI": 0.9180920211454798,
+      "cluster_sizes": [
+        1144,
+        308,
+        120,
+        444
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23876695566481007,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24647307299499527,
+            "accepted": 18
+          },
+          {
+            "pass": 2,
+            "SW": 0.2521665993192036,
+            "accepted": 18
+          },
+          {
+            "pass": 3,
+            "SW": 0.25574730348861385,
+            "accepted": 14
+          },
+          {
+            "pass": 4,
+            "SW": 0.2564923278548492,
+            "accepted": 5
+          },
+          {
+            "pass": 5,
+            "SW": 0.25667332953925764,
+            "accepted": 4
+          },
+          {
+            "pass": 6,
+            "SW": 0.2577371887726349,
+            "accepted": 4
+          },
+          {
+            "pass": 7,
+            "SW": 0.258136780783824,
+            "accepted": 4
+          },
+          {
+            "pass": 8,
+            "SW": 0.2581694900101738,
+            "accepted": 1
+          }
+        ],
+        "maximum_common_space_sse": 473.4354495690988,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1144,
+          308,
+          120,
+          444
+        ]
+      }
+    },
+    {
+      "draw": 5,
+      "seed": 2205,
+      "month_indices": [
+        10,
+        11,
+        0,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        8,
+        9,
+        10
+      ],
+      "ARI": 0.8478201244798922,
+      "cluster_sizes": [
+        125,
+        294,
+        1109,
+        488
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.2500158324419409,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2553726899153841,
+            "accepted": 15
+          },
+          {
+            "pass": 2,
+            "SW": 0.2605547526978021,
+            "accepted": 18
+          },
+          {
+            "pass": 3,
+            "SW": 0.26323927923892904,
+            "accepted": 10
+          },
+          {
+            "pass": 4,
+            "SW": 0.2639543527202097,
+            "accepted": 5
+          },
+          {
+            "pass": 5,
+            "SW": 0.26454957054577294,
+            "accepted": 3
+          },
+          {
+            "pass": 6,
+            "SW": 0.26454957054577294,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.26459659941793107,
+            "accepted": 2
+          },
+          {
+            "pass": 8,
+            "SW": 0.2646241813786865,
+            "accepted": 1
+          }
+        ],
+        "maximum_common_space_sse": 491.7532567242194,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          125,
+          294,
+          1109,
+          488
+        ]
+      }
+    },
+    {
+      "draw": 6,
+      "seed": 2206,
+      "month_indices": [
+        10,
+        11,
+        0,
+        7,
+        8,
+        9,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0
+      ],
+      "ARI": 0.8727439024256891,
+      "cluster_sizes": [
+        114,
+        1137,
+        325,
+        440
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.2444836201484744,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.25122272379461635,
+            "accepted": 19
+          },
+          {
+            "pass": 2,
+            "SW": 0.25636699330846724,
+            "accepted": 15
+          },
+          {
+            "pass": 3,
+            "SW": 0.26146644642902706,
+            "accepted": 15
+          },
+          {
+            "pass": 4,
+            "SW": 0.2616475239204284,
+            "accepted": 2
+          },
+          {
+            "pass": 5,
+            "SW": 0.2616475239204284,
+            "accepted": 0
+          },
+          {
+            "pass": 6,
+            "SW": 0.2620650762720313,
+            "accepted": 3
+          },
+          {
+            "pass": 7,
+            "SW": 0.2620650762720313,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.2620650762720313,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 484.6888188561177,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          114,
+          1137,
+          325,
+          440
+        ]
+      }
+    },
+    {
+      "draw": 7,
+      "seed": 2207,
+      "month_indices": [
+        8,
+        9,
+        10,
+        7,
+        8,
+        9,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "ARI": 0.8709726674812802,
+      "cluster_sizes": [
+        306,
+        1150,
+        116,
+        444
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.24475140322695907,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.25043491009894214,
+            "accepted": 15
+          },
+          {
+            "pass": 2,
+            "SW": 0.25669883115722314,
+            "accepted": 15
+          },
+          {
+            "pass": 3,
+            "SW": 0.25992149746921017,
+            "accepted": 14
+          },
+          {
+            "pass": 4,
+            "SW": 0.2604835731313701,
+            "accepted": 5
+          },
+          {
+            "pass": 5,
+            "SW": 0.26075656908725453,
+            "accepted": 1
+          },
+          {
+            "pass": 6,
+            "SW": 0.26075656908725453,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.26075656908725453,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.2608426343913684,
+            "accepted": 1
+          }
+        ],
+        "maximum_common_space_sse": 500.77352610316206,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          306,
+          1150,
+          116,
+          444
+        ]
+      }
+    },
+    {
+      "draw": 8,
+      "seed": 2208,
+      "month_indices": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        4,
+        5,
+        6,
+        5,
+        6,
+        7
+      ],
+      "ARI": 0.9206332716996379,
+      "cluster_sizes": [
+        103,
+        307,
+        452,
+        1154
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.24472088764099892,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2519586691460125,
+            "accepted": 17
+          },
+          {
+            "pass": 2,
+            "SW": 0.2580684185518546,
+            "accepted": 19
+          },
+          {
+            "pass": 3,
+            "SW": 0.26138639973469635,
+            "accepted": 10
+          },
+          {
+            "pass": 4,
+            "SW": 0.26174388867340703,
+            "accepted": 3
+          },
+          {
+            "pass": 5,
+            "SW": 0.2623434472157695,
+            "accepted": 2
+          },
+          {
+            "pass": 6,
+            "SW": 0.2623607223239589,
+            "accepted": 1
+          },
+          {
+            "pass": 7,
+            "SW": 0.2623607223239589,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.2623607223239589,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 490.05657371709464,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          103,
+          307,
+          452,
+          1154
+        ]
+      }
+    },
+    {
+      "draw": 9,
+      "seed": 2209,
+      "month_indices": [
+        7,
+        8,
+        9,
+        3,
+        4,
+        5,
+        11,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.9114481688998501,
+      "cluster_sizes": [
+        1165,
+        303,
+        103,
+        445
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23303441133125014,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24279010540389342,
+            "accepted": 20
+          },
+          {
+            "pass": 2,
+            "SW": 0.2519361441965613,
+            "accepted": 18
+          },
+          {
+            "pass": 3,
+            "SW": 0.2536654511552134,
+            "accepted": 9
+          },
+          {
+            "pass": 4,
+            "SW": 0.2538155057286148,
+            "accepted": 2
+          },
+          {
+            "pass": 5,
+            "SW": 0.2538155057286148,
+            "accepted": 0
+          },
+          {
+            "pass": 6,
+            "SW": 0.25403669085246977,
+            "accepted": 2
+          },
+          {
+            "pass": 7,
+            "SW": 0.25420118529271835,
+            "accepted": 4
+          },
+          {
+            "pass": 8,
+            "SW": 0.2544468964111458,
+            "accepted": 4
+          }
+        ],
+        "maximum_common_space_sse": 473.0917721248498,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1165,
+          303,
+          103,
+          445
+        ]
+      }
+    },
+    {
+      "draw": 10,
+      "seed": 2210,
+      "month_indices": [
+        9,
+        10,
+        11,
+        9,
+        10,
+        11,
+        2,
+        3,
+        4,
+        2,
+        3,
+        4
+      ],
+      "ARI": 0.7075648758373435,
+      "cluster_sizes": [
+        1050,
+        470,
+        66,
+        430
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.24017665224898702,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24560920427128977,
+            "accepted": 18
+          },
+          {
+            "pass": 2,
+            "SW": 0.2526799803213357,
+            "accepted": 18
+          },
+          {
+            "pass": 3,
+            "SW": 0.2569395045499342,
+            "accepted": 8
+          },
+          {
+            "pass": 4,
+            "SW": 0.2576556870436593,
+            "accepted": 6
+          },
+          {
+            "pass": 5,
+            "SW": 0.2612934608804345,
+            "accepted": 12
+          },
+          {
+            "pass": 6,
+            "SW": 0.26309469339488517,
+            "accepted": 7
+          },
+          {
+            "pass": 7,
+            "SW": 0.2633200127748035,
+            "accepted": 3
+          },
+          {
+            "pass": 8,
+            "SW": 0.2638141074463763,
+            "accepted": 3
+          }
+        ],
+        "maximum_common_space_sse": 489.8608860637806,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1050,
+          470,
+          66,
+          430
+        ]
+      }
+    },
+    {
+      "draw": 11,
+      "seed": 2211,
+      "month_indices": [
+        0,
+        1,
+        2,
+        9,
+        10,
+        11,
+        8,
+        9,
+        10,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.7684353528456777,
+      "cluster_sizes": [
+        79,
+        410,
+        1118,
+        409
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.2318283278713472,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.23891271057358152,
+            "accepted": 19
+          },
+          {
+            "pass": 2,
+            "SW": 0.25002509658009053,
+            "accepted": 17
+          },
+          {
+            "pass": 3,
+            "SW": 0.2573768675798464,
+            "accepted": 11
+          },
+          {
+            "pass": 4,
+            "SW": 0.2594419866734802,
+            "accepted": 6
+          },
+          {
+            "pass": 5,
+            "SW": 0.25967067925088533,
+            "accepted": 2
+          },
+          {
+            "pass": 6,
+            "SW": 0.2599332337529043,
+            "accepted": 4
+          },
+          {
+            "pass": 7,
+            "SW": 0.26036294982703784,
+            "accepted": 1
+          },
+          {
+            "pass": 8,
+            "SW": 0.26036294982703784,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 458.8677341679261,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          79,
+          410,
+          1118,
+          409
+        ]
+      }
+    },
+    {
+      "draw": 12,
+      "seed": 2212,
+      "month_indices": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        4,
+        5,
+        6,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.6906369010825646,
+      "cluster_sizes": [
+        1088,
+        445,
+        420,
+        63
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23673670941701944,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24629275535495376,
+            "accepted": 22
+          },
+          {
+            "pass": 2,
+            "SW": 0.25163156727282265,
+            "accepted": 11
+          },
+          {
+            "pass": 3,
+            "SW": 0.2607947095991871,
+            "accepted": 13
+          },
+          {
+            "pass": 4,
+            "SW": 0.26391837088812337,
+            "accepted": 7
+          },
+          {
+            "pass": 5,
+            "SW": 0.26472497250744115,
+            "accepted": 5
+          },
+          {
+            "pass": 6,
+            "SW": 0.26472497250744115,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.26493582677655203,
+            "accepted": 2
+          },
+          {
+            "pass": 8,
+            "SW": 0.2653777315093096,
+            "accepted": 2
+          }
+        ],
+        "maximum_common_space_sse": 477.3538197564694,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1088,
+          445,
+          420,
+          63
+        ]
+      }
+    },
+    {
+      "draw": 13,
+      "seed": 2213,
+      "month_indices": [
+        11,
+        0,
+        1,
+        10,
+        11,
+        0,
+        4,
+        5,
+        6,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.689446769502954,
+      "cluster_sizes": [
+        400,
+        1103,
+        63,
+        450
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.22887115415059983,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.23864586218943504,
+            "accepted": 17
+          },
+          {
+            "pass": 2,
+            "SW": 0.247107412750092,
+            "accepted": 19
+          },
+          {
+            "pass": 3,
+            "SW": 0.25299906929964494,
+            "accepted": 17
+          },
+          {
+            "pass": 4,
+            "SW": 0.25970017309270704,
+            "accepted": 8
+          },
+          {
+            "pass": 5,
+            "SW": 0.2672202024622425,
+            "accepted": 10
+          },
+          {
+            "pass": 6,
+            "SW": 0.2682298457466302,
+            "accepted": 4
+          },
+          {
+            "pass": 7,
+            "SW": 0.2682298457466302,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.2685083059209128,
+            "accepted": 1
+          }
+        ],
+        "maximum_common_space_sse": 467.16369228056766,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          400,
+          1103,
+          63,
+          450
+        ]
+      }
+    },
+    {
+      "draw": 14,
+      "seed": 2214,
+      "month_indices": [
+        4,
+        5,
+        6,
+        3,
+        4,
+        5,
+        10,
+        11,
+        0,
+        1,
+        2,
+        3
+      ],
+      "ARI": 0.8862867287131619,
+      "cluster_sizes": [
+        322,
+        1159,
+        80,
+        455
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.24251600341149918,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2500397637485445,
+            "accepted": 18
+          },
+          {
+            "pass": 2,
+            "SW": 0.25834669713836644,
+            "accepted": 18
+          },
+          {
+            "pass": 3,
+            "SW": 0.26047915358994866,
+            "accepted": 10
+          },
+          {
+            "pass": 4,
+            "SW": 0.2605744300631996,
+            "accepted": 1
+          },
+          {
+            "pass": 5,
+            "SW": 0.2605744300631996,
+            "accepted": 0
+          },
+          {
+            "pass": 6,
+            "SW": 0.2605744300631996,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.260926798260167,
+            "accepted": 2
+          },
+          {
+            "pass": 8,
+            "SW": 0.260926798260167,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 496.34475978481777,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          322,
+          1159,
+          80,
+          455
+        ]
+      }
+    },
+    {
+      "draw": 15,
+      "seed": 2215,
+      "month_indices": [
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        11,
+        0,
+        1,
+        10,
+        11,
+        0
+      ],
+      "ARI": 0.8940660679368606,
+      "cluster_sizes": [
+        455,
+        323,
+        93,
+        1145
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.24149832649814393,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24823260863246366,
+            "accepted": 18
+          },
+          {
+            "pass": 2,
+            "SW": 0.24976865927258707,
+            "accepted": 13
+          },
+          {
+            "pass": 3,
+            "SW": 0.2591313783324863,
+            "accepted": 18
+          },
+          {
+            "pass": 4,
+            "SW": 0.2607357384617126,
+            "accepted": 9
+          },
+          {
+            "pass": 5,
+            "SW": 0.2607511223121047,
+            "accepted": 1
+          },
+          {
+            "pass": 6,
+            "SW": 0.26076572037549817,
+            "accepted": 1
+          },
+          {
+            "pass": 7,
+            "SW": 0.2607664762271653,
+            "accepted": 1
+          },
+          {
+            "pass": 8,
+            "SW": 0.2607935041616323,
+            "accepted": 1
+          }
+        ],
+        "maximum_common_space_sse": 485.000764346907,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          455,
+          323,
+          93,
+          1145
+        ]
+      }
+    },
+    {
+      "draw": 16,
+      "seed": 2216,
+      "month_indices": [
+        11,
+        0,
+        1,
+        5,
+        6,
+        7,
+        7,
+        8,
+        9,
+        9,
+        10,
+        11
+      ],
+      "ARI": 0.8786005913914402,
+      "cluster_sizes": [
+        1126,
+        291,
+        480,
+        119
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.24508063998812601,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.25210023344345883,
+            "accepted": 15
+          },
+          {
+            "pass": 2,
+            "SW": 0.25762152838605773,
+            "accepted": 19
+          },
+          {
+            "pass": 3,
+            "SW": 0.26114251656255844,
+            "accepted": 12
+          },
+          {
+            "pass": 4,
+            "SW": 0.2619781832605544,
+            "accepted": 5
+          },
+          {
+            "pass": 5,
+            "SW": 0.26250532661630654,
+            "accepted": 4
+          },
+          {
+            "pass": 6,
+            "SW": 0.26250532661630654,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.26250532661630654,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.26250532661630654,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 482.5155249487828,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1126,
+          291,
+          480,
+          119
+        ]
+      }
+    },
+    {
+      "draw": 17,
+      "seed": 2217,
+      "month_indices": [
+        3,
+        4,
+        5,
+        5,
+        6,
+        7,
+        4,
+        5,
+        6,
+        6,
+        7,
+        8
+      ],
+      "ARI": 0.8761718971310839,
+      "cluster_sizes": [
+        1155,
+        283,
+        96,
+        482
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.24765157563193876,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2555874041395993,
+            "accepted": 20
+          },
+          {
+            "pass": 2,
+            "SW": 0.25992904052862137,
+            "accepted": 14
+          },
+          {
+            "pass": 3,
+            "SW": 0.2637833932759554,
+            "accepted": 12
+          },
+          {
+            "pass": 4,
+            "SW": 0.26508841553849943,
+            "accepted": 8
+          },
+          {
+            "pass": 5,
+            "SW": 0.2652628443101552,
+            "accepted": 1
+          },
+          {
+            "pass": 6,
+            "SW": 0.2652628443101552,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.26535236152644903,
+            "accepted": 2
+          },
+          {
+            "pass": 8,
+            "SW": 0.26535236152644903,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 512.0626641347284,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1155,
+          283,
+          96,
+          482
+        ]
+      }
+    },
+    {
+      "draw": 18,
+      "seed": 2218,
+      "month_indices": [
+        9,
+        10,
+        11,
+        2,
+        3,
+        4,
+        3,
+        4,
+        5,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.7324805075626409,
+      "cluster_sizes": [
+        61,
+        1094,
+        416,
+        445
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23835299296250748,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24753530982568495,
+            "accepted": 19
+          },
+          {
+            "pass": 2,
+            "SW": 0.25455133914234707,
+            "accepted": 13
+          },
+          {
+            "pass": 3,
+            "SW": 0.2607708964745075,
+            "accepted": 11
+          },
+          {
+            "pass": 4,
+            "SW": 0.26458543385222366,
+            "accepted": 7
+          },
+          {
+            "pass": 5,
+            "SW": 0.2648271900711084,
+            "accepted": 2
+          },
+          {
+            "pass": 6,
+            "SW": 0.2648271900711084,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.26503900883858533,
+            "accepted": 3
+          },
+          {
+            "pass": 8,
+            "SW": 0.26503900883858533,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 491.6032782225573,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          61,
+          1094,
+          416,
+          445
+        ]
+      }
+    },
+    {
+      "draw": 19,
+      "seed": 2219,
+      "month_indices": [
+        8,
+        9,
+        10,
+        8,
+        9,
+        10,
+        4,
+        5,
+        6,
+        5,
+        6,
+        7
+      ],
+      "ARI": 0.8287395051531103,
+      "cluster_sizes": [
+        511,
+        295,
+        116,
+        1094
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.2510757514551422,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2570420015930358,
+            "accepted": 16
+          },
+          {
+            "pass": 2,
+            "SW": 0.2615869060537148,
+            "accepted": 15
+          },
+          {
+            "pass": 3,
+            "SW": 0.26454084336272554,
+            "accepted": 16
+          },
+          {
+            "pass": 4,
+            "SW": 0.26725020395215865,
+            "accepted": 8
+          },
+          {
+            "pass": 5,
+            "SW": 0.2672740292960283,
+            "accepted": 1
+          },
+          {
+            "pass": 6,
+            "SW": 0.2672740292960283,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.2673299540722671,
+            "accepted": 2
+          },
+          {
+            "pass": 8,
+            "SW": 0.2673299540722671,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 495.65441404929027,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          511,
+          295,
+          116,
+          1094
+        ]
+      }
+    },
+    {
+      "draw": 20,
+      "seed": 2220,
+      "month_indices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        10,
+        11,
+        0,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.8914333980034674,
+      "cluster_sizes": [
+        1149,
+        328,
+        419,
+        120
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23528034574488862,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2430143186535916,
+            "accepted": 18
+          },
+          {
+            "pass": 2,
+            "SW": 0.2486121665239101,
+            "accepted": 15
+          },
+          {
+            "pass": 3,
+            "SW": 0.25161222395861665,
+            "accepted": 11
+          },
+          {
+            "pass": 4,
+            "SW": 0.25187314397783417,
+            "accepted": 2
+          },
+          {
+            "pass": 5,
+            "SW": 0.2519805121438448,
+            "accepted": 2
+          },
+          {
+            "pass": 6,
+            "SW": 0.2533295602839596,
+            "accepted": 3
+          },
+          {
+            "pass": 7,
+            "SW": 0.2537909845944252,
+            "accepted": 3
+          },
+          {
+            "pass": 8,
+            "SW": 0.2538959347414593,
+            "accepted": 1
+          }
+        ],
+        "maximum_common_space_sse": 469.4710515104505,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1149,
+          328,
+          419,
+          120
+        ]
+      }
+    },
+    {
+      "draw": 21,
+      "seed": 2221,
+      "month_indices": [
+        9,
+        10,
+        11,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.8855766579862301,
+      "cluster_sizes": [
+        1130,
+        129,
+        284,
+        473
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.24107708859704577,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24825424417394276,
+            "accepted": 19
+          },
+          {
+            "pass": 2,
+            "SW": 0.25420740035589967,
+            "accepted": 18
+          },
+          {
+            "pass": 3,
+            "SW": 0.2576734148463727,
+            "accepted": 14
+          },
+          {
+            "pass": 4,
+            "SW": 0.258188715612601,
+            "accepted": 7
+          },
+          {
+            "pass": 5,
+            "SW": 0.2585139186670483,
+            "accepted": 4
+          },
+          {
+            "pass": 6,
+            "SW": 0.2585139186670483,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.2585272111781932,
+            "accepted": 1
+          },
+          {
+            "pass": 8,
+            "SW": 0.2585522020491957,
+            "accepted": 3
+          }
+        ],
+        "maximum_common_space_sse": 480.5640011595519,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1130,
+          129,
+          284,
+          473
+        ]
+      }
+    },
+    {
+      "draw": 22,
+      "seed": 2222,
+      "month_indices": [
+        10,
+        11,
+        0,
+        3,
+        4,
+        5,
+        3,
+        4,
+        5,
+        3,
+        4,
+        5
+      ],
+      "ARI": 0.8624726332767245,
+      "cluster_sizes": [
+        461,
+        1150,
+        327,
+        78
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.24187423136475117,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24667244749634573,
+            "accepted": 13
+          },
+          {
+            "pass": 2,
+            "SW": 0.2541169327634059,
+            "accepted": 20
+          },
+          {
+            "pass": 3,
+            "SW": 0.25834955152237116,
+            "accepted": 9
+          },
+          {
+            "pass": 4,
+            "SW": 0.2597310864193019,
+            "accepted": 6
+          },
+          {
+            "pass": 5,
+            "SW": 0.2597310864193019,
+            "accepted": 0
+          },
+          {
+            "pass": 6,
+            "SW": 0.26001794998352473,
+            "accepted": 2
+          },
+          {
+            "pass": 7,
+            "SW": 0.26001794998352473,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.26001794998352473,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 524.101336644412,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          461,
+          1150,
+          327,
+          78
+        ]
+      }
+    },
+    {
+      "draw": 23,
+      "seed": 2223,
+      "month_indices": [
+        8,
+        9,
+        10,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        10,
+        11,
+        0
+      ],
+      "ARI": 0.9086809980799998,
+      "cluster_sizes": [
+        1148,
+        304,
+        127,
+        437
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.2447577146615246,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.25214427013901125,
+            "accepted": 18
+          },
+          {
+            "pass": 2,
+            "SW": 0.25540578381637147,
+            "accepted": 11
+          },
+          {
+            "pass": 3,
+            "SW": 0.2615299316854448,
+            "accepted": 12
+          },
+          {
+            "pass": 4,
+            "SW": 0.2618990496897731,
+            "accepted": 4
+          },
+          {
+            "pass": 5,
+            "SW": 0.2618990496897731,
+            "accepted": 0
+          },
+          {
+            "pass": 6,
+            "SW": 0.2618990496897731,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.2619436479391972,
+            "accepted": 1
+          },
+          {
+            "pass": 8,
+            "SW": 0.2619436479391972,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 484.80677465860913,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1148,
+          304,
+          127,
+          437
+        ]
+      }
+    },
+    {
+      "draw": 24,
+      "seed": 2224,
+      "month_indices": [
+        1,
+        2,
+        3,
+        8,
+        9,
+        10,
+        0,
+        1,
+        2,
+        9,
+        10,
+        11
+      ],
+      "ARI": 0.7491737999963645,
+      "cluster_sizes": [
+        88,
+        396,
+        1107,
+        425
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23300707448308086,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24190262219244418,
+            "accepted": 18
+          },
+          {
+            "pass": 2,
+            "SW": 0.25055183972019823,
+            "accepted": 15
+          },
+          {
+            "pass": 3,
+            "SW": 0.255324305131962,
+            "accepted": 12
+          },
+          {
+            "pass": 4,
+            "SW": 0.25681832491627915,
+            "accepted": 9
+          },
+          {
+            "pass": 5,
+            "SW": 0.2579942564691945,
+            "accepted": 4
+          },
+          {
+            "pass": 6,
+            "SW": 0.2579942564691945,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.2579949218251364,
+            "accepted": 1
+          },
+          {
+            "pass": 8,
+            "SW": 0.2579949218251364,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 469.8480101479552,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          88,
+          396,
+          1107,
+          425
+        ]
+      }
+    },
+    {
+      "draw": 25,
+      "seed": 2225,
+      "month_indices": [
+        6,
+        7,
+        8,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.9380940322954171,
+      "cluster_sizes": [
+        1170,
+        324,
+        118,
+        404
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23615677899618828,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24453155284173494,
+            "accepted": 17
+          },
+          {
+            "pass": 2,
+            "SW": 0.24875298611877059,
+            "accepted": 13
+          },
+          {
+            "pass": 3,
+            "SW": 0.2540753115257139,
+            "accepted": 18
+          },
+          {
+            "pass": 4,
+            "SW": 0.25510860106757277,
+            "accepted": 5
+          },
+          {
+            "pass": 5,
+            "SW": 0.25559654053021263,
+            "accepted": 5
+          },
+          {
+            "pass": 6,
+            "SW": 0.25564142547574464,
+            "accepted": 1
+          },
+          {
+            "pass": 7,
+            "SW": 0.25564142547574464,
+            "accepted": 0
+          },
+          {
+            "pass": 8,
+            "SW": 0.25567789618929343,
+            "accepted": 2
+          }
+        ],
+        "maximum_common_space_sse": 471.8255874817751,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1170,
+          324,
+          118,
+          404
+        ]
+      }
+    },
+    {
+      "draw": 26,
+      "seed": 2226,
+      "month_indices": [
+        9,
+        10,
+        11,
+        6,
+        7,
+        8,
+        1,
+        2,
+        3,
+        9,
+        10,
+        11
+      ],
+      "ARI": 0.852338037964912,
+      "cluster_sizes": [
+        1138,
+        292,
+        465,
+        121
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.24292929920510234,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.25006181178304093,
+            "accepted": 17
+          },
+          {
+            "pass": 2,
+            "SW": 0.2556839917673606,
+            "accepted": 15
+          },
+          {
+            "pass": 3,
+            "SW": 0.25779869617921,
+            "accepted": 9
+          },
+          {
+            "pass": 4,
+            "SW": 0.2594213480141149,
+            "accepted": 9
+          },
+          {
+            "pass": 5,
+            "SW": 0.2599504359770347,
+            "accepted": 3
+          },
+          {
+            "pass": 6,
+            "SW": 0.2599504359770347,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.25998929978794943,
+            "accepted": 1
+          },
+          {
+            "pass": 8,
+            "SW": 0.2600191848691831,
+            "accepted": 1
+          }
+        ],
+        "maximum_common_space_sse": 482.7011489114402,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1138,
+          292,
+          465,
+          121
+        ]
+      }
+    },
+    {
+      "draw": 27,
+      "seed": 2227,
+      "month_indices": [
+        7,
+        8,
+        9,
+        9,
+        10,
+        11,
+        11,
+        0,
+        1,
+        6,
+        7,
+        8
+      ],
+      "ARI": 0.8820288383492558,
+      "cluster_sizes": [
+        129,
+        467,
+        1133,
+        287
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.2421502517275849,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24938816473285746,
+            "accepted": 17
+          },
+          {
+            "pass": 2,
+            "SW": 0.2526096658544952,
+            "accepted": 16
+          },
+          {
+            "pass": 3,
+            "SW": 0.25970591313601493,
+            "accepted": 19
+          },
+          {
+            "pass": 4,
+            "SW": 0.2607627979037436,
+            "accepted": 7
+          },
+          {
+            "pass": 5,
+            "SW": 0.2611092358401334,
+            "accepted": 3
+          },
+          {
+            "pass": 6,
+            "SW": 0.2611092358401334,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.2614574846455099,
+            "accepted": 5
+          },
+          {
+            "pass": 8,
+            "SW": 0.26151924132390103,
+            "accepted": 3
+          }
+        ],
+        "maximum_common_space_sse": 484.1987316358958,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          129,
+          467,
+          1133,
+          287
+        ]
+      }
+    },
+    {
+      "draw": 28,
+      "seed": 2228,
+      "month_indices": [
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        8,
+        9,
+        10,
+        10,
+        11,
+        0
+      ],
+      "ARI": 0.8825504605559013,
+      "cluster_sizes": [
+        1137,
+        440,
+        116,
+        323
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.248949757622505,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.2542213700185855,
+            "accepted": 16
+          },
+          {
+            "pass": 2,
+            "SW": 0.26009660736117657,
+            "accepted": 16
+          },
+          {
+            "pass": 3,
+            "SW": 0.2645843150189723,
+            "accepted": 12
+          },
+          {
+            "pass": 4,
+            "SW": 0.26460970362735603,
+            "accepted": 1
+          },
+          {
+            "pass": 5,
+            "SW": 0.26460970362735603,
+            "accepted": 0
+          },
+          {
+            "pass": 6,
+            "SW": 0.26460970362735603,
+            "accepted": 0
+          },
+          {
+            "pass": 7,
+            "SW": 0.2646860021027627,
+            "accepted": 3
+          },
+          {
+            "pass": 8,
+            "SW": 0.2647051968259451,
+            "accepted": 1
+          }
+        ],
+        "maximum_common_space_sse": 490.5972429424377,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          1137,
+          440,
+          116,
+          323
+        ]
+      }
+    },
+    {
+      "draw": 29,
+      "seed": 2229,
+      "month_indices": [
+        7,
+        8,
+        9,
+        0,
+        1,
+        2,
+        6,
+        7,
+        8,
+        0,
+        1,
+        2
+      ],
+      "ARI": 0.6180086069658258,
+      "cluster_sizes": [
+        61,
+        1015,
+        463,
+        477
+      ],
+      "fit": {
+        "huber_iterations": 0,
+        "min_required_size": 61,
+        "eligible_occupancy": true,
+        "trace": [
+          {
+            "pass": 0,
+            "SW": 0.23478697113877478,
+            "accepted": 0
+          },
+          {
+            "pass": 1,
+            "SW": 0.24516655855080624,
+            "accepted": 19
+          },
+          {
+            "pass": 2,
+            "SW": 0.25356897671665485,
+            "accepted": 18
+          },
+          {
+            "pass": 3,
+            "SW": 0.2582925495751681,
+            "accepted": 8
+          },
+          {
+            "pass": 4,
+            "SW": 0.26429979161099226,
+            "accepted": 8
+          },
+          {
+            "pass": 5,
+            "SW": 0.2658384284965378,
+            "accepted": 3
+          },
+          {
+            "pass": 6,
+            "SW": 0.2665987711438247,
+            "accepted": 3
+          },
+          {
+            "pass": 7,
+            "SW": 0.2666141176762564,
+            "accepted": 1
+          },
+          {
+            "pass": 8,
+            "SW": 0.2666141176762564,
+            "accepted": 0
+          }
+        ],
+        "maximum_common_space_sse": 456.6736206798523,
+        "occupied_k": 4,
+        "cluster_sizes": [
+          61,
+          1015,
+          463,
+          477
+        ]
+      }
+    }
+  ]
+}

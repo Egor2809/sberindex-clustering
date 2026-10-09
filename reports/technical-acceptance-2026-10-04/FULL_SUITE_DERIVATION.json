@@ -1,0 +1,24 @@
+{
+  "scope": "Only checkout and temporary directory paths replaced; checks, metrics and all source hashes preserved",
+  "originals_retained_privately": true,
+  "files": [
+    {
+      "file": "full-suite.json",
+      "original_sha256": "4ec2e3c17579fa72933cc6c66695617b4e29432d26008ac59f3f1b94b7c10093",
+      "derived_sha256": "4ec2e3c17579fa72933cc6c66695617b4e29432d26008ac59f3f1b94b7c10093",
+      "path_replacements": 0
+    },
+    {
+      "file": "full-tests.log",
+      "original_sha256": "21e06b2163b8602c9a8b8714abe2276b1d74e1a3f6581d3b856946beb1b834b2",
+      "derived_sha256": "f48e8ade1aec6d1626fd9e6a14586f74a8af076db393967f5fcdae3415a50491",
+      "path_replacements": 10
+    },
+    {
+      "file": "full-compile.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "path_replacements": 0
+    }
+  ]
+}

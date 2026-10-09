@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "scope": "Technical and metadata evidence; actual2025 score held",
+  "files": {
+    "context/contract.json": {
+      "sha256": "1954c73a4c2d9fb90b7ade073ca647919a873fa838fb67b6ebacb7b9f37f84fc",
+      "bytes": 2984
+    },
+    "context/membership.json": {
+      "sha256": "dccf766a1166312ceb29212aa6f0a0631c098257da39a39246ca2af297ea86b6",
+      "bytes": 541248
+    },
+    "context/source-metadata.csv": {
+      "sha256": "9c261179f371436b4c876c088ade343dc2830c64d85395cda39b40e07fa55289",
+      "bytes": 1259016
+    },
+    "INPUT_CHECK.json": {
+      "sha256": "0d18f9e37d60d74c74dd134f18bdf9f29b772d420897313af84fa22e4aaa3eb5",
+      "bytes": 686
+    },
+    "README.md": {
+      "sha256": "20c8926664b525e3d15da5fe0e855f5bf4024e4f24bf4dbd0257a5445ddf8ea5",
+      "bytes": 3706
+    },
+    "STATUS.json": {
+      "sha256": "bc9cdae6b590c110da64e019301b9c293b0f0ca02715fe195781ac6e7dd1e8a7",
+      "bytes": 750
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "IMPLEMENTED_AND_SYNTHETICALLY_ACCEPTED; ACTUAL_SCORE_HELD",
+  "actual_2025_values_opened": false,
+  "actual_2025_score_executed": false,
+  "fixed_entities": 1797,
+  "fixed_regions": 72,
+  "metadata_admitted": 1564,
+  "metadata_history_flags": 69,
+  "contract_sha256": "1954c73a4c2d9fb90b7ade073ca647919a873fa838fb67b6ebacb7b9f37f84fc",
+  "module_sha256": "b58fa23f12d974e4ddeefad0788de9e7b498588881bc6141abe1e5c8eccf02e8",
+  "limits": [
+    "Registry identity independently checked locally; external Pro did not have registry bytes",
+    "Geographic continuity unknown",
+    "No measured future-endpoint loss or superiority claim"
+  ],
+  "actual_input_pins_checked": true,
+  "values_decoded_for_input_check": false
+}

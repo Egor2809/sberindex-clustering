@@ -1,0 +1,172 @@
+{
+  "n": 2016,
+  "matching": "exact eight-digit OKTMO (panel code without dashes and the trailing 000); ambiguous codes are left empty",
+  "sources": {
+    "rosstat": {
+      "file": "rosstat-bul-mo-2024.xlsx",
+      "sha256": "c831e1b408a6a21e061074f0b3a5a04c2e3bb4f8eabae6c72edff55185e921bd"
+    },
+    "population": {
+      "file": "bdpmo-population-2023.csv",
+      "sha256": "2b3e5b6be0e300c62db5874017b2a77d96df1360e4c9b2d1a4133109eb5e52e4"
+    },
+    "headcount": {
+      "file": "bdpmo-headcount-2023.csv",
+      "sha256": "0eaf371181194530d7d55f5bff77de83144e4e93cc2ef5ec95b3d64298f58742"
+    },
+    "wage": {
+      "file": "bdpmo-wage-2023.csv",
+      "sha256": "4c07311e07717b92f2b978c523a45d43c4dc5eb5c799d6bc114e62c4b468a35e"
+    }
+  },
+  "status": {
+    "rosstat_status": {
+      "matched": 1756,
+      "no_code_match": 260
+    },
+    "bdpmo_population_status": {
+      "matched": 1869,
+      "no_code_match": 147
+    },
+    "wage_status": {
+      "matched": 2016
+    },
+    "headcount_status": {
+      "matched": 2016
+    },
+    "population_source": {
+      "bdpmo_2023": 255,
+      "none": 5,
+      "rosstat_2024": 1756
+    }
+  },
+  "coverage": {
+    "population": {
+      "all": 2011,
+      "by_cluster": {
+        "0": 643,
+        "1": 859,
+        "2": 385,
+        "3": 124
+      }
+    },
+    "population_2024_rosstat": {
+      "all": 1756,
+      "by_cluster": {
+        "0": 580,
+        "1": 714,
+        "2": 375,
+        "3": 87
+      }
+    },
+    "population_2023_bdpmo": {
+      "all": 1869,
+      "by_cluster": {
+        "0": 632,
+        "1": 834,
+        "2": 285,
+        "3": 118
+      }
+    },
+    "urban_share_2024": {
+      "all": 1756,
+      "by_cluster": {
+        "0": 580,
+        "1": 714,
+        "2": 375,
+        "3": 87
+      }
+    },
+    "above_working_age_share_2023": {
+      "all": 1869,
+      "by_cluster": {
+        "0": 632,
+        "1": 834,
+        "2": 285,
+        "3": 118
+      }
+    },
+    "wage_2023": {
+      "all": 2016,
+      "by_cluster": {
+        "0": 644,
+        "1": 859,
+        "2": 386,
+        "3": 127
+      }
+    },
+    "headcount_2023": {
+      "all": 2016,
+      "by_cluster": {
+        "0": 644,
+        "1": 859,
+        "2": 386,
+        "3": 127
+      }
+    },
+    "jobs_per_1000": {
+      "all": 2011,
+      "by_cluster": {
+        "0": 643,
+        "1": 859,
+        "2": 385,
+        "3": 124
+      }
+    },
+    "share_agriculture": {
+      "all": 1079,
+      "by_cluster": {
+        "0": 395,
+        "1": 486,
+        "2": 107,
+        "3": 91
+      }
+    },
+    "share_mining": {
+      "all": 321,
+      "by_cluster": {
+        "0": 147,
+        "1": 51,
+        "2": 81,
+        "3": 42
+      }
+    },
+    "share_manufacturing": {
+      "all": 1141,
+      "by_cluster": {
+        "0": 459,
+        "1": 313,
+        "2": 327,
+        "3": 42
+      }
+    },
+    "share_trade": {
+      "all": 1926,
+      "by_cluster": {
+        "0": 624,
+        "1": 834,
+        "2": 372,
+        "3": 96
+      }
+    },
+    "share_hospitality": {
+      "all": 801,
+      "by_cluster": {
+        "0": 341,
+        "1": 206,
+        "2": 203,
+        "3": 51
+      }
+    },
+    "share_public_services": {
+      "all": 1748,
+      "by_cluster": {
+        "0": 611,
+        "1": 723,
+        "2": 303,
+        "3": 111
+      }
+    }
+  },
+  "output_sha256": "66f260cf6ba61e8bc708ad29e13f184390611442c422b3694512ca07325a177c"
+}

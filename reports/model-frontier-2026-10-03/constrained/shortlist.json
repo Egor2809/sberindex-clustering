@@ -1,0 +1,8 @@
+{
+  "ids": [
+    "historical_kmeans4",
+    "sw_constrained_huber75",
+    "sw_constrained_ordinary"
+  ],
+  "has_full_gate_pass": true
+}

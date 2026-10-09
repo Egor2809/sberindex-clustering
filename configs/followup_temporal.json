@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "input_glob": "data/raw/*.csv",
+  "seed": 1729,
+  "execution": {
+    "allow_clustering": true,
+    "threads": 2,
+    "task": "followup_v4"
+  },
+  "data_contract": {
+    "identity_mode": "source_territory_id",
+    "stable_territories_verified": false,
+    "measurement_definition_verified": true,
+    "common_denominator_verified": false,
+    "categories_disjoint_verified": false,
+    "evidence": [
+      "reports/source_alignment.json",
+      "docs/DATA_SOURCES.md"
+    ],
+    "temporal_scope": "retrospective_constant_id_sensitivity",
+    "boundary_review_evidence": [
+      "docs/DATA_SOURCES.md",
+      "reports/source_alignment.json",
+      "reports/data_audit.json"
+    ]
+  },
+  "features": {
+    "mode": "log_ratios_to_total",
+    "level_weight": 0.0,
+    "calibration_end": "2023-12-01",
+    "seasonality": "same_month_cross_section"
+  },
+  "graph": {
+    "k": 15,
+    "symmetry": "union",
+    "bandwidth": "median_knn_distance"
+  },
+  "clustering": {
+    "methods": [
+      "kmeans",
+      "ward",
+      "leiden_static"
+    ],
+    "n_clusters": 8,
+    "resolution": 0.7,
+    "temporal_coupling_relative": 0.1,
+    "leiden_iterations": 4
+  },
+  "validation": {
+    "development_end": "2023-12-01",
+    "confirmation_start": "2024-01-01",
+    "confirmation_end": "2024-12-01",
+    "mq_definition": null,
+    "strict_network_undefined": true
+  },
+  "followup": {
+    "stage": "temporal",
+    "output": "runs/review-20260924-temporal",
+    "source_dir": "artifacts/sources/acquisition",
+    "month_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "omegas": [
+      0,
+      0.1
+    ],
+    "graph_layer": "attribute_road",
+    "attribute_graph_weight": 0.5
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "retrieved": "2026-10-01",
+  "sources": [
+    {
+      "file": "rosstat-bul-mo-2024.xlsx",
+      "url": "https://rosstat.gov.ru/storage/mediabank/BUL_MO_2024.xlsx",
+      "landing_page": "https://rosstat.gov.ru/compendium/document/13282",
+      "title": "Численность населения Российской Федерации по муниципальным образованиям на 1 января 2024 года",
+      "publisher": "Росстат",
+      "license": "Официальная статистическая информация Росстата, общедоступна (ст. 9 Федерального закона № 282-ФЗ); использование со ссылкой на источник",
+      "sha256": "c831e1b408a6a21e061074f0b3a5a04c2e3bb4f8eabae6c72edff55185e921bd"
+    },
+    {
+      "file": "bdpmo-population-2023.csv",
+      "url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20250918/by_indicator/data_section31_112_v20250918.zip",
+      "landing_page": "https://tochno.st/datasets/bdmo",
+      "title": "БД ПМО Росстата, Y48112014: численность населения по полу и возрасту на 1 января 2023 года",
+      "publisher": "Росстат; обработка «Если быть точным» (версия 2025-09-18)",
+      "license": "CC BY 4.0",
+      "member": "data_Y48112014_parts/data_Y48112014_year2023_112_v20250918.csv",
+      "member_sha256": "9cc83e512f86c59e390d477c483ff83dff752ba54a972b91e28bd91efe148157",
+      "filters": {
+        "mun_level": [
+          "Муниципальное образование верхнего уровня"
+        ],
+        "indicator_period": [
+          "На 1 января"
+        ],
+        "grup_2": [
+          "Всего"
+        ],
+        "vozr": [
+          "Всего",
+          "Моложе трудоспособного возраста",
+          "Трудоспособный возраст",
+          "Старше трудоспособного возраста"
+        ]
+      },
+      "sha256": "2b3e5b6be0e300c62db5874017b2a77d96df1360e4c9b2d1a4133109eb5e52e4"
+    },
+    {
+      "file": "bdpmo-headcount-2023.csv",
+      "url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20250918/by_indicator/data_section32_112_v20250918.zip",
+      "landing_page": "https://tochno.st/datasets/bdmo",
+      "title": "БД ПМО Росстата, Y48423005: среднесписочная численность работников организаций (без субъектов малого предпринимательства) по видам деятельности, 2023 год",
+      "publisher": "Росстат; обработка «Если быть точным» (версия 2025-09-18)",
+      "license": "CC BY 4.0",
+      "member": "data_Y48423005_parts/data_Y48423005_year2023_112_v20250918.csv",
+      "member_sha256": "e2cc8f029abd940fc301ea6f13e1c565fdd08803d626cc8e3836b3fe64858e42",
+      "filters": {
+        "mun_level": [
+          "Муниципальное образование верхнего уровня"
+        ],
+        "indicator_period": [
+          "Январь-декабрь"
+        ]
+      },
+      "sha256": "0eaf371181194530d7d55f5bff77de83144e4e93cc2ef5ec95b3d64298f58742"
+    },
+    {
+      "file": "bdpmo-wage-2023.csv",
+      "url": "https://storage.yandexcloud.net/tochno-st-catalog/Rosstat/data_bdmo_118_v20250918/by_indicator/data_section32_112_v20250918.zip",
+      "landing_page": "https://tochno.st/datasets/bdmo",
+      "title": "БД ПМО Росстата, Y48423007: среднемесячная заработная плата работников организаций (без субъектов малого предпринимательства) по видам деятельности, 2023 год",
+      "publisher": "Росстат; обработка «Если быть точным» (версия 2025-09-18)",
+      "license": "CC BY 4.0",
+      "member": "data_Y48423007_parts/data_Y48423007_year2023_112_v20250918.csv",
+      "member_sha256": "23c8c6635e6d7d7d2e34ef6894c0ad9f56648b2436f61802a9842c4ee080a86c",
+      "filters": {
+        "mun_level": [
+          "Муниципальное образование верхнего уровня"
+        ],
+        "indicator_period": [
+          "Январь-декабрь"
+        ]
+      },
+      "sha256": "4c07311e07717b92f2b978c523a45d43c4dc5eb5c799d6bc114e62c4b468a35e"
+    }
+  ]
+}

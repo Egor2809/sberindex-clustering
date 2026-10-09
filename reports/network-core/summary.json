@@ -1,0 +1,1318 @@
+{
+  "n": 2016,
+  "fit_months": [
+    "2023-01-01",
+    "2023-02-01",
+    "2023-03-01",
+    "2023-04-01",
+    "2023-05-01",
+    "2023-06-01",
+    "2023-07-01",
+    "2023-08-01",
+    "2023-09-01",
+    "2023-10-01",
+    "2023-11-01",
+    "2023-12-01"
+  ],
+  "test_months": [
+    "2024-01-01",
+    "2024-02-01",
+    "2024-03-01",
+    "2024-04-01",
+    "2024-05-01",
+    "2024-06-01",
+    "2024-07-01",
+    "2024-08-01",
+    "2024-09-01",
+    "2024-10-01",
+    "2024-11-01",
+    "2024-12-01"
+  ],
+  "layers": {
+    "P": "euclid_profile kNN on the annual median log-ratio profile",
+    "C": "lagged_correlation kNN on residual monthly series",
+    "R": "road_distance kNN, external check only",
+    "k": 15,
+    "max_lag": 3,
+    "edges": {
+      "2023_P": 20479,
+      "2023_C": 26252,
+      "2024_P": 20421,
+      "2024_C": 24388,
+      "R": 18673
+    },
+    "road_bandwidth_km": 98.7
+  },
+  "grid": {
+    "alphas": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "gammas": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "seeds": [
+      1729,
+      1730,
+      1731,
+      1732,
+      1733,
+      1734,
+      1735,
+      1736,
+      1737,
+      1738,
+      1739,
+      1740,
+      1741,
+      1742,
+      1743,
+      1744,
+      1745,
+      1746,
+      1747,
+      1748
+    ],
+    "consensus": "medoid_partition_max_mean_ari",
+    "min_size": 20
+  },
+  "selection_rule": {
+    "min_seed_ari": 0.8,
+    "min_size": 20,
+    "k_min": 3,
+    "k_max": 12,
+    "pareto": [
+      {
+        "key": "in_SW",
+        "direction": 1
+      },
+      {
+        "key": "in_C_MQ",
+        "direction": 1
+      }
+    ],
+    "rank": [
+      {
+        "key": "in_SW",
+        "direction": 1,
+        "weight": 1.0
+      },
+      {
+        "key": "in_CH",
+        "direction": 1,
+        "weight": 1.0
+      },
+      {
+        "key": "in_S_Dbw",
+        "direction": -1,
+        "weight": 1.0
+      },
+      {
+        "key": "in_P_AVI",
+        "direction": 1,
+        "weight": 0.5
+      },
+      {
+        "key": "in_C_AVI",
+        "direction": 1,
+        "weight": 0.5
+      },
+      {
+        "key": "in_P_AVU",
+        "direction": -1,
+        "weight": 0.5
+      },
+      {
+        "key": "in_C_AVU",
+        "direction": -1,
+        "weight": 0.5
+      },
+      {
+        "key": "in_P_MQ",
+        "direction": 1,
+        "weight": 0.5
+      },
+      {
+        "key": "in_C_MQ",
+        "direction": 1,
+        "weight": 0.5
+      }
+    ],
+    "tiebreak": [
+      {
+        "key": "seed_ari",
+        "direction": 1
+      },
+      {
+        "key": "k",
+        "direction": -1
+      }
+    ],
+    "note": "Selection uses 2023 only: Pareto on in_SW and in_C_MQ, rank sum over 2023 feature indices and half-weighted network indices on the 2023 profile graph P and co-movement graph C. 2024 metrics (oot_*) and the road graph R are reported, never used for selection. Revised on 2026-10-07 from the earlier oot_* rule; both rules pick the same level-1 variant."
+  },
+  "selection": {
+    "admissible": [
+      "leiden_a0_g0.2",
+      "leiden_a0_g0.3",
+      "leiden_a0_g0.5",
+      "leiden_a0_g0.75",
+      "leiden_a0_g1",
+      "leiden_a0.25_g0.3",
+      "leiden_a0.25_g0.5",
+      "leiden_a0.25_g0.75",
+      "leiden_a0.25_g1",
+      "leiden_a0.5_g0.5",
+      "leiden_a0.75_g0.3"
+    ],
+    "front": [
+      "leiden_a0_g0.75",
+      "leiden_a0_g1",
+      "leiden_a0.25_g0.3",
+      "leiden_a0.25_g0.5",
+      "leiden_a0.25_g0.75",
+      "leiden_a0.5_g0.5",
+      "leiden_a0.75_g0.3"
+    ],
+    "rank_sums": {
+      "leiden_a0.75_g0.3": 30.75,
+      "leiden_a0.5_g0.5": 30.25,
+      "leiden_a0.25_g0.3": 26.75,
+      "leiden_a0.25_g0.5": 23.75,
+      "leiden_a0.25_g0.75": 22.0,
+      "leiden_a0_g0.75": 19.0,
+      "leiden_a0_g1": 15.5
+    }
+  },
+  "selected": {
+    "variant": "leiden_a0.75_g0.3",
+    "alpha": 0.75,
+    "gamma": 0.3,
+    "k": 3,
+    "sizes": [
+      1391,
+      376,
+      249
+    ],
+    "seed_ari": 0.8041432291548182,
+    "seed_ari_min": 0.32740655557285314,
+    "oot_rerun_ari": 0.7379176722090828,
+    "k_2024_rerun": 2,
+    "ARI_kmeans4": 0.35018504868892697,
+    "ARI_region": 0.018319172510250323
+  },
+  "comparison": [
+    {
+      "variant": "leiden_a0.75_g0.3",
+      "role": "selected",
+      "k": 3,
+      "min_size": 249,
+      "seed_ari": 0.804143,
+      "oot_rerun_ari": 0.737918,
+      "ARI_kmeans4": 0.350185,
+      "ARI_region": 0.018319,
+      "in_SW": 0.229291,
+      "in_CH": 546.265087,
+      "in_S_Dbw": 1.09784,
+      "in_P_AVI": 0.897632,
+      "in_P_AVU": 0.666667,
+      "in_P_MQ": 0.400784,
+      "in_C_AVI": 0.76161,
+      "in_C_AVU": 0.666667,
+      "in_C_MQ": 0.313326,
+      "in_R_AVI": 0.633721,
+      "in_R_AVU": 0.666667,
+      "in_R_MQ": 0.206526,
+      "oot_SW": 0.258587,
+      "oot_CH": 760.088074,
+      "oot_S_Dbw": 0.936119,
+      "oot_P_AVI": 0.879513,
+      "oot_P_AVU": 0.666667,
+      "oot_P_MQ": 0.386374,
+      "oot_C_AVI": 0.676058,
+      "oot_C_AVU": 0.666667,
+      "oot_C_MQ": 0.258438,
+      "oot_R_AVI": 0.633721,
+      "oot_R_AVU": 0.666667,
+      "oot_R_MQ": 0.206526
+    },
+    {
+      "variant": "leiden_a1_g0.3",
+      "role": "profile layer only",
+      "k": 4,
+      "min_size": 256,
+      "seed_ari": 0.574905,
+      "oot_rerun_ari": 0.365476,
+      "ARI_kmeans4": 0.421464,
+      "ARI_region": 0.051902,
+      "in_SW": 0.186732,
+      "in_CH": 608.110818,
+      "in_S_Dbw": 1.005627,
+      "in_P_AVI": 0.907464,
+      "in_P_AVU": 0.59696,
+      "in_P_MQ": 0.616708,
+      "in_C_AVI": 0.550447,
+      "in_C_AVU": 0.559774,
+      "in_C_MQ": 0.241411,
+      "in_R_AVI": 0.585522,
+      "in_R_AVU": 0.549219,
+      "in_R_MQ": 0.30364,
+      "oot_SW": 0.159801,
+      "oot_CH": 704.536984,
+      "oot_S_Dbw": 0.831555,
+      "oot_P_AVI": 0.827001,
+      "oot_P_AVU": 0.591287,
+      "oot_P_MQ": 0.522083,
+      "oot_C_AVI": 0.515433,
+      "oot_C_AVU": 0.569412,
+      "oot_C_MQ": 0.216889,
+      "oot_R_AVI": 0.585522,
+      "oot_R_AVU": 0.549219,
+      "oot_R_MQ": 0.30364
+    },
+    {
+      "variant": "leiden_a0_g0.3",
+      "role": "co-movement layer only",
+      "k": 4,
+      "min_size": 108,
+      "seed_ari": 0.979263,
+      "oot_rerun_ari": 0.242486,
+      "ARI_kmeans4": 0.215976,
+      "ARI_region": 0.027576,
+      "in_SW": 0.029178,
+      "in_CH": 226.809184,
+      "in_S_Dbw": 1.399717,
+      "in_P_AVI": 0.605859,
+      "in_P_AVU": 0.676139,
+      "in_P_MQ": 0.251508,
+      "in_C_AVI": 0.895464,
+      "in_C_AVU": 0.537842,
+      "in_C_MQ": 0.526719,
+      "in_R_AVI": 0.656854,
+      "in_R_AVU": 0.508109,
+      "in_R_MQ": 0.209358,
+      "oot_SW": 0.05279,
+      "oot_CH": 325.280707,
+      "oot_S_Dbw": 1.306244,
+      "oot_P_AVI": 0.580972,
+      "oot_P_AVU": 0.695565,
+      "oot_P_MQ": 0.25869,
+      "oot_C_AVI": 0.63848,
+      "oot_C_AVU": 0.531945,
+      "oot_C_MQ": 0.237227,
+      "oot_R_AVI": 0.656854,
+      "oot_R_AVU": 0.508109,
+      "oot_R_MQ": 0.209358
+    },
+    {
+      "variant": "kmeans4_reference",
+      "role": "frozen KMeans K=4 on the 2023 profile",
+      "k": 4,
+      "min_size": 127,
+      "seed_ari": 0.743132,
+      "oot_rerun_ari": 0.518684,
+      "ARI_kmeans4": 1.0,
+      "ARI_region": 0.04638,
+      "in_SW": 0.240237,
+      "in_CH": 779.82704,
+      "in_S_Dbw": 0.995987,
+      "in_P_AVI": 0.884719,
+      "in_P_AVU": 0.529635,
+      "in_P_MQ": 0.568989,
+      "in_C_AVI": 0.475041,
+      "in_C_AVU": 0.554482,
+      "in_C_MQ": 0.231189,
+      "in_R_AVI": 0.599094,
+      "in_R_AVU": 0.529441,
+      "in_R_MQ": 0.275573,
+      "oot_SW": 0.244169,
+      "oot_CH": 831.301491,
+      "oot_S_Dbw": 0.847871,
+      "oot_P_AVI": 0.803824,
+      "oot_P_AVU": 0.527064,
+      "oot_P_MQ": 0.511828,
+      "oot_C_AVI": 0.471426,
+      "oot_C_AVU": 0.541234,
+      "oot_C_MQ": 0.208332,
+      "oot_R_AVI": 0.599094,
+      "oot_R_AVU": 0.529441,
+      "oot_R_MQ": 0.275573
+    },
+    {
+      "variant": "kmeans3",
+      "role": "KMeans K=3 on the 2023 profile",
+      "k": 3,
+      "min_size": 496,
+      "seed_ari": 0.842035,
+      "oot_rerun_ari": 0.493165,
+      "ARI_kmeans4": 0.513725,
+      "ARI_region": 0.042056,
+      "in_SW": 0.282485,
+      "in_CH": 864.490401,
+      "in_S_Dbw": 1.144542,
+      "in_P_AVI": 0.903387,
+      "in_P_AVU": 0.666667,
+      "in_P_MQ": 0.540758,
+      "in_C_AVI": 0.570744,
+      "in_C_AVU": 0.666667,
+      "in_C_MQ": 0.229039,
+      "in_R_AVI": 0.649174,
+      "in_R_AVU": 0.666667,
+      "in_R_MQ": 0.302259,
+      "oot_SW": 0.239861,
+      "oot_CH": 938.256206,
+      "oot_S_Dbw": 0.944969,
+      "oot_P_AVI": 0.842172,
+      "oot_P_AVU": 0.666667,
+      "oot_P_MQ": 0.478349,
+      "oot_C_AVI": 0.56803,
+      "oot_C_AVU": 0.666667,
+      "oot_C_MQ": 0.223495,
+      "oot_R_AVI": 0.649174,
+      "oot_R_AVU": 0.666667,
+      "oot_R_MQ": 0.302259
+    },
+    {
+      "variant": "spectral3_a0.75",
+      "role": "spectral clustering on G_alpha=0.75, K=3, 5 seeds",
+      "k": 3,
+      "min_size": 159,
+      "seed_ari": 1.0,
+      "oot_rerun_ari": 0.645088,
+      "ARI_kmeans4": 0.37047,
+      "ARI_region": 0.010898,
+      "in_SW": 0.218718,
+      "in_CH": 517.325937,
+      "in_S_Dbw": 1.177678,
+      "in_P_AVI": 0.876767,
+      "in_P_AVU": 0.666667,
+      "in_P_MQ": 0.403476,
+      "in_C_AVI": 0.769378,
+      "in_C_AVU": 0.666667,
+      "in_C_MQ": 0.333722,
+      "in_R_AVI": 0.63185,
+      "in_R_AVU": 0.666667,
+      "in_R_MQ": 0.183908,
+      "oot_SW": 0.255299,
+      "oot_CH": 735.881412,
+      "oot_S_Dbw": 1.069423,
+      "oot_P_AVI": 0.863402,
+      "oot_P_AVU": 0.666667,
+      "oot_P_MQ": 0.394104,
+      "oot_C_AVI": 0.652272,
+      "oot_C_AVU": 0.666667,
+      "oot_C_MQ": 0.234608,
+      "oot_R_AVI": 0.63185,
+      "oot_R_AVU": 0.666667,
+      "oot_R_MQ": 0.183908
+    }
+  ],
+  "external_validation": {
+    "controls": "region fixed effects + log(population)",
+    "bootstrap": "200 region-cluster resamples",
+    "log_wage_2023": {
+      "n": 2011,
+      "leiden_a0.75_g0.3": {
+        "R2_base": 0.802943,
+        "R2_full": 0.808469,
+        "delta_R2": 0.005527,
+        "delta_R2_ci95": [
+          0.001924,
+          0.012556
+        ]
+      },
+      "kmeans4_reference": {
+        "R2_base": 0.802943,
+        "R2_full": 0.811051,
+        "delta_R2": 0.008109,
+        "delta_R2_ci95": [
+          0.003458,
+          0.021465
+        ]
+      },
+      "leiden_a0.75_g0.3_minus_kmeans4_reference": {
+        "mean": -0.003427,
+        "ci95": [
+          -0.013451,
+          0.002108
+        ]
+      }
+    },
+    "marketplace_share_2023": {
+      "n": 2011,
+      "leiden_a0.75_g0.3": {
+        "R2_base": 0.72181,
+        "R2_full": 0.739101,
+        "delta_R2": 0.017291,
+        "delta_R2_ci95": [
+          0.007844,
+          0.030594
+        ]
+      },
+      "kmeans4_reference": {
+        "R2_base": 0.72181,
+        "R2_full": 0.78171,
+        "delta_R2": 0.0599,
+        "delta_R2_ci95": [
+          0.040957,
+          0.089871
+        ]
+      },
+      "leiden_a0.75_g0.3_minus_kmeans4_reference": {
+        "mean": -0.043735,
+        "ci95": [
+          -0.073895,
+          -0.022589
+        ]
+      }
+    }
+  },
+  "level2": {
+    "rule": {
+      "min_seed_ari": 0.8,
+      "min_size": 20,
+      "k_min": 2,
+      "k_max": 8,
+      "pareto": [
+        {
+          "key": "in_SW",
+          "direction": 1
+        },
+        {
+          "key": "in_C_MQ",
+          "direction": 1
+        }
+      ],
+      "rank": [
+        {
+          "key": "in_SW",
+          "direction": 1,
+          "weight": 1.0
+        },
+        {
+          "key": "in_CH",
+          "direction": 1,
+          "weight": 1.0
+        },
+        {
+          "key": "in_S_Dbw",
+          "direction": -1,
+          "weight": 1.0
+        },
+        {
+          "key": "in_P_AVI",
+          "direction": 1,
+          "weight": 0.5
+        },
+        {
+          "key": "in_C_AVI",
+          "direction": 1,
+          "weight": 0.5
+        },
+        {
+          "key": "in_P_AVU",
+          "direction": -1,
+          "weight": 0.5
+        },
+        {
+          "key": "in_C_AVU",
+          "direction": -1,
+          "weight": 0.5
+        },
+        {
+          "key": "in_P_MQ",
+          "direction": 1,
+          "weight": 0.5
+        },
+        {
+          "key": "in_C_MQ",
+          "direction": 1,
+          "weight": 0.5
+        }
+      ],
+      "tiebreak": [
+        {
+          "key": "seed_ari",
+          "direction": 1
+        },
+        {
+          "key": "k",
+          "direction": -1
+        }
+      ],
+      "note": "Same 2023-only filter and Pareto/rank rule as level 1 with 2 to 8 subtypes; P and C are rebuilt inside each group; a group with no admissible variant stays whole. Revised on 2026-10-07 from the earlier oot_* rule."
+    },
+    "groups": {
+      "0": {
+        "n": 1391,
+        "selection": {
+          "admissible": [
+            "leiden_a0_g0.2",
+            "leiden_a0_g0.3",
+            "leiden_a0_g0.5",
+            "leiden_a0_g1",
+            "leiden_a0.25_g0.5"
+          ],
+          "front": [
+            "leiden_a0_g0.2",
+            "leiden_a0_g0.3",
+            "leiden_a0_g0.5",
+            "leiden_a0_g1",
+            "leiden_a0.25_g0.5"
+          ],
+          "rank_sums": {
+            "leiden_a0.25_g0.5": 21.0,
+            "leiden_a0_g1": 20.5,
+            "leiden_a0_g0.3": 18.5,
+            "leiden_a0_g0.2": 17.5,
+            "leiden_a0_g0.5": 12.5
+          }
+        },
+        "decision": "split",
+        "selected": {
+          "variant": "leiden_a0.25_g0.5",
+          "alpha": 0.25,
+          "gamma": 0.5,
+          "k": 2,
+          "min_size": 473,
+          "seed_ari": 0.973331,
+          "seed_ari_min": 0.923105,
+          "oot_rerun_ari": 0.125572,
+          "k_2024_rerun": 2,
+          "ARI_kmeans4": 0.111475,
+          "ARI_region": 0.005205,
+          "oot_SW": 0.058713,
+          "oot_CH": 64.545983,
+          "oot_S_Dbw": 2.02836,
+          "oot_P_AVI": 0.627905,
+          "oot_P_AVU": 1.0,
+          "oot_P_MQ": 0.114758,
+          "oot_C_AVI": 0.570668,
+          "oot_C_AVU": 1.0,
+          "oot_C_MQ": 0.065109,
+          "oot_R_AVI": 0.589979,
+          "oot_R_AVU": 1.0,
+          "oot_R_MQ": 0.080693
+        },
+        "sizes": [
+          918,
+          473
+        ],
+        "post_hoc_sensitivity": {
+          "min_oot_rerun_ari": 0.5,
+          "variant": null,
+          "k": null,
+          "min_size": null,
+          "seed_ari": null,
+          "oot_rerun_ari": null
+        }
+      },
+      "1": {
+        "n": 376,
+        "selection": {
+          "admissible": [
+            "leiden_a0_g0.5",
+            "leiden_a0.25_g0.3",
+            "leiden_a0.5_g0.5",
+            "leiden_a0.75_g0.3",
+            "leiden_a0.75_g0.5",
+            "leiden_a1_g0.1"
+          ],
+          "front": [
+            "leiden_a0_g0.5",
+            "leiden_a0.5_g0.5",
+            "leiden_a1_g0.1"
+          ],
+          "rank_sums": {
+            "leiden_a1_g0.1": 13.0,
+            "leiden_a0.5_g0.5": 13.0,
+            "leiden_a0_g0.5": 10.0
+          }
+        },
+        "decision": "split",
+        "selected": {
+          "variant": "leiden_a1_g0.1",
+          "alpha": 1.0,
+          "gamma": 0.1,
+          "k": 2,
+          "min_size": 24,
+          "seed_ari": 1.0,
+          "seed_ari_min": 1.0,
+          "oot_rerun_ari": 0.0,
+          "k_2024_rerun": 1,
+          "ARI_kmeans4": 0.176373,
+          "ARI_region": 0.00561,
+          "oot_SW": 0.624617,
+          "oot_CH": 181.144692,
+          "oot_S_Dbw": 1.635536,
+          "oot_P_AVI": 0.828796,
+          "oot_P_AVU": 1.0,
+          "oot_P_MQ": 0.070765,
+          "oot_C_AVI": 0.624318,
+          "oot_C_AVU": 1.0,
+          "oot_C_MQ": 0.024811,
+          "oot_R_AVI": 0.810295,
+          "oot_R_AVU": 1.0,
+          "oot_R_MQ": 0.06025
+        },
+        "sizes": [
+          352,
+          24
+        ],
+        "post_hoc_sensitivity": {
+          "min_oot_rerun_ari": 0.5,
+          "variant": "leiden_a0.5_g0.5",
+          "k": 2,
+          "min_size": 137,
+          "seed_ari": 0.904547,
+          "oot_rerun_ari": 0.712348
+        }
+      }
+    }
+  },
+  "typology": {
+    "types": {
+      "0.1": 918,
+      "0.2": 473,
+      "1.1": 352,
+      "1.2": 24,
+      "2": 249
+    },
+    "oot_rerun_note": "type_2024_rerun keeps the 2023 level-1 groups and reruns the selected subtype variant on 2024 graphs inside them",
+    "comparison": [
+      {
+        "variant": "network_two_level",
+        "role": "level 1 x network subtypes",
+        "k": 5,
+        "min_size": 24,
+        "oot_rerun_ari": 0.506562,
+        "ARI_kmeans4": 0.322745,
+        "ARI_region": 0.0392,
+        "in_SW": 0.096593,
+        "in_CH": 356.33407,
+        "in_S_Dbw": 1.15441,
+        "in_P_AVI": 0.663546,
+        "in_P_AVU": 0.51091,
+        "in_P_MQ": 0.384906,
+        "in_C_AVI": 0.598689,
+        "in_C_AVU": 0.463161,
+        "in_C_MQ": 0.440586,
+        "in_R_AVI": 0.504167,
+        "in_R_AVU": 0.447032,
+        "in_R_MQ": 0.213427,
+        "oot_SW": 0.113605,
+        "oot_CH": 473.313114,
+        "oot_S_Dbw": 0.975515,
+        "oot_P_AVI": 0.641685,
+        "oot_P_AVU": 0.503815,
+        "oot_P_MQ": 0.384199,
+        "oot_C_AVI": 0.455191,
+        "oot_C_AVU": 0.480866,
+        "oot_C_MQ": 0.240999,
+        "oot_R_AVI": 0.504167,
+        "oot_R_AVU": 0.447032,
+        "oot_R_MQ": 0.213427
+      },
+      {
+        "variant": "leiden_a0.75_g0.3",
+        "role": "level 1 only",
+        "k": 3,
+        "min_size": 249,
+        "oot_rerun_ari": 0.737918,
+        "ARI_kmeans4": 0.350185,
+        "ARI_region": 0.018319,
+        "in_SW": 0.229291,
+        "in_CH": 546.265087,
+        "in_S_Dbw": 1.09784,
+        "in_P_AVI": 0.897632,
+        "in_P_AVU": 0.666667,
+        "in_P_MQ": 0.400784,
+        "in_C_AVI": 0.76161,
+        "in_C_AVU": 0.666667,
+        "in_C_MQ": 0.313326,
+        "in_R_AVI": 0.633721,
+        "in_R_AVU": 0.666667,
+        "in_R_MQ": 0.206526,
+        "oot_SW": 0.258587,
+        "oot_CH": 760.088074,
+        "oot_S_Dbw": 0.936119,
+        "oot_P_AVI": 0.879513,
+        "oot_P_AVU": 0.666667,
+        "oot_P_MQ": 0.386374,
+        "oot_C_AVI": 0.676058,
+        "oot_C_AVU": 0.666667,
+        "oot_C_MQ": 0.258438,
+        "oot_R_AVI": 0.633721,
+        "oot_R_AVU": 0.666667,
+        "oot_R_MQ": 0.206526
+      },
+      {
+        "variant": "kmeans4_reference",
+        "role": "frozen KMeans K=4",
+        "k": 4,
+        "min_size": 127,
+        "oot_rerun_ari": 0.518684,
+        "ARI_kmeans4": 1.0,
+        "ARI_region": 0.04638,
+        "in_SW": 0.240237,
+        "in_CH": 779.82704,
+        "in_S_Dbw": 0.995987,
+        "in_P_AVI": 0.884719,
+        "in_P_AVU": 0.529635,
+        "in_P_MQ": 0.568989,
+        "in_C_AVI": 0.475041,
+        "in_C_AVU": 0.554482,
+        "in_C_MQ": 0.231189,
+        "in_R_AVI": 0.599094,
+        "in_R_AVU": 0.529441,
+        "in_R_MQ": 0.275573,
+        "oot_SW": 0.244169,
+        "oot_CH": 831.301491,
+        "oot_S_Dbw": 0.847871,
+        "oot_P_AVI": 0.803824,
+        "oot_P_AVU": 0.527064,
+        "oot_P_MQ": 0.511828,
+        "oot_C_AVI": 0.471426,
+        "oot_C_AVU": 0.541234,
+        "oot_C_MQ": 0.208332,
+        "oot_R_AVI": 0.599094,
+        "oot_R_AVU": 0.529441,
+        "oot_R_MQ": 0.275573
+      },
+      {
+        "variant": "kmeans5_flat",
+        "role": "KMeans K=5 on the 2023 profile",
+        "k": 5,
+        "min_size": 102,
+        "oot_rerun_ari": 0.629348,
+        "ARI_kmeans4": 0.651806,
+        "ARI_region": 0.068843,
+        "in_SW": 0.234469,
+        "in_CH": 725.614159,
+        "in_S_Dbw": 1.005429,
+        "in_P_AVI": 0.856767,
+        "in_P_AVU": 0.500739,
+        "in_P_MQ": 0.624786,
+        "in_C_AVI": 0.393322,
+        "in_C_AVU": 0.522193,
+        "in_C_MQ": 0.204103,
+        "in_R_AVI": 0.535685,
+        "in_R_AVU": 0.490446,
+        "in_R_MQ": 0.292372,
+        "oot_SW": 0.214071,
+        "oot_CH": 750.122879,
+        "oot_S_Dbw": 0.820993,
+        "oot_P_AVI": 0.767122,
+        "oot_P_AVU": 0.497996,
+        "oot_P_MQ": 0.553669,
+        "oot_C_AVI": 0.393621,
+        "oot_C_AVU": 0.509362,
+        "oot_C_MQ": 0.196039,
+        "oot_R_AVI": 0.535685,
+        "oot_R_AVU": 0.490446,
+        "oot_R_MQ": 0.292372
+      },
+      {
+        "variant": "level1_kmeans_subtypes",
+        "role": "level 1 x KMeans subtypes of the same sizes K",
+        "k": 5,
+        "min_size": 32,
+        "oot_rerun_ari": 0.424764,
+        "ARI_kmeans4": 0.41149,
+        "ARI_region": 0.050134,
+        "in_SW": 0.193568,
+        "in_CH": 516.309371,
+        "in_S_Dbw": 1.095293,
+        "in_P_AVI": 0.776461,
+        "in_P_AVU": 0.513334,
+        "in_P_MQ": 0.566487,
+        "in_C_AVI": 0.505656,
+        "in_C_AVU": 0.476731,
+        "in_C_MQ": 0.270382,
+        "in_R_AVI": 0.554924,
+        "in_R_AVU": 0.449968,
+        "in_R_MQ": 0.297552,
+        "oot_SW": 0.161362,
+        "oot_CH": 546.730616,
+        "oot_S_Dbw": 0.938242,
+        "oot_P_AVI": 0.714002,
+        "oot_P_AVU": 0.509625,
+        "oot_P_MQ": 0.500562,
+        "oot_C_AVI": 0.45599,
+        "oot_C_AVU": 0.484508,
+        "oot_C_MQ": 0.228972,
+        "oot_R_AVI": 0.554924,
+        "oot_R_AVU": 0.449968,
+        "oot_R_MQ": 0.297552
+      }
+    ],
+    "external_validation": {
+      "controls": "region fixed effects + log(population)",
+      "bootstrap": "200 region-cluster resamples",
+      "log_wage_2023": {
+        "n": 2011,
+        "network_two_level": {
+          "R2_base": 0.802943,
+          "R2_full": 0.80852,
+          "delta_R2": 0.005577,
+          "delta_R2_ci95": [
+            0.002668,
+            0.013554
+          ]
+        },
+        "leiden_a0.75_g0.3": {
+          "R2_base": 0.802943,
+          "R2_full": 0.808469,
+          "delta_R2": 0.005527,
+          "delta_R2_ci95": [
+            0.001924,
+            0.012556
+          ]
+        },
+        "kmeans4_reference": {
+          "R2_base": 0.802943,
+          "R2_full": 0.811051,
+          "delta_R2": 0.008109,
+          "delta_R2_ci95": [
+            0.003458,
+            0.021465
+          ]
+        },
+        "kmeans5_flat": {
+          "R2_base": 0.802943,
+          "R2_full": 0.811572,
+          "delta_R2": 0.00863,
+          "delta_R2_ci95": [
+            0.003917,
+            0.021606
+          ]
+        },
+        "level1_kmeans_subtypes": {
+          "R2_base": 0.802943,
+          "R2_full": 0.808498,
+          "delta_R2": 0.005556,
+          "delta_R2_ci95": [
+            0.002429,
+            0.016944
+          ]
+        },
+        "network_two_level_minus_leiden_a0.75_g0.3": {
+          "mean": 0.001138,
+          "ci95": [
+            1.4e-05,
+            0.004326
+          ]
+        },
+        "network_two_level_minus_kmeans4_reference": {
+          "mean": -0.002288,
+          "ci95": [
+            -0.012227,
+            0.003216
+          ]
+        },
+        "network_two_level_minus_kmeans5_flat": {
+          "mean": -0.002926,
+          "ci95": [
+            -0.011051,
+            0.001616
+          ]
+        },
+        "network_two_level_minus_level1_kmeans_subtypes": {
+          "mean": -0.000161,
+          "ci95": [
+            -0.002643,
+            0.001641
+          ]
+        }
+      },
+      "marketplace_share_2023": {
+        "n": 2011,
+        "network_two_level": {
+          "R2_base": 0.72181,
+          "R2_full": 0.74623,
+          "delta_R2": 0.024421,
+          "delta_R2_ci95": [
+            0.011665,
+            0.040577
+          ]
+        },
+        "leiden_a0.75_g0.3": {
+          "R2_base": 0.72181,
+          "R2_full": 0.739101,
+          "delta_R2": 0.017291,
+          "delta_R2_ci95": [
+            0.007844,
+            0.030594
+          ]
+        },
+        "kmeans4_reference": {
+          "R2_base": 0.72181,
+          "R2_full": 0.78171,
+          "delta_R2": 0.0599,
+          "delta_R2_ci95": [
+            0.040957,
+            0.089871
+          ]
+        },
+        "kmeans5_flat": {
+          "R2_base": 0.72181,
+          "R2_full": 0.780868,
+          "delta_R2": 0.059059,
+          "delta_R2_ci95": [
+            0.040845,
+            0.087134
+          ]
+        },
+        "level1_kmeans_subtypes": {
+          "R2_base": 0.72181,
+          "R2_full": 0.801632,
+          "delta_R2": 0.079822,
+          "delta_R2_ci95": [
+            0.057237,
+            0.108226
+          ]
+        },
+        "network_two_level_minus_leiden_a0.75_g0.3": {
+          "mean": 0.007334,
+          "ci95": [
+            0.001836,
+            0.012996
+          ]
+        },
+        "network_two_level_minus_kmeans4_reference": {
+          "mean": -0.036402,
+          "ci95": [
+            -0.068113,
+            -0.012246
+          ]
+        },
+        "network_two_level_minus_kmeans5_flat": {
+          "mean": -0.036389,
+          "ci95": [
+            -0.062602,
+            -0.015897
+          ]
+        },
+        "network_two_level_minus_level1_kmeans_subtypes": {
+          "mean": -0.056503,
+          "ci95": [
+            -0.084672,
+            -0.034103
+          ]
+        }
+      },
+      "log_jobs_per_1000": {
+        "n": 2011,
+        "network_two_level": {
+          "R2_base": 0.226255,
+          "R2_full": 0.23641,
+          "delta_R2": 0.010155,
+          "delta_R2_ci95": [
+            0.003464,
+            0.030121
+          ]
+        },
+        "leiden_a0.75_g0.3": {
+          "R2_base": 0.226255,
+          "R2_full": 0.233161,
+          "delta_R2": 0.006905,
+          "delta_R2_ci95": [
+            0.00063,
+            0.020107
+          ]
+        },
+        "kmeans4_reference": {
+          "R2_base": 0.226255,
+          "R2_full": 0.239767,
+          "delta_R2": 0.013512,
+          "delta_R2_ci95": [
+            0.00386,
+            0.037173
+          ]
+        },
+        "kmeans5_flat": {
+          "R2_base": 0.226255,
+          "R2_full": 0.239138,
+          "delta_R2": 0.012882,
+          "delta_R2_ci95": [
+            0.003876,
+            0.042082
+          ]
+        },
+        "level1_kmeans_subtypes": {
+          "R2_base": 0.226255,
+          "R2_full": 0.23372,
+          "delta_R2": 0.007465,
+          "delta_R2_ci95": [
+            0.001849,
+            0.030028
+          ]
+        },
+        "network_two_level_minus_leiden_a0.75_g0.3": {
+          "mean": 0.007021,
+          "ci95": [
+            0.001016,
+            0.021525
+          ]
+        },
+        "network_two_level_minus_kmeans4_reference": {
+          "mean": -0.001398,
+          "ci95": [
+            -0.020471,
+            0.015429
+          ]
+        },
+        "network_two_level_minus_kmeans5_flat": {
+          "mean": -0.001691,
+          "ci95": [
+            -0.021046,
+            0.012698
+          ]
+        },
+        "network_two_level_minus_level1_kmeans_subtypes": {
+          "mean": 0.002606,
+          "ci95": [
+            -0.004129,
+            0.012013
+          ]
+        }
+      },
+      "above_working_age_share_2023": {
+        "n": 1869,
+        "network_two_level": {
+          "R2_base": 0.676765,
+          "R2_full": 0.680995,
+          "delta_R2": 0.00423,
+          "delta_R2_ci95": [
+            0.001573,
+            0.014153
+          ]
+        },
+        "leiden_a0.75_g0.3": {
+          "R2_base": 0.676765,
+          "R2_full": 0.679546,
+          "delta_R2": 0.002781,
+          "delta_R2_ci95": [
+            0.000359,
+            0.009833
+          ]
+        },
+        "kmeans4_reference": {
+          "R2_base": 0.676765,
+          "R2_full": 0.685483,
+          "delta_R2": 0.008718,
+          "delta_R2_ci95": [
+            0.002788,
+            0.021432
+          ]
+        },
+        "kmeans5_flat": {
+          "R2_base": 0.676765,
+          "R2_full": 0.687435,
+          "delta_R2": 0.010671,
+          "delta_R2_ci95": [
+            0.004616,
+            0.022257
+          ]
+        },
+        "level1_kmeans_subtypes": {
+          "R2_base": 0.676765,
+          "R2_full": 0.682207,
+          "delta_R2": 0.005442,
+          "delta_R2_ci95": [
+            0.002192,
+            0.015537
+          ]
+        },
+        "network_two_level_minus_leiden_a0.75_g0.3": {
+          "mean": 0.00205,
+          "ci95": [
+            0.000147,
+            0.005192
+          ]
+        },
+        "network_two_level_minus_kmeans4_reference": {
+          "mean": -0.004092,
+          "ci95": [
+            -0.013321,
+            0.002167
+          ]
+        },
+        "network_two_level_minus_kmeans5_flat": {
+          "mean": -0.005899,
+          "ci95": [
+            -0.014512,
+            0.00096
+          ]
+        },
+        "network_two_level_minus_level1_kmeans_subtypes": {
+          "mean": -0.001239,
+          "ci95": [
+            -0.007314,
+            0.002602
+          ]
+        }
+      },
+      "share_trade": {
+        "n": 1922,
+        "network_two_level": {
+          "R2_base": 0.407872,
+          "R2_full": 0.418417,
+          "delta_R2": 0.010546,
+          "delta_R2_ci95": [
+            0.003377,
+            0.036973
+          ]
+        },
+        "leiden_a0.75_g0.3": {
+          "R2_base": 0.407872,
+          "R2_full": 0.418242,
+          "delta_R2": 0.010371,
+          "delta_R2_ci95": [
+            0.003316,
+            0.035683
+          ]
+        },
+        "kmeans4_reference": {
+          "R2_base": 0.407872,
+          "R2_full": 0.415151,
+          "delta_R2": 0.00728,
+          "delta_R2_ci95": [
+            0.001782,
+            0.026805
+          ]
+        },
+        "kmeans5_flat": {
+          "R2_base": 0.407872,
+          "R2_full": 0.415018,
+          "delta_R2": 0.007146,
+          "delta_R2_ci95": [
+            0.002043,
+            0.027124
+          ]
+        },
+        "level1_kmeans_subtypes": {
+          "R2_base": 0.407872,
+          "R2_full": 0.418409,
+          "delta_R2": 0.010538,
+          "delta_R2_ci95": [
+            0.003393,
+            0.038196
+          ]
+        },
+        "network_two_level_minus_leiden_a0.75_g0.3": {
+          "mean": 0.000379,
+          "ci95": [
+            7e-06,
+            0.0012
+          ]
+        },
+        "network_two_level_minus_kmeans4_reference": {
+          "mean": 0.005423,
+          "ci95": [
+            -0.003237,
+            0.018602
+          ]
+        },
+        "network_two_level_minus_kmeans5_flat": {
+          "mean": 0.005313,
+          "ci95": [
+            -0.002971,
+            0.0179
+          ]
+        },
+        "network_two_level_minus_level1_kmeans_subtypes": {
+          "mean": -5.5e-05,
+          "ci95": [
+            -0.00118,
+            0.000861
+          ]
+        }
+      },
+      "share_public_services": {
+        "n": 1744,
+        "network_two_level": {
+          "R2_base": 0.373722,
+          "R2_full": 0.378126,
+          "delta_R2": 0.004404,
+          "delta_R2_ci95": [
+            0.00197,
+            0.025043
+          ]
+        },
+        "leiden_a0.75_g0.3": {
+          "R2_base": 0.373722,
+          "R2_full": 0.376097,
+          "delta_R2": 0.002375,
+          "delta_R2_ci95": [
+            0.000454,
+            0.011042
+          ]
+        },
+        "kmeans4_reference": {
+          "R2_base": 0.373722,
+          "R2_full": 0.387293,
+          "delta_R2": 0.013571,
+          "delta_R2_ci95": [
+            0.003807,
+            0.038905
+          ]
+        },
+        "kmeans5_flat": {
+          "R2_base": 0.373722,
+          "R2_full": 0.387218,
+          "delta_R2": 0.013496,
+          "delta_R2_ci95": [
+            0.005666,
+            0.041507
+          ]
+        },
+        "level1_kmeans_subtypes": {
+          "R2_base": 0.373722,
+          "R2_full": 0.376203,
+          "delta_R2": 0.002481,
+          "delta_R2_ci95": [
+            0.001717,
+            0.026936
+          ]
+        },
+        "network_two_level_minus_leiden_a0.75_g0.3": {
+          "mean": 0.00654,
+          "ci95": [
+            0.000515,
+            0.019144
+          ]
+        },
+        "network_two_level_minus_kmeans4_reference": {
+          "mean": -0.006142,
+          "ci95": [
+            -0.027521,
+            0.012879
+          ]
+        },
+        "network_two_level_minus_kmeans5_flat": {
+          "mean": -0.00792,
+          "ci95": [
+            -0.028272,
+            0.010037
+          ]
+        },
+        "network_two_level_minus_level1_kmeans_subtypes": {
+          "mean": 0.000889,
+          "ci95": [
+            -0.01088,
+            0.01097
+          ]
+        }
+      }
+    }
+  },
+  "icvi_convention": "SW, CH, S_Dbw on the annual median log-ratio profile; AVI, AVU, MQ (Newman Q) on binary P, C and R graphs"
+}

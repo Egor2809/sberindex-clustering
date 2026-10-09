@@ -1,0 +1,11 @@
+test_all_missing_nonmonotonic_candidate_and_reference_reverse_bounds (test_economic_sector_bounds.SectorBoundsTests) ... ok
+test_exact_bounds_match_all_endpoint_fills_with_unequal_regions (test_economic_sector_bounds.SectorBoundsTests) ... ok
+test_invalid_observed_data_never_clipped_or_silently_dropped (test_economic_sector_bounds.SectorBoundsTests) ... ok
+test_known_targets_collapse_interval_to_realized_loss (test_economic_sector_bounds.SectorBoundsTests) ... ok
+test_missing_predictions_and_unbounded_predictions_rejected (test_economic_sector_bounds.SectorBoundsTests) ... ok
+test_region_without_any_observed_target_retains_weight_and_denominator (test_economic_sector_bounds.SectorBoundsTests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK

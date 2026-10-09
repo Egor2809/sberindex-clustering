@@ -1,0 +1,8 @@
+{
+  "ids": [
+    "historical_kmeans4",
+    "sw_tuned_covariance50",
+    "sw_tuned_ordinary"
+  ],
+  "has_full_gate_pass": false
+}

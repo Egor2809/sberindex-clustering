@@ -1,0 +1,19 @@
+{
+  "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+  "protocol_sha256": "b77d98407c3b672fe3e6da028c4162073cb3241814f60edc15eca8263eea56af",
+  "baseline2024_labels_exact": {
+    "historical_kmeans4": true,
+    "sw_constrained_huber75": true,
+    "sw_constrained_ordinary": true
+  },
+  "source_sha256": {
+    "sbercluster/temporal_profiles.py": "f169c14f8399c00381015b0ce338cb822572781196f6d6ad5d1e8dd7c2147a37",
+    "scripts/benchmark_temporal_profiles.py": "4f4cb79c5195d2fb4c09790fb72fa7e85f35e395f6243e47c2593355a6422e52",
+    "sbercluster/features.py": "42f9af6c3d7cd88b69e74c296fdf902d8c673ffc1a07854cb7b195314f7b0706",
+    "sbercluster/selection_frontier.py": "0bcd8604fca0855d74bc60a6f600cd9c5cfd13894918795ace242e15cf797576"
+  },
+  "python": "3.10.1",
+  "numpy": "2.2.6",
+  "cohort_size": 2016,
+  "no2024fit": true
+}

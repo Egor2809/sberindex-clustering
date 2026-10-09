@@ -1,0 +1,110 @@
+[
+  {
+    "year": 2023,
+    "id": "calendar_only",
+    "method_geometry_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        103,
+        646,
+        387,
+        880
+      ],
+      "min_cluster_size": 103,
+      "SW": 0.25112143198607034,
+      "CH": 828.8370481157879
+    },
+    "distance_extrapolation_count": 21,
+    "new_entity_count": 0
+  },
+  {
+    "year": 2023,
+    "id": "calendar_reliability_half",
+    "method_geometry_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        731,
+        449,
+        741,
+        95
+      ],
+      "min_cluster_size": 95,
+      "SW": 0.25237544689072045,
+      "CH": 832.5530771642144
+    },
+    "distance_extrapolation_count": 21,
+    "new_entity_count": 0
+  },
+  {
+    "year": 2023,
+    "id": "calendar_reliability_full",
+    "method_geometry_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        692,
+        775,
+        97,
+        452
+      ],
+      "min_cluster_size": 97,
+      "SW": 0.25874924369984126,
+      "CH": 858.9987158725374
+    },
+    "distance_extrapolation_count": 21,
+    "new_entity_count": 0
+  },
+  {
+    "year": 2024,
+    "id": "calendar_only",
+    "method_geometry_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        27,
+        461,
+        423,
+        1105
+      ],
+      "min_cluster_size": 27,
+      "SW": 0.27178290875232647,
+      "CH": 848.1405176929176
+    },
+    "distance_extrapolation_count": 27,
+    "new_entity_count": 0
+  },
+  {
+    "year": 2024,
+    "id": "calendar_reliability_half",
+    "method_geometry_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        1027,
+        491,
+        476,
+        22
+      ],
+      "min_cluster_size": 22,
+      "SW": 0.2624635564985066,
+      "CH": 797.0928718062238
+    },
+    "distance_extrapolation_count": 25,
+    "new_entity_count": 0
+  },
+  {
+    "year": 2024,
+    "id": "calendar_reliability_full",
+    "method_geometry_metrics": {
+      "occupied_k": 4,
+      "cluster_sizes": [
+        951,
+        517,
+        23,
+        525
+      ],
+      "min_cluster_size": 23,
+      "SW": 0.2555302179138132,
+      "CH": 798.4455237390046
+    },
+    "distance_extrapolation_count": 16,
+    "new_entity_count": 0
+  }
+]

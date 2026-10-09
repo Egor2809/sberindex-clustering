@@ -1,0 +1,15 @@
+{
+  "csv_sha256": "c7c2b32f8a36a3a1f3a83db1dbbe8219657afcaf78677623540fa650ccaaa471",
+  "parquet_sha256": "9833ddaaee7b2a182ed4cceeed16469031700ea87d508bd976150c6770ef8a61",
+  "compared": [
+    "period",
+    "category",
+    "value",
+    "multiplicity"
+  ],
+  "differing_multiset_keys": 0,
+  "csv_rows": 303126,
+  "parquet_rows": 303126,
+  "canonical_key_duplicates": 0,
+  "scope": "Full numeric payload equivalence; use source territory_id directly, no name inference"
+}

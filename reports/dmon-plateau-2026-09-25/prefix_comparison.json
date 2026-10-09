@@ -1,0 +1,50 @@
+[
+  {
+    "id": "dmon_k2_seed1729",
+    "epoch": 1000,
+    "exact_labels": true,
+    "different_labels": 0,
+    "ARI": 1.0,
+    "objective_difference": 8.940696716308594e-08
+  },
+  {
+    "id": "dmon_k2_seed2718",
+    "epoch": 1000,
+    "exact_labels": true,
+    "different_labels": 0,
+    "ARI": 1.0,
+    "objective_difference": -2.980232238769531e-07
+  },
+  {
+    "id": "dmon_k2_seed3141",
+    "epoch": 1000,
+    "exact_labels": true,
+    "different_labels": 0,
+    "ARI": 1.0,
+    "objective_difference": 3.8743019104003906e-07
+  },
+  {
+    "id": "dmon_k4_seed1729",
+    "epoch": 1000,
+    "exact_labels": true,
+    "different_labels": 0,
+    "ARI": 1.0,
+    "objective_difference": -2.384185791015625e-07
+  },
+  {
+    "id": "dmon_k4_seed2718",
+    "epoch": 1000,
+    "exact_labels": true,
+    "different_labels": 0,
+    "ARI": 1.0,
+    "objective_difference": -2.980232238769531e-07
+  },
+  {
+    "id": "dmon_k4_seed3141",
+    "epoch": 1000,
+    "exact_labels": true,
+    "different_labels": 0,
+    "ARI": 1.0,
+    "objective_difference": 1.1920928955078125e-07
+  }
+]

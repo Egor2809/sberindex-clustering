@@ -1,0 +1,479 @@
+{
+  "revision": "paired_reference_packet_v1",
+  "reference_lock_sha256": "1164f9ab9eb5a32d6b001c673b9ae2ab756cef7beb273e317cc0df47b6ffe175",
+  "period": "2024-04-01",
+  "scope": "transductive_fixed_ID_paired_median_change",
+  "current_reference_rows_sha256": "fe093afbef131599d661554a5c69308278f0b63322d3c7c856752fd66ae23992",
+  "source_provenance": {
+    "input_file_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+    "data_as_of": "unknown"
+  },
+  "reference_n": 2016,
+  "observed_valid_n": 2016,
+  "coverage": 1.0,
+  "observed_ids_sha256": "53aa468808fe7b117dbbebde771d83a8aa00c14c0e3cd7ee87d1e59d60c847f1",
+  "missing_ids": [],
+  "invalid_ids": [],
+  "regional_coverage": {
+    "1": {
+      "reference_n": 9,
+      "observed_valid_n": 9,
+      "coverage": 1.0
+    },
+    "4": {
+      "reference_n": 11,
+      "observed_valid_n": 11,
+      "coverage": 1.0
+    },
+    "33": {
+      "reference_n": 18,
+      "observed_valid_n": 18,
+      "coverage": 1.0
+    },
+    "34": {
+      "reference_n": 35,
+      "observed_valid_n": 35,
+      "coverage": 1.0
+    },
+    "35": {
+      "reference_n": 25,
+      "observed_valid_n": 25,
+      "coverage": 1.0
+    },
+    "37": {
+      "reference_n": 26,
+      "observed_valid_n": 26,
+      "coverage": 1.0
+    },
+    "38": {
+      "reference_n": 39,
+      "observed_valid_n": 39,
+      "coverage": 1.0
+    },
+    "39": {
+      "reference_n": 19,
+      "observed_valid_n": 19,
+      "coverage": 1.0
+    },
+    "40": {
+      "reference_n": 25,
+      "observed_valid_n": 25,
+      "coverage": 1.0
+    },
+    "42": {
+      "reference_n": 30,
+      "observed_valid_n": 30,
+      "coverage": 1.0
+    },
+    "43": {
+      "reference_n": 43,
+      "observed_valid_n": 43,
+      "coverage": 1.0
+    },
+    "44": {
+      "reference_n": 28,
+      "observed_valid_n": 28,
+      "coverage": 1.0
+    },
+    "45": {
+      "reference_n": 24,
+      "observed_valid_n": 24,
+      "coverage": 1.0
+    },
+    "47": {
+      "reference_n": 18,
+      "observed_valid_n": 18,
+      "coverage": 1.0
+    },
+    "48": {
+      "reference_n": 18,
+      "observed_valid_n": 18,
+      "coverage": 1.0
+    },
+    "49": {
+      "reference_n": 3,
+      "observed_valid_n": 3,
+      "coverage": 1.0
+    },
+    "50": {
+      "reference_n": 52,
+      "observed_valid_n": 52,
+      "coverage": 1.0
+    },
+    "51": {
+      "reference_n": 12,
+      "observed_valid_n": 12,
+      "coverage": 1.0
+    },
+    "52": {
+      "reference_n": 50,
+      "observed_valid_n": 50,
+      "coverage": 1.0
+    },
+    "53": {
+      "reference_n": 21,
+      "observed_valid_n": 21,
+      "coverage": 1.0
+    },
+    "54": {
+      "reference_n": 35,
+      "observed_valid_n": 35,
+      "coverage": 1.0
+    },
+    "55": {
+      "reference_n": 33,
+      "observed_valid_n": 33,
+      "coverage": 1.0
+    },
+    "56": {
+      "reference_n": 39,
+      "observed_valid_n": 39,
+      "coverage": 1.0
+    },
+    "7": {
+      "reference_n": 4,
+      "observed_valid_n": 4,
+      "coverage": 1.0
+    },
+    "57": {
+      "reference_n": 21,
+      "observed_valid_n": 21,
+      "coverage": 1.0
+    },
+    "58": {
+      "reference_n": 25,
+      "observed_valid_n": 25,
+      "coverage": 1.0
+    },
+    "60": {
+      "reference_n": 22,
+      "observed_valid_n": 22,
+      "coverage": 1.0
+    },
+    "8": {
+      "reference_n": 5,
+      "observed_valid_n": 5,
+      "coverage": 1.0
+    },
+    "62": {
+      "reference_n": 26,
+      "observed_valid_n": 26,
+      "coverage": 1.0
+    },
+    "63": {
+      "reference_n": 36,
+      "observed_valid_n": 36,
+      "coverage": 1.0
+    },
+    "64": {
+      "reference_n": 39,
+      "observed_valid_n": 39,
+      "coverage": 1.0
+    },
+    "9": {
+      "reference_n": 8,
+      "observed_valid_n": 8,
+      "coverage": 1.0
+    },
+    "65": {
+      "reference_n": 16,
+      "observed_valid_n": 16,
+      "coverage": 1.0
+    },
+    "66": {
+      "reference_n": 64,
+      "observed_valid_n": 64,
+      "coverage": 1.0
+    },
+    "67": {
+      "reference_n": 27,
+      "observed_valid_n": 27,
+      "coverage": 1.0
+    },
+    "10": {
+      "reference_n": 18,
+      "observed_valid_n": 18,
+      "coverage": 1.0
+    },
+    "68": {
+      "reference_n": 24,
+      "observed_valid_n": 24,
+      "coverage": 1.0
+    },
+    "2": {
+      "reference_n": 61,
+      "observed_valid_n": 61,
+      "coverage": 1.0
+    },
+    "69": {
+      "reference_n": 37,
+      "observed_valid_n": 37,
+      "coverage": 1.0
+    },
+    "70": {
+      "reference_n": 19,
+      "observed_valid_n": 19,
+      "coverage": 1.0
+    },
+    "71": {
+      "reference_n": 24,
+      "observed_valid_n": 24,
+      "coverage": 1.0
+    },
+    "72": {
+      "reference_n": 24,
+      "observed_valid_n": 24,
+      "coverage": 1.0
+    },
+    "86": {
+      "reference_n": 22,
+      "observed_valid_n": 22,
+      "coverage": 1.0
+    },
+    "89": {
+      "reference_n": 13,
+      "observed_valid_n": 13,
+      "coverage": 1.0
+    },
+    "11": {
+      "reference_n": 20,
+      "observed_valid_n": 20,
+      "coverage": 1.0
+    },
+    "73": {
+      "reference_n": 21,
+      "observed_valid_n": 21,
+      "coverage": 1.0
+    },
+    "74": {
+      "reference_n": 37,
+      "observed_valid_n": 37,
+      "coverage": 1.0
+    },
+    "76": {
+      "reference_n": 19,
+      "observed_valid_n": 19,
+      "coverage": 1.0
+    },
+    "79": {
+      "reference_n": 6,
+      "observed_valid_n": 6,
+      "coverage": 1.0
+    },
+    "87": {
+      "reference_n": 4,
+      "observed_valid_n": 4,
+      "coverage": 1.0
+    },
+    "78": {
+      "reference_n": 98,
+      "observed_valid_n": 98,
+      "coverage": 1.0
+    },
+    "77": {
+      "reference_n": 144,
+      "observed_valid_n": 144,
+      "coverage": 1.0
+    },
+    "59": {
+      "reference_n": 42,
+      "observed_valid_n": 42,
+      "coverage": 1.0
+    },
+    "12": {
+      "reference_n": 17,
+      "observed_valid_n": 17,
+      "coverage": 1.0
+    },
+    "13": {
+      "reference_n": 20,
+      "observed_valid_n": 20,
+      "coverage": 1.0
+    },
+    "26": {
+      "reference_n": 33,
+      "observed_valid_n": 33,
+      "coverage": 1.0
+    },
+    "14": {
+      "reference_n": 29,
+      "observed_valid_n": 29,
+      "coverage": 1.0
+    },
+    "15": {
+      "reference_n": 7,
+      "observed_valid_n": 7,
+      "coverage": 1.0
+    },
+    "16": {
+      "reference_n": 43,
+      "observed_valid_n": 43,
+      "coverage": 1.0
+    },
+    "17": {
+      "reference_n": 10,
+      "observed_valid_n": 10,
+      "coverage": 1.0
+    },
+    "18": {
+      "reference_n": 27,
+      "observed_valid_n": 27,
+      "coverage": 1.0
+    },
+    "19": {
+      "reference_n": 12,
+      "observed_valid_n": 12,
+      "coverage": 1.0
+    },
+    "21": {
+      "reference_n": 23,
+      "observed_valid_n": 23,
+      "coverage": 1.0
+    },
+    "22": {
+      "reference_n": 65,
+      "observed_valid_n": 65,
+      "coverage": 1.0
+    },
+    "75": {
+      "reference_n": 28,
+      "observed_valid_n": 28,
+      "coverage": 1.0
+    },
+    "41": {
+      "reference_n": 9,
+      "observed_valid_n": 9,
+      "coverage": 1.0
+    },
+    "24": {
+      "reference_n": 51,
+      "observed_valid_n": 51,
+      "coverage": 1.0
+    },
+    "25": {
+      "reference_n": 33,
+      "observed_valid_n": 33,
+      "coverage": 1.0
+    },
+    "27": {
+      "reference_n": 16,
+      "observed_valid_n": 16,
+      "coverage": 1.0
+    },
+    "28": {
+      "reference_n": 19,
+      "observed_valid_n": 19,
+      "coverage": 1.0
+    },
+    "29": {
+      "reference_n": 22,
+      "observed_valid_n": 22,
+      "coverage": 1.0
+    },
+    "83": {
+      "reference_n": 2,
+      "observed_valid_n": 2,
+      "coverage": 1.0
+    },
+    "30": {
+      "reference_n": 11,
+      "observed_valid_n": 11,
+      "coverage": 1.0
+    }
+  },
+  "region_code_mismatch_n": 0,
+  "point_paired_median": [
+    -0.029890146203290807,
+    0.36903604016652636,
+    0.014280983733999109,
+    -0.1037487832387488,
+    -0.06321291896115461
+  ],
+  "representative_correction": [
+    -0.029890146203290807,
+    0.36903604016652636,
+    0.014280983733999109,
+    -0.1037487832387488,
+    -0.06321291896115461
+  ],
+  "correction_lower": [
+    -0.029890146203290807,
+    0.36903604016652636,
+    0.014280983733999109,
+    -0.1037487832387488,
+    -0.06321291896115461
+  ],
+  "correction_upper": [
+    -0.029890146203290807,
+    0.36903604016652636,
+    0.014280983733999109,
+    -0.1037487832387488,
+    -0.06321291896115461
+  ],
+  "lower_unbounded": [
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "upper_unbounded": [
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "available_case_paired_median": [
+    -0.029890146203290807,
+    0.36903604016652636,
+    0.014280983733999109,
+    -0.1037487832387488,
+    -0.06321291896115461
+  ],
+  "population_median_difference": [
+    -0.04763271315512796,
+    0.3915503952607997,
+    0.003698794875487098,
+    -0.09884680534320801,
+    -0.09656359504930277
+  ],
+  "log_input_quantiles_valid_reference": {
+    "Здоровье": [
+      6.834646662480569,
+      7.126087273299125,
+      7.891703541327285
+    ],
+    "Маркетплейсы": [
+      7.906915217552951,
+      8.325306000396298,
+      8.747351623244333
+    ],
+    "Общественное питание": [
+      5.337538079701318,
+      6.40687862454517,
+      8.094835924723771
+    ],
+    "Продовольствие": [
+      9.156412029950626,
+      9.400423396309217,
+      9.689830114953217
+    ],
+    "Транспорт": [
+      6.7650389767805414,
+      7.205635176410364,
+      8.118504890010321
+    ],
+    "Все категории": [
+      9.912645490320894,
+      10.16855968569282,
+      10.756103377461653
+    ]
+  },
+  "status": "complete_reference",
+  "measurement_epsilon": 0.0,
+  "measurement_error_known": false,
+  "causal_interpretation": "unknown",
+  "territory_transition_status": "unresolved",
+  "content_sha256": "4061872f6be6dfe2db3905be7b6cd980b34de8aac6b07c0521b52d603a233b59"
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "train_end": "2023-06-01",
+    "id": "historical_kmeans4",
+    "quarter_SW_gain": 0.0,
+    "monthly_SW_gains": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "monthly_SW_gain_mean": 0.0,
+    "CH_ratios_monthly": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "S_Dbw_monthly": [
+      1.0547368391977978,
+      0.9809915250068697,
+      0.9741389277940027
+    ],
+    "min_occupancy_monthly": [
+      84,
+      71,
+      61
+    ]
+  },
+  {
+    "train_end": "2023-06-01",
+    "id": "sw_constrained_huber75",
+    "quarter_SW_gain": 0.024652822929098983,
+    "monthly_SW_gains": [
+      0.014661382774556031,
+      0.029936887928518063,
+      0.04192767536571568
+    ],
+    "monthly_SW_gain_mean": 0.028841982022929924,
+    "CH_ratios_monthly": [
+      0.9619141080556458,
+      0.9396766143523185,
+      0.9247021757000894
+    ],
+    "S_Dbw_monthly": [
+      1.0958236672415302,
+      1.0561064770771977,
+      0.9393190052157775
+    ],
+    "min_occupancy_monthly": [
+      57,
+      50,
+      41
+    ]
+  },
+  {
+    "train_end": "2023-06-01",
+    "id": "sw_constrained_ordinary",
+    "quarter_SW_gain": 0.026274674307472157,
+    "monthly_SW_gains": [
+      0.01488722058096792,
+      0.030377886128367948,
+      0.041255244561037074
+    ],
+    "monthly_SW_gain_mean": 0.028840117090124313,
+    "CH_ratios_monthly": [
+      0.9588226322096741,
+      0.9382033015751021,
+      0.9265963418005908
+    ],
+    "S_Dbw_monthly": [
+      1.0797121845383633,
+      1.031796758260198,
+      0.9317891504725078
+    ],
+    "min_occupancy_monthly": [
+      57,
+      49,
+      41
+    ]
+  },
+  {
+    "train_end": "2023-09-01",
+    "id": "historical_kmeans4",
+    "quarter_SW_gain": 0.0,
+    "monthly_SW_gains": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "monthly_SW_gain_mean": 0.0,
+    "CH_ratios_monthly": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "S_Dbw_monthly": [
+      1.0390207399540297,
+      1.1367179474495033,
+      0.9387219307716695
+    ],
+    "min_occupancy_monthly": [
+      48,
+      31,
+      44
+    ]
+  },
+  {
+    "train_end": "2023-09-01",
+    "id": "sw_constrained_huber75",
+    "quarter_SW_gain": 0.03427712185999365,
+    "monthly_SW_gains": [
+      0.04783875086186967,
+      0.03144617574551423,
+      0.04577488227686555
+    ],
+    "monthly_SW_gain_mean": 0.041686602961416484,
+    "CH_ratios_monthly": [
+      0.9067247039648457,
+      0.9641079232339371,
+      0.9867196401943854
+    ],
+    "S_Dbw_monthly": [
+      0.9554074471770135,
+      null,
+      0.8725006379915412
+    ],
+    "min_occupancy_monthly": [
+      34,
+      20,
+      34
+    ]
+  },
+  {
+    "train_end": "2023-09-01",
+    "id": "sw_constrained_ordinary",
+    "quarter_SW_gain": 0.034470040082790254,
+    "monthly_SW_gains": [
+      0.04838169639550033,
+      0.034290678020136356,
+      0.047342809017103527
+    ],
+    "monthly_SW_gain_mean": 0.04333839447758007,
+    "CH_ratios_monthly": [
+      0.9114275149723602,
+      0.9615022015405039,
+      0.9759822100865293
+    ],
+    "S_Dbw_monthly": [
+      0.9569317208551149,
+      null,
+      0.8719512387676048
+    ],
+    "min_occupancy_monthly": [
+      34,
+      19,
+      34
+    ]
+  }
+]

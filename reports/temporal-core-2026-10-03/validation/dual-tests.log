@@ -1,0 +1,19 @@
+test_box_certificate_matches_vertices_and_preserves_nonmidpoint_label (test_dual_profiles.DualProfiles) ... ok
+test_file_revision_is_exclusive_and_one_byte_hash_change_rejected (test_dual_profiles.DualProfiles) ... ok
+test_future_data_cannot_change_locked_baseline (test_dual_profiles.DualProfiles) ... ok
+test_invalid_reference_counts_missing_and_conflicting_duplicate_refuses (test_dual_profiles.DualProfiles) ... ok
+test_marginal_distribution_and_paired_motion_are_distinct (test_dual_profiles.DualProfiles) ... ok
+test_missing_bounds_cover_all_enumerated_completions (test_dual_profiles.DualProfiles) ... ok
+test_packet_batch_and_order_invariance_and_no_reference_admission (test_dual_profiles.DualProfiles) ... ok
+test_paired_median_not_difference_of_population_medians (test_dual_profiles.DualProfiles) ... ok
+test_partial_reference_denominator_and_region_coverage_are_fixed (test_dual_profiles.DualProfiles) ... ok
+test_real_shared_shift_absolute_transitions_and_relative_normalization_both_retained (test_dual_profiles.DualProfiles) ... ok
+test_sealed_malformed_packet_refuses_relative_and_preserves_absolute (test_dual_profiles.DualProfiles) ... ok
+test_sealed_snapshot_revisions_do_not_mutate_prior_packets (test_dual_profiles.DualProfiles) ... ok
+test_source_log_audit_retains_scale_invisible_to_ratio_profiles (test_dual_profiles.DualProfiles) ... ok
+test_wrong_packet_absence_and_missing_entity_month_keep_explicit_A (test_dual_profiles.DualProfiles) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.275s
+
+OK

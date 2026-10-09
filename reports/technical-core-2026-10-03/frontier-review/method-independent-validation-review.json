@@ -1,0 +1,54 @@
+{
+  "status": "pass",
+  "scope": "independent saved-artifact/statistical recomputation; no fitting",
+  "files_sha256_verified": true,
+  "folds_exactly_complementary_disjoint_9_train_3_test": true,
+  "paired_month_bootstraps_exact": true,
+  "fold_SW_max_error_vs_sklearn": 0.0,
+  "bootstrap_ARI_max_error_vs_combinatorial_definition": 1.1102230246251565e-16,
+  "comparisons": [
+    {
+      "id": "historical_kmeans4",
+      "mean_difference": 0.0,
+      "CI95": [
+        0.0,
+        0.0
+      ],
+      "recorded_mean_error": 0.0,
+      "recorded_CI_max_error": 0.0,
+      "sensitivity_gates_reproduced": true,
+      "occupied_Ks": [
+        4
+      ]
+    },
+    {
+      "id": "sw_constrained_huber75",
+      "mean_difference": 0.013801663751574302,
+      "CI95": [
+        0.002201242939114789,
+        0.02617823207987614
+      ],
+      "recorded_mean_error": 0.0,
+      "recorded_CI_max_error": 0.0,
+      "sensitivity_gates_reproduced": true,
+      "occupied_Ks": [
+        4
+      ]
+    },
+    {
+      "id": "sw_constrained_ordinary",
+      "mean_difference": 0.018603702975508535,
+      "CI95": [
+        0.006505740866165549,
+        0.03149173757331889
+      ],
+      "recorded_mean_error": 0.0,
+      "recorded_CI_max_error": 0.0,
+      "sensitivity_gates_reproduced": true,
+      "occupied_Ks": [
+        4
+      ]
+    }
+  ],
+  "inferential_scope": "Conditional descriptive regional bootstrap of already selected candidate scores on inspected 2023; not untouched external confirmation or economic type validation."
+}

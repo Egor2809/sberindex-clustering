@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "Independent synthetic mechanism controls; no national fit or untouched future evidence",
+  "elapsed_seconds": 0.7373965000151657,
+  "results": {
+    "economic": {
+      "status": "PASS",
+      "checks": {
+        "excluded_expense_fit_state": "PASS",
+        "independent_scaler_oracle": "PASS",
+        "all_eligible_training_entities": 40,
+        "extra_heldout_entities": "PASS",
+        "probe_context": {
+          "linear": "PASS",
+          "quadratic": "PASS",
+          "histogram": "PASS"
+        },
+        "unknown_type_encoding": "PASS",
+        "centered_zero_with_absolute_mse": 2275.0
+      }
+    }
+  },
+  "source_sha256": {
+    "sbercluster/temporal_profiles.py": "a7630de70ad2c28ce925de29dca46000ca04d2376d8625433ef3fdb5100f97b6",
+    "sbercluster/economic_generalization.py": "d3a563f6db2ec3f1901a8aa8b3dc08fceb4eb83a02062c41d83bd5b042bcd55a",
+    "sbercluster/features.py": "42f9af6c3d7cd88b69e74c296fdf902d8c673ffc1a07854cb7b195314f7b0706",
+    "sbercluster/selection_frontier.py": "0bcd8604fca0855d74bc60a6f600cd9c5cfd13894918795ace242e15cf797576"
+  },
+  "oracle_sha256": "e51349716055cf1654972826a2ba40b6a9266c5c0c534d227bccffca52c5a0cc"
+}

@@ -1,0 +1,88 @@
+{
+  "scope": {
+    "year": 2024,
+    "raw_regions": [
+      "Архангельская область",
+      "Ненецкий автономный округ",
+      "Республика Бурятия"
+    ],
+    "clean_rows": 54,
+    "reviewed_analytical_scope": {
+      "regions": [
+        "Архангельская область",
+        "Ненецкий автономный округ"
+      ],
+      "municipalities": 21,
+      "arkhangelsk": 20,
+      "nenets": 1,
+      "national_generalisation": false
+    },
+    "analytical_join_approved_for_reviewed_subset_only": true
+  },
+  "sources": [
+    {
+      "url": "https://29.rosstat.gov.ru/storage/mediabank/Trud12oktmo2024.xlsx",
+      "page_url": "https://29.rosstat.gov.ru/main_indicators?print=1",
+      "file": "arkhangelsk-nao-2024.xlsx",
+      "sha256": "255d22e07a934c0c147e2fda4e2526868bc370f1738f5314906910128edcb76a",
+      "rows": 27,
+      "title_period": "январь-декабрь 2024 года"
+    },
+    {
+      "url": "https://03.rosstat.gov.ru/storage/mediabank/Среднесписочная_численность_работников%20МО_РБ_2024.xlsx",
+      "page_url": "https://03.rosstat.gov.ru/resourse?print=1",
+      "file": "buryatia-headcount-2024.xlsx",
+      "sha256": "57ff71e541cc030fad2af6fac39e64bad772a71015c34db1dcb16c5750d0ee8b",
+      "rows": 27,
+      "title_period": "за январь-декабрь 2024 г."
+    },
+    {
+      "url": "https://03.rosstat.gov.ru/storage/mediabank/Среднемесячная_номинальная_з-п_МО_РБ_2024.xlsx",
+      "page_url": "https://03.rosstat.gov.ru/trud_zp?print=1",
+      "file": "buryatia-wage-2024.xlsx",
+      "sha256": "f838069e7cdfb6390d49cd308910a3bfee1aa79c380bf5270e82f634578822fd",
+      "rows": 27,
+      "title_period": "за январь-декабрь 2024 г."
+    }
+  ],
+  "schema": {
+    "headcount": "average payroll headcount excluding external part-timers; people",
+    "payroll": "accrued payroll; thousand rubles; Arkhangelsk/NAO only",
+    "wage": "average monthly nominal accrued wage; rubles",
+    "organization_scope": "organizations excluding small businesses",
+    "period": "January-December cumulative/annual 2024"
+  },
+  "candidate_mapping": {
+    "file": "candidate_crosswalk.csv",
+    "sha256": "6d94210f4759385ebd9914029a060a1258848e927b66c1c27d2f0f6d122719a7",
+    "status": "primary_unreviewed_candidate_audit_preserved",
+    "source_has_oktmo": false,
+    "candidate_rows": 54,
+    "unique_candidates": 21,
+    "ambiguous_candidates": 0,
+    "unmatched": 33,
+    "methods": "region + type + exact name, then deterministic type-token normalisation; no fuzzy matching"
+  },
+  "reviewed_mapping": {
+    "file": "reviewed_crosswalk.csv",
+    "sha256": "68f661cb2aee6d79afb06924c70c5d66cb4b8cbaf3a9adf9dec477e0cc62f946",
+    "rows": 21,
+    "review_tag": "manual_name_type_region_version_verified",
+    "official_source_oktmo_join": false,
+    "approved_scope": "20 Arkhangelsk Oblast + 1 Nenets AO municipalities",
+    "all_expected_entity_ids_verified": true,
+    "buryatia_bridge_rows": 0
+  },
+  "suppression": {
+    "source_token": "…2)",
+    "meaning": "not published to protect confidential primary statistical data under Federal Law 282-FZ",
+    "handling": "null with status=suppressed; never converted to zero"
+  },
+  "cautions": [
+    "The workbook name/sheet name containing 'oktmo' is not evidence of row-level OKTMO codes.",
+    "The reviewed join was manually name/type/region/version verified; it is not an official source OKTMO join.",
+    "The 21-municipality subset cannot support a national validation claim.",
+    "Headcount is an absolute organization payroll scale, not an employment rate.",
+    "No dataset-specific licence statement was found on the source pages or in the workbooks; cite the official source URL."
+  ]
+}

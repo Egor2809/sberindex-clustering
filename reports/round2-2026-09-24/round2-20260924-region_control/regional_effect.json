@@ -1,0 +1,9 @@
+{
+  "fraction_of_road_cut_gain_recovered_by_permuted_graph": [
+    0.7644822952014948,
+    0.8343705094836805,
+    0.7974861217489714
+  ],
+  "mean_fraction": 0.7987796421447156,
+  "caveat": "Not a causal variance decomposition. Permutation preserves more than region labels: graph topology and region mixing also remain."
+}

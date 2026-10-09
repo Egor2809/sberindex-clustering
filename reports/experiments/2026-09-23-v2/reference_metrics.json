@@ -1,0 +1,175 @@
+[
+  {
+    "candidate": "kmeans_k4",
+    "spec": {
+      "id": "kmeans_k4",
+      "method": "kmeans",
+      "k": 4
+    },
+    "n": 2016,
+    "k": 4,
+    "min_cluster_size": 127,
+    "SW": 0.24023677355726694,
+    "CH": 779.8270404177405,
+    "MQ": null,
+    "MQ_status": "definition_pending_organizer",
+    "S_Dbw": 0.9959874251806291,
+    "S_Dbw_diagnostics": {
+      "convention": "S_Dbw-HV01-var/mean-centroid",
+      "radius": 0.1901451020888713,
+      "centroid_densities": [
+        21,
+        22,
+        105,
+        1
+      ],
+      "zero_density_clusters": [],
+      "undefined_pairs": 0
+    },
+    "AVI": 0.8847187493492511,
+    "AVU": 0.5296353331236692,
+    "AVI_undefined_clusters": 0,
+    "AVU_undefined_ordered_pairs": 0,
+    "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+    "max_cluster_size": 859,
+    "median_cluster_size": 515.0,
+    "negative_silhouette_fraction": 0.04563492063492063,
+    "below_20_territories_clusters": 0,
+    "fit_info": {
+      "inertia": 463.4179227155081,
+      "n_iter": 16,
+      "warnings": []
+    }
+  },
+  {
+    "candidate": "kmeans_k6",
+    "spec": {
+      "id": "kmeans_k6",
+      "method": "kmeans",
+      "k": 6
+    },
+    "n": 2016,
+    "k": 6,
+    "min_cluster_size": 91,
+    "SW": 0.2254819345392957,
+    "CH": 675.1336871138991,
+    "MQ": null,
+    "MQ_status": "definition_pending_organizer",
+    "S_Dbw": 0.8291424042821498,
+    "S_Dbw_diagnostics": {
+      "convention": "S_Dbw-HV01-var/mean-centroid",
+      "radius": 0.14046020308118312,
+      "centroid_densities": [
+        11,
+        65,
+        2,
+        0,
+        6,
+        7
+      ],
+      "zero_density_clusters": [
+        3
+      ],
+      "undefined_pairs": 0
+    },
+    "AVI": 0.8365902207058157,
+    "AVU": 0.5000802283918312,
+    "AVI_undefined_clusters": 0,
+    "AVU_undefined_ordered_pairs": 0,
+    "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+    "max_cluster_size": 426,
+    "median_cluster_size": 371.0,
+    "negative_silhouette_fraction": 0.06101190476190476,
+    "below_20_territories_clusters": 0,
+    "fit_info": {
+      "inertia": 374.0585020970792,
+      "n_iter": 46,
+      "warnings": []
+    }
+  },
+  {
+    "candidate": "spectral_local_k4",
+    "spec": {
+      "id": "spectral_local_k4",
+      "method": "spectral_local",
+      "k": 4
+    },
+    "n": 2016,
+    "k": 4,
+    "min_cluster_size": 81,
+    "SW": 0.20971967584107454,
+    "CH": 587.9720509254985,
+    "MQ": null,
+    "MQ_status": "definition_pending_organizer",
+    "S_Dbw": 0.9077280506812891,
+    "S_Dbw_diagnostics": {
+      "convention": "S_Dbw-HV01-var/mean-centroid",
+      "radius": 0.15814658116887473,
+      "centroid_densities": [
+        46,
+        3,
+        51,
+        13
+      ],
+      "zero_density_clusters": [],
+      "undefined_pairs": 0
+    },
+    "AVI": 0.9049517775096134,
+    "AVU": 0.6014869559504196,
+    "AVI_undefined_clusters": 0,
+    "AVU_undefined_ordered_pairs": 0,
+    "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+    "max_cluster_size": 980,
+    "median_cluster_size": 477.5,
+    "negative_silhouette_fraction": 0.18700396825396826,
+    "below_20_territories_clusters": 0,
+    "fit_info": {
+      "warnings": []
+    }
+  },
+  {
+    "candidate": "leiden_local_r0p4",
+    "spec": {
+      "id": "leiden_local_r0p4",
+      "method": "leiden_local",
+      "resolution": 0.4
+    },
+    "n": 2016,
+    "k": 7,
+    "min_cluster_size": 135,
+    "SW": 0.16092502637550296,
+    "CH": 526.5576151143148,
+    "MQ": null,
+    "MQ_status": "definition_pending_organizer",
+    "S_Dbw": 1.1850139357168907,
+    "S_Dbw_diagnostics": {
+      "convention": "S_Dbw-HV01-var/mean-centroid",
+      "radius": 0.12206276813120982,
+      "centroid_densities": [
+        1,
+        3,
+        4,
+        1,
+        34,
+        3,
+        0
+      ],
+      "zero_density_clusters": [
+        6
+      ],
+      "undefined_pairs": 0
+    },
+    "AVI": 0.8504803205824764,
+    "AVU": 0.5031807983685236,
+    "AVI_undefined_clusters": 0,
+    "AVU_undefined_ordered_pairs": 0,
+    "network_convention": "binary; symmetric adjacency; internal edges counted twice; AVU ordered sum divided by K",
+    "max_cluster_size": 461,
+    "median_cluster_size": 277.0,
+    "negative_silhouette_fraction": 0.23809523809523808,
+    "below_20_territories_clusters": 0,
+    "fit_info": {
+      "warnings": []
+    }
+  }
+]

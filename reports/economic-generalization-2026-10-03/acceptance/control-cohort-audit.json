@@ -1,0 +1,25 @@
+{
+  "status": "PASS_independent_population_control_join_no_wage_filter",
+  "all_frozen_expense_entities": 2016,
+  "cohort_builder": "scripts/prepare_external_national.py build_year reads wage/headcount/population independently, pivots all verified observations, leftjoins fullregistry; nooutcomejoinfilter",
+  "population_reconstructed_from_original_population_kind_audit": true,
+  "verified_observed_population_rows": 1798,
+  "positive_population_n": 1797,
+  "controls_exclusion_counts": {
+    "missing_population": 218,
+    "nonpositive_population": 1,
+    "missing_municipal_type": 0,
+    "missing_logmedianmonthlyTOTAL": 0,
+    "missing_sharedratioaxis": 0
+  },
+  "eligible_n": 1797,
+  "eligible_regions": 72,
+  "eligible_entities_with_missing_wage": 0,
+  "observed_wage_entities_excluded_by_controls": 33,
+  "equality_of_wage_and_sector_eligibility": "Empirical coincidence: every positiveverifiedpopulationentity also has observedwage; eligibility code nevertests wage. Sector estimand explicitlyconditionaloncontrolcoverage, notall2016.",
+  "evidence_sha256": {
+    "reports\\external-national-2026-10-03\\cohort-2023.csv": "dcfcf2ac0af503d696f9492bc8c1bc4e38977cc2bd1b6c12da66463f761d9c62",
+    "reports\\external-national-2026-10-03\\join-audit-2023.csv": "08ea9369c99b50bb08e89e3995f1b3ccd1601529ea031326d80bd33a27403deb",
+    "scripts\\prepare_external_national.py": "9b813981565acf513dc7c4b0490ea972dd1a77865d54039d5a9c990c96d79dc5"
+  }
+}

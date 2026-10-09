@@ -1,0 +1,23 @@
+test_actual_child_setup_failure_returns_setup_error_exit_two (test_technical_acceptance.TechnicalAcceptance) ... ok
+test_actual_missing_dependency_is_setup_error_for_success_and_refusal_controls (test_technical_acceptance.TechnicalAcceptance) ... ok
+test_actual_refusals_require_declared_reason_and_output_policy (test_technical_acceptance.TechnicalAcceptance) ... ok
+test_actual_unexpected_child_failure_returns_contract_failure_exit_one (test_technical_acceptance.TechnicalAcceptance) ... ok
+test_changed_payload_is_rejected (test_technical_acceptance.TechnicalAcceptance) ... ok
+test_current_documentation_and_source_drift_are_observations (test_technical_acceptance.TechnicalAcceptance) ... ok
+test_duplicate_json_fields_and_nonfinite_values_are_rejected (test_technical_acceptance.TechnicalAcceptance) ... ok
+test_duplicate_payload_and_invalid_digest_are_rejected (test_technical_acceptance.TechnicalAcceptance) ... ok
+test_existing_or_inside_package_output_is_refused (test_technical_acceptance.TechnicalAcceptance) ... ok
+test_integrity_only_does_not_run_predictions_or_claim_scientific_acceptance (test_technical_acceptance.TechnicalAcceptance) ... ok
+test_missing_payload_is_rejected (test_technical_acceptance.TechnicalAcceptance) ... ok
+test_payload_change_during_prediction_is_detected (test_technical_acceptance.TechnicalAcceptance) ... ok
+test_public_reference_context_validates_twelve_well_formed_packets (test_technical_acceptance.TechnicalAcceptance) ... ok
+test_resealed_packet_schema_revision_dimensions_and_intervals_are_rejected (test_technical_acceptance.TechnicalAcceptance) ... ok
+test_schema_and_empty_manifest_are_rejected (test_technical_acceptance.TechnicalAcceptance) ... ok
+test_three_existing_manifest_schemas (test_technical_acceptance.TechnicalAcceptance) ... ok
+test_unlisted_payload_is_rejected (test_technical_acceptance.TechnicalAcceptance) ... ok
+test_unsafe_manifest_paths_are_rejected_on_any_host (test_technical_acceptance.TechnicalAcceptance) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 1.446s
+
+OK

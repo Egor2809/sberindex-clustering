@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "protocol_sha256": "51c1ea4ebce670d4c1a88a6c1588aad1da47c82fa55a6e787d4b08296e750b6a",
+  "region_folds": 72,
+  "targets": 3,
+  "models": 4,
+  "extra_expense_folds": [],
+  "elapsed_seconds": 102.34604379997472,
+  "results_sha256": "d24b76cb9428f3915d93f816d23e5674e6888e8d9a3dc58aa8f3a3814d71cb3f",
+  "predictions_sha256": "bb3bf4c99bc5babfb855bc7ab113ed964cfad60db471244ec2dfd6b1f19a7f58"
+}

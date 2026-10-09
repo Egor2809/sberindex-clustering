@@ -1,0 +1,84 @@
+{
+  "status": "accepted_analytic_contract;descriptive_implementation_only",
+  "independent_kernel_sha256": "f03a527cea0670ebdb6b8effaeed5b675c38ee09d09adc57af623ddbd11def42",
+  "accepted_analytical_parts": [
+    "distinct_absolute_and_paired_relative_estimands",
+    "fixed_reference_context",
+    "sharp_missing_median_bounds",
+    "annual_preaggregation",
+    "conditional_box_certificate",
+    "nonidentifiability_of_causality"
+  ],
+  "hypothesis_policies_not_adopted": [
+    "epsilon0.02",
+    "coverage90/80percent",
+    "support_quantile99percent",
+    "80percent_operational_acceptance"
+  ],
+  "full_operational_matrix_not_claimed": true,
+  "local_kernel_checks": {
+    "status": "passed",
+    "scope": "synthetic_kernel_checks_only_not_panel_validation",
+    "python": "3.10.1",
+    "numpy": "2.2.6",
+    "seed": 1729,
+    "checks": {
+      "missing_median_completions": 4915,
+      "boxes_and_vertices": [
+        250,
+        8000
+      ],
+      "translation_max_abs_error": 4.440892098500626e-16,
+      "sparse_shift_20_of_101_preserved": true,
+      "annual_box_completions": 100,
+      "nonmidpoint_representative_not_replaced": true,
+      "annual_noncommutation": {
+        "correct": 0.0,
+        "wrong": -2.0
+      },
+      "synthetic_ari_counterexample": {
+        "before": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3
+        ],
+        "absolute": [
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          3
+        ],
+        "corrected": [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3
+        ],
+        "absolute_ARI": 0.07547169811320754,
+        "relative_ARI": 1.0
+      },
+      "paired_vs_cross_section_medians": [
+        9.0,
+        0.0
+      ],
+      "permutation_marginal_mmd_zero_paired_motion_nonzero": true,
+      "synthetic_shape_only_mmd2": 0.07398379289310164,
+      "dependence_only_shift_with_zero_paired_median": true,
+      "no_occupancy_quota_and_boundary_abstention": true,
+      "common_nominal_rescaling_invariant": true
+    }
+  }
+}

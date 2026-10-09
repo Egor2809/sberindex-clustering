@@ -1,0 +1,13 @@
+{
+  "panel_sha256": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+  "source_sha256": {
+    "sbercluster/dual_profiles.py": "6bd0b1f778d4803c107e7ca8cc0114fd45d3512ab00d64f051d9f2050c045dec",
+    "scripts/predict_dual.py": "f934d30ecf37edfd37924b2169d1fbf4402312c92c69827fc9ffa879ea9a242c",
+    "scripts/benchmark_dual_profiles.py": "88c302aef7dff839e3072e45862ad2a4f41055fcee6caee9451663723f4ee7a1",
+    "sbercluster/features.py": "42f9af6c3d7cd88b69e74c296fdf902d8c673ffc1a07854cb7b195314f7b0706"
+  },
+  "reference_file_sha256": "0050f89da8dac69e080e3f1845d3aa20110d8b1e4c64d165e0cf879765da57bb",
+  "reference_content_sha256": "1164f9ab9eb5a32d6b001c673b9ae2ab756cef7beb273e317cc0df47b6ffe175",
+  "packet_manifest_sha256": "66b9f712d405bb5855009aac5c1932dce987ee3009258511d9d5cdb104766293",
+  "model_file_sha256": "12e72c67cd6e2db9d3249a9211670eb04336c69fa5883cb5b1a0277496edb334"
+}

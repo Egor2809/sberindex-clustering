@@ -1,0 +1,1152 @@
+{
+  "results": [
+    {
+      "id": "joint_road_k2__archived",
+      "subset": "all",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.012303271831919746,
+      "ci95": [
+        0.0006605066653095356,
+        0.03470996540312255
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": -0.015808556118942062,
+      "delta_ci95": [
+        -0.04312743651633317,
+        0.0016506712087689167
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k2__corrected_from_initial",
+      "subset": "all",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.012490142472506611,
+      "ci95": [
+        0.0006480833412317586,
+        0.036203530392129986
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": -0.015621685478355197,
+      "delta_ci95": [
+        -0.042684298600442934,
+        0.0017168120704951603
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k2__corrected_from_endpoint",
+      "subset": "all",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.012490142472506611,
+      "ci95": [
+        0.0006480833412317586,
+        0.036203530392129986
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": -0.015621685478355197,
+      "delta_ci95": [
+        -0.042684298600442934,
+        0.0017168120704951603
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k3__archived",
+      "subset": "all",
+      "k": 3,
+      "requested_k": 3,
+      "occupied_k": 3,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.01519232535492689,
+      "ci95": [
+        0.0027161527736607903,
+        0.03774078984730276
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k3",
+      "status": "ok",
+      "delta_partial_R2": -0.02229836250974657,
+      "delta_ci95": [
+        -0.045696738329974285,
+        -0.004364174378951489
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k3__corrected_from_initial",
+      "subset": "all",
+      "k": 3,
+      "requested_k": 3,
+      "occupied_k": 3,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.015271294345295141,
+      "ci95": [
+        0.0027841753076070464,
+        0.037817642549929406
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k3",
+      "status": "ok",
+      "delta_partial_R2": -0.02221939351937832,
+      "delta_ci95": [
+        -0.04569659641495936,
+        -0.004364174378951489
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k3__corrected_from_endpoint",
+      "subset": "all",
+      "k": 3,
+      "requested_k": 3,
+      "occupied_k": 3,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.015271294345295141,
+      "ci95": [
+        0.0027841753076070464,
+        0.037817642549929406
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k3",
+      "status": "ok",
+      "delta_partial_R2": -0.02221939351937832,
+      "delta_ci95": [
+        -0.04569659641495936,
+        -0.004364174378951489
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k4__archived",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.03841515514844251,
+      "ci95": [
+        0.016609843270682753,
+        0.08570059960213527
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": 0.006047486047523781,
+      "delta_ci95": [
+        -0.021094199252403578,
+        0.03694321414027635
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k4__corrected_from_initial",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.030888186951253876,
+      "ci95": [
+        0.012020135234687188,
+        0.07403757474258899
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": -0.0014794821496648507,
+      "delta_ci95": [
+        -0.02577662500239904,
+        0.02460877979360295
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k4__corrected_from_endpoint",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.0386403100618659,
+      "ci95": [
+        0.016226146897993638,
+        0.08514887343722237
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": 0.006272640960947172,
+      "delta_ci95": [
+        -0.020371110342367778,
+        0.037272631566203134
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_same_region_k4__archived",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.037923877323996866,
+      "ci95": [
+        0.01485463698709571,
+        0.08126350498050669
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": 0.005556208223078139,
+      "delta_ci95": [
+        -0.023852882482374545,
+        0.03471114494865899
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_same_region_k4__corrected_from_initial",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.038557051476225276,
+      "ci95": [
+        0.015138016960616956,
+        0.08231254215691353
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": 0.00618938237530655,
+      "delta_ci95": [
+        -0.022400594888687356,
+        0.03569308704852912
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_same_region_k4__corrected_from_endpoint",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.03789482466530209,
+      "ci95": [
+        0.01486266759878958,
+        0.08126350498050669
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": 0.005527155564383365,
+      "delta_ci95": [
+        -0.02389794780427064,
+        0.03479643589559539
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "kmeans_k2",
+      "subset": "all",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.02811182795086181,
+      "ci95": [
+        0.007138512234098488,
+        0.06216052902729371
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": 0.0,
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "kmeans_k3",
+      "subset": "all",
+      "k": 3,
+      "requested_k": 3,
+      "occupied_k": 3,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.03749068786467346,
+      "ci95": [
+        0.018727009586364668,
+        0.06574642748152108
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k3",
+      "status": "ok",
+      "delta_partial_R2": 0.0,
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "kmeans_k4",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.032367669100918726,
+      "ci95": [
+        0.014772459097283143,
+        0.06722561614065808
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": 0.0,
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k2__archived",
+      "subset": "without_intracity",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.01415246959570006,
+      "ci95": [
+        0.0010575014946044847,
+        0.03689196506795907
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": -0.016395003422678966,
+      "delta_ci95": [
+        -0.04415449369911753,
+        9.199811864017603e-05
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k2__corrected_from_initial",
+      "subset": "without_intracity",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.014382340079620243,
+      "ci95": [
+        0.001161208893596127,
+        0.03726585358604409
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": -0.016165132938758785,
+      "delta_ci95": [
+        -0.043708503205831604,
+        4.944717293451808e-05
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k2__corrected_from_endpoint",
+      "subset": "without_intracity",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.014382340079620243,
+      "ci95": [
+        0.001161208893596127,
+        0.03726585358604409
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": -0.016165132938758785,
+      "delta_ci95": [
+        -0.043708503205831604,
+        4.944717293451808e-05
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k3__archived",
+      "subset": "without_intracity",
+      "k": 3,
+      "requested_k": 3,
+      "occupied_k": 3,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.017420954853232733,
+      "ci95": [
+        0.003564352009508264,
+        0.03851082696273185
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k3",
+      "status": "ok",
+      "delta_partial_R2": -0.021951453152679715,
+      "delta_ci95": [
+        -0.04938562082910585,
+        -0.0038073296592585405
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k3__corrected_from_initial",
+      "subset": "without_intracity",
+      "k": 3,
+      "requested_k": 3,
+      "occupied_k": 3,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.017497826549120448,
+      "ci95": [
+        0.0036030810946650906,
+        0.0386144645890583
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k3",
+      "status": "ok",
+      "delta_partial_R2": -0.021874581456792,
+      "delta_ci95": [
+        -0.04938562082910585,
+        -0.003751699138671485
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k3__corrected_from_endpoint",
+      "subset": "without_intracity",
+      "k": 3,
+      "requested_k": 3,
+      "occupied_k": 3,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.017497826549120448,
+      "ci95": [
+        0.0036030810946650906,
+        0.0386144645890583
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k3",
+      "status": "ok",
+      "delta_partial_R2": -0.021874581456792,
+      "delta_ci95": [
+        -0.04938562082910585,
+        -0.003751699138671485
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k4__archived",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.04378785236763765,
+      "ci95": [
+        0.021565240243641075,
+        0.09126562438752528
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": 0.012067933219094579,
+      "delta_ci95": [
+        -0.013333464663354536,
+        0.0473359341485465
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k4__corrected_from_initial",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.03529517058902948,
+      "ci95": [
+        0.016024882425663873,
+        0.08071309958888179
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": 0.003575251440486406,
+      "delta_ci95": [
+        -0.020187872990132857,
+        0.03296806070375479
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k4__corrected_from_endpoint",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.044083642139194745,
+      "ci95": [
+        0.021905189625568148,
+        0.08987179906230183
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": 0.012363722990651672,
+      "delta_ci95": [
+        -0.013083335450390745,
+        0.04761115814125807
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_same_region_k4__archived",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.04051917018413549,
+      "ci95": [
+        0.01771499010498187,
+        0.08366433355492627
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": 0.008799251035592419,
+      "delta_ci95": [
+        -0.019829039383378762,
+        0.04320722791748141
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_same_region_k4__corrected_from_initial",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.04115745346189267,
+      "ci95": [
+        0.018079728899145726,
+        0.0840848587674021
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": 0.009437534313349594,
+      "delta_ci95": [
+        -0.01932862406165798,
+        0.043874036708791676
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_same_region_k4__corrected_from_endpoint",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.04050566126364658,
+      "ci95": [
+        0.01775823933095095,
+        0.08370030840217894
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": 0.00878574211510351,
+      "delta_ci95": [
+        -0.019796101576723305,
+        0.043343101998644364
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "kmeans_k2",
+      "subset": "without_intracity",
+      "k": 2,
+      "requested_k": 2,
+      "occupied_k": 2,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.030547473018379026,
+      "ci95": [
+        0.008191748637414802,
+        0.06802559134979666
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k2",
+      "status": "ok",
+      "delta_partial_R2": 0.0,
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "kmeans_k3",
+      "subset": "without_intracity",
+      "k": 3,
+      "requested_k": 3,
+      "occupied_k": 3,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.03937240800591245,
+      "ci95": [
+        0.018485833656699254,
+        0.07190598794525574
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k3",
+      "status": "ok",
+      "delta_partial_R2": 0.0,
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "kmeans_k4",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.03171991914854307,
+      "ci95": [
+        0.012449213515533715,
+        0.06218871617349058
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "kmeans_k4",
+      "status": "ok",
+      "delta_partial_R2": 0.0,
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_paired_bootstrap_draws": 500
+    }
+  ],
+  "bridge_sha256": "3898c2201a871cbcc1fca4b5c1f09a7be5ed68583b12338e8bf55cc91e9b5bc5",
+  "scope": "Exploratory association on already-inspected market access; paired regional bootstrap conditional on fixed labels; not a significance test or causal effect. Requested K fixes the baseline even if a fit occupies fewer clusters. Undefined draws are excluded on a common paired mask for differences. Market accessibility and roads share infrastructural content, so independence of measurement is limited.",
+  "road_vs_region": [
+    {
+      "id": "joint_road_k4__archived",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.03841515514844251,
+      "ci95": [
+        0.016609843270682753,
+        0.08570059960213527
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "joint_same_region_k4__corrected_from_initial",
+      "status": "ok",
+      "delta_partial_R2": -0.00014189632778276867,
+      "delta_ci95": [
+        -0.018190827305479558,
+        0.02259514502676603
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k4__corrected_from_initial",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.030888186951253876,
+      "ci95": [
+        0.012020135234687188,
+        0.07403757474258899
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "joint_same_region_k4__corrected_from_initial",
+      "status": "ok",
+      "delta_partial_R2": -0.007668864524971401,
+      "delta_ci95": [
+        -0.02642108230619507,
+        0.012618802156102548
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k4__corrected_from_endpoint",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.0386403100618659,
+      "ci95": [
+        0.016226146897993638,
+        0.08514887343722237
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "joint_same_region_k4__corrected_from_initial",
+      "status": "ok",
+      "delta_partial_R2": 8.325858564062205e-05,
+      "delta_ci95": [
+        -0.0176765465661949,
+        0.02359662207749116
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_same_region_k4__archived",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.037923877323996866,
+      "ci95": [
+        0.01485463698709571,
+        0.08126350498050669
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "joint_same_region_k4__corrected_from_initial",
+      "status": "ok",
+      "delta_partial_R2": -0.0006331741522284107,
+      "delta_ci95": [
+        -0.002873206623066126,
+        0.00010855016826054749
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_same_region_k4__corrected_from_initial",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.038557051476225276,
+      "ci95": [
+        0.015138016960616956,
+        0.08231254215691353
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "joint_same_region_k4__corrected_from_initial",
+      "status": "ok",
+      "delta_partial_R2": 0.0,
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_same_region_k4__corrected_from_endpoint",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.03789482466530209,
+      "ci95": [
+        0.01486266759878958,
+        0.08126350498050669
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "joint_same_region_k4__corrected_from_initial",
+      "status": "ok",
+      "delta_partial_R2": -0.0006622268109231846,
+      "delta_ci95": [
+        -0.0028542889596532687,
+        0.0
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "kmeans_k4",
+      "subset": "all",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 2004,
+      "regions": 73,
+      "partial_R2": 0.032367669100918726,
+      "ci95": [
+        0.014772459097283143,
+        0.06722561614065808
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "joint_same_region_k4__corrected_from_initial",
+      "status": "ok",
+      "delta_partial_R2": -0.00618938237530655,
+      "delta_ci95": [
+        -0.03569308704852912,
+        0.022400594888687328
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k4__archived",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.04378785236763765,
+      "ci95": [
+        0.021565240243641075,
+        0.09126562438752528
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "joint_same_region_k4__corrected_from_initial",
+      "status": "ok",
+      "delta_partial_R2": 0.002630398905744985,
+      "delta_ci95": [
+        -0.01965942839729585,
+        0.022950749245233732
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k4__corrected_from_initial",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.03529517058902948,
+      "ci95": [
+        0.016024882425663873,
+        0.08071309958888179
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "joint_same_region_k4__corrected_from_initial",
+      "status": "ok",
+      "delta_partial_R2": -0.005862282872863188,
+      "delta_ci95": [
+        -0.027635348199701443,
+        0.01339909482706887
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_road_k4__corrected_from_endpoint",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.044083642139194745,
+      "ci95": [
+        0.021905189625568148,
+        0.08987179906230183
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "joint_same_region_k4__corrected_from_initial",
+      "status": "ok",
+      "delta_partial_R2": 0.0029261886773020787,
+      "delta_ci95": [
+        -0.019611029016278633,
+        0.02360268312187871
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_same_region_k4__archived",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.04051917018413549,
+      "ci95": [
+        0.01771499010498187,
+        0.08366433355492627
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "joint_same_region_k4__corrected_from_initial",
+      "status": "ok",
+      "delta_partial_R2": -0.0006382832777571748,
+      "delta_ci95": [
+        -0.0027527601026886344,
+        0.00010851429415573339
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_same_region_k4__corrected_from_initial",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.04115745346189267,
+      "ci95": [
+        0.018079728899145726,
+        0.0840848587674021
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "joint_same_region_k4__corrected_from_initial",
+      "status": "ok",
+      "delta_partial_R2": 0.0,
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "joint_same_region_k4__corrected_from_endpoint",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.04050566126364658,
+      "ci95": [
+        0.01775823933095095,
+        0.08370030840217894
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "joint_same_region_k4__corrected_from_initial",
+      "status": "ok",
+      "delta_partial_R2": -0.0006517921982460845,
+      "delta_ci95": [
+        -0.0027241214942828993,
+        0.0
+      ],
+      "valid_paired_bootstrap_draws": 500
+    },
+    {
+      "id": "kmeans_k4",
+      "subset": "without_intracity",
+      "k": 4,
+      "requested_k": 4,
+      "occupied_k": 4,
+      "partition_status": "requested_k_occupied",
+      "n": 1762,
+      "regions": 71,
+      "partial_R2": 0.03171991914854307,
+      "ci95": [
+        0.012449213515533715,
+        0.06218871617349058
+      ],
+      "controls": "region x type + log expense 2023",
+      "bootstrap": 500,
+      "valid_bootstrap_draws": 500,
+      "baseline": "joint_same_region_k4__corrected_from_initial",
+      "status": "ok",
+      "delta_partial_R2": -0.009437534313349594,
+      "delta_ci95": [
+        -0.04387403670879169,
+        0.01932862406165794
+      ],
+      "valid_paired_bootstrap_draws": 500
+    }
+  ]
+}

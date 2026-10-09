@@ -1,0 +1,35 @@
+{
+  "chromium": {
+    "checks": 46,
+    "passed": 46,
+    "javascript_errors": []
+  },
+  "kmeans4": {
+    "run": "runs/research-20260925T093655324140Z",
+    "candidate": "annual_2023__kmeans_k4",
+    "entities": 2016,
+    "exact_label_match": true,
+    "partition_match_up_to_label_permutation": true,
+    "different_numeric_labels": 0
+  },
+  "runs/research-20260925T093655324140Z/status.json": {
+    "status": "completed",
+    "phase": "screen",
+    "elapsed_seconds": 0.7616093990000081
+  },
+  "runs/review-20260924-small-k/status.json": {
+    "status": "completed",
+    "stage": "small_k",
+    "seconds": 0.8168290439999737,
+    "new_static_partitions": 4,
+    "n": 2016,
+    "temporal_variants": 0
+  },
+  "run_url": "закрытый репозиторий предыдущего этапа, ссылка недоступна",
+  "python_tests": {
+    "discovered": 122,
+    "skipped": 1,
+    "passed": 121
+  },
+  "head_sha": "d859a6cfcda736973ad121e0df6bf801bae7bfca"
+}

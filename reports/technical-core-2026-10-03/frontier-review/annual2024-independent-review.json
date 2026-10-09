@@ -1,0 +1,61 @@
+{
+  "status": "pass",
+  "scientific_acceptance": "limited_retrospective_annual_application",
+  "scope": "Independent raw2024 frozen transform and full rule, SW/CH, crosstab/ARI and separate15NN graph AVI/AVU; no fitting.",
+  "annual_report_sha256": "239233e165555f271bc1b3911c55abe0f1265f41d5893e80d887f4dd27358361",
+  "cases": [
+    {
+      "id": "historical_kmeans4",
+      "model_SHA_matches": true,
+      "all_2016_labels_exact": true,
+      "cluster_sizes_exact": true,
+      "crosstab_exact": true,
+      "ARI_error": 0.0,
+      "SW_error": 0.0,
+      "CH_error": 1.1368683772161603e-12,
+      "AVI_error_independent_graph": 0.0,
+      "AVU_error_independent_graph": 0.0,
+      "min_occupancy": 27,
+      "SW": 0.2696761212955069,
+      "CH": 814.2749996304328
+    },
+    {
+      "id": "sw_constrained_huber75",
+      "model_SHA_matches": true,
+      "all_2016_labels_exact": true,
+      "cluster_sizes_exact": true,
+      "crosstab_exact": true,
+      "ARI_error": 0.0,
+      "SW_error": 0.0,
+      "CH_error": 1.2505552149377763e-12,
+      "AVI_error_independent_graph": 0.0,
+      "AVU_error_independent_graph": 0.0,
+      "min_occupancy": 28,
+      "SW": 0.2831636014229919,
+      "CH": 739.6976080052112
+    },
+    {
+      "id": "sw_constrained_ordinary",
+      "model_SHA_matches": true,
+      "all_2016_labels_exact": true,
+      "cluster_sizes_exact": true,
+      "crosstab_exact": true,
+      "ARI_error": 0.0,
+      "SW_error": 0.0,
+      "CH_error": 9.094947017729282e-13,
+      "AVI_error_independent_graph": 0.0,
+      "AVU_error_independent_graph": 0.0,
+      "min_occupancy": 28,
+      "SW": 0.2796125256986809,
+      "CH": 719.3060261540355
+    }
+  ],
+  "H75_CH_ratio": 0.9084125244431313,
+  "H75_SW_gain": 0.013487480127485019,
+  "limits": [
+    "Previously inspected2024, not untouched future confirmation.",
+    "All models retain4occupied groups but smallest2024group27or28 is below61/2016 training-size threshold.",
+    "H75 annual2024CH ratio is below0.95; development guards are not a transfer guarantee.",
+    "Persistent IDs do not prove constant boundaries; profile changes are descriptive."
+  ]
+}

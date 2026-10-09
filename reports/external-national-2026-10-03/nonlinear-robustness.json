@@ -1,0 +1,2517 @@
+{
+  "status": "exploratory_robustness_completed",
+  "selection_rule": "Fixed complete second-order polynomial(population,expense,sharedratiofactor); all main outcomes/years/models retained. Economic targets did not choose cluster models or terms.",
+  "timing": "Requested after the initial linear outcomes were inspected; this challenge is explicitly post hoc, separate from the preregistered linear analysis.",
+  "controls": "Municipal type and degree2 monomials of logpopulation,logexpense,sharedratiofactor including interactions. Within-association also regionFE; blockedprobes use otherregionoutcomes only.",
+  "strong_representation_comparator": "Frozen continuous5 consumerfeatures; also their complete quadratic basis. No outcome-selected regularization/hyperparameters.",
+  "pairwise_loss": "After all OOF predictions are fixed, evaluate 2*samplevariance of errors within each region (equivalent mean pairwise squared error difference). This uses heldoutoutcomes only for evaluation, never prediction or fitting.",
+  "input_hashes": {
+    "reports\\external-national-2026-10-03\\results.json": "0dd1bfb99cf2dceefbdf2f619fa1d789c2d1aeafc3b95974e456d960a3919ad7",
+    "reports\\external-national-2026-10-03\\frozen-labels.json": "195e2fdf748e7dae8d3dcafb7515ec70b56896f5ac252e8cd5a355deaa771a70",
+    "reports\\external-national-2026-10-03\\consumer-features.npy": "db16fc485169b4a29e9217d6340d36991b2582b323a3c63889f587f428dd9abc",
+    "reports\\external-national-2026-10-03\\cohort-2023.csv": "dcfcf2ac0af503d696f9492bc8c1bc4e38977cc2bd1b6c12da66463f761d9c62",
+    "reports\\external-national-2026-10-03\\cohort-2024.csv": "0c26468eb64f2ed21d16d71faef998f9cdb3a9e69960a7c016737d402b262a07"
+  },
+  "within_region_associations": [
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "model": "historical_kmeans4",
+      "n": 1797,
+      "regions": 72,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.017564359087053578
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "model": "sw_constrained_huber75",
+      "n": 1797,
+      "regions": 72,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.02213023994504616
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "model": "sw_constrained_ordinary",
+      "n": 1797,
+      "regions": 72,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.020516975595850515
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "model": "historical_kmeans4",
+      "n": 1797,
+      "regions": 72,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.0176615177041408
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "model": "sw_constrained_huber75",
+      "n": 1797,
+      "regions": 72,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.024856327123535492
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "model": "sw_constrained_ordinary",
+      "n": 1797,
+      "regions": 72,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.02597700727215879
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "model": "historical_kmeans4",
+      "n": 970,
+      "regions": 71,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.008887305367104267
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "model": "sw_constrained_huber75",
+      "n": 970,
+      "regions": 71,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.01728981118169529
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "model": "sw_constrained_ordinary",
+      "n": 970,
+      "regions": 71,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.011188553452205952
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "model": "historical_kmeans4",
+      "n": 1043,
+      "regions": 70,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.008788561194760602
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "model": "sw_constrained_huber75",
+      "n": 1043,
+      "regions": 70,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.008156892043458567
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "model": "sw_constrained_ordinary",
+      "n": 1043,
+      "regions": 70,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.0071230695356237165
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "model": "historical_kmeans4",
+      "n": 1594,
+      "regions": 72,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.017537473586401297
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "model": "sw_constrained_huber75",
+      "n": 1594,
+      "regions": 72,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.02328447767505346
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "model": "sw_constrained_ordinary",
+      "n": 1594,
+      "regions": 72,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.019992253151150056
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "model": "historical_kmeans4",
+      "n": 1680,
+      "regions": 68,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.01766643859408515
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "model": "sw_constrained_huber75",
+      "n": 1680,
+      "regions": 68,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.02394859748769076
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "model": "sw_constrained_ordinary",
+      "n": 1680,
+      "regions": 68,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.020963599119476622
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "model": "historical_kmeans4",
+      "n": 1680,
+      "regions": 68,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.01765947234224758
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "model": "sw_constrained_huber75",
+      "n": 1680,
+      "regions": 68,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.023892818568766315
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "model": "sw_constrained_ordinary",
+      "n": 1680,
+      "regions": 68,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.024080630322592493
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "model": "historical_kmeans4",
+      "n": 879,
+      "regions": 66,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.0070805857522171665
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "model": "sw_constrained_huber75",
+      "n": 879,
+      "regions": 66,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.01880247305589293
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "model": "sw_constrained_ordinary",
+      "n": 879,
+      "regions": 66,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.011820422247398417
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "model": "historical_kmeans4",
+      "n": 951,
+      "regions": 66,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.006139249069166729
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "model": "sw_constrained_huber75",
+      "n": 951,
+      "regions": 66,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.005431226798326499
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "model": "sw_constrained_ordinary",
+      "n": 951,
+      "regions": 66,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.004645902053292927
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "model": "historical_kmeans4",
+      "n": 1502,
+      "regions": 68,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.01393273847972438
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "model": "sw_constrained_huber75",
+      "n": 1502,
+      "regions": 68,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.018860750485366982
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "model": "sw_constrained_ordinary",
+      "n": 1502,
+      "regions": 68,
+      "partial_r2_after_quadratic_population_expense_shared_factor_controls": 0.014985189781105104
+    }
+  ],
+  "blocked_scores": [
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls",
+      "municipality_rmse": 0.18137455143569645,
+      "municipality_mae": 0.1338517347924031,
+      "equal_region_mse": 0.03797667600031571,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0017751476535695404,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0036154437994764953,
+        -0.0001315615554851623
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.003270963222505684,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0073985949309504995,
+        -0.0003121457517743114
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.17802603298511877,
+      "municipality_mae": 0.13249713901445945,
+      "equal_region_mse": 0.03470571277781002,
+      "equal_region_mse_improvement_vs_controls": 0.003270963222505684,
+      "paired_region_bootstrap_improvement_95": [
+        0.0003121457517743109,
+        0.007398594930950499
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0014958155689361438,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0006864721619844815,
+        0.004310719230754968
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_quadratic_continuous5",
+      "municipality_rmse": 0.1793370223106347,
+      "municipality_mae": 0.13337791489190357,
+      "equal_region_mse": 0.03590895766133743,
+      "equal_region_mse_improvement_vs_controls": 0.002067718338978276,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0007143999773714537,
+        0.00539154510060899
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.00029257068540873603,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0020204673105362085,
+        0.0027426590790716066
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0012032448835274077,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.002937954734525413,
+        0.00041849438255272024
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.1775721798124284,
+      "municipality_mae": 0.13072307669042915,
+      "equal_region_mse": 0.03620152834674617,
+      "equal_region_mse_improvement_vs_controls": 0.0017751476535695404,
+      "paired_region_bootstrap_improvement_95": [
+        0.00013156155548516165,
+        0.003615443799476495
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0014958155689361438,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.004310719230754969,
+        0.0006864721619844813
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.17736812087166728,
+      "municipality_mae": 0.130677497080187,
+      "equal_region_mse": 0.03625235971299217,
+      "equal_region_mse_improvement_vs_controls": 0.0017243162873235335,
+      "paired_region_bootstrap_improvement_95": [
+        0.00020405142789510112,
+        0.0034156887811578034
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -5.083136624600683e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0005538454855692573,
+        0.00046728061203459253
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0015466469351821507,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.004609374464153231,
+        0.0008767894684940499
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.17755926886960052,
+      "municipality_mae": 0.13074222499668678,
+      "equal_region_mse": 0.03640187581578691,
+      "equal_region_mse_improvement_vs_controls": 0.0015748001845287938,
+      "paired_region_bootstrap_improvement_95": [
+        5.5238794252115597e-05,
+        0.0031789502637178282
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.00020034746904074626,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0007344990782050989,
+        0.000285412451954967
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.00169616303797689,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.004832157870985839,
+        0.0007142667567957647
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls",
+      "municipality_rmse": 0.41601683945480494,
+      "municipality_mae": 0.2864932302666484,
+      "equal_region_mse": 0.16587033568919846,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.002632840494258882,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.007748163087787073,
+        0.001982900374352795
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.01334352978460717,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.02693761740954872,
+        -0.0025705962230725835
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.40496230711576203,
+      "municipality_mae": 0.2812649859484848,
+      "equal_region_mse": 0.1525268059045913,
+      "equal_region_mse_improvement_vs_controls": 0.01334352978460717,
+      "paired_region_bootstrap_improvement_95": [
+        0.0025705962230725835,
+        0.02693761740954872
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.01071068929034829,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0012253910103828592,
+        0.021353887300672843
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_quadratic_continuous5",
+      "municipality_rmse": 0.40735215462313085,
+      "municipality_mae": 0.2785737009551143,
+      "equal_region_mse": 0.1636814030720629,
+      "equal_region_mse_improvement_vs_controls": 0.002188932617135574,
+      "paired_region_bootstrap_improvement_95": [
+        -0.02431909424668957,
+        0.021535659490499102
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0004439078771233103,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.02906688801169502,
+        0.021506308225146018
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.011154597167471598,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.04094995107817741,
+        0.010343581401842173
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.41577906451457214,
+      "municipality_mae": 0.28607611790182563,
+      "equal_region_mse": 0.16323749519493955,
+      "equal_region_mse_improvement_vs_controls": 0.002632840494258882,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0019829003743527954,
+        0.0077481630877870725
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.01071068929034829,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.021353887300672843,
+        -0.0012253910103828605
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.4207784037046734,
+      "municipality_mae": 0.2866986589558524,
+      "equal_region_mse": 0.1661878564956061,
+      "equal_region_mse_improvement_vs_controls": -0.00031752080640763295,
+      "paired_region_bootstrap_improvement_95": [
+        -0.007001937036803201,
+        0.005319499185514395
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.002950361300666515,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0069212045380748636,
+        0.0002190221986499456
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.013661050591014804,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.02689693449743934,
+        -0.0018754215122718536
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1797,
+      "regions": 72,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.4213317287702435,
+      "municipality_mae": 0.28659851160872085,
+      "equal_region_mse": 0.16586294936516477,
+      "equal_region_mse_improvement_vs_controls": 7.386324033708088e-06,
+      "paired_region_bootstrap_improvement_95": [
+        -0.007426190644738558,
+        0.0065242789119539695
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0026254541702251744,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.007435938265493716,
+        0.001049557544691669
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.013336143460573461,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.026629665675142213,
+        -0.0015136225452427878
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "n": 970,
+      "regions": 71,
+      "predictor": "controls",
+      "municipality_rmse": 0.13048388960551954,
+      "municipality_mae": 0.10479784677466615,
+      "equal_region_mse": 0.018568627085606564,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.000554116899871071,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0011444101835310753,
+        9.419353006002722e-06
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0027399477693950485,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.004596711723227412,
+        -0.0012157727051894816
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "n": 970,
+      "regions": 71,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.12400408831216432,
+      "municipality_mae": 0.09879553338969989,
+      "equal_region_mse": 0.01582867931621152,
+      "equal_region_mse_improvement_vs_controls": 0.0027399477693950485,
+      "paired_region_bootstrap_improvement_95": [
+        0.0012157727051894816,
+        0.004596711723227412
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.002185830869523978,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0008761899621717469,
+        0.003776946261428828
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "n": 970,
+      "regions": 71,
+      "predictor": "controls_plus_quadratic_continuous5",
+      "municipality_rmse": 0.12378538055166381,
+      "municipality_mae": 0.0986574498528734,
+      "equal_region_mse": 0.01521096138581576,
+      "equal_region_mse_improvement_vs_controls": 0.0033576656997908144,
+      "paired_region_bootstrap_improvement_95": [
+        0.001632898923827185,
+        0.0053324758499518985
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0028035487999197436,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.001277708690209773,
+        0.004641556409915999
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0006177179303957656,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0007186476939860878,
+        0.0017495940348974336
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "n": 970,
+      "regions": 71,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.12879993119027738,
+      "municipality_mae": 0.1028356398543547,
+      "equal_region_mse": 0.018014510185735497,
+      "equal_region_mse_improvement_vs_controls": 0.000554116899871071,
+      "paired_region_bootstrap_improvement_95": [
+        -9.419353006002766e-06,
+        0.001144410183531075
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.002185830869523978,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0037769462614288284,
+        -0.0008761899621717469
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "n": 970,
+      "regions": 71,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.12786476652051493,
+      "municipality_mae": 0.10144049458634326,
+      "equal_region_mse": 0.017073332867033646,
+      "equal_region_mse_improvement_vs_controls": 0.0014952942185729227,
+      "paired_region_bootstrap_improvement_95": [
+        0.0004160222613908574,
+        0.0027773899391962354
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0009411773187018515,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        2.198037535877799e-05,
+        0.0019671659632878613
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0012446535508221265,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0022083049190430963,
+        -0.00035391402120763004
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "n": 970,
+      "regions": 71,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.1284412944773924,
+      "municipality_mae": 0.10198858930075251,
+      "equal_region_mse": 0.01745725492388965,
+      "equal_region_mse_improvement_vs_controls": 0.001111372161716921,
+      "paired_region_bootstrap_improvement_95": [
+        0.00030722352866525634,
+        0.002023472686895301
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0005572552618458498,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00010419120137829843,
+        0.001317351258796621
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.001628575607678128,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.002811894324797272,
+        -0.0005640134917008764
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "n": 1043,
+      "regions": 70,
+      "predictor": "controls",
+      "municipality_rmse": 0.08945436494099517,
+      "municipality_mae": 0.06699419789870173,
+      "equal_region_mse": 0.0071834622575802625,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 5.490816546376144e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -7.53514874446644e-05,
+        0.00019494668107871373
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 4.0074465627803285e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00023757706093846057,
+        0.0003216206562120055
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "n": 1043,
+      "regions": 70,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.08911786997191148,
+      "municipality_mae": 0.06576510276442128,
+      "equal_region_mse": 0.007223536723208068,
+      "equal_region_mse_improvement_vs_controls": -4.0074465627803285e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0003216206562120056,
+        0.00023757706093846054
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 1.4833699835958158e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00021067037534205232,
+        0.0002416709832321747
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "n": 1043,
+      "regions": 70,
+      "predictor": "controls_plus_quadratic_continuous5",
+      "municipality_rmse": 0.08912059382085065,
+      "municipality_mae": 0.06566866027595623,
+      "equal_region_mse": 0.007173437500528525,
+      "equal_region_mse_improvement_vs_controls": 1.00247570517388e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0003712866950490945,
+        0.0003939290558314136
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 6.493292251550025e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0002437266992199047,
+        0.0004083753550579196
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 5.0099222679542106e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0002362266717130511,
+        0.0003389155490583542
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "n": 1043,
+      "regions": 70,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.08948706048926387,
+      "municipality_mae": 0.06675984212357351,
+      "equal_region_mse": 0.007238370423044025,
+      "equal_region_mse_improvement_vs_controls": -5.490816546376144e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00019494668107871376,
+        7.535148744466431e-05
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -1.4833699835958158e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00024167098323217478,
+        0.0002106703753420523
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "n": 1043,
+      "regions": 70,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.08922919228798747,
+      "municipality_mae": 0.0665408977494659,
+      "equal_region_mse": 0.007147742189282033,
+      "equal_region_mse_improvement_vs_controls": 3.572006829822978e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00010719462813496493,
+        0.00017237037982545026
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 9.062823376199121e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -2.1379512258275637e-05,
+        0.00021395486952465695
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 7.579453392603307e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00016590411541140553,
+        0.0003393804827878977
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "n": 1043,
+      "regions": 70,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.08917132663343266,
+      "municipality_mae": 0.06645189676583295,
+      "equal_region_mse": 0.007165062756946109,
+      "equal_region_mse_improvement_vs_controls": 1.839950063415453e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00013246581447305542,
+        0.00016200015035651972
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 7.330766609791597e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -4.8144837868480575e-05,
+        0.00020339328065194286
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 5.847396626195782e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00016152582146298572,
+        0.00030281597412934767
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1594,
+      "regions": 72,
+      "predictor": "controls",
+      "municipality_rmse": 0.13400590750312247,
+      "municipality_mae": 0.10514462675324161,
+      "equal_region_mse": 0.022071326818517138,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0008178523388304898,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0019072636849917933,
+        0.00017040928309529246
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.003972817867851564,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.006171190013689363,
+        -0.0020673473224895396
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1594,
+      "regions": 72,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.12495429560724447,
+      "municipality_mae": 0.09745292731418422,
+      "equal_region_mse": 0.018098508950665577,
+      "equal_region_mse_improvement_vs_controls": 0.003972817867851564,
+      "paired_region_bootstrap_improvement_95": [
+        0.0020673473224895396,
+        0.006171190013689363
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0031549655290210744,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.001407350880925084,
+        0.005175561786882292
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1594,
+      "regions": 72,
+      "predictor": "controls_plus_quadratic_continuous5",
+      "municipality_rmse": 0.12626279141839988,
+      "municipality_mae": 0.09794047827211899,
+      "equal_region_mse": 0.017458556817988295,
+      "equal_region_mse_improvement_vs_controls": 0.004612770000528845,
+      "paired_region_bootstrap_improvement_95": [
+        0.0019414802221142898,
+        0.007788320280280389
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0037949176616983555,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.001504266282888691,
+        0.006447214955319195
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0006399521326772809,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0009635915636840633,
+        0.002411668504115782
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1594,
+      "regions": 72,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.13332053254897588,
+      "municipality_mae": 0.10462807319773111,
+      "equal_region_mse": 0.021253474479686653,
+      "equal_region_mse_improvement_vs_controls": 0.0008178523388304898,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00017040928309529273,
+        0.0019072636849917929
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0031549655290210744,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.005175561786882293,
+        -0.001407350880925084
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1594,
+      "regions": 72,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.13284726793388407,
+      "municipality_mae": 0.10517844433748773,
+      "equal_region_mse": 0.02035318237594784,
+      "equal_region_mse_improvement_vs_controls": 0.0017181444425693009,
+      "paired_region_bootstrap_improvement_95": [
+        0.0004931336782453619,
+        0.003182583056949208
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0009002921037388112,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.00013049309572359385,
+        0.0018034064990655435
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.002254673425282263,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.004269145233530782,
+        -0.00033812914093043963
+      ]
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1594,
+      "regions": 72,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.13314309666617713,
+      "municipality_mae": 0.1054011282182255,
+      "equal_region_mse": 0.020611580512003527,
+      "equal_region_mse_improvement_vs_controls": 0.0014597463065136136,
+      "paired_region_bootstrap_improvement_95": [
+        0.00041227322918034663,
+        0.002664921869702989
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0006418939676831239,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -2.0204950060602718e-05,
+        0.0014438479504798722
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.002513071561337951,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.004468222167835677,
+        -0.0007550116354547172
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls",
+      "municipality_rmse": 0.18188506356105535,
+      "municipality_mae": 0.13635662461163361,
+      "equal_region_mse": 0.03555425062881404,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.001755453452708219,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.003661270647238535,
+        -0.0001727589157392975
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.002854164477322793,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00628831661448906,
+        -0.00019278377996493758
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.1788021499835805,
+      "municipality_mae": 0.1350111249602429,
+      "equal_region_mse": 0.03270008615149123,
+      "equal_region_mse_improvement_vs_controls": 0.002854164477322793,
+      "paired_region_bootstrap_improvement_95": [
+        0.0001927837799649374,
+        0.006288316614489059
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0010987110246145734,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0009504632476425314,
+        0.003340339394547351
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_quadratic_continuous5",
+      "municipality_rmse": 0.1805576310533812,
+      "municipality_mae": 0.13622879591802034,
+      "equal_region_mse": 0.033950149387647975,
+      "equal_region_mse_improvement_vs_controls": 0.001604101241166051,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0008668279183954688,
+        0.004293819598410585
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.00015135221154216779,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.002433313155652832,
+        0.002064136836119349
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0012500632361567413,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.003033209868184235,
+        0.00032324205297241173
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.17755688880687692,
+      "municipality_mae": 0.13340032590161433,
+      "equal_region_mse": 0.03379879717610581,
+      "equal_region_mse_improvement_vs_controls": 0.001755453452708219,
+      "paired_region_bootstrap_improvement_95": [
+        0.00017275891573929718,
+        0.0036612706472385344
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0010987110246145734,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.003340339394547351,
+        0.000950463247642531
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.1775676713943432,
+      "municipality_mae": 0.13333889535962815,
+      "equal_region_mse": 0.03393137523737716,
+      "equal_region_mse_improvement_vs_controls": 0.0016228753914368603,
+      "paired_region_bootstrap_improvement_95": [
+        9.596708175569902e-05,
+        0.0034137415023824933
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.00013257806127135865,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0006067142850693796,
+        0.0003143904699267336
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.001231289085885932,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0036532810316263,
+        0.0010213830050512863
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.17787565176214432,
+      "municipality_mae": 0.133528528255777,
+      "equal_region_mse": 0.03412165337780454,
+      "equal_region_mse_improvement_vs_controls": 0.0014325972510094865,
+      "paired_region_bootstrap_improvement_95": [
+        -3.2451498555595826e-05,
+        0.0031174133120447857
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0003228562016987323,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0007914984429829115,
+        8.413538482860127e-05
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0014215672263133057,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.003919408069917604,
+        0.0008130561315641567
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls",
+      "municipality_rmse": 0.41831155269050535,
+      "municipality_mae": 0.2923145611892329,
+      "equal_region_mse": 0.17059554286822956,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0021570765719657985,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.006914716169361107,
+        0.0025251219502926783
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.011537389315441189,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.02558655292439362,
+        -0.000992700021128032
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.40868168770687224,
+      "municipality_mae": 0.28866681787377946,
+      "equal_region_mse": 0.1590581535527884,
+      "equal_region_mse_improvement_vs_controls": 0.011537389315441189,
+      "paired_region_bootstrap_improvement_95": [
+        0.0009927000211280286,
+        0.02558655292439362
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.00938031274347539,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.00010359341115697405,
+        0.02029060295341516
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_quadratic_continuous5",
+      "municipality_rmse": 0.4071147786801298,
+      "municipality_mae": 0.28576226221297857,
+      "equal_region_mse": 0.1640968438231967,
+      "equal_region_mse_improvement_vs_controls": 0.0064986990450328335,
+      "paired_region_bootstrap_improvement_95": [
+        -0.009023624723468791,
+        0.01994657185156353
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.004341622473067037,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.01375897150888833,
+        0.01995429206781351
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.005038690270408354,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.027067258724446736,
+        0.010962921269216448
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.4182189285737742,
+      "municipality_mae": 0.2920055996817753,
+      "equal_region_mse": 0.16843846629626374,
+      "equal_region_mse_improvement_vs_controls": 0.0021570765719657985,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00252512195029268,
+        0.0069147161693611054
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.00938031274347539,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.020290602953415164,
+        -0.00010359341115697471
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.42199176371010494,
+      "municipality_mae": 0.29274008434273086,
+      "equal_region_mse": 0.17085733973188127,
+      "equal_region_mse_improvement_vs_controls": -0.00026179686365174735,
+      "paired_region_bootstrap_improvement_95": [
+        -0.006176521093002653,
+        0.004491318889735825
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0024188734356175457,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.005269552626319589,
+        5.142373997579121e-05
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.011799186179092936,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.024292265265866156,
+        -0.001015671435265827
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "n": 1680,
+      "regions": 68,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.42218784144845223,
+      "municipality_mae": 0.29245398538269723,
+      "equal_region_mse": 0.17031478157626875,
+      "equal_region_mse_improvement_vs_controls": 0.00028076129196079796,
+      "paired_region_bootstrap_improvement_95": [
+        -0.005954970485286155,
+        0.005616107155196016
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0018763152800050004,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00522711040887569,
+        0.0007735033035302
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.01125662802348039,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0232295979218899,
+        -0.0005441491021948448
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "n": 879,
+      "regions": 66,
+      "predictor": "controls",
+      "municipality_rmse": 0.13664246840932903,
+      "municipality_mae": 0.10952904919606651,
+      "equal_region_mse": 0.01979041337198793,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0005528855594407896,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0010507447510947447,
+        -8.353027577350647e-05
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0024258537037410506,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.003999651944307863,
+        -0.0009213006817690944
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "n": 879,
+      "regions": 66,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.13032047727849452,
+      "municipality_mae": 0.10345731853276795,
+      "equal_region_mse": 0.017364559668246883,
+      "equal_region_mse_improvement_vs_controls": 0.0024258537037410506,
+      "paired_region_bootstrap_improvement_95": [
+        0.0009213006817690943,
+        0.003999651944307862
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0018729681443002612,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.000573927349884236,
+        0.003228450377856975
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "n": 879,
+      "regions": 66,
+      "predictor": "controls_plus_quadratic_continuous5",
+      "municipality_rmse": 0.1297910245445668,
+      "municipality_mae": 0.10331784817817832,
+      "equal_region_mse": 0.01683829613047555,
+      "equal_region_mse_improvement_vs_controls": 0.002952117241512384,
+      "paired_region_bootstrap_improvement_95": [
+        0.001125140813985238,
+        0.00493044609454698
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.002399231682071595,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0007466267182608777,
+        0.004204891571378885
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0005262635377713337,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0005013421311827111,
+        0.0016182252221970514
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "n": 879,
+      "regions": 66,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.13550712744686091,
+      "municipality_mae": 0.10789788672377906,
+      "equal_region_mse": 0.01923752781254714,
+      "equal_region_mse_improvement_vs_controls": 0.0005528855594407896,
+      "paired_region_bootstrap_improvement_95": [
+        8.353027577350618e-05,
+        0.0010507447510947447
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0018729681443002612,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0032284503778569756,
+        -0.0005739273498842361
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "n": 879,
+      "regions": 66,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.134712583965651,
+      "municipality_mae": 0.10679685212283034,
+      "equal_region_mse": 0.018631010561393924,
+      "equal_region_mse_improvement_vs_controls": 0.0011594028105940078,
+      "paired_region_bootstrap_improvement_95": [
+        0.00037854563113155017,
+        0.0020216889055328325
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0006065172511532183,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -8.188812229945545e-05,
+        0.0013758210748691057
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0012664508931470426,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00234119832235888,
+        -0.00025962720785515926
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "n": 879,
+      "regions": 66,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.13516043445955392,
+      "municipality_mae": 0.10751350697533349,
+      "equal_region_mse": 0.01886855722655073,
+      "equal_region_mse_improvement_vs_controls": 0.0009218561454372028,
+      "paired_region_bootstrap_improvement_95": [
+        0.00025767957471642064,
+        0.001598215801934638
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.00036897058599641316,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00021845352722363263,
+        0.0009636965491005707
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.001503997558303848,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.002646183253115018,
+        -0.00039338366472963995
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "n": 951,
+      "regions": 66,
+      "predictor": "controls",
+      "municipality_rmse": 0.08867743599246888,
+      "municipality_mae": 0.06576827761764258,
+      "equal_region_mse": 0.007207328807371533,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 4.566219295926612e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00010158718100169273,
+        0.00019227572261671554
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 2.4089406805301514e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00026437490329969036,
+        0.00030717818123773973
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "n": 951,
+      "regions": 66,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.08834505834348907,
+      "municipality_mae": 0.06474057974376979,
+      "equal_region_mse": 0.007231418214176836,
+      "equal_region_mse_improvement_vs_controls": -2.4089406805301514e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.0003071781812377398,
+        0.0002643749032996902
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 2.15727861539646e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0002072184987917499,
+        0.00023521755840831383
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "n": 951,
+      "regions": 66,
+      "predictor": "controls_plus_quadratic_continuous5",
+      "municipality_rmse": 0.088718024032616,
+      "municipality_mae": 0.06488729033730666,
+      "equal_region_mse": 0.007159552747391935,
+      "equal_region_mse_improvement_vs_controls": 4.7776059979598367e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00038142139576840834,
+        0.0004727984687990615
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 9.343825293886448e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.00030612955584140446,
+        0.0004684740831474116
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 7.186546678489985e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00030809869826561203,
+        0.0004333797020392187
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "n": 951,
+      "regions": 66,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.08870810143100097,
+      "municipality_mae": 0.06569552033509918,
+      "equal_region_mse": 0.007252991000330799,
+      "equal_region_mse_improvement_vs_controls": -4.566219295926612e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00019227572261671557,
+        0.00010158718100169271
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -2.15727861539646e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00023521755840831391,
+        0.00020721849879174988
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "n": 951,
+      "regions": 66,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.08855044677929835,
+      "municipality_mae": 0.0655324641163895,
+      "equal_region_mse": 0.0071762248606445506,
+      "equal_region_mse_improvement_vs_controls": 3.1103946726982776e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.00010382861091092982,
+        0.00017089248088143256
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 7.676613968624889e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -2.9768394035224605e-05,
+        0.00019034192105002448
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 5.519335353228431e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0001664432046952303,
+        0.0002935128761438063
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "n": 951,
+      "regions": 66,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.08849599560533303,
+      "municipality_mae": 0.0654521610452018,
+      "equal_region_mse": 0.007186862614974074,
+      "equal_region_mse_improvement_vs_controls": 2.046619239746005e-05,
+      "paired_region_bootstrap_improvement_95": [
+        -0.000123819661673903,
+        0.0001725666521826777
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 6.612838535672617e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -5.112772784259942e-05,
+        0.000180648780944812
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 4.4555599202761576e-05,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00016134344024403973,
+        0.00027093921479839607
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1502,
+      "regions": 68,
+      "predictor": "controls",
+      "municipality_rmse": 0.1374798768605354,
+      "municipality_mae": 0.10821655661255837,
+      "equal_region_mse": 0.022960808642379066,
+      "equal_region_mse_improvement_vs_controls": 0.0,
+      "paired_region_bootstrap_improvement_95": [
+        0.0,
+        0.0
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0008087226654380328,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -0.0016123577581982382,
+        -4.745035190081112e-05
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0038086566991034606,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.006519444860460937,
+        -0.001404218405862732
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1502,
+      "regions": 68,
+      "predictor": "controls_plus_continuous5",
+      "municipality_rmse": 0.1281652571065601,
+      "municipality_mae": 0.10026151870367069,
+      "equal_region_mse": 0.01915215194327561,
+      "equal_region_mse_improvement_vs_controls": 0.0038086566991034606,
+      "paired_region_bootstrap_improvement_95": [
+        0.001404218405862732,
+        0.006519444860460936
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.002999934033665428,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0007024648828928114,
+        0.005472852826889931
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1502,
+      "regions": 68,
+      "predictor": "controls_plus_quadratic_continuous5",
+      "municipality_rmse": 0.1315283403634858,
+      "municipality_mae": 0.1020053254416183,
+      "equal_region_mse": 0.018866371101957442,
+      "equal_region_mse_improvement_vs_controls": 0.004094437540421631,
+      "paired_region_bootstrap_improvement_95": [
+        0.0010935143153451255,
+        0.007455788235533061
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.003285714874983598,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.00045821348234653664,
+        0.006409453607494769
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0002857808413181704,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.0016226069333271041,
+        0.0020915616025801004
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1502,
+      "regions": 68,
+      "predictor": "controls_plus_historical_kmeans4",
+      "municipality_rmse": 0.13697560802368267,
+      "municipality_mae": 0.10792591378376853,
+      "equal_region_mse": 0.02215208597694104,
+      "equal_region_mse_improvement_vs_controls": 0.0008087226654380328,
+      "paired_region_bootstrap_improvement_95": [
+        4.745035190081103e-05,
+        0.0016123577581982377
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        0.0,
+        0.0
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.002999934033665428,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.005472852826889932,
+        -0.0007024648828928125
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1502,
+      "regions": 68,
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "municipality_rmse": 0.13642434529107275,
+      "municipality_mae": 0.10804297272251027,
+      "equal_region_mse": 0.021399891587708417,
+      "equal_region_mse_improvement_vs_controls": 0.0015609170546706497,
+      "paired_region_bootstrap_improvement_95": [
+        0.0004888265017985151,
+        0.002782649767183353
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0007521943892326169,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        5.4004631937048236e-05,
+        0.0015593307008109124
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.002247739644432811,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.004657075088680237,
+        0.0002446064126896986
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "n": 1502,
+      "regions": 68,
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "municipality_rmse": 0.13668060506916174,
+      "municipality_mae": 0.10826711007061016,
+      "equal_region_mse": 0.021655406245247547,
+      "equal_region_mse_improvement_vs_controls": 0.0013054023971315204,
+      "paired_region_bootstrap_improvement_95": [
+        0.00037664265727383714,
+        0.002322908102223536
+      ],
+      "region_bootstrap_draws": 1999,
+      "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0004966797316934878,
+      "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+        -7.644900213684657e-05,
+        0.0011798886591356784
+      ],
+      "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0025032543019719404,
+      "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+        -0.00490562136729613,
+        -0.00012566166690041938
+      ]
+    }
+  ],
+  "within_region_pairwise_loss": [
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "predictor": "controls",
+      "mean_within_region_pairwise_squared_error_difference": 0.04969060579909157,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "predictor": "controls_plus_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.04739165503345564,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "predictor": "controls_plus_quadratic_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.04888982355030185,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "predictor": "controls_plus_historical_kmeans4",
+      "mean_within_region_pairwise_squared_error_difference": 0.048809123795372354,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "mean_within_region_pairwise_squared_error_difference": 0.0490270052611657,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "mean_within_region_pairwise_squared_error_difference": 0.04902743583608428,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "predictor": "controls",
+      "mean_within_region_pairwise_squared_error_difference": 0.23828234491149416,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "predictor": "controls_plus_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.22754695487221874,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "predictor": "controls_plus_quadratic_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.24317194643394321,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "predictor": "controls_plus_historical_kmeans4",
+      "mean_within_region_pairwise_squared_error_difference": 0.23811301109757246,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "mean_within_region_pairwise_squared_error_difference": 0.23859717157325938,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "mean_within_region_pairwise_squared_error_difference": 0.23837815253710035,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "predictor": "controls",
+      "mean_within_region_pairwise_squared_error_difference": 0.027992317872060784,
+      "regions_with_at_least_two_observations": 69
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "predictor": "controls_plus_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.026302167504671025,
+      "regions_with_at_least_two_observations": 69
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "predictor": "controls_plus_quadratic_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.0271961200350718,
+      "regions_with_at_least_two_observations": 69
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "predictor": "controls_plus_historical_kmeans4",
+      "mean_within_region_pairwise_squared_error_difference": 0.028335362325726823,
+      "regions_with_at_least_two_observations": 69
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "mean_within_region_pairwise_squared_error_difference": 0.027412562369249396,
+      "regions_with_at_least_two_observations": 69
+    },
+    {
+      "year": 2023,
+      "outcome": "manufacturing_headcount_share",
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "mean_within_region_pairwise_squared_error_difference": 0.027612734762944735,
+      "regions_with_at_least_two_observations": 69
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "predictor": "controls",
+      "mean_within_region_pairwise_squared_error_difference": 0.01171146293916741,
+      "regions_with_at_least_two_observations": 67
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "predictor": "controls_plus_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.011994684193793608,
+      "regions_with_at_least_two_observations": 67
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "predictor": "controls_plus_quadratic_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.01225660688369064,
+      "regions_with_at_least_two_observations": 67
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "predictor": "controls_plus_historical_kmeans4",
+      "mean_within_region_pairwise_squared_error_difference": 0.011888883356531344,
+      "regions_with_at_least_two_observations": 67
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "mean_within_region_pairwise_squared_error_difference": 0.011836143373492742,
+      "regions_with_at_least_two_observations": 67
+    },
+    {
+      "year": 2023,
+      "outcome": "agriculture_headcount_share",
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "mean_within_region_pairwise_squared_error_difference": 0.011883256476168837,
+      "regions_with_at_least_two_observations": 67
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "predictor": "controls",
+      "mean_within_region_pairwise_squared_error_difference": 0.03245403677990923,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "predictor": "controls_plus_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.028784231247773833,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "predictor": "controls_plus_quadratic_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.030116957481675997,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "predictor": "controls_plus_historical_kmeans4",
+      "mean_within_region_pairwise_squared_error_difference": 0.03272061748913596,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "mean_within_region_pairwise_squared_error_difference": 0.031731550301109634,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2023,
+      "outcome": "public_administration_education_health_headcount_share",
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "mean_within_region_pairwise_squared_error_difference": 0.03201582594686654,
+      "regions_with_at_least_two_observations": 71
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "predictor": "controls",
+      "mean_within_region_pairwise_squared_error_difference": 0.0488370635299858,
+      "regions_with_at_least_two_observations": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "predictor": "controls_plus_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.046728849803696425,
+      "regions_with_at_least_two_observations": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "predictor": "controls_plus_quadratic_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.04833703254612199,
+      "regions_with_at_least_two_observations": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "predictor": "controls_plus_historical_kmeans4",
+      "mean_within_region_pairwise_squared_error_difference": 0.048178141159532874,
+      "regions_with_at_least_two_observations": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "mean_within_region_pairwise_squared_error_difference": 0.04844427055598806,
+      "regions_with_at_least_two_observations": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "mean_within_region_pairwise_squared_error_difference": 0.048543055671825416,
+      "regions_with_at_least_two_observations": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "predictor": "controls",
+      "mean_within_region_pairwise_squared_error_difference": 0.2573379135539642,
+      "regions_with_at_least_two_observations": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "predictor": "controls_plus_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.24684804487451917,
+      "regions_with_at_least_two_observations": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "predictor": "controls_plus_quadratic_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.2552944217946857,
+      "regions_with_at_least_two_observations": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "predictor": "controls_plus_historical_kmeans4",
+      "mean_within_region_pairwise_squared_error_difference": 0.25810965884829,
+      "regions_with_at_least_two_observations": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "mean_within_region_pairwise_squared_error_difference": 0.25821834430675816,
+      "regions_with_at_least_two_observations": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "log_covered_organization_jobs_per_resident",
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "mean_within_region_pairwise_squared_error_difference": 0.25824106724442153,
+      "regions_with_at_least_two_observations": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "predictor": "controls",
+      "mean_within_region_pairwise_squared_error_difference": 0.030674017409531143,
+      "regions_with_at_least_two_observations": 65
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "predictor": "controls_plus_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.028623283858243777,
+      "regions_with_at_least_two_observations": 65
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "predictor": "controls_plus_quadratic_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.028904223508925537,
+      "regions_with_at_least_two_observations": 65
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "predictor": "controls_plus_historical_kmeans4",
+      "mean_within_region_pairwise_squared_error_difference": 0.03093058999556629,
+      "regions_with_at_least_two_observations": 65
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "mean_within_region_pairwise_squared_error_difference": 0.030130324608028124,
+      "regions_with_at_least_two_observations": 65
+    },
+    {
+      "year": 2024,
+      "outcome": "manufacturing_headcount_share",
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "mean_within_region_pairwise_squared_error_difference": 0.03035230155521709,
+      "regions_with_at_least_two_observations": 65
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "predictor": "controls",
+      "mean_within_region_pairwise_squared_error_difference": 0.0115455273372305,
+      "regions_with_at_least_two_observations": 64
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "predictor": "controls_plus_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.011809855270584368,
+      "regions_with_at_least_two_observations": 64
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "predictor": "controls_plus_quadratic_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.012142090365201839,
+      "regions_with_at_least_two_observations": 64
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "predictor": "controls_plus_historical_kmeans4",
+      "mean_within_region_pairwise_squared_error_difference": 0.011702813788363572,
+      "regions_with_at_least_two_observations": 64
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "mean_within_region_pairwise_squared_error_difference": 0.011654676933918556,
+      "regions_with_at_least_two_observations": 64
+    },
+    {
+      "year": 2024,
+      "outcome": "agriculture_headcount_share",
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "mean_within_region_pairwise_squared_error_difference": 0.011711558832994424,
+      "regions_with_at_least_two_observations": 64
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "predictor": "controls",
+      "mean_within_region_pairwise_squared_error_difference": 0.03544168908544995,
+      "regions_with_at_least_two_observations": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "predictor": "controls_plus_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.0312538455760459,
+      "regions_with_at_least_two_observations": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "predictor": "controls_plus_quadratic_continuous5",
+      "mean_within_region_pairwise_squared_error_difference": 0.033295535696713674,
+      "regions_with_at_least_two_observations": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "predictor": "controls_plus_historical_kmeans4",
+      "mean_within_region_pairwise_squared_error_difference": 0.03593182421260127,
+      "regions_with_at_least_two_observations": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "predictor": "controls_plus_sw_constrained_huber75",
+      "mean_within_region_pairwise_squared_error_difference": 0.034955913236552054,
+      "regions_with_at_least_two_observations": 68
+    },
+    {
+      "year": 2024,
+      "outcome": "public_administration_education_health_headcount_share",
+      "predictor": "controls_plus_sw_constrained_ordinary",
+      "mean_within_region_pairwise_squared_error_difference": 0.035212172387953156,
+      "regions_with_at_least_two_observations": 68
+    }
+  ],
+  "population_crossindicator_disagreement_exclusion_sensitivity": [
+    {
+      "year": 2023,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1794,
+      "excluded_ids": [
+        "tid_1845",
+        "tid_1846",
+        "tid_1848"
+      ],
+      "controls": "Original linear type/logpopulation/logexpense controls; within-association also regionFE",
+      "within_region_associations": [
+        {
+          "model": "historical_kmeans4",
+          "partial_r_squared": 0.017069871104899118
+        },
+        {
+          "model": "sw_constrained_huber75",
+          "partial_r_squared": 0.02020537221799875
+        },
+        {
+          "model": "sw_constrained_ordinary",
+          "partial_r_squared": 0.019480931249859376
+        }
+      ],
+      "blocked_scores": [
+        {
+          "predictor": "controls",
+          "municipality_rmse": 0.18473195275223853,
+          "municipality_mae": 0.13829597696413154,
+          "equal_region_mse": 0.03539270270226907,
+          "equal_region_mse_improvement_vs_controls": 0.0,
+          "paired_region_bootstrap_improvement_95": [
+            0.0,
+            0.0
+          ],
+          "region_bootstrap_draws": 1999,
+          "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0016477259288637314,
+          "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+            -0.0031312842038185387,
+            -0.00010549437138526174
+          ],
+          "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0020701562166478837,
+          "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+            -0.004217898747667125,
+            4.616781838137467e-05
+          ]
+        },
+        {
+          "predictor": "controls_plus_continuous5",
+          "municipality_rmse": 0.17962287583106543,
+          "municipality_mae": 0.13430334849664682,
+          "equal_region_mse": 0.03332254648562119,
+          "equal_region_mse_improvement_vs_controls": 0.0020701562166478837,
+          "paired_region_bootstrap_improvement_95": [
+            -4.6167818381375166e-05,
+            0.004217898747667125
+          ],
+          "region_bootstrap_draws": 1999,
+          "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0004224302877841523,
+          "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+            -0.001439464669170155,
+            0.002231134660114243
+          ],
+          "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+          "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "predictor": "controls_plus_historical_kmeans4",
+          "municipality_rmse": 0.17995927920172272,
+          "municipality_mae": 0.1339973784841595,
+          "equal_region_mse": 0.03374497677340534,
+          "equal_region_mse_improvement_vs_controls": 0.0016477259288637314,
+          "paired_region_bootstrap_improvement_95": [
+            0.00010549437138526173,
+            0.0031312842038185387
+          ],
+          "region_bootstrap_draws": 1999,
+          "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+          "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0004224302877841523,
+          "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+            -0.002231134660114243,
+            0.0014394646691701545
+          ]
+        },
+        {
+          "predictor": "controls_plus_sw_constrained_huber75",
+          "municipality_rmse": 0.17954727895206665,
+          "municipality_mae": 0.1338095191923924,
+          "equal_region_mse": 0.03358420958378499,
+          "equal_region_mse_improvement_vs_controls": 0.0018084931184840804,
+          "paired_region_bootstrap_improvement_95": [
+            0.0002536001879084341,
+            0.003390356647726535
+          ],
+          "region_bootstrap_draws": 1999,
+          "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.00016076718962034877,
+          "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+            -0.00036344653285555153,
+            0.0008011685291735776
+          ],
+          "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0002616630981638036,
+          "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+            -0.0022289261280901726,
+            0.0018021677077430121
+          ]
+        },
+        {
+          "predictor": "controls_plus_sw_constrained_ordinary",
+          "municipality_rmse": 0.17963480632491255,
+          "municipality_mae": 0.1339637577781604,
+          "equal_region_mse": 0.03362492232264009,
+          "equal_region_mse_improvement_vs_controls": 0.0017677803796289826,
+          "paired_region_bootstrap_improvement_95": [
+            0.00021193465951304058,
+            0.00328145677158652
+          ],
+          "region_bootstrap_draws": 1999,
+          "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.00012005445076525113,
+          "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+            -0.0003819204196923109,
+            0.0007021597386508491
+          ],
+          "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0003023758370189013,
+          "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+            -0.002257607713203034,
+            0.0017264694334001918
+          ]
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "outcome": "log_annual_monthly_wage_rubles",
+      "n": 1680,
+      "excluded_ids": [
+        "tid_1845",
+        "tid_1846",
+        "tid_1848"
+      ],
+      "controls": "Original linear type/logpopulation/logexpense controls; within-association also regionFE",
+      "within_region_associations": [
+        {
+          "model": "historical_kmeans4",
+          "partial_r_squared": 0.017899254480751574
+        },
+        {
+          "model": "sw_constrained_huber75",
+          "partial_r_squared": 0.022357058383438197
+        },
+        {
+          "model": "sw_constrained_ordinary",
+          "partial_r_squared": 0.020443455745481617
+        }
+      ],
+      "blocked_scores": [
+        {
+          "predictor": "controls",
+          "municipality_rmse": 0.18347624479191432,
+          "municipality_mae": 0.13934346085122196,
+          "equal_region_mse": 0.03351652525548718,
+          "equal_region_mse_improvement_vs_controls": 0.0,
+          "paired_region_bootstrap_improvement_95": [
+            0.0,
+            0.0
+          ],
+          "region_bootstrap_draws": 1999,
+          "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -0.0015459179316027927,
+          "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+            -0.0029912153782200865,
+            -0.00010419424726392701
+          ],
+          "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0018236679979009188,
+          "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+            -0.004047471505667086,
+            0.00036950128091037406
+          ]
+        },
+        {
+          "predictor": "controls_plus_continuous5",
+          "municipality_rmse": 0.17909697309402037,
+          "municipality_mae": 0.1350170710329979,
+          "equal_region_mse": 0.03169285725758626,
+          "equal_region_mse_improvement_vs_controls": 0.0018236679979009188,
+          "paired_region_bootstrap_improvement_95": [
+            -0.00036950128091037406,
+            0.004047471505667086
+          ],
+          "region_bootstrap_draws": 1999,
+          "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0002777500662981261,
+          "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+            -0.0015360509625318077,
+            0.0019597632482804906
+          ],
+          "equal_region_mse_improvement_vs_controls_plus_continuous5": 0.0,
+          "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "predictor": "controls_plus_historical_kmeans4",
+          "municipality_rmse": 0.17871581857275173,
+          "municipality_mae": 0.135176257206269,
+          "equal_region_mse": 0.0319706073238844,
+          "equal_region_mse_improvement_vs_controls": 0.0015459179316027927,
+          "paired_region_bootstrap_improvement_95": [
+            0.00010419424726392675,
+            0.002991215378220086
+          ],
+          "region_bootstrap_draws": 1999,
+          "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 0.0,
+          "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+            0.0,
+            0.0
+          ],
+          "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0002777500662981261,
+          "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+            -0.0019597632482804914,
+            0.0015360509625318075
+          ]
+        },
+        {
+          "predictor": "controls_plus_sw_constrained_huber75",
+          "municipality_rmse": 0.17855121539817054,
+          "municipality_mae": 0.13479348162608593,
+          "equal_region_mse": 0.03194078720835875,
+          "equal_region_mse_improvement_vs_controls": 0.0015757380471284287,
+          "paired_region_bootstrap_improvement_95": [
+            7.288806095810896e-05,
+            0.0030884661509491046
+          ],
+          "region_bootstrap_draws": 1999,
+          "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": 2.9820115525636084e-05,
+          "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+            -0.000481138625612217,
+            0.0005833384282409057
+          ],
+          "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.0002479299507724899,
+          "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+            -0.0020703393842083037,
+            0.0018093762496690878
+          ]
+        },
+        {
+          "predictor": "controls_plus_sw_constrained_ordinary",
+          "municipality_rmse": 0.17870445776519822,
+          "municipality_mae": 0.1349178202221642,
+          "equal_region_mse": 0.03202073566118722,
+          "equal_region_mse_improvement_vs_controls": 0.0014957895942999632,
+          "paired_region_bootstrap_improvement_95": [
+            6.394009061871272e-05,
+            0.002919768333949149
+          ],
+          "region_bootstrap_draws": 1999,
+          "equal_region_mse_improvement_vs_controls_plus_historical_kmeans4": -5.012833730282974e-05,
+          "paired_region_bootstrap_improvement_vs_controls_plus_historical_kmeans4_95": [
+            -0.0005150800601869356,
+            0.0004338292892687635
+          ],
+          "equal_region_mse_improvement_vs_controls_plus_continuous5": -0.00032787840360095586,
+          "paired_region_bootstrap_improvement_vs_controls_plus_continuous5_95": [
+            -0.0021614956633981487,
+            0.0016524024666854425
+          ]
+        }
+      ]
+    }
+  ]
+}

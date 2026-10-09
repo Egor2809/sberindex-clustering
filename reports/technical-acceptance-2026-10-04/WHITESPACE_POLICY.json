@@ -1,0 +1,8 @@
+{
+  "scope": "One byte-pinned generated CSV only; all source and other documents retain normal whitespace checks",
+  "file": "reports/future-outcome-2026-10-04/context/source-metadata.csv",
+  "sha256": "9c261179f371436b4c876c088ade343dc2830c64d85395cda39b40e07fa55289",
+  "frozen_bytes_preserved": true,
+  "historical_crcrlf_records": 2487,
+  "reason": "The metadata snapshot has CRCRLF line endings. Normalize neither its bytes nor the fixed scientific contract to satisfy text-style checks."
+}

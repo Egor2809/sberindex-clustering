@@ -1,0 +1,14 @@
+{
+  "sbercluster/selection_frontier.py": "0bcd8604fca0855d74bc60a6f600cd9c5cfd13894918795ace242e15cf797576",
+  "sbercluster/selection_artifacts.py": "eb30f5c6fb5cb61a0e4b7244f7c778d28a74643d4f8375736a5452fd3c9f1bb6",
+  "sbercluster/selection_contrasts.py": "5d116791dc9c11ffcfac99219caf844f9c927b1fcebc25200db0b0dbb66c22ce",
+  "scripts/benchmark_frontier.py": "612b021d212e9f9a19eca7565dee2ff87fd0691b054cc78b6f383cd9f2c12e05",
+  "scripts/benchmark_contrasts.py": "258da80438805dd78d7e9c1088bf14ed06f0e2e985b0bfd9066fa0e572e5c659",
+  "scripts/benchmark_forward.py": "e90853696a311e44da1fc56036ff3a2ceceeb53f8ef13f4aa35f2d6c691bc203",
+  "scripts/predict_frontier.py": "625c9fafacc92d2ebbf4009011d8d5b8f7cfb40f8440ae270096071a9f2587e2",
+  "scripts/export_frontier.py": "88bc8065d8d07d7f4d14a780a601ebeda587957ae8148bf758a54f22e63c984d",
+  "tests/test_selection_frontier.py": "af581614f36e737b8b18662d896333b517743e345d5d1814eb4c569645e787a5",
+  "tests/test_selection_artifacts.py": "5ad2a7be52279c2c1d997028ca25f5ef61eabc07f3cd8503c15f7371ae91b6d3",
+  "tests/test_selection_contrasts.py": "8a7b555219dcfb06934d90e72bda25accf5aaee538cc4d629d10cc3f8c5c6f10",
+  "scripts/verify_frontier_geometry.py": "d9e1bab0db674cf26079688d6700fc96793c6d7397de08000083e77f76b1e530"
+}

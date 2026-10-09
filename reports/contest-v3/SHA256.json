@@ -1,0 +1,15 @@
+{
+  "descriptive.json": "c8484442234d1fa3bf0d31aae43ff95a5bb840ab91449552d79f0dc467c537b5",
+  "descriptive_provenance.json": "cc45893f9a13af44af8baac022dcc30a97228c87d4aca29f0bbbd8df8c52e2aa",
+  "evaluation_provenance.json": "524ea438e36baa44269221dc2625300cb6b3d6f1369f347ef5e86d5a2ec130a0",
+  "execution_status.json": "f7ead8b2b48987a0e003cd545e983e4b8075a9b37e699903c3e78785f77f14ea",
+  "map-qa/chrome-after.json": "b91a4bf0052b8b7892f46fb46716f16d07df84ad7ff123e406e4ec098952cee9",
+  "map-qa/chrome-before.json": "282cd34eed53f4149ebc78069eaa76290942ad154eefc9b6cf947593ff2b41a8",
+  "map-qa/msedge-after.json": "bd86b94d15a6fbf7cdeaecff4a7e3a05e158eb97c7f714531a1cebad1d4a053d",
+  "municipal_map.json": "c33dc9b59990d23282ab7def4fa34dfb01f43e7947af8f7c1fabeaf1fa889beb",
+  "published_partition_metrics.csv": "08e900fa23af47df0a657c5a005af007894cf64761a4ceb9b9f47356e617d81a",
+  "published_partition_metrics.json": "4063cc3bc81e968ebd11355f324f350d056d7af2ccc0bae0b30619f9c3ddf9de",
+  "README.md": "8dcf0c739305e7257a30bf77265dec3f95cb2be19ff217b9824e4240ed463e99",
+  "verification.json": "136e7e20d60da648db12f5b5cf96e2f04878068b3d3d1e5eb8d88a153a226694",
+  "atlas_extension.json": "c8484442234d1fa3bf0d31aae43ff95a5bb840ab91449552d79f0dc467c537b5"
+}

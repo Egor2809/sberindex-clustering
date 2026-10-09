@@ -1,0 +1,13 @@
+{
+  "status": "EXECUTED",
+  "evidence_kind": "ACTUAL_EXPLORATORY",
+  "complete": true,
+  "folds": 72,
+  "learner_fits": 864,
+  "prediction_entities": 1797,
+  "config_sha256": "1225b6a488d996a0f005616806c375a6c25c3dd0c5f676d9627f44de8d45feae",
+  "prediction_sha256": "62ef35fbb371b729ec2bf3f6b95184ca27d3f5d12071594a8e73658c458f7ef1",
+  "elapsed_seconds": 103.65596893200001,
+  "no_2025_outcomes": true,
+  "all_2024_scores_use_unchanged_2023_predictions": true
+}

@@ -1,0 +1,46 @@
+{
+  "task_id": "pro-sberai-architecture-frontier-20261004",
+  "request_sha256": "6d5c342f8e678627a5312b6b05945f325bdb115fd8b1bea3e63e1442473a68a5",
+  "status": "locked_before_spatial_stress_scores",
+  "scope": "exploratory_2023_2024_no_2025",
+  "seed": 20261003,
+  "cluster_seed": 1729,
+  "outcome": "log_annual_monthly_wage_rubles",
+  "splits": "leave_one_region_out; fit2023; unchanged2023predictions scored2023 and2024",
+  "learner": {
+    "max_iter": 150,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.05,
+    "early_stopping": false,
+    "random_state": 20261003
+  },
+  "candidates": [
+    "controls",
+    "continuous5",
+    "mixture4",
+    "continuous5_temporal15",
+    "controls_geo3",
+    "continuous5_geo3",
+    "continuous5_geo3_temporal15",
+    "continuous5_geo3_region_weighted"
+  ],
+  "temporal": "12months2023 log ratios perentity: OLS slope, first annual harmonic amplitude, residual std after intercept+linear+sine+cosine (5 each); never2024 predictors",
+  "geography": "3D unit sphere from source centroid latitude longitude, deterministic, no fitted region labels",
+  "weights": "1/n_train_outcome_region normalized to mean1",
+  "selection": "Post-screen robustness; not independent confirmation; no winner chosen using2024 outcomes for fitting; all candidates retained.",
+  "input_sha256": {
+    "data/processed/panel.csv": "a175b7646a528e900d61dd4ade8d84fb4549ffcbb977d845340107b4f3b3c0fa",
+    "reports/external-national-2026-10-03/cohort-2023.csv": "dcfcf2ac0af503d696f9492bc8c1bc4e38977cc2bd1b6c12da66463f761d9c62",
+    "reports/external-national-2026-10-03/cohort-2024.csv": "0c26468eb64f2ed21d16d71faef998f9cdb3a9e69960a7c016737d402b262a07",
+    "reports/external-national-2026-10-03/frozen-labels.json": "195e2fdf748e7dae8d3dcafb7515ec70b56896f5ac252e8cd5a355deaa771a70",
+    "reports/economic-generalization-2026-10-03/wage/all-oof-predictions.csv": "e3cb45292e9090cd0416a5f2eb6e1d1cfa3e3213c2a144ecd2e387557e286e32",
+    "reports/model-frontier-2026-10-03/models/historical_kmeans4.json": "12e72c67cd6e2db9d3249a9211670eb04336c69fa5883cb5b1a0277496edb334",
+    "reports/model-frontier-2026-10-03/models/sw_constrained_huber75.json": "41a1071c7d35019f93218d09b6b5abc293bec3b3b4fafdc740cf2c7ac572003a"
+  },
+  "geography_missing_policy": "Keep identical economic cohort; absent/invalid centroid gives NaN in all3spherecoordinates; HGB native missing routing; no imputation or dropped rows. Established before any new fits/scores.",
+  "geography_provenance_caveat": "Existing registry coordinates are retrospectively joined; availability and boundary comparability as of2023 are not established. No2024expense predictors or2024roadgraph used.",
+  "spatial_blocks": 8,
+  "spatial_seed": 20261005
+}
