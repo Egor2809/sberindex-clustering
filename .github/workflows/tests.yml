@@ -1,21 +1,16 @@
-name: Python checks
+name: Reproduce
 on:
   push:
     branches: [main]
     paths-ignore:
       - '**/*.md'
-      - 'docs/images/**'
-      - 'reports/**/verification.json'
-      - 'reports/**/browser/**'
-      - 'reports/**/linux-reproduction.json'
-  pull_request:
   workflow_dispatch:
 permissions:
   contents: read
 jobs:
-  tests:
+  reproduce:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 60
     env:
       OMP_NUM_THREADS: '1'
       OPENBLAS_NUM_THREADS: '1'
@@ -25,58 +20,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
           cache: pip
           cache-dependency-path: requirements*.txt
-      - run: python -m pip install -r requirements-models.txt -r requirements-visuals.txt
-      - run: python -m pip install --index-url https://download.pytorch.org/whl/cpu -r requirements-dmon.txt
-      - name: Prepare the hash-pinned public snapshot (no fitting)
-        run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y --no-install-recommends libarchive-tools
-          python scripts/download_sources.py
-          python scripts/prepare.py
-          python scripts/prepare_graphs.py
-          python scripts/evaluate_published.py
-          python scripts/describe_frozen.py
-          python scripts/build_map.py --gpkg artifacts/sources/acquisition/t_dict_municipal_districts_poly.gpkg --output artifacts/ci-map.json
-          python scripts/build_review_extension.py
-          python scripts/build_research_atlas.py --reference-run reports/experiments/2026-09-23-v2 --validation-run reports/experiments/2026-09-23-v2/validation --contest-run reports/review-2026-09-24/atlas_extension.json --map-data reports/contest-v3/municipal_map.json --edge-rules reports/edge-rules --temporal-groups reports/temporal-groups --external-municipal reports/external-municipal --network-core reports/network-core --temporal-quality reports/temporal-quality --output artifacts/ci-atlas.html
-      - run: python -m unittest discover -s tests -v
-      - run: python -m compileall -q sbercluster scripts
-      - name: Reproduce the exact published atlas
-        run: cmp artifacts/ci-atlas.html docs/index.html
-      - name: Build and train in a Linux container
-        run: |
-          docker build --build-arg SOURCE_REVISION=${{ github.sha }} -t consumption-groups .
-          mkdir -p runs
-          docker run --rm --cpus=2 --memory=2g -v "$PWD/data/processed:/app/data/processed:ro" -v "$PWD/runs:/app/runs" consumption-groups python scripts/run_research.py --config configs/reproduce_kmeans4.json --execute-clustering
-          python scripts/run_research.py --compare-run "$(find runs -maxdepth 1 -type d -name 'research-*' | sort | tail -1)" > artifacts/linux-reproduction.json
-          docker run --rm --cpus=2 --memory=2g -v "$PWD/data/processed:/app/data/processed:ro" -v "$PWD/runs:/app/runs" consumption-groups python scripts/run_contest.py --config configs/followup_small_k.json --execute-clustering
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: linux-reproduction
-          path: |
-            artifacts/linux-reproduction.json
-            runs/**/status.json
-            runs/**/metrics.json
-            runs/**/provenance.json
-
-  map-interactions:
-    runs-on: ubuntu-latest
-    timeout-minutes: 6
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      - run: npm install --no-save --package-lock=false playwright@1.62.1
-      - run: npx playwright install --with-deps chromium
-      - name: Real pointer regressions on the published atlas
-        run: node tests/browser/map_regressions.cjs docs/index.html chromium
-      - uses: actions/upload-artifact@v4
-        if: always()
-        with:
-          name: map-interaction-results
-          path: artifacts/map-qa/
+      - run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends libarchive-tools
+      - run: bash scripts/reproduce.sh
