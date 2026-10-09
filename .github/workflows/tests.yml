@@ -41,18 +41,18 @@ jobs:
           python scripts/describe_frozen.py
           python scripts/build_map.py --gpkg artifacts/sources/acquisition/t_dict_municipal_districts_poly.gpkg --output artifacts/ci-map.json
           python scripts/build_review_extension.py
-          python scripts/build_research_atlas.py --reference-run reports/experiments/2026-09-23-v2 --validation-run reports/experiments/2026-09-23-v2/validation --contest-run reports/review-2026-09-24/atlas_extension.json --map-data reports/contest-v3/municipal_map.json --output artifacts/ci-atlas.html
+          python scripts/build_research_atlas.py --reference-run reports/experiments/2026-09-23-v2 --validation-run reports/experiments/2026-09-23-v2/validation --contest-run reports/review-2026-09-24/atlas_extension.json --map-data reports/contest-v3/municipal_map.json --edge-rules reports/edge-rules --temporal-groups reports/temporal-groups --external-municipal reports/external-municipal --network-core reports/network-core --temporal-quality reports/temporal-quality --output artifacts/ci-atlas.html
       - run: python -m unittest discover -s tests -v
       - run: python -m compileall -q sbercluster scripts
       - name: Reproduce the exact published atlas
         run: cmp artifacts/ci-atlas.html docs/index.html
       - name: Build and train in a Linux container
         run: |
-          docker build --build-arg SOURCE_REVISION=${{ github.sha }} -t economic-neighbors .
+          docker build --build-arg SOURCE_REVISION=${{ github.sha }} -t consumption-groups .
           mkdir -p runs
-          docker run --rm --cpus=2 --memory=2g -v "$PWD/data/processed:/app/data/processed:ro" -v "$PWD/runs:/app/runs" economic-neighbors python scripts/run_research.py --config configs/reproduce_kmeans4.json --execute-clustering
+          docker run --rm --cpus=2 --memory=2g -v "$PWD/data/processed:/app/data/processed:ro" -v "$PWD/runs:/app/runs" consumption-groups python scripts/run_research.py --config configs/reproduce_kmeans4.json --execute-clustering
           python scripts/run_research.py --compare-run "$(find runs -maxdepth 1 -type d -name 'research-*' | sort | tail -1)" > artifacts/linux-reproduction.json
-          docker run --rm --cpus=2 --memory=2g -v "$PWD/data/processed:/app/data/processed:ro" -v "$PWD/runs:/app/runs" economic-neighbors python scripts/run_contest.py --config configs/followup_small_k.json --execute-clustering
+          docker run --rm --cpus=2 --memory=2g -v "$PWD/data/processed:/app/data/processed:ro" -v "$PWD/runs:/app/runs" consumption-groups python scripts/run_contest.py --config configs/followup_small_k.json --execute-clustering
       - uses: actions/upload-artifact@v4
         if: always()
         with:
