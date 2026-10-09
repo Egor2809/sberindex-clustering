@@ -146,11 +146,25 @@ def main() -> None:
                    "north_months_in_north_groups": round(sum(tracks[t][i] in names and names[tracks[t][i]] in NORTH_GROUPS for i, key in enumerate(ids) if key in north for t in range(len(periods))) / (len(north) * len(periods)), 4), "north_share_overall": round(len(north) / len(ids), 4),
                    "north_share_by_group": {name: round(len(members & north) / len(members), 4) for name, members in ever.items()}}
 
+    summer = [t for t, p in enumerate(periods) if p[5:7] in ("06", "07", "08")]
+    rest = [t for t in range(len(periods)) if t not in summer]
+
+    def season(members):
+        return {name: round(100 * (sum(ratios[ids[i], periods[t]][j] for i in members for t in summer) / (len(members) * len(summer))
+                                   - sum(ratios[ids[i], periods[t]][j] for i in members for t in rest) / (len(members) * len(rest))), 2)
+                for j, name in enumerate(CATEGORIES)}
+
+    seasonal = {"definition": "summer (Jun-Aug) minus other months, mean share in percentage points; group core = at least 8 months in the group",
+                "all": season(range(len(ids)))}
+    for k in stable:
+        core = [i for i in range(len(ids)) if sum(tracks[t][i] == k for t in range(len(periods))) >= 8]
+        seasonal[names[k]] = {"core": len(core), **season(core)}
+
     out = ROOT / cfg["output"] / "profiles.json"
     out.write_text(json.dumps({"rule": "Mirkin: (group mean share - overall mean share) / overall mean share over municipality-months",
                                "threshold": args.threshold, "overall_shares": {n: round(o, 4) for n, o in zip(CATEGORIES, overall)},
                                "groups": profiles, "assignment": "modal stable group over 24 months",
-                               "assigned": len(modal), "explained": explained, "north": north_check}, ensure_ascii=False, indent=2) + "\n", "utf-8")
+                               "assigned": len(modal), "explained": explained, "north": north_check, "seasonal": seasonal}, ensure_ascii=False, indent=2) + "\n", "utf-8")
     print(json.dumps({"groups": [(p["name"], p["salient"]) for p in profiles], "explained": explained, "north": north_check}, ensure_ascii=False, indent=1))
 
 
