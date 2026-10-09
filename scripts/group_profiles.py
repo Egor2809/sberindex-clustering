@@ -36,6 +36,41 @@ def eta_squared(values: list[float], labels: list) -> float:
     return between / total
 
 
+def epsilon_squared(values: list[float], labels: list) -> float:
+    k, n = len(set(labels)), len(values)
+    mean = sum(values) / n
+    total = sum((v - mean) ** 2 for v in values)
+    eta = eta_squared(values, labels)
+    within = total * (1 - eta)
+    return (total * eta - (k - 1) * within / (n - k)) / total
+
+
+def bootstrap_difference(values, a, b, regions, reps=1000, seed=1729):
+    import numpy as np
+    rng = np.random.default_rng(seed)
+    names = sorted(set(regions))
+    index = {r: [i for i, x in enumerate(regions) if x == r] for r in names}
+    out = []
+    for _ in range(reps):
+        rows = [i for r in rng.choice(names, len(names)) for i in index[r]]
+        v = [values[i] for i in rows]
+        out.append(eta_squared(v, [a[i] for i in rows]) - eta_squared(v, [b[i] for i in rows]))
+    lo, hi = np.percentile(out, [2.5, 97.5])
+    return round(float(lo), 4), round(float(hi), 4)
+
+
+def kmeans7_labels(ids):
+    import numpy as np
+    from sklearn.cluster import KMeans
+    from sbercluster.edge_study import load_panel
+    qcfg = json.loads((ROOT / "configs/temporal_quality.json").read_text("utf-8"))
+    panel_ids, periods, monthly, _, _ = load_panel(qcfg, ROOT)
+    months = sum(p <= qcfg["features"]["calibration_end"] for p in periods)
+    annual = np.median(np.asarray(monthly)[:months], axis=0)
+    labels = KMeans(7, n_init=50, random_state=qcfg["seed"]).fit_predict(annual)
+    return dict(zip(panel_ids, (str(z) for z in labels)))
+
+
 def mirkin(group_mean: float, overall_mean: float) -> float:
     return (group_mean - overall_mean) / overall_mean
 
@@ -79,6 +114,7 @@ def main() -> None:
         access = {f"tid_{row['territory_id']}": row["market_access"] for row in csv.DictReader(stream)}
     with (ROOT / cfg["reference"]).open(encoding="utf-8", newline="") as stream:
         kmeans = {row["entity_id"]: row["cluster"] for row in csv.DictReader(stream)}
+    kmeans7 = kmeans7_labels(ids)
     explained = []
     for column, (label, log) in OUTCOMES.items():
         data = []
@@ -87,12 +123,16 @@ def main() -> None:
             if raw not in (None, ""):
                 value = float(raw)
                 if not log or value > 0:
-                    data.append((math.log(value) if log else value, modal[key], kmeans[key], rows[key]["region_name"]))
+                    data.append((math.log(value) if log else value, modal[key], kmeans[key], rows[key]["region_name"], kmeans7[key]))
         values = [d[0] for d in data]
         explained.append({"outcome": column, "label": label, "n": len(data),
                           "eta2_groups": round(eta_squared(values, [d[1] for d in data]), 4),
                           "eta2_kmeans4": round(eta_squared(values, [d[2] for d in data]), 4),
-                          "eta2_region": round(eta_squared(values, [d[3] for d in data]), 4)})
+                          "eta2_region": round(eta_squared(values, [d[3] for d in data]), 4),
+                          "eta2_kmeans7": round(eta_squared(values, [d[4] for d in data]), 4),
+                          "epsilon2_groups": round(epsilon_squared(values, [d[1] for d in data]), 4),
+                          "epsilon2_kmeans7": round(epsilon_squared(values, [d[4] for d in data]), 4),
+                          "groups_minus_kmeans7_ci95": bootstrap_difference(values, [d[1] for d in data], [d[4] for d in data], [d[3] for d in data])})
 
     ever: dict = {}
     for i, key in enumerate(ids):
