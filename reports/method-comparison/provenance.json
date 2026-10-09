@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-10-08T18:46:58.186370+00:00",
+  "created_utc": "2026-10-09T13:05:19.147738+00:00",
   "config": {
     "schema_version": 1,
     "seed": 1729,
@@ -21,7 +21,7 @@
       "seasonality": "same_month_cross_section"
     },
     "method_comparison": {
-      "output": "../mc-out",
+      "output": "artifacts/mc-kefrin",
       "source_dir": "artifacts/sources/acquisition",
       "k": 15,
       "max_lag": 3,
@@ -67,10 +67,10 @@
     "reports/round2-2026-09-24/round2-20260924-temporal_grid/temporal_omega0.01_seed3141.json.gz": "da0f5c22c641f222a919cebe41cdbfe84eedb061090f5171fc63d4e13aa674d4"
   },
   "implementation": {
-    "method_comparison.py": "dbc757d6aee74efc01d41395633469e57f49599835bcc0a196f82bf1d44a77ec",
+    "method_comparison.py": "f0c8ca40df9af3499d754a90e27bd46a62f057fc94951cb113d0326b44e7fc8b",
     "network_core.py": "4f42028af81fa006f8c5d2d358027bd229eb8356de0bdca98bd0af6a7f482bf5",
     "metrics.py": "5fbc58f90dcab19c3128f8006d1c2df38f92e36c77861ea7245698737779bb9c"
   },
-  "seconds": 7.1,
+  "seconds": 15.3,
   "refitting": false
 }

@@ -3,7 +3,7 @@
     {
       "role": "atlas",
       "path": "docs/index.html",
-      "sha256": "cd0f733e02c2019fa81459a50a986c5df421acf284df254c40dd140bcb9b64cd"
+      "sha256": "08040284f994f0c97f8abc7f4f419d8a2e32a5e5e128f8ae4f0aecbf341c016f"
     },
     {
       "role": "bridge",
@@ -23,7 +23,7 @@
     {
       "role": "abazinsky",
       "path": "reports/round2-cases/abazinsky.json",
-      "sha256": "c8f77c857a34977f527f8f51ab37f32c9189aa3693294ab5a8aae8394507297f"
+      "sha256": "935991bb045b521344ac023938219c877b135a97b4adab95f03fc09e644160ed"
     },
     {
       "role": "sector_validation",

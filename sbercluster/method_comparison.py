@@ -20,6 +20,7 @@ from .contest_graphs import read_road_graph
 from .dynamics import cluster_events
 from .edge_study import load_panel, published_partitions, reference_partition
 from .io import sha256, write_json
+from .kefrin import kefrin
 from .network_core import build_layers, canonical, evaluate, select_variant
 from .temporal_groups import event_owners, rejoin, track_labels
 
@@ -54,6 +55,8 @@ def family(name):
         return 'совместная модель: профиль и дороги', {'X23', 'P23', 'R'}
     if name.startswith('dmon'):
         return 'DMoN (признаки на дорожном графе)', {'X23', 'P23', 'R'}
+    if name.startswith('kefrin'):
+        return 'KEFRiN (признаки и граф профилей)', {'X23', 'P23'}
     if name == 'spectral_transport_k4':
         return 'спектральная на дорожном графе', {'R'}
     prefixes = (('kmeans', 'KMeans'), ('ward', 'Ward'), ('gmm', 'Gaussian mixture'), ('huber75', 'Huber75'),
@@ -275,6 +278,8 @@ def run(cfg, root):
     road, _, _ = read_road_graph(root / mc['source_dir'] / 'hackathonlicence/connection.parquet', ids, mc['k'])
     g23, g24 = {**l23, 'R': road}, dict(l24)
     parts = collect_partitions(root, ids, reference)
+    for k in (3, 4):
+        parts[f'kefrin_k{k}'] = canonical(kefrin(x23, g23['P'], k, seed=cfg['seed']))
     monthly_main = None
     for seed, path in mc['temporal']['labels'].items():
         parts[f'temporal_leiden_seed{seed}'], temporal = temporal_annual(root, path, ids, periods)
@@ -331,11 +336,12 @@ NAMES = {'kmeans_k3': 'KMeans', 'ward_k3': 'Ward', 'spectral3_profile_comovement
          'joint_road_k4': 'Совместная модель с дорогами', 'joint_same_region_k4': 'Совместная модель с регионом',
          'joint_road_sensitivity_k4': 'Совместная модель с дорогами, другой вес', 'dmon_k4_seed1729': 'DMoN',
          'dmon_k4_seed2718': 'DMoN, seed 2718', 'dmon_k4_seed3141': 'DMoN, seed 3141', 'spectral_transport_k4': 'Спектральная на дорогах',
+         'kefrin_k3': 'KEFRiN', 'kefrin_k4': 'KEFRiN',
          'registry_type3': 'Тип МО по реестру, 3 типа (без обучения)', 'registry_type4': 'Тип МО по реестру, 4 типа (без обучения)'}
-SHOWN = {3: ['network_typology', 'kmeans_k3', 'ward_k3', 'spectral3_profile_comovement', 'joint_road_k3', 'registry_type3'],
+SHOWN = {3: ['network_typology', 'kmeans_k3', 'ward_k3', 'spectral3_profile_comovement', 'joint_road_k3', 'kefrin_k3', 'registry_type3'],
          4: ['kmeans_k4', 'ward_k4', 'gmm_full_k4', 'huber75_k4', 'spectral_global_k4', 'spectral_local_k4', 'leiden_profile_only',
              'leiden_comovement_only', 'joint_road_k4', 'joint_same_region_k4', 'dmon_k4_seed1729', 'spectral_transport_k4',
-             'registry_type4']}
+             'kefrin_k4', 'registry_type4']}
 COLUMNS = [('X23_SW', 'SW 2023'), ('P23_MQ', 'MQ, профиль 2023'), ('C23_MQ', 'MQ, движение 2023'), ('R_MQ', 'MQ, дороги'),
            ('X24_SW', 'SW 2024'), ('P24_MQ', 'MQ, профиль 2024'), ('C24_MQ', 'MQ, движение 2024')]
 AXIS_NAMES = {'R_MQ': 'MQ на дорожном графе', 'C24_MQ': 'MQ на графе совместного движения 2024 года',
@@ -403,7 +409,8 @@ def readme(summary, rows):
     agree = summary['baselines']['agreement']
     out = ['# Сравнение методов на общих осях', '', 'Коротко:', '', *_lead(summary, by), '',
            '## Как я сравниваю', '',
-           'Я оцениваю все сохранённые годовые разбиения 2023 года без переобучения на семи осях: признаки и граф профилей 2023 года, '
+           'Я оцениваю все сохранённые годовые разбиения 2023 года без переобучения и KEFRiN (Shalileh & Mirkin, 2022; обучается здесь же '
+           'по признакам и графу профилей 2023 года, `sbercluster/kefrin.py`) на семи осях: признаки и граф профилей 2023 года, '
            'граф совместного движения 2023 года, дорожный граф, а также признаки, граф профилей и граф совместного движения 2024 года '
            'при неизменных метках 2023 года. Звёздочка (*) отмечает ось, на которой метод обучался: такая оценка круговая. '
            'Крестик (†) отмечает ось первого отбора: до 7 октября каркас выбирался по парето-фронту силуэта 2024 года (X24) и MQ на '
@@ -472,7 +479,7 @@ def fragment(summary, rows):
         body = ''.join(f'<tr><th scope="row">{NAMES[n]}</th><td class="num">{by[n]["min_size"]}</td>'
                        + ''.join(f'<td class="num">{_cell(by[n], key)}</td>' for key, _ in COLUMNS) + '</tr>' for n in SHOWN[k])
         return (f'<div class="table-scroll" tabindex="0" role="region" aria-label="Сравнение методов при K={k}"><table>'
-                f'<caption>K = {k}: 2 016 МО, метки 2023 года без переобучения</caption><thead><tr><th scope="col">Метод</th>'
+                f'<caption>K = {k}: 2 016 МО, метки 2023 года</caption><thead><tr><th scope="col">Метод</th>'
                 f'<th scope="col" class="num">Мин. группа</th>{head}</tr></thead><tbody>{body}</tbody></table></div>')
 
     def verdict(k):

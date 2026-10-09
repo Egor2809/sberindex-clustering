@@ -254,7 +254,7 @@ code { font-family: var(--mono); font-size: .85em; }
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:56px" class="small">
       <div style="border-top:1px solid var(--line);padding-top:16px"><b>Спектральная</b> на том же графе почти так же хороша по индексам, но хуже повторяется в 2024 году (0,65).</div>
       <div style="border-top:1px solid var(--line);padding-top:16px"><b>Один профильный слой</b> неустойчив по seed (ARI 0,57) и не проходит фильтр; один слой движения устойчив, но не повторяется в 2024 году.</div>
-      <div style="border-top:1px solid var(--line);padding-top:16px"><b>54 разбиения на общих осях:</b> на невиденных осях каркас не лучше KMeans3, на дорогах уступает справочнику типов МО (средний ранг 4,50 против 1,75 у KMeans3).</div>
+      <div style="border-top:1px solid var(--line);padding-top:16px"><b>56 разбиений на общих осях, с KEFRiN:</b> на невиденных осях каркас не лучше KMeans3, на дорогах уступает справочнику типов МО (средний ранг 5,50 против 2,00 у KEFRiN и 2,50 у KMeans3).</div>
     </div>
   </div>
   <div class="foot"><span>Источник: <a href="https://github.com/Egor2809/sberindex-clustering/blob/main/reports/method-comparison">github.com/Egor2809/sberindex-clustering/blob/main/reports/method-comparison</a></span><span>07</span></div>
@@ -355,7 +355,7 @@ code { font-family: var(--mono); font-size: .85em; }
         <tr><td>7. Группы временного Leiden</td><td style="font-family:var(--sans);text-align:left">по сохранённым меткам</td></tr>
         <tr><td>8. Сетевая типология</td><td style="font-family:var(--sans);text-align:left">побайтово</td></tr>
         <tr><td>9. Индексы по месяцам, выбор ω</td><td style="font-family:var(--sans);text-align:left">побайтово</td></tr>
-        <tr><td>10. Сравнение 54 разбиений</td><td style="font-family:var(--sans);text-align:left">побайтово</td></tr>
+        <tr><td>10. Сравнение 56 разбиений</td><td style="font-family:var(--sans);text-align:left">побайтово</td></tr>
         <tr><td>11. Атлас</td><td style="font-family:var(--sans);text-align:left">побайтово</td></tr>
         <tr><td>12. Проверка ядра без обучения</td><td style="font-family:var(--sans);text-align:left">статус PASS</td></tr>
       </table>
